@@ -84,6 +84,28 @@ body {
   background-color: #e0e0e0;
 }
 
+.toggle-triangle {
+  padding: 5px 10px;
+  background-color: transparent;
+  color: #666;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  transition: background-color 0.2s, transform 0.2s;
+  margin-left: 10px;
+  line-height: 1;
+}
+
+.toggle-triangle:hover {
+  background-color: #f0f0f0;
+}
+
+.toggle-triangle.collapsed {
+  transform: rotate(-90deg);
+}
+
 .input-panel {
   overflow: hidden;
   transition: max-height 0.3s ease-out, opacity 0.3s ease-out;

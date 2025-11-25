@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IIIF Image Gallery Viewer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/openseadragon.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <div class="header">
+        <div class="header-top">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" alt="IIIF Logo" class="iiif-logo">
+          <h1 id="page-title">IIIF Image Gallery Viewer</h1>
+<button id="toggleInputs" class="toggle-btn">Hide Input Panel</button>
+        </div>
+        
+        <div id="inputPanel" class="input-panel">
+          <p><small>Choose a saved gallery manifest file to view</small></p>
+          <label for="uploadManifest" class="file-input-label">Choose File</label>
+          <input type="file" id="uploadManifest" accept=".json" style="display: none;" />
+          <span id="fileName" class="file-name">No file chosen</span>
+          <button id="loadManifest">Load Manifest</button>
+        </div>
+      </div>
+      <div id="gallery"></div>
+    </div>
+    <!-- Resizable divider -->
+    <div id="resizer"></div>
+    <div id="viewer"></div>
+    <script src="viewer-script.js"></script>
+  </div>
+</body>
+</html>
