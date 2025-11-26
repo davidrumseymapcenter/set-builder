@@ -127,10 +127,31 @@ function addCanvasToGallery(canvas, manifest) {
   const manifestMetadata = manifest.metadata || [];    
   const canvasMetadata = canvas.metadata || [];
 
+  // --- METADATA RETRIEVAL (Corrected and Improved) ---
+
   const title = (iiifVersion === 3 ? Object.values(manifest.label || {}).flat()[0] : manifest.label) || getMetadataValue(canvasMetadata, 'Title') || getMetadataValue(manifestMetadata, 'Title') || 'No title returned';
-  const date = getMetadataValue(canvasMetadata, 'Date') || getMetadataValue(manifestMetadata, 'Date') || getMetadataValue(manifestMetadata, 'Created Published') || 'No date returned';
-  const author = getMetadataValue(canvasMetadata, 'Creator') || getMetadataValue(manifestMetadata, 'Creator') || getMetadataValue(canvasMetadata, 'Contributor') || getMetadataValue(manifestMetadata, 'Contributor') || 'No author returned';
-  const collection = getMetadataValue(manifestMetadata, 'Collection') || getMetadataValue(manifestMetadata, 'Location') || (iiifVersion === 3 && getMetadataValue(manifestMetadata, 'Contributor')) || 'No collection returned';
+  
+  const date = getMetadataValue(canvasMetadata, 'Date') || 
+               getMetadataValue(manifestMetadata, 'Date') || 
+               getMetadataValue(manifestMetadata, 'Created Published') || 
+               'No date returned';
+
+  // FIX: Re-added the check for "Contributors" (plural) to catch sources like David Rumsey
+  const author = getMetadataValue(canvasMetadata, 'Creator') || 
+                 getMetadataValue(manifestMetadata, 'Creator') ||
+                 getMetadataValue(canvasMetadata, 'Contributors') || // <-- THE FIX
+                 getMetadataValue(manifestMetadata, 'Contributors') || // <-- THE FIX
+                 getMetadataValue(canvasMetadata, 'Contributor') || 
+                 getMetadataValue(manifestMetadata, 'Contributor') || 
+                 getMetadataValue(canvasMetadata, 'Author') ||
+                 getMetadataValue(manifestMetadata, 'Author') ||
+                 'No author returned';
+
+  const collection = getMetadataValue(manifestMetadata, 'Collection') || 
+                     getMetadataValue(manifestMetadata, 'Location') || 
+                     (iiifVersion === 3 && getMetadataValue(manifestMetadata, 'Contributor')) || 
+                     'No collection returned';
+  
   const attribution = (iiifVersion === 3 ? (manifest.requiredStatement && Object.values(manifest.requiredStatement.value).flat()[0]) || (manifest.provider?.[0]?.label && Object.values(manifest.provider[0].label).flat()[0]) : manifest.attribution) || 'No attribution returned';
   
   let locationLink = (iiifVersion === 3 ? manifest.homepage?.[0]?.id : manifest.related?.['@id'] || manifest.related) || getMetadataValue(manifestMetadata, 'Identifier', true) || getMetadataValue(manifestMetadata, 'Item Url') || getMetadataValue(manifestMetadata, 'identifier-access') || canvas.id || canvas['@id'] || 'No link available';
@@ -138,6 +159,8 @@ function addCanvasToGallery(canvas, manifest) {
   if (locationLink !== 'No link available' && !isAbsoluteURL(locationLink)) {
     locationLink = 'https://' + locationLink.replace(/^\/\//, '');
   }
+
+  // --- CARD CREATION (No changes needed here) ---
 
   const card = document.createElement('div');
   card.className = 'card';
