@@ -1,10 +1,14 @@
-// Global variables
+// =================================================================
+// 1. GLOBAL VARIABLES
+// =================================================================
 let viewer;
 let collectedManifests = [];
 let currentManifestForSelection = null; 
 let selectedPageIndices = new Set(); 
 
-// This runs once the HTML page is fully loaded
+// =================================================================
+// 2. SCRIPT INITIALIZATION (RUNS ONCE PAGE IS LOADED)
+// =================================================================
 document.addEventListener('DOMContentLoaded', () => {
   viewer = OpenSeadragon({
     id: 'viewer',
@@ -12,21 +16,23 @@ document.addEventListener('DOMContentLoaded', () => {
     tileSources: []
   });
 
-  // Call the functions to set up the page
+  // Call the functions to set up the page's interactivity
   initializeResizer();
   initializeEventListeners();
 });
 
-// --- ALL FUNCTION DEFINITIONS ARE NOW OUTSIDE DOMContentLoaded ---
+// =================================================================
+// 3. ALL FUNCTION DEFINITIONS (GLOBAL SCOPE)
+// =================================================================
 
-// Function to make the viewer resizable
+// --- UI AND INTERACTIVITY FUNCTIONS ---
+
 function initializeResizer() {
   const resizer = document.getElementById('resizer');
   const leftPanel = document.querySelector('.left-panel');
-  
   let isResizing = false;
 
-  resizer.addEventListener('mousedown', (e) => {
+  resizer.addEventListener('mousedown', () => {
     isResizing = true;
     document.body.style.cursor = 'col-resize';
     document.body.style.userSelect = 'none';
@@ -50,10 +56,8 @@ function initializeResizer() {
   });
 }
 
-// Function to make cards draggable
 function makeCardDraggable(card) {
   card.draggable = true;
-
   card.addEventListener('dragstart', (e) => {
     if (e.target.tagName === 'IMG' || e.target.tagName === 'A' || e.target.tagName === 'BUTTON') {
       e.preventDefault();
@@ -61,47 +65,21 @@ function makeCardDraggable(card) {
     }
     card.classList.add('dragging');
   });
-
-  card.addEventListener('dragend', () => {
-    card.classList.remove('dragging');
-  });
-
-  card.addEventListener('dragover', (e) => {
-    e.preventDefault();
-    const draggingCard = document.querySelector('.dragging');
-    const gallery = document.getElementById('gallery');
-    const afterElement = getDragAfterElement(gallery, e.clientY);
-    if (afterElement == null) {
-      gallery.appendChild(draggingCard);
-    } else {
-      gallery.insertBefore(draggingCard, afterElement);
-    }
-  });
+  card.addEventListener('dragend', () => card.classList.remove('dragging'));
 }
 
-function getDragAfterElement(container, y) {
-  const draggableElements = [...container.querySelectorAll('.card:not(.dragging)')];
-  return draggableElements.reduce((closest, child) => {
-    const box = child.getBoundingClientRect();
-    const offset = y - box.top - box.height / 2;
-    if (offset < 0 && offset > closest.offset) {
-      return { offset: offset, element: child };
-    } else {
-      return closest;
-    }
-  }, { offset: Number.NEGATIVE_INFINITY }).element;
-}
-
-// ---- IIIF Helper Functions ----
+// --- IIIF HELPER FUNCTIONS ---
 
 function getIIIFVersion(manifest) {
   const context = manifest['@context'];
   if (context) {
     if (Array.isArray(context) && context.includes('http://iiif.io/api/presentation/3/context.json')) return 3;
-    if (context.includes('/3/')) return 3;
-    if (context.includes('/2/')) return 2;
+    if (typeof context === 'string') {
+        if (context.includes('/3/')) return 3;
+        if (context.includes('/2/')) return 2;
+    }
   }
-  return manifest.items ? 3 : 2;
+  return manifest.items ? 3 : 2; // Fallback check
 }
 
 function getMetadataValue(metadata, label, getLast = false) {
@@ -109,24 +87,16 @@ function getMetadataValue(metadata, label, getLast = false) {
   const normalizedLabel = label.toLowerCase();
   
   const items = metadata.filter(item => {
-    if (typeof item.label === 'string') {
-      return item.label.toLowerCase() === normalizedLabel;
-    }
-    if (typeof item.label === 'object') {
-      return Object.values(item.label).flat().some(val => val.toLowerCase() === normalizedLabel);
-    }
+    if (typeof item.label === 'string') return item.label.toLowerCase() === normalizedLabel;
+    if (typeof item.label === 'object') return Object.values(item.label).flat().some(val => val.toLowerCase() === normalizedLabel);
     return false;
   });
   
   if (items.length === 0) return null;
   const item = getLast ? items[items.length - 1] : items[0];
   
-  if (typeof item.value === 'string' || Array.isArray(item.value)) {
-    return Array.isArray(item.value) ? item.value[0] : item.value;
-  }
-  if (typeof item.value === 'object') {
-    return Object.values(item.value).flat()[0] || null;
-  }
+  if (typeof item.value === 'string' || Array.isArray(item.value)) return Array.isArray(item.value) ? item.value[0] : item.value;
+  if (typeof item.value === 'object') return Object.values(item.value).flat()[0] || null;
   return null;
 }
 
@@ -134,7 +104,8 @@ function isAbsoluteURL(url) {
   return /^(https?:)?\/\//i.test(url);
 }
 
-// --- Gallery and Card Functions ---
+
+// --- GALLERY AND MANIFEST FUNCTIONS ---
 
 function addCanvasToGallery(canvas, manifest) {
   const iiifVersion = getIIIFVersion(manifest);
@@ -156,11 +127,11 @@ function addCanvasToGallery(canvas, manifest) {
   const manifestMetadata = manifest.metadata || [];    
   const canvasMetadata = canvas.metadata || [];
 
-  let title = (iiifVersion === 3 ? Object.values(manifest.label || {}).flat()[0] : manifest.label) || getMetadataValue(canvasMetadata, 'Title') || getMetadataValue(manifestMetadata, 'Title') || 'No title returned';
-  let date = getMetadataValue(canvasMetadata, 'Date') || getMetadataValue(manifestMetadata, 'Date') || getMetadataValue(manifestMetadata, 'Created Published') || 'No date returned';
-  let author = getMetadataValue(canvasMetadata, 'Creator') || getMetadataValue(manifestMetadata, 'Creator') || getMetadataValue(canvasMetadata, 'Contributor') || getMetadataValue(manifestMetadata, 'Contributor') || 'No author returned';
-  let collection = getMetadataValue(manifestMetadata, 'Collection') || getMetadataValue(manifestMetadata, 'Location') || (iiifVersion === 3 && getMetadataValue(manifestMetadata, 'Contributor')) || 'No collection returned';
-  let attribution = (iiifVersion === 3 ? (manifest.requiredStatement && Object.values(manifest.requiredStatement.value).flat()[0]) || (manifest.provider?.[0]?.label && Object.values(manifest.provider[0].label).flat()[0]) : manifest.attribution) || 'No attribution returned';
+  const title = (iiifVersion === 3 ? Object.values(manifest.label || {}).flat()[0] : manifest.label) || getMetadataValue(canvasMetadata, 'Title') || getMetadataValue(manifestMetadata, 'Title') || 'No title returned';
+  const date = getMetadataValue(canvasMetadata, 'Date') || getMetadataValue(manifestMetadata, 'Date') || getMetadataValue(manifestMetadata, 'Created Published') || 'No date returned';
+  const author = getMetadataValue(canvasMetadata, 'Creator') || getMetadataValue(manifestMetadata, 'Creator') || getMetadataValue(canvasMetadata, 'Contributor') || getMetadataValue(manifestMetadata, 'Contributor') || 'No author returned';
+  const collection = getMetadataValue(manifestMetadata, 'Collection') || getMetadataValue(manifestMetadata, 'Location') || (iiifVersion === 3 && getMetadataValue(manifestMetadata, 'Contributor')) || 'No collection returned';
+  const attribution = (iiifVersion === 3 ? (manifest.requiredStatement && Object.values(manifest.requiredStatement.value).flat()[0]) || (manifest.provider?.[0]?.label && Object.values(manifest.provider[0].label).flat()[0]) : manifest.attribution) || 'No attribution returned';
   
   let locationLink = (iiifVersion === 3 ? manifest.homepage?.[0]?.id : manifest.related?.['@id'] || manifest.related) || getMetadataValue(manifestMetadata, 'Identifier', true) || getMetadataValue(manifestMetadata, 'Item Url') || getMetadataValue(manifestMetadata, 'identifier-access') || canvas.id || canvas['@id'] || 'No link available';
 
@@ -168,7 +139,6 @@ function addCanvasToGallery(canvas, manifest) {
     locationLink = 'https://' + locationLink.replace(/^\/\//, '');
   }
 
-  // <<< FIX 1: THIS IS THE CRITICAL BLOCK THAT WAS MISSING >>>
   const card = document.createElement('div');
   card.className = 'card';
   makeCardDraggable(card);
@@ -209,12 +179,8 @@ async function addManifestToGallery(manifestUrl) {
     if (canvasItems.length > 1) {
       showPageSelector(manifest, canvasItems);
     } else {
-      const newManifest = { ...manifest };
-      if (iiifVersion === 3) newManifest.items = canvasItems;
-      else newManifest.sequences[0].canvases = canvasItems;
-      
-      collectedManifests.push(newManifest);
-      canvasItems.forEach(canvas => addCanvasToGallery(canvas, newManifest));
+      collectedManifests.push(manifest);
+      canvasItems.forEach(canvas => addCanvasToGallery(canvas, manifest));
     }
   } catch (error) {
     console.error('Error fetching or processing IIIF Manifest:', error);
@@ -222,7 +188,20 @@ async function addManifestToGallery(manifestUrl) {
   }
 }
 
-// --- Page Selector Modal Functions ---
+function repopulateGallery(manifestData) {
+  document.getElementById('gallery').innerHTML = '';
+  collectedManifests = [];
+  const manifests = manifestData.items || [manifestData]; // Handle both collections and single manifests
+
+  manifests.forEach(manifest => {
+    collectedManifests.push(manifest);
+    const iiifVersion = getIIIFVersion(manifest);
+    const canvasItems = iiifVersion === 3 ? manifest.items : manifest.sequences?.[0]?.canvases;
+    canvasItems.forEach(canvas => addCanvasToGallery(canvas, manifest));
+  });
+}
+
+// --- PAGE SELECTOR (PICKER) FUNCTIONS ---
 
 function showPageSelector(manifest, canvasItems) {
   currentManifestForSelection = manifest;
@@ -241,7 +220,7 @@ function showPageSelector(manifest, canvasItems) {
     pageItem.className = 'page-item';
     pageItem.dataset.index = index;
     
-    let thumbnailUrl = 'placeholder.svg'; // Fallback
+    let thumbnailUrl = '';
     const imageService = (iiifVersion === 3) ? canvas.items?.[0]?.items?.[0]?.body?.service?.[0] : canvas.images?.[0]?.resource?.service;
     if (imageService) {
         thumbnailUrl = `${imageService.id || imageService['@id']}/full/!150,150/0/default.jpg`;
@@ -250,10 +229,10 @@ function showPageSelector(manifest, canvasItems) {
     const pageLabel = (iiifVersion === 3 ? Object.values(canvas.label || {}).flat()[0] : canvas.label) || `Page ${index + 1}`;
     
     pageItem.innerHTML = `
-      <img src="${thumbnailUrl}" alt="${pageLabel}" onerror="this.style.display='none'">
+      <img src="${thumbnailUrl}" alt="${pageLabel}" onerror="this.src='image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'; this.alt='Image not available';">
       <div class="page-label">${pageLabel}</div>
     `;
-    pageItem.addEventListener('click', () => togglePageSelection(pageItem, index));
+    pageItem.addEventListener('click', () => togglePageSelection(index));
     pageGrid.appendChild(pageItem);
   });
   
@@ -261,7 +240,10 @@ function showPageSelector(manifest, canvasItems) {
   modal.style.display = 'block';
 }
 
-function togglePageSelection(pageItem, index) {
+function togglePageSelection(index) {
+  const pageItem = document.querySelector(`.page-item[data-index="${index}"]`);
+  if (!pageItem) return;
+
   pageItem.classList.toggle('selected');
   if (selectedPageIndices.has(index)) {
     selectedPageIndices.delete(index);
@@ -278,16 +260,14 @@ function updateSelectionCount() {
 }
 
 function selectAllPages() {
-  document.querySelectorAll('.page-item').forEach(item => {
-    if (!item.classList.contains('selected')) {
-      item.click();
-    }
+  document.querySelectorAll('.page-item:not(.selected)').forEach(item => {
+    togglePageSelection(parseInt(item.dataset.index));
   });
 }
 
 function deselectAllPages() {
   document.querySelectorAll('.page-item.selected').forEach(item => {
-    item.click();
+    togglePageSelection(parseInt(item.dataset.index));
   });
 }
 
@@ -304,8 +284,7 @@ function addSelectedPagesToGallery() {
   const allCanvases = iiifVersion === 3 ? currentManifestForSelection.items : currentManifestForSelection.sequences[0].canvases;
   
   const selectedCanvases = Array.from(selectedPageIndices).sort((a,b) => a-b).map(index => allCanvases[index]);
-
-  const modifiedManifest = JSON.parse(JSON.stringify(currentManifestForSelection)); // Deep copy
+  const modifiedManifest = JSON.parse(JSON.stringify(currentManifestForSelection));
 
   if (iiifVersion === 3) {
     modifiedManifest.items = selectedCanvases;
@@ -319,12 +298,33 @@ function addSelectedPagesToGallery() {
   closePageSelector();
 }
 
-// ---- Event Listeners Setup ----
+// --- EVENT LISTENERS SETUP ---
 
 function initializeEventListeners() {
+  // Main input panel listeners
   document.getElementById('addManifest').addEventListener('click', () => {
-    const manifestUrl = document.getElementById('manifestUrl').value.trim();
-    if (manifestUrl) addManifestToGallery(manifestUrl);
+    const manifestUrls = document.getElementById('manifestUrl').value.split(',').map(url => url.trim());
+    manifestUrls.forEach(url => { if (url) addManifestToGallery(url) });
+  });
+
+  document.getElementById('uploadManifest').addEventListener('change', (e) => {
+    const fileName = e.target.files[0] ? e.target.files[0].name : 'No file chosen';
+    document.getElementById('fileName').textContent = fileName;
+  });
+
+  document.getElementById('loadManifest').addEventListener('click', () => {
+    const file = document.getElementById('uploadManifest').files[0];
+    if (!file) { alert('Please select a JSON file to upload.'); return; }
+    const reader = new FileReader();
+    reader.onload = (event) => {
+      try {
+        const manifestData = JSON.parse(event.target.result);
+        repopulateGallery(manifestData);
+      } catch (e) {
+        alert('Failed to parse JSON file: ' + e.message);
+      }
+    };
+    reader.readAsText(file);
   });
 
   document.getElementById('export-manifest').addEventListener('click', () => {
@@ -342,8 +342,13 @@ function initializeEventListeners() {
     a.click();
     URL.revokeObjectURL(a.href);
   });
-  
-  // Page selector modal event listeners
+
+  document.getElementById('toggleInputs').addEventListener('click', function() {
+    document.getElementById('inputPanel').classList.toggle('hidden');
+    this.textContent = this.textContent.includes('Show') ? 'Hide Input Panel' : 'Show Input Panel';
+  });
+
+  // Page selector (picker) modal listeners
   document.getElementById('selectAllPages').addEventListener('click', selectAllPages);
   document.getElementById('deselectAllPages').addEventListener('click', deselectAllPages);
   document.getElementById('cancelPageSelection').addEventListener('click', closePageSelector);
