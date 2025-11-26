@@ -350,4 +350,7 @@ function initializeEventListeners() {
   document.getElementById('addSelectedPages').addEventListener('click', addSelectedPagesToGallery);
   document.querySelector('.close-modal').addEventListener('click', closePageSelector);
   
-  window.addEventListener('click
+  window.addEventListener('click', (e) => {
+    if (e.target == document.getElementById('pageSelectorModal')) closePageSelector();
+  });
+}
