@@ -106,6 +106,7 @@ function isAbsoluteURL(url) {
 
 
 // --- GALLERY AND MANIFEST FUNCTIONS ---
+// REPLACE the old addCanvasToGallery function with this one.
 
 function addCanvasToGallery(canvas, manifest) {
   const iiifVersion = getIIIFVersion(manifest);
@@ -127,31 +128,11 @@ function addCanvasToGallery(canvas, manifest) {
   const manifestMetadata = manifest.metadata || [];    
   const canvasMetadata = canvas.metadata || [];
 
-  // --- METADATA RETRIEVAL (Corrected and Improved) ---
-
+  // --- METADATA RETRIEVAL ---
   const title = (iiifVersion === 3 ? Object.values(manifest.label || {}).flat()[0] : manifest.label) || getMetadataValue(canvasMetadata, 'Title') || getMetadataValue(manifestMetadata, 'Title') || 'No title returned';
-  
-  const date = getMetadataValue(canvasMetadata, 'Date') || 
-               getMetadataValue(manifestMetadata, 'Date') || 
-               getMetadataValue(manifestMetadata, 'Created Published') || 
-               'No date returned';
-
-  // FIX: Re-added the check for "Contributors" (plural) to catch sources like David Rumsey
-  const author = getMetadataValue(canvasMetadata, 'Creator') || 
-                 getMetadataValue(manifestMetadata, 'Creator') ||
-                 getMetadataValue(canvasMetadata, 'Contributors') || // <-- THE FIX
-                 getMetadataValue(manifestMetadata, 'Contributors') || // <-- THE FIX
-                 getMetadataValue(canvasMetadata, 'Contributor') || 
-                 getMetadataValue(manifestMetadata, 'Contributor') || 
-                 getMetadataValue(canvasMetadata, 'Author') ||
-                 getMetadataValue(manifestMetadata, 'Author') ||
-                 'No author returned';
-
-  const collection = getMetadataValue(manifestMetadata, 'Collection') || 
-                     getMetadataValue(manifestMetadata, 'Location') || 
-                     (iiifVersion === 3 && getMetadataValue(manifestMetadata, 'Contributor')) || 
-                     'No collection returned';
-  
+  const date = getMetadataValue(canvasMetadata, 'Date') || getMetadataValue(manifestMetadata, 'Date') || getMetadataValue(manifestMetadata, 'Created Published') || 'No date returned';
+  const author = getMetadataValue(canvasMetadata, 'Creator') || getMetadataValue(manifestMetadata, 'Creator') || getMetadataValue(canvasMetadata, 'Contributors') || getMetadataValue(manifestMetadata, 'Contributors') || getMetadataValue(canvasMetadata, 'Contributor') || getMetadataValue(manifestMetadata, 'Contributor') || getMetadataValue(canvasMetadata, 'Author') || getMetadataValue(manifestMetadata, 'Author') || 'No author returned';
+  const collection = getMetadataValue(manifestMetadata, 'Collection') || getMetadataValue(manifestMetadata, 'Location') || (iiifVersion === 3 && getMetadataValue(manifestMetadata, 'Contributor')) || 'No collection returned';
   const attribution = (iiifVersion === 3 ? (manifest.requiredStatement && Object.values(manifest.requiredStatement.value).flat()[0]) || (manifest.provider?.[0]?.label && Object.values(manifest.provider[0].label).flat()[0]) : manifest.attribution) || 'No attribution returned';
   
   let locationLink = (iiifVersion === 3 ? manifest.homepage?.[0]?.id : manifest.related?.['@id'] || manifest.related) || getMetadataValue(manifestMetadata, 'Identifier', true) || getMetadataValue(manifestMetadata, 'Item Url') || getMetadataValue(manifestMetadata, 'identifier-access') || canvas.id || canvas['@id'] || 'No link available';
@@ -160,12 +141,20 @@ function addCanvasToGallery(canvas, manifest) {
     locationLink = 'https://' + locationLink.replace(/^\/\//, '');
   }
 
-  // --- CARD CREATION (No changes needed here) ---
+  // --- NEW: Construct the Allmaps Link ---
+  // 1. Get the manifest URL. This could be a modified manifest with only selected pages, which is perfect.
+  const manifestUrlForGeoreferencing = manifest.id || manifest['@id'];
 
+  // 2. Create the full Allmaps Editor URL. We MUST encode the manifest URL.
+  const allmapsLink = `https://editor.allmaps.org/?url=${encodeURIComponent(manifestUrlForGeoreferencing)}`;
+
+
+  // --- CARD CREATION ---
   const card = document.createElement('div');
   card.className = 'card';
   makeCardDraggable(card);
 
+  // Add the new "Georeference in Allmaps" link to the card's HTML
   card.innerHTML = `
     <button class="delete-btn" title="Remove from gallery">×</button>
     <img src="${imageUrl}" alt="${title}" data-high-res="${highResUrl}">
@@ -175,7 +164,8 @@ function addCanvasToGallery(canvas, manifest) {
     <p><strong>Collection:</strong> ${collection}</p>
     <p><strong>Attribution:</strong> ${attribution}</p>
     <p><a href="${locationLink}" target="_blank" rel="noopener noreferrer">View Item</a></p>
-    <p><a href="${manifest.id || manifest['@id']}" target="_blank" rel="noopener noreferrer" class="manifest-link">View IIIF Manifest</a></p>
+    <p><a href="${allmapsLink}" target="_blank" rel="noopener noreferrer">Georeference in Allmaps</a></p>
+    <p><a href="${manifestUrlForGeoreferencing}" target="_blank" rel="noopener noreferrer" class="manifest-link">View IIIF Manifest</a></p>
   `;
 
   card.querySelector('.delete-btn').addEventListener('click', () => card.remove());
