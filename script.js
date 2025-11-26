@@ -1,5 +1,7 @@
 let viewer;
 let collectedManifests = []; // This will hold the individual manifests
+let currentManifestForSelection = null; 
+let selectedPageIndices = new Set(); 
 
 document.addEventListener('DOMContentLoaded', () => {
   viewer = OpenSeadragon({
@@ -10,6 +12,163 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Initialize resizer functionality
   initializeResizer();
+
+// Function to show the page selector modal
+function showPageSelector(manifest, canvasItems) {
+  currentManifestForSelection = manifest;
+  selectedPageIndices.clear();
+  
+  const modal = document.getElementById('pageSelectorModal');
+  const pageGrid = document.getElementById('pageGrid');
+  const iiifVersion = getIIIFVersion(manifest);
+  
+  // Set modal title
+  let manifestLabel = 'Untitled Manifest';
+  if (iiifVersion === 3 && manifest.label) {
+    manifestLabel = Object.values(manifest.label).flat()[0] || 'Untitled Manifest';
+  } else if (iiifVersion === 2) {
+    manifestLabel = manifest.label || 'Untitled Manifest';
+  }
+  document.getElementById('modalTitle').textContent = `Select Pages from: ${manifestLabel}`;
+  
+  // Clear previous pages
+  pageGrid.innerHTML = '';
+  
+  // Add pages to grid
+  canvasItems.forEach((canvas, index) => {
+    const pageItem = document.createElement('div');
+    pageItem.className = 'page-item';
+    pageItem.dataset.index = index;
+    
+    // Get thumbnail URL
+    let thumbnailUrl = '';
+    if (iiifVersion === 3) {
+      const annotation = canvas.items?.[0]?.items?.[0];
+      const imageService = annotation?.body?.service?.[0];
+      if (imageService?.id) {
+        thumbnailUrl = `${imageService.id}/full/!150,150/0/default.jpg`;
+      }
+    } else {
+      const imageService = canvas.images?.[0]?.resource?.service;
+      if (imageService?.['@id']) {
+        thumbnailUrl = `${imageService['@id']}/full/!150,150/0/default.jpg`;
+      }
+    }
+    
+    // Get page label
+    let pageLabel = `Page ${index + 1}`;
+    if (iiifVersion === 3 && canvas.label) {
+      const canvasLabel = Object.values(canvas.label).flat()[0];
+      if (canvasLabel) pageLabel = canvasLabel;
+    } else if (iiifVersion === 2 && canvas.label) {
+      pageLabel = canvas.label;
+    }
+    
+    // Create page item HTML
+    pageItem.innerHTML = `
+      <img src="${thumbnailUrl}" alt="${pageLabel}" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22150%22 height=%22150%22%3E%3Crect fill=%22%23ddd%22 width=%22150%22 height=%22150%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22%3ENo Image%3C/text%3E%3C/svg%3E'">
+      <div class="page-label">${pageLabel}</div>
+      <div class="page-number">Index: ${index}</div>
+    `;
+    
+    // Add click handler
+    pageItem.addEventListener('click', () => {
+      togglePageSelection(index);
+    });
+    
+    pageGrid.appendChild(pageItem);
+  });
+  
+  updateSelectionCount();
+  modal.style.display = 'block';
+}
+
+// Function to toggle page selection
+function togglePageSelection(index) {
+  if (selectedPageIndices.has(index)) {
+    selectedPageIndices.delete(index);
+  } else {
+    selectedPageIndices.add(index);
+  }
+  
+  // Update visual state
+  const pageItem = document.querySelector(`.page-item[data-index="${index}"]`);
+  if (pageItem) {
+    pageItem.classList.toggle('selected');
+  }
+  
+  updateSelectionCount();
+}
+
+// Function to update selection count
+function updateSelectionCount() {
+  const count = selectedPageIndices.size;
+  const countEl = document.getElementById('selectionCount');
+  countEl.textContent = `${count} page${count !== 1 ? 's' : ''} selected`;
+  
+  // Enable/disable Add button
+  const addButton = document.getElementById('addSelectedPages');
+  addButton.disabled = count === 0;
+}
+
+// Function to select all pages
+function selectAllPages() {
+  const pageItems = document.querySelectorAll('.page-item');
+  pageItems.forEach((item, index) => {
+    selectedPageIndices.add(index);
+    item.classList.add('selected');
+  });
+  updateSelectionCount();
+}
+
+// Function to deselect all pages
+function deselectAllPages() {
+  selectedPageIndices.clear();
+  const pageItems = document.querySelectorAll('.page-item');
+  pageItems.forEach(item => {
+    item.classList.remove('selected');
+  });
+  updateSelectionCount();
+}
+
+// Function to close the modal
+function closePageSelector() {
+  const modal = document.getElementById('pageSelectorModal');
+  modal.style.display = 'none';
+  currentManifestForSelection = null;
+  selectedPageIndices.clear();
+}
+
+// Function to add selected pages to gallery
+function addSelectedPagesToGallery() {
+  if (!currentManifestForSelection || selectedPageIndices.size === 0) {
+    return;
+  }
+  
+  const iiifVersion = getIIIFVersion(currentManifestForSelection);
+  let allCanvasItems = [];
+  
+  if (iiifVersion === 3) {
+    allCanvasItems = currentManifestForSelection.items || [];
+  } else {
+    allCanvasItems = currentManifestForSelection.sequences?.[0]?.canvases || [];
+  }
+  
+  // Add only selected pages
+  const sortedIndices = Array.from(selectedPageIndices).sort((a, b) => a - b);
+  sortedIndices.forEach(index => {
+    const canvas = allCanvasItems[index];
+    if (canvas) {
+      addCanvasToGallery(canvas, currentManifestForSelection);
+    }
+  });
+  
+  // Store the manifest
+  collectedManifests.push(currentManifestForSelection);
+  
+  closePageSelector();
+}
+
 
   // Initialize all event listeners
   initializeEventListeners();
@@ -512,7 +671,7 @@ function repopulateGallery(manifestData) {
   });
 }
 
-// Function to add a IIIF manifest to the gallery (supports both 2.0 and 3.0)
+/// Function to add a IIIF manifest to the gallery (supports both 2.0 and 3.0)
 async function addManifestToGallery(manifestUrl) {
   try {
     const response = await fetch(manifestUrl);
@@ -527,25 +686,28 @@ async function addManifestToGallery(manifestUrl) {
     let canvasItems = [];
 
     if (iiifVersion === 3) {
-      // IIIF 3.0: items are directly in manifest.items
       if (!manifest.items || manifest.items.length === 0) {
         throw new Error('IIIF 3.0 Manifest does not contain items (canvases).');
       }
       canvasItems = manifest.items;
     } else {
-      // IIIF 2.0: canvases are in sequences
       if (!manifest.sequences || !manifest.sequences[0].canvases) {
         throw new Error('IIIF 2.0 Manifest does not contain sequences or canvases in the expected format.');
       }
       canvasItems = manifest.sequences[0].canvases;
     }
 
-    // Store the manifest for later export
-    collectedManifests.push(manifest);
-
-    canvasItems.forEach(canvas => {
-      addCanvasToGallery(canvas, manifest);
-    });
+    // Check if multi-page manifest
+    if (canvasItems.length > 1) {
+      // Show page selector
+      showPageSelector(manifest, canvasItems);
+    } else {
+      // Single page - add directly
+      collectedManifests.push(manifest);
+      canvasItems.forEach(canvas => {
+        addCanvasToGallery(canvas, manifest);
+      });
+    }
 
   } catch (error) {
     console.error('Error fetching IIIF Manifest:', error);
@@ -592,6 +754,163 @@ function exportCombinedManifest() {
 
   alert(`Manifest "${manifestName}" has been exported successfully!`);
 }
+
+// Function to show the page selector modal
+function showPageSelector(manifest, canvasItems) {
+  currentManifestForSelection = manifest;
+  selectedPageIndices.clear();
+  
+  const modal = document.getElementById('pageSelectorModal');
+  const pageGrid = document.getElementById('pageGrid');
+  const iiifVersion = getIIIFVersion(manifest);
+  
+  // Set modal title
+  let manifestLabel = 'Untitled Manifest';
+  if (iiifVersion === 3 && manifest.label) {
+    manifestLabel = Object.values(manifest.label).flat()[0] || 'Untitled Manifest';
+  } else if (iiifVersion === 2) {
+    manifestLabel = manifest.label || 'Untitled Manifest';
+  }
+  document.getElementById('modalTitle').textContent = `Select Pages from: ${manifestLabel}`;
+  
+  // Clear previous pages
+  pageGrid.innerHTML = '';
+  
+  // Add pages to grid
+  canvasItems.forEach((canvas, index) => {
+    const pageItem = document.createElement('div');
+    pageItem.className = 'page-item';
+    pageItem.dataset.index = index;
+    
+    // Get thumbnail URL
+    let thumbnailUrl = '';
+    if (iiifVersion === 3) {
+      const annotation = canvas.items?.[0]?.items?.[0];
+      const imageService = annotation?.body?.service?.[0];
+      if (imageService?.id) {
+        thumbnailUrl = `${imageService.id}/full/!150,150/0/default.jpg`;
+      }
+    } else {
+      const imageService = canvas.images?.[0]?.resource?.service;
+      if (imageService?.['@id']) {
+        thumbnailUrl = `${imageService['@id']}/full/!150,150/0/default.jpg`;
+      }
+    }
+    
+    // Get page label
+    let pageLabel = `Page ${index + 1}`;
+    if (iiifVersion === 3 && canvas.label) {
+      const canvasLabel = Object.values(canvas.label).flat()[0];
+      if (canvasLabel) pageLabel = canvasLabel;
+    } else if (iiifVersion === 2 && canvas.label) {
+      pageLabel = canvas.label;
+    }
+    
+    // Create page item HTML
+    pageItem.innerHTML = `
+      <img src="${thumbnailUrl}" alt="${pageLabel}" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22150%22 height=%22150%22%3E%3Crect fill=%22%23ddd%22 width=%22150%22 height=%22150%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22%3ENo Image%3C/text%3E%3C/svg%3E'">
+      <div class="page-label">${pageLabel}</div>
+      <div class="page-number">Index: ${index}</div>
+    `;
+    
+    // Add click handler
+    pageItem.addEventListener('click', () => {
+      togglePageSelection(index);
+    });
+    
+    pageGrid.appendChild(pageItem);
+  });
+  
+  updateSelectionCount();
+  modal.style.display = 'block';
+}
+
+// Function to toggle page selection
+function togglePageSelection(index) {
+  if (selectedPageIndices.has(index)) {
+    selectedPageIndices.delete(index);
+  } else {
+    selectedPageIndices.add(index);
+  }
+  
+  // Update visual state
+  const pageItem = document.querySelector(`.page-item[data-index="${index}"]`);
+  if (pageItem) {
+    pageItem.classList.toggle('selected');
+  }
+  
+  updateSelectionCount();
+}
+
+// Function to update selection count
+function updateSelectionCount() {
+  const count = selectedPageIndices.size;
+  const countEl = document.getElementById('selectionCount');
+  countEl.textContent = `${count} page${count !== 1 ? 's' : ''} selected`;
+  
+  // Enable/disable Add button
+  const addButton = document.getElementById('addSelectedPages');
+  addButton.disabled = count === 0;
+}
+
+// Function to select all pages
+function selectAllPages() {
+  const pageItems = document.querySelectorAll('.page-item');
+  pageItems.forEach((item, index) => {
+    selectedPageIndices.add(index);
+    item.classList.add('selected');
+  });
+  updateSelectionCount();
+}
+
+// Function to deselect all pages
+function deselectAllPages() {
+  selectedPageIndices.clear();
+  const pageItems = document.querySelectorAll('.page-item');
+  pageItems.forEach(item => {
+    item.classList.remove('selected');
+  });
+  updateSelectionCount();
+}
+
+// Function to close the modal
+function closePageSelector() {
+  const modal = document.getElementById('pageSelectorModal');
+  modal.style.display = 'none';
+  currentManifestForSelection = null;
+  selectedPageIndices.clear();
+}
+
+// Function to add selected pages to gallery
+function addSelectedPagesToGallery() {
+  if (!currentManifestForSelection || selectedPageIndices.size === 0) {
+    return;
+  }
+  
+  const iiifVersion = getIIIFVersion(currentManifestForSelection);
+  let allCanvasItems = [];
+  
+  if (iiifVersion === 3) {
+    allCanvasItems = currentManifestForSelection.items || [];
+  } else {
+    allCanvasItems = currentManifestForSelection.sequences?.[0]?.canvases || [];
+  }
+  
+  // Add only selected pages
+  const sortedIndices = Array.from(selectedPageIndices).sort((a, b) => a - b);
+  sortedIndices.forEach(index => {
+    const canvas = allCanvasItems[index];
+    if (canvas) {
+      addCanvasToGallery(canvas, currentManifestForSelection);
+    }
+  });
+  
+  // Store the manifest
+  collectedManifests.push(currentManifestForSelection);
+  
+  closePageSelector();
+}
+
 
 // Initialize all event listeners
 function initializeEventListeners() {
@@ -659,5 +978,18 @@ function initializeEventListeners() {
       toggleBtn.textContent = 'Show Input Panel';
     }
   });
+ // Page selector modal event listeners
+  document.getElementById('selectAllPages').addEventListener('click', selectAllPages);
+  document.getElementById('deselectAllPages').addEventListener('click', deselectAllPages);
+  document.getElementById('cancelPageSelection').addEventListener('click', closePageSelector);
+  document.getElementById('addSelectedPages').addEventListener('click', addSelectedPagesToGallery);
+  document.querySelector('.close-modal').addEventListener('click', closePageSelector);
+  
+// Close modal when clicking outside
+window.addEventListener('click', (e) => {
+  const modal = document.getElementById('pageSelectorModal');
+  if (e.target === modal) {
+    closePageSelector();
+  }
+});}
 
-}

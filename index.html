@@ -39,6 +39,30 @@
     <div id="resizer"></div>
     <div id="viewer"></div>
     <script src="script.js"></script>
+
+    <script src="script.js"></script>
+    
+    <!-- Page Selector Modal -->
+    <div id="pageSelectorModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 id="modalTitle">Select Pages to Add</h2>
+          <span class="close-modal">&times;</span>
+        </div>
+        <div class="modal-controls">
+          <button id="selectAllPages" class="modal-btn">Select All</button>
+          <button id="deselectAllPages" class="modal-btn">Deselect All</button>
+          <span id="selectionCount">0 pages selected</span>
+        </div>
+        <div id="pageGrid" class="page-grid">
+          <!-- Pages will be dynamically added here -->
+        </div>
+        <div class="modal-footer">
+          <button id="cancelPageSelection" class="modal-btn-secondary">Cancel</button>
+          <button id="addSelectedPages" class="modal-btn-primary">Add Selected Pages</button>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
