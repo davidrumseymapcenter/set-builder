@@ -164,7 +164,7 @@ function addCanvasToGallery(canvas, manifest) {
     <p><strong>Collection:</strong> ${collection}</p>
     <p><strong>Attribution:</strong> ${attribution}</p>
     <p><a href="${locationLink}" target="_blank" rel="noopener noreferrer">View Item</a></p>
-    <p><a href="${allmapsLink}" target="_blank" rel="noopener noreferrer">Georeference in Allmaps</a></p>
+    <p><a href="${allmapsLink}" target="_blank" rel="noopener">Georeference in Allmaps</a></p>
     <p><a href="${manifestUrlForGeoreferencing}" target="_blank" rel="noopener noreferrer" class="manifest-link">View IIIF Manifest</a></p>
   `;
 
