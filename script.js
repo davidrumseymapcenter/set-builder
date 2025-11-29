@@ -388,6 +388,8 @@ function addCanvasToGallery(canvas, manifest) {
   let date = getMetadataValue(canvasMetadata, 'Date') || 
              getMetadataValue(manifestMetadata, 'Date') || 
              getMetadataValue(manifestMetadata, 'Created Published') || 
+             getMetadataValue(canvasMetadata, 'Associated date') || 
+             getMetadataValue(manifestMetadata, 'Associated date') || 
              'No date returned';
 
   // Get author/creator
@@ -398,13 +400,18 @@ function addCanvasToGallery(canvas, manifest) {
                getMetadataValue(canvasMetadata, 'Author') || 
                getMetadataValue(manifestMetadata, 'Author') || 
                getMetadataValue(canvasMetadata, 'Contributor') || 
-               getMetadataValue(manifestMetadata, 'Contributor') || 
+               getMetadataValue(manifestMetadata, 'Contributor') ||
+               getMetadataValue(canvasMetadata, 'Publisher') || 
+               getMetadataValue(manifestMetadata, 'Publisher') || 
                'No author returned';
 
  // Get collection
 let collection = getMetadataValue(canvasMetadata, 'Location') || 
                  getMetadataValue(manifestMetadata, 'Location') || 
                  getMetadataValue(manifestMetadata, 'Collection') || 
+                 getMetadataValue(canvasMetadata, 'Collection') || 
+                 getMetadataValue(canvasMetadata, 'Data Source') || 
+                 getMetadataValue(manifestMetadata, 'Data Source') || 
                  'No collection returned';
 
 // For Internet Archive (IIIF 3.0), prefer Contributor over Collection
