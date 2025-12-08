@@ -3,6 +3,89 @@ let collectedManifests = []; // This will hold the individual manifests
 let currentManifestForSelection = null; 
 let selectedPageIndices = new Set(); 
 
+// --- begin deeplink fileopening script --
+(function() {
+const FILE_INPUT_SELECTOR = '#uploadManifest';
+const LOAD_BUTTON_SELECTOR = '#loadManifest';
+
+// Wait for DOM, then defer to the next tick so other DOMContentLoaded handlers
+// (like initializeEventListeners) have time to attach their listeners.
+document.addEventListener('DOMContentLoaded', () => {
+setTimeout(() => {
+openHostedFileFromQuery().catch(err => {
+console.error('Deep-link file loading failed:', err);
+alert('Unable to load file from URL. Make sure it is public and supports CORS.');
+});
+}, 0);
+});
+
+async function openHostedFileFromQuery() {
+const params = new URLSearchParams(window.location.search);
+const rawParam = params.get('file') || params.get('url');
+if (!rawParam) return;
+
+const fileUrl = normalizeFileUrl(rawParam);
+const response = await fetch(fileUrl, { mode: 'cors', credentials: 'omit', redirect: 'follow' });
+if (!response.ok) throw new Error(`HTTP ${response.status} fetching ${fileUrl}`);
+
+const blob = await response.blob();
+const filename = params.get('filename') || deriveFilenameFromUrl(fileUrl);
+const fileObj = new File([blob], filename, { type: blob.type || 'application/json' });
+
+const input = document.querySelector(FILE_INPUT_SELECTOR) || document.querySelector('input[type="file"]');
+if (!input || input.type !== 'file') {
+  throw new Error('File input not found. Set FILE_INPUT_SELECTOR to your input element.');
+}
+
+// Insert the file and trigger your existing change handler
+const dt = new DataTransfer();
+dt.items.add(fileObj);
+input.files = dt.files;
+input.dispatchEvent(new Event('change', { bubbles: true }));
+
+// Autoload by clicking your existing Load button
+const loadBtn = document.querySelector(LOAD_BUTTON_SELECTOR);
+if (loadBtn) {
+  // Ensure the click runs after all change handlers complete
+  setTimeout(() => {
+    loadBtn.click();
+  }, 0);
+} else {
+  console.warn('Load button not found. Set LOAD_BUTTON_SELECTOR correctly.');
+}
+
+}
+
+function normalizeFileUrl(u) {
+try {
+const url = new URL(u);
+if (url.hostname === 'github.com') {
+const parts = url.pathname.split('/');
+const blobIdx = parts.indexOf('blob');
+if (blobIdx !== -1) {
+const newPath = parts.slice(0, blobIdx).concat(parts.slice(blobIdx + 1)).join('/');
+return 'https://raw.githubusercontent.com' + newPath;
+}
+}
+return u;
+} catch (e) {
+return u;
+}
+}
+
+function deriveFilenameFromUrl(u) {
+try {
+const url = new URL(u);
+const base = url.pathname.substring(url.pathname.lastIndexOf('/') + 1);
+return decodeURIComponent(base || 'download.json');
+} catch {
+return 'download.json';
+}
+}
+})();
+
+/* --- end deeplink fileloading -- */
+
 document.addEventListener('DOMContentLoaded', () => {
   viewer = OpenSeadragon({
     id: 'viewer',
