@@ -328,6 +328,8 @@ function addCanvasToGallery(canvas, manifest) {
                getMetadataValue(manifestMetadata, 'Contributor') ||
                getMetadataValue(canvasMetadata, 'Publisher') || 
                getMetadataValue(manifestMetadata, 'Publisher') || 
+               getMetadataValue(canvasMetadata, 'Artist/Maker') ||
+               getMetadataValue(manifestMetadata, 'Artist/Maker') ||
                'No author returned';
 
  // Get collection
