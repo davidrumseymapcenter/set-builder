@@ -4,77 +4,87 @@ let currentManifestForSelection = null;
 let selectedPageIndices = new Set(); 
 
 // --- begin deeplink fileopening script --
-* Deep-link hosted file into your existing <input type="file">.
- * Usage: https://https://kristinallarsen.github.io/set-builder//?file=ENCODED_REMOTE_URL[&filename=Name.ext]
- * Optional: Set FILE_INPUT_SELECTOR to your input's id or selector.
- */
-  
-function() {
-  // CHANGE THIS to your actual file input selector if you have a known id/class.
-  // Example: '#fileInput' or '.my-file-input'. If unknown, it will fall back to the first input[type="file"].
-  const FILE_INPUT_SELECTOR = '#fileInput';
+(function() {
+const FILE_INPUT_SELECTOR = '#uploadManifest';
+const LOAD_BUTTON_SELECTOR = '#loadManifest';
 
-  // Run after DOM loads so the input exists
-  document.addEventListener('DOMContentLoaded', () => {
-    openHostedFileFromQuery().catch(err => {
-      console.error('Deep-link file loading failed:', err);
-      alert('Unable to load file from URL. Make sure it is public and supports CORS.');
-    });
-  });
+// Wait for DOM, then defer to the next tick so other DOMContentLoaded handlers
+// (like initializeEventListeners) have time to attach their listeners.
+document.addEventListener('DOMContentLoaded', () => {
+setTimeout(() => {
+openHostedFileFromQuery().catch(err => {
+console.error('Deep-link file loading failed:', err);
+alert('Unable to load file from URL. Make sure it is public and supports CORS.');
+});
+}, 0);
+});
 
-  async function openHostedFileFromQuery() {
-    const params = new URLSearchParams(window.location.search);
-    const rawParam = params.get('file') || params.get('url');
-    if (!rawParam) return; // No deep-link: do nothing
+async function openHostedFileFromQuery() {
+const params = new URLSearchParams(window.location.search);
+const rawParam = params.get('file') || params.get('url');
+if (!rawParam) return;
 
-    const fileUrl = normalizeFileUrl(rawParam);
-    const response = await fetch(fileUrl, { mode: 'cors', credentials: 'omit', redirect: 'follow' });
-    if (!response.ok) throw new Error(`HTTP ${response.status} fetching ${fileUrl}`);
+const fileUrl = normalizeFileUrl(rawParam);
+const response = await fetch(fileUrl, { mode: 'cors', credentials: 'omit', redirect: 'follow' });
+if (!response.ok) throw new Error(`HTTP ${response.status} fetching ${fileUrl}`);
 
-    const blob = await response.blob();
-    const filename = params.get('filename') || deriveFilenameFromUrl(fileUrl);
-    const fileObj = new File([blob], filename, { type: blob.type || 'application/octet-stream' });
+const blob = await response.blob();
+const filename = params.get('filename') || deriveFilenameFromUrl(fileUrl);
+const fileObj = new File([blob], filename, { type: blob.type || 'application/json' });
 
-    const input = document.querySelector(FILE_INPUT_SELECTOR) || document.querySelector('input[type="file"]');
-    if (!input || input.type !== 'file') {
-      throw new Error('File input not found. Set FILE_INPUT_SELECTOR to your input element.');
-    }
+const input = document.querySelector(FILE_INPUT_SELECTOR) || document.querySelector('input[type="file"]');
+if (!input || input.type !== 'file') {
+  throw new Error('File input not found. Set FILE_INPUT_SELECTOR to your input element.');
+}
 
-    const dt = new DataTransfer();
-    dt.items.add(fileObj);
-    input.files = dt.files;
-    input.dispatchEvent(new Event('change', { bubbles: true }));
-  }
+// Insert the file and trigger your existing change handler
+const dt = new DataTransfer();
+dt.items.add(fileObj);
+input.files = dt.files;
+input.dispatchEvent(new Event('change', { bubbles: true }));
 
-  function normalizeFileUrl(u) {
-    // Converts GitHub blob URLs to raw URLs so we fetch actual file bytes.
-    try {
-      const url = new URL(u);
-      if (url.hostname === 'github.com') {
-        const parts = url.pathname.split('/');
-        const blobIdx = parts.indexOf('blob');
-        if (blobIdx !== -1) {
-          const newPath = parts.slice(0, blobIdx).concat(parts.slice(blobIdx + 1)).join('/');
-          return `https://raw.githubusercontent.com${newPath}`;
-        }
-      }
-      return u;
-    } catch {
-      return u;
-    }
-  }
+// Autoload by clicking your existing Load button
+const loadBtn = document.querySelector(LOAD_BUTTON_SELECTOR);
+if (loadBtn) {
+  // Ensure the click runs after all change handlers complete
+  setTimeout(() => {
+    loadBtn.click();
+  }, 0);
+} else {
+  console.warn('Load button not found. Set LOAD_BUTTON_SELECTOR correctly.');
+}
 
-  function deriveFilenameFromUrl(u) {
-    try {
-      const url = new URL(u);
-      const base = url.pathname.substring(url.pathname.lastIndexOf('/') + 1);
-      return decodeURIComponent(base || 'download');
-    } catch {
-      return 'download';
-    }
-  }
+}
+
+function normalizeFileUrl(u) {
+try {
+const url = new URL(u);
+if (url.hostname === 'github.com') {
+const parts = url.pathname.split('/');
+const blobIdx = parts.indexOf('blob');
+if (blobIdx !== -1) {
+const newPath = parts.slice(0, blobIdx).concat(parts.slice(blobIdx + 1)).join('/');
+return 'https://raw.githubusercontent.com' + newPath;
+}
+}
+return u;
+} catch (e) {
+return u;
+}
+}
+
+function deriveFilenameFromUrl(u) {
+try {
+const url = new URL(u);
+const base = url.pathname.substring(url.pathname.lastIndexOf('/') + 1);
+return decodeURIComponent(base || 'download.json');
+} catch {
+return 'download.json';
+}
+}
 })();
-// --- end deeplink fileloading --
+
+/* --- end deeplink fileloading -- */
 
 document.addEventListener('DOMContentLoaded', () => {
   viewer = OpenSeadragon({
