@@ -1,0 +1,1153 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://example.org/collection/ElectricDreams",
+  "label": "ElectricDreams",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/fs420zz4652/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Telegraph map of Lower Egypt",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/fs420zz4652.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/fs420zz4652'>https://purl.stanford.edu/fs420zz4652</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Telegraph map of Lower Egypt"
+        },
+        {
+          "label": "Title",
+          "value": "Telegraph map of Lower Egypt 1882, N° 192"
+        },
+        {
+          "label": "Contributor",
+          "value": "Great Britain, War Office, Intelligence Branch"
+        },
+        {
+          "label": "Contributor",
+          "value": "Great Britain, War Office, General Staff, Geographical Section"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : color ; 59 x 66 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "At lower left corner: Intelligence Branch N° 192."
+        },
+        {
+          "label": "Description",
+          "value": "At lower right corner: Incographed at the Intelligence Branch War Office. June 1882."
+        },
+        {
+          "label": "Description",
+          "value": "Shows Nile River, Suez Canal, roads, railroads, and names of cities and towns."
+        },
+        {
+          "label": "Description",
+          "value": "A pair with IB 193. Similar to IB 191, but less detailed."
+        },
+        {
+          "label": "Subject",
+          "value": "Egypt > Distances, etc > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Egypt > Maps and charts > 1882"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:500,000."
+        },
+        {
+          "label": "Date",
+          "value": "1882"
+        },
+        {
+          "label": "Identifier",
+          "value": "OCLC: 497558001"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/fs420zz4652"
+        },
+        {
+          "label": "Publisher",
+          "value": "[War Office, Intelligence Branch]"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-09-16"
+        }
+      ],
+      "description": "At lower left corner: Intelligence Branch N° 192.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/fs420zz4652%2Ffs420zz4652_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/fs420zz4652%2Ffs420zz4652_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 350
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/fs420zz4652/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/fs420zz4652/iiif/canvas/cocina-fileSet-fs420zz4652-fs420zz4652_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 16208,
+              "width": 18542,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/fs420zz4652/fs420zz4652_0001.jp2",
+                  "label": "Original source file (159 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/fs420zz4652/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F08808752-22cc-4b36-b68c-df69a0682cc2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/fs420zz4652/iiif/canvas/cocina-fileSet-fs420zz4652-fs420zz4652_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/fs420zz4652%2Ffs420zz4652_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 16208,
+                    "width": 18542,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/fs420zz4652%2Ffs420zz4652_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/kw630nh0341/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Map of the submarine telegraph between America & Europe : with its various communications on the two continents",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/kw630nh0341.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/kw630nh0341'>https://purl.stanford.edu/kw630nh0341</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Map of the submarine telegraph between America & Europe : with its various communications on the two continents"
+        },
+        {
+          "label": "Contributor",
+          "value": "Korff Brothers"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : col. ; 17 x 46 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Alternate title: Atlantic cable, 1857."
+        },
+        {
+          "label": "Description",
+          "value": "Inset: Harbour of St. John's, Newfoundland."
+        },
+        {
+          "label": "Description",
+          "value": "Includes \"Profile of the bottom of the Atlantic as sounded 1856 by the U.S. Steamer \"Arctic,\"\" and ill. of the \"Great Atlantic cable (natural size).\""
+        },
+        {
+          "label": "Description",
+          "value": "Sold by McKee & Stilwell."
+        },
+        {
+          "label": "Subject",
+          "value": "Transatlantic cables > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:12,000,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "90°00′00″W -- 15°00′00″E / 60°00′00″N -- 40°00′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1857"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/kw630nh0341"
+        },
+        {
+          "label": "Publisher",
+          "value": "Korff Brothers"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-08-11"
+        }
+      ],
+      "description": "Alternate title: Atlantic cable, 1857.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/kw630nh0341%2Fkw630nh0341_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/kw630nh0341%2Fkw630nh0341_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 165
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/kw630nh0341/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/kw630nh0341/iiif/canvas/cocina-fileSet-kw630nh0341-kw630nh0341_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 5197,
+              "width": 12574,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/kw630nh0341/kw630nh0341_00_0001.jp2",
+                  "label": "Original source file (11.8 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/kw630nh0341/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fkw630nh0341-kw630nh0341_1%2Fkw630nh0341_00_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/kw630nh0341/iiif/canvas/cocina-fileSet-kw630nh0341-kw630nh0341_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/kw630nh0341%2Fkw630nh0341_00_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 5197,
+                    "width": 12574,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/kw630nh0341%2Fkw630nh0341_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/zh594cb0434/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Lines and Metallic Circuit Connections. American Telephone and Telegraph Co. 18 Cortlandt St. New York. March 1, 1891",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/zh594cb0434.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/zh594cb0434'>https://purl.stanford.edu/zh594cb0434</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Lines and Metallic Circuit Connections. American Telephone and Telegraph Co. 18 Cortlandt St. New York. March 1, 1891"
+        },
+        {
+          "label": "Contributor",
+          "value": "American Telephone and Telegraph Company."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 21 x 10 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Pocket Map."
+        },
+        {
+          "label": "Description",
+          "value": "References: None found."
+        },
+        {
+          "label": "Description",
+          "value": "The map shows the communication lines in orange. On the folded cover is the statement \"500 miles and return in 5 minutes. The mail is quick; telegraph is quicker; but Long Distance Telephone is Instantaneous and you don't have to wait for an answer.\" On the back of the map is a list of public pay stations. Folding into self wrappers 20x9.5, with \"New York, Boston, Buffalo, Washington. Local and Long Distance Telephone. American Telephone and Telegraph Company. General Offices, 18 Cortlandt St. New-York. John C. Rankin Co., 34 Cortlandt St. N.Y.\""
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 5564.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Telephone > Northeastern States > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Telegraph > Northeastern States > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Northeastern States > Maps > 19th century"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:2,534,400."
+        },
+        {
+          "label": "Date",
+          "value": "1891"
+        },
+        {
+          "label": "Date",
+          "value": "1891"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/zh594cb0434"
+        },
+        {
+          "label": "Publisher",
+          "value": "No publisher,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-12"
+        }
+      ],
+      "description": "Pocket Map.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/sn183mj0152%2F5564A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/sn183mj0152%2F5564A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 294
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/zh594cb0434/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/zh594cb0434/iiif/canvas/cocina-fileSet-yj000kg9580-yj000kg9580_1",
+              "@type": "sc:Canvas",
+              "label": "Lines and Metallic Circuit Connections. American Telephone and Telegraph Co. 18\n            Cortlandt St. New York. March 1, 1891",
+              "height": 3464,
+              "width": 4962,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/yj000kg9580/5564001.jp2",
+                  "label": "Original source file (3.09 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/zh594cb0434/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fyj000kg9580-yj000kg9580_1%2F5564001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/zh594cb0434/iiif/canvas/cocina-fileSet-yj000kg9580-yj000kg9580_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/yj000kg9580%2F5564001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 3464,
+                    "width": 4962,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/yj000kg9580%2F5564001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/ng546jb5062/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Via Eastern : the Eastern and Associated Telegraph Companies' cable system. (indicated in red.) Wireless stations , (extension on telegraph system) shown by means of red dot. May 1922. Waterlow & Sons Limited, London Wall, London",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/ng546jb5062.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/ng546jb5062'>https://purl.stanford.edu/ng546jb5062</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Via Eastern : the Eastern and Associated Telegraph Companies' cable system. (indicated in red.) Wireless stations , (extension on telegraph system) shown by means of red dot. May 1922. Waterlow & Sons Limited, London Wall, London"
+        },
+        {
+          "label": "Contributor",
+          "value": "Eastern Associated Telegraph Companies."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 1 maps ; 17 x 12 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Color map, mounted on linen, on sheet 46 x 99 cm. folded into red cardboard cover 17x12., with title: \"Via Eastern\" Head Office, Electra House London. Includes insets: northwest Europe, Aegean area and East Indies and table of main line cables and land lines. Cable system shown in red lines and extension of telegraph system shown in red dots. Gift of Dorothy A. Young."
+        },
+        {
+          "label": "Description",
+          "value": "Pocket Map."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 8368.000."
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > 20th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Telegraph > Maps > 20th century"
+        },
+        {
+          "label": "Date",
+          "value": "1922"
+        },
+        {
+          "label": "Date",
+          "value": "1922"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/ng546jb5062"
+        },
+        {
+          "label": "Publisher",
+          "value": "Waterlow & Sons Limited,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-06-20"
+        }
+      ],
+      "description": "Color map, mounted on linen, on sheet 46 x 99 cm. folded into red cardboard cover 17x12., with title: \"Via Eastern\" Head Office, Electra House London. Includes insets: northwest Europe, Aegean area and East Indies and table of main line cables and land lines. Cable system shown in red lines and extension of telegraph system shown in red dots. Gift of Dorothy A. Young.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/mm005cx5336%2F8368001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/mm005cx5336%2F8368001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 271
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/ng546jb5062/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/ng546jb5062/iiif/canvas/cocina-fileSet-gh278xc1930-gh278xc1930_1",
+              "@type": "sc:Canvas",
+              "label": "Via Eastern : the Eastern and Associated Telegraph Companies' cable system\n   (indicated in red.) Wireless stations , (extension on telegraph system) shown by means of red\n   dot. May 1922. Waterlow & Sons Limited, London Wall, London.",
+              "height": 9038,
+              "width": 19277,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/gh278xc1930/8368002.jp2",
+                  "label": "Original source file (31.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/ng546jb5062/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fgh278xc1930-gh278xc1930_1%2F8368002.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/ng546jb5062/iiif/canvas/cocina-fileSet-gh278xc1930-gh278xc1930_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/gh278xc1930%2F8368002/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 9038,
+                    "width": 19277,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/gh278xc1930%2F8368002",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/fr741zr7695/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "The Atlantic Telegraph. Map Shewing the Atlantic Telegraph, and Other Submarine Cables in Europe and America. Map Showing the Proposed Ocean Telegraphs and Overland Route Around the World",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/fr741zr7695.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/fr741zr7695'>https://purl.stanford.edu/fr741zr7695</a>"
+        },
+        {
+          "label": "Title",
+          "value": "The Atlantic Telegraph. Map Shewing the Atlantic Telegraph, and Other Submarine Cables in Europe and America. Map Showing the Proposed Ocean Telegraphs and Overland Route Around the World"
+        },
+        {
+          "label": "Contributor",
+          "value": "Bacon & Co."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 2 maps ; 84 x 59 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Color. Two maps and text on one sheet."
+        },
+        {
+          "label": "Description",
+          "value": "Separate Map."
+        },
+        {
+          "label": "Local note",
+          "value": "David Rumsey Map Center copy 1: Pub list no. 12183.000."
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > 20th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Communication > Atlantic Ocean > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Telegraph > Atlantic Ocean > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Atlantic Ocean > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "North Atlantic Ocean > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1865"
+        },
+        {
+          "label": "Date",
+          "value": "1865"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/fr741zr7695"
+        },
+        {
+          "label": "Publisher",
+          "value": "Bacon & Co,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-04-14"
+        }
+      ],
+      "description": "Color. Two maps and text on one sheet.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/fr741zr7695%2F12183000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/fr741zr7695%2F12183000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 280,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/fr741zr7695/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/fr741zr7695/iiif/canvas/cocina-fileSet-fr741zr7695-fr741zr7695_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 20030,
+              "width": 14038,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/fr741zr7695/12183000.jp2",
+                  "label": "Original source file (50.5 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/fr741zr7695/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Ffr741zr7695-fr741zr7695_1%2F12183000.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/fr741zr7695/iiif/canvas/cocina-fileSet-fr741zr7695-fr741zr7695_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/fr741zr7695%2F12183000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 20030,
+                    "width": 14038,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/fr741zr7695%2F12183000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290689~90062397/manifest",
+      "label": "Keytown telephone sales map",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~290689~90062397/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290689~90062397/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Keytown telephone sales map",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "American Telephone and Telegraph Co."
+                },
+                {
+                  "label": "Date",
+                  "value": "1928"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Keytown telephone sales map"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "American Telephone and Telegraph Co."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "70"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "5,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Color map of the layout of keytown telephone sales areas. Shows state boundaries and associated company boundaries, cities and towns, customers facilities, etc. Notes: Information on Keytown Selling may be obtained at any Bell Company Business Office."
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Communications"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Keytown telephone sales map : showing primary and secondary calling points and primary calling areas. American Telephone and Telegraph Co., Copyright 1928. Reproduced for selling by Telephone through the courtesy of the American Telephone and Telegraph Co."
+                },
+                {
+                  "label": "List No",
+                  "value": "8362.000"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Bell Telephone Co."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "American Telephone and Telegraph Co."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1928"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Keytown telephone sales map : showing primary and secondary calling points and primary calling areas. American Telephone and Telegraph Co., Copyright 1928. Reproduced for selling by Telephone through the courtesy of the American Telephone and Telegraph Co."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8362.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "70"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8362000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/8362000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "American Telephone and Telegraph Co."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~290689~90062397/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~290689~90062397/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~290689~90062397",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 17356,
+                    "height": 12142
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290689~90062397/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290689~90062397/list/luna"
+              ],
+              "width": 17356,
+              "height": 12142
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~290689~90062397"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~353987~90121122/manifest",
+      "label": "Dominion Of Canada Telegraph & Signal Service. Map No.1 (Eastern-Section). Sir Hector L. Langevin, K.C.M.G.-C.B., Minister of Public Works. F.N. Gisborne, M.I.T.E.E.-F.R.S.C., &c., Supt. T. & S. Service. 1883. Projected By F.N. Gisborne. Drawn By Gust. Smith.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~353987~90121122/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~353987~90121122/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Dominion Of Canada Telegraph & Signal Service. Map No.1 (Eastern-Section). Sir Hector L. Langevin, K.C.M.G.-C.B., Minister of Public Works. F.N. Gisborne, M.I.T.E.E.-F.R.S.C., &c., Supt. T. & S. Service. 1883. Projected By F.N. Gisborne. Drawn By Gust. Smith.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "(Canada) Ministry of Public Works"
+                },
+                {
+                  "label": "Date",
+                  "value": "1882"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Dominion Of Canada Telegraph & Signal Service. Map No.1 (Eastern-Section). Sir Hector L. Langevin, K.C.M.G.-C.B., Minister of Public Works. F.N. Gisborne, M.I.T.E.E.-F.R.S.C., &c., Supt. T. & S. Service. 1883. Projected By F.N. Gisborne. Drawn By Gust. Smith."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Canadian Ministry Public Works"
+                },
+                {
+                  "label": "Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "89"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "122"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "1,400,000"
+                },
+                {
+                  "label": "Country",
+                  "value": "Canada"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Railroad"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Communications"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Dominion Of Canada Telegraph & Signal Service. Map No.1 (Eastern-Section). Sir Hector L. Langevin, K.C.M.G.-C.B., Minister of Public Works. F.N. Gisborne, M.I.T.E.E.-F.R.S.C., &c., Supt. T. & S. Service. 1883. Projected By F.N. Gisborne. Drawn By Gust. Smith."
+                },
+                {
+                  "label": "List No",
+                  "value": "0118.000"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Gisborne, F.N."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Smith, Gust."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "(Canada) Ministry of Public Works"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1883"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Dominion Of Canada Telegraph & Signal Service. Map No.1 (Eastern-Section). Sir Hector L. Langevin, K.C.M.G.-C.B., Minister of Public Works. F.N. Gisborne, M.I.T.E.E.-F.R.S.C., &c., Supt. T. & S. Service. 1883. Projected By F.N. Gisborne. Drawn By Gust. Smith."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Shows telegraph, sea cables and Railroads. Printed in full color. Not dissected. Map is backed with linen and folds into untitled brown cloth covered boards 31.5x26."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "0118.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "32"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "26"
+                },
+                {
+                  "label": "Image No",
+                  "value": "0118000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/0118000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "(Canada) Ministry of Public Works"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~353987~90121122/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~353987~90121122/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~353987~90121122",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 29850,
+                    "height": 21364
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~353987~90121122/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~353987~90121122/list/luna"
+              ],
+              "width": 29850,
+              "height": 21364
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~353987~90121122"
+    }
+  ]
+}
