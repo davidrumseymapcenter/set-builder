@@ -45,6 +45,15 @@ function updatePageTitle(galleryName) {
   }
 }
 
+// Function to open the first image in the viewer
+function openFirstImage() {
+  const firstThumb = document.querySelector('#gallery .card img');
+  if (firstThumb) {
+    firstThumb.click();
+    document.body.classList.add('viewer-has-image');
+  }
+}
+
 // --- begin deeplink fileopening script --
 (function() {
 const FILE_INPUT_SELECTOR = '#uploadManifest';
@@ -589,8 +598,14 @@ function repopulateGallery(manifestData) {
   // Set gallery name from loaded manifest
   const galleryName = manifestData.label || '';
   setGalleryName(galleryName);
-}
 
+
+ //Auto-open first image
+  setTimeout(() => {
+    openFirstImage();
+  }, 100); // Small delay to ensure DOM is ready
+
+}
 
 /// Function to add a IIIF manifest to the gallery (supports both 2.0 and 3.0)
 async function addManifestToGallery(manifestUrl) {
@@ -919,11 +934,86 @@ selectedCanvases.forEach(canvas => {
 
 // Initialize all event listeners
 function initializeEventListeners() {
-  // Show selected filename when file is chosen
-  document.getElementById('uploadManifest').addEventListener('change', function(e) {
-    console.log('Change event fired!');
-    const fileName = e.target.files[0] ? e.target.files[0].name : 'No file chosen';
-    document.getElementById('fileName').textContent = fileName;
+
+  // Auto-load file when chosen (no need for separate Load button)
+document.getElementById('uploadManifest').addEventListener('change', async function(e) {
+  const file = e.target.files[0];
+  
+  if (!file) {
+    document.getElementById('fileName').textContent = 'No file chosen';
+    return;
+  }
+
+  // Show loading state
+  document.getElementById('fileName').textContent = `Loading ${file.name}...`;
+  document.getElementById('fileName').style.color = '#0073A3';
+
+  const reader = new FileReader();
+  
+  reader.onload = async function(event) {
+    const jsonContent = event.target.result;
+    try {
+      const manifestData = JSON.parse(jsonContent);
+      repopulateGallery(manifestData);
+      
+      // Show success
+      document.getElementById('fileName').textContent = `✓ Loaded: ${file.name}`;
+      document.getElementById('fileName').style.color = '#28a745';
+      
+      // Reset after 3 seconds
+      setTimeout(() => {
+        document.getElementById('fileName').textContent = 'No file chosen';
+        document.getElementById('fileName').style.color = '#888';
+      }, 3000);
+      
+    } catch (error) {
+      console.error('Error parsing JSON:', error);
+      alert(`Failed to load "${file.name}":\n\n${error.message}`);
+      document.getElementById('fileName').textContent = 'No file chosen';
+      document.getElementById('fileName').style.color = '#888';
+    }
+  };
+
+  reader.onerror = function() {
+    alert('Failed to read file. Please try again.');
+    document.getElementById('fileName').textContent = 'No file chosen';
+    document.getElementById('fileName').style.color = '#888';
+  };
+
+  reader.readAsText(file);
+});
+
+// Event listener to load from URL
+  document.getElementById('loadFromUrl').addEventListener('click', async () => {
+    const urlInput = document.getElementById('galleryUrl');
+    const galleryUrl = urlInput.value.trim();
+
+    if (!galleryUrl) {
+      alert('Please enter a gallery JSON URL.');
+      return;
+    }
+
+    try {
+      const response = await fetch(galleryUrl, { 
+        mode: 'cors',
+        credentials: 'omit',
+        redirect: 'follow'
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
+
+      const manifestData = await response.json();
+      repopulateGallery(manifestData);
+      
+      // Clear the input after successful load
+      urlInput.value = '';
+      
+    } catch (error) {
+      console.error('Error loading from URL:', error);
+      alert(`Failed to load gallery from URL:\n\n${error.message}\n\nMake sure:\n- The URL is correct\n- The file is publicly accessible\n- CORS is enabled on the server`);
+    }
   });
 
   // Event listener to add manifest URLs to the gallery
@@ -941,34 +1031,10 @@ function initializeEventListeners() {
     }
   });
 
-  // Event listener to load the uploaded combined manifest
-  document.getElementById('loadManifest').addEventListener('click', async () => {
-    const fileInput = document.getElementById('uploadManifest');
-    const file = fileInput.files[0];
-
-    if (!file) {
-      alert('Please select a JSON file to upload.');
-      return;
-    }
-
-    const reader = new FileReader();
-    
-    reader.onload = async function(event) {
-      const jsonContent = event.target.result;
-      try {
-        const manifestData = JSON.parse(jsonContent);
-        repopulateGallery(manifestData);
-      } catch (error) {
-        console.error('Error parsing JSON:', error);
-        alert('Failed to load manifest: ' + error.message);
-      }
-    };
-
-    reader.readAsText(file);
-  });
+ 
 
   // Event listener for the export button
-  document.getElementById('export-manifest').addEventListener('click', exportCombinedManifest);
+document.getElementById('saveLocally').addEventListener('click', exportCombinedManifest);
 
    // Event listener for toggle input panel button
   document.getElementById('toggleInputs').addEventListener('click', function() {

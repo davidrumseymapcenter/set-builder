@@ -42,21 +42,42 @@
 
         
         <div id="inputPanel" class="input-panel">
-          <input type="text" id="manifestUrl" placeholder="To Build: Add IIIF Manifest URLs here one at a time or separated by commas" />
-          <button id="addManifest">Add Manifest(s)</button>
-          
-          <!-- Input Name and Export Combined Manifest Button -->
-          <input type="text" id="manifestName" placeholder="To Save: Enter new gallery manifest name here and click Export button" />
-          <button id="export-manifest">Export Combined Manifest</button>
-          
-          <!-- Upload Combined Manifest Button -->
-           
-          <p> <small> To Open: Use Choose File button, navigate to a locally saved .json file and click Load Manifest</small></p>
-          <label for="uploadManifest" class="file-input-label">Choose File</label>
-          <input type="file" id="uploadManifest" accept=".json" style="display: none;" />
-          <span id="fileName" class="file-name">No file chosen</span>
-          <button id="loadManifest">Load Manifest</button>
-        </div>
+  <!-- Add Manifests Section -->
+  <div class="input-section">
+    <label for="manifestUrl" class="section-label">Add IIIF Manifests</label>
+    <input type="text" id="manifestUrl" placeholder="Enter IIIF Manifest URLs (comma-separated)" />
+    <button id="addManifest">Add Manifest(s)</button>
+  </div>
+
+  <div class="section-divider"></div>
+
+  <!-- Load Gallery Section -->
+  <div class="input-section">
+    <label class="section-label">Load Gallery</label>
+    
+    <div class="load-option">
+  <label for="uploadManifest" class="file-input-label">Choose File</label>
+  <input type="file" id="uploadManifest" accept=".json" style="display: none;" />
+  <span id="fileName" class="file-name">No file chosen</span>
+</div>
+
+    <div class="load-option-divider">OR</div>
+
+    <div class="load-option">
+      <input type="text" id="galleryUrl" placeholder="Paste gallery JSON URL" />
+    </div>
+    <button id="loadFromUrl">Load from URL</button>
+  </div>
+
+  <div class="section-divider"></div>
+
+  <!-- Save Gallery Section -->
+  <div class="input-section">
+    <label for="manifestName" class="section-label">Save Gallery</label>
+    <input type="text" id="manifestName" placeholder="Enter gallery name (optional - auto-generated if empty)" />
+    <button id="saveLocally">💾 Save Locally</button>
+  </div>
+</div>
       </div>
       <div id="gallery"></div>
     </div>

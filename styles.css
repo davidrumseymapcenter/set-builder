@@ -51,22 +51,25 @@ body {
 }
 
 .toggle-btn {
-  padding: 8px 16px;
-  background-color: #f0f0f0;
+  padding: 6px 12px; /* More compact */
+  background-color: #ffffff;
   color: #0073A3;
-  border: none;
-  border-radius: 4px;
+  border: 1px solid #d0d0d0;
+  border-radius: 3px;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  transition: background-color 0.2s;
+  font-size: 12px; /* Smaller */
+  transition: all 0.15s ease;
   white-space: nowrap;
   margin-left: 10px;
+  font-weight: 500;
 }
 
 .toggle-btn:hover {
-  background-color: #e0e0e0;
+  background-color: #f5f5f5;
+  border-color: #0073A3;
 }
+
 
 .toggle-triangle {
   padding: 5px 10px;
@@ -93,38 +96,65 @@ body {
 .input-panel {
   overflow: hidden;
   transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
-  max-height: 1000px; /* Large enough for all content */
+  max-height: 1000px;
   opacity: 1;
+  padding: 12px 10px; /* Add internal padding, reduce from sides */
 }
 
 .input-panel.hidden {
   max-height: 0;
   opacity: 0;
+  padding: 0; /* Collapse padding too */
 }
 
 .header input {
-  margin-top: 10px;
+  margin-top: 6px; /* Reduced from 10px */
   font-family: 'Open Sans', sans-serif;
   width: calc(100% - 20px);
-  padding: 8px;
+  padding: 6px 8px; /* Reduced from 8px */
   box-sizing: border-box;
+  border: 1px solid #d0d0d0;
+  border-radius: 3px;
+  font-size: 13px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.header input:focus {
+  outline: none;
+  border-color: #0073A3;
+  box-shadow: 0 0 0 2px rgba(0, 115, 163, 0.1);
+}
+
+.header input::placeholder {
+  color: #999;
+  font-size: 12px;
 }
 
 .header button {
-  padding: 8px 12px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  padding: 6px 12px; /* Reduced from 8px 12px */
+  background-color: #ffffff;
+  border: 1px solid #d0d0d0;
+  border-radius: 3px; /* Slightly smaller radius */
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  margin-top: 2px;
-  transition: background-color 0.2s;
+  font-size: 13px; /* Reduced from 14px */
+  margin-top: 6px; /* Reduced from 2px for consistency */
+  transition: all 0.15s ease; /* Faster, smoother */
+  font-weight: 500;
+  color: #333;
 }
 
 .header button:hover {
-  background-color: #e0e0e0;
+  background-color: #f5f5f5;
+  border-color: #0073A3;
+  color: #0073A3;
 }
+
+.header button:active {
+  transform: translateY(1px);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
 
 .help-icon {
   display: inline-flex;
@@ -162,28 +192,37 @@ body {
 /* Style the file input label to look like a button */
 .file-input-label {
   display: inline-block;
-  padding: 8px 12px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  padding: 6px 12px; /* Match button padding */
+  background-color: #ffffff;
+  border: 1px solid #d0d0d0;
+  border-radius: 3px;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  margin-top: 10px;
-  transition: background-color 0.2s;
+  font-size: 13px; /* Match button font size */
+  margin-top: 0;
+  transition: all 0.15s ease;
+  font-weight: 500;
+  color: #333; /* Match button text color */
 }
 
 .file-input-label:hover {
-  background-color: #e0e0e0;
+  background-color: #f5f5f5;
+  border-color: #0073A3;
+  color: #0073A3;
+}
+
+.file-input-label:active {
+  transform: translateY(1px);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
 }
 
 .file-name {
   display: inline-block;
-  margin-left: 10px;
-  margin-right: 15px;
-  font-size: 12px;
-  color: #666;
-  font-style: italic;
+  margin-left: 8px; /* Reduced from 10px */
+  font-size: 11px; /* Smaller */
+  color: #888;
+  font-style: normal; /* Remove italic for cleaner look */
+  vertical-align: middle;
 }
 
 #gallery {
@@ -536,5 +575,102 @@ body {
   
   .title-gallery:not(:empty)::before {
     content: '';
+  }
+}
+
+/* Input Panel Sections - More compact */
+.input-section {
+  margin-bottom: 12px; /* Reduced from 1rem */
+}
+
+.section-label {
+  display: block;
+  font-weight: 600;
+  color: #0073A3;
+  margin-bottom: 6px; /* Reduced from 8px */
+  font-size: 13px; /* Slightly smaller */
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.section-divider {
+  height: 1px;
+  background: #e0e0e0;
+  margin: 12px 0; /* Reduced from 15px */
+}
+
+
+/* Load Options - more compact */
+.load-option {
+  margin-bottom: 6px; /* Reduced from 8px */
+}
+
+.load-option-divider {
+  text-align: center;
+  color: #aaa;
+  font-size: 11px; /* Smaller */
+  margin: 8px 0; /* Reduced from 10px */
+  position: relative;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.load-option-divider::before,
+.load-option-divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 43%;
+  height: 1px;
+  background: #e0e0e0;
+}
+
+.load-option-divider::before {
+  left: 0;
+}
+
+.load-option-divider::after {
+  right: 0;
+}
+
+/* Update file-name styling */
+.file-name {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 12px;
+  color: #666;
+  font-style: italic;
+  vertical-align: middle;
+}
+
+/* Ensure input fields match existing header input style */
+#galleryUrl {
+  margin-top: 0;
+  font-family: 'Open Sans', sans-serif;
+  width: calc(100% - 20px);
+  padding: 6px 8px;
+  box-sizing: border-box;
+  border: 1px solid #d0d0d0;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+#galleryUrl:focus {
+  outline: none;
+  border-color: #0073A3;
+  box-shadow: 0 0 0 2px rgba(0, 115, 163, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section-label {
+    font-size: 13px;
+  }
+  
+  .file-name {
+    display: block;
+    margin-left: 0;
+    margin-top: 5px;
+    font-size: 11px;
   }
 }
