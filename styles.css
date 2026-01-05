@@ -118,13 +118,45 @@ body {
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  margin-top: 10px;
+  margin-top: 2px;
   transition: background-color 0.2s;
 }
 
 .header button:hover {
   background-color: #e0e0e0;
 }
+
+.help-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: #0066cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  transition: background 0.2s ease;
+  cursor: pointer;
+}
+
+.help-icon:hover {
+  background: #0052a3;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .help-icon {
+    width: 28px;
+    height: 28px;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
+}
+
 
 /* Style the file input label to look like a button */
 .file-input-label {
