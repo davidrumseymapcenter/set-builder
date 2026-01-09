@@ -366,6 +366,8 @@ function addCanvasToGallery(canvas, manifest) {
              getMetadataValue(manifestMetadata, 'Created Published') || 
              getMetadataValue(canvasMetadata, 'Associated date') || 
              getMetadataValue(manifestMetadata, 'Associated date') || 
+              getMetadataValue(manifestMetadata, 'Publication Date') ||  
+           getMetadataValue(canvasMetadata, 'Publication Date') ||   
              'No date returned';
 
   // Get author/creator
@@ -414,8 +416,25 @@ if (iiifVersion === 3) {
     }
   } else {
     // IIIF 2.0
-    attribution = manifest.attribution || 'No attribution returned';
+   if (manifest.attribution) {
+    // Handle array or string
+    if (Array.isArray(manifest.attribution)) {
+      // Filter out empty strings and URLs, prefer descriptive text
+      const nonEmpty = manifest.attribution.filter(a => a && a.trim() && !a.startsWith('http'));
+      attribution = nonEmpty[0] || manifest.attribution.find(a => a && a.trim()) || 'No attribution returned';
+    } else {
+      attribution = manifest.attribution;
+    }
   }
+  
+  // If still not found, try Repository metadata field
+  if (attribution === 'No attribution returned') {
+    attribution = getMetadataValue(manifestMetadata, 'Repository') ||
+                  getMetadataValue(manifestMetadata, 'Digital Publisher') ||
+                  'No attribution returned';
+  }
+}
+
 
   // Get location link from various possible sources
   let locationLink = null;
@@ -437,6 +456,20 @@ if (iiifVersion === 3) {
   }
 
   // If locationLink is still not defined, check other sources
+if (!locationLink) {
+  // Try to extract URL from Source metadata (CONTENTdm often has HTML here)
+  const sourceMetadata = getMetadataValue(manifestMetadata, 'Source');
+  if (sourceMetadata && sourceMetadata.includes('href=')) {
+    // Extract URL from HTML
+    const match = sourceMetadata.match(/href=["']([^"']+)["']/);
+    if (match && match[1]) {
+      locationLink = match[1];
+    }
+  }
+}
+
+  // If still not found, try other fields
+
   if (!locationLink) {
     locationLink = getMetadataValue(canvasMetadata, 'Identifier') || 
                    getMetadataValue(manifestMetadata, 'Identifier', true) ||
