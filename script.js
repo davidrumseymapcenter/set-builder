@@ -260,10 +260,11 @@ function getMetadataValue(metadata, label, getLast = false) {
   const normalizedLabel = label.toLowerCase();
   
   const items = metadata.filter(item => {
+    
     // IIIF 2.0 format: item.label is a string
     if (typeof item.label === 'string') {
       return item.label.toLowerCase() === normalizedLabel;
-    }
+    }   
     // IIIF 3.0 format: item.label is an object like {none: ["Title"]} or {en: ["Title"]}
     if (typeof item.label === 'object') {
       const labelValues = Object.values(item.label).flat();
@@ -281,7 +282,8 @@ function getMetadataValue(metadata, label, getLast = false) {
     return item.value;
   }
   if (Array.isArray(item.value)) {
-    return item.value[0];
+    if(typeof item.value[0] === 'object') { return Object.values(item.value[0])[1]; }
+    else { return item.value[0]; }
   }
   
   // IIIF 3.0 format: value is an object like {none: ["value"]} or {en: ["value"]}
@@ -952,7 +954,9 @@ function addSelectedPagesToGallery() {
   } else {
     allCanvasItems = currentManifestForSelection.sequences?.[0]?.canvases || [];
   }
-  
+
+// Empty the Add Manifest field after selecting thumbnails
+document.getElementById('manifestUrl').value = "";
  
 // Create a modified manifest with only selected pages and store it
 const sortedIndices = Array.from(selectedPageIndices).sort((a, b) => a - b);
@@ -1092,8 +1096,8 @@ document.getElementById('uploadManifest').addEventListener('change', async funct
   // Event listener for the export button
 document.getElementById('saveLocally').addEventListener('click', exportCombinedManifest);
 
-   // Event listener for toggle input panel button
-  document.getElementById('toggleInputs').addEventListener('click', function() {
+  // Event listener for toggle input panel button
+document.getElementById('toggleInputs').addEventListener('click', function() {
     const inputPanel = document.getElementById('inputPanel');
     const toggleBtn = document.getElementById('toggleInputs');
     
@@ -1104,7 +1108,23 @@ document.getElementById('saveLocally').addEventListener('click', exportCombinedM
       inputPanel.classList.add('hidden');
       toggleBtn.textContent = 'Show Input Panel';
     }
-  });
+});
+  
+  // Event listener for hide viewer
+document.getElementById('toggleViewer').addEventListener('click', function() {
+    const toggleViewerBtn = document.getElementById('toggleViewer');
+    const container = document.getElementsByClassName("container");
+    if (container[0].classList.contains('viewerHidden')) {
+      container[0].classList.remove('viewerHidden');
+      toggleViewerBtn.textContent = 'Hide Viewer';
+    } else {
+      container[0].classList.add('viewerHidden');
+      toggleViewerBtn.textContent = 'Show Viewer';
+    }
+});
+
+ 
+  
  // Page selector modal event listeners
   document.getElementById('selectAllPages').addEventListener('click', selectAllPages);
   document.getElementById('deselectAllPages').addEventListener('click', deselectAllPages);
