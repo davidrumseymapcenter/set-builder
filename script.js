@@ -567,32 +567,33 @@ if (!locationLink) {
   const attributionEl = document.createElement('p');
   attributionEl.innerHTML = `<strong>Attribution:</strong> ${attribution}`;
 
-  // Create link to item
-  const locationLinkEl = document.createElement('a');
-  locationLinkEl.href = locationLink;
-  locationLinkEl.textContent = 'View Item';
-  locationLinkEl.target = '_blank';
+  // Create link container (like control-links)
+const cardLinks = document.createElement('div');
+cardLinks.className = 'card-links';
 
-  const locationParagraph = document.createElement('p');
-  locationParagraph.appendChild(locationLinkEl);
+// Create link to item
+const locationLinkEl = document.createElement('a');
+locationLinkEl.href = locationLink;
+locationLinkEl.textContent = 'View Item';
+locationLinkEl.target = '_blank';
+locationLinkEl.className = 'card-link';
+cardLinks.appendChild(locationLinkEl);
 
-  // Create link to IIIF manifest
-  const manifestLinkEl = document.createElement('a');
-  manifestLinkEl.href = manifest['@id'] || manifest.id || '#';
-  manifestLinkEl.textContent = 'View IIIF Manifest';
-  manifestLinkEl.target = '_blank';
+// Create link to IIIF manifest
+const manifestLinkEl = document.createElement('a');
+manifestLinkEl.href = manifest['@id'] || manifest.id || '#';
+manifestLinkEl.textContent = 'View Manifest';
+manifestLinkEl.target = '_blank';
+manifestLinkEl.className = 'card-link';
+cardLinks.appendChild(manifestLinkEl);
 
-  const manifestParagraph = document.createElement('p');
-  manifestParagraph.appendChild(manifestLinkEl);
-
-  // Create link to Allmaps
-  const allmapsLinkEl = document.createElement('a');
-  allmapsLinkEl.href = allmapsLink;
-  allmapsLinkEl.textContent = 'Open in Allmaps Editor';
-  allmapsLinkEl.target = '_blank';
-
-  const allmapsParagraph = document.createElement('p');
-  allmapsParagraph.appendChild(allmapsLinkEl);
+// Create link to Allmaps
+const allmapsLinkEl = document.createElement('a');
+allmapsLinkEl.href = allmapsLink;
+allmapsLinkEl.textContent = 'Allmaps Editor';
+allmapsLinkEl.target = '_blank';
+allmapsLinkEl.className = 'card-link';
+cardLinks.appendChild(allmapsLinkEl);
 
   // Append all elements to card
   card.appendChild(deleteBtn);
@@ -602,9 +603,7 @@ if (!locationLink) {
   card.appendChild(dateEl);
   card.appendChild(collectionEl);
   card.appendChild(attributionEl);
-  card.appendChild(locationParagraph);
-  card.appendChild(manifestParagraph);
-  card.appendChild(allmapsParagraph);
+  card.appendChild(cardLinks);
 
   // Add card to gallery
   document.getElementById('gallery').appendChild(card);

@@ -327,6 +327,34 @@ body {
   background: grey;
 }
 
+/* Card links (styled like control links) */
+.card-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.card-links .card-link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  color: #666 !important; /* Override .card a color */
+  text-decoration: none !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: color 0.2s ease;
+  cursor: pointer;
+}
+
+.card-links .card-link:hover {
+  color: #0073A3 !important; /* Override .card a:hover color */
+  text-decoration: none !important;
+}
+
 /* Resizable divider */
 #resizer {
   width: 5px;
