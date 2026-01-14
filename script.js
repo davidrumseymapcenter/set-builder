@@ -1096,45 +1096,49 @@ document.getElementById('uploadManifest').addEventListener('change', async funct
   // Event listener for the export button
 document.getElementById('saveLocally').addEventListener('click', exportCombinedManifest);
 
-  // Event listener for toggle input panel button
-document.getElementById('toggleInputs').addEventListener('click', function(e) {
+ // Event listener for toggle input panel (only if it exists - not in viewer.html)
+const toggleInputsBtn = document.getElementById('toggleInputs');
+if (toggleInputsBtn) {
+  toggleInputsBtn.addEventListener('click', function(e) {
     e.preventDefault();
     const inputPanel = document.getElementById('inputPanel');
-    const toggleBtn = document.getElementById('toggleInputs');
+    const toggleLink = document.getElementById('toggleInputs');
     
     if (inputPanel.classList.contains('hidden')) {
       inputPanel.classList.remove('hidden');
-      toggleBtn.textContent = 'Hide Inputs';
+      toggleLink.textContent = 'Hide Inputs';
     } else {
       inputPanel.classList.add('hidden');
-      toggleBtn.textContent = 'Show Inputs';
+      toggleLink.textContent = 'Show Inputs';
     }
-});
-  
+  });
+}
 
 // Event listener for hide viewer
-document.getElementById('toggleViewer').addEventListener('click', function(e) {
-  e.preventDefault(); // Prevent link navigation
-  const toggleLink = document.getElementById('toggleViewer');
-  const container = document.querySelector('.container');
-  const leftPanel = document.querySelector('.left-panel');
-  
-  if (container.classList.contains('viewerHidden')) {
-    container.classList.remove('viewerHidden');
-    toggleLink.textContent = 'Hide Viewer';
-    if (leftPanel.dataset.previousWidth) {
-      leftPanel.style.width = leftPanel.dataset.previousWidth;
+const toggleViewerBtn = document.getElementById('toggleViewer');
+if (toggleViewerBtn) {
+  toggleViewerBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    const toggleLink = document.getElementById('toggleViewer');
+    const container = document.querySelector('.container');
+    const leftPanel = document.querySelector('.left-panel');
+    
+    if (container.classList.contains('viewerHidden')) {
+      container.classList.remove('viewerHidden');
+      toggleLink.textContent = 'Hide Viewer';
+      if (leftPanel.dataset.previousWidth) {
+        leftPanel.style.width = leftPanel.dataset.previousWidth;
+      } else {
+        leftPanel.style.width = '40%';
+      }
     } else {
-      leftPanel.style.width = '40%';
+      leftPanel.dataset.previousWidth = leftPanel.style.width || '40%';
+      container.classList.add('viewerHidden');
+      toggleLink.textContent = 'Show Viewer';
+      leftPanel.style.width = '';
     }
-  } else {
-    leftPanel.dataset.previousWidth = leftPanel.style.width || '40%';
-    container.classList.add('viewerHidden');
-    toggleLink.textContent = 'Show Viewer';
-    leftPanel.style.width = '';
-  }
-});
-  
+  });
+}
  // Page selector modal event listeners
   document.getElementById('selectAllPages').addEventListener('click', selectAllPages);
   document.getElementById('deselectAllPages').addEventListener('click', deselectAllPages);
