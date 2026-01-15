@@ -223,6 +223,111 @@ body {
   font-style: normal; /* Remove italic for cleaner look */
   vertical-align: middle;
 }
+.export-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.export-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 11px;  /* Tiny like control links */
+  font-family: inherit;
+  font-weight: 700;  /* Bold */
+  text-transform: uppercase;  /* All caps */
+  letter-spacing: 0.5px;  /* Spacing like other links */
+  white-space: nowrap;
+}
+
+.export-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.export-btn.primary {
+  border-color: #0073A3;
+  color: #0073A3;
+}
+
+.export-btn.primary:hover {
+  background: #f0f8ff;
+}
+
+.export-btn.secondary {
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.export-btn.secondary:hover {
+  background: #f0fff4;
+}
+
+.btn-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.btn-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  line-height: 1.2;
+}
+
+.btn-text strong {
+  font-size: 11px;  /* Tiny */
+  font-weight: 700;  /* Bold */
+  text-transform: uppercase;  /* All caps */
+  letter-spacing: 0.5px;
+}
+
+.btn-text small {
+  font-size: 9px;  /* Even tinier for subtitle */
+  font-weight: normal;
+  text-transform: none;  /* Normal case for description */
+  letter-spacing: 0;
+  opacity: 0.7;
+}
+
+/* Button group for dual save options */
+.button-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.button-group button {
+  flex: 1;
+  margin-top: 0; /* Override default button margin */
+}
+
+.help-text {
+  margin: 6px 0 0 0;
+  font-size: 11px;
+  color: #666;
+  line-height: 1.4;
+}
+
+.help-text small {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .button-group {
+    flex-direction: column;
+    gap: 6px;
+  }
+}
 
 #gallery {
   flex: 1;
