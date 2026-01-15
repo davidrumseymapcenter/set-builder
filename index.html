@@ -76,20 +76,45 @@
 
   <div class="section-divider"></div>
 
-  <!-- Save Gallery Section -->
-  <div class="input-section">
-    <label for="manifestName" class="section-label">Save Gallery</label>
-    <input type="text" id="manifestName" placeholder="Enter gallery name (optional - auto-generated if empty)" />
-    <button id="saveLocally">💾 Save Locally</button>
-  </div>
-</div>
-      </div>
+         <!-- Save Gallery Section -->
+         <div class="input-section">
+  <label for="manifestName" class="section-label">Save Gallery Manifest</label>
+  <input type="text" id="manifestName" placeholder="Enter gallery name">
+
+            <div class="export-buttons">
+              
+              <button id="exportForViewers" class="export-btn secondary">
+                <span class="btn-icon">📤</span>
+                <span class="btn-text">
+                  <strong>Item</strong>
+                  <small>For IIIF viewers</small>
+                </span>
+              </button>
+
+               <button id="saveLocally" class="export-btn primary">
+                <span class="btn-icon">💾</span>
+                <span class="btn-text">
+                  <strong>Collection</strong>
+                  <small>For use in this app</small>
+                </span>
+              </button>
+              
+            </div>
+          </div> <!-- Close input-section -->
+        </div> <!-- Close inputPanel -->
+      </div> <!-- Close header -->
+
       <div id="gallery"></div>
-    </div>
+    </div> <!-- Close left-panel -->
+  
     <!-- Resizable divider -->
     <div id="resizer"></div>
-    <div id="viewer"></div>
-
+    
+    <div id="viewer">
+      <div id="viewerHint">Click any thumbnail to load an image.</div>
+    </div>
+  </div> <!-- Close container -->
+    
     <script src="script.js"></script>
     
     <!-- Page Selector Modal -->
