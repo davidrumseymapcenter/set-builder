@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Collection",
-  "@id": "https://example.org/collection/CaliforniaDreaming2026",
+  "@id": "https://iiif-gallery-builder.example.org/CaliforniaDreaming2026",
   "label": "CaliforniaDreaming2026",
   "items": [
     {
@@ -189,9 +189,9 @@
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
-      "@id": "https://purl.stanford.edu/dv843cp9178/iiif/manifest",
+      "@id": "https://purl.stanford.edu/fd398fy7644/iiif/manifest",
       "@type": "sc:Manifest",
-      "label": "Topographical Sketch of the Gold & Quicksilver District Of California, July 25th 1848. E. O. C. O. Lt. U.S.A. P.S. Duval's Lith. steam Press Phila",
+      "label": "Map Of The Gold Regions Of California, Showing the Routes via Chagres and Panama, Cape Horn, &c. ... Published by Ensigns & Thayer, 50 Ann Street New-York. (with untitled inset map of North and South America)",
       "attribution": "Property rights reside with the repository, Copyright © Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
       "logo": {
         "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
@@ -203,93 +203,85 @@
       },
       "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
       "seeAlso": {
-        "@id": "https://purl.stanford.edu/dv843cp9178.mods",
+        "@id": "https://purl.stanford.edu/fd398fy7644.mods",
         "format": "application/mods+xml"
       },
       "metadata": [
         {
           "label": "Available Online",
-          "value": "<a href='https://purl.stanford.edu/dv843cp9178'>https://purl.stanford.edu/dv843cp9178</a>"
+          "value": "<a href='https://purl.stanford.edu/fd398fy7644'>https://purl.stanford.edu/fd398fy7644</a>"
         },
         {
           "label": "Title",
-          "value": "Topographical Sketch of the Gold & Quicksilver District Of California, July 25th 1848. E. O. C. O. Lt. U.S.A. P.S. Duval's Lith. steam Press Phila"
+          "value": "Map Of The Gold Regions Of California, Showing the Routes via Chagres and Panama, Cape Horn, &c. ... Published by Ensigns & Thayer, 50 Ann Street New-York. (with untitled inset map of North and South America)"
         },
         {
           "label": "Contributor",
-          "value": "Ord, Edward Otho Cresap (E.O.C.O.)."
-        },
-        {
-          "label": "Contributor",
-          "value": "P.S. Duval's Lith."
+          "value": "Ensigns & Thayer."
         },
         {
           "label": "Type",
-          "value": "Map"
-        },
-        {
-          "label": "Type",
-          "value": "Cartographic image"
+          "value": "Text"
         },
         {
           "label": "Format",
-          "value": "1 map ; 55 x 39 cm."
+          "value": "1 sheet ; 71 x 52 cm."
         },
         {
           "label": "Description",
-          "value": "First accurate map to show the gold discoveries. In President Polk's Message to Congress, December 5, 1848, House Executive Document No.1, 30th Congress, Second Session. Wheat calls this \"Most important of all the maps of 1848...of paramount importance in any cartographical consideration of the gold rush.\" See also Mason's two maps published with his report in the same volume."
+          "value": "Broadside."
         },
         {
           "label": "Description",
-          "value": "References: Wheat Gold 54."
+          "value": "References: Wheat Gold 84."
         },
         {
           "label": "Description",
-          "value": "Separate Map."
+          "value": "With the wide (1.5 inch) ornamental border and printed on heavy paper. Similar to but an earlier version of the Upper or New California and Oregon portion of the Atwood and Ensigns & Thayer's Map of the United States, 1849. Closer to and derived from their Pictorial Map of the United States of 1847 (see Wheat). Also has a map of North and South America from an unknown source. Under the maps are two blocks of text, one titled \"Important Directions to Persons Emigrating to California\" and the other titled \"Description of California or the new Gold Region.\" Another version of this map was published on thinner paper and with a 5/16 inch ornamental border (Wheat 85) (see our copy- the title is in different print). The geography of the west is pre-Fremont 1848 unlike the 1849 Map of the United States which incorporates Fremont 1848. This makes us think that the map may be 1848 - there is no date on the map and Wheat estimates the date from sources he does not mention (other than finding the thinner paper copy in a book published in 1849). Full color."
         },
         {
           "label": "Local note",
-          "value": "Pub list no.: 3458.000."
+          "value": "Pub list no.: 3442.000."
         },
         {
           "label": "Subject",
-          "value": "California Gold Rush > Maps"
+          "value": "California Gold Rush"
         },
         {
           "label": "Subject",
-          "value": "U.S. War Dept > Maps"
+          "value": "Mining"
         },
         {
           "label": "Subject",
-          "value": "California > Maps"
+          "value": "California"
         },
         {
           "label": "Subject",
-          "value": "Sacramento Valley > Maps"
-        },
-        {
-          "label": "Subject",
-          "value": "Sierra Nevada > Maps"
+          "value": "Western Hemisphere"
         },
         {
           "label": "Coverage",
-          "value": "Scale 1:680,000."
+          "value": "Scale 1:40,000,000 (inset)."
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:6,000,000."
         },
         {
           "label": "Date",
-          "value": "1848"
+          "value": "1849"
         },
         {
           "label": "Date",
-          "value": "1848"
+          "value": "[1849]"
         },
         {
           "label": "Identifier",
-          "value": "https://purl.stanford.edu/dv843cp9178"
+          "value": "https://purl.stanford.edu/fd398fy7644"
         },
         {
           "label": "Publisher",
-          "value": "U.S,"
+          "value": "Ensigns & Thayer,"
         },
         {
           "label": "Relation",
@@ -297,57 +289,57 @@
         },
         {
           "label": "Record published",
-          "value": "2016-02-27"
+          "value": "2016-03-09"
         }
       ],
-      "description": "First accurate map to show the gold discoveries. In President Polk's Message to Congress, December 5, 1848, House Executive Document No.1, 30th Congress, Second Session. Wheat calls this \"Most important of all the maps of 1848...of paramount importance in any cartographical consideration of the gold rush.\" See also Mason's two maps published with his report in the same volume.",
+      "description": "Broadside.",
       "thumbnail": {
-        "@id": "https://stacks.stanford.edu/image/iiif/dv843cp9178%2F3458000/full/!400,400/0/default.jpg",
+        "@id": "https://stacks.stanford.edu/image/iiif/fd398fy7644%2F3442000/full/!400,400/0/default.jpg",
         "@type": "dctypes:Image",
         "format": "image/jpeg",
         "service": {
           "@context": "http://iiif.io/api/image/2/context.json",
-          "@id": "https://stacks.stanford.edu/image/iiif/dv843cp9178%2F3458000",
+          "@id": "https://stacks.stanford.edu/image/iiif/fd398fy7644%2F3442000",
           "profile": "http://iiif.io/api/image/2/level2.json"
         },
-        "width": 309,
+        "width": 293,
         "height": 400
       },
       "sequences": [
         {
-          "@id": "https://purl.stanford.edu/dv843cp9178/iiif/manifest#sequence-1",
+          "@id": "https://purl.stanford.edu/fd398fy7644/iiif/manifest#sequence-1",
           "@type": "sc:Sequence",
           "label": "Current order",
           "viewingDirection": "left-to-right",
           "canvases": [
             {
-              "@id": "https://purl.stanford.edu/dv843cp9178/iiif/canvas/cocina-fileSet-dv843cp9178-dv843cp9178_1",
+              "@id": "https://purl.stanford.edu/fd398fy7644/iiif/canvas/cocina-fileSet-fd398fy7644-fd398fy7644_1",
               "@type": "sc:Canvas",
               "label": "Image 1",
-              "height": 6984,
-              "width": 5403,
+              "height": 8709,
+              "width": 6376,
               "rendering": [
                 {
-                  "@id": "https://stacks.stanford.edu/file/dv843cp9178/3458000.jp2",
-                  "label": "Original source file (6.79 MB)",
+                  "@id": "https://stacks.stanford.edu/file/fd398fy7644/3442000.jp2",
+                  "label": "Original source file (9.99 MB)",
                   "format": "image/jp2"
                 }
               ],
               "images": [
                 {
-                  "@id": "https://purl.stanford.edu/dv843cp9178/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fdv843cp9178-dv843cp9178_1%2F3458000.jp2",
+                  "@id": "https://purl.stanford.edu/fd398fy7644/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Ffd398fy7644-fd398fy7644_1%2F3442000.jp2",
                   "@type": "oa:Annotation",
                   "motivation": "sc:painting",
-                  "on": "https://purl.stanford.edu/dv843cp9178/iiif/canvas/cocina-fileSet-dv843cp9178-dv843cp9178_1",
+                  "on": "https://purl.stanford.edu/fd398fy7644/iiif/canvas/cocina-fileSet-fd398fy7644-fd398fy7644_1",
                   "resource": {
-                    "@id": "https://stacks.stanford.edu/image/iiif/dv843cp9178%2F3458000/full/full/0/default.jpg",
+                    "@id": "https://stacks.stanford.edu/image/iiif/fd398fy7644%2F3442000/full/full/0/default.jpg",
                     "@type": "dctypes:Image",
                     "format": "image/jpeg",
-                    "height": 6984,
-                    "width": 5403,
+                    "height": 8709,
+                    "width": 6376,
                     "service": {
                       "@context": "http://iiif.io/api/image/2/context.json",
-                      "@id": "https://stacks.stanford.edu/image/iiif/dv843cp9178%2F3458000",
+                      "@id": "https://stacks.stanford.edu/image/iiif/fd398fy7644%2F3442000",
                       "profile": "http://iiif.io/api/image/2/level2.json"
                     }
                   }
@@ -1096,7 +1088,6 @@
       },
       "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~260348~5522945"
     },
-    
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "sc:Manifest",
