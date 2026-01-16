@@ -76,36 +76,26 @@
 
   <div class="section-divider"></div>
 
-         <!-- Save Gallery Section -->
-         <div class="input-section">
-  <label for="manifestName" class="section-label">Save Gallery Manifest</label>
+  <!-- Save Gallery Section -->
+<div class="input-section">
+  <label for="manifestName" class="section-label">Save Gallery</label>
   <input type="text" id="manifestName" placeholder="Enter gallery name">
 
-            <div class="export-buttons">
-              
-              <button id="exportForViewers" class="export-btn secondary">
-                <span class="btn-icon">📤</span>
-                <span class="btn-text">
-                  <strong>Item</strong>
-                  <small>For IIIF viewers</small>
-                </span>
-              </button>
+  <div class="export-buttons-row">
+<button id="saveLocally">💾  Save File</button>
 
-               <button id="saveLocally" class="export-btn primary">
-                <span class="btn-icon">💾</span>
-                <span class="btn-text">
-                  <strong>Collection</strong>
-                  <small>For use in this app</small>
-                </span>
-              </button>
-              
-            </div>
-          </div> <!-- Close input-section -->
-        </div> <!-- Close inputPanel -->
-      </div> <!-- Close header -->
+    <button id="exportForViewers" class="export-iiif-btn" title="Export for IIIF Viewers">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" 
+           alt="Export Manifest" 
+           class="iiif-export-icon">
+    </button>
+  </div>
+  </div> <!-- Close input-section -->
+</div> <!-- Close inputPanel -->
+</div> <!-- Close header -->
 
-      <div id="gallery"></div>
-    </div> <!-- Close left-panel -->
+<div id="gallery"></div>
+   </div> <!-- Close left-panel -->
   
     <!-- Resizable divider -->
     <div id="resizer"></div>
@@ -115,6 +105,7 @@
     </div>
   </div> <!-- Close container -->
     
+
     <script src="script.js"></script>
     
     <!-- Page Selector Modal -->

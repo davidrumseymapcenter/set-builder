@@ -97,8 +97,10 @@ body {
   transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
   max-height: 1000px;
   opacity: 1;
-  padding: 12px 10px; /* Add internal padding, reduce from sides */
+  padding: 12px 2px 5px 0px; /* Top Right Bottom Left - minimal bottom padding */
+  position: relative; /* Add this for potential absolute positioning */
 }
+
 
 .input-panel.hidden {
   max-height: 0;
@@ -109,7 +111,7 @@ body {
 .header input {
   margin-top: 6px; /* Reduced from 10px */
   font-family: 'Open Sans', sans-serif;
-  width: calc(100% - 20px);
+  width: 100%;
   padding: 6px 8px; /* Reduced from 8px */
   box-sizing: border-box;
   border: 1px solid #d0d0d0;
@@ -293,16 +295,92 @@ body {
   opacity: 0.7;
 }
 
-/* Button group for dual save options */
-.button-group {
+/* Reduce export button row bottom space */
+.export-buttons-row {
   display: flex;
-  gap: 8px;
-  margin-top: 6px;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 10px;
+  margin-bottom: 0; /* Ensure no extra bottom margin */
 }
 
-.button-group button {
-  flex: 1;
-  margin-top: 0; /* Override default button margin */
+/* Save button - lighter border to match other elements */
+.export-btn.single {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;  /* Changed from 2px solid #333 - lighter and thinner */
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 11px;
+  font-family: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  color: #666;
+}
+
+.export-btn.single:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background: #f5f5f5;
+  color: #333;
+  border-color: #999;  /* Slightly darker on hover */
+}
+
+/* Row container - align IIIF button to right edge of inputs */
+.export-buttons-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;  /* Align to bottom for better visual */
+  margin-top: 10px;
+}
+
+
+.iiif-export-icon {
+  width: 30px;
+  height: auto;
+  filter: grayscale(100%);
+  display: block;
+}
+
+
+/* IIIF export button - override .header button styles */
+button.export-iiif-btn {
+  background: #f5f5f5 !important;
+  border: none !important;
+  padding: 4px !important;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s ease, background 0.2s ease;
+  margin-right: 0px;
+  border-radius: 3px;
+  margin-top: 0;
+}
+
+button.export-iiif-btn:hover {
+  opacity: 1;
+  background: #e8e8e8 !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+button.export-iiif-btn:active {
+  transform: none !important;
+  box-shadow: none !important;
+}
+* Reduce white space at bottom of input panel */
+.input-panel {
+  padding-bottom: 15px;  /* Reduced from default */
+}
+
+/* Ensure input section has no bottom margin */
+.input-section:last-child {
+  margin-bottom: 0;
 }
 
 .help-text {
@@ -322,6 +400,7 @@ body {
     gap: 6px;
   }
 }
+
 
 #gallery {
   flex: 1;
@@ -782,7 +861,7 @@ body {
 #galleryUrl {
   margin-top: 0;
   font-family: 'Open Sans', sans-serif;
-  width: calc(100% - 20px);
+  width: 100%;
   padding: 6px 8px;
   box-sizing: border-box;
   border: 1px solid #d0d0d0;
