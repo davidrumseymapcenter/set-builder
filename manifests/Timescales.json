@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Collection",
-  "@id": "https://example.org/collection/Timescales",
+  "@id": "https://iiif-gallery-builder.example.org/Timescales",
   "label": "Timescales",
   "items": [
     {
@@ -2311,6 +2311,699 @@
         "format": "image/png"
       },
       "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~358636~90125282"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292898~90064461/manifest",
+      "label": "View: Gold and Silver Smiths in the Territory of Chito.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~292898~90064461/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292898~90064461/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "View: Gold and Silver Smiths in the Territory of Chito.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Ogilby, John, 1600-1676"
+                },
+                {
+                  "label": "Author",
+                  "value": "Montanus, Arnoldus, 1625?-1683"
+                },
+                {
+                  "label": "Date",
+                  "value": "1671"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "View: Gold and Silver Smiths in the Territory of Chito."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Ogilby, John"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Reference",
+                  "value": "Burton, Philip D., 2007, The Mapping of North America II. A List of Printed Maps 1671-1700; Cumming, Southeast in Early Maps 70."
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(View) \"Gold and Silver Smiths in the Territory of Chito\"."
+                },
+                {
+                  "label": "List No",
+                  "value": "12241.010"
+                },
+                {
+                  "label": "Page No",
+                  "value": "14"
+                },
+                {
+                  "label": "Series No",
+                  "value": "10"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "RR Donnelley"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ogilby, John, 1600-1676"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Montanus, Arnoldus, 1625?-1683"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1671"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "America: Being The Latest, And Most accurate Description Of The New World; Containing The Original of the Inhabitants, and the Remarkable Voyages thither. The Conquest of the Vast Empires of Mexico and Peru, And Other Large Provinces and Territories ... Collected from the most Authentick Authors, Augmented with later Observations, and Adorn'd with Maps and Sculptures, by John Ogilby, esq; His Majesty's Cosmographer, Geographick Printer, and Master of the Revels in the Kingdom of Ireland. London, Printed by the Author, and are to be had at his House in White Fryers, M.DC.LXXI."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "First edition, second issue, with the important Lord Proprietors map of Carolina by Moxon replacing the Arx Carolina plate and the Virginia pars Australis map of the first issue, with the addition of a map of Barbados, and with the plate list as in the first issue still listing Arx Carolina and Virginia pars Australis but not listing the Lords Proprietors Carolina or Barbados. This copy includes both the Arx Carolina plate and the Virginia pars Australis map, tipped in later. The work is an English translation of Arnold Montanus “De Nieuwe en Onbekende Weereld,” but with a number of additions concerning New England, New France, Maryland and Virginia. Many new maps and views were added. The Moxon map of Carolina is the first large format map of the newly established colony of Carolina. “America” was Ogilby’s finest foreign work; over 150 authors are credited although Montanus is lacking. “When it came to North America, particularly, he abandoned Montanus entirely for his own closer sources. His work used superior type and larger and finer paper than Montanus. Clearly some form of at least tacit agreement existed between Montanus and Ogilby as he acquired the same plates to illustrate his work. This is itself unusual as Ogilby was renowned for providing his own ‘sculptures’. The reasons may lie in the fact that the project clearly was already an expensive one, and that the work had been promised for some time and further delay was undesirable. The first map in the book, of the whole of America, was one of five plates provided by Ogilby himself. We may speculate that this was because Montanus did not actually own the Schagen plate, or that Ogilby wished to insert more English nomenclature” (Burden). Regarding Ogilby himself, he had a series of remarkably successful careers as a dancer, dance master, theatre manager/director, and translator of classics, and finally as author and publisher of travel and geography books."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12241.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "26"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12241010.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/12241010.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Ogilby, John, 1600-1676 ; Montanus, Arnoldus, 1625?-1683"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292898~90064461/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292898~90064461/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292898~90064461",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 3626,
+                    "height": 2624
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292898~90064461/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292898~90064461/list/luna"
+              ],
+              "width": 3626,
+              "height": 2624
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~292898~90064461"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292939~90064501/manifest",
+      "label": "View: (Strange Animals of Guatemala.)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~292939~90064501/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292939~90064501/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "View: (Strange Animals of Guatemala.)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Ogilby, John, 1600-1676"
+                },
+                {
+                  "label": "Author",
+                  "value": "Montanus, Arnoldus, 1625?-1683"
+                },
+                {
+                  "label": "Date",
+                  "value": "1671"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "View: (Strange Animals of Guatemala.)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Ogilby, John"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Reference",
+                  "value": "Burton, Philip D., 2007, The Mapping of North America II. A List of Printed Maps 1671-1700; Cumming, Southeast in Early Maps 70."
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(View) (Strange Animals of Guatemala.)"
+                },
+                {
+                  "label": "List No",
+                  "value": "12241.051"
+                },
+                {
+                  "label": "Page No",
+                  "value": "225"
+                },
+                {
+                  "label": "Series No",
+                  "value": "51"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "RR Donnelley"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ogilby, John, 1600-1676"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Montanus, Arnoldus, 1625?-1683"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1671"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "America: Being The Latest, And Most accurate Description Of The New World; Containing The Original of the Inhabitants, and the Remarkable Voyages thither. The Conquest of the Vast Empires of Mexico and Peru, And Other Large Provinces and Territories ... Collected from the most Authentick Authors, Augmented with later Observations, and Adorn'd with Maps and Sculptures, by John Ogilby, esq; His Majesty's Cosmographer, Geographick Printer, and Master of the Revels in the Kingdom of Ireland. London, Printed by the Author, and are to be had at his House in White Fryers, M.DC.LXXI."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "First edition, second issue, with the important Lord Proprietors map of Carolina by Moxon replacing the Arx Carolina plate and the Virginia pars Australis map of the first issue, with the addition of a map of Barbados, and with the plate list as in the first issue still listing Arx Carolina and Virginia pars Australis but not listing the Lords Proprietors Carolina or Barbados. This copy includes both the Arx Carolina plate and the Virginia pars Australis map, tipped in later. The work is an English translation of Arnold Montanus “De Nieuwe en Onbekende Weereld,” but with a number of additions concerning New England, New France, Maryland and Virginia. Many new maps and views were added. The Moxon map of Carolina is the first large format map of the newly established colony of Carolina. “America” was Ogilby’s finest foreign work; over 150 authors are credited although Montanus is lacking. “When it came to North America, particularly, he abandoned Montanus entirely for his own closer sources. His work used superior type and larger and finer paper than Montanus. Clearly some form of at least tacit agreement existed between Montanus and Ogilby as he acquired the same plates to illustrate his work. This is itself unusual as Ogilby was renowned for providing his own ‘sculptures’. The reasons may lie in the fact that the project clearly was already an expensive one, and that the work had been promised for some time and further delay was undesirable. The first map in the book, of the whole of America, was one of five plates provided by Ogilby himself. We may speculate that this was because Montanus did not actually own the Schagen plate, or that Ogilby wished to insert more English nomenclature” (Burden). Regarding Ogilby himself, he had a series of remarkably successful careers as a dancer, dance master, theatre manager/director, and translator of classics, and finally as author and publisher of travel and geography books."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12241.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "26"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12241051.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/12241051.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Ogilby, John, 1600-1676 ; Montanus, Arnoldus, 1625?-1683"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292939~90064501/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292939~90064501/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292939~90064501",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 4265,
+                    "height": 3254
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292939~90064501/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292939~90064501/list/luna"
+              ],
+              "width": 4265,
+              "height": 3254
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~292939~90064501"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292973~90066923/manifest",
+      "label": "Peru.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~292973~90066923/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292973~90066923/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Peru.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Ogilby, John, 1600-1676"
+                },
+                {
+                  "label": "Author",
+                  "value": "Montanus, Arnoldus, 1625?-1683"
+                },
+                {
+                  "label": "Date",
+                  "value": "1671"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Peru."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Ogilby, John"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Book Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Reference",
+                  "value": "Burton, Philip D., 2007, The Mapping of North America II. A List of Printed Maps 1671-1700; Cumming, Southeast in Early Maps 70."
+                },
+                {
+                  "label": "Country",
+                  "value": "Peru"
+                },
+                {
+                  "label": "Country",
+                  "value": "Ecuador"
+                },
+                {
+                  "label": "Country",
+                  "value": "Bolivia"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Peru."
+                },
+                {
+                  "label": "List No",
+                  "value": "12241.085"
+                },
+                {
+                  "label": "Page No",
+                  "value": "after 412"
+                },
+                {
+                  "label": "Series No",
+                  "value": "85"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "RR Donnelley"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ogilby, John, 1600-1676"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Montanus, Arnoldus, 1625?-1683"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1671"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "America: Being The Latest, And Most accurate Description Of The New World; Containing The Original of the Inhabitants, and the Remarkable Voyages thither. The Conquest of the Vast Empires of Mexico and Peru, And Other Large Provinces and Territories ... Collected from the most Authentick Authors, Augmented with later Observations, and Adorn'd with Maps and Sculptures, by John Ogilby, esq; His Majesty's Cosmographer, Geographick Printer, and Master of the Revels in the Kingdom of Ireland. London, Printed by the Author, and are to be had at his House in White Fryers, M.DC.LXXI."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "First edition, second issue, with the important Lord Proprietors map of Carolina by Moxon replacing the Arx Carolina plate and the Virginia pars Australis map of the first issue, with the addition of a map of Barbados, and with the plate list as in the first issue still listing Arx Carolina and Virginia pars Australis but not listing the Lords Proprietors Carolina or Barbados. This copy includes both the Arx Carolina plate and the Virginia pars Australis map, tipped in later. The work is an English translation of Arnold Montanus “De Nieuwe en Onbekende Weereld,” but with a number of additions concerning New England, New France, Maryland and Virginia. Many new maps and views were added. The Moxon map of Carolina is the first large format map of the newly established colony of Carolina. “America” was Ogilby’s finest foreign work; over 150 authors are credited although Montanus is lacking. “When it came to North America, particularly, he abandoned Montanus entirely for his own closer sources. His work used superior type and larger and finer paper than Montanus. Clearly some form of at least tacit agreement existed between Montanus and Ogilby as he acquired the same plates to illustrate his work. This is itself unusual as Ogilby was renowned for providing his own ‘sculptures’. The reasons may lie in the fact that the project clearly was already an expensive one, and that the work had been promised for some time and further delay was undesirable. The first map in the book, of the whole of America, was one of five plates provided by Ogilby himself. We may speculate that this was because Montanus did not actually own the Schagen plate, or that Ogilby wished to insert more English nomenclature” (Burden). Regarding Ogilby himself, he had a series of remarkably successful careers as a dancer, dance master, theatre manager/director, and translator of classics, and finally as author and publisher of travel and geography books."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12241.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "26"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12241085.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/12241085.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Ogilby, John, 1600-1676 ; Montanus, Arnoldus, 1625?-1683"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292973~90066923/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292973~90066923/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292973~90066923",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12448,
+                    "height": 8838
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292973~90066923/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292973~90066923/list/luna"
+              ],
+              "width": 12448,
+              "height": 8838
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~292973~90066923"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348737~90116370/manifest",
+      "label": "Land of Opportunity",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~348737~90116370/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348737~90116370/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Land of Opportunity",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Zheng, Yunxin (Connie)"
+                },
+                {
+                  "label": "Date",
+                  "value": "2022"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Land of Opportunity"
+                },
+                {
+                  "label": "Type",
+                  "value": "Artwork"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "213"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "213"
+                },
+                {
+                  "label": "Note",
+                  "value": "\"Mixed media drawing and collage on cyanotype print. Land of Opportunity is a map that documents forty-three of the most well-documented toxic sites in the Bay Area, alongside local environmental justice protests and both federal and community-based remediation efforts. The tar-like blobs dripping down the paper are places notable for the amount of toxic material that has leaked into the soil and groundwater primarily as a result of high-tech industry, military activities, mercury mining during the gold rush era, and nuclear testing in the South Pacific during World War II. Despite its reputation for being one of the ‘greenest’ places in the United States, the Bay Area also has one of the highest concentrations of Superfund sites in the country, particularly in Silicon Valley, the techno-utopian capital of the United States. The map emphasizes community-based, grassroots organizing efforts, and shows both the kinds of poisons that have contaminated the land as well as the ways in which surrounding communities have protested the presence of these polluters and demanded their right to a clean, healthy environment. Land of Opportunity is a register of the ways in which the Bay Area has been shaped — both figuratively and literally — by dominant settler narratives of the landscape’s potential for wealth and resource extraction. But it is also more than the shadowland of settler, entrepreneurial greed, or the American imperial war machine: it’s also a place constituted and nourished by strong radical politics, care for community, and a trust in the power of local organizing. We live in a place of endless possibility — where the byproducts of greed and warmongering can be sublimated into other forms of power, and politics can be shaped in certain places by the will of the people.\" Connie Zheng, 2022 https://www.conniezheng.com"
+                },
+                {
+                  "label": "Reference",
+                  "value": "This artwork is copyright by Connie Zheng. Please contact the artist for reproduction or exhibit. https://www.conniezheng.com"
+                },
+                {
+                  "label": "City",
+                  "value": "San Francisco (Calif.)"
+                },
+                {
+                  "label": "Region",
+                  "value": "San Francisco Bay (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Art"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Food"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Land of Opportunity"
+                },
+                {
+                  "label": "List No",
+                  "value": "15417.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Zheng, Yunxin (Connie)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "2022"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Land of Opportunity"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15417.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Artwork"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "213"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "213"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15417000.jp2"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Zheng, Yunxin (Connie)"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348737~90116370/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348737~90116370/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348737~90116370",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 25136,
+                    "height": 25159
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348737~90116370/canvas/c1"
+                }
+              ],
+              "width": 25136,
+              "height": 25159
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~348737~90116370"
     }
   ]
 }
