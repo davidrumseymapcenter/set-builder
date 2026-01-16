@@ -19,10 +19,11 @@ body {
 .container.viewerHidden #viewer { display:none; }
 
 .left-panel {
-  width: 40%; /* Left panel occupies 40% */
+  width: 700px; /* Start with perfect 3-card width */
   display: flex;
   flex-direction: column;
-  min-width: 200px; /* Minimum width for left panel */
+  min-width: 470px; /* Don't go smaller than 2 cards */
+  max-width: 60%; /* Don't dominate huge screens */
 }
 
 .header {
