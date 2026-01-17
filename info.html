@@ -770,7 +770,123 @@
         <strong>💡 For Developers:</strong> This is an open-source project. You can view the source code, report issues, or contribute improvements on <a href="https://github.com/davidrumseymapcenter/set-builder" target="blank">GitHub</a>.
       </div>
     </div>
+<!-- Technical Notes Section -->
+<section id="technical-notes">
+  <h2>Technical Notes</h2>
+  
+  <h3>Overview</h3>
+  <p>The IIIF Image Gallery Builder is a web-based tool that allows users to curate custom collections of images from any institution that provides IIIF-compliant image manifests. Users can select individual pages from multi-page documents, reorder items through drag-and-drop, and export their curated galleries in formats optimized for different use cases.</p>
+
+  <h3>Why Two Export Options?</h3>
+  <p>The application provides two distinct save/export formats, each serving a specific purpose:</p>
+
+  <h4>1. "Save Gallery" (for reloading in this app)</h4>
+  <p><strong>File format:</strong> <code>-gallery.json</code> (Collection format with embedded manifests)</p>
+  
+  <p>This option preserves your complete working state, including:</p>
+  <ul>
+    <li>The exact selection of pages you chose from multi-page documents</li>
+    <li>The order you arranged items through drag-and-drop</li>
+    <li>The full metadata for each image</li>
+    <li>All manifest information needed to reload your gallery exactly as you left it</li>
+  </ul>
+
+  <p><strong>Technical detail:</strong> This format embeds complete IIIF manifests within a Collection structure. While this isn't how IIIF Collections typically work (they usually reference manifests by URL rather than embedding them), it's necessary because when you select specific pages from a 100-page book, that modified manifest doesn't exist anywhere on the web—it only exists in your browser session. By embedding the modified manifest, we preserve your exact curation choices.</p>
+
+  <p><strong>Use case:</strong> You're building a gallery over multiple sessions, or collaborating with others who also use this tool.</p>
+
+  <h4>2. "Export Manifest" (for IIIF viewers)</h4>
+  <p><strong>File format:</strong> <code>-manifest.json</code> (Flattened IIIF Presentation manifest)</p>
+
+  <p>This option creates a single, standards-compliant IIIF manifest that can be opened in any IIIF viewer (Universal Viewer, Mirador, etc.). All your selected images are combined into one sequence, with:</p>
+  <ul>
+    <li>Proper canvas labels extracted from metadata</li>
+    <li>Source attribution preserved in metadata fields</li>
+    <li>Full IIIF 2.0 compliance for maximum compatibility</li>
+  </ul>
+
+  <p><strong>Technical detail:</strong> This format "flattens" all your selections into a single manifest with one sequence containing all canvases. It's completely portable and works in any IIIF-compatible viewer or application.</p>
+
+  <p><strong>Use case:</strong> You want to share your curated gallery publicly, embed it in a website, or open it in professional IIIF viewing applications.</p>
+
+  <h3>Key Design Decisions</h3>
+
+  <h4>Client-Side Architecture</h4>
+  <p>The application runs entirely in the browser with no backend server. This means:</p>
+  <ul>
+    <li><strong>For users:</strong> No account creation, no data tracking, instant performance</li>
+    <li><strong>For developers:</strong> No hosting costs, no server maintenance, easy deployment via GitHub Pages</li>
+    <li><strong>Trade-off:</strong> Collections must embed manifests rather than reference them by URL (since there's nowhere to host the modified manifests we create)</li>
+  </ul>
+
+  <h4>Page Selection Feature</h4>
+  <p>When users add a multi-page IIIF manifest (like a 200-page book), they can select only the specific pages they want. This creates a "modified manifest" that exists only in the application's memory. This modified manifest cannot be referenced by URL because it doesn't exist at a URL—it's ephemeral.</p>
+
+  <p>This is why the "Save Gallery" format embeds complete manifests: to preserve these user-curated selections. Without embedding, we would lose the user's page selections and have to include entire multi-page documents.</p>
+
+  <h4>Standards Compliance</h4>
+  <p>The application handles both IIIF Presentation API 2.0 and 3.0 manifests, and automatically sanitizes common validation issues found in source manifests (such as David Rumsey's <code>otherContent</code> field being a string instead of an array). The exported <code>-manifest.json</code> files are fully IIIF 2.0 compliant and pass validation.</p>
+
+  <h3>Why Not Full IIIF Collection Compliance?</h3>
+  <p>A standards-compliant IIIF Collection references manifests by URL rather than embedding them. For this app to create compliant collections, it would need to:</p>
+  <ol>
+    <li>Host each modified manifest at a unique URL</li>
+    <li>Create a collection that references those URLs</li>
+    <li>Maintain that hosting indefinitely</li>
+  </ol>
+
+  <p>This would require either:</p>
+  <ul>
+    <li>A backend server (eliminating the simplicity of client-side operation)</li>
+    <li>Integration with a third-party hosting service (adding complexity and dependencies)</li>
+    <li>A manual workflow where users host files themselves (poor user experience)</li>
+  </ul>
+
+  <p>The current approach trades IIIF Collection compliance for:</p>
+  <ul>
+    <li><strong>Simplicity:</strong> No server, no hosting, no accounts</li>
+    <li><strong>Functionality:</strong> Preserve page selections and custom ordering</li>
+    <li><strong>Portability:</strong> The <code>-manifest.json</code> export provides full IIIF compliance for sharing</li>
+  </ul>
+
+  <h3>Use Case Scenarios</h3>
+
+  <h4>Researcher creating a teaching resource:</h4>
+  <ol>
+    <li>Selects relevant pages from multiple archival collections</li>
+    <li>Arranges them in pedagogical order</li>
+    <li>Saves progress with "Save Gallery"</li>
+    <li>When finished, uses "Export Manifest" to share with students via Universal Viewer</li>
+  </ol>
+
+  <h4>Digital Humanities project:</h4>
+  <ol>
+    <li>Curates images from different institutions for a digital exhibition</li>
+    <li>Collaborates with colleagues by sharing the <code>-gallery.json</code> file</li>
+    <li>Exports final manifest for embedding in project website</li>
+  </ol>
+
+  <h4>Librarian building subject guides:</h4>
+  <ol>
+    <li>Pulls relevant maps from various IIIF repositories</li>
+    <li>Reorders them thematically through drag-and-drop</li>
+    <li>Maintains working collection in <code>-gallery.json</code> format</li>
+    <li>Publishes finished galleries as <code>-manifest.json</code> files for patrons</li>
+  </ol>
+
+  <h3>Technical Benefits</h3>
+  <ul>
+    <li><strong>Zero infrastructure costs:</strong> Runs on GitHub Pages or any static host</li>
+    <li><strong>Privacy-preserving:</strong> No user data collected or stored server-side</li>
+    <li><strong>Extensible:</strong> Open source, easy to fork and modify</li>
+    <li><strong>Format flexibility:</strong> Dual export system serves both internal and external use cases</li>
+  </ul>
+
+  <h3>Conclusion</h3>
+  <p>The IIIF Image Gallery Builder's dual-export system reflects a pragmatic balance between user functionality and technical standards. The <code>-gallery.json</code> format prioritizes preserving user intent (page selections, ordering, working state) while the <code>-manifest.json</code> format prioritizes interoperability with the broader IIIF ecosystem. This approach delivers a powerful, simple-to-use curation tool without requiring server infrastructure, while still producing standards-compliant outputs for public sharing.</p>
+</section>
 
   </div> <!-- End info-container -->
+  
 </body>
 </html>
