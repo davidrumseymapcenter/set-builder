@@ -706,13 +706,48 @@ async function addManifestToGallery(manifestUrl) {
     if (canvasItems.length > 1) {
       // Show page selector
       showPageSelector(manifest, canvasItems);
-    } else {
-      // Single page - add directly
-      collectedManifests.push(manifest);
-      canvasItems.forEach(canvas => {
-        addCanvasToGallery(canvas, manifest);
-      });
+   
+      } else {
+  // Single page - add directly
+  
+  // Ensure manifest has a label
+  if (!manifest.label) {
+    const metadata = manifest.metadata || [];
+    let foundTitle = null;
+    
+    for (const item of metadata) {
+      const labelText = typeof item.label === 'string' ? item.label : 
+                        (typeof item.label === 'object' ? Object.values(item.label).flat().join('') : '');
+      
+      if (labelText.toLowerCase() === 'title') {
+        if (typeof item.value === 'string') {
+          foundTitle = item.value;
+        } else if (Array.isArray(item.value)) {
+          foundTitle = item.value[0];
+        } else if (typeof item.value === 'object') {
+          foundTitle = Object.values(item.value).flat()[0];
+        }
+        break;
+      }
     }
+    
+    if (foundTitle) {
+      manifest.label = foundTitle;
+    } else if (canvasItems[0] && canvasItems[0].label) {
+      const iiifVersion = getIIIFVersion(manifest);
+      if (iiifVersion === 3 && typeof canvasItems[0].label === 'object') {
+        manifest.label = Object.values(canvasItems[0].label).flat()[0] || 'Untitled';
+      } else {
+        manifest.label = canvasItems[0].label || 'Untitled';
+      }
+    }
+  }
+  
+  collectedManifests.push(manifest);
+  canvasItems.forEach(canvas => {
+    addCanvasToGallery(canvas, manifest);
+  });
+}
 
   } catch (error) {
     console.error('Error fetching IIIF Manifest:', error);
@@ -745,66 +780,90 @@ function exportCombinedManifest() {
   // Build manifests array from current gallery order
   // Use a Map to track unique manifests and prevent duplicates
   const manifestMap = new Map();
+ cards.forEach(card => {
+  // Find the manifest link in the card
+  const manifestLinks = card.querySelectorAll('a');
+  let manifestUrl = null;
   
-  cards.forEach(card => {
-    // Find the manifest link in the card
-    const manifestLinks = card.querySelectorAll('a');
-    let manifestUrl = null;
-    
-    manifestLinks.forEach(link => {
-      if (link.textContent === 'View Manifest') {
-        manifestUrl = link.href;
-      }
-    });
-    
-    if (manifestUrl) {
-      // Find the corresponding manifest in collectedManifests
-      const manifest = collectedManifests.find(m => 
-        (m['@id'] === manifestUrl || m.id === manifestUrl)
-      );
-      
-      if (manifest) {
-        // Use manifest URL as key to prevent duplicates
-        const key = manifest['@id'] || manifest.id;
-        if (!manifestMap.has(key)) {
-          manifestMap.set(key, manifest);
-        }
-      }
+  manifestLinks.forEach(link => {
+    if (link.textContent === 'View Manifest') {
+      manifestUrl = link.href;
     }
   });
+  
+  if (manifestUrl) {
+    // Find the corresponding manifest in collectedManifests
+    const manifest = collectedManifests.find(m => 
+      (m['@id'] === manifestUrl || m.id === manifestUrl)
+    );
+    
+    if (manifest) {
+      // Use manifest URL as key to prevent duplicates
+      const key = manifest['@id'] || manifest.id;
+      if (!manifestMap.has(key)) {
+        manifestMap.set(key, manifest);
+      }
+    }
+  }
+});
 
-  // Convert Map back to array (in the order they were encountered)
-  const currentManifests = Array.from(manifestMap.values());
+// Convert Map back to array (in the order they were encountered)
+const currentManifests = Array.from(manifestMap.values());
 
-  // Update collectedManifests to match current state
-  collectedManifests = currentManifests;
+// Update collectedManifests to match current state
+collectedManifests = currentManifests;
 
-  // Create a combined manifest structure (Collection format)
-  const combinedManifest = {
-    '@context': 'http://iiif.io/api/presentation/2/context.json',
-    '@type': 'sc:Collection',
-    '@id': `https://iiif-gallery-builder.example.org/${finalName}`,
-    'label': finalName,
-    'items': collectedManifests
-  };
+// Sanitize all manifests to fix otherContent issues
+const sanitizedManifests = collectedManifests.map(manifest => {
+  const sanitized = JSON.parse(JSON.stringify(manifest)); // Deep clone
+  
+  // Fix canvases in IIIF 2.0 manifests
+  if (sanitized.sequences && sanitized.sequences[0] && sanitized.sequences[0].canvases) {
+    sanitized.sequences[0].canvases.forEach(canvas => {
+      // Fix otherContent if it's a string instead of array
+      if (canvas.otherContent && typeof canvas.otherContent === 'string') {
+        canvas.otherContent = [canvas.otherContent];
+      }
+    });
+  }
+  
+  // Fix items in IIIF 3.0 manifests
+  if (sanitized.items) {
+    sanitized.items.forEach(canvas => {
+      if (canvas.otherContent && typeof canvas.otherContent === 'string') {
+        canvas.otherContent = [canvas.otherContent];
+      }
+    });
+  }
+  
+  return sanitized;
+});
 
-  // Convert to JSON string
-  const manifestJson = JSON.stringify(combinedManifest, null, 2);
+// Create a combined manifest structure (Collection format)
+const combinedManifest = {
+  '@context': 'http://iiif.io/api/presentation/2/context.json',
+  '@type': 'sc:Collection',
+  '@id': `https://iiif-gallery-builder.example.org/${finalName}`,
+  'label': finalName,
+  'items': sanitizedManifests
+};
 
-  // Create a blob and download
-  const blob = new Blob([manifestJson], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = `${finalName}-gallery.json`;
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
+// Convert to JSON string
+const manifestJson = JSON.stringify(combinedManifest, null, 2);
 
-  alert(`Manifest "${finalName}" has been exported successfully!`);
+// Create a blob and download
+const blob = new Blob([manifestJson], { type: 'application/json' });
+const url = URL.createObjectURL(blob);
+const a = document.createElement('a');
+a.href = url;
+a.download = `${finalName}-gallery.json`;
+document.body.appendChild(a);
+a.click();
+document.body.removeChild(a);
+URL.revokeObjectURL(url);
+
+alert(`Manifest "${finalName}" has been exported successfully!`);
 }
-
 
 // Function to export gallery as a flattened IIIF Manifest (interoperable format)
 function exportAsManifest() {
@@ -836,70 +895,92 @@ function exportAsManifest() {
     const manifestId = card.dataset.manifestId;
     
     if (canvasData) {
-     try {
-  const canvas = JSON.parse(canvasData);
+      try {
+        const canvas = JSON.parse(canvasData);
 
-  // Sanitize canvas to reduce validation warnings
-  if (canvas.images) {
-    canvas.images.forEach(img => {
-      // Ensure annotation has @id
-      if (!img['@id']) {
-        img['@id'] = `${canvas['@id'] || 'canvas'}/annotation/${Math.random().toString(36).substr(2, 9)}`;
-      }
-      
-      // Clean up image resource
-      if (img.resource && img.resource.service) {
-        if (Array.isArray(img.resource.service)) {
-          img.resource.service.forEach(svc => delete svc.protocol);
-        } else {
-          delete img.resource.service.protocol;
+        // Sanitize canvas to reduce validation warnings
+        if (canvas.images) {
+          canvas.images.forEach(img => {
+            // Ensure annotation has @id
+            if (!img['@id']) {
+              img['@id'] = `${canvas['@id'] || 'canvas'}/annotation/${Math.random().toString(36).substr(2, 9)}`;
+            }
+            
+            // Clean up image resource
+            if (img.resource && img.resource.service) {
+              if (Array.isArray(img.resource.service)) {
+                img.resource.service.forEach(svc => delete svc.protocol);
+              } else {
+                delete img.resource.service.protocol;
+              }
+            }
+          });
         }
+
+        // Remove non-standard rendering field from canvas
+        delete canvas.rendering;
+
+        // IMPROVED LABEL EXTRACTION
+        if (!canvas.label || canvas.label === 'Page 1' || canvas.label.startsWith('Image ')) {
+          // Try to extract a better label from metadata
+          const metadata = canvas.metadata || [];
+          let betterLabel = null;
+          
+          // Look for common title fields
+          const titleFields = ['Short Title', 'Title', 'Full Title', 'Pub Title'];
+          
+          for (const field of titleFields) {
+            const item = metadata.find(m => m.label === field);
+            if (item && item.value) {
+              betterLabel = item.value;
+              break;
+            }
+          }
+          
+          // If we found a better label, use it
+          if (betterLabel) {
+            canvas.label = betterLabel;
+          }
+        }
+
+        // Add source manifest URL to canvas metadata
+        canvas.metadata = canvas.metadata || [];
+        
+        // Check if source manifest isn't already in metadata
+        const hasSourceManifest = canvas.metadata.some(m => 
+          m.label === 'Source Manifest' || 
+          m.label === 'source_manifest'
+        );
+        
+        if (!hasSourceManifest && manifestId) {
+          canvas.metadata.push({
+            'label': 'Source Manifest',
+            'value': manifestId
+          });
+        }
+        
+        // Generate new canvas ID for the flattened manifest
+        const originalId = canvas['@id'] || canvas.id;
+        canvas['@id'] = `https://example.org/manifest/${finalName}/canvas/${index}`;
+        
+        // Store original canvas ID as well
+        const hasOriginalId = canvas.metadata.some(m => 
+          m.label === 'Original Canvas ID'
+        );
+        
+        if (!hasOriginalId && originalId) {
+          canvas.metadata.push({
+            'label': 'Original Canvas ID',
+            'value': originalId
+          });
+        }
+        
+        allCanvases.push(canvas);
+      } catch (e) {
+        console.error('Failed to parse canvas data:', e);
       }
-    });
-  }
-
-  // Remove non-standard rendering field from canvas
-  delete canvas.rendering;
-
-  // Add source manifest URL to canvas metadata
-  canvas.metadata = canvas.metadata || [];
-  
-  // Check if source manifest isn't already in metadata
-  const hasSourceManifest = canvas.metadata.some(m => 
-    m.label === 'Source Manifest' || 
-    m.label === 'source_manifest'
-  );
-  
-  if (!hasSourceManifest && manifestId) {
-    canvas.metadata.push({
-      'label': 'Source Manifest',
-      'value': manifestId
-    });
-  }
-  
-  // Generate new canvas ID for the flattened manifest
-  const originalId = canvas['@id'] || canvas.id;
-  canvas['@id'] = `https://example.org/manifest/${finalName}/canvas/${index}`;
-  
-  // Store original canvas ID as well
-  const hasOriginalId = canvas.metadata.some(m => 
-    m.label === 'Original Canvas ID'
-  );
-  
-  if (!hasOriginalId && originalId) {
-    canvas.metadata.push({
-      'label': 'Original Canvas ID',
-      'value': originalId
-    });
-  }
-  
-  allCanvases.push(canvas);
-} catch (e) {
-  console.error('Failed to parse canvas data:', e);
-}
-}
+    }
   });
-
 
   // Create a single flattened manifest with all canvases
   const flatManifest = {
@@ -1110,6 +1191,41 @@ if (iiifVersion === 3) {
       canvases: selectedCanvases
     }]
   };
+}
+// Ensure manifest has a proper label
+if (!modifiedManifest.label || modifiedManifest.label === 'Untitled Manifest') {
+  // Try to get title from metadata
+  const metadata = modifiedManifest.metadata || [];
+  let foundTitle = null;
+  
+  for (const item of metadata) {
+    const labelText = typeof item.label === 'string' ? item.label : 
+                      (typeof item.label === 'object' ? Object.values(item.label).flat().join('') : '');
+    
+    if (labelText.toLowerCase() === 'title') {
+      if (typeof item.value === 'string') {
+        foundTitle = item.value;
+      } else if (Array.isArray(item.value)) {
+        foundTitle = item.value[0];
+      } else if (typeof item.value === 'object') {
+        foundTitle = Object.values(item.value).flat()[0];
+      }
+      break;
+    }
+  }
+  
+  if (foundTitle) {
+    modifiedManifest.label = foundTitle;
+  } else if (selectedCanvases.length > 0 && selectedCanvases[0].label) {
+    // Use first canvas label as fallback
+    if (iiifVersion === 3 && typeof selectedCanvases[0].label === 'object') {
+      modifiedManifest.label = Object.values(selectedCanvases[0].label).flat()[0] || 'Selected Pages';
+    } else {
+      modifiedManifest.label = selectedCanvases[0].label || 'Selected Pages';
+    }
+  } else {
+    modifiedManifest.label = 'Selected Pages';
+  }
 }
 
 // Now, push the MODIFIED manifest
