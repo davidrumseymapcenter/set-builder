@@ -1,0 +1,1014 @@
+
+  "Full Title"
+    Used by: 
+
+  "Full_Title"
+    Used by: 
+
+  "Funding"
+    Used by: 
+
+  "General Notes"
+    Used by: 
+
+  "Genre"
+    Used by: 
+
+  "GeoNames URI"
+    Used by: 
+
+  "Geographic Feature"
+    Used by: 
+
+  "Guid"
+    Used by: 
+
+  "Held By"
+    Used by: 
+
+  "Holding Institution"
+    Used by: 
+
+  "Homepage"
+    Used by: 
+
+  "ID"
+    Used by: 
+
+  "ID Number"
+    Used by: 
+
+  "Identifier"
+    Used by: 
+
+  "Image ID"
+    Used by: 
+
+  "Image Label"
+    Used by: 
+
+  "Image No"
+    Used by: 
+
+  "Includes Overlay"
+    Used by: 
+
+  "Keywords"
+    Used by: 
+
+  "LC Call Number"
+    Used by: 
+
+  "Language"
+    Used by: 
+
+  "Language(s)"
+    Used by: 
+
+  "Last Modified"
+    Used by: 
+
+  "Library of Congress Subject Headings"
+    Used by: 
+
+  "License"
+    Used by: 
+
+  "Link to Finding Aid"
+    Used by: 
+
+  "Link to this Image"
+    Used by: 
+
+  "List No"
+    Used by: 
+
+  "Local Identifier"
+    Used by: 
+
+  "MDL Identifier"
+    Used by: 
+
+  "Macroregion"
+    Used by: 
+
+  "Map Bundle Number"
+    Used by: 
+
+  "Map Type"
+    Used by: 
+
+  "Material"
+    Used by: 
+
+  "Material Type"
+    Used by: 
+
+  "Material(s)"
+    Used by: 
+
+  "Measurements"
+    Used by: 
+
+  "Media Type"
+    Used by: 
+
+  "Media type"
+    Used by: 
+
+  "Medium"
+    Used by: 
+
+  "Metadata Usage"
+    Used by: 
+
+  "Minnesota Reflections Topic"
+    Used by: 
+
+  "Name"
+    Used by: 
+
+  "Named subject"
+    Used by: 
+
+  "Note"
+    Used by: 
+
+  "Note(s)"
+    Used by: 
+
+  "Notes"
+    Used by: 
+
+  "OCLC"
+    Used by: 
+
+  "OCLC number"
+    Used by: 
+
+  "Obj Height cm"
+    Used by: 
+
+  "Obj Width cm"
+    Used by: 
+
+  "Object ID (OID)"
+    Used by: 
+
+  "Object Name"
+    Used by: 
+
+  "Object Number"
+    Used by: 
+
+  "Object Type"
+    Used by: 
+
+  "Open Content Quality"
+    Used by: 
+
+  "Orbis ID"
+    Used by: 
+
+  "Ordering Information"
+    Used by: 
+
+  "Origin Place"
+    Used by: 
+
+  "Original Item Description"
+    Used by: 
+
+  "Original Item ID"
+    Used by: 
+
+  "Original format-AAT"
+    Used by: 
+
+  "Other Identifier"
+    Used by: 
+
+  "Page No"
+    Used by: 
+
+  "Pages in Document"
+    Used by: 
+
+  "People"
+    Used by: 
+
+  "Permalink"
+    Used by: 
+
+  "Persistent Identifier"
+    Used by: 
+
+  "Persistent URL"
+    Used by: 
+
+  "Pertains to Time Period"
+    Used by: 
+
+  "Physical Description"
+    Used by: 
+
+  "Physical Format"
+    Used by: 
+
+  "Physical Series"
+    Used by: 
+
+  "Place"
+    Used by: 
+
+  "Place of Origin"
+    Used by: 
+
+  "Place of Publication"
+    Used by: 
+
+  "Place of creation"
+    Used by: 
+
+  "Policy"
+    Used by: 
+
+  "Primary Geographic Division"
+    Used by: 
+
+  "Project Information"
+    Used by: 
+
+  "Project Website"
+    Used by: 
+
+  "Provenance"
+    Used by: 
+
+  "Provided by"
+    Used by: 
+
+  "Pub Height cm"
+    Used by: 
+
+  "Pub List No"
+    Used by: 
+
+  "Pub Maps"
+    Used by: 
+
+  "Pub Note"
+    Used by: 
+
+  "Pub Title"
+    Used by: 
+
+  "Pub Type"
+    Used by: 
+
+  "Pub Width cm"
+    Used by: 
+
+  "Publication"
+    Used by: 
+
+  "Publication Place"
+    Used by: 
+
+  "Region Depicted"
+    Used by: 
+
+  "Related URL"
+    Used by: 
+
+  "Research Project"
+    Used by: 
+
+  "Restrictions"
+    Used by: 
+
+  "Rights"
+    Used by: 
+
+  "Rights Holder"
+    Used by: 
+
+  "Rights Management"
+    Used by: 
+
+  "Rights Statement"
+    Used by: 
+
+  "Rights Status"
+    Used by: 
+
+  "Rights URI"
+    Used by: 
+
+  "Scale"
+    Used by: 
+
+  "Scale 1"
+    Used by: 
+
+  "Secondary Geographic Division"
+    Used by: 
+
+  "Series"
+    Used by: 
+
+  "Series No"
+    Used by: 
+
+  "Shelfmark"
+    Used by: 
+
+  "Short Title"
+    Used by: 
+
+  "Skinner Archive Doument Number"
+    Used by: 
+
+  "Spatial"
+    Used by: 
+
+  "State or Province"
+    Used by: 
+
+  "Subject"
+    Used by: 
+
+  "Subject (Geographic)"
+    Used by: 
+
+  "Subject (Name)"
+    Used by: 
+
+  "Subject (Topic)"
+    Used by: 
+
+  "Subject(s)"
+    Used by: 
+
+  "Subject-LCSH"
+    Used by: 
+
+  "Subjects"
+    Used by: 
+
+  "Subtitle"
+    Used by: 
+
+  "System Requirements"
+    Used by: 
+
+  "Technique"
+    Used by: 
+
+  "Technique(s)"
+    Used by: 
+
+  "Themes"
+    Used by: 
+
+  "Tiff File Name"
+    Used by: 
+
+  "Title"
+    Used by: 
+
+  "Topic"
+    Used by: 
+
+  "Translation"
+    Used by: 
+
+  "Type"
+    Used by: 
+
+  "Type (DCMI)"
+    Used by: 
+
+  "Type (RDA)"
+    Used by: 
+
+  "Type-DCMI"
+    Used by: 
+
+  "URL"
+    Used by: 
+
+  "Use Determination URI"
+    Used by: 
+
+  "commonName"
+    Used by: 
+
+  "description"
+    Used by: 
+
+  "dimensionUnits"
+    Used by: 
+
+  "dimensions"
+    Used by: 
+
+  "height"
+    Used by: 
+
+  "license"
+    Used by: 
+
+  "material"
+    Used by: 
+
+  "numberOfIllustrations"
+    Used by: 
+
+  "numberOfPages"
+    Used by: 
+
+  "origin"
+    Used by: 
+
+  "shelfmark"
+    Used by: 
+
+  "title"
+    Used by: 
+
+  "type"
+    Used by: 
+
+  "website"
+    Used by: 
+
+  "width"
+    Used by: 
+
+  "yearEnd"
+    Used by: 
+
+  "yearStart"
+    Used by: 
+
+
+================================================================================
+DETAILED GAP REPORT BY MANIFEST
+================================================================================
+
+Institution: This work has been identified as being free of known restric
+URL: https://purl.stanford.edu/hs631zg4177/iiif/manifest
+Missing labels:
+  - "Record published" (category: date)
+
+Institution: Princeton University Library
+URL: https://figgy.princeton.edu/concern/scanned_maps/a3a43786-f2d0-4715-8588-b01a9df63519/manifest
+Missing labels:
+  - "Source Metadata Identifier" (category: collection)
+  - "Imported Author" (category: author)
+  - "Member Of Collections" (category: collection)
+
+Institution: Cram's railroad & township map of California.
+URL: https://digicoll.lib.berkeley.edu/nanna/proxy/iiif/manifest/154193/
+Missing labels:
+  - "Collections" (category: collection)
+
+Institution: David Rumsey Historical Map Collection
+URL: https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~375532~90141858/manifest
+Missing labels:
+  - "Publisher Location" (category: author)
+  - "Publication Author" (category: author)
+  - "Pub Date" (category: date)
+  - "Authors" (category: author)
+
+Institution: Bibliothèque nationale de France
+URL: https://gallica.bnf.fr/iiif/ark:/12148/btv1b53171153s/manifest.json
+Missing labels:
+  - "Repository" (category: collection)
+  - "Source Images" (category: collection)
+  - "Metadata Source" (category: collection)
+
+Institution: This work has been identified as being free of known restric
+URL: https://purl.stanford.edu/wk210cf6868/iiif/manifest
+Missing labels:
+  - "Record published" (category: date)
+
+Institution: Map showing routes of the Pacific Coast Steamship Company
+URL: https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz00096fzh/manifest
+Missing labels:
+  - "Repository" (category: collection)
+
+Institution: Yale Library
+URL: https://collections.library.yale.edu/manifests/15483342
+Missing labels:
+  - "Published/Created Date" (category: date)
+  - "Repository" (category: collection)
+  - "Resource Type" (category: collection)
+
+Institution: Images provided here are believed to be in the public dom
+URL: https://media.getty.edu/iiif/manifest/46eb79a4-b25a-4453-997f-d7f5a03e1de2
+Missing labels:
+  - "Date Modified" (category: date)
+
+Institution: Map
+URL: https://repository.library.brown.edu/iiif/presentation/bdr:42007/manifest.json
+Missing labels:
+  - "Date Issued" (category: date)
+
+Institution: Photo: © Bodleian Libraries, University of Oxford. Ter
+URL: https://iiif.bodleian.ox.ac.uk/iiif/manifest/e1004f2e-cc99-4341-8980-9f967da2ba16.json
+Missing labels:
+  - "Date Statement" (category: date)
+  - "Record Created" (category: date)
+
+Institution: Provided by The University of Manchester. Zooming image ©
+URL: https://www.digitalcollections.manchester.ac.uk/iiif/PR-JAPANESE-00048
+Missing labels:
+  - "Physical Location" (category: collection)
+  - "Date of Publication" (category: date)
+
+Institution: Provided by Lancaster University Zooming image © Lancaster U
+URL: https://digitalcollections.lancaster.ac.uk/iiif/MS-DAVY-11401
+Missing labels:
+  - "Physical Location" (category: collection)
+  - "Date of Creation" (category: date)
+
+Institution: Nelson bros novilties
+URL: https://acdc.amherst.edu//do/beafcb99-0d94-40a6-b861-ac4022efa2d4/metadata/iiifmanifest3cws/default.jsonld
+Missing labels:
+  - "navDate" (category: date)
+
+Institution: L-35-66 Тыргул Окна
+URL: https://digitalcollections.iu.edu/concern/images/7d27b5132/manifest
+Missing labels:
+  - "Date Created" (category: date)
+  - "Holding Location" (category: collection)
+  - "Original Publication Date" (category: date)
+
+Institution: Smithsonian Institution
+URL: https://ids.si.edu/ids/manifest/NMAH-JN2019-01828-000001
+Missing labels:
+  - "Maker" (category: author)
+  - "Place made" (category: date)
+  - "Created during" (category: date)
+
+Institution: University of Michigan Library Digital Collections
+URL: https://quod.lib.umich.edu/cgi/i/image/api/manifest/bp1ic:CN01
+Missing labels:
+  - "Institutional Source" (category: collection)
+
+Institution: Rare Books and Special Collections, Hesburgh Libraries, Univ
+URL: https://iiif-manifest.library.nd.edu/manifest/002209657
+Missing labels:
+  - "Link to source" (category: collection)
+  - "Immediate Source of Acquisition" (category: collection)
+
+Institution: 
+URL: https://hdl.huntington.org/iiif/2/p16003coll4:5679/manifest.json
+Missing labels:
+  - "Date Searchable" (category: date)
+  - "Digital Collection" (category: collection)
+  - "Location depicted" (category: collection)
+  - "Physical Collection" (category: collection)
+  - "Physical Sub-Collection" (category: collection)
+  - "Repository" (category: collection)
+  - "Source" (category: collection)
+
+Institution: 
+URL: https://collections.lib.uwm.edu/iiif/2/agdm:864/manifest.json
+Missing labels:
+  - "Digital Collection" (category: collection)
+  - "Original Collection" (category: collection)
+  - "Digital Publisher" (category: author)
+  - "Repository" (category: collection)
+  - "Source" (category: collection)
+
+Institution: 
+URL: https://digitalcollections.lib.washington.edu/iiif/2/skinner:907/manifest.json
+Missing labels:
+  - "Coding Date" (category: date)
+  - "Data Set or Source" (category: collection)
+  - "Map Author(s)" (category: author)
+  - "Digital Collection" (category: collection)
+  - "Publisher Location" (category: author)
+  - "Repository" (category: collection)
+  - "Notes on Map by Authors" (category: author)
+  - "Date of Map Creation" (category: date)
+  - "Source" (category: collection)
+
+Institution: 
+URL: https://cdm15808.contentdm.oclc.org/iiif/2/archives:668/manifest.json
+Missing labels:
+  - "Subcollection" (category: collection)
+  - "Collection contact" (category: collection)
+  - "Creator/Author" (category: author)
+  - "Date original" (category: date)
+  - "How to access this collection at the library" (category: collection)
+  - "Location-LCSH" (category: collection)
+  - "Repository" (category: collection)
+  - "Source" (category: collection)
+
+Institution: Northup & O'Brien Architectural Records, 1917-1980 (MC00240)
+URL: https://d.lib.ncsu.edu/collections/catalog/mc00240-001-ff0093-001-001_0010/manifest
+Missing labels:
+  - "Created Date" (category: date)
+
+Institution: Courtesy of the Bibliothèque nationale de France, Paris.
+URL: https://jdm.library.jhu.edu/iiif-pres-dlmm/pizan/Arsenal3356/manifest
+Missing labels:
+  - "repository" (category: collection)
+  - "currentLocation" (category: collection)
+
+Institution: Duke University Libraries
+URL: https://repository.duke.edu/iiif/ark%3A%2F87924%2Fr4jd50j64/manifest
+Missing labels:
+  - "Source Collection" (category: collection)
+
+Institution: University of Hawaii at Manoa Digital Image Collection
+URL: https://digital.library.manoa.hawaii.edu/iiif/23762/manifest
+Missing labels:
+  - "Physical Location" (category: collection)
+
+Institution: Images provided for research and reference use only. Permiss
+URL: https://iiif.library.ubc.ca/presentation/cdm.rainbow.1-0357825/manifest
+Missing labels:
+  - "Aggregated Source Repository" (category: collection)
+  - "Date Available" (category: date)
+  - "Date Created" (category: date)
+  - "Digital Resource Original Record" (category: collection)
+  - "Geographic Location" (category: collection)
+  - "Provider" (category: attribution)
+  - "Sort Date" (category: date)
+  - "Source" (category: collection)
+
+Institution: Generall Mapp of the Kingdom of Ireland.
+URL: https://digital.library.villanova.edu/Item/vudl:98712/Manifest
+Missing labels:
+  - "Date Added" (category: date)
+  - "Publish Date" (category: date)
+  - "Source" (category: collection)
+
+Institution: 
+URL: https://cdm16022.contentdm.oclc.org/iiif/nico:1676/manifest.json
+Missing labels:
+  - "Date Created" (category: date)
+  - "Repository" (category: collection)
+  - "Source" (category: collection)
+
+Institution: University of Leeds
+URL: https://iiif.library.leeds.ac.uk/presentation/cc/dpgpb6r9
+Missing labels:
+  - "Collections" (category: collection)
+  - "Attribution" (category: attribution)
+
+Institution: 
+URL: https://contentdm.lib.byu.edu/iiif/2/p15999coll31:40558/manifest.json
+Missing labels:
+  - "Date Original" (category: date)
+  - "Date Digital" (category: date)
+  - "Publisher (Digital)" (category: author)
+  - "Source" (category: collection)
+  - "Repository" (category: collection)
+
+
+================================================================================
+RECOMMENDED CODE UPDATES
+================================================================================
+
+// Updated DATE fallbacks:
+let date = 
+  getMetadataValue(canvasMetadata, 'Date') ||
+  getMetadataValue(manifestMetadata, 'Issued') ||
+  getMetadataValue(manifestMetadata, 'Created') ||
+  getMetadataValue(manifestMetadata, 'Date made') ||
+  getMetadataValue(manifestMetadata, 'Published') ||
+  getMetadataValue(manifestMetadata, 'Created Published') ||
+  getMetadataValue(manifestMetadata, 'Associated date') ||
+  getMetadataValue(manifestMetadata, 'Publication Date') ||
+  getMetadataValue(manifestMetadata, 'Record published') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Pub Date') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Published/Created Date') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Date Modified') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Date Issued') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Date Statement') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Record Created') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Date of Publication') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Date of Creation') || // ← NEW
+  getMetadataValue(manifestMetadata, 'navDate') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Date Created') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Original Publication Date') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Place made') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Created during') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Date Searchable') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Coding Date') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Date of Map Creation') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Date original') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Created Date') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Date Available') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Sort Date') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Date Added') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Publish Date') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Date Original') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Date Digital') || // ← NEW
+  'No date returned';
+
+// Updated AUTHOR fallbacks:
+let author = 
+  getMetadataValue(canvasMetadata, 'Creator') ||
+  getMetadataValue(manifestMetadata, 'Contributors') ||
+  getMetadataValue(manifestMetadata, 'Author') ||
+  getMetadataValue(manifestMetadata, 'Contributor') ||
+  getMetadataValue(manifestMetadata, 'Publisher') ||
+  getMetadataValue(manifestMetadata, 'Artist/Maker') ||
+  getMetadataValue(manifestMetadata, 'Imported Author') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Publisher Location') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Publication Author') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Authors') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Maker') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Digital Publisher') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Map Author(s)') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Notes on Map by Authors') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Creator/Author') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Publisher (Digital)') || // ← NEW
+  'No author returned';
+
+// Updated COLLECTION fallbacks:
+let collection = 
+  getMetadataValue(canvasMetadata, 'Location') ||
+  getMetadataValue(manifestMetadata, 'Collection') ||
+  getMetadataValue(manifestMetadata, 'Relation') ||
+  getMetadataValue(manifestMetadata, 'Data Source') ||
+  getMetadataValue(manifestMetadata, 'Contributor') ||
+  getMetadataValue(manifestMetadata, 'Source Metadata Identifier') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Member Of Collections') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Collections') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Repository') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Source Images') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Metadata Source') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Resource Type') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Physical Location') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Holding Location') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Institutional Source') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Link to source') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Immediate Source of Acquisition') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Digital Collection') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Location depicted') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Physical Collection') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Physical Sub-Collection') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Source') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Original Collection') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Data Set or Source') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Subcollection') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Collection contact') || // ← NEW
+  getMetadataValue(manifestMetadata, 'How to access this collection at the library') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Location-LCSH') || // ← NEW
+  getMetadataValue(manifestMetadata, 'repository') || // ← NEW
+  getMetadataValue(manifestMetadata, 'currentLocation') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Source Collection') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Aggregated Source Repository') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Digital Resource Original Record') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Geographic Location') || // ← NEW
+  'No collection returned';
+
+// Updated ATTRIBUTION fallbacks:
+let attribution = 
+  getMetadataValue(canvasMetadata, 'Repository') ||
+  getMetadataValue(manifestMetadata, 'Digital Publisher') ||
+  getMetadataValue(manifestMetadata, 'Provider') || // ← NEW
+  getMetadataValue(manifestMetadata, 'Attribution') || // ← NEW
+  'No attribution returned';
+
+// UNCATEGORIZED LABELS (review manually):
+// - "Available Online"
+// - "Title"
+// - "Type"
+// - "Format"
+// - "Language"
+// - "Subject"
+// - "Coverage"
+// - "Identifier"
+// - "Alternative"
+// - "Content Type"
+// - "Provenance"
+// - "Local Identifier"
+// - "Cartographic Scale"
+// - "Call Number"
+// - "Downloadable"
+// - "Held By"
+// - "Spatial"
+// - "Ark"
+// - "Full Title"
+// - "Map Type"
+// - "OCLC"
+// - "LC Call Number"
+// - "Region Depicted"
+// - "Material Type"
+// - "Notes"
+// - "Accession Number"
+// - "Donor"
+// - "Dimensions"
+// - "Atlas Reference"
+// - "Name"
+// - "Barcode"
+// - "Short Title"
+// - "Obj Height cm"
+// - "Obj Width cm"
+// - "Scale 1"
+// - "Note"
+// - "County"
+// - "List No"
+// - "Page No"
+// - "Series No"
+// - "Engraver or Printer"
+// - "Pub Title"
+// - "Pub Note"
+// - "Pub List No"
+// - "Pub Type"
+// - "Pub Maps"
+// - "Pub Height cm"
+// - "Pub Width cm"
+// - "Image No"
+// - "Download 1"
+// - "Download 2"
+// - "Digitised by"
+// - "Shelfmark"
+// - "Description"
+// - "Publication Place"
+// - "Extent"
+// - "Scale"
+// - "Coordinates"
+// - "Container / Volume Information"
+// - "Extent of Digitization"
+// - "Genre"
+// - "Subject (Geographic)"
+// - "Subject (Name)"
+// - "Subject (Topic)"
+// - "Access"
+// - "Rights"
+// - "Citation"
+// - "Orbis ID"
+// - "Object ID (OID)"
+// - "Image ID"
+// - "Image Label"
+// - "Link to this Image"
+// - "Material"
+// - "Rights Statement"
+// - "Open Content Quality"
+// - "Full_Title"
+// - "Subtitle"
+// - "Series"
+// - "Keywords"
+// - "Homepage"
+// - "Catalogue Description"
+// - "Place of Origin"
+// - "Contents Note"
+// - "Other Identifier"
+// - "Holding Institution"
+// - "Note(s)"
+// - "Technique(s)"
+// - "Medium"
+// - "Project Information"
+// - "Publication"
+// - "Alternative Title(s)"
+// - "Classmark"
+// - "Subject(s)"
+// - "Abstract"
+// - "Bibliography"
+// - "Material(s)"
+// - "Place of Publication"
+// - "Binding"
+// - "Origin Place"
+// - "Funding"
+// - "Acquisition"
+// - "Language(s)"
+// - "Alternative Identifier(s)"
+// - "Classification"
+// - "Credit Line"
+// - "Object Number"
+// - "People"
+// - "Technique"
+// - "Copyright"
+// - "description"
+// - "license"
+// - "Related URL"
+// - "City"
+// - "Copyright Owner"
+// - "Country"
+// - "Filename"
+// - "Physical Description"
+// - "Persistent Identifier"
+// - "Campus"
+// - "Department"
+// - "Last Modified"
+// - "License"
+// - "Rights Holder"
+// - "Metadata Usage"
+// - "Guid"
+// - "Measurements"
+// - "Depicted"
+// - "ID Number"
+// - "Catalog number"
+// - "Accession number"
+// - "Object Name"
+// - "Place"
+// - "Media Type"
+// - "Document ID"
+// - "Catalog Link"
+// - "Digitization Specifications"
+// - "Form/Genre"
+// - "Object Type"
+// - "Physical Series"
+// - "Place of creation"
+// - "Subjects"
+// - "Alt Title"
+// - "Color/B&W"
+// - "Continent"
+// - "Essay Description of Item"
+// - "Digital ID"
+// - "Digital Format"
+// - "Original Item Description"
+// - "Original Item ID"
+// - "Type (DCMI)"
+// - "Type (RDA)"
+// - "Assigned Scanned Document File Name"
+// - "Box or File Drawer Number"
+// - "Coder"
+// - "Pertains to Time Period"
+// - "File Size (KB)"
+// - "ID"
+// - "Includes Overlay"
+// - "Macroregion"
+// - "Map Bundle Number"
+// - "Ordering Information"
+// - "Pages in Document"
+// - "Primary Geographic Division"
+// - "Research Project"
+// - "Restrictions"
+// - "Rights URI"
+// - "Secondary Geographic Division"
+// - "Skinner Archive Doument Number"
+// - "Themes"
+// - "Tiff File Name"
+// - "Type-DCMI"
+// - "Decade"
+// - "Format [IMT]"
+// - "Building"
+// - "Original format-AAT"
+// - "Named subject"
+// - "Policy"
+// - "Copyright status"
+// - "Building status"
+// - "Subject-LCSH"
+// - "title"
+// - "URL"
+// - "numberOfIllustrations"
+// - "commonName"
+// - "website"
+// - "origin"
+// - "yearEnd"
+// - "type"
+// - "numberOfPages"
+// - "material"
+// - "width"
+// - "dimensionUnits"
+// - "shelfmark"
+// - "yearStart"
+// - "height"
+// - "dimensions"
+// - "Permalink"
+// - "AIP UUID"
+// - "File Format"
+// - "DOI"
+// - "Project Website"
+// - "Translation"
+// - "Topic"
+// - "About"
+// - "Provided by"
+// - "Rights Status"
+// - "Persistent URL"
+// - "City or Township"
+// - "Contact Information"
+// - "Contributing Organization"
+// - "OCLC number"
+// - "Fiscal Sponsor"
+// - "Minnesota Reflections Topic"
+// - "Geographic Feature"
+// - "GeoNames URI"
+// - "Physical Format"
+// - "MDL Identifier"
+// - "Rights Management"
+// - "Use Determination URI"
+// - "Library of Congress Subject Headings"
+// - "State or Province"
+// - "Contact Phone of Rights Holder"
+// - "Contact E-Mail of Rights Holder"
+// - "Contact Address of Rights Holder"
+// - "Contributing Institution"
+// - "Copyright Status"
+// - "Edition"
+// - "General Notes"
+// - "Link to Finding Aid"
+// - "Media type"
+// - "System Requirements"
+// - "File Type"
