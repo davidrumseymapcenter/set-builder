@@ -489,7 +489,7 @@ if (iiifVersion === 3) {
       const reqValue = Object.values(manifest.requiredStatement.value).flat();
       attribution = reqValue[0] || attribution;
     }
-    
+
  } else {
   // IIIF 2.0: Try metadata fields first (more reliable than attribution field)
   attribution = getMetadataValue(manifestMetadata, 'Repository') ||         // Multiple institutions
@@ -741,8 +741,21 @@ function repopulateGallery(manifestData) {
 /// Function to add a IIIF manifest to the gallery (supports both 2.0 and 3.0)
 async function addManifestToGallery(manifestUrl) {
   try {
-    const response = await fetch(manifestUrl);
+    // Check if URL needs CORS proxy (LOC and other restrictive institutions)
+    let fetchUrl = manifestUrl;
+    
+    // List of domains that block CORS
+    const corsBlockedDomains = ['loc.gov'];
+    const needsProxy = corsBlockedDomains.some(domain => manifestUrl.includes(domain));
+    
+    if (needsProxy) {
+      // Use CORS proxy
+      fetchUrl = `https://corsproxy.io/?${encodeURIComponent(manifestUrl)}`;
+      console.log('Using CORS proxy for:', manifestUrl);
+    }
 
+    const response = await fetch(fetchUrl);
+    
     if (!response.ok) {
       throw new Error(`Network response was not ok: ${response.statusText}`);
     }
