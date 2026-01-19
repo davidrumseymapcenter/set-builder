@@ -252,6 +252,15 @@ function getIIIFVersion(manifest) {
   return manifest.sequences ? 2 : 3;
 }
 
+// Helper function to extract year from LC Call Number (for institutions like Osher)
+function extractYearFromCallNumber(callNumber) {
+  if (!callNumber) return null;
+  
+  // Match 4-digit year (1500-2099)
+  const match = callNumber.match(/\b(1[5-9]\d{2}|20\d{2})\b/);
+  return match ? match[1] : null;
+}
+
 // Helper function to get metadata values (handles both IIIF 2.0 and 3.0)
 function getMetadataValue(metadata, label, getLast = false) {
   if (!metadata) return null;
@@ -372,44 +381,92 @@ if (iiifVersion === 3) {
  // Get date
 let date = getMetadataValue(canvasMetadata, 'Date') || 
            getMetadataValue(manifestMetadata, 'Date') || 
-           getMetadataValue(manifestMetadata, 'Issued') ||           // Princeton
-           getMetadataValue(canvasMetadata, 'Issued') ||             
-           getMetadataValue(manifestMetadata, 'Created') ||          
-           getMetadataValue(canvasMetadata, 'Created') ||            
-           getMetadataValue(manifestMetadata, 'Date made') ||        // Smithsonian
-           getMetadataValue(canvasMetadata, 'Date made') ||          
-           getMetadataValue(manifestMetadata, 'Published') ||        // Berkeley (if included)
+           getMetadataValue(canvasMetadata, 'Issued') ||
+           getMetadataValue(manifestMetadata, 'Issued') ||
+           getMetadataValue(canvasMetadata, 'Created') ||
+           getMetadataValue(manifestMetadata, 'Created') ||
+           getMetadataValue(canvasMetadata, 'Date Created') ||        // Indiana, UBC, NCSU
+           getMetadataValue(manifestMetadata, 'Date Created') ||
+           getMetadataValue(canvasMetadata, 'Date of Creation') ||    // Lancaster
+           getMetadataValue(manifestMetadata, 'Date of Creation') ||
+           getMetadataValue(canvasMetadata, 'Date of Publication') || // Manchester
+           getMetadataValue(manifestMetadata, 'Date of Publication') ||
+           getMetadataValue(canvasMetadata, 'Published/Created Date') || // Yale
+           getMetadataValue(manifestMetadata, 'Published/Created Date') ||
+           getMetadataValue(canvasMetadata, 'Date made') ||
+           getMetadataValue(manifestMetadata, 'Date made') ||
            getMetadataValue(canvasMetadata, 'Published') ||
-           getMetadataValue(manifestMetadata, 'Created Published') || 
-           getMetadataValue(canvasMetadata, 'Associated date') || 
+           getMetadataValue(manifestMetadata, 'Published') ||
+           getMetadataValue(canvasMetadata, 'Created Published') ||   // LOC
+           getMetadataValue(manifestMetadata, 'Created Published') ||
+           getMetadataValue(canvasMetadata, 'Pub Date') ||            // David Rumsey
+           getMetadataValue(manifestMetadata, 'Pub Date') ||
+           getMetadataValue(canvasMetadata, 'Date Issued') ||         // Brown
+           getMetadataValue(manifestMetadata, 'Date Issued') ||
+           getMetadataValue(canvasMetadata, 'Date Statement') ||      // Bodleian
+           getMetadataValue(manifestMetadata, 'Date Statement') ||
+           getMetadataValue(canvasMetadata, 'Date original') ||       // CONTENTdm
+           getMetadataValue(manifestMetadata, 'Date original') ||
+           getMetadataValue(canvasMetadata, 'Associated date') ||
            getMetadataValue(manifestMetadata, 'Associated date') ||
-           getMetadataValue(manifestMetadata, 'Publication Date') || // CONTENTdm
            getMetadataValue(canvasMetadata, 'Publication Date') ||
+           getMetadataValue(manifestMetadata, 'Publication Date') ||
+           extractYearFromCallNumber(getMetadataValue(manifestMetadata, 'LC Call Number')) || // Osher
+           extractYearFromCallNumber(getMetadataValue(canvasMetadata, 'LC Call Number')) ||
            'No date returned';
 
-  // Get author/creator
-  let author = getMetadataValue(canvasMetadata, 'Creator') || 
-               getMetadataValue(manifestMetadata, 'Creator') || 
-               getMetadataValue(canvasMetadata, 'Contributors') || 
-               getMetadataValue(manifestMetadata, 'Contributors') || 
-               getMetadataValue(canvasMetadata, 'Author') || 
-               getMetadataValue(manifestMetadata, 'Author') || 
-               getMetadataValue(canvasMetadata, 'Contributor') || 
-               getMetadataValue(manifestMetadata, 'Contributor') ||
-               getMetadataValue(canvasMetadata, 'Publisher') || 
-               getMetadataValue(manifestMetadata, 'Publisher') || 
-               getMetadataValue(canvasMetadata, 'Artist/Maker') ||
-               getMetadataValue(manifestMetadata, 'Artist/Maker') ||
-               'No author returned';
+// Get author/creator
+let author = getMetadataValue(canvasMetadata, 'Creator') || 
+             getMetadataValue(manifestMetadata, 'Creator') || 
+             getMetadataValue(canvasMetadata, 'Contributors') ||      // LOC
+             getMetadataValue(manifestMetadata, 'Contributors') || 
+             getMetadataValue(canvasMetadata, 'Author') ||
+             getMetadataValue(manifestMetadata, 'Author') || 
+             getMetadataValue(canvasMetadata, 'Creator/Author') ||    // CONTENTdm
+             getMetadataValue(manifestMetadata, 'Creator/Author') ||
+             getMetadataValue(canvasMetadata, 'Contributor') ||
+             getMetadataValue(manifestMetadata, 'Contributor') || 
+             getMetadataValue(canvasMetadata, 'Maker') ||             // Smithsonian
+             getMetadataValue(manifestMetadata, 'Maker') ||
+             getMetadataValue(canvasMetadata, 'Authors') ||           // David Rumsey
+             getMetadataValue(manifestMetadata, 'Authors') ||
+             getMetadataValue(canvasMetadata, 'Publication Author') || // David Rumsey
+             getMetadataValue(manifestMetadata, 'Publication Author') ||
+             getMetadataValue(canvasMetadata, 'Map Author(s)') ||     // University of Washington
+             getMetadataValue(manifestMetadata, 'Map Author(s)') ||
+             getMetadataValue(canvasMetadata, 'Publisher') ||
+             getMetadataValue(manifestMetadata, 'Publisher') || 
+             getMetadataValue(canvasMetadata, 'Artist/Maker') ||
+             getMetadataValue(manifestMetadata, 'Artist/Maker') ||
+             'No author returned';
 
- // Get collection
+// Get collection (sub-collections, departments, specific collections)
 let collection = getMetadataValue(canvasMetadata, 'Location') || 
                  getMetadataValue(manifestMetadata, 'Location') || 
+                 getMetadataValue(canvasMetadata, 'Digital Collection') ||    // Huntington, UWM, University of Washington
+                 getMetadataValue(manifestMetadata, 'Digital Collection') ||
+                 getMetadataValue(canvasMetadata, 'Original Collection') ||   // UWM
+                 getMetadataValue(manifestMetadata, 'Original Collection') ||
+                 getMetadataValue(canvasMetadata, 'Source Collection') ||     // Duke
+                 getMetadataValue(manifestMetadata, 'Source Collection') ||
+                 getMetadataValue(canvasMetadata, 'Collection') ||
                  getMetadataValue(manifestMetadata, 'Collection') || 
-                 getMetadataValue(canvasMetadata, 'Collection') || 
-                 getMetadataValue(manifestMetadata, 'Relation') ||  // Stanford uses this for collection
-                 getMetadataValue(canvasMetadata, 'Data Source') || 
+                 getMetadataValue(canvasMetadata, 'Collections') ||           // Berkeley, Leeds
+                 getMetadataValue(manifestMetadata, 'Collections') ||
+                 getMetadataValue(canvasMetadata, 'Physical Location') ||     // Manchester, Lancaster, Hawaii
+                 getMetadataValue(manifestMetadata, 'Physical Location') ||
+                 getMetadataValue(canvasMetadata, 'Holding Location') ||      // Indiana
+                 getMetadataValue(manifestMetadata, 'Holding Location') ||
+                 getMetadataValue(canvasMetadata, 'Relation') ||
+                 getMetadataValue(manifestMetadata, 'Relation') ||
+                 getMetadataValue(canvasMetadata, 'Data Source') ||
                  getMetadataValue(manifestMetadata, 'Data Source') || 
+                 getMetadataValue(canvasMetadata, 'Source') ||                // Huntington, UWM, University of Washington, OCLC CDM, Villanova, BYU
+                 getMetadataValue(manifestMetadata, 'Source') ||
+                 getMetadataValue(canvasMetadata, 'Repository') ||            // Gallica, UCLA, Yale, Huntington, UWM, University of Washington, OCLC CDM, NCSU
+                 getMetadataValue(manifestMetadata, 'Repository') ||
+                 getMetadataValue(canvasMetadata, 'Contributor') ||
+                 getMetadataValue(manifestMetadata, 'Contributor') ||
                  'No collection returned';
 
 // For Internet Archive (IIIF 3.0), prefer Contributor over Collection
@@ -432,11 +489,15 @@ if (iiifVersion === 3) {
       const reqValue = Object.values(manifest.requiredStatement.value).flat();
       attribution = reqValue[0] || attribution;
     }
-  } else {
-    // IIIF 2.0: Try metadata fields first (more reliable than attribution field)
-  attribution = getMetadataValue(manifestMetadata, 'Repository') ||
-                getMetadataValue(manifestMetadata, 'Digital Publisher') ||
-                getMetadataValue(canvasMetadata, 'Repository');
+    
+ } else {
+  // IIIF 2.0: Try metadata fields first (more reliable than attribution field)
+  attribution = getMetadataValue(manifestMetadata, 'Repository') ||         // Multiple institutions
+                getMetadataValue(canvasMetadata, 'Repository') ||
+                getMetadataValue(manifestMetadata, 'Digital Publisher') ||   // UWM
+                getMetadataValue(manifestMetadata, 'Provider') ||            // UBC
+                getMetadataValue(manifestMetadata, 'Attribution') ||         // Leeds
+                getMetadataValue(canvasMetadata, 'Attribution');
   
   // If metadata doesn't have it, try attribution field
   if (!attribution) {
@@ -457,6 +518,7 @@ if (iiifVersion === 3) {
     attribution = 'No attribution returned';
   }
 }
+
 
 
   // Get location link from various possible sources
