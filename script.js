@@ -741,20 +741,7 @@ function repopulateGallery(manifestData) {
 /// Function to add a IIIF manifest to the gallery (supports both 2.0 and 3.0)
 async function addManifestToGallery(manifestUrl) {
   try {
-    // Check if URL needs CORS proxy (LOC and other restrictive institutions)
-    let fetchUrl = manifestUrl;
-    
-    // List of domains that block CORS
-    const corsBlockedDomains = ['loc.gov'];
-    const needsProxy = corsBlockedDomains.some(domain => manifestUrl.includes(domain));
-    
-    if (needsProxy) {
-      // Use CORS proxy
-      fetchUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(manifestUrl)}`;
-      console.log('Using CORS proxy for:', manifestUrl);
-    }
-
-    const response = await fetch(fetchUrl);
+    const response = await fetch(manifestUrl);
 
     if (!response.ok) {
       throw new Error(`Network response was not ok: ${response.statusText}`);
