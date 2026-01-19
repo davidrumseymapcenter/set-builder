@@ -750,12 +750,12 @@ async function addManifestToGallery(manifestUrl) {
     
     if (needsProxy) {
       // Use CORS proxy
-      fetchUrl = `https://corsproxy.io/?${encodeURIComponent(manifestUrl)}`;
+      fetchUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(manifestUrl)}`;
       console.log('Using CORS proxy for:', manifestUrl);
     }
 
     const response = await fetch(fetchUrl);
-    
+
     if (!response.ok) {
       throw new Error(`Network response was not ok: ${response.statusText}`);
     }
