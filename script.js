@@ -316,7 +316,7 @@ function addCanvasToGallery(canvas, manifest) {
   
   let imageService, imageUrl, highResUrl;
   
-  // Handle different IIIF versions for image extraction
+// Handle different IIIF versions for image extraction
 if (iiifVersion === 3) {
   // IIIF 3.0 structure: canvas.items[0].items[0].body.service[0]
   const annotation = canvas.items?.[0]?.items?.[0];
@@ -331,13 +331,14 @@ if (iiifVersion === 3) {
     return;
   }
   
+  // Handle both IIIF 3.0 (id) and IIIF 2.0 (@id) image service formats
   const serviceId = imageService.id || imageService['@id'];
   if (!serviceId) {
     console.error('IIIF 3.0: Image service does not contain an id or @id field:', canvas);
     return;
   }
   
-  // Check if canvas provides a thumbnail (preferred for institutions using Quartex)
+  // Check if canvas provides a thumbnail (preferred for institutions like Quartex)
   if (canvas.thumbnail && canvas.thumbnail.id) {
     imageUrl = canvas.thumbnail.id;
   } else if (canvas.thumbnail && canvas.thumbnail['@id']) {
@@ -369,18 +370,7 @@ if (iiifVersion === 3) {
   
   highResUrl = `${imageService['@id']}/info.json`;
 }
-  
-} else {
-  // IIIF 2.0 structure: canvas.images[0].resource.service
-  imageService = canvas.images?.[0]?.resource?.service;
-  if (!imageService || !imageService['@id']) {
-    console.error('IIIF 2.0: Image service is missing or does not contain an @id field:', canvas);
-    return;
-  }
-  
-  imageUrl = `${imageService['@id']}/full/!200,200/0/default.jpg`;
-  highResUrl = `${imageService['@id']}/info.json`;
-}
+
 
   // Retrieve metadata from both the manifest and the canvas
   const manifestMetadata = manifest.metadata || [];    
