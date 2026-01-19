@@ -316,7 +316,7 @@ function addCanvasToGallery(canvas, manifest) {
   
   let imageService, imageUrl, highResUrl;
   
-  // Handle different IIIF versions for image extraction
+// Handle different IIIF versions for image extraction
 if (iiifVersion === 3) {
   // IIIF 3.0 structure: canvas.items[0].items[0].body.service[0]
   const annotation = canvas.items?.[0]?.items?.[0];
@@ -338,7 +338,16 @@ if (iiifVersion === 3) {
     return;
   }
   
-  imageUrl = `${serviceId}/full/!200,200/0/default.jpg`;
+  // Check if canvas provides a thumbnail (preferred for institutions like Quartex)
+  if (canvas.thumbnail && canvas.thumbnail.id) {
+    imageUrl = canvas.thumbnail.id;
+  } else if (canvas.thumbnail && canvas.thumbnail['@id']) {
+    imageUrl = canvas.thumbnail['@id'];
+  } else {
+    // Fallback: generate thumbnail URL
+    imageUrl = `${serviceId}/full/!200,200/0/default.jpg`;
+  }
+  
   highResUrl = `${serviceId}/info.json`;
   
 } else {
@@ -349,9 +358,19 @@ if (iiifVersion === 3) {
     return;
   }
   
-  imageUrl = `${imageService['@id']}/full/!200,200/0/default.jpg`;
+  // Check if canvas provides a thumbnail (preferred for institutions like Quartex)
+  if (canvas.thumbnail && canvas.thumbnail['@id']) {
+    imageUrl = canvas.thumbnail['@id'];
+  } else if (canvas.thumbnail && typeof canvas.thumbnail === 'string') {
+    imageUrl = canvas.thumbnail;
+  } else {
+    // Fallback: generate thumbnail URL
+    imageUrl = `${imageService['@id']}/full/!200,200/0/default.jpg`;
+  }
+  
   highResUrl = `${imageService['@id']}/info.json`;
 }
+
 
   // Retrieve metadata from both the manifest and the canvas
   const manifestMetadata = manifest.metadata || [];    
