@@ -331,15 +331,44 @@ if (iiifVersion === 3) {
     return;
   }
   
-  // Handle both IIIF 3.0 (id) and IIIF 2.0 (@id) image service formats
   const serviceId = imageService.id || imageService['@id'];
   if (!serviceId) {
     console.error('IIIF 3.0: Image service does not contain an id or @id field:', canvas);
     return;
   }
   
-  imageUrl = `${serviceId}/full/!200,200/0/default.jpg`;
+  // Check if canvas provides a thumbnail (preferred for institutions using Quartex)
+  if (canvas.thumbnail && canvas.thumbnail.id) {
+    imageUrl = canvas.thumbnail.id;
+  } else if (canvas.thumbnail && canvas.thumbnail['@id']) {
+    imageUrl = canvas.thumbnail['@id'];
+  } else {
+    // Fallback: generate thumbnail URL
+    imageUrl = `${serviceId}/full/!200,200/0/default.jpg`;
+  }
+  
   highResUrl = `${serviceId}/info.json`;
+  
+} else {
+  // IIIF 2.0 structure: canvas.images[0].resource.service
+  imageService = canvas.images?.[0]?.resource?.service;
+  if (!imageService || !imageService['@id']) {
+    console.error('IIIF 2.0: Image service is missing or does not contain an @id field:', canvas);
+    return;
+  }
+  
+  // Check if canvas provides a thumbnail (preferred for institutions like Quartex)
+  if (canvas.thumbnail && canvas.thumbnail['@id']) {
+    imageUrl = canvas.thumbnail['@id'];
+  } else if (canvas.thumbnail && typeof canvas.thumbnail === 'string') {
+    imageUrl = canvas.thumbnail;
+  } else {
+    // Fallback: generate thumbnail URL
+    imageUrl = `${imageService['@id']}/full/!200,200/0/default.jpg`;
+  }
+  
+  highResUrl = `${imageService['@id']}/info.json`;
+}
   
 } else {
   // IIIF 2.0 structure: canvas.images[0].resource.service
