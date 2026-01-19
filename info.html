@@ -155,8 +155,9 @@
     <li><a href="#embedding">Embedding in Canvas LMS</a></li> 
     <li><a href="#workflows">Suggested Workflows</a></li>
     <li><a href="#terminology">Terminology Guide</a></li>
+    <li><a href="#compatibility">Compatibility & Known Limitations</a></li>
     <li><a href="#troubleshooting">Troubleshooting</a></li>
-        <li><a href="#technicalnotes">Technical Notes</a></li>
+    <li><a href="#technicalnotes">Technical Notes</a></li>
   </ul>
 </div>
 
@@ -587,7 +588,56 @@
         <dd style="margin-left: 2rem; margin-bottom: 0.5rem;">Not listed in search, but anyone with the link can access it. Good for limited sharing.</dd>
       </dl>
     </div>
-
+<!-- COMPATIBILITY -->
+    <div class="info-section" id="Compatibility">
+      <h2>Compatibility & Known Limitations</h2>
+  
+  <h3>Library of Congress Manifests</h3>
+  <p>
+    Due to the Library of Congress's security policy, manifests cannot be added directly 
+    from their website to the gallery. However, you can still use LOC items with a simple workaround.
+  </p>
+  
+  <h4>Workaround for LOC Manifests:</h4>
+  <ol>
+    <li>Visit the LOC manifest URL in your browser (e.g., 
+      <code>https://www.loc.gov/item/74693169/manifest.json</code>)</li>
+    <li>The JSON data will display in your browser</li>
+    <li>Copy all the JSON text (Ctrl+A or Cmd+A to select all, then Ctrl+C or Cmd+C to copy)</li>
+    <li>Paste into a text editor and save as a <code>.json</code> file 
+      (e.g., <code>loc-map.json</code>)</li>
+    <li>In the Gallery Builder, use the <strong>"Choose File"</strong> button under 
+      <strong>"Load Gallery"</strong> to upload your saved file</li>
+    <li>The LOC items will appear in your gallery</li>
+    <li>When you save your gallery, LOC items are preserved and will load normally in the future</li>
+  </ol>
+  
+  <div class="note">
+    <strong>Note:</strong> This workaround is only needed when first adding LOC items. 
+    Once saved in your gallery file, they work like any other manifest.
+  </div>
+  
+  <h3>Getty Museum</h3>
+  <p>
+    Getty Museum manifests may display <strong>"No date returned"</strong> because Getty 
+    does not include creation dates in their IIIF metadata. This is a limitation of Getty's 
+    metadata, not the Gallery Builder. All other information (title, artist, collection) 
+    displays correctly.
+  </p>
+  
+  <h3>Other Institutions</h3>
+  <p>
+    The Gallery Builder supports IIIF Presentation API 2.0 and 3.0 manifests from hundreds 
+    of institutions worldwide. If you encounter issues with a specific institution, please 
+    check that:
+  </p>
+  <ul>
+    <li>The URL is a valid IIIF manifest (should end with <code>/manifest.json</code> or <code>/manifest</code>)</li>
+    <li>The manifest is publicly accessible (not behind a login)</li>
+    <li>The institution supports CORS (cross-origin requests) for their IIIF content</li>
+  </ul>
+</div>
+      
     <!-- TROUBLESHOOTING -->
     <div class="info-section" id="troubleshooting">
       <h2>🔧 Troubleshooting</h2>
