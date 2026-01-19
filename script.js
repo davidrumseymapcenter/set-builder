@@ -338,12 +338,21 @@ if (iiifVersion === 3) {
     return;
   }
   
-  // Check if canvas provides a thumbnail (preferred for institutions like Quartex)
-  if (canvas.thumbnail && canvas.thumbnail.id) {
-    imageUrl = canvas.thumbnail.id;
-  } else if (canvas.thumbnail && canvas.thumbnail['@id']) {
-    imageUrl = canvas.thumbnail['@id'];
-  } else {
+  // Check if canvas provides a usable thumbnail
+  let useProvidedThumbnail = false;
+  if (canvas.thumbnail) {
+    const thumbUrl = canvas.thumbnail.id || canvas.thumbnail['@id'];
+    const thumbHeight = canvas.thumbnail.height;
+    const thumbWidth = canvas.thumbnail.width;
+    
+    // Only use provided thumbnail if it's reasonably sized (at least 150px)
+    if (thumbUrl && ((thumbHeight && thumbHeight >= 150) || (thumbWidth && thumbWidth >= 150))) {
+      imageUrl = thumbUrl;
+      useProvidedThumbnail = true;
+    }
+  }
+  
+  if (!useProvidedThumbnail) {
     // Fallback: generate thumbnail URL
     imageUrl = `${serviceId}/full/!200,200/0/default.jpg`;
   }
@@ -358,12 +367,21 @@ if (iiifVersion === 3) {
     return;
   }
   
-  // Check if canvas provides a thumbnail (preferred for institutions like Quartex)
-  if (canvas.thumbnail && canvas.thumbnail['@id']) {
-    imageUrl = canvas.thumbnail['@id'];
-  } else if (canvas.thumbnail && typeof canvas.thumbnail === 'string') {
-    imageUrl = canvas.thumbnail;
-  } else {
+  // Check if canvas provides a usable thumbnail
+  let useProvidedThumbnail = false;
+  if (canvas.thumbnail) {
+    const thumbUrl = canvas.thumbnail['@id'] || (typeof canvas.thumbnail === 'string' ? canvas.thumbnail : null);
+    const thumbHeight = canvas.thumbnail.height;
+    const thumbWidth = canvas.thumbnail.width;
+    
+    // Only use provided thumbnail if it's reasonably sized (at least 150px)
+    if (thumbUrl && ((thumbHeight && thumbHeight >= 150) || (thumbWidth && thumbWidth >= 150))) {
+      imageUrl = thumbUrl;
+      useProvidedThumbnail = true;
+    }
+  }
+  
+  if (!useProvidedThumbnail) {
     // Fallback: generate thumbnail URL
     imageUrl = `${imageService['@id']}/full/!200,200/0/default.jpg`;
   }
