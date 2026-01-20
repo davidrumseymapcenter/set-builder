@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Collection",
   "@id": "https://iiif-gallery-builder.example.org/Timescales-2-20",
-  "label": "Timescales-2-20",
+  "label": "Timescales",
   "items": [
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
