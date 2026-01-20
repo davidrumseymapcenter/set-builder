@@ -1,0 +1,564 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://example.org/collection/African Archive Beyond Colonialism",
+  "label": "African Archive Beyond Colonialism",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/kt670wv9626/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Afrique Orientale, comprenant l'Égypte, l'Abyssinie, et partie du Takrour Oriental",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/kt670wv9626.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/kt670wv9626'>https://purl.stanford.edu/kt670wv9626</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Afrique Orientale, comprenant l'Égypte, l'Abyssinie, et partie du Takrour Oriental"
+        },
+        {
+          "label": "Title",
+          "value": "Extremité orientle. de la côte d'Afrique"
+        },
+        {
+          "label": "Contributor",
+          "value": "Garnier, F. A., 1803-1863"
+        },
+        {
+          "label": "Contributor",
+          "value": "Renouard, veuve"
+        },
+        {
+          "label": "Contributor",
+          "value": "Guillain, Charles, 1808-1875"
+        },
+        {
+          "label": "Contributor",
+          "value": "Sarazin (Firm)"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Language",
+          "value": "French"
+        },
+        {
+          "label": "Description",
+          "value": "Relief shown by hachures."
+        },
+        {
+          "label": "Description",
+          "value": "Shows shipping routes, etc."
+        },
+        {
+          "label": "Description",
+          "value": "Inset map: Extremité orientle. de la côte d'Afrique : d'après la carte de M. le commt. Guillain. Scale [ca. 1:18,000,000]."
+        },
+        {
+          "label": "Description",
+          "value": "\"Atlas sphéroïdal & universel de géographie dressé par F.A. Garnier, géographe.\""
+        },
+        {
+          "label": "Description",
+          "value": "Prime meridian: Paris."
+        },
+        {
+          "label": "Subject",
+          "value": "Africa, Eastern > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Africa, North > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:8,000,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "19°00′00″E -- 52°00′00″E / 33°00′00″N -- 1°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1860, [1862]"
+        },
+        {
+          "label": "Date",
+          "value": "1862"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/kt670wv9626"
+        },
+        {
+          "label": "Relation",
+          "value": "Caroline Batchelor Map Collection"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-08-11"
+        }
+      ],
+      "description": "Relief shown by hachures.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/kt670wv9626%2Fkt670wv9626_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/kt670wv9626%2Fkt670wv9626_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 295,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/kt670wv9626/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/kt670wv9626/iiif/canvas/cocina-fileSet-kt670wv9626-dd8c3f4d-a704-4e73-8c16-e7792987e929",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 14944,
+              "width": 11007,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/kt670wv9626/kt670wv9626_00_0001.jp2",
+                  "label": "Original source file (29.6 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/kt670wv9626/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fkt670wv9626-dd8c3f4d-a704-4e73-8c16-e7792987e929%2Fkt670wv9626_00_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/kt670wv9626/iiif/canvas/cocina-fileSet-kt670wv9626-dd8c3f4d-a704-4e73-8c16-e7792987e929",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/kt670wv9626%2Fkt670wv9626_00_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 14944,
+                    "width": 11007,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/kt670wv9626%2Fkt670wv9626_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~206054~3002878/manifest",
+      "label": "Africa. Africa (Northwestern Part).",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~206054~3002878/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~206054~3002878/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Africa. Africa (Northwestern Part).",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Hammond, C.S."
+                },
+                {
+                  "label": "Date",
+                  "value": "1948"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Africa. Africa (Northwestern Part)."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Garden City Publishing Company, Inc."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Garden City"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "29,261,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "West Africa map at scale 1:12,070,000."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Country",
+                  "value": "Algeria"
+                },
+                {
+                  "label": "Country",
+                  "value": "Mali"
+                },
+                {
+                  "label": "Country",
+                  "value": "Morocco"
+                },
+                {
+                  "label": "Country",
+                  "value": "Nigeria"
+                },
+                {
+                  "label": "Region",
+                  "value": "Western Sahara"
+                },
+                {
+                  "label": "Region",
+                  "value": "West Africa"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Communications"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Africa. C2483. (inset) Reunion, Mauritius. (inset) Capetown. Africa (Northwestern Part). 7386."
+                },
+                {
+                  "label": "List No",
+                  "value": "1954.033"
+                },
+                {
+                  "label": "Page No",
+                  "value": "72-73"
+                },
+                {
+                  "label": "Series No",
+                  "value": "33"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hammond, C.S."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1948"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Hammond's New World Atlas. Containing New and Complete Historical, Economic, Political and Physical Maps of the Entire World in Full Colors with Complete Indexes and the Races of Mankind, Illustrated Gazetteer of the World, Illustrated Gazetteer of the United States and Territories. Garden City Publishing Company, Inc. Garden City, N.Y., U.S.A. 1948."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Most maps in full color. Many maps have an identification number in a bottom corner - meaning unknown since they are sometimes repeated on different maps."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "1954.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "277"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "52"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Image No",
+                  "value": "1954033"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/1954033.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Hammond, C.S."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~206054~3002878/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~206054~3002878/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~206054~3002878",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11609,
+                    "height": 8672
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~206054~3002878/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~206054~3002878/list/luna"
+              ],
+              "width": 11609,
+              "height": 8672
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~206054~3002878"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272373~90046174/manifest",
+      "label": "Afrique Occidentale Francaise. (French West Africa.)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~272373~90046174/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272373~90046174/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Afrique Occidentale Francaise. (French West Africa.)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Craste, Leon"
+                },
+                {
+                  "label": "Date",
+                  "value": "1951"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Afrique Occidentale Francaise. (French West Africa.)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Ministere de la France d'Outre-Mere = Agence des Colonies"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "79"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "117"
+                },
+                {
+                  "label": "Note",
+                  "value": "Date estimated."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Country",
+                  "value": "Niger"
+                },
+                {
+                  "label": "Country",
+                  "value": "Mauritania"
+                },
+                {
+                  "label": "Country",
+                  "value": "Mali"
+                },
+                {
+                  "label": "Country",
+                  "value": "Guinea"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Afrique Occidentale Francaise. (French West Africa.)"
+                },
+                {
+                  "label": "List No",
+                  "value": "9022.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Craste, Leon"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1951"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Afrique Occidentale Francaise. (French West Africa.)"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Date estimated. Color. Mounted on heavy paper with fabric backing."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "9022.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "79"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "117"
+                },
+                {
+                  "label": "Image No",
+                  "value": "9022000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/9022000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Craste, Leon"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~272373~90046174/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~272373~90046174/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~272373~90046174",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 24388,
+                    "height": 16412
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272373~90046174/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272373~90046174/list/luna"
+              ],
+              "width": 24388,
+              "height": 16412
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~272373~90046174"
+    }
+  ]
+}
