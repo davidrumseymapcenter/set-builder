@@ -1,8 +1,8 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Collection",
-  "@id": "https://iiif-gallery-builder.example.org/Timescales",
-  "label": "Timescales",
+  "@id": "https://iiif-gallery-builder.example.org/Timescales-2-20",
+  "label": "Timescales-2-20",
   "items": [
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -199,6 +199,1078 @@
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/sy409bk9698/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "The North part of America conteyning Newfoundland, New England, Virginia, Florida, New Spaine and Nova Francia, with ye riche Iles of Hispaniola, Cuba, Jamaica, and Porto Rieco, on the south, and upon ye west the large and goodly island of California",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/sy409bk9698.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/sy409bk9698'>https://purl.stanford.edu/sy409bk9698</a>"
+        },
+        {
+          "label": "Title",
+          "value": "The North part of America conteyning Newfoundland, New England, Virginia, Florida, New Spaine and Nova Francia, with ye riche Iles of Hispaniola, Cuba, Jamaica, and Porto Rieco, on the south, and upon ye west the large and goodly island of California"
+        },
+        {
+          "label": "Contributor",
+          "value": "Briggs, Henry, 1561-1630"
+        },
+        {
+          "label": "Contributor",
+          "value": "Elstracke, Renold, active 1590-1630"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : engraved ; 27 x 34 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "R. Elstracke Sculpsit."
+        },
+        {
+          "label": "Description",
+          "value": "The first printed map in English to show California as an island, with flat northern coast."
+        },
+        {
+          "label": "Description",
+          "value": "Cities, etc. ; shoals; pictorial symbols; notes."
+        },
+        {
+          "label": "Description",
+          "value": "Watermark."
+        },
+        {
+          "label": "Description",
+          "value": "Notes on map refer to California, Sr. Thomas Button and Mr. Baffin."
+        },
+        {
+          "label": "Description",
+          "value": "Projection: simple conical."
+        },
+        {
+          "label": "Description",
+          "value": "\"852\" & \"853\" inside neat line in top left & right corners of map."
+        },
+        {
+          "label": "Description",
+          "value": "Engraved by: R. Elstrake Sculpsit (lower right)."
+        },
+        {
+          "label": "Description",
+          "value": "On the map are two notes, one stating\"California sometymes supposed to be a part of ye westerne continent, but scince by a Spanish Charte taken by ye Hollanders it is found to be a goodly Ilande: the length of the west shoare beeing about 500 leagues...\""
+        },
+        {
+          "label": "Description",
+          "value": "Issued in: Hakluytus Posthumus or Purchas His Pilgrimes, III, 852-3. London, 1625, to accompany an article by H. Briggs on the Northwest Passage."
+        },
+        {
+          "label": "Subject",
+          "value": "North America > Early works to 1800"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:23,500,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "W 255°--W 345°/N 65°--N 10°"
+        },
+        {
+          "label": "Date",
+          "value": "1625"
+        },
+        {
+          "label": "Date",
+          "value": "1625]"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/sy409bk9698"
+        },
+        {
+          "label": "Publisher",
+          "value": "William Stansby for Henrie Fetherstone"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2022-08-16"
+        }
+      ],
+      "description": "The first printed map in English to show California as an island, with flat northern coast.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 350
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/sy409bk9698/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 10874,
+              "width": 12412,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/sy409bk9698/sy409bk9698_05_0001.jp2",
+                  "label": "Original source file (24.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/sy409bk9698/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fsy409bk9698-sy409bk9698_1%2Fsy409bk9698_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10874,
+                    "width": 12412,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292898~90064461/manifest",
+      "label": "View: Gold and Silver Smiths in the Territory of Chito.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~292898~90064461/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292898~90064461/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "View: Gold and Silver Smiths in the Territory of Chito.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Ogilby, John, 1600-1676"
+                },
+                {
+                  "label": "Author",
+                  "value": "Montanus, Arnoldus, 1625?-1683"
+                },
+                {
+                  "label": "Date",
+                  "value": "1671"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "View: Gold and Silver Smiths in the Territory of Chito."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Ogilby, John"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Reference",
+                  "value": "Burton, Philip D., 2007, The Mapping of North America II. A List of Printed Maps 1671-1700; Cumming, Southeast in Early Maps 70."
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(View) \"Gold and Silver Smiths in the Territory of Chito\"."
+                },
+                {
+                  "label": "List No",
+                  "value": "12241.010"
+                },
+                {
+                  "label": "Page No",
+                  "value": "14"
+                },
+                {
+                  "label": "Series No",
+                  "value": "10"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "RR Donnelley"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ogilby, John, 1600-1676"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Montanus, Arnoldus, 1625?-1683"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1671"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "America: Being The Latest, And Most accurate Description Of The New World; Containing The Original of the Inhabitants, and the Remarkable Voyages thither. The Conquest of the Vast Empires of Mexico and Peru, And Other Large Provinces and Territories ... Collected from the most Authentick Authors, Augmented with later Observations, and Adorn'd with Maps and Sculptures, by John Ogilby, esq; His Majesty's Cosmographer, Geographick Printer, and Master of the Revels in the Kingdom of Ireland. London, Printed by the Author, and are to be had at his House in White Fryers, M.DC.LXXI."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "First edition, second issue, with the important Lord Proprietors map of Carolina by Moxon replacing the Arx Carolina plate and the Virginia pars Australis map of the first issue, with the addition of a map of Barbados, and with the plate list as in the first issue still listing Arx Carolina and Virginia pars Australis but not listing the Lords Proprietors Carolina or Barbados. This copy includes both the Arx Carolina plate and the Virginia pars Australis map, tipped in later. The work is an English translation of Arnold Montanus “De Nieuwe en Onbekende Weereld,” but with a number of additions concerning New England, New France, Maryland and Virginia. Many new maps and views were added. The Moxon map of Carolina is the first large format map of the newly established colony of Carolina. “America” was Ogilby’s finest foreign work; over 150 authors are credited although Montanus is lacking. “When it came to North America, particularly, he abandoned Montanus entirely for his own closer sources. His work used superior type and larger and finer paper than Montanus. Clearly some form of at least tacit agreement existed between Montanus and Ogilby as he acquired the same plates to illustrate his work. This is itself unusual as Ogilby was renowned for providing his own ‘sculptures’. The reasons may lie in the fact that the project clearly was already an expensive one, and that the work had been promised for some time and further delay was undesirable. The first map in the book, of the whole of America, was one of five plates provided by Ogilby himself. We may speculate that this was because Montanus did not actually own the Schagen plate, or that Ogilby wished to insert more English nomenclature” (Burden). Regarding Ogilby himself, he had a series of remarkably successful careers as a dancer, dance master, theatre manager/director, and translator of classics, and finally as author and publisher of travel and geography books."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12241.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "26"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12241010.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/12241010.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Ogilby, John, 1600-1676 ; Montanus, Arnoldus, 1625?-1683"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292898~90064461/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292898~90064461/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292898~90064461",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 3626,
+                    "height": 2624
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292898~90064461/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292898~90064461/list/luna"
+              ],
+              "width": 3626,
+              "height": 2624
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~292898~90064461"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292939~90064501/manifest",
+      "label": "View: (Strange Animals of Guatemala.)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~292939~90064501/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292939~90064501/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "View: (Strange Animals of Guatemala.)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Ogilby, John, 1600-1676"
+                },
+                {
+                  "label": "Author",
+                  "value": "Montanus, Arnoldus, 1625?-1683"
+                },
+                {
+                  "label": "Date",
+                  "value": "1671"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "View: (Strange Animals of Guatemala.)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Ogilby, John"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Reference",
+                  "value": "Burton, Philip D., 2007, The Mapping of North America II. A List of Printed Maps 1671-1700; Cumming, Southeast in Early Maps 70."
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(View) (Strange Animals of Guatemala.)"
+                },
+                {
+                  "label": "List No",
+                  "value": "12241.051"
+                },
+                {
+                  "label": "Page No",
+                  "value": "225"
+                },
+                {
+                  "label": "Series No",
+                  "value": "51"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "RR Donnelley"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ogilby, John, 1600-1676"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Montanus, Arnoldus, 1625?-1683"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1671"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "America: Being The Latest, And Most accurate Description Of The New World; Containing The Original of the Inhabitants, and the Remarkable Voyages thither. The Conquest of the Vast Empires of Mexico and Peru, And Other Large Provinces and Territories ... Collected from the most Authentick Authors, Augmented with later Observations, and Adorn'd with Maps and Sculptures, by John Ogilby, esq; His Majesty's Cosmographer, Geographick Printer, and Master of the Revels in the Kingdom of Ireland. London, Printed by the Author, and are to be had at his House in White Fryers, M.DC.LXXI."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "First edition, second issue, with the important Lord Proprietors map of Carolina by Moxon replacing the Arx Carolina plate and the Virginia pars Australis map of the first issue, with the addition of a map of Barbados, and with the plate list as in the first issue still listing Arx Carolina and Virginia pars Australis but not listing the Lords Proprietors Carolina or Barbados. This copy includes both the Arx Carolina plate and the Virginia pars Australis map, tipped in later. The work is an English translation of Arnold Montanus “De Nieuwe en Onbekende Weereld,” but with a number of additions concerning New England, New France, Maryland and Virginia. Many new maps and views were added. The Moxon map of Carolina is the first large format map of the newly established colony of Carolina. “America” was Ogilby’s finest foreign work; over 150 authors are credited although Montanus is lacking. “When it came to North America, particularly, he abandoned Montanus entirely for his own closer sources. His work used superior type and larger and finer paper than Montanus. Clearly some form of at least tacit agreement existed between Montanus and Ogilby as he acquired the same plates to illustrate his work. This is itself unusual as Ogilby was renowned for providing his own ‘sculptures’. The reasons may lie in the fact that the project clearly was already an expensive one, and that the work had been promised for some time and further delay was undesirable. The first map in the book, of the whole of America, was one of five plates provided by Ogilby himself. We may speculate that this was because Montanus did not actually own the Schagen plate, or that Ogilby wished to insert more English nomenclature” (Burden). Regarding Ogilby himself, he had a series of remarkably successful careers as a dancer, dance master, theatre manager/director, and translator of classics, and finally as author and publisher of travel and geography books."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12241.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "26"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12241051.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/12241051.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Ogilby, John, 1600-1676 ; Montanus, Arnoldus, 1625?-1683"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292939~90064501/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292939~90064501/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292939~90064501",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 4265,
+                    "height": 3254
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292939~90064501/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292939~90064501/list/luna"
+              ],
+              "width": 4265,
+              "height": 3254
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~292939~90064501"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292973~90066923/manifest",
+      "label": "Peru.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~292973~90066923/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292973~90066923/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Peru.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Ogilby, John, 1600-1676"
+                },
+                {
+                  "label": "Author",
+                  "value": "Montanus, Arnoldus, 1625?-1683"
+                },
+                {
+                  "label": "Date",
+                  "value": "1671"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Peru."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Ogilby, John"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Book Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Reference",
+                  "value": "Burton, Philip D., 2007, The Mapping of North America II. A List of Printed Maps 1671-1700; Cumming, Southeast in Early Maps 70."
+                },
+                {
+                  "label": "Country",
+                  "value": "Peru"
+                },
+                {
+                  "label": "Country",
+                  "value": "Ecuador"
+                },
+                {
+                  "label": "Country",
+                  "value": "Bolivia"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Peru."
+                },
+                {
+                  "label": "List No",
+                  "value": "12241.085"
+                },
+                {
+                  "label": "Page No",
+                  "value": "after 412"
+                },
+                {
+                  "label": "Series No",
+                  "value": "85"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "RR Donnelley"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ogilby, John, 1600-1676"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Montanus, Arnoldus, 1625?-1683"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1671"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "America: Being The Latest, And Most accurate Description Of The New World; Containing The Original of the Inhabitants, and the Remarkable Voyages thither. The Conquest of the Vast Empires of Mexico and Peru, And Other Large Provinces and Territories ... Collected from the most Authentick Authors, Augmented with later Observations, and Adorn'd with Maps and Sculptures, by John Ogilby, esq; His Majesty's Cosmographer, Geographick Printer, and Master of the Revels in the Kingdom of Ireland. London, Printed by the Author, and are to be had at his House in White Fryers, M.DC.LXXI."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "First edition, second issue, with the important Lord Proprietors map of Carolina by Moxon replacing the Arx Carolina plate and the Virginia pars Australis map of the first issue, with the addition of a map of Barbados, and with the plate list as in the first issue still listing Arx Carolina and Virginia pars Australis but not listing the Lords Proprietors Carolina or Barbados. This copy includes both the Arx Carolina plate and the Virginia pars Australis map, tipped in later. The work is an English translation of Arnold Montanus “De Nieuwe en Onbekende Weereld,” but with a number of additions concerning New England, New France, Maryland and Virginia. Many new maps and views were added. The Moxon map of Carolina is the first large format map of the newly established colony of Carolina. “America” was Ogilby’s finest foreign work; over 150 authors are credited although Montanus is lacking. “When it came to North America, particularly, he abandoned Montanus entirely for his own closer sources. His work used superior type and larger and finer paper than Montanus. Clearly some form of at least tacit agreement existed between Montanus and Ogilby as he acquired the same plates to illustrate his work. This is itself unusual as Ogilby was renowned for providing his own ‘sculptures’. The reasons may lie in the fact that the project clearly was already an expensive one, and that the work had been promised for some time and further delay was undesirable. The first map in the book, of the whole of America, was one of five plates provided by Ogilby himself. We may speculate that this was because Montanus did not actually own the Schagen plate, or that Ogilby wished to insert more English nomenclature” (Burden). Regarding Ogilby himself, he had a series of remarkably successful careers as a dancer, dance master, theatre manager/director, and translator of classics, and finally as author and publisher of travel and geography books."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12241.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "26"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12241085.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/12241085.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Ogilby, John, 1600-1676 ; Montanus, Arnoldus, 1625?-1683"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292973~90066923/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292973~90066923/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292973~90066923",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12448,
+                    "height": 8838
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292973~90066923/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292973~90066923/list/luna"
+              ],
+              "width": 12448,
+              "height": 8838
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~292973~90066923"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/wk428tr8961/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "AMERICA SEPTENTRIONALIS divisa in suas principales partes ET STATUS seu Dominatus Regis GALLIÆ, CASTILLÆ, ANGLIÆ, SUECIÆ DANIÆ et BATAVORUM P.D. Sanson Geographum Regis Galliæ ordinarium",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/wk428tr8961.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/wk428tr8961'>https://purl.stanford.edu/wk428tr8961</a>"
+        },
+        {
+          "label": "Title",
+          "value": "AMERICA SEPTENTRIONALIS divisa in suas principales partes ET STATUS seu Dominatus Regis GALLIÆ, CASTILLÆ, ANGLIÆ, SUECIÆ DANIÆ et BATAVORUM P.D. Sanson Geographum Regis Galliæ ordinarium"
+        },
+        {
+          "label": "Creator",
+          "value": "Hofmann, Johann Jacob, ǂd 17th/18th cent."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : 52.3 x 85.1 cm., 57 x 86.6 cm. including border and titlepiece at top."
+        },
+        {
+          "label": "Description",
+          "value": "California as very large island on second Sanson model, with Terra de Iesso vel Ieço and Mare de Iesso to northwest."
+        },
+        {
+          "label": "Description",
+          "value": "Based on Sanson-Jaillot map of 1674 entitled \"AMERIQUE SEPTENTRIONALE diviseé en ses principales parties ou sont distingués les vns des autres LES ESTATS suivant...\", but all text is now in Latin. An English edition was issued in 1680 by William Berry."
+        },
+        {
+          "label": "Description",
+          "value": "Multiple scales given within cartouche (lower left)."
+        },
+        {
+          "label": "Description",
+          "value": "Added title at map top: \"AMERICA SEPTENTRIONALIS DIVISA INSUAS PRINCIPALES PARTES TERRAM NEMPE ARTICAM, CANADAM SEU NOVAM FRANCIAM, MEXICO SEU NOVAM HISPANIAM; NOVAM MEXICO, INSULAS DE TERRA NOVA DE CALIFORNIA ET ANTILLAS UT EN IN DOMINATUS REGIS GALLIÆ, CASTILLÆ, ANGLIÆ, SUECIÆ, DANIÆ ET BATAVORUM. Per S. Sanson Geographum REGIS GALLIÆ Ordinarium.\""
+        },
+        {
+          "label": "Description",
+          "value": "Separately published."
+        },
+        {
+          "label": "Description",
+          "value": "Engraved by: J.J Vogel. Scul. (lower left)."
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "IOHANN HOFFMANN, Excudit."
+        },
+        {
+          "label": "References",
+          "value": "see Wagner 409b; Wheat 58; see Tooley 37 (Plate 44) & 38; Leighly 64."
+        },
+        {
+          "label": "Subject",
+          "value": "California as an island > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "North America > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "[ca.1:16,000,000], [S.l.:s.n.], [1675?]."
+        },
+        {
+          "label": "Coverage",
+          "value": "173°00′00″W -- 10°00′00″W / 84°00′00″N -- 7°10′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1675"
+        },
+        {
+          "label": "Date",
+          "value": "1675"
+        },
+        {
+          "label": "Identifier",
+          "value": "Original McLaughlin Book Number (1995 edition): 57"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/wk428tr8961"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2022-08-16"
+        }
+      ],
+      "description": "California as very large island on second Sanson model, with Terra de Iesso vel Ieço and Mare de Iesso to northwest.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wk428tr8961%2Fwk428tr8961_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wk428tr8961%2Fwk428tr8961_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 288
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/wk428tr8961/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/wk428tr8961/iiif/canvas/cocina-fileSet-wk428tr8961-wk428tr8961_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 16426,
+              "width": 22792,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/wk428tr8961/wk428tr8961_05_0001.jp2",
+                  "label": "Original source file (67.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/wk428tr8961/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fwk428tr8961-wk428tr8961_1%2Fwk428tr8961_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/wk428tr8961/iiif/canvas/cocina-fileSet-wk428tr8961-wk428tr8961_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/wk428tr8961%2Fwk428tr8961_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 16426,
+                    "width": 22792,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/wk428tr8961%2Fwk428tr8961_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/bd935rr8206/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "AMERICA",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/bd935rr8206.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/bd935rr8206'>https://purl.stanford.edu/bd935rr8206</a>"
+        },
+        {
+          "label": "Title",
+          "value": "AMERICA"
+        },
+        {
+          "label": "Creator",
+          "value": "Overton, Henry, fl. 1751-1764."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : hand col.; 54.8 x 92.5 cm. ; 56.1 x 93.8 cm. including border."
+        },
+        {
+          "label": "State 1",
+          "value": "Inset: Polar projection (W 180-- E 180/N 90-- N 50). Dedication: To Her most Sacred MAJ.TY ANN QUEEN OF GREAT BRITAIN, FRANCE AND IRELAND This MAPP of AMERICA Is Most Humbly Dedicated by Your Majesties most Dutyfull Subject - Henry Overton 1711. (above title, lower left). Cartouche at upper right states: \"Printed and sold by Henry Overton at the White horse without Newgate\". Map includes part of western Africa and Spain."
+        },
+        {
+          "label": "State 2",
+          "value": "Issued [1730]. 57 x 96 cm. Insets: North polar projection (upper left). Vignettes of beavers in Canada and Niagara Falls (center left) and cod fishery in Newfoundland (bottom right), used on 1705 De Fer map and also by Moll. Six engravings depicting Native customs, copied from De Bry illustrations (top and center right, replace map of western Africa and Spain as found in State 1). Dedication: To Her most Sacred MAJ.TY CAROLINE QUEEN OF GREAT BRITAIN, FRANCE AND IRELAND This MAPP of AMERICA Is Most Humbly Dedicated by Your Majesties most Dutyfull Subject Henry Overton. (above title, within vignette). [Queen Caroline reigned 1727-1737]."
+        },
+        {
+          "label": "References",
+          "value": "Tooley 92 & Leighly 163 (State 2) ; The discovery of the world; Maps of the earth and the cosmos, p.65 / The David M. Stewart Museum, 1985."
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "Henry Overton."
+        },
+        {
+          "label": "Description",
+          "value": "California as an island on Briggs model, with flat northern coast. Text near California: California by former Geographers was always taken for part of ye continent; but by a Mapp (taken by ye Dutch from ye Spaniards) its found to be an Island, to contain where broadest 500 Leagues from Cape Mendocino even to Cape S.t Luke according to Francis Gaule & ye forementioned Mapp to extend in length 1700 leagues. Title and dedication within cartouche/vignette of Native chiefs, workers, and a crocodile (bottom left). Similar vignette of Native seated near turtle, snake and monkey (bottom center)."
+        },
+        {
+          "label": "Subject",
+          "value": "America > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "California as an island > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "[ca. 1:33,000,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "160°00′00″W -- 20°00′00″E / 90°00′00″N -- 90°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1711"
+        },
+        {
+          "label": "Identifier",
+          "value": "Original McLaughlin Book Number (1995 edition): 182"
+        },
+        {
+          "label": "Identifier",
+          "value": "Original McLaughlin book number (1995 edition) with latest state information: 182-01"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/bd935rr8206"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2022-08-16"
+        }
+      ],
+      "description": "California as an island on Briggs model, with flat northern coast. Text near California: California by former Geographers was always taken for part of ye continent; but by a Mapp (taken by ye Dutch from ye Spaniards) its found to be an Island, to contain where broadest 500 Leagues from Cape Mendocino even to Cape S.t Luke according to Francis Gaule & ye forementioned Mapp to extend in length 1700 leagues. Title and dedication within cartouche/vignette of Native chiefs, workers, and a crocodile (bottom left). Similar vignette of Native seated near turtle, snake and monkey (bottom center).",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/bd935rr8206%2Fbd935rr8206_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/bd935rr8206%2Fbd935rr8206_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 250
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/bd935rr8206/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/bd935rr8206/iiif/canvas/cocina-fileSet-bd935rr8206-bd935rr8206_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 10113,
+              "width": 16207,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/bd935rr8206/bd935rr8206_05_0001.jp2",
+                  "label": "Original source file (29.5 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/bd935rr8206/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fbd935rr8206-bd935rr8206_1%2Fbd935rr8206_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/bd935rr8206/iiif/canvas/cocina-fileSet-bd935rr8206-bd935rr8206_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/bd935rr8206%2Fbd935rr8206_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10113,
+                    "width": 16207,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/bd935rr8206%2Fbd935rr8206_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "sc:Manifest",
       "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~345920~90113384/manifest",
       "label": "[Ordenanza que papa la division de la M. noble y leal cuidad de Santiago de Queretaro ... ].",
@@ -369,6 +1441,181 @@
         "format": "image/png"
       },
       "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~345920~90113384"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/nm477yr8537/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Geographie des Plantes Equin Oxiales. Tableau Physique des Andes et Pays voisins, dresse d'apres des observations et des mesures prises sur les lieux depuis le 10(degree) degre de latitude boreale jusquau 10(degree) de latitude australe en 1799, 1800, 1801, 1802 et 1803. Par Alexandre de Humboldt et Aime Bonpland. Esquisse et redige par M. de Humboldt dessine par Schonberger et Turpin a paris en 1805, grave par bouquet, la lettre par beauble, imprime par Langlois",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/nm477yr8537.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/nm477yr8537'>https://purl.stanford.edu/nm477yr8537</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Geographie des Plantes Equin Oxiales. Tableau Physique des Andes et Pays voisins, dresse d'apres des observations et des mesures prises sur les lieux depuis le 10(degree) degre de latitude boreale jusquau 10(degree) de latitude australe en 1799, 1800, 1801, 1802 et 1803. Par Alexandre de Humboldt et Aime Bonpland. Esquisse et redige par M. de Humboldt dessine par Schonberger et Turpin a paris en 1805, grave par bouquet, la lettre par beauble, imprime par Langlois"
+        },
+        {
+          "label": "Contributor",
+          "value": "Humboldt, Alexander (1769-1859)."
+        },
+        {
+          "label": "Contributor",
+          "value": "Beauble."
+        },
+        {
+          "label": "Contributor",
+          "value": "Bonpland, Aime (1773-1858)."
+        },
+        {
+          "label": "Contributor",
+          "value": "Bouquet, Louis."
+        },
+        {
+          "label": "Contributor",
+          "value": "Schonberger."
+        },
+        {
+          "label": "Contributor",
+          "value": "Turpin."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 37 x 84 cm."
+        },
+        {
+          "label": "Description",
+          "value": "Separate Map."
+        },
+        {
+          "label": "Description",
+          "value": "Uncolored elevation profile of Equinoctial plants, and geology of Andes Region. Drafted by Humboldt designed by Schonberger and Turpin paris in 1805. Includes 2 tables showing distribution of plants and geology in the area. Shows large number of plant families, genera, and species names corresponding to the vicinity of the equator in America. Relief shown pictorially."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 11083.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Vegetation > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Andes > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "South America > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale not given."
+        },
+        {
+          "label": "Date",
+          "value": "1805"
+        },
+        {
+          "label": "Date",
+          "value": "1805"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/nm477yr8537"
+        },
+        {
+          "label": "Publisher",
+          "value": "Langlois,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-01-06"
+        }
+      ],
+      "description": "Separate Map.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/nm477yr8537%2F11083000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/nm477yr8537%2F11083000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 249
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/nm477yr8537/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/nm477yr8537/iiif/canvas/cocina-fileSet-nm477yr8537-nm477yr8537_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 13406,
+              "width": 21500,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/nm477yr8537/11083000.jp2",
+                  "label": "Original source file (51.8 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/nm477yr8537/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fnm477yr8537-nm477yr8537_1%2F11083000.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/nm477yr8537/iiif/canvas/cocina-fileSet-nm477yr8537-nm477yr8537_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/nm477yr8537%2F11083000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 13406,
+                    "width": 21500,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/nm477yr8537%2F11083000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2311,549 +3558,6 @@
         "format": "image/png"
       },
       "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~358636~90125282"
-    },
-    {
-      "@context": "http://iiif.io/api/presentation/2/context.json",
-      "@type": "sc:Manifest",
-      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292898~90064461/manifest",
-      "label": "View: Gold and Silver Smiths in the Territory of Chito.",
-      "attribution": "David Rumsey Historical Map Collection",
-      "service": {
-        "@context": "http://iiif.io/api/search/1/context.json",
-        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~292898~90064461/search",
-        "profile": "http://iiif.io/api/search/1/search"
-      },
-      "sequences": [
-        {
-          "@type": "sc:Sequence",
-          "canvases": [
-            {
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292898~90064461/canvas/c1",
-              "@type": "sc:Canvas",
-              "label": "View: Gold and Silver Smiths in the Territory of Chito.",
-              "description": "",
-              "metadata": [
-                {
-                  "label": "Author",
-                  "value": "Ogilby, John, 1600-1676"
-                },
-                {
-                  "label": "Author",
-                  "value": "Montanus, Arnoldus, 1625?-1683"
-                },
-                {
-                  "label": "Date",
-                  "value": "1671"
-                },
-                {
-                  "label": "Short Title",
-                  "value": "View: Gold and Silver Smiths in the Territory of Chito."
-                },
-                {
-                  "label": "Publisher",
-                  "value": "Ogilby, John"
-                },
-                {
-                  "label": "Publisher Location",
-                  "value": "London"
-                },
-                {
-                  "label": "Type",
-                  "value": "View"
-                },
-                {
-                  "label": "Obj Height cm",
-                  "value": "15"
-                },
-                {
-                  "label": "Obj Width cm",
-                  "value": "21"
-                },
-                {
-                  "label": "Reference",
-                  "value": "Burton, Philip D., 2007, The Mapping of North America II. A List of Printed Maps 1671-1700; Cumming, Southeast in Early Maps 70."
-                },
-                {
-                  "label": "Full Title",
-                  "value": "(View) \"Gold and Silver Smiths in the Territory of Chito\"."
-                },
-                {
-                  "label": "List No",
-                  "value": "12241.010"
-                },
-                {
-                  "label": "Page No",
-                  "value": "14"
-                },
-                {
-                  "label": "Series No",
-                  "value": "10"
-                },
-                {
-                  "label": "Engraver or Printer",
-                  "value": "RR Donnelley"
-                },
-                {
-                  "label": "Publication Author",
-                  "value": "Ogilby, John, 1600-1676"
-                },
-                {
-                  "label": "Publication Author",
-                  "value": "Montanus, Arnoldus, 1625?-1683"
-                },
-                {
-                  "label": "Pub Date",
-                  "value": "1671"
-                },
-                {
-                  "label": "Pub Title",
-                  "value": "America: Being The Latest, And Most accurate Description Of The New World; Containing The Original of the Inhabitants, and the Remarkable Voyages thither. The Conquest of the Vast Empires of Mexico and Peru, And Other Large Provinces and Territories ... Collected from the most Authentick Authors, Augmented with later Observations, and Adorn'd with Maps and Sculptures, by John Ogilby, esq; His Majesty's Cosmographer, Geographick Printer, and Master of the Revels in the Kingdom of Ireland. London, Printed by the Author, and are to be had at his House in White Fryers, M.DC.LXXI."
-                },
-                {
-                  "label": "Pub Note",
-                  "value": "First edition, second issue, with the important Lord Proprietors map of Carolina by Moxon replacing the Arx Carolina plate and the Virginia pars Australis map of the first issue, with the addition of a map of Barbados, and with the plate list as in the first issue still listing Arx Carolina and Virginia pars Australis but not listing the Lords Proprietors Carolina or Barbados. This copy includes both the Arx Carolina plate and the Virginia pars Australis map, tipped in later. The work is an English translation of Arnold Montanus “De Nieuwe en Onbekende Weereld,” but with a number of additions concerning New England, New France, Maryland and Virginia. Many new maps and views were added. The Moxon map of Carolina is the first large format map of the newly established colony of Carolina. “America” was Ogilby’s finest foreign work; over 150 authors are credited although Montanus is lacking. “When it came to North America, particularly, he abandoned Montanus entirely for his own closer sources. His work used superior type and larger and finer paper than Montanus. Clearly some form of at least tacit agreement existed between Montanus and Ogilby as he acquired the same plates to illustrate his work. This is itself unusual as Ogilby was renowned for providing his own ‘sculptures’. The reasons may lie in the fact that the project clearly was already an expensive one, and that the work had been promised for some time and further delay was undesirable. The first map in the book, of the whole of America, was one of five plates provided by Ogilby himself. We may speculate that this was because Montanus did not actually own the Schagen plate, or that Ogilby wished to insert more English nomenclature” (Burden). Regarding Ogilby himself, he had a series of remarkably successful careers as a dancer, dance master, theatre manager/director, and translator of classics, and finally as author and publisher of travel and geography books."
-                },
-                {
-                  "label": "Pub List No",
-                  "value": "12241.000"
-                },
-                {
-                  "label": "Pub Type",
-                  "value": "Exploration Book"
-                },
-                {
-                  "label": "Pub Maps",
-                  "value": "26"
-                },
-                {
-                  "label": "Pub Height cm",
-                  "value": "43"
-                },
-                {
-                  "label": "Pub Width cm",
-                  "value": "28"
-                },
-                {
-                  "label": "Image No",
-                  "value": "12241010.jp2"
-                },
-                {
-                  "label": "Download 1",
-                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/12241010.jp2 target=_blank>Full Image Download in JP2 Format</a>"
-                },
-                {
-                  "label": "Download 2",
-                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
-                },
-                {
-                  "label": "Authors",
-                  "value": "Ogilby, John, 1600-1676 ; Montanus, Arnoldus, 1625?-1683"
-                }
-              ],
-              "thumbnail": {
-                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292898~90064461/full/!96,96/0/default.jpg",
-                "format": "image/jpeg"
-              },
-              "images": [
-                {
-                  "@type": "oa:Annotation",
-                  "motivation": "sc:painting",
-                  "resource": {
-                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292898~90064461/full/!1024,1024/0/default.jpg",
-                    "@type": "dctypes:Image",
-                    "service": {
-                      "@context": "http://iiif.io/api/image/2/context.json",
-                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292898~90064461",
-                      "profile": "http://iiif.io/api/image/2/level1.json",
-                      "protocol": "http://iiif.io/api/image"
-                    },
-                    "format": "image/jpeg",
-                    "width": 3626,
-                    "height": 2624
-                  },
-                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292898~90064461/canvas/c1"
-                }
-              ],
-              "otherContent": [
-                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292898~90064461/list/luna"
-              ],
-              "width": 3626,
-              "height": 2624
-            }
-          ]
-        }
-      ],
-      "logo": {
-        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
-        "format": "image/png"
-      },
-      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~292898~90064461"
-    },
-    {
-      "@context": "http://iiif.io/api/presentation/2/context.json",
-      "@type": "sc:Manifest",
-      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292939~90064501/manifest",
-      "label": "View: (Strange Animals of Guatemala.)",
-      "attribution": "David Rumsey Historical Map Collection",
-      "service": {
-        "@context": "http://iiif.io/api/search/1/context.json",
-        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~292939~90064501/search",
-        "profile": "http://iiif.io/api/search/1/search"
-      },
-      "sequences": [
-        {
-          "@type": "sc:Sequence",
-          "canvases": [
-            {
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292939~90064501/canvas/c1",
-              "@type": "sc:Canvas",
-              "label": "View: (Strange Animals of Guatemala.)",
-              "description": "",
-              "metadata": [
-                {
-                  "label": "Author",
-                  "value": "Ogilby, John, 1600-1676"
-                },
-                {
-                  "label": "Author",
-                  "value": "Montanus, Arnoldus, 1625?-1683"
-                },
-                {
-                  "label": "Date",
-                  "value": "1671"
-                },
-                {
-                  "label": "Short Title",
-                  "value": "View: (Strange Animals of Guatemala.)"
-                },
-                {
-                  "label": "Publisher",
-                  "value": "Ogilby, John"
-                },
-                {
-                  "label": "Publisher Location",
-                  "value": "London"
-                },
-                {
-                  "label": "Type",
-                  "value": "View"
-                },
-                {
-                  "label": "Obj Height cm",
-                  "value": "15"
-                },
-                {
-                  "label": "Obj Width cm",
-                  "value": "21"
-                },
-                {
-                  "label": "Reference",
-                  "value": "Burton, Philip D., 2007, The Mapping of North America II. A List of Printed Maps 1671-1700; Cumming, Southeast in Early Maps 70."
-                },
-                {
-                  "label": "Full Title",
-                  "value": "(View) (Strange Animals of Guatemala.)"
-                },
-                {
-                  "label": "List No",
-                  "value": "12241.051"
-                },
-                {
-                  "label": "Page No",
-                  "value": "225"
-                },
-                {
-                  "label": "Series No",
-                  "value": "51"
-                },
-                {
-                  "label": "Engraver or Printer",
-                  "value": "RR Donnelley"
-                },
-                {
-                  "label": "Publication Author",
-                  "value": "Ogilby, John, 1600-1676"
-                },
-                {
-                  "label": "Publication Author",
-                  "value": "Montanus, Arnoldus, 1625?-1683"
-                },
-                {
-                  "label": "Pub Date",
-                  "value": "1671"
-                },
-                {
-                  "label": "Pub Title",
-                  "value": "America: Being The Latest, And Most accurate Description Of The New World; Containing The Original of the Inhabitants, and the Remarkable Voyages thither. The Conquest of the Vast Empires of Mexico and Peru, And Other Large Provinces and Territories ... Collected from the most Authentick Authors, Augmented with later Observations, and Adorn'd with Maps and Sculptures, by John Ogilby, esq; His Majesty's Cosmographer, Geographick Printer, and Master of the Revels in the Kingdom of Ireland. London, Printed by the Author, and are to be had at his House in White Fryers, M.DC.LXXI."
-                },
-                {
-                  "label": "Pub Note",
-                  "value": "First edition, second issue, with the important Lord Proprietors map of Carolina by Moxon replacing the Arx Carolina plate and the Virginia pars Australis map of the first issue, with the addition of a map of Barbados, and with the plate list as in the first issue still listing Arx Carolina and Virginia pars Australis but not listing the Lords Proprietors Carolina or Barbados. This copy includes both the Arx Carolina plate and the Virginia pars Australis map, tipped in later. The work is an English translation of Arnold Montanus “De Nieuwe en Onbekende Weereld,” but with a number of additions concerning New England, New France, Maryland and Virginia. Many new maps and views were added. The Moxon map of Carolina is the first large format map of the newly established colony of Carolina. “America” was Ogilby’s finest foreign work; over 150 authors are credited although Montanus is lacking. “When it came to North America, particularly, he abandoned Montanus entirely for his own closer sources. His work used superior type and larger and finer paper than Montanus. Clearly some form of at least tacit agreement existed between Montanus and Ogilby as he acquired the same plates to illustrate his work. This is itself unusual as Ogilby was renowned for providing his own ‘sculptures’. The reasons may lie in the fact that the project clearly was already an expensive one, and that the work had been promised for some time and further delay was undesirable. The first map in the book, of the whole of America, was one of five plates provided by Ogilby himself. We may speculate that this was because Montanus did not actually own the Schagen plate, or that Ogilby wished to insert more English nomenclature” (Burden). Regarding Ogilby himself, he had a series of remarkably successful careers as a dancer, dance master, theatre manager/director, and translator of classics, and finally as author and publisher of travel and geography books."
-                },
-                {
-                  "label": "Pub List No",
-                  "value": "12241.000"
-                },
-                {
-                  "label": "Pub Type",
-                  "value": "Exploration Book"
-                },
-                {
-                  "label": "Pub Maps",
-                  "value": "26"
-                },
-                {
-                  "label": "Pub Height cm",
-                  "value": "43"
-                },
-                {
-                  "label": "Pub Width cm",
-                  "value": "28"
-                },
-                {
-                  "label": "Image No",
-                  "value": "12241051.jp2"
-                },
-                {
-                  "label": "Download 1",
-                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/12241051.jp2 target=_blank>Full Image Download in JP2 Format</a>"
-                },
-                {
-                  "label": "Download 2",
-                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
-                },
-                {
-                  "label": "Authors",
-                  "value": "Ogilby, John, 1600-1676 ; Montanus, Arnoldus, 1625?-1683"
-                }
-              ],
-              "thumbnail": {
-                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292939~90064501/full/!96,96/0/default.jpg",
-                "format": "image/jpeg"
-              },
-              "images": [
-                {
-                  "@type": "oa:Annotation",
-                  "motivation": "sc:painting",
-                  "resource": {
-                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292939~90064501/full/!1024,1024/0/default.jpg",
-                    "@type": "dctypes:Image",
-                    "service": {
-                      "@context": "http://iiif.io/api/image/2/context.json",
-                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292939~90064501",
-                      "profile": "http://iiif.io/api/image/2/level1.json",
-                      "protocol": "http://iiif.io/api/image"
-                    },
-                    "format": "image/jpeg",
-                    "width": 4265,
-                    "height": 3254
-                  },
-                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292939~90064501/canvas/c1"
-                }
-              ],
-              "otherContent": [
-                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292939~90064501/list/luna"
-              ],
-              "width": 4265,
-              "height": 3254
-            }
-          ]
-        }
-      ],
-      "logo": {
-        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
-        "format": "image/png"
-      },
-      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~292939~90064501"
-    },
-    {
-      "@context": "http://iiif.io/api/presentation/2/context.json",
-      "@type": "sc:Manifest",
-      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292973~90066923/manifest",
-      "label": "Peru.",
-      "attribution": "David Rumsey Historical Map Collection",
-      "service": {
-        "@context": "http://iiif.io/api/search/1/context.json",
-        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~292973~90066923/search",
-        "profile": "http://iiif.io/api/search/1/search"
-      },
-      "sequences": [
-        {
-          "@type": "sc:Sequence",
-          "canvases": [
-            {
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292973~90066923/canvas/c1",
-              "@type": "sc:Canvas",
-              "label": "Peru.",
-              "description": "",
-              "metadata": [
-                {
-                  "label": "Author",
-                  "value": "Ogilby, John, 1600-1676"
-                },
-                {
-                  "label": "Author",
-                  "value": "Montanus, Arnoldus, 1625?-1683"
-                },
-                {
-                  "label": "Date",
-                  "value": "1671"
-                },
-                {
-                  "label": "Short Title",
-                  "value": "Peru."
-                },
-                {
-                  "label": "Publisher",
-                  "value": "Ogilby, John"
-                },
-                {
-                  "label": "Publisher Location",
-                  "value": "London"
-                },
-                {
-                  "label": "Type",
-                  "value": "Book Map"
-                },
-                {
-                  "label": "Obj Height cm",
-                  "value": "30"
-                },
-                {
-                  "label": "Obj Width cm",
-                  "value": "34"
-                },
-                {
-                  "label": "Reference",
-                  "value": "Burton, Philip D., 2007, The Mapping of North America II. A List of Printed Maps 1671-1700; Cumming, Southeast in Early Maps 70."
-                },
-                {
-                  "label": "Country",
-                  "value": "Peru"
-                },
-                {
-                  "label": "Country",
-                  "value": "Ecuador"
-                },
-                {
-                  "label": "Country",
-                  "value": "Bolivia"
-                },
-                {
-                  "label": "Full Title",
-                  "value": "Peru."
-                },
-                {
-                  "label": "List No",
-                  "value": "12241.085"
-                },
-                {
-                  "label": "Page No",
-                  "value": "after 412"
-                },
-                {
-                  "label": "Series No",
-                  "value": "85"
-                },
-                {
-                  "label": "Engraver or Printer",
-                  "value": "RR Donnelley"
-                },
-                {
-                  "label": "Publication Author",
-                  "value": "Ogilby, John, 1600-1676"
-                },
-                {
-                  "label": "Publication Author",
-                  "value": "Montanus, Arnoldus, 1625?-1683"
-                },
-                {
-                  "label": "Pub Date",
-                  "value": "1671"
-                },
-                {
-                  "label": "Pub Title",
-                  "value": "America: Being The Latest, And Most accurate Description Of The New World; Containing The Original of the Inhabitants, and the Remarkable Voyages thither. The Conquest of the Vast Empires of Mexico and Peru, And Other Large Provinces and Territories ... Collected from the most Authentick Authors, Augmented with later Observations, and Adorn'd with Maps and Sculptures, by John Ogilby, esq; His Majesty's Cosmographer, Geographick Printer, and Master of the Revels in the Kingdom of Ireland. London, Printed by the Author, and are to be had at his House in White Fryers, M.DC.LXXI."
-                },
-                {
-                  "label": "Pub Note",
-                  "value": "First edition, second issue, with the important Lord Proprietors map of Carolina by Moxon replacing the Arx Carolina plate and the Virginia pars Australis map of the first issue, with the addition of a map of Barbados, and with the plate list as in the first issue still listing Arx Carolina and Virginia pars Australis but not listing the Lords Proprietors Carolina or Barbados. This copy includes both the Arx Carolina plate and the Virginia pars Australis map, tipped in later. The work is an English translation of Arnold Montanus “De Nieuwe en Onbekende Weereld,” but with a number of additions concerning New England, New France, Maryland and Virginia. Many new maps and views were added. The Moxon map of Carolina is the first large format map of the newly established colony of Carolina. “America” was Ogilby’s finest foreign work; over 150 authors are credited although Montanus is lacking. “When it came to North America, particularly, he abandoned Montanus entirely for his own closer sources. His work used superior type and larger and finer paper than Montanus. Clearly some form of at least tacit agreement existed between Montanus and Ogilby as he acquired the same plates to illustrate his work. This is itself unusual as Ogilby was renowned for providing his own ‘sculptures’. The reasons may lie in the fact that the project clearly was already an expensive one, and that the work had been promised for some time and further delay was undesirable. The first map in the book, of the whole of America, was one of five plates provided by Ogilby himself. We may speculate that this was because Montanus did not actually own the Schagen plate, or that Ogilby wished to insert more English nomenclature” (Burden). Regarding Ogilby himself, he had a series of remarkably successful careers as a dancer, dance master, theatre manager/director, and translator of classics, and finally as author and publisher of travel and geography books."
-                },
-                {
-                  "label": "Pub List No",
-                  "value": "12241.000"
-                },
-                {
-                  "label": "Pub Type",
-                  "value": "Exploration Book"
-                },
-                {
-                  "label": "Pub Maps",
-                  "value": "26"
-                },
-                {
-                  "label": "Pub Height cm",
-                  "value": "43"
-                },
-                {
-                  "label": "Pub Width cm",
-                  "value": "28"
-                },
-                {
-                  "label": "Image No",
-                  "value": "12241085.jp2"
-                },
-                {
-                  "label": "Download 1",
-                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/12241085.jp2 target=_blank>Full Image Download in JP2 Format</a>"
-                },
-                {
-                  "label": "Download 2",
-                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
-                },
-                {
-                  "label": "Authors",
-                  "value": "Ogilby, John, 1600-1676 ; Montanus, Arnoldus, 1625?-1683"
-                }
-              ],
-              "thumbnail": {
-                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292973~90066923/full/!96,96/0/default.jpg",
-                "format": "image/jpeg"
-              },
-              "images": [
-                {
-                  "@type": "oa:Annotation",
-                  "motivation": "sc:painting",
-                  "resource": {
-                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292973~90066923/full/!1024,1024/0/default.jpg",
-                    "@type": "dctypes:Image",
-                    "service": {
-                      "@context": "http://iiif.io/api/image/2/context.json",
-                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292973~90066923",
-                      "profile": "http://iiif.io/api/image/2/level1.json",
-                      "protocol": "http://iiif.io/api/image"
-                    },
-                    "format": "image/jpeg",
-                    "width": 12448,
-                    "height": 8838
-                  },
-                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292973~90066923/canvas/c1"
-                }
-              ],
-              "otherContent": [
-                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292973~90066923/list/luna"
-              ],
-              "width": 12448,
-              "height": 8838
-            }
-          ]
-        }
-      ],
-      "logo": {
-        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
-        "format": "image/png"
-      },
-      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~292973~90066923"
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
