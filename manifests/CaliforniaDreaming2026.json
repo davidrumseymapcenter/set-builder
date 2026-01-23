@@ -1,0 +1,1941 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/CaliforniaDreaming2026",
+  "label": "CaliforniaDreaming2026",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/sy409bk9698/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "The North part of America conteyning Newfoundland, New England, Virginia, Florida, New Spaine and Nova Francia, with ye riche Iles of Hispaniola, Cuba, Jamaica, and Porto Rieco, on the south, and upon ye west the large and goodly island of California",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/sy409bk9698.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/sy409bk9698'>https://purl.stanford.edu/sy409bk9698</a>"
+        },
+        {
+          "label": "Title",
+          "value": "The North part of America conteyning Newfoundland, New England, Virginia, Florida, New Spaine and Nova Francia, with ye riche Iles of Hispaniola, Cuba, Jamaica, and Porto Rieco, on the south, and upon ye west the large and goodly island of California"
+        },
+        {
+          "label": "Contributor",
+          "value": "Briggs, Henry, 1561-1630"
+        },
+        {
+          "label": "Contributor",
+          "value": "Elstracke, Renold, active 1590-1630"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : engraved ; 27 x 34 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "R. Elstracke Sculpsit."
+        },
+        {
+          "label": "Description",
+          "value": "The first printed map in English to show California as an island, with flat northern coast."
+        },
+        {
+          "label": "Description",
+          "value": "Cities, etc. ; shoals; pictorial symbols; notes."
+        },
+        {
+          "label": "Description",
+          "value": "Watermark."
+        },
+        {
+          "label": "Description",
+          "value": "Notes on map refer to California, Sr. Thomas Button and Mr. Baffin."
+        },
+        {
+          "label": "Description",
+          "value": "Projection: simple conical."
+        },
+        {
+          "label": "Description",
+          "value": "\"852\" & \"853\" inside neat line in top left & right corners of map."
+        },
+        {
+          "label": "Description",
+          "value": "Engraved by: R. Elstrake Sculpsit (lower right)."
+        },
+        {
+          "label": "Description",
+          "value": "On the map are two notes, one stating\"California sometymes supposed to be a part of ye westerne continent, but scince by a Spanish Charte taken by ye Hollanders it is found to be a goodly Ilande: the length of the west shoare beeing about 500 leagues...\""
+        },
+        {
+          "label": "Description",
+          "value": "Issued in: Hakluytus Posthumus or Purchas His Pilgrimes, III, 852-3. London, 1625, to accompany an article by H. Briggs on the Northwest Passage."
+        },
+        {
+          "label": "Subject",
+          "value": "North America > Early works to 1800"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:23,500,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "W 255°--W 345°/N 65°--N 10°"
+        },
+        {
+          "label": "Date",
+          "value": "1625"
+        },
+        {
+          "label": "Date",
+          "value": "1625]"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/sy409bk9698"
+        },
+        {
+          "label": "Publisher",
+          "value": "William Stansby for Henrie Fetherstone"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2022-08-16"
+        }
+      ],
+      "description": "The first printed map in English to show California as an island, with flat northern coast.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 350
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/sy409bk9698/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 10874,
+              "width": 12412,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/sy409bk9698/sy409bk9698_05_0001.jp2",
+                  "label": "Original source file (24.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/sy409bk9698/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fsy409bk9698-sy409bk9698_1%2Fsy409bk9698_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10874,
+                    "width": 12412,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/fd398fy7644/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Map Of The Gold Regions Of California, Showing the Routes via Chagres and Panama, Cape Horn, &c. ... Published by Ensigns & Thayer, 50 Ann Street New-York. (with untitled inset map of North and South America)",
+      "attribution": "Property rights reside with the repository, Copyright © Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/fd398fy7644.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/fd398fy7644'>https://purl.stanford.edu/fd398fy7644</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Map Of The Gold Regions Of California, Showing the Routes via Chagres and Panama, Cape Horn, &c. ... Published by Ensigns & Thayer, 50 Ann Street New-York. (with untitled inset map of North and South America)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Ensigns & Thayer."
+        },
+        {
+          "label": "Type",
+          "value": "Text"
+        },
+        {
+          "label": "Format",
+          "value": "1 sheet ; 71 x 52 cm."
+        },
+        {
+          "label": "Description",
+          "value": "Broadside."
+        },
+        {
+          "label": "Description",
+          "value": "References: Wheat Gold 84."
+        },
+        {
+          "label": "Description",
+          "value": "With the wide (1.5 inch) ornamental border and printed on heavy paper. Similar to but an earlier version of the Upper or New California and Oregon portion of the Atwood and Ensigns & Thayer's Map of the United States, 1849. Closer to and derived from their Pictorial Map of the United States of 1847 (see Wheat). Also has a map of North and South America from an unknown source. Under the maps are two blocks of text, one titled \"Important Directions to Persons Emigrating to California\" and the other titled \"Description of California or the new Gold Region.\" Another version of this map was published on thinner paper and with a 5/16 inch ornamental border (Wheat 85) (see our copy- the title is in different print). The geography of the west is pre-Fremont 1848 unlike the 1849 Map of the United States which incorporates Fremont 1848. This makes us think that the map may be 1848 - there is no date on the map and Wheat estimates the date from sources he does not mention (other than finding the thinner paper copy in a book published in 1849). Full color."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 3442.000."
+        },
+        {
+          "label": "Subject",
+          "value": "California Gold Rush"
+        },
+        {
+          "label": "Subject",
+          "value": "Mining"
+        },
+        {
+          "label": "Subject",
+          "value": "California"
+        },
+        {
+          "label": "Subject",
+          "value": "Western Hemisphere"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:40,000,000 (inset)."
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:6,000,000."
+        },
+        {
+          "label": "Date",
+          "value": "1849"
+        },
+        {
+          "label": "Date",
+          "value": "[1849]"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/fd398fy7644"
+        },
+        {
+          "label": "Publisher",
+          "value": "Ensigns & Thayer,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-03-09"
+        }
+      ],
+      "description": "Broadside.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/fd398fy7644%2F3442000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/fd398fy7644%2F3442000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 293,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/fd398fy7644/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/fd398fy7644/iiif/canvas/cocina-fileSet-fd398fy7644-fd398fy7644_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 8709,
+              "width": 6376,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/fd398fy7644/3442000.jp2",
+                  "label": "Original source file (9.99 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/fd398fy7644/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Ffd398fy7644-fd398fy7644_1%2F3442000.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/fd398fy7644/iiif/canvas/cocina-fileSet-fd398fy7644-fd398fy7644_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/fd398fy7644%2F3442000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 8709,
+                    "width": 6376,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/fd398fy7644%2F3442000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/dm265px9091/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "(San Bernardino and Vicinity)",
+      "attribution": "Property rights reside with the repository, Copyright © Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/dm265px9091.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/dm265px9091'>https://purl.stanford.edu/dm265px9091</a>"
+        },
+        {
+          "label": "Title",
+          "value": "(San Bernardino and Vicinity)"
+        },
+        {
+          "label": "Contributor",
+          "value": "(Hall, William Hammond)."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "Manuscript maps."
+        },
+        {
+          "label": "Type",
+          "value": "Cadastral maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 69 x 74 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Large scale hand drawn untitled map showing land owners and water ways in detail. Scale is 4 inches to 1 mile. On the verso is a typed label \"Wm. Ham. Hall, San Francisco, 'B' 56, San Bernadino & Vicinity. Irrig. Data.\" This is a detailed portion of the other Hall ms map."
+        },
+        {
+          "label": "Description",
+          "value": "Manuscript Map."
+        },
+        {
+          "label": "Description",
+          "value": "References: cf Vogdes p220,226,210; cf Cowen p260; California Water Atlas p22,23."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 3452.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Manuscript maps > California > San Bernadino > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Real property > California > San Bernadino > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Waterways > California > San Bernadino > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "California > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "San Bernardino (Calif.) > Maps > 19th century"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:15,840."
+        },
+        {
+          "label": "Date",
+          "value": "1880"
+        },
+        {
+          "label": "Date",
+          "value": "[1880]"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/dm265px9091"
+        },
+        {
+          "label": "Publisher",
+          "value": "No Publisher,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-03-09"
+        }
+      ],
+      "description": "Large scale hand drawn untitled map showing land owners and water ways in detail. Scale is 4 inches to 1 mile. On the verso is a typed label \"Wm. Ham. Hall, San Francisco, 'B' 56, San Bernadino & Vicinity. Irrig. Data.\" This is a detailed portion of the other Hall ms map.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/dm265px9091%2F3452000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/dm265px9091%2F3452000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 386,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/dm265px9091/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/dm265px9091/iiif/canvas/cocina-fileSet-dm265px9091-dm265px9091_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 9422,
+              "width": 9090,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/dm265px9091/3452000.jp2",
+                  "label": "Original source file (15.4 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/dm265px9091/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fdm265px9091-dm265px9091_1%2F3452000.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/dm265px9091/iiif/canvas/cocina-fileSet-dm265px9091-dm265px9091_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/dm265px9091%2F3452000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 9422,
+                    "width": 9090,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/dm265px9091%2F3452000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~207692~3003427/manifest",
+      "label": "Composite: Sheets Nos. 1-4, Irrigation Map of the San Joaquin Valley, California.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~207692~3003427/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~207692~3003427/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Composite: Sheets Nos. 1-4, Irrigation Map of the San Joaquin Valley, California.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Hall, Wm. Ham. (William Hammond)"
+                },
+                {
+                  "label": "Author",
+                  "value": "California State Engineering Department"
+                },
+                {
+                  "label": "Date",
+                  "value": "1886"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Composite: Sheets Nos. 1-4, Irrigation Map of the San Joaquin Valley, California."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "California State Engineering Department"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Sacramento"
+                },
+                {
+                  "label": "Type",
+                  "value": "Composite Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "218"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "184"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "190,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Composite of the four sheets covering the entire San Joaquiin Valley."
+                },
+                {
+                  "label": "Reference",
+                  "value": "California Water Atlas p 26( Reproduces sheet 3 ); Vogdes p 239."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "Region",
+                  "value": "San Joaquin Valley"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Irrigation"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Agriculture"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Composite of) California State Engineering Department. Topographical And Irrigation Map Of The San Joaquin Valley. (Sheets Nos. 1-4). Wm. Ham. Hall, State Engineer, 1886. Note. This Topographical and Irrigation Map of San Joaquin Valley is published in four sheets, as follows: Sheet No. 1, from Tp. 4 N. to 1st Standard South. Sheet No. 2, from 1st to 3d Standard South. Sheet No. 3, from 3d to 5th Standard South. Sheet No. 4, from 5th to 8th Standard South. It is intended as a general illustration of the present extent of irrigation, and a means of studying its future possible development ..."
+                },
+                {
+                  "label": "List No",
+                  "value": "5833.005"
+                },
+                {
+                  "label": "Series No",
+                  "value": "5"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hall, Wm. Ham. (William Hammond)"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "California State Engineering Department"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1886"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "California State Engineering Department. Topographical And Irrigation Map Of The San Joaquin Valley. (4 Continguous Sheets). Wm. Ham. Hall, State Engineer, 1886. Note. This Topographical and Irrigation Map of San Joaquin Valley is published in four sheets, as follows: Sheet No. 1, from Tp. 4 N. to 1st Standard South. Sheet No. 2, from 1st to 3d Standard South. Sheet No. 3, from 3d to 5th Standard South. Sheet No. 4, from 5th to 8th Standard South. It is intended as a general illustration of the present extent of irrigation, and a means of studying its future possible development ..."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "California Water Atlas p 26( Reproduces sheet 3 ); Vogdes p 239."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "A 4 sheet set. The sheets accompanied a report on irrigation issued by the State Engineering Department. The sheets show the areas of land that can be practically irrigated in the San Joaquin portion of the Central Valley. Classifies lands into several categories. Printed in full color. Mounted on linen. Relief depicted by contour lines in valley areas, and by hachures in the hills and mountains. Maps scanned from the collection of the Water Resources Center Archives, University of California Library."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "5833.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Image No",
+                  "value": "5833005"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/5833005.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Hall, Wm. Ham. (William Hammond); California State Engineering Department"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~207692~3003427/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~207692~3003427/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~207692~3003427",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 25890,
+                    "height": 26954
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~207692~3003427/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~207692~3003427/list/luna"
+              ],
+              "width": 25890,
+              "height": 26954
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~207692~3003427"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316589~90085206/manifest",
+      "label": "World's pictorial line : birdseye view of the Pacific Slope",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~316589~90085206/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316589~90085206/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "World's pictorial line : birdseye view of the Pacific Slope",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Union Pacific Railway Company"
+                },
+                {
+                  "label": "Date",
+                  "value": "1893"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "World's pictorial line : birdseye view of the Pacific Slope"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Union Pacific System"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Omaha, Neb."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Chicago"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Knight, Leonard & Co."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Omaha, Neb."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Chicago"
+                },
+                {
+                  "label": "Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "45"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "114"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Color pictorial map, on sheet 45x114, folded to 23 x 10. Title from cover, with 28 pages of text. On verso 24 pages of text \"Sights and scenes in California\", on recto text pages 25-28. Includes logo of \"Union Pacific, the overland route\" on cover. Map shows major cities, routes, rivers and mountains. Relief shown pictorially."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Railroad"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "World's pictorial line : birdseye view of the Pacific Slope reached via the Union Pacific, the overland route. Copyrighted. 1893, by E.L. Lomax, General passenger and ticket agent, Union Pacific System, Omaha, Neb. Knight, Leonard & Co., Printers and engravers, Chicago, Ill."
+                },
+                {
+                  "label": "List No",
+                  "value": "13207.003"
+                },
+                {
+                  "label": "Series No",
+                  "value": "3"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Union Pacific Railway Company"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1893"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "World's pictorial line : birdseye view of the Pacific Slope reached via the Union Pacific, the overland route. Copyrighted. 1893, by E.L. Lomax, General passenger and ticket agent, Union Pacific System, Omaha, Neb. Knight, Leonard & Co., Printers and engravers, Chicago, Ill."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "13207.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "10"
+                },
+                {
+                  "label": "Image No",
+                  "value": "13207003.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/13207003.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Union Pacific Railway Company"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~316589~90085206/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~316589~90085206/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~316589~90085206",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 22664,
+                    "height": 8996
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316589~90085206/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316589~90085206/list/luna"
+              ],
+              "width": 22664,
+              "height": 8996
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~316589~90085206"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~260348~5522945/manifest",
+      "label": "A Pictorial Map of Palo Alto and San Francisco Peninsula by Arthur Lites.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~260348~5522945/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~260348~5522945/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "A Pictorial Map of Palo Alto and San Francisco Peninsula by Arthur Lites.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Lites, Arthur"
+                },
+                {
+                  "label": "Author",
+                  "value": "(Palo Alto) Chamber of Commerce"
+                },
+                {
+                  "label": "Date",
+                  "value": "1925"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "A Pictorial Map of Palo Alto and San Francisco Peninsula by Arthur Lites."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "City of Palo Alto"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Palo Alto"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "44"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "57"
+                },
+                {
+                  "label": "Note",
+                  "value": "Date estimated. A birdseye view map \"drawn from the viewpoint of one aboard a United States Navy Dirigible\" is bordered by vignette illustrations including a dirigible balloon or blimp at top right, \"U.S. Naval Air Station at Sunnyvale Chosen for Favorable Climate\". Other vignettes include \"A Recreational Center on the Bay Front Under Construction\" \"Community Theatre\", Stanford University buildings, California Redwood Park etc, with an historical figure in each corner. Map shows the buildings of Palo Alto and Stanford University, with San Francisco, Oakland and Berkeley at upper left, and Santa Clara and San Jose at right of center."
+                },
+                {
+                  "label": "City",
+                  "value": "Palo Alto (Calif.)"
+                },
+                {
+                  "label": "Region",
+                  "value": "San Francisco Bay Area"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "A Pictorial Map of Palo Alto and San Francisco Peninsula by Arthur Lites."
+                },
+                {
+                  "label": "List No",
+                  "value": "6787.003"
+                },
+                {
+                  "label": "Page No",
+                  "value": "map side"
+                },
+                {
+                  "label": "Series No",
+                  "value": "3"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Lites, Arthur"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "(Palo Alto) Chamber of Commerce"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1925"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Palo Alto, California. Palo Alto, A Pictorial Map Drawn from the View Point (Birdseye) of One Aboard a United States Navy Dirigible."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Double sided folding brochure. Date estimated. Elegant script on the verso promotes the area, with its perfect climate. Several versions of this pamphlet were issued over a period of years from the 1920s through the 1940s, and possibly later. This first edition has an image of a blimp with text \"U.S. Naval Air Station at Sunnyvale\" at upper right of the map. Several versions of this pamphlet were issued over a period of years from the 1920s through the 1950s."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "6787.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "11"
+                },
+                {
+                  "label": "Image No",
+                  "value": "6787003"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/6787003.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Lites, Arthur; (Palo Alto) Chamber of Commerce"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~260348~5522945/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~260348~5522945/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~260348~5522945",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 10108,
+                    "height": 7862
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~260348~5522945/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~260348~5522945/list/luna"
+              ],
+              "width": 10108,
+              "height": 7862
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~260348~5522945"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268602~90042795/manifest",
+      "label": "Historic Road to Romance : California's Southern Empire tourist paradise",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~268602~90042795/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268602~90042795/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Historic Road to Romance : California's Southern Empire tourist paradise",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Putnam, Claude George"
+                },
+                {
+                  "label": "Author",
+                  "value": "Brown Karl F."
+                },
+                {
+                  "label": "Date",
+                  "value": "1946"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Historic Road to Romance : California's Southern Empire tourist paradise"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Roads to Romance Association"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "San Bernadino, Calif."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "84"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Bird's eye view style pictorial map. The colorful design highlights missions and historical places, contemporary places and events in the region which includes San Bernardino County, Los Angeles County, Orange County, Riverside County, San Diego County, and Imperial County. With attractive border with vignette illustrating various historical events and places, including \"First California Mission San Diego de Alcala 1769, and Cabrillo, 1542\". Shows historic trails, roads, cities and towns, native American reservations, parks and points of interest. Includes decorative title cartouche and compass rose in yellow, blue and red. Relief shown pictorially."
+                },
+                {
+                  "label": "Region",
+                  "value": "Southern California"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Roads"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Historic Road to Romance : California's Southern Empire tourist paradise; cartography by Claude G. Putman. Research by Karl F. Brown. Copyright. 1946 by Road to Romance Assn. Inc."
+                },
+                {
+                  "label": "List No",
+                  "value": "8142.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Putnam, Claude George"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Brown Karl F."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1946"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Historic Road to Romance : California's Southern Empire tourist paradise; cartography by Claude G. Putman. Research by Karl F. Brown. Copyright. 1946 by Road to Romance Assn. Inc."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8142.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "84"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8142000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/153/8142000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Putnam, Claude George; Brown Karl F."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268602~90042795/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268602~90042795/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268602~90042795",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 19228,
+                    "height": 12204
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268602~90042795/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268602~90042795/list/luna"
+              ],
+              "width": 19228,
+              "height": 12204
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~268602~90042795"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~264711~5524560/manifest",
+      "label": "The Panorama Today in Northern California",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~264711~5524560/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~264711~5524560/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "The Panorama Today in Northern California",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Sheets, Millard"
+                },
+                {
+                  "label": "Date",
+                  "value": "1950"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "The Panorama Today in Northern California"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "American Trust Company"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "San Francisco"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "74"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Color pictorial mid-Century modern promotional map of Northern California, tell the history of the greater San Francisco Bay area. Showing vaqueros and missions; wagon trains and railroads; women at the beach and sailboats out at sea; eagles and skunks and deer and lots of cows and horses; fishing fleets; the Ferry Building; the UC Berkeley Campanile; Stanford University Hoover Tower; the Capitol building; large airplanes crossing the bay and grain elevators on the landscape. Also shows the Wine Regions of Napa Valley and Sonoma Valley, the agricultural regions of Sacramento and San Joaquin, the farm equipment and industrial agriculture buildings, and the images of Skiers near Lake Tahoe."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "Region",
+                  "value": "San Francisco Bay Area (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "The Panorama Today in Northern California its resources activities and opportunities. Published on its 100th. Anniversary by American Trust Company, San Francisco. Millard Sheets. Lithogravure in U.S.A."
+                },
+                {
+                  "label": "List No",
+                  "value": "8080.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Sheets, Millard"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1950"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The Panorama Today in Northern California its resources activities and opportunities. Published on its 100th. Anniversary by American Trust Company, San Francisco. Michael Shute. Lithoravure in U.S.A."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8080.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "74"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8080000"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/8080000.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Sheets, Millard"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~264711~5524560/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~264711~5524560/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~264711~5524560",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 16668,
+                    "height": 12480
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~264711~5524560/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~264711~5524560/list/luna"
+              ],
+              "width": 16668,
+              "height": 12480
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~264711~5524560"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238767~5511633/manifest",
+      "label": "Existing and Proposed Water Developments in the State of California, 1951.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~238767~5511633/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238767~5511633/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Existing and Proposed Water Developments in the State of California, 1951.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Irrigation Districts Association of California"
+                },
+                {
+                  "label": "Date",
+                  "value": "1951"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Existing and Proposed Water Developments in the State of California, 1951."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Irrigation Districts Association of California"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "San Francisco"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "69"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "99"
+                },
+                {
+                  "label": "Note",
+                  "value": "Oblique view with shaded relief. Text description of water development features. Color."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Water"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Existing and Proposed Water Developments in the State of California, 1951. Issued by Irrigation Districts Association of California, Water Economics Committee."
+                },
+                {
+                  "label": "List No",
+                  "value": "6382.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Irrigation Districts Association of California"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1951"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "California Water Resources Development, including Development of the Bureau of Reclamation, U.S. Army Corps of Engineers, Major Features of the California Water Plan together with Various Projects of Districts and Municipalities. Issued by Irrigation Districts Association of California, Water News and Information Program."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See Note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "6382.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "69"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "99"
+                },
+                {
+                  "label": "Image No",
+                  "value": "6382000"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/6382000.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Irrigation Districts Association of California"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~238767~5511633/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~238767~5511633/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~238767~5511633",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 13905,
+                    "height": 9789
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238767~5511633/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238767~5511633/list/luna"
+              ],
+              "width": 13905,
+              "height": 9789
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~238767~5511633"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~291580~90062837/manifest",
+      "label": "Cartoon Pen & Inklings of the Old Santa Clara Valley.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~291580~90062837/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~291580~90062837/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Cartoon Pen & Inklings of the Old Santa Clara Valley.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Rambo, F. Ralph"
+                },
+                {
+                  "label": "Date",
+                  "value": "1962"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Cartoon Pen & Inklings of the Old Santa Clara Valley."
+                },
+                {
+                  "label": "Type",
+                  "value": "Book Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "16"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "39"
+                },
+                {
+                  "label": "Note",
+                  "value": "Signed by the artist. From notes by B. Ruderman: The map presents a lively historical look at the history of Santa Clara County, with a key locating 30 places, starting with Portola's first view of the Valley in 1769. Immediately below the Portola note is a bust of Leland Stanford and a construction site showing Stanford. In a lovely bit of political incorrectness, the note for Stanford states \"Leland Stanford in 1881 made a luxuriant camp for a later tribe of Indians, the Stanford Reds.\" Ralph Rambo was a San Jose based Historian who wrote 14 books on the Santa Clara Valley. His books were extremely colorful and, according to the author, loosely recounted his experiences growing up during the pioneer days in the area. Ralph Rambo's profession was a graphic artist. He was the Art Director for Muirson Label Company for almost fifty years. His illustrations are quite vivid, often hand-lettered in an entertaining or comics fashion. He merged humor with history in order to convey historical value of his stories. A self-proclaimed \"nostalgician,\" he could be compared with other social historians such as Herb Caen in San Francisco, California and \"Petaluma Peopleologist,\" Bill Soberanes."
+                },
+                {
+                  "label": "County",
+                  "value": "Santa Clara (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Cartoon Pen & Inklings of the Old Santa Clara Valley."
+                },
+                {
+                  "label": "List No",
+                  "value": "8813.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Rambo, F. Ralph"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1962"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Cartoon Pen & Inklings of the Old Santa Clara Valley."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Map is from a booklet which is not in this collection. Printed on brown ink on yellowish paper."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8813.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "16"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "39N"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8813000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/8813000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Rambo, F. Ralph"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~291580~90062837/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~291580~90062837/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~291580~90062837",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11488,
+                    "height": 8983
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~291580~90062837/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~291580~90062837/list/luna"
+              ],
+              "width": 11488,
+              "height": 8983
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~291580~90062837"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288996~90060602/manifest",
+      "label": "Silicon Valley, California.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~288996~90060602/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288996~90060602/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Silicon Valley, California.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Eclectibles"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hillam, Corbin"
+                },
+                {
+                  "label": "Date",
+                  "value": "1981"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Silicon Valley, California."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Inmac"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Santa Clara"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "92"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "62"
+                },
+                {
+                  "label": "Region",
+                  "value": "Silicon Valley (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Silicon Valley"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Silicon Valley, California."
+                },
+                {
+                  "label": "List No",
+                  "value": "12096.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Eclectibles"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hillam, Corbin"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1981"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Silicon Valley, California."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12096.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "92"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "62"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12096000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/12096000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Eclectibles"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288996~90060602/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288996~90060602/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288996~90060602",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12272,
+                    "height": 18178
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288996~90060602/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288996~90060602/list/luna"
+              ],
+              "width": 12272,
+              "height": 18178
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~288996~90060602"
+    }
+  ]
+}

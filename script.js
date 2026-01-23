@@ -3,6 +3,57 @@ let collectedManifests = []; // This will hold the individual manifests
 let currentManifestForSelection = null; 
 let selectedPageIndices = new Set(); 
 
+// Global state for gallery name
+let currentGalleryName = '';
+
+// Function to set gallery name across all displays
+function setGalleryName(name) {
+  const sanitized = name ? name.trim() : '';
+  currentGalleryName = sanitized;
+  
+  // Update input field
+  const nameInput = document.getElementById('manifestName');
+  if (nameInput) {
+    nameInput.value = sanitized;
+  }
+  
+  // Update page display
+  updatePageTitle(sanitized);
+}
+
+// Function to update page title display
+function updatePageTitle(galleryName) {
+  const titleDisplay = document.getElementById('gallery-title-display');
+  
+  if (!titleDisplay) return;
+  
+  if (galleryName) {
+    // Escape HTML for safety
+    const tempDiv = document.createElement('div');
+    tempDiv.textContent = galleryName;
+    const safeGalleryName = tempDiv.innerHTML;
+    
+    titleDisplay.innerHTML = safeGalleryName;
+    
+    // Update browser tab title
+    document.title = `${galleryName} - IIIF Gallery Builder`;
+  } else {
+    titleDisplay.innerHTML = '';
+    
+    // Reset browser tab title
+    document.title = 'IIIF Image Gallery Builder';
+  }
+}
+
+// Function to open the first image in the viewer
+function openFirstImage() {
+  const firstThumb = document.querySelector('#gallery .card img');
+  if (firstThumb) {
+    firstThumb.click();
+    document.body.classList.add('viewer-has-image');
+  }
+}
+
 // --- begin deeplink fileopening script --
 (function() {
 const FILE_INPUT_SELECTOR = '#uploadManifest';
@@ -201,6 +252,15 @@ function getIIIFVersion(manifest) {
   return manifest.sequences ? 2 : 3;
 }
 
+// Helper function to extract year from LC Call Number (for institutions like Osher)
+function extractYearFromCallNumber(callNumber) {
+  if (!callNumber) return null;
+  
+  // Match 4-digit year (1500-2099)
+  const match = callNumber.match(/\b(1[5-9]\d{2}|20\d{2})\b/);
+  return match ? match[1] : null;
+}
+
 // Helper function to get metadata values (handles both IIIF 2.0 and 3.0)
 function getMetadataValue(metadata, label, getLast = false) {
   if (!metadata) return null;
@@ -209,10 +269,11 @@ function getMetadataValue(metadata, label, getLast = false) {
   const normalizedLabel = label.toLowerCase();
   
   const items = metadata.filter(item => {
+    
     // IIIF 2.0 format: item.label is a string
     if (typeof item.label === 'string') {
       return item.label.toLowerCase() === normalizedLabel;
-    }
+    }   
     // IIIF 3.0 format: item.label is an object like {none: ["Title"]} or {en: ["Title"]}
     if (typeof item.label === 'object') {
       const labelValues = Object.values(item.label).flat();
@@ -230,7 +291,8 @@ function getMetadataValue(metadata, label, getLast = false) {
     return item.value;
   }
   if (Array.isArray(item.value)) {
-    return item.value[0];
+    if(typeof item.value[0] === 'object') { return Object.values(item.value[0])[1]; }
+    else { return item.value[0]; }
   }
   
   // IIIF 3.0 format: value is an object like {none: ["value"]} or {en: ["value"]}
@@ -254,35 +316,79 @@ function addCanvasToGallery(canvas, manifest) {
   
   let imageService, imageUrl, highResUrl;
   
-  // Handle different IIIF versions for image extraction
-  if (iiifVersion === 3) {
-    // IIIF 3.0 structure: canvas.items[0].items[0].body.service[0]
-    const annotation = canvas.items?.[0]?.items?.[0];
-    if (!annotation || !annotation.body) {
-      console.error('IIIF 3.0: Missing annotation body:', canvas);
-      return;
-    }
-    
-    imageService = annotation.body.service?.[0];
-    if (!imageService || !imageService.id) {
-      console.error('IIIF 3.0: Image service is missing or does not contain an id field:', canvas);
-      return;
-    }
-    
-    imageUrl = `${imageService.id}/full/!200,200/0/default.jpg`;
-    highResUrl = `${imageService.id}/info.json`;
-    
-  } else {
-    // IIIF 2.0 structure: canvas.images[0].resource.service
-    imageService = canvas.images?.[0]?.resource?.service;
-    if (!imageService || !imageService['@id']) {
-      console.error('IIIF 2.0: Image service is missing or does not contain an @id field:', canvas);
-      return;
-    }
-    
-    imageUrl = `${imageService['@id']}/full/!200,200/0/default.jpg`;
-    highResUrl = `${imageService['@id']}/info.json`;
+// Handle different IIIF versions for image extraction
+if (iiifVersion === 3) {
+  // IIIF 3.0 structure: canvas.items[0].items[0].body.service[0]
+  const annotation = canvas.items?.[0]?.items?.[0];
+  if (!annotation || !annotation.body) {
+    console.error('IIIF 3.0: Missing annotation body:', canvas);
+    return;
   }
+  
+  imageService = annotation.body.service?.[0];
+  if (!imageService) {
+    console.error('IIIF 3.0: Image service is missing:', canvas);
+    return;
+  }
+  
+  // Handle both IIIF 3.0 (id) and IIIF 2.0 (@id) image service formats
+  const serviceId = imageService.id || imageService['@id'];
+  if (!serviceId) {
+    console.error('IIIF 3.0: Image service does not contain an id or @id field:', canvas);
+    return;
+  }
+  
+  // Check if canvas provides a usable thumbnail
+  let useProvidedThumbnail = false;
+  if (canvas.thumbnail) {
+    const thumbUrl = canvas.thumbnail.id || canvas.thumbnail['@id'];
+    const thumbHeight = canvas.thumbnail.height;
+    const thumbWidth = canvas.thumbnail.width;
+    
+    // Only use provided thumbnail if it's reasonably sized (at least 150px)
+    if (thumbUrl && ((thumbHeight && thumbHeight >= 150) || (thumbWidth && thumbWidth >= 150))) {
+      imageUrl = thumbUrl;
+      useProvidedThumbnail = true;
+    }
+  }
+  
+  if (!useProvidedThumbnail) {
+    // Fallback: generate thumbnail URL
+    imageUrl = `${serviceId}/full/!200,200/0/default.jpg`;
+  }
+  
+  highResUrl = `${serviceId}/info.json`;
+  
+} else {
+  // IIIF 2.0 structure: canvas.images[0].resource.service
+  imageService = canvas.images?.[0]?.resource?.service;
+  if (!imageService || !imageService['@id']) {
+    console.error('IIIF 2.0: Image service is missing or does not contain an @id field:', canvas);
+    return;
+  }
+  
+  // Check if canvas provides a usable thumbnail
+  let useProvidedThumbnail = false;
+  if (canvas.thumbnail) {
+    const thumbUrl = canvas.thumbnail['@id'] || (typeof canvas.thumbnail === 'string' ? canvas.thumbnail : null);
+    const thumbHeight = canvas.thumbnail.height;
+    const thumbWidth = canvas.thumbnail.width;
+    
+    // Only use provided thumbnail if it's reasonably sized (at least 150px)
+    if (thumbUrl && ((thumbHeight && thumbHeight >= 150) || (thumbWidth && thumbWidth >= 150))) {
+      imageUrl = thumbUrl;
+      useProvidedThumbnail = true;
+    }
+  }
+  
+  if (!useProvidedThumbnail) {
+    // Fallback: generate thumbnail URL
+    imageUrl = `${imageService['@id']}/full/!200,200/0/default.jpg`;
+  }
+  
+  highResUrl = `${imageService['@id']}/info.json`;
+}
+
 
   // Retrieve metadata from both the manifest and the canvas
   const manifestMetadata = manifest.metadata || [];    
@@ -309,36 +415,95 @@ function addCanvasToGallery(canvas, manifest) {
   const metadataTitle = getMetadataValue(canvasMetadata, 'Title') || getMetadataValue(manifestMetadata, 'Title');
   if (metadataTitle) title = metadataTitle;
 
-  // Get date
-  let date = getMetadataValue(canvasMetadata, 'Date') || 
-             getMetadataValue(manifestMetadata, 'Date') || 
-             getMetadataValue(manifestMetadata, 'Created Published') || 
-             getMetadataValue(canvasMetadata, 'Associated date') || 
-             getMetadataValue(manifestMetadata, 'Associated date') || 
-             'No date returned';
+ // Get date
+let date = getMetadataValue(canvasMetadata, 'Date') || 
+           getMetadataValue(manifestMetadata, 'Date') || 
+           getMetadataValue(canvasMetadata, 'Issued') ||
+           getMetadataValue(manifestMetadata, 'Issued') ||
+           getMetadataValue(canvasMetadata, 'Created') ||
+           getMetadataValue(manifestMetadata, 'Created') ||
+           getMetadataValue(canvasMetadata, 'Date Created') ||        // Indiana, UBC, NCSU
+           getMetadataValue(manifestMetadata, 'Date Created') ||
+           getMetadataValue(canvasMetadata, 'Date of Creation') ||    // Lancaster
+           getMetadataValue(manifestMetadata, 'Date of Creation') ||
+           getMetadataValue(canvasMetadata, 'Date of Publication') || // Manchester
+           getMetadataValue(manifestMetadata, 'Date of Publication') ||
+           getMetadataValue(canvasMetadata, 'Published/Created Date') || // Yale
+           getMetadataValue(manifestMetadata, 'Published/Created Date') ||
+           getMetadataValue(canvasMetadata, 'Date made') ||
+           getMetadataValue(manifestMetadata, 'Date made') ||
+           getMetadataValue(canvasMetadata, 'Published') ||
+           getMetadataValue(manifestMetadata, 'Published') ||
+           getMetadataValue(canvasMetadata, 'Created Published') ||   // LOC
+           getMetadataValue(manifestMetadata, 'Created Published') ||
+           getMetadataValue(canvasMetadata, 'Pub Date') ||            // David Rumsey
+           getMetadataValue(manifestMetadata, 'Pub Date') ||
+           getMetadataValue(canvasMetadata, 'Date Issued') ||         // Brown
+           getMetadataValue(manifestMetadata, 'Date Issued') ||
+           getMetadataValue(canvasMetadata, 'Date Statement') ||      // Bodleian
+           getMetadataValue(manifestMetadata, 'Date Statement') ||
+           getMetadataValue(canvasMetadata, 'Date original') ||       // CONTENTdm
+           getMetadataValue(manifestMetadata, 'Date original') ||
+           getMetadataValue(canvasMetadata, 'Associated date') ||
+           getMetadataValue(manifestMetadata, 'Associated date') ||
+           getMetadataValue(canvasMetadata, 'Publication Date') ||
+           getMetadataValue(manifestMetadata, 'Publication Date') ||
+           extractYearFromCallNumber(getMetadataValue(manifestMetadata, 'LC Call Number')) || // Osher
+           extractYearFromCallNumber(getMetadataValue(canvasMetadata, 'LC Call Number')) ||
+           'No date returned';
 
-  // Get author/creator
-  let author = getMetadataValue(canvasMetadata, 'Creator') || 
-               getMetadataValue(manifestMetadata, 'Creator') || 
-               getMetadataValue(canvasMetadata, 'Contributors') || 
-               getMetadataValue(manifestMetadata, 'Contributors') || 
-               getMetadataValue(canvasMetadata, 'Author') || 
-               getMetadataValue(manifestMetadata, 'Author') || 
-               getMetadataValue(canvasMetadata, 'Contributor') || 
-               getMetadataValue(manifestMetadata, 'Contributor') ||
-               getMetadataValue(canvasMetadata, 'Publisher') || 
-               getMetadataValue(manifestMetadata, 'Publisher') || 
-               getMetadataValue(canvasMetadata, 'Artist/Maker') ||
-               getMetadataValue(manifestMetadata, 'Artist/Maker') ||
-               'No author returned';
+// Get author/creator
+let author = getMetadataValue(canvasMetadata, 'Creator') || 
+             getMetadataValue(manifestMetadata, 'Creator') || 
+             getMetadataValue(canvasMetadata, 'Contributors') ||      // LOC
+             getMetadataValue(manifestMetadata, 'Contributors') || 
+             getMetadataValue(canvasMetadata, 'Author') ||
+             getMetadataValue(manifestMetadata, 'Author') || 
+             getMetadataValue(canvasMetadata, 'Creator/Author') ||    // CONTENTdm
+             getMetadataValue(manifestMetadata, 'Creator/Author') ||
+             getMetadataValue(canvasMetadata, 'Contributor') ||
+             getMetadataValue(manifestMetadata, 'Contributor') || 
+             getMetadataValue(canvasMetadata, 'Maker') ||             // Smithsonian
+             getMetadataValue(manifestMetadata, 'Maker') ||
+             getMetadataValue(canvasMetadata, 'Authors') ||           // David Rumsey
+             getMetadataValue(manifestMetadata, 'Authors') ||
+             getMetadataValue(canvasMetadata, 'Publication Author') || // David Rumsey
+             getMetadataValue(manifestMetadata, 'Publication Author') ||
+             getMetadataValue(canvasMetadata, 'Map Author(s)') ||     // University of Washington
+             getMetadataValue(manifestMetadata, 'Map Author(s)') ||
+             getMetadataValue(canvasMetadata, 'Publisher') ||
+             getMetadataValue(manifestMetadata, 'Publisher') || 
+             getMetadataValue(canvasMetadata, 'Artist/Maker') ||
+             getMetadataValue(manifestMetadata, 'Artist/Maker') ||
+             'No author returned';
 
- // Get collection
+// Get collection (sub-collections, departments, specific collections)
 let collection = getMetadataValue(canvasMetadata, 'Location') || 
                  getMetadataValue(manifestMetadata, 'Location') || 
+                 getMetadataValue(canvasMetadata, 'Digital Collection') ||    // Huntington, UWM, University of Washington
+                 getMetadataValue(manifestMetadata, 'Digital Collection') ||
+                 getMetadataValue(canvasMetadata, 'Original Collection') ||   // UWM
+                 getMetadataValue(manifestMetadata, 'Original Collection') ||
+                 getMetadataValue(canvasMetadata, 'Source Collection') ||     // Duke
+                 getMetadataValue(manifestMetadata, 'Source Collection') ||
+                 getMetadataValue(canvasMetadata, 'Collection') ||
                  getMetadataValue(manifestMetadata, 'Collection') || 
-                 getMetadataValue(canvasMetadata, 'Collection') || 
-                 getMetadataValue(canvasMetadata, 'Data Source') || 
+                 getMetadataValue(canvasMetadata, 'Collections') ||           // Berkeley, Leeds
+                 getMetadataValue(manifestMetadata, 'Collections') ||
+                 getMetadataValue(canvasMetadata, 'Physical Location') ||     // Manchester, Lancaster, Hawaii
+                 getMetadataValue(manifestMetadata, 'Physical Location') ||
+                 getMetadataValue(canvasMetadata, 'Holding Location') ||      // Indiana
+                 getMetadataValue(manifestMetadata, 'Holding Location') ||
+                 getMetadataValue(canvasMetadata, 'Relation') ||
+                 getMetadataValue(manifestMetadata, 'Relation') ||
+                 getMetadataValue(canvasMetadata, 'Data Source') ||
                  getMetadataValue(manifestMetadata, 'Data Source') || 
+                 getMetadataValue(canvasMetadata, 'Source') ||                // Huntington, UWM, University of Washington, OCLC CDM, Villanova, BYU
+                 getMetadataValue(manifestMetadata, 'Source') ||
+                 getMetadataValue(canvasMetadata, 'Repository') ||            // Gallica, UCLA, Yale, Huntington, UWM, University of Washington, OCLC CDM, NCSU
+                 getMetadataValue(manifestMetadata, 'Repository') ||
+                 getMetadataValue(canvasMetadata, 'Contributor') ||
+                 getMetadataValue(manifestMetadata, 'Contributor') ||
                  'No collection returned';
 
 // For Internet Archive (IIIF 3.0), prefer Contributor over Collection
@@ -361,10 +526,37 @@ if (iiifVersion === 3) {
       const reqValue = Object.values(manifest.requiredStatement.value).flat();
       attribution = reqValue[0] || attribution;
     }
-  } else {
-    // IIIF 2.0
-    attribution = manifest.attribution || 'No attribution returned';
+
+ } else {
+  // IIIF 2.0: Try metadata fields first (more reliable than attribution field)
+  attribution = getMetadataValue(manifestMetadata, 'Repository') ||         // Multiple institutions
+                getMetadataValue(canvasMetadata, 'Repository') ||
+                getMetadataValue(manifestMetadata, 'Digital Publisher') ||   // UWM
+                getMetadataValue(manifestMetadata, 'Provider') ||            // UBC
+                getMetadataValue(manifestMetadata, 'Attribution') ||         // Leeds
+                getMetadataValue(canvasMetadata, 'Attribution');
+  
+  // If metadata doesn't have it, try attribution field
+  if (!attribution) {
+    if (manifest.attribution) {
+      // Handle array or string
+      if (Array.isArray(manifest.attribution)) {
+        // Only use if it's not a URL
+        const nonUrl = manifest.attribution.find(a => a && a.trim() && !a.startsWith('http'));
+        attribution = nonUrl || 'No attribution returned';
+      } else if (!manifest.attribution.startsWith('http')) {
+        attribution = manifest.attribution;
+      }
+    }
   }
+  
+  // Final fallback
+  if (!attribution) {
+    attribution = 'No attribution returned';
+  }
+}
+
+
 
   // Get location link from various possible sources
   let locationLink = null;
@@ -386,6 +578,20 @@ if (iiifVersion === 3) {
   }
 
   // If locationLink is still not defined, check other sources
+if (!locationLink) {
+  // Try to extract URL from Source metadata (CONTENTdm often has HTML here)
+  const sourceMetadata = getMetadataValue(manifestMetadata, 'Source');
+  if (sourceMetadata && sourceMetadata.includes('href=')) {
+    // Extract URL from HTML
+    const match = sourceMetadata.match(/href=["']([^"']+)["']/);
+    if (match && match[1]) {
+      locationLink = match[1];
+    }
+  }
+}
+
+  // If still not found, try other fields
+
   if (!locationLink) {
     locationLink = getMetadataValue(canvasMetadata, 'Identifier') || 
                    getMetadataValue(manifestMetadata, 'Identifier', true) ||
@@ -416,6 +622,20 @@ if (iiifVersion === 3) {
   const card = document.createElement('div');
   card.className = 'card';
   
+  // Store canvas and manifest data on the card
+card.dataset.manifestId = manifest['@id'] || manifest.id;
+
+// Sanitize canvas before storing to prevent validation issues
+const canvasToStore = JSON.parse(JSON.stringify(canvas)); // Deep clone
+
+// Fix otherContent if it's a string instead of array (David Rumsey issue)
+if (canvasToStore.otherContent && typeof canvasToStore.otherContent === 'string') {
+  canvasToStore.otherContent = [canvasToStore.otherContent];
+}
+
+card.dataset.canvasData = JSON.stringify(canvasToStore);
+
+
   // Make card draggable
   makeCardDraggable(card);
 
@@ -456,32 +676,34 @@ if (iiifVersion === 3) {
   const attributionEl = document.createElement('p');
   attributionEl.innerHTML = `<strong>Attribution:</strong> ${attribution}`;
 
-  // Create link to item
-  const locationLinkEl = document.createElement('a');
-  locationLinkEl.href = locationLink;
-  locationLinkEl.textContent = 'View Item';
-  locationLinkEl.target = '_blank';
+  // Create link container (like control-links)
+const cardLinks = document.createElement('div');
+cardLinks.className = 'card-links';
 
-  const locationParagraph = document.createElement('p');
-  locationParagraph.appendChild(locationLinkEl);
+// Create link to item
+const locationLinkEl = document.createElement('a');
+locationLinkEl.href = locationLink;
+locationLinkEl.textContent = 'View Item';
+locationLinkEl.target = '_blank';
+locationLinkEl.className = 'card-link';
+cardLinks.appendChild(locationLinkEl);
 
-  // Create link to IIIF manifest
-  const manifestLinkEl = document.createElement('a');
-  manifestLinkEl.href = manifest['@id'] || manifest.id || '#';
-  manifestLinkEl.textContent = 'View IIIF Manifest';
-  manifestLinkEl.target = '_blank';
+// Create link to IIIF manifest
+const manifestLinkEl = document.createElement('a');
+manifestLinkEl.href = manifest['@id'] || manifest.id || '#';
+manifestLinkEl.textContent = 'View Manifest';
+manifestLinkEl.target = '_blank';
+manifestLinkEl.className = 'card-link';
+cardLinks.appendChild(manifestLinkEl);
 
-  const manifestParagraph = document.createElement('p');
-  manifestParagraph.appendChild(manifestLinkEl);
 
-  // Create link to Allmaps
-  const allmapsLinkEl = document.createElement('a');
-  allmapsLinkEl.href = allmapsLink;
-  allmapsLinkEl.textContent = 'Open in Allmaps Editor';
-  allmapsLinkEl.target = '_blank';
-
-  const allmapsParagraph = document.createElement('p');
-  allmapsParagraph.appendChild(allmapsLinkEl);
+// Create link to Allmaps
+const allmapsLinkEl = document.createElement('a');
+allmapsLinkEl.href = allmapsLink;
+allmapsLinkEl.textContent = 'Allmaps Editor';
+allmapsLinkEl.target = '_blank';
+allmapsLinkEl.className = 'card-link';
+cardLinks.appendChild(allmapsLinkEl);
 
   // Append all elements to card
   card.appendChild(deleteBtn);
@@ -491,17 +713,12 @@ if (iiifVersion === 3) {
   card.appendChild(dateEl);
   card.appendChild(collectionEl);
   card.appendChild(attributionEl);
-  card.appendChild(locationParagraph);
-  card.appendChild(manifestParagraph);
-  card.appendChild(allmapsParagraph);
+  card.appendChild(cardLinks);
 
   // Add card to gallery
   document.getElementById('gallery').appendChild(card);
 }
 
-
-
-// Clear current gallery and add images from loaded collection
 function repopulateGallery(manifestData) {
   const gallery = document.getElementById('gallery');
   
@@ -528,10 +745,8 @@ function repopulateGallery(manifestData) {
     let canvasItems = [];
 
     if (iiifVersion === 3) {
-      // IIIF 3.0
       canvasItems = manifest.items || [];
     } else {
-      // IIIF 2.0
       canvasItems = manifest.sequences?.[0]?.canvases || [];
     }
 
@@ -539,6 +754,25 @@ function repopulateGallery(manifestData) {
       addCanvasToGallery(canvas, manifest);
     });
   });
+
+  // Set gallery name from loaded manifest
+  let galleryName = '';
+  
+  if (manifestData.label) {
+    if (typeof manifestData.label === 'string') {
+      galleryName = manifestData.label;
+    } else if (typeof manifestData.label === 'object') {
+      const labelValues = Object.values(manifestData.label).flat();
+      galleryName = labelValues[0] || '';
+    }
+  }
+  
+  setGalleryName(galleryName);
+  
+  // Auto-open first image after gallery loads
+  setTimeout(() => {
+    openFirstImage();
+  }, 100);
 }
 
 /// Function to add a IIIF manifest to the gallery (supports both 2.0 and 3.0)
@@ -571,13 +805,48 @@ async function addManifestToGallery(manifestUrl) {
     if (canvasItems.length > 1) {
       // Show page selector
       showPageSelector(manifest, canvasItems);
-    } else {
-      // Single page - add directly
-      collectedManifests.push(manifest);
-      canvasItems.forEach(canvas => {
-        addCanvasToGallery(canvas, manifest);
-      });
+   
+      } else {
+  // Single page - add directly
+  
+  // Ensure manifest has a label
+  if (!manifest.label) {
+    const metadata = manifest.metadata || [];
+    let foundTitle = null;
+    
+    for (const item of metadata) {
+      const labelText = typeof item.label === 'string' ? item.label : 
+                        (typeof item.label === 'object' ? Object.values(item.label).flat().join('') : '');
+      
+      if (labelText.toLowerCase() === 'title') {
+        if (typeof item.value === 'string') {
+          foundTitle = item.value;
+        } else if (Array.isArray(item.value)) {
+          foundTitle = item.value[0];
+        } else if (typeof item.value === 'object') {
+          foundTitle = Object.values(item.value).flat()[0];
+        }
+        break;
+      }
     }
+    
+    if (foundTitle) {
+      manifest.label = foundTitle;
+    } else if (canvasItems[0] && canvasItems[0].label) {
+      const iiifVersion = getIIIFVersion(manifest);
+      if (iiifVersion === 3 && typeof canvasItems[0].label === 'object') {
+        manifest.label = Object.values(canvasItems[0].label).flat()[0] || 'Untitled';
+      } else {
+        manifest.label = canvasItems[0].label || 'Untitled';
+      }
+    }
+  }
+  
+  collectedManifests.push(manifest);
+  canvasItems.forEach(canvas => {
+    addCanvasToGallery(canvas, manifest);
+  });
+}
 
   } catch (error) {
     console.error('Error fetching IIIF Manifest:', error);
@@ -585,44 +854,276 @@ async function addManifestToGallery(manifestUrl) {
   }
 }
 
-// Function to export combined manifest
+// Function to export combined manifest (Collection format - for this app)
 function exportCombinedManifest() {
   const manifestName = document.getElementById('manifestName').value.trim();
   
-  if (!manifestName) {
-    alert('Please enter a name for the manifest.');
+  // Auto-generate name if empty
+  let finalName = manifestName;
+  if (!finalName) {
+    const today = new Date().toISOString().split('T')[0];
+    finalName = `iiif-gallery-${today}`;
+  }
+  
+  setGalleryName(finalName);
+
+  // Get current gallery state from the DOM
+  const gallery = document.getElementById('gallery');
+  const cards = gallery.querySelectorAll('.card');
+  
+  if (cards.length === 0) {
+    alert('No images in gallery to export. Please add some manifests first.');
     return;
   }
 
-  if (collectedManifests.length === 0) {
-    alert('No manifests to export. Please add some manifests first.');
+  // Build manifests array from current gallery order
+  // Use a Map to track unique manifests and prevent duplicates
+  const manifestMap = new Map();
+ cards.forEach(card => {
+  // Find the manifest link in the card
+  const manifestLinks = card.querySelectorAll('a');
+  let manifestUrl = null;
+  
+  manifestLinks.forEach(link => {
+    if (link.textContent === 'View Manifest') {
+      manifestUrl = link.href;
+    }
+  });
+  
+  if (manifestUrl) {
+    // Find the corresponding manifest in collectedManifests
+    const manifest = collectedManifests.find(m => 
+      (m['@id'] === manifestUrl || m.id === manifestUrl)
+    );
+    
+    if (manifest) {
+      // Use manifest URL as key to prevent duplicates
+      const key = manifest['@id'] || manifest.id;
+      if (!manifestMap.has(key)) {
+        manifestMap.set(key, manifest);
+      }
+    }
+  }
+});
+
+// Convert Map back to array (in the order they were encountered)
+const currentManifests = Array.from(manifestMap.values());
+
+// Update collectedManifests to match current state
+collectedManifests = currentManifests;
+
+// Sanitize all manifests to fix otherContent issues
+const sanitizedManifests = collectedManifests.map(manifest => {
+  const sanitized = JSON.parse(JSON.stringify(manifest)); // Deep clone
+  
+  // Fix canvases in IIIF 2.0 manifests
+  if (sanitized.sequences && sanitized.sequences[0] && sanitized.sequences[0].canvases) {
+    sanitized.sequences[0].canvases.forEach(canvas => {
+      // Fix otherContent if it's a string instead of array
+      if (canvas.otherContent && typeof canvas.otherContent === 'string') {
+        canvas.otherContent = [canvas.otherContent];
+      }
+    });
+  }
+  
+  // Fix items in IIIF 3.0 manifests
+  if (sanitized.items) {
+    sanitized.items.forEach(canvas => {
+      if (canvas.otherContent && typeof canvas.otherContent === 'string') {
+        canvas.otherContent = [canvas.otherContent];
+      }
+    });
+  }
+  
+  return sanitized;
+});
+
+// Create a combined manifest structure (Collection format)
+const combinedManifest = {
+  '@context': 'http://iiif.io/api/presentation/2/context.json',
+  '@type': 'sc:Collection',
+  '@id': `https://iiif-gallery-builder.example.org/${finalName}`,
+  'label': finalName,
+  'items': sanitizedManifests
+};
+
+// Convert to JSON string
+const manifestJson = JSON.stringify(combinedManifest, null, 2);
+
+// Create a blob and download
+const blob = new Blob([manifestJson], { type: 'application/json' });
+const url = URL.createObjectURL(blob);
+const a = document.createElement('a');
+a.href = url;
+a.download = `${finalName}-gallery.json`;
+document.body.appendChild(a);
+a.click();
+document.body.removeChild(a);
+URL.revokeObjectURL(url);
+
+alert(`Manifest "${finalName}" has been exported successfully!`);
+}
+
+// Function to export gallery as a flattened IIIF Manifest (interoperable format)
+function exportAsManifest() {
+  const manifestName = document.getElementById('manifestName').value.trim();
+  
+  // Auto-generate name if empty
+  let finalName = manifestName;
+  if (!finalName) {
+    const today = new Date().toISOString().split('T')[0];
+    finalName = `iiif-gallery-${today}`;
+  }
+  
+  setGalleryName(finalName);
+
+  // Get current gallery state from the DOM
+  const gallery = document.getElementById('gallery');
+  const cards = gallery.querySelectorAll('.card');
+  
+  if (cards.length === 0) {
+    alert('No images in gallery to export. Please add some manifests first.');
     return;
   }
 
-  // Create a combined manifest structure
-  const combinedManifest = {
+  // Collect all canvases with source information preserved
+  const allCanvases = [];
+  
+  cards.forEach((card, index) => {
+    const canvasData = card.dataset.canvasData;
+    const manifestId = card.dataset.manifestId;
+    
+    if (canvasData) {
+      try {
+        const canvas = JSON.parse(canvasData);
+
+        // Sanitize canvas to reduce validation warnings
+        if (canvas.images) {
+          canvas.images.forEach(img => {
+            // Ensure annotation has @id
+            if (!img['@id']) {
+              img['@id'] = `${canvas['@id'] || 'canvas'}/annotation/${Math.random().toString(36).substr(2, 9)}`;
+            }
+            
+            // Clean up image resource
+            if (img.resource && img.resource.service) {
+              if (Array.isArray(img.resource.service)) {
+                img.resource.service.forEach(svc => delete svc.protocol);
+              } else {
+                delete img.resource.service.protocol;
+              }
+            }
+          });
+        }
+
+        // Remove non-standard rendering field from canvas
+        delete canvas.rendering;
+
+        // IMPROVED LABEL EXTRACTION
+        if (!canvas.label || canvas.label === 'Page 1' || canvas.label.startsWith('Image ')) {
+          // Try to extract a better label from metadata
+          const metadata = canvas.metadata || [];
+          let betterLabel = null;
+          
+          // Look for common title fields
+          const titleFields = ['Short Title', 'Title', 'Full Title', 'Pub Title'];
+          
+          for (const field of titleFields) {
+            const item = metadata.find(m => m.label === field);
+            if (item && item.value) {
+              betterLabel = item.value;
+              break;
+            }
+          }
+          
+          // If we found a better label, use it
+          if (betterLabel) {
+            canvas.label = betterLabel;
+          }
+        }
+
+        // Add source manifest URL to canvas metadata
+        canvas.metadata = canvas.metadata || [];
+        
+        // Check if source manifest isn't already in metadata
+        const hasSourceManifest = canvas.metadata.some(m => 
+          m.label === 'Source Manifest' || 
+          m.label === 'source_manifest'
+        );
+        
+        if (!hasSourceManifest && manifestId) {
+          canvas.metadata.push({
+            'label': 'Source Manifest',
+            'value': manifestId
+          });
+        }
+        
+        // Generate new canvas ID for the flattened manifest
+        const originalId = canvas['@id'] || canvas.id;
+        canvas['@id'] = `https://example.org/manifest/${finalName}/canvas/${index}`;
+        
+        // Store original canvas ID as well
+        const hasOriginalId = canvas.metadata.some(m => 
+          m.label === 'Original Canvas ID'
+        );
+        
+        if (!hasOriginalId && originalId) {
+          canvas.metadata.push({
+            'label': 'Original Canvas ID',
+            'value': originalId
+          });
+        }
+        
+        allCanvases.push(canvas);
+      } catch (e) {
+        console.error('Failed to parse canvas data:', e);
+      }
+    }
+  });
+
+  // Create a single flattened manifest with all canvases
+  const flatManifest = {
     '@context': 'http://iiif.io/api/presentation/2/context.json',
-    '@type': 'sc:Collection',
-    '@id': `https://example.org/collection/${manifestName}`,
-    'label': manifestName,
-    'items': collectedManifests
+    '@type': 'sc:Manifest',
+    '@id': `https://example.org/manifest/${finalName}`,
+    'label': finalName,
+    'description': `A curated gallery of ${allCanvases.length} images created with IIIF Image Gallery Builder`,
+    'metadata': [
+      {
+        'label': 'Created with',
+        'value': 'IIIF Image Gallery Builder'
+      },
+      {
+        'label': 'Number of images',
+        'value': allCanvases.length.toString()
+      },
+      {
+        'label': 'Created',
+        'value': new Date().toISOString().split('T')[0]
+      }
+    ],
+    'sequences': [{
+      '@type': 'sc:Sequence',
+      '@id': `https://example.org/manifest/${finalName}/sequence/1`,
+      'canvases': allCanvases
+    }]
   };
 
   // Convert to JSON string
-  const manifestJson = JSON.stringify(combinedManifest, null, 2);
+  const manifestJson = JSON.stringify(flatManifest, null, 2);
 
   // Create a blob and download
   const blob = new Blob([manifestJson], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = `${manifestName}.json`;
+  a.download = `${finalName}-manifest.json`;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
 
-  alert(`Manifest "${manifestName}" has been exported successfully!`);
+  alert(`Manifest "${finalName}" has been exported successfully!`);
 }
 
 // Function to show the page selector modal
@@ -657,10 +1158,12 @@ function showPageSelector(manifest, canvasItems) {
     if (iiifVersion === 3) {
       const annotation = canvas.items?.[0]?.items?.[0];
       const imageService = annotation?.body?.service?.[0];
-      if (imageService?.id) {
-        thumbnailUrl = `${imageService.id}/full/!150,150/0/default.jpg`;
-      }
-    } else {
+    const serviceId = imageService?.id || imageService?.['@id'];
+  if (serviceId) {
+    thumbnailUrl = `${serviceId}/full/!150,150/0/default.jpg`;
+  }
+}
+    else {
       const imageService = canvas.images?.[0]?.resource?.service;
       if (imageService?.['@id']) {
         thumbnailUrl = `${imageService['@id']}/full/!150,150/0/default.jpg`;
@@ -765,7 +1268,9 @@ function addSelectedPagesToGallery() {
   } else {
     allCanvasItems = currentManifestForSelection.sequences?.[0]?.canvases || [];
   }
-  
+
+// Empty the Add Manifest field after selecting thumbnails
+document.getElementById('manifestUrl').value = "";
  
 // Create a modified manifest with only selected pages and store it
 const sortedIndices = Array.from(selectedPageIndices).sort((a, b) => a - b);
@@ -786,6 +1291,41 @@ if (iiifVersion === 3) {
     }]
   };
 }
+// Ensure manifest has a proper label
+if (!modifiedManifest.label || modifiedManifest.label === 'Untitled Manifest') {
+  // Try to get title from metadata
+  const metadata = modifiedManifest.metadata || [];
+  let foundTitle = null;
+  
+  for (const item of metadata) {
+    const labelText = typeof item.label === 'string' ? item.label : 
+                      (typeof item.label === 'object' ? Object.values(item.label).flat().join('') : '');
+    
+    if (labelText.toLowerCase() === 'title') {
+      if (typeof item.value === 'string') {
+        foundTitle = item.value;
+      } else if (Array.isArray(item.value)) {
+        foundTitle = item.value[0];
+      } else if (typeof item.value === 'object') {
+        foundTitle = Object.values(item.value).flat()[0];
+      }
+      break;
+    }
+  }
+  
+  if (foundTitle) {
+    modifiedManifest.label = foundTitle;
+  } else if (selectedCanvases.length > 0 && selectedCanvases[0].label) {
+    // Use first canvas label as fallback
+    if (iiifVersion === 3 && typeof selectedCanvases[0].label === 'object') {
+      modifiedManifest.label = Object.values(selectedCanvases[0].label).flat()[0] || 'Selected Pages';
+    } else {
+      modifiedManifest.label = selectedCanvases[0].label || 'Selected Pages';
+    }
+  } else {
+    modifiedManifest.label = 'Selected Pages';
+  }
+}
 
 // Now, push the MODIFIED manifest
 collectedManifests.push(modifiedManifest);
@@ -803,11 +1343,86 @@ selectedCanvases.forEach(canvas => {
 
 // Initialize all event listeners
 function initializeEventListeners() {
-  // Show selected filename when file is chosen
-  document.getElementById('uploadManifest').addEventListener('change', function(e) {
-    console.log('Change event fired!');
-    const fileName = e.target.files[0] ? e.target.files[0].name : 'No file chosen';
-    document.getElementById('fileName').textContent = fileName;
+
+  // Auto-load file when chosen (no need for separate Load button)
+document.getElementById('uploadManifest').addEventListener('change', async function(e) {
+  const file = e.target.files[0];
+  
+  if (!file) {
+    document.getElementById('fileName').textContent = 'No file chosen';
+    return;
+  }
+
+  // Show loading state
+  document.getElementById('fileName').textContent = `Loading ${file.name}...`;
+  document.getElementById('fileName').style.color = '#0073A3';
+
+  const reader = new FileReader();
+  
+  reader.onload = async function(event) {
+    const jsonContent = event.target.result;
+    try {
+      const manifestData = JSON.parse(jsonContent);
+      repopulateGallery(manifestData);
+      
+      // Show success
+      document.getElementById('fileName').textContent = `✓ Loaded: ${file.name}`;
+      document.getElementById('fileName').style.color = '#28a745';
+      
+      // Reset after 3 seconds
+      setTimeout(() => {
+        document.getElementById('fileName').textContent = 'No file chosen';
+        document.getElementById('fileName').style.color = '#888';
+      }, 3000);
+      
+    } catch (error) {
+      console.error('Error parsing JSON:', error);
+      alert(`Failed to load "${file.name}":\n\n${error.message}`);
+      document.getElementById('fileName').textContent = 'No file chosen';
+      document.getElementById('fileName').style.color = '#888';
+    }
+  };
+
+  reader.onerror = function() {
+    alert('Failed to read file. Please try again.');
+    document.getElementById('fileName').textContent = 'No file chosen';
+    document.getElementById('fileName').style.color = '#888';
+  };
+
+  reader.readAsText(file);
+});
+
+// Event listener to load from URL
+  document.getElementById('loadFromUrl').addEventListener('click', async () => {
+    const urlInput = document.getElementById('galleryUrl');
+    const galleryUrl = urlInput.value.trim();
+
+    if (!galleryUrl) {
+      alert('Please enter a gallery JSON URL.');
+      return;
+    }
+
+    try {
+      const response = await fetch(galleryUrl, { 
+        mode: 'cors',
+        credentials: 'omit',
+        redirect: 'follow'
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
+
+      const manifestData = await response.json();
+      repopulateGallery(manifestData);
+      
+      // Clear the input after successful load
+      urlInput.value = '';
+      
+    } catch (error) {
+      console.error('Error loading from URL:', error);
+      alert(`Failed to load gallery from URL:\n\n${error.message}\n\nMake sure:\n- The URL is correct\n- The file is publicly accessible\n- CORS is enabled on the server`);
+    }
   });
 
   // Event listener to add manifest URLs to the gallery
@@ -825,48 +1440,56 @@ function initializeEventListeners() {
     }
   });
 
-  // Event listener to load the uploaded combined manifest
-  document.getElementById('loadManifest').addEventListener('click', async () => {
-    const fileInput = document.getElementById('uploadManifest');
-    const file = fileInput.files[0];
-
-    if (!file) {
-      alert('Please select a JSON file to upload.');
-      return;
-    }
-
-    const reader = new FileReader();
-    
-    reader.onload = async function(event) {
-      const jsonContent = event.target.result;
-      try {
-        const manifestData = JSON.parse(jsonContent);
-        repopulateGallery(manifestData);
-      } catch (error) {
-        console.error('Error parsing JSON:', error);
-        alert('Failed to load manifest: ' + error.message);
-      }
-    };
-
-    reader.readAsText(file);
-  });
+ 
 
   // Event listener for the export button
-  document.getElementById('export-manifest').addEventListener('click', exportCombinedManifest);
+document.getElementById('saveLocally').addEventListener('click', exportCombinedManifest);
+document.getElementById('exportForViewers').addEventListener('click', exportAsManifest);
 
-   // Event listener for toggle input panel button
-  document.getElementById('toggleInputs').addEventListener('click', function() {
+
+ // Event listener for toggle input panel (only if it exists - not in viewer.html)
+const toggleInputsBtn = document.getElementById('toggleInputs');
+if (toggleInputsBtn) {
+  toggleInputsBtn.addEventListener('click', function(e) {
+    e.preventDefault();
     const inputPanel = document.getElementById('inputPanel');
-    const toggleBtn = document.getElementById('toggleInputs');
+    const toggleLink = document.getElementById('toggleInputs');
     
     if (inputPanel.classList.contains('hidden')) {
       inputPanel.classList.remove('hidden');
-      toggleBtn.textContent = 'Hide Input Panel';
+      toggleLink.textContent = 'Hide Inputs';
     } else {
       inputPanel.classList.add('hidden');
-      toggleBtn.textContent = 'Show Input Panel';
+      toggleLink.textContent = 'Show Inputs';
     }
   });
+}
+
+// Event listener for hide viewer
+const toggleViewerBtn = document.getElementById('toggleViewer');
+if (toggleViewerBtn) {
+  toggleViewerBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    const toggleLink = document.getElementById('toggleViewer');
+    const container = document.querySelector('.container');
+    const leftPanel = document.querySelector('.left-panel');
+    
+    if (container.classList.contains('viewerHidden')) {
+      container.classList.remove('viewerHidden');
+      toggleLink.textContent = 'Hide Viewer';
+      if (leftPanel.dataset.previousWidth) {
+        leftPanel.style.width = leftPanel.dataset.previousWidth;
+      } else {
+        leftPanel.style.width = '40%';
+      }
+    } else {
+      leftPanel.dataset.previousWidth = leftPanel.style.width || '40%';
+      container.classList.add('viewerHidden');
+      toggleLink.textContent = 'Show Viewer';
+      leftPanel.style.width = '';
+    }
+  });
+}
  // Page selector modal event listeners
   document.getElementById('selectAllPages').addEventListener('click', selectAllPages);
   document.getElementById('deselectAllPages').addEventListener('click', deselectAllPages);
@@ -875,10 +1498,11 @@ function initializeEventListeners() {
   document.querySelector('.close-modal').addEventListener('click', closePageSelector);
   
 // Close modal when clicking outside
-window.addEventListener('click', (e) => {
-  const modal = document.getElementById('pageSelectorModal');
-  if (e.target === modal) {
-    closePageSelector();
-  }
-});}
+  window.addEventListener('click', (e) => {
+    const modal = document.getElementById('pageSelectorModal');
+    if (e.target === modal) {
+      closePageSelector();
+    }
+  });
+}
 

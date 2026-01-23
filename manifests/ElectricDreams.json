@@ -1,0 +1,1983 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection", 
+  "@id": "https://example.org/collection/ElectricDreams",
+  "label": "ElectricDreams",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~323460~90092657/manifest",
+      "label": "Carte de la Telegraphie Electrique De L'Europe",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~323460~90092657/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~323460~90092657/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Carte de la Telegraphie Electrique De L'Europe",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Sagansan, L."
+                },
+                {
+                  "label": "Date",
+                  "value": "1854"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Carte de la Telegraphie Electrique De L'Europe"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Kaepplin"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "63"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "91"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "5,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "One of the Earliest Telegraph Maps of Europe Extremely rare early map illustrating the progress of providing telegraph lines throughout Europe. This may be the earliest thematic map which focuses solely on telegraph lines across all of Europe. The map illustrates the telegraph lines then in operation, those under construction and the Telegraph Directorates and Bureaus. Among the more noteworthy connections are the cable across the English Channel, the Cable extending to Corsica and the proposed cable from Sardinia to North Africa. History of the Telegraph The first working telegraph was built by the English inventor Francis Ronalds in 1816 and used static electricity. Offering his invention to the Admiralty in July 1816, it was rejected as \"wholly unnecessary\". The telegraph invented by Baron Schilling von Canstatt in 1832 had a transmitting device which consisted of a keyboard with 16 black-and-white keys. Pavel Schilling subsequently improved its apparatus. The first commercial electrical telegraph was the Cooke and Wheatstone system. A demonstration four-needle system was installed on the Euston to Camden Town section of Robert Stephenson's London and Birmingham Railway in 1837 for signaling rope-hauling of locomotives. It was rejected in favor of pneumatic whistles. Cooke and Wheatstone had their first commercial success with a system installed on the Great Western Railway over the 13 miles from Paddington station to West Drayton in 1838. The Electric Telegraph Company, the world's first public telegraphy company was formed in 1845 by financier John Lewis Ricardo and Cooke. In 1851, a conference in Vienna of countries in the German-Austrian Telegraph Union adopted the Morse telegraph as the system for international communications. The code adopted was considerably modified from the original Morse code, and was based on a code used on Hamburg railways (Gerke, 1848). A common code was a necessary step to allow direct telegraph connection between countries. With different codes, additional operators were required to translate and retransmit the message. As well as the rapid expansion of the use of the telegraphs along the railways, they soon spread into the field of mass communication with the instruments being installed in post offices. Telegraph networks were expensive to build, but financing was readily available, especially from London bankers. By 1852, National systems were in operation in major countries The Bibliotheque National de France holds an 1855 edition, which shows a number of new telegraph lines, most notably one across the Black Sea and one from Moscow to Odessa. (Ruderman, 2020)"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Europe"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Communications"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Telegraph"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Thematic"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Carte de la Telegraphie Electrique De L'Europe Dressee par ordre de M. Le Viomte de Vougy Directeur Genral de l'Administration des Lignes Telegraphiques par L. Sagansan Geographe de S.M. Empereur et de l'Administraion des Postes Paris"
+                },
+                {
+                  "label": "List No",
+                  "value": "10473.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Sagansan, L."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1854"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Carte de la Telegraphie Electrique De L'Europe Dressee par ordre de M. Le Viomte de Vougy Directeur Genral de l'Administration des Lignes Telegraphiques par L. Sagansan Geographe de S.M. Empereur et de l'Administraion des Postes Paris"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10473.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "17"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10473000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/185/10473000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Sagansan, L."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~323460~90092657/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~323460~90092657/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~323460~90092657",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 22798,
+                    "height": 16118
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~323460~90092657/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~323460~90092657/list/luna"
+              ],
+              "width": 22798,
+              "height": 16118
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~323460~90092657"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/mm730hn2881/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Telegraph and Rail Road Map of the New England States, by Alex. Williams. 1855. Redding & Co. Publishers, 8 State Street, Boston. Entered ... 1854 by Alexander Williams ... Massachusetts. (with inset map) Map of Boston Showing the entrance of the Rail Roads, by Alexr. Williams. Boynton Sc",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/mm730hn2881.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/mm730hn2881'>https://purl.stanford.edu/mm730hn2881</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Telegraph and Rail Road Map of the New England States, by Alex. Williams. 1855. Redding & Co. Publishers, 8 State Street, Boston. Entered ... 1854 by Alexander Williams ... Massachusetts. (with inset map) Map of Boston Showing the entrance of the Rail Roads, by Alexr. Williams. Boynton Sc"
+        },
+        {
+          "label": "Contributor",
+          "value": "Williams, Alexander."
+        },
+        {
+          "label": "Contributor",
+          "value": "Boynton."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 78 x 81 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Map in outline color surrounded by a green Greek key design enclosed in a brown cloth covered 15x10 case embossed with \"William's Rail Road And Telegraph Map Of The New England States\" on cover."
+        },
+        {
+          "label": "Description",
+          "value": "Pocket Map."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 5419.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Telegraph lines > New England > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Railroads > New England > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "New England > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Boston (Mass.) > Maps > 19th century"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:696,960."
+        },
+        {
+          "label": "Date",
+          "value": "1855"
+        },
+        {
+          "label": "Date",
+          "value": "1855"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/mm730hn2881"
+        },
+        {
+          "label": "Publisher",
+          "value": "Redding & Co,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-12"
+        }
+      ],
+      "description": "Map in outline color surrounded by a green Greek key design enclosed in a brown cloth covered 15x10 case embossed with \"William's Rail Road And Telegraph Map Of The New England States\" on cover.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/gg218sg5677%2F5419001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/gg218sg5677%2F5419001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 275,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/mm730hn2881/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/mm730hn2881/iiif/canvas/cocina-fileSet-hv859vc5018-hv859vc5018_1",
+              "@type": "sc:Canvas",
+              "label": "Telegraph and Rail Road Map of the New England States, by Alex. Williams. 1855\n            Redding & Co. Publishers, 8 State Street, Boston. Entered ... 1854 by Alexander\n            Williams ... Massachusetts. (with inset map) Map of Boston Showing the entrance of the\n            Rail Roads, by Alexr. Williams. Boynton Sc.",
+              "height": 9760,
+              "width": 10147,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hv859vc5018/5419002.jp2",
+                  "label": "Original source file (17.8 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/mm730hn2881/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fhv859vc5018-hv859vc5018_1%2F5419002.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/mm730hn2881/iiif/canvas/cocina-fileSet-hv859vc5018-hv859vc5018_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hv859vc5018%2F5419002/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 9760,
+                    "width": 10147,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hv859vc5018%2F5419002",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/kw630nh0341/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Map of the submarine telegraph between America & Europe : with its various communications on the two continents",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/kw630nh0341.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/kw630nh0341'>https://purl.stanford.edu/kw630nh0341</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Map of the submarine telegraph between America & Europe : with its various communications on the two continents"
+        },
+        {
+          "label": "Contributor",
+          "value": "Korff Brothers"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : col. ; 17 x 46 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Alternate title: Atlantic cable, 1857."
+        },
+        {
+          "label": "Description",
+          "value": "Inset: Harbour of St. John's, Newfoundland."
+        },
+        {
+          "label": "Description",
+          "value": "Includes \"Profile of the bottom of the Atlantic as sounded 1856 by the U.S. Steamer \"Arctic,\"\" and ill. of the \"Great Atlantic cable (natural size).\""
+        },
+        {
+          "label": "Description",
+          "value": "Sold by McKee & Stilwell."
+        },
+        {
+          "label": "Subject",
+          "value": "Transatlantic cables > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:12,000,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "90°00′00″W -- 15°00′00″E / 60°00′00″N -- 40°00′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1857"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/kw630nh0341"
+        },
+        {
+          "label": "Publisher",
+          "value": "Korff Brothers"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-08-11"
+        }
+      ],
+      "description": "Alternate title: Atlantic cable, 1857.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/kw630nh0341%2Fkw630nh0341_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/kw630nh0341%2Fkw630nh0341_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 165
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/kw630nh0341/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/kw630nh0341/iiif/canvas/cocina-fileSet-kw630nh0341-kw630nh0341_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 5197,
+              "width": 12574,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/kw630nh0341/kw630nh0341_00_0001.jp2",
+                  "label": "Original source file (11.8 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/kw630nh0341/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fkw630nh0341-kw630nh0341_1%2Fkw630nh0341_00_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/kw630nh0341/iiif/canvas/cocina-fileSet-kw630nh0341-kw630nh0341_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/kw630nh0341%2Fkw630nh0341_00_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 5197,
+                    "width": 12574,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/kw630nh0341%2Fkw630nh0341_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~356016~90122920/manifest",
+      "label": "Carte des voies de communication établies dans le Monde entier, au moyen de la vapeur et de l'électricité; \"World's Steam and Electric Map\"",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~356016~90122920/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~356016~90122920/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Carte des voies de communication établies dans le Monde entier, au moyen de la vapeur et de l'électricité; \"World's Steam and Electric Map\"",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Chatelain, Anatole Julien (1817 - 1898)"
+                },
+                {
+                  "label": "Date",
+                  "value": "1862"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Carte des voies de communication établies dans le Monde entier, au moyen de la vapeur et de l'électricité; \"World's Steam and Electric Map\""
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Erhard Schieble"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "120"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "160"
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Communications"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Transportation"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Carte des voies de communication établies dans le Monde entier, au moyen de la vapeur et de l'électricité; \"World's Steam and Electric Map\" Avec indications des Postes Consulaires de France sur le Globe dressée d’après les documents officiels très récents par Anatole Chatelain Ex-Chef du Bureau de la Statistique au Ministère des Affaires Étrangères et dédiée a S.M. l’Empereur."
+                },
+                {
+                  "label": "List No",
+                  "value": "15798.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Chatelain, Anatole Julien (1817 - 1898)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1862"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Carte des voies de communication établies dans le Monde entier, au moyen de la vapeur et de l'électricité; \"World's Steam and Electric Map\" Avec indications des Postes Consulaires de France sur le Globe dressée d’après les documents officiels très récents par Anatole Chatelain Ex-Chef du Bureau de la Statistique au Ministère des Affaires Étrangères et dédiée a S.M. l’Empereur."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Österreichisches Staatsarchiv (Vienna): AT-OeStA/KA KPS KS A VI Thematisch 2; Mittheilungen aus Justus Perthes' Geographischer Anstalt, band 9 (1863), p. 80; Österreichische Militärische Zeitschrift von V. Streffleur, III Jahrgang, vierter band (1862), p. 398; Cf. [re: 1863 ed.:] V.A. MALTE BRUN, ‘Carte des voies de communication’‚ Annales des voyages, de la géographie, de l'histoire et de l'archéologie, année 1864, tome premier (1864), pp. 231-3."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"Lithograph with original hand colour, dissected into 32 sections and amounted upon original linen, inscribed to the right of tile in mss.: “A S.E. Monsieur le Comte de Chasseloupe-Laubat, Hommage de l’Auteur, tres respecteux, [with hand-stamped signature of Chatelain in blue ink], Xbre 1862”, publisher’s pastedown label to verso, folding into original maroon cloth slipcase bearing gilt short title to spine. The exceedingly rare first edition of the mandarin, dramatist and cartographer Anatole Chatelain’s monumental and beautifully rendered world map showing all major railways, steamships routes, telegraph lines (both terrestrial and submarine), and canals/navigable inland routes; the finest such map made during the ‘Age of Steam and Electricity’ and the era of Jules Verne’s ‘Around the World in Eighty Days’, which saw a revolution in global transportation and communications with transformative social, economic and military ramifications; the present example having an august provenance, bearing the mss. inscription of the author to Prosper de Chasseloupe-Laubat, the ultra-powerful French Minister of the Navy & Colonies, who was the driving force behind France’s aggressive colonial expansion and a preeminent promoter of infrastructure development on five continents. The advent of steam power and electricity during the mid-19th century totally revolutionized global transportation and communications. Steam ships and trains slashed travel times from months to weeks, or even days, while telegraph lines allowed messages to be delivered almost instantly over thousands of kms, correspondence which previously took months. These developments had a transformative impact upon social behavior, colonialism, cross-cultural exchange, the economy, military affairs and geopolitics worldwide. The spirit of the new stream-electricity revolution was best captured in prose by Jules Verne’s epic bestseller Le tour du monde en quatre-vingts jours (1872), first published in English as Around the World in Eighty Days (1873), whereby a circumnavigation in that short period of time was by then possible, while previously such a tour would have taken years. At the height of the stream-electricity revolution, France, ruled by the ultra-expansionist Emperor Napoleon III (to whom the map is dedicated in the title), was a key mover of events. At this time, Anatole Chatelain, a senior French fonctionnaire, who moonlighted as a cartographer and dramatist, created an amazing map that, just as Verne would later capture in words, would graphically express the revolution perhaps better than any other work. The highly attractive, very large-format production (1.2 x 1.6 metres / approx. 4 x 5 feet!) showcases the entire world on Mercator’s Projection, with each country and colony outlined in its own bright hues, most being colour-coded by nationality possession (as explained in the ‘Signes et Conventions’ register, lower right), while the coastlines are outlined in a lively blue tone. The map features a vast wealth of information on transportation and communications, as explained in the ‘Légende’, including railways (lines tinted in ochre); steamship lines on ocean and lakes (lines tinted in red) along with notes showing their frequency (weekly, etc.), prices and route distances, while large flags are used to identify the ownership of the steamship lines (France, Russia, Netherlands, Brazil, Britain, Prussia, Belgium, Chile, USA, Ottoman Empire, Portugal, Austria, Denmark, Egypt, Japan, Italy, Sweden, Bremen, Imperial Russian American Company (Alaska), Spain, Norway, Hamburg, and the Hudson’s Bay Company (Canada)). Navigable inland waterways are represented by bold green lines, while steamship lines running on navigable rivers and canals are represented by lines tinted either green or brown. Telegraph lines in operation (tinted in blue) are showcased, along with lines both under construction and planned. The map also shows caravan routes and horse/stagecoach routes (crossed lines), as well as the tracks of key modern explorers (arrowed lines). Additionally, major overland routes across isthmuses between key bodies of water are represented by brown-tinted double lines. The geography of the world is well mapped, save for parts of interior of Africa, the Canadian Arctic Archipelago and Antarctica, which remain somewhat enigmatic. The map shows an awareness of many recent and ongoing key events of migration that were in good part enabled by the steam-electricity revolution, including the California Gold Rush (1848-55), the Victoria Gold Rush, in Australia (1851-69) and the Fraser Valley Gold Rush, in British Columbia (commenced 1858). Interestingly, the map also shows the survey routes for the Transatlantic Telegraph Cable, a connection that was first opened (tentatively) in 1858 but would not become practically operable until 1866. Also notable, is the route of the telegraph line that runs from Missouri to San Francisco, being the The frequency of the services, the duration of the journeys have been indicated whenever this could be done without harming clarity. It is easy to understand what interest there is for merchants, businessmen and people of the world, such a map which neatly summarizes so much diverse data. the whole world; because M. Anatole Châtelain took care to indicate using the ingenious notation of national flags the radius of activity or action of each of the great powers of the world. This planisphere thus presents the current assessment of the political situation, maritime, and commercial of all peoples. This work, which cost its author so much care, and whose dedication the Emperor was kind enough to accept, was favorably received by the public in France and in England. He was honored with a unique medal at the last international exhibition in London; it was the object in Paris of several ministerial subscriptions. It was an obligation for the author to bring to his work the corrections, the improvements, which would be announced to him, he did it with a loyalty and an eagerness which we hasten to announce; and each of the successive printings testifies to M. A. Châtelain's desire to take into account the observations made to him. It is not our intention to compare this map, as has been done in Germany, with the remarkable planisphere published since in Gotha by MM. Hermann Berghaus and Stülpnagel; the parallel is not possible with an exclusively geographical and scientific map, which leaves nothing to be desired, like this last map, in which the rigorous representation of the globe in its most complete details was moreover the main objective point, while that in the map of M. A. Châtelain, the geographical layout was only the means and the indication of the general ways of communication, the dominant idea. It is undoubtedly this striking and synoptic character of the movement of international communications that Mr. A. Châtelain managed to give to his map which more particularly fixed the attention of the international jury, and earned him a deserved distinction. Anatole Julien Chatelain: Mandarin, Dramatist and Mapmaker Anatole Julien Chatelain (1817 - 1898) was a senior French government official who moonlighted as cartographer and playwright. He served as the editor of publications for the French Department of Agriculture and Commerce (1849–7) and was subsequently the Chief of the Bureau of Statistics at the Ministry of Foreign Affairs (1855-8). He ended his civil service career as the Chief of the Bureau of the Ministry of Public Instruction (Education). Chatelain was long fascinated with statistic and the graphic representation of data, and his official duties gave him privileged access to the best intelligence from around the word. In addition to creating and editing the various editions of the Carte des voies de communication établies dans le Monde (1862-96), Chatelain made an atlas of the early historical development of the French railway system, Atlas chronologique des chemins de fer de France dressé par Anatole Chatelain, d'après les documents du bureau de la Statistique des chemins de fer (1855), as well as a railway map of the country, Carte des chemins de fer de France et des pays limitrophes (1858). best communication route across America in the era before the completion of the Central Pacific Railway in 1869. In Egypt, one can see the route of the under-construction Suez Canal that would transform global transportation upon its completion in 1869. The map features insets, in the lower corners, that detail the transport-communication systems in the Eastern USA-Canada and Europe, while an inset, in the top centre, showcases the system in Great Britain. Indicative of France’s grandiose global ambitions, the map labels the locations of French consulate-generals (double-tipped black flags), consulates (black flags) and vice-consulates (white flags) all around the world, a system which had been greatly expanded during the reign of Napoleon III. Chatelain welcomed advice from the public on how to improve the map, as a note in the lower margin, given in both French and English reads: “The gentlemen who interest themselves in the important movement brought forward in the present map, are requested to send their remarks on any successive addition or rectification, to Mr. Anatole Chatelain at the Ministry of State in Paris”. Accordingly, Chatelain regularly produced updated editions of the map over the next three decades. Today, all the editions are rare to extremely rare, having been expensive, ‘boutiquey’ productions with limited print runs. We can trace editions issued in 1862 (represented by the present example), 1863, 1867, 1869, 1874, 1876, 1880, 1884, 1889, 1895 and 1896, with the editions from 1876 onwards bearing the title headlined as the ‘Planisphère Chatelain’. The esteemed geographer and cartographer, Victor-Adolphe Malte-Brun (1816 - 1889), wrote a description and glowing review of the second edition (of 1863) of Chatelain’s map, after witnessing its presentation at a meeting of the Société de Géographie in Paris: This beautiful map which was deposited by the Senator Count Walewski on the desk of the Société de Géographie, at the last general assembly of April 15, and which was the object of very flattering attention on the part of of the members of the learned association, is no less than 1.10 high by 1.55 wide. It is a planisphere erected on the Mercator projection, on a scale of approximately 1/280,000,000. The author has proposed to highlight the means of action of human power on the entire globe, with the help of these two marvelous agents which will mark the nineteenth century in the eyes of posterity, steam and electricity. He has therefore shown on his map the lines of communication established by means of steam, that is to say, the railways and the regular lines of steam navigation on the oceans, the inland seas, the lakes, the rivers, the journeys resulting from the most remarkable commercial, scientific or military expeditions; and communication channels established by means of electricity: land or submarine electric telegraph lines; finally, the most important means of communication, not served by steam or electricity, such as the great lines of fluvial communication, the routes followed by the great caravans, the currents of emigration, the explorations of the principal modern travelers and the a thousand accidents that mark transcontinental viability in the New World. An August Provenance: Prosper de Chasseloup-Laubat – Architect of French Global Expansion The present example of the map has a fine provenance, coming from the library of the French nobleman and top-flight politician, Prosper de Chasseloupe-Laubat, the 4th Marquis of Chasseloup-Laubat, who would have been a long-time acquaintance of Chatelain. The work is inscribed in manuscript by Chatelain to the marquis (just to the right of the title), “A S.E. Monsieur le Comte de Chasseloupe-Laubat, Hommage de l’Auteur, très respecteux, Anatole Chatelain [with the signature provided as a handstamp in blue ink], Xbre [Decmber] 1862”. Prosper de Chasseloupe-Laubat (1805-73) was a political heavyweight and one of Emperor Napoléon III’s most trusted associates. He had previously served as the French Navy Minister (briefly, in 1851) and subsequently became the Minister for Algeria & the Colonies (1859-60). From 1860 to 1867, he held the new the ultra-powerful combined portfolio of Minister of the Navy & Colonies (1860-7), whereupon he spearheaded the consolidation of French colonial expansion in Africa and Southern Vietnam, as well as contributing to grand overseas military adventures such as the French Intervention in Mexico (1862-7). Additionally, he encouraged French foreign investment in countries the world over and was a globally significant promoter of infrastructure development, backing the creation of railways and telegraph lines on five continents, and such mega-projects as the Suez Canal. Chasseloupe-Laubat was a noted bibliophile and highly carto-literate, and one can be certain that he would have spent a great deal of time pouring over the present work, especially as he had a hand in many of the transport and communication systems represented on the map. A Note on Rarity All editions of the map are rare, with the early editions being extremely uncommon, having been expensive, ‘boutiquey’ productions made in only small print runs. We can trace only a single institutional example of the present first edition of the map, held by the Österreichisches Staatsarchiv (Vienna), while we cannot trace any sales records for any other examples.\" (Alexander Johnson/Dasa Pahor, 2023)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15798.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "32"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "22"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15798002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/15798002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Chatelain, Anatole Julien (1817 - 1898)"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~356016~90122920/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~356016~90122920/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~356016~90122920",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 38886,
+                    "height": 29175
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~356016~90122920/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~356016~90122920/list/luna"
+              ],
+              "width": 38886,
+              "height": 29175
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~356016~90122920"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/fr741zr7695/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "The Atlantic Telegraph. Map Shewing the Atlantic Telegraph, and Other Submarine Cables in Europe and America. Map Showing the Proposed Ocean Telegraphs and Overland Route Around the World",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/fr741zr7695.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/fr741zr7695'>https://purl.stanford.edu/fr741zr7695</a>"
+        },
+        {
+          "label": "Title",
+          "value": "The Atlantic Telegraph. Map Shewing the Atlantic Telegraph, and Other Submarine Cables in Europe and America. Map Showing the Proposed Ocean Telegraphs and Overland Route Around the World"
+        },
+        {
+          "label": "Contributor",
+          "value": "Bacon & Co."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 2 maps ; 84 x 59 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Color. Two maps and text on one sheet."
+        },
+        {
+          "label": "Description",
+          "value": "Separate Map."
+        },
+        {
+          "label": "Local note",
+          "value": "David Rumsey Map Center copy 1: Pub list no. 12183.000."
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > 20th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Communication > Atlantic Ocean > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Telegraph > Atlantic Ocean > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Atlantic Ocean > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "North Atlantic Ocean > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1865"
+        },
+        {
+          "label": "Date",
+          "value": "1865"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/fr741zr7695"
+        },
+        {
+          "label": "Publisher",
+          "value": "Bacon & Co,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-04-14"
+        }
+      ],
+      "description": "Color. Two maps and text on one sheet.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/fr741zr7695%2F12183000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/fr741zr7695%2F12183000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 280,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/fr741zr7695/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/fr741zr7695/iiif/canvas/cocina-fileSet-fr741zr7695-fr741zr7695_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 20030,
+              "width": 14038,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/fr741zr7695/12183000.jp2",
+                  "label": "Original source file (50.5 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/fr741zr7695/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Ffr741zr7695-fr741zr7695_1%2F12183000.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/fr741zr7695/iiif/canvas/cocina-fileSet-fr741zr7695-fr741zr7695_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/fr741zr7695%2F12183000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 20030,
+                    "width": 14038,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/fr741zr7695%2F12183000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~353987~90121122/manifest",
+      "label": "Dominion Of Canada Telegraph & Signal Service. Map No.1 (Eastern-Section). Sir Hector L. Langevin, K.C.M.G.-C.B., Minister of Public Works. F.N. Gisborne, M.I.T.E.E.-F.R.S.C., &c., Supt. T. & S. Service. 1883. Projected By F.N. Gisborne. Drawn By Gust. Smith.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~353987~90121122/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~353987~90121122/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Dominion Of Canada Telegraph & Signal Service. Map No.1 (Eastern-Section). Sir Hector L. Langevin, K.C.M.G.-C.B., Minister of Public Works. F.N. Gisborne, M.I.T.E.E.-F.R.S.C., &c., Supt. T. & S. Service. 1883. Projected By F.N. Gisborne. Drawn By Gust. Smith.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "(Canada) Ministry of Public Works"
+                },
+                {
+                  "label": "Date",
+                  "value": "1882"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Dominion Of Canada Telegraph & Signal Service. Map No.1 (Eastern-Section). Sir Hector L. Langevin, K.C.M.G.-C.B., Minister of Public Works. F.N. Gisborne, M.I.T.E.E.-F.R.S.C., &c., Supt. T. & S. Service. 1883. Projected By F.N. Gisborne. Drawn By Gust. Smith."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Canadian Ministry Public Works"
+                },
+                {
+                  "label": "Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "89"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "122"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "1,400,000"
+                },
+                {
+                  "label": "Country",
+                  "value": "Canada"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Railroad"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Communications"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Dominion Of Canada Telegraph & Signal Service. Map No.1 (Eastern-Section). Sir Hector L. Langevin, K.C.M.G.-C.B., Minister of Public Works. F.N. Gisborne, M.I.T.E.E.-F.R.S.C., &c., Supt. T. & S. Service. 1883. Projected By F.N. Gisborne. Drawn By Gust. Smith."
+                },
+                {
+                  "label": "List No",
+                  "value": "0118.000"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Gisborne, F.N."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Smith, Gust."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "(Canada) Ministry of Public Works"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1883"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Dominion Of Canada Telegraph & Signal Service. Map No.1 (Eastern-Section). Sir Hector L. Langevin, K.C.M.G.-C.B., Minister of Public Works. F.N. Gisborne, M.I.T.E.E.-F.R.S.C., &c., Supt. T. & S. Service. 1883. Projected By F.N. Gisborne. Drawn By Gust. Smith."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Shows telegraph, sea cables and Railroads. Printed in full color. Not dissected. Map is backed with linen and folds into untitled brown cloth covered boards 31.5x26."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "0118.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "32"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "26"
+                },
+                {
+                  "label": "Image No",
+                  "value": "0118000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/0118000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "(Canada) Ministry of Public Works"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~353987~90121122/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~353987~90121122/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~353987~90121122",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 29850,
+                    "height": 21364
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~353987~90121122/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~353987~90121122/list/luna"
+              ],
+              "width": 29850,
+              "height": 21364
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~353987~90121122"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/fs420zz4652/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Telegraph map of Lower Egypt",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/fs420zz4652.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/fs420zz4652'>https://purl.stanford.edu/fs420zz4652</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Telegraph map of Lower Egypt"
+        },
+        {
+          "label": "Title",
+          "value": "Telegraph map of Lower Egypt 1882, N° 192"
+        },
+        {
+          "label": "Contributor",
+          "value": "Great Britain, War Office, Intelligence Branch"
+        },
+        {
+          "label": "Contributor",
+          "value": "Great Britain, War Office, General Staff, Geographical Section"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : color ; 59 x 66 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "At lower left corner: Intelligence Branch N° 192."
+        },
+        {
+          "label": "Description",
+          "value": "At lower right corner: Incographed at the Intelligence Branch War Office. June 1882."
+        },
+        {
+          "label": "Description",
+          "value": "Shows Nile River, Suez Canal, roads, railroads, and names of cities and towns."
+        },
+        {
+          "label": "Description",
+          "value": "A pair with IB 193. Similar to IB 191, but less detailed."
+        },
+        {
+          "label": "Subject",
+          "value": "Egypt > Distances, etc > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Egypt > Maps and charts > 1882"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:500,000."
+        },
+        {
+          "label": "Date",
+          "value": "1882"
+        },
+        {
+          "label": "Identifier",
+          "value": "OCLC: 497558001"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/fs420zz4652"
+        },
+        {
+          "label": "Publisher",
+          "value": "[War Office, Intelligence Branch]"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-09-16"
+        }
+      ],
+      "description": "At lower left corner: Intelligence Branch N° 192.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/fs420zz4652%2Ffs420zz4652_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/fs420zz4652%2Ffs420zz4652_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 350
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/fs420zz4652/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/fs420zz4652/iiif/canvas/cocina-fileSet-fs420zz4652-fs420zz4652_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 16208,
+              "width": 18542,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/fs420zz4652/fs420zz4652_0001.jp2",
+                  "label": "Original source file (159 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/fs420zz4652/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F08808752-22cc-4b36-b68c-df69a0682cc2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/fs420zz4652/iiif/canvas/cocina-fileSet-fs420zz4652-fs420zz4652_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/fs420zz4652%2Ffs420zz4652_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 16208,
+                    "width": 18542,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/fs420zz4652%2Ffs420zz4652_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362400~90129756/manifest",
+      "label": "Composite map: Berghaus : Chart of the world",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~362400~90129756/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362400~90129756/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Composite map: Berghaus : Chart of the world",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Berghaus, Herman"
+                },
+                {
+                  "label": "Author",
+                  "value": "Habenicht, Herman"
+                },
+                {
+                  "label": "Date",
+                  "value": "1897"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Composite map: Berghaus : Chart of the world"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Justus Perthes"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Gotha"
+                },
+                {
+                  "label": "Type",
+                  "value": "Composite Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "102"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "158"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "26,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "12th. edition chart of the world, outline color map 102x158, on four sheet, 51x79. Bound in black marbled paper cover boards, with label pasted on the front with title \"Dr. Herman Berghaus : Chart of the world. XII. Edition - Gotha : Justus Perthes. 1897.\" Shows boundaries, major cities, rivers, lakes, steamship lines and telegraph lines. Relief shown by hachures and spot heights. Depths shown by soundings. Includes 3 inset maps, explanation and abbreviation tables, colonial possessions, and guide to \"Principal ocean steamship lines.\" See our 15529.000 for the case map version."
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Herman Berghaus : Chart of the world on Mercators projection. Entirely reconstructed by Herman Habenicht and Bruno Domass. Gotha:Justus Perthes. 1st edition 1863. XIIth. edition 1897. (insets) Principal telegraph lines of the wold and co tidal lines. (with) The World on Lambert's Polar projection. (with) General wind chart."
+                },
+                {
+                  "label": "List No",
+                  "value": "11004.006"
+                },
+                {
+                  "label": "Series No",
+                  "value": "6"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Berghaus, Herman"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Habenicht, Herman"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1897"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Herman Berghaus : Chart of the world on Mercators projection. Entirely reconstructed by Herman Habenicht and Bruno Domass. Gotha:Justus Perthes. 1st edition 1863. XIIth. edition 1897. (insets) Principal telegraph lines of the wold and co tidal lines. (with) The World on Lambert's Polar projection. (with) General wind chart."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11004.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "4"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "82"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11004006.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/11004006.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Berghaus, Herman; Habenicht, Herman"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~362400~90129756/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~362400~90129756/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~362400~90129756",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 32731,
+                    "height": 20826
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362400~90129756/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362400~90129756/list/luna"
+              ],
+              "width": 32731,
+              "height": 20826
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~362400~90129756"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362105~90129554/manifest",
+      "label": "Carte de l’Asie orientale et de l’archipel d’Asie",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~362105~90129554/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362105~90129554/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Carte de l’Asie orientale et de l’archipel d’Asie",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Andriveau-Goujon, Eugene, 1832-1897"
+                },
+                {
+                  "label": "Author",
+                  "value": "Barrère, Henry (1865-1930)."
+                },
+                {
+                  "label": "Date",
+                  "value": "1898"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Carte de l’Asie orientale et de l’archipel d’Asie"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Maison Andriveau-Goujon, Henry Barrere"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "63"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "80,000,000"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Asia"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Southeast Asia"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Carte de l’Asie orientale et de l’archipel d’Asie"
+                },
+                {
+                  "label": "List No",
+                  "value": "16077.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Andriveau-Goujon, Eugene, 1832-1897"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Barrère, Henry (1865-1930)."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1898"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Carte de l’Asie orientale et de l’archipel d’Asie"
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "National Congress of French Geographical Societies, XXI session, Paris, August 20-24, 1900, Proceedings published by the Geographical Society, 1901, p. 73."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"Beautiful and very large map of Southeast Asia, prepared by the Andriveau-Goujon house, and published by Henry Barrère in Paris in 1898. This is a very rare edition, enhanced with European and Japanese steamship lines. There are two other titles for earlier editions of this map, published by Eugène Andriveau-Goujon: either \"Map of East Asia including the Chinese Empire, Japan, the states of Indochina and the great archipelago of Asia or Malaysia,\" or \"East Asia including the Chinese Empire and Japan, the states of Indochina and the great archipelago of Asia.\" The map, also covering Tibet, China, Russia, and Japan, extends north to Tomsk and Olekminsk or Oliokminsk in Russia, south to Indonesia and the northern coasts of Australia, west to Bhutan and Lhasa in Tibet, and east to the Japanese archipelago. A legend in seven colors identifies French (blue), English (pink), Spanish (yellow), Dutch (purple), and Portuguese (green) possessions. This map also shows the most recent possessions of the Japanese (light orange) and the Germans (underlined in orange), which did not appear in previous editions. Japanese possessions include the island of Formosa or Taiwan, ceded to Japan in 1895, and the Lieou-Kieou or Rykkyk islands, annexed in 1879. The German possession corresponds to the concession of the Chinese bay of Kiao-tcheou or Jiaozhou, located in the Yellow Sea, south of the Shandong Peninsula. In 1897, one year before the publication of this map, Germany, citing the assassination of two of its missionaries, effectively seized the bay, extracting from the Chinese government a 99-year lease the following year, which it transformed into a protectorate. The protectorate ended with Germany's defeat in 1918. The legend also indicates the steamship lines of these countries with different types of red lines, railways, operational, under construction or projected railways, telegraph lines, and submarine cables. The ports of China and Japan open to Europeans are underlined: for China, these include Shanghai, Fou-Tchou (now Fuzhou), Canton, or Tching-Kiang. Among the Japanese ports are Hakodate, Niegata (now Niigata), Yokohama, and Nangasaki (now Nagasaki). In the lower left corner is a small Chinese-Tatar-Manchu-Malay-French vocabulary. Rare, we have located only three copies of this edition in public collections. Beautiful example in superb contemporary colors.\" (Le Bail, 2024)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16077.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "18"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16077002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/16077002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Andriveau-Goujon, Eugene, 1832-1897; Barrère, Henry (1865-1930)."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~362105~90129554/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~362105~90129554/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~362105~90129554",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 15690,
+                    "height": 26210
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362105~90129554/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362105~90129554/list/luna"
+              ],
+              "width": 15690,
+              "height": 26210
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~362105~90129554"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~356419~90123333/manifest",
+      "label": "Nouvelle carte physique et minière du Transvaal, de l’Etat Libre d’Orange et des Pays Sud-Africains (Possessions Anglaises et Portugaises) par F. Bianconi.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~356419~90123333/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~356419~90123333/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Nouvelle carte physique et minière du Transvaal, de l’Etat Libre d’Orange et des Pays Sud-Africains (Possessions Anglaises et Portugaises) par F. Bianconi.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Bianconi, F."
+                },
+                {
+                  "label": "Date",
+                  "value": "1900"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Nouvelle carte physique et minière du Transvaal, de l’Etat Libre d’Orange et des Pays Sud-Africains (Possessions Anglaises et Portugaises) par F. Bianconi."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "A. Taride"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "75"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "69"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "4,752,000"
+                },
+                {
+                  "label": "Country",
+                  "value": "South Afirca"
+                },
+                {
+                  "label": "Region",
+                  "value": "South Africa"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Nouvelle carte physique et minière du Transvaal, de l’Etat Libre d’Orange et des Pays Sud-Africains (Possessions Anglaises et Portugaises) par F. Bianconi."
+                },
+                {
+                  "label": "List No",
+                  "value": "15855.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Bianconi, F."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1900"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Nouvelle carte physique et minière du Transvaal, de l’Etat Libre d’Orange et des Pays Sud-Africains (Possessions Anglaises et Portugaises) par F. Bianconi."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "OCLC 495100236."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"Second and last edition of this beautiful and large-size map of whole part of Africa from southern parts of Congo and German East-Africa in the north down the east coast to the Cape region. Published just before the outbreak of the Second Anglo Boer War, the map focuses on the mineralogical wealth indicating many gold and diamond deposits (with their respective mining facilities) but also valuable coal, wood and elephant distributions. The many operational and projected railways, car routes, submarine cables, telegraph lines and international shipping routes give a colourful picture of what level of development this region has reached at the turn from 19th to 20th century. Both editions of the map are quite rare, with the present second edition only available in three libraries in France and once in the USA (Princeton UL).\" (Martin Nell, 2023)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15855.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "22"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15855002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/15855002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Bianconi, F."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~356419~90123333/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~356419~90123333/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~356419~90123333",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 17929,
+                    "height": 19884
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~356419~90123333/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~356419~90123333/list/luna"
+              ],
+              "width": 17929,
+              "height": 19884
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~356419~90123333"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/js428vg0732/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Eesti vabariigi postiühenduste kaart",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/js428vg0732.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/js428vg0732'>https://purl.stanford.edu/js428vg0732</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Eesti vabariigi postiühenduste kaart"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 45 x 66 cm"
+        },
+        {
+          "label": "Language",
+          "value": "Estonian"
+        },
+        {
+          "label": "Subject",
+          "value": "Telegraph stations > Estonia > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Estonia > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale indeterminable."
+        },
+        {
+          "label": "Date",
+          "value": "1919"
+        },
+        {
+          "label": "Date",
+          "value": "1919"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/js428vg0732"
+        },
+        {
+          "label": "Publisher",
+          "value": "S. Topograafia osakonna trükk"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-08-11"
+        }
+      ],
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/js428vg0732%2Fjs428vg0732_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/js428vg0732%2Fjs428vg0732_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 280
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/js428vg0732/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/js428vg0732/iiif/canvas/cocina-fileSet-js428vg0732-js428vg0732_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 11312,
+              "width": 16172,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/js428vg0732/js428vg0732_00_0001.jp2",
+                  "label": "Original source file (32.9 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/js428vg0732/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fjs428vg0732-js428vg0732_1%2Fjs428vg0732_00_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/js428vg0732/iiif/canvas/cocina-fileSet-js428vg0732-js428vg0732_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/js428vg0732%2Fjs428vg0732_00_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11312,
+                    "width": 16172,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/js428vg0732%2Fjs428vg0732_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/ng546jb5062/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Via Eastern : the Eastern and Associated Telegraph Companies' cable system. (indicated in red.) Wireless stations , (extension on telegraph system) shown by means of red dot. May 1922. Waterlow & Sons Limited, London Wall, London",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/ng546jb5062.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/ng546jb5062'>https://purl.stanford.edu/ng546jb5062</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Via Eastern : the Eastern and Associated Telegraph Companies' cable system. (indicated in red.) Wireless stations , (extension on telegraph system) shown by means of red dot. May 1922. Waterlow & Sons Limited, London Wall, London"
+        },
+        {
+          "label": "Contributor",
+          "value": "Eastern Associated Telegraph Companies."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 1 maps ; 17 x 12 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Color map, mounted on linen, on sheet 46 x 99 cm. folded into red cardboard cover 17x12., with title: \"Via Eastern\" Head Office, Electra House London. Includes insets: northwest Europe, Aegean area and East Indies and table of main line cables and land lines. Cable system shown in red lines and extension of telegraph system shown in red dots. Gift of Dorothy A. Young."
+        },
+        {
+          "label": "Description",
+          "value": "Pocket Map."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 8368.000."
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > 20th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Telegraph > Maps > 20th century"
+        },
+        {
+          "label": "Date",
+          "value": "1922"
+        },
+        {
+          "label": "Date",
+          "value": "1922"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/ng546jb5062"
+        },
+        {
+          "label": "Publisher",
+          "value": "Waterlow & Sons Limited,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-06-20"
+        }
+      ],
+      "description": "Color map, mounted on linen, on sheet 46 x 99 cm. folded into red cardboard cover 17x12., with title: \"Via Eastern\" Head Office, Electra House London. Includes insets: northwest Europe, Aegean area and East Indies and table of main line cables and land lines. Cable system shown in red lines and extension of telegraph system shown in red dots. Gift of Dorothy A. Young.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/mm005cx5336%2F8368001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/mm005cx5336%2F8368001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 271
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/ng546jb5062/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/ng546jb5062/iiif/canvas/cocina-fileSet-gh278xc1930-gh278xc1930_1",
+              "@type": "sc:Canvas",
+              "label": "Via Eastern : the Eastern and Associated Telegraph Companies' cable system\n   (indicated in red.) Wireless stations , (extension on telegraph system) shown by means of red\n   dot. May 1922. Waterlow & Sons Limited, London Wall, London.",
+              "height": 9038,
+              "width": 19277,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/gh278xc1930/8368002.jp2",
+                  "label": "Original source file (31.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/ng546jb5062/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fgh278xc1930-gh278xc1930_1%2F8368002.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/ng546jb5062/iiif/canvas/cocina-fileSet-gh278xc1930-gh278xc1930_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/gh278xc1930%2F8368002/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 9038,
+                    "width": 19277,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/gh278xc1930%2F8368002",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

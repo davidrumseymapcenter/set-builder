@@ -24,6 +24,7 @@
   .viewer-has-image #viewerHint { display: none !important; } 
  
   </style>
+
 </head>
 <body>
   <div class="container">
@@ -31,32 +32,79 @@
       <div class="header">
         <div class="header-top">
   <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" alt="IIIF Logo" class="iiif-logo">
-  <h1 id="page-title">IIIF Image Gallery Builder</h1>
-  <button id="toggleInputs" class="toggle-btn">Hide Input Panel</button>
+  <h1 id="page-title">
+    <span class="title-base">IIIF Image Gallery Builder</span>
+    <span class="title-gallery" id="gallery-title-display"></span>
+  </h1>
+
+  <div class="control-links">
+  <a href="info.html" class="control-link" target="_blank">ⓘ Get Help</a>
+  <a href="#" id="toggleInputs" class="control-link">Hide Inputs</a>
+  <a href="#" id="toggleViewer" class="control-link">Hide Viewer</a>
 </div>
-        
+</div>
+
+    <div class="section-divider"></div>
+          
         <div id="inputPanel" class="input-panel">
-          <input type="text" id="manifestUrl" placeholder="To Build: Add IIIF Manifest URLs here one at a time or separated by commas" />
-          <button id="addManifest">Add Manifest(s)</button>
-          
-          <!-- Input Name and Export Combined Manifest Button -->
-          <input type="text" id="manifestName" placeholder="To Save: Enter new gallery manifest name here and click Export button" />
-          <button id="export-manifest">Export Combined Manifest</button>
-          
-          <!-- Upload Combined Manifest Button -->
-           
-          <p> <small> To Open: Use Choose File button, navigate to a locally saved .json file and click Load Manifest</small></p>
-          <label for="uploadManifest" class="file-input-label">Choose File</label>
-          <input type="file" id="uploadManifest" accept=".json" style="display: none;" />
-          <span id="fileName" class="file-name">No file chosen</span>
-          <button id="loadManifest">Load Manifest</button>
-        </div>
-      </div>
-      <div id="gallery"></div>
+  <!-- Add Manifests Section -->
+  <div class="input-section">
+    <label for="manifestUrl" class="section-label">Add IIIF Manifests</label>
+    <input type="text" id="manifestUrl" placeholder="Enter IIIF Manifest URLs (comma-separated)" />
+    <button id="addManifest">Add Manifest(s)</button>
+  </div>
+
+  <div class="section-divider"></div>
+
+  <!-- Load Gallery Section -->
+  <div class="input-section">
+    <label class="section-label">Load Gallery</label>
+    
+    <div class="load-option">
+  <label for="uploadManifest" class="file-input-label">Choose File</label>
+  <input type="file" id="uploadManifest" accept=".json" style="display: none;" />
+  <span id="fileName" class="file-name">No file chosen</span>
+</div>
+
+    <div class="load-option-divider">OR</div>
+
+    <div class="load-option">
+      <input type="text" id="galleryUrl" placeholder="Paste gallery JSON URL" />
     </div>
+    <button id="loadFromUrl">Load from URL</button>
+  </div>
+
+  <div class="section-divider"></div>
+
+  <!-- Save Gallery Section -->
+<div class="input-section">
+  <label for="manifestName" class="section-label">Save Gallery</label>
+  <input type="text" id="manifestName" placeholder="Enter gallery name">
+
+  <div class="export-buttons-row">
+<button id="saveLocally">💾  Save File</button>
+
+    <button id="exportForViewers" class="export-iiif-btn" title="Export for IIIF Viewers">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" 
+           alt="Export Manifest" 
+           class="iiif-export-icon">
+    </button>
+  </div>
+  </div> <!-- Close input-section -->
+</div> <!-- Close inputPanel -->
+</div> <!-- Close header -->
+
+<div id="gallery"></div>
+   </div> <!-- Close left-panel -->
+  
     <!-- Resizable divider -->
     <div id="resizer"></div>
-    <div id="viewer"></div>
+    
+    <div id="viewer">
+      <div id="viewerHint">Click any thumbnail to load an image.</div>
+    </div>
+  </div> <!-- Close container -->
+    
 
     <script src="script.js"></script>
     

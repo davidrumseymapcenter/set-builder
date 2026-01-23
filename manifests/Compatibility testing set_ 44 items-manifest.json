@@ -1,0 +1,1955 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://example.org/manifest/Compatibility testing set: 44 items",
+  "label": "Compatibility testing set: 44 items",
+  "description": "A curated gallery of 39 images created with IIIF Image Gallery Builder",
+  "metadata": [
+    {
+      "label": "Created with",
+      "value": "IIIF Image Gallery Builder"
+    },
+    {
+      "label": "Number of images",
+      "value": "39"
+    },
+    {
+      "label": "Created",
+      "value": "2026-01-21"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "@id": "https://example.org/manifest/Compatibility testing set: 44 items/sequence/1",
+      "canvases": [
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "Printing Version",
+          "images": [
+            {
+              "@id": "https://cdm15999.contentdm.oclc.org/iiif/p15999coll31:40557/annotation/a2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://cdm15999.contentdm.oclc.org/iiif/2/p15999coll31:40557/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://cdm15999.contentdm.oclc.org/iiif/2/p15999coll31:40557",
+                  "width": 1340,
+                  "height": 1712,
+                  "tiles": [
+                    {
+                      "width": 1340,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 1340,
+                "height": 1712
+              },
+              "on": "https://cdm15999.contentdm.oclc.org/iiif/p15999coll31:40557/canvas/c2"
+            }
+          ],
+          "width": 1340,
+          "height": 1712,
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://cdm15999.contentdm.oclc.org/iiif/p15999coll31:40558/manifest.json"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://cdm15999.contentdm.oclc.org/iiif/p15999coll31:40557/canvas/c2"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/3",
+          "@type": "sc:Canvas",
+          "label": "Platte River Channel Map",
+          "images": [
+            {
+              "@id": "https://cdm17102.contentdm.oclc.org/iiif/carterjohnson:1561/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://cdm17102.contentdm.oclc.org/iiif/2/carterjohnson:1561/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://cdm17102.contentdm.oclc.org/iiif/2/carterjohnson:1561",
+                  "width": 2991,
+                  "height": 2160,
+                  "tiles": [
+                    {
+                      "width": 2991,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 2991,
+                "height": 2160
+              },
+              "on": "https://cdm17102.contentdm.oclc.org/iiif/carterjohnson:1561/canvas/c0"
+            }
+          ],
+          "width": 2991,
+          "height": 2160,
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://cdm17102.contentdm.oclc.org/iiif/carterjohnson:1561/manifest.json"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://cdm17102.contentdm.oclc.org/iiif/carterjohnson:1561/canvas/c0"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/4",
+          "@type": "sc:Canvas",
+          "label": "Map of Hodapp's Addition to North Mankato, Minnesota",
+          "images": [
+            {
+              "@id": "https://cdm16022.contentdm.oclc.org/iiif/nico:1676/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://cdm16022.contentdm.oclc.org/iiif/2/nico:1676/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://cdm16022.contentdm.oclc.org/iiif/2/nico:1676",
+                  "width": 5242,
+                  "height": 4343,
+                  "tiles": [
+                    {
+                      "width": 5242,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 5242,
+                "height": 4343
+              },
+              "on": "https://cdm16022.contentdm.oclc.org/iiif/nico:1676/canvas/c0"
+            }
+          ],
+          "width": 5242,
+          "height": 4343,
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://cdm16022.contentdm.oclc.org/iiif/nico:1676/manifest.json"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://cdm16022.contentdm.oclc.org/iiif/nico:1676/canvas/c0"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/5",
+          "@type": "sc:Canvas",
+          "label": "Front",
+          "width": [
+            "5497"
+          ],
+          "height": [
+            "3770"
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://curate.library.emory.edu/iiif/2/18df663de9d6194249603f2d432e9e03ffb22c51/full/600,/0/default.jpg",
+                "width": 640,
+                "height": 480,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://curate.library.emory.edu/iiif/2/18df663de9d6194249603f2d432e9e03ffb22c51",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://curate.library.emory.edu/iiif/310jsxkss8-cor/manifest/canvas/255z612jrf-cor",
+              "@id": "http://curate.library.emory.edu/iiif/310jsxkss8-cor/manifest/canvas/255z612jrf-cor/annotation/dxh4athfk"
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "http://curate.library.emory.edu/iiif/310jsxkss8-cor/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "http://curate.library.emory.edu/iiif/310jsxkss8-cor/manifest/canvas/255z612jrf-cor"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/6",
+          "label": "Map",
+          "height": 6729,
+          "width": 5200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://digital.library.villanova.edu/files/vudl:98714/LARGE",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.villanova.edu/image/vudl%3A98714",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6729,
+                "width": 5200
+              },
+              "on": "https://digital.library.villanova.edu/Item/vudl:98712/Canvas/p0",
+              "@id": "https://digital.library.villanova.edu/Item/vudl:98712/Canvas/p0/annotation/qkf6imzu4"
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://digital.library.villanova.edu/Item/vudl:98712/Manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://digital.library.villanova.edu/Item/vudl:98712/Canvas/p0"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/7",
+          "@type": "sc:Canvas",
+          "label": "2013_57_09_06_25_001",
+          "height": 6463,
+          "width": 4167,
+          "metadata": [
+            {
+              "label": "Title ",
+              "value": "2013_57_09_06_25_001"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://iiif.library.ubc.ca/presentation/cdm.rainbow.1-0357825/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://iiif.library.ubc.ca/presentation/cdm.rainbow.1-0357825/canvas/p0000"
+            }
+          ],
+          "images": [
+            {
+              "@id": "https://iiif.library.ubc.ca/presentation/cdm.rainbow.1-0357825/annotation/p0000",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.ubc.ca/image/cdm.rainbow.1-0357825.0000",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6463,
+                "width": 4167,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.ubc.ca/image/cdm.rainbow.1-0357825.0000",
+                  "@profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 6463,
+                  "width": 4167,
+                  "scaleFactors": [
+                    1,
+                    2,
+                    4,
+                    8,
+                    16,
+                    32,
+                    64,
+                    128,
+                    256,
+                    512,
+                    1024
+                  ]
+                }
+              },
+              "on": "https://iiif.library.ubc.ca/cdm.rainbow.1-0357825/canvas/p0000"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/8",
+          "@type": "sc:Canvas",
+          "label": "1991 - View from overhead",
+          "height": 5036,
+          "width": 6562,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.quartexcollections.com/portland/iiif/e4b78bc1-fbb0-4539-8bc4-ae4d1ac1c8d3/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/tif",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.quartexcollections.com/portland/iiif/e4b78bc1-fbb0-4539-8bc4-ae4d1ac1c8d3",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "tiles": [
+                    {
+                      "width": 2048,
+                      "scaleFactors": null
+                    }
+                  ]
+                },
+                "height": 5036,
+                "width": 6562
+              },
+              "on": "https://iiif.quartexcollections.com/portland/iiif/e4b78bc1-fbb0-4539-8bc4-ae4d1ac1c8d3/canvas/_1",
+              "metadata": [],
+              "@id": "https://iiif.quartexcollections.com/portland/iiif/e4b78bc1-fbb0-4539-8bc4-ae4d1ac1c8d3/canvas/_1/annotation/gbah6zs5s"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://iiif.quartexcollections.com/portland/iiif/e4b78bc1-fbb0-4539-8bc4-ae4d1ac1c8d3/full/500,500/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 500,
+            "width": 500
+          },
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://iiif.quartexcollections.com/portland/iiif/e4b78bc1-fbb0-4539-8bc4-ae4d1ac1c8d3/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://iiif.quartexcollections.com/portland/iiif/e4b78bc1-fbb0-4539-8bc4-ae4d1ac1c8d3/canvas/_1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/9",
+          "@type": "sc:Canvas",
+          "label": "147-1194high.gif",
+          "thumbnail": {
+            "@id": "https://digital.library.manoa.hawaii.edu/iiif-img/25999/full/200%2C158/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://digital.library.manoa.hawaii.edu/iiif-img/25999",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }
+          },
+          "width": 3751,
+          "height": 2961,
+          "images": [
+            {
+              "@id": "https://digital.library.manoa.hawaii.edu/iiif/23762/annotation/p0001-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://digital.library.manoa.hawaii.edu/iiif-img/25999/full/800%2C632/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3751,
+                "height": 2961,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digital.library.manoa.hawaii.edu/iiif-img/25999",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://digital.library.manoa.hawaii.edu/iiif/23762/canvas/p1"
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://digital.library.manoa.hawaii.edu/iiif/23762/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://digital.library.manoa.hawaii.edu/iiif/23762/canvas/p1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/11",
+          "@type": "sc:Canvas",
+          "label": "front matter pastedown",
+          "thumbnail": {
+            "@id": "https://image.library.jhu.edu/iiif/pizan%2fArsenal3356%2fArsenal3356.frontmatter.pastedown/full/!128,128/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://image.library.jhu.edu/iiif/pizan%2fArsenal3356%2fArsenal3356.frontmatter.pastedown",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }
+          },
+          "height": 4519,
+          "width": 3252,
+          "images": [
+            {
+              "@id": "https://jdm.library.jhu.edu/iiif-pres-dlmm/pizan/Arsenal3356/frontmatter.pastedown;image/annotation",
+              "@type": "oa:Annotation",
+              "label": "front matter pastedown",
+              "resource": {
+                "@id": "https://image.library.jhu.edu/iiif/pizan%2fArsenal3356%2fArsenal3356.frontmatter.pastedown/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3252,
+                "height": 4519,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://image.library.jhu.edu/iiif/pizan%2fArsenal3356%2fArsenal3356.frontmatter.pastedown",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "label": "front matter pastedown"
+              },
+              "motivation": "sc:painting",
+              "on": "https://jdm.library.jhu.edu/iiif-pres-dlmm/pizan/Arsenal3356/frontmatter.pastedown/canvas"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://jdm.library.jhu.edu/iiif-pres-dlmm/pizan/Arsenal3356/frontmatter.pastedown;all/annotations",
+              "@type": "sc:AnnotationList",
+              "label": "front matter pastedown"
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://jdm.library.jhu.edu/iiif-pres-dlmm/pizan/Arsenal3356/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://jdm.library.jhu.edu/iiif-pres-dlmm/pizan/Arsenal3356/frontmatter.pastedown/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/12",
+          "@type": "sc:Canvas",
+          "label": "end matter pastedown",
+          "thumbnail": {
+            "@id": "https://image.library.jhu.edu/iiif/pizan%2fArsenal3356%2fArsenal3356.endmatter.pastedown/full/!128,128/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://image.library.jhu.edu/iiif/pizan%2fArsenal3356%2fArsenal3356.endmatter.pastedown",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }
+          },
+          "height": 4463,
+          "width": 3244,
+          "images": [
+            {
+              "@id": "https://jdm.library.jhu.edu/iiif-pres-dlmm/pizan/Arsenal3356/endmatter.pastedown;image/annotation",
+              "@type": "oa:Annotation",
+              "label": "end matter pastedown",
+              "resource": {
+                "@id": "https://image.library.jhu.edu/iiif/pizan%2fArsenal3356%2fArsenal3356.endmatter.pastedown/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3244,
+                "height": 4463,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://image.library.jhu.edu/iiif/pizan%2fArsenal3356%2fArsenal3356.endmatter.pastedown",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "label": "end matter pastedown"
+              },
+              "motivation": "sc:painting",
+              "on": "https://jdm.library.jhu.edu/iiif-pres-dlmm/pizan/Arsenal3356/endmatter.pastedown/canvas"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://jdm.library.jhu.edu/iiif-pres-dlmm/pizan/Arsenal3356/endmatter.pastedown;all/annotations",
+              "@type": "sc:AnnotationList",
+              "label": "end matter pastedown"
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://jdm.library.jhu.edu/iiif-pres-dlmm/pizan/Arsenal3356/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://jdm.library.jhu.edu/iiif-pres-dlmm/pizan/Arsenal3356/endmatter.pastedown/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/13",
+          "@type": "sc:Canvas",
+          "label": "Sketch map of Rice Institute acreage",
+          "height": 13200,
+          "width": 14015,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.quartexcollections.com/rice/iiif/bf437e36-33ab-4962-b372-59d6214e087f/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jp2",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.quartexcollections.com/rice/iiif/bf437e36-33ab-4962-b372-59d6214e087f",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "tiles": [
+                    {
+                      "width": 2048,
+                      "scaleFactors": null
+                    }
+                  ]
+                },
+                "height": 13200,
+                "width": 14015
+              },
+              "on": "https://iiif.quartexcollections.com/rice/iiif/bf437e36-33ab-4962-b372-59d6214e087f/canvas/_1",
+              "metadata": [],
+              "@id": "https://iiif.quartexcollections.com/rice/iiif/bf437e36-33ab-4962-b372-59d6214e087f/canvas/_1/annotation/mco0gzlxm"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://iiif.quartexcollections.com/rice/iiif/bf437e36-33ab-4962-b372-59d6214e087f/full/500,500/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 500,
+            "width": 500
+          },
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://iiif.quartexcollections.com/rice/iiif/bf437e36-33ab-4962-b372-59d6214e087f/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://iiif.quartexcollections.com/rice/iiif/bf437e36-33ab-4962-b372-59d6214e087f/canvas/_1"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/14",
+          "width": 8944,
+          "height": 5720,
+          "label": "[1]",
+          "images": [
+            {
+              "@id": "https://d.lib.ncsu.edu/collections/canvas/mc00240-001-ff0093-001-001_0010/image",
+              "@type": "oa:Annotation",
+              "on": "https://d.lib.ncsu.edu/collections/canvas/mc00240-001-ff0093-001-001_0010",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.lib.ncsu.edu/iiif/mc00240-001-ff0093-001-001_0010/full/1170,/0/default.jpg",
+                "width": 8944,
+                "height": 5720,
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.lib.ncsu.edu/iiif/mc00240-001-ff0093-001-001_0010"
+                },
+                "@type": "dctypes:Image"
+              }
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://d.lib.ncsu.edu/collections/catalog/mc00240-001-ff0093-001-001_0010/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://d.lib.ncsu.edu/collections/canvas/mc00240-001-ff0093-001-001_0010"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/15",
+          "@type": "sc:Canvas",
+          "label": "Topographic map of Ohio University and vicinity, 1911",
+          "images": [
+            {
+              "@id": "https://cdm15808.contentdm.oclc.org/iiif/archives:668/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://cdm15808.contentdm.oclc.org/iiif/2/archives:668/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://cdm15808.contentdm.oclc.org/iiif/2/archives:668",
+                  "width": 11831,
+                  "height": 9252,
+                  "tiles": [
+                    {
+                      "width": 11831,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 11831,
+                "height": 9252
+              },
+              "on": "https://cdm15808.contentdm.oclc.org/iiif/archives:668/canvas/c0"
+            }
+          ],
+          "width": 11831,
+          "height": 9252,
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://cdm15808.contentdm.oclc.org/iiif/archives:668/manifest.json"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://cdm15808.contentdm.oclc.org/iiif/archives:668/canvas/c0"
+            }
+          ]
+        },
+        {
+          "label": "1",
+          "width": 6937,
+          "height": 8192,
+          "thumbnail": {
+            "@id": "https://cdn1.historyit.com/iiif/2/5f34291499c4a6.60628694/67080af7a90ac2.97380782.jpg/full/!108,128/0/default.jpg",
+            "height": 128,
+            "width": 108,
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://cdn1.historyit.com/iiif/2/5f34291499c4a6.60628694/67080af7a90ac2.97380782.jpg",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "motivation": "sc:painting",
+              "on": "https://cdn1.historyit.com/iiif/5f34291499c4a6.60628694-106332/canvas/p1",
+              "resource": {
+                "@id": "https://cdn1.historyit.com/iiif/2/5f34291499c4a6.60628694/67080af7a90ac2.97380782.jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 8192,
+                "width": 6937,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://cdn1.historyit.com/iiif/2/5f34291499c4a6.60628694/67080af7a90ac2.97380782.jpg",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://cdn1.historyit.com/iiif/5f34291499c4a6.60628694-106332/annotation/p1-image",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/18",
+          "@type": "sc:Canvas",
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://cdn1.historyit.com/iiif/5f34291499c4a6.60628694-106332/manifest?canvas_mode=assets&strip_tags=&child_metadata="
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://cdn1.historyit.com/iiif/5f34291499c4a6.60628694-106332/canvas/p1"
+            }
+          ]
+        },
+        {
+          "images": [
+            {
+              "resource": {
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "@id": "https://images.lib.cam.ac.uk/iiif/PH-PEMBROKE-SPEC-STOR-000-00012.jp2",
+                  "@context": "http://iiif.io/api/image/2/context.json"
+                },
+                "format": "image/jpg",
+                "width": 3378,
+                "@id": "https://images.lib.cam.ac.uk/iiif/PH-PEMBROKE-SPEC-STOR-000-00012.jp2",
+                "height": 3596
+              },
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://cudl.lib.cam.ac.uk/iiif/PH-PEMBROKE-SPEC-STOR/canvas/12",
+              "@id": "http://cudl.lib.cam.ac.uk/iiif/PH-PEMBROKE-SPEC-STOR/canvas/12/annotation/xt42wra31"
+            }
+          ],
+          "@type": "sc:Canvas",
+          "width": 3378,
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/19",
+          "label": "1:12",
+          "height": 3596,
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "http://cudl.lib.cam.ac.uk/iiif/PH-PEMBROKE-SPEC-STOR"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "http://cudl.lib.cam.ac.uk/iiif/PH-PEMBROKE-SPEC-STOR/canvas/12"
+            }
+          ]
+        },
+        {
+          "images": [
+            {
+              "resource": {
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "@id": "https://images.lib.cam.ac.uk/iiif/PH-PEMBROKE-SPEC-STOR-000-00015.jp2",
+                  "@context": "http://iiif.io/api/image/2/context.json"
+                },
+                "format": "image/jpg",
+                "width": 2176,
+                "@id": "https://images.lib.cam.ac.uk/iiif/PH-PEMBROKE-SPEC-STOR-000-00015.jp2",
+                "height": 2302
+              },
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://cudl.lib.cam.ac.uk/iiif/PH-PEMBROKE-SPEC-STOR/canvas/15",
+              "@id": "http://cudl.lib.cam.ac.uk/iiif/PH-PEMBROKE-SPEC-STOR/canvas/15/annotation/mpr6p48ra"
+            }
+          ],
+          "@type": "sc:Canvas",
+          "width": 2176,
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/20",
+          "label": "2:1",
+          "height": 2302,
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "http://cudl.lib.cam.ac.uk/iiif/PH-PEMBROKE-SPEC-STOR"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "http://cudl.lib.cam.ac.uk/iiif/PH-PEMBROKE-SPEC-STOR/canvas/15"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/21",
+          "@type": "sc:Canvas",
+          "label": "Geological map of Cumberland County.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Geological Survey of Pennsylvania"
+            },
+            {
+              "label": "Author",
+              "value": "Lesley, J. P. (J. Peter), 1819-1903"
+            },
+            {
+              "label": "Date",
+              "value": "1880"
+            },
+            {
+              "label": "Short Title",
+              "value": "Geological map of Cumberland County."
+            },
+            {
+              "label": "Publisher",
+              "value": "Second Geological Survey of Pennsylvania"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Harrisburg"
+            },
+            {
+              "label": "Type",
+              "value": "Atlas Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "32"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "57"
+            },
+            {
+              "label": "Scale 1",
+              "value": "130,000"
+            },
+            {
+              "label": "Note",
+              "value": "Geological map of Cumberland County, Pennsylvania. Shows geology, political boundaries, cities, roads, railways, topography, vegetation, bodies of water, drainage and islands. Relief shown with place names. Includes a legend, bar scale, scale statement, and compass rose with north oriented upwards. With adjacent counties and states noted in the margins. Colored photolithograph. Map is 32 × 57 cm, on sheet 67 × 82 cm. Appears in Division I, Part I."
+            },
+            {
+              "label": "County",
+              "value": "Cumberland County (Pa.)"
+            },
+            {
+              "label": "Subject",
+              "value": "Geology"
+            },
+            {
+              "label": "Subject",
+              "value": "Data Visualization"
+            },
+            {
+              "label": "Full Title",
+              "value": "Geological map of Cumberland County. 1880. Julius Bien Photolith. Lane S. Hart, State Printer. Grand atlas, Division I, Part I. Sheet no. XVII."
+            },
+            {
+              "label": "List No",
+              "value": "14725.020"
+            },
+            {
+              "label": "Page No",
+              "value": "XVII"
+            },
+            {
+              "label": "Series No",
+              "value": "20"
+            },
+            {
+              "label": "Engraver or Printer",
+              "value": "Hart, Lane S."
+            },
+            {
+              "label": "Engraver or Printer",
+              "value": "Julius Bien & Co."
+            },
+            {
+              "label": "Publication Author",
+              "value": "Geological Survey of Pennsylvania"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Lesley, J. P. (J. Peter), 1819-1903"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1885"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Grand atlas. Second Geological Survey of Pennsylvania. J.P. Lesley, State Geologist. Harrisburg. 1885. Lane S. Hart, State Printer. Julius Bien & Co. Lith."
+            },
+            {
+              "label": "Pub Note",
+              "value": "Grand atlas. Second Geological Survey of Pennsylvania. Published by the Second Geological Survey of Pennsylvania, Harrisburg, in 1885. 206 unbound, photolithographed sheets with 222 maps and 437 diagrams, providing a comprehensive overview of the geology and topography of the resource-rich regions of Pennsylvania. Lithography completed by Julius Bien & Co., New York. Printing by Lane S. Hart, State Printer of Pennsylvania. The represented geology was recorded from 1872 to 1885. Maps show cities, roads, topography, bodies of water, drainage, and islands. The collection is the second iteration of the Geological Survey of Pennsylvania, led by J. Peter Lesley, State Geologist and staff of the First Geological Survey. Historical notes: Pennsylvania's industrial growth and the discovery of oil prompted public demand for more complete and detailed geologic information about the state's coal, petroleum, iron ore, and other mineral resources. With this in mind, the Pennsylvania Legislature approved a bill on May 14, 1874, to establish the second geological survey of Pennsylvania from 1874–1889. This legislative act creating the second geological survey provided for a ten-man oversight committee, which was authorized to select a State Geologist and to approve all of his plans and major recommendations in operating the survey. At the first meeting of the board in Harrisburg, it selected Lesley (1819–1903) to the post of State Geologist and Director of the second geological survey. Lesley, at the age of fifty-four, was well prepared for his greatest challenge. Lesley, a native of Philadelphia, was eminently well qualified and widely respected among his peers. He was professor of geology and mining at the University of Pennsylvania and in 1875 the Dean of the Towne Scientific School. He had been an assistant to H. D. Rogers on the first geological survey of Pennsylvania (1836–1842) and was, at the time of his appointment, an acknowledged expert in several fields of geology, particularly coal and petroleum. His broad knowledge of Pennsylvania geology developed during his years with the first survey and thereafter as a geologic consultant. He was a pioneer, if not the pioneer, in the use of topographic and structure contouring and aneroid altimeters in geologic mapping. In comparing the work of the first geological survey with that envisioned for the second, Lesley wrote that “the first survey was essentially a reconnaissance... The second survey is intended to supply this lack; to take up their work where they left off; to reduce their general statements to precision; to measure, where they could only estimate; to define, what they could only indicate; to demonstrate what they could see to be true, but which they could not prove and show in all its truth.” There were relatively few trained geologists in the United States when the second survey began, yet Lesley was able to attract many talented individuals. At the outset, each assistant geologist was assigned to a certain district or to special duties, and given one or two (or more) aids. Many of the inexperienced aides came to the second survey almost immediately after graduating from college, but in a year or two were themselves made assistants capable of independent research. Lesley was firm but fair with his staff, and almost universally respected and admired by them. He demanded the highest standards of scientific accuracy and attention to detail. “Probably no public organization was ever less bound by the red-tape of officialism than this survey corps, whose members [Lesley] left untrammelled, unhampered, trusting each other to do his duty, thus placing each in a position where he was driven to do his best, where he would be ashamed to do less” (Chance, H. M., 1909, A biographical notice of J. Peter Lesley, Life and letters of Peter and Susan Lesley: New York, G. P. Putman 's Sons, v. 2, p. 484 -495). In addition, Lesley made certain that his assistants always received proper credit for their authorship and ideas. Assistants of the second survey read like a “Who’s Who” of late nineteenth-century American geology and included C. A. Ashburner, J. F. Carll, H. M. Chance, E. W. Claypole, J. H. Dewees, E. V. d’Invilliers, Persifor Frazer, Jr., F. A. Genth, T. S. Hunt, Leo Lesquereux, B. S. Lyman, A. S. McCreath, Franklin and W. G. Platt, Frederick Prime, Jr., J. J. Stevenson, I. C. White, Arthur Winslow, and others. During the two decades that it operated, the second survey published nearly 120 atlases and volumes, comprising numerous maps, drawings, columnar sections, and cross sections and more than 25,000 pages of printed matter. In addition, it produced a “Grand Atlas” (in six parts) and a geologic map of Pennsylvania (scale, 1 inch = 6 miles). The publications of the survey are practical and not theoretical, a condition imposed by Lesley. The reports generally contain detailed descriptive information on the geology of the various counties or districts. Although the maps and illustrations were intended to be utilitarian, one need only glance at the lithographs of the fossil coal flora or the Olean Conglomerate to appreciate the beauty of the workmanship. Some of the most striking yet accurate geologic maps of the second survey were prepared for the anthracite coal fields, where more detailed information was available. The use of multiple colors on these maps to distinguish surface and subsurface features was unsurpassed at that time by any other state surveys or the newly formed U.S. Geological Survey. The second geological survey contributed much to our understanding of the geology of Pennsylvania. It established the rock stratigraphy of the state and much of the stratigraphic nomenclature still in use today. It published geologic maps for all 67 counties. The geological survey was particularly successful in its correlation studies in the coal and oil regions of western Pennsylvania. It achieved international acclaim for its unprecedented detail and precision in mapping the geology of the anthracite mining districts. During its anthracite studies, conducted between 1880 and 1889, it began the first large-scale, systematic use of structure contours, and it constructed a number of topographic base maps on which to compile the extent of deep mining. Even though its paleontological studies were subordinate to its main objectives (i.e., mineral-resources investigations), the survey received considerable praise for its reports on the fossil coal flora. Despite all of its success, the second survey was not free of difficulties or criticism. One constant source of frustration was the uncertainty of renewal of its biennial appropriation. This created problems when trying to plan future activities and led to resignations of staff who wanted stable employment at a good salary. By the mid-1880s, criticism from the Pennsylvania Legislature grew concerning publication costs, and the number of volumes produced. These factors ultimately led to the demise of the second survey. By the time it ended, the survey had spent almost two-thirds of its entire budget of nearly $1.6 million on publishing; the other third went to office and field expenses, as well as salaries. Nevertheless, when referring to various second survey publications, it is the vast amount of information that they contain that makes many of them useful even today. Historical notes courtesy: The second geological survey of Pennsylvania, the golden years, by Clifford H. Dodge. Last accessed 12/11/2025: https://elibrary.dcnr.pa.gov/GetDocument?docId=1752314&DocName=PaGeoMag_v18no1.pdf"
+            },
+            {
+              "label": "Pub List No",
+              "value": "14725.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Thematic Atlas"
+            },
+            {
+              "label": "Pub Type",
+              "value": "State Atlas"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "222"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "82"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "67"
+            },
+            {
+              "label": "Image No",
+              "value": "14725020.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/222/14725020.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Geological Survey of Pennsylvania; Lesley, J. P. (J. Peter), 1819-1903"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~375532~90141858/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~375532~90141858/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~375532~90141858/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~375532~90141858/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~375532~90141858",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 19644,
+                "height": 16020
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~375532~90141858/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~375532~90141858/canvas/c1/annotation/95seob235"
+            }
+          ],
+          "width": 19644,
+          "height": 16020
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/22",
+          "label": "NP",
+          "height": 6131,
+          "width": 7240,
+          "images": [
+            {
+              "motivation": "sc:painting",
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53171153s/canvas/f1",
+              "resource": {
+                "format": "image/jpeg",
+                "service": {
+                  "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53171153s/f1"
+                },
+                "height": 6131,
+                "width": 7240,
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53171153s/f1/full/full/0/native.jpg",
+                "@type": "dctypes:Image"
+              },
+              "@type": "oa:Annotation",
+              "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53171153s/canvas/f1/annotation/dcfesy1kv"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://gallica.bnf.fr/ark:/12148/btv1b53171153s/f1.thumbnail"
+          },
+          "@type": "sc:Canvas",
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53171153s/manifest.json"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53171153s/canvas/f1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/23",
+          "@type": "sc:Canvas",
+          "label": "Image 1",
+          "height": 12623,
+          "width": 9613,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/wk210cf6868/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fwk210cf6868-830de5ba-0f57-4c63-a008-f0b8184692ec%2Fwk210cf6868_00_0001.jp2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://purl.stanford.edu/wk210cf6868/iiif/canvas/cocina-fileSet-wk210cf6868-830de5ba-0f57-4c63-a008-f0b8184692ec",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/wk210cf6868%2Fwk210cf6868_00_0001/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 12623,
+                "width": 9613,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/wk210cf6868%2Fwk210cf6868_00_0001",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://purl.stanford.edu/wk210cf6868/iiif/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://purl.stanford.edu/wk210cf6868/iiif/canvas/cocina-fileSet-wk210cf6868-830de5ba-0f57-4c63-a008-f0b8184692ec"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/24",
+          "@type": "sc:Canvas",
+          "height": 5475,
+          "images": [
+            {
+              "@id": "https://iiif.lib.harvard.edu/manifests/ids:7115721/annotation/anno-7115721.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://iiif.lib.harvard.edu/manifests/ids:7115721/canvas/canvas-7115721.json",
+              "resource": {
+                "@id": "https://ids.lib.harvard.edu/ids/iiif/7115721/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5475,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://ids.lib.harvard.edu/ids/iiif/7115721",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 6870
+              }
+            }
+          ],
+          "label": "Harvard University, Harvard Map Collection, G3850_1795_R8_9113360605",
+          "thumbnail": {
+            "@id": "https://ids.lib.harvard.edu/ids/iiif/7115721/full/,150/0/default.jpg",
+            "@type": "dctypes:Image"
+          },
+          "width": 6870,
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://iiif.lib.harvard.edu/manifests/ids:7115721"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://iiif.lib.harvard.edu/manifests/ids:7115721/canvas/canvas-7115721.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "label": "front",
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/25",
+          "width": 5502,
+          "height": 9150,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz00096fzh/annotation/z1bp1md3",
+              "motivation": "sc:painting",
+              "on": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz00096fzh/manifest/canvas/z1bp1md3",
+              "resource": {
+                "@id": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fz1bp1md3/full/600,/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fz1bp1md3",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz00096fzh/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz00096fzh/manifest/canvas/z1bp1md3"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/27",
+          "@type": "sc:Canvas",
+          "label": "image 1",
+          "width": 10816,
+          "height": 7048,
+          "images": [
+            {
+              "@id": "https://ark.digitalcommonwealth.org/ark:/50959/wd3761121/annotation/wd3761139",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://ark.digitalcommonwealth.org/ark:/50959/wd3761139/large_image",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 10816,
+                "height": 7048,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:wd3761139",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://ark.digitalcommonwealth.org/ark:/50959/wd3761121/canvas/wd3761139"
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://ark.digitalcommonwealth.org/ark:/50959/wd3761121/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://ark.digitalcommonwealth.org/ark:/50959/wd3761121/canvas/wd3761139"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/28",
+          "@type": "sc:Canvas",
+          "height": 9032,
+          "images": [
+            {
+              "@id": "https://media.getty.edu/iiif/manifest/annotation/anno-309deccb-129c-425e-8a53-c0e0619414b6.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://media.getty.edu/iiif/manifest/canvas/309deccb-129c-425e-8a53-c0e0619414b6.json",
+              "resource": {
+                "@id": "https://media.getty.edu/iiif/image/309deccb-129c-425e-8a53-c0e0619414b6/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 9032,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://media.getty.edu/iiif/image/309deccb-129c-425e-8a53-c0e0619414b6",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 11782
+              }
+            }
+          ],
+          "label": "Front",
+          "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "metadata": [
+            {
+              "label": "Open Content Quality",
+              "value": "Yes"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://media.getty.edu/iiif/manifest/46eb79a4-b25a-4453-997f-d7f5a03e1de2"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://media.getty.edu/iiif/manifest/canvas/309deccb-129c-425e-8a53-c0e0619414b6.json"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://media.getty.edu/iiif/image/309deccb-129c-425e-8a53-c0e0619414b6/full/!600,600/0/default.jpg",
+            "@type": "dctypes:Image",
+            "format": "image/jpeg",
+            "height": 600,
+            "label": "Front",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://media.getty.edu/iiif/image/309deccb-129c-425e-8a53-c0e0619414b6",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            },
+            "width": 600
+          },
+          "width": 11782
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/29",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "height": 6278,
+          "width": 5251,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://repository.library.brown.edu/iiif/image/bdr:42007/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6278,
+                "width": 5251,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://repository.library.brown.edu/iiif/image/bdr:42007",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://repository.library.brown.edu/iiif/presentation/bdr:42007/canvas/page-bdr:42007.json",
+              "@id": "https://repository.library.brown.edu/iiif/presentation/bdr:42007/canvas/page-bdr:42007.json/annotation/1gnjkz8wg"
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://repository.library.brown.edu/iiif/presentation/bdr:42007/manifest.json"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://repository.library.brown.edu/iiif/presentation/bdr:42007/canvas/page-bdr:42007.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/30",
+          "@type": "sc:Canvas",
+          "label": "[2]",
+          "width": 7742,
+          "height": 9858,
+          "images": [
+            {
+              "@id": "https://iiif.bodleian.ox.ac.uk/iiif/annotation/863adf62-a823-4d73-a5e9-605db44ffe04.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/863adf62-a823-4d73-a5e9-605db44ffe04.json",
+              "resource": {
+                "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/863adf62-a823-4d73-a5e9-605db44ffe04",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 7742,
+                "height": 9858,
+                "service": {
+                  "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/863adf62-a823-4d73-a5e9-605db44ffe04",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              }
+            }
+          ],
+          "otherContent": [],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/e1004f2e-cc99-4341-8980-9f967da2ba16.json"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/863adf62-a823-4d73-a5e9-605db44ffe04.json"
+            }
+          ]
+        },
+        {
+          "images": [
+            {
+              "resource": {
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "@id": "https://image.digitalcollections.manchester.ac.uk/iiif/PR-JAPANESE-00048-000-00001.jp2",
+                  "@context": "http://iiif.io/api/image/2/context.json"
+                },
+                "format": "image/jpg",
+                "width": 6500,
+                "@id": "https://image.digitalcollections.manchester.ac.uk/iiif/PR-JAPANESE-00048-000-00001.jp2",
+                "height": 5178
+              },
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-JAPANESE-00048/canvas/1",
+              "@id": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-JAPANESE-00048/canvas/1/annotation/v8xtv4mo0"
+            }
+          ],
+          "@type": "sc:Canvas",
+          "width": 6500,
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/31",
+          "label": "1",
+          "height": 5178,
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-JAPANESE-00048"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-JAPANESE-00048/canvas/1"
+            }
+          ]
+        },
+        {
+          "images": [
+            {
+              "resource": {
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "@id": "https://iiif.digitalcollections.lancaster.ac.uk/iiif/2/MS-DAVY-11401-000-00001.jp2",
+                  "@context": "http://iiif.io/api/image/2/context.json"
+                },
+                "format": "image/jpg",
+                "width": 4279,
+                "@id": "https://iiif.digitalcollections.lancaster.ac.uk/iiif/2/MS-DAVY-11401-000-00001.jp2",
+                "height": 2936
+              },
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://digitalcollections.lancaster.ac.uk/iiif/MS-DAVY-11401/canvas/1",
+              "@id": "https://digitalcollections.lancaster.ac.uk/iiif/MS-DAVY-11401/canvas/1/annotation/g60la314m"
+            }
+          ],
+          "@type": "sc:Canvas",
+          "width": 4279,
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/32",
+          "label": "1",
+          "height": 2936,
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://digitalcollections.lancaster.ac.uk/iiif/MS-DAVY-11401"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://digitalcollections.lancaster.ac.uk/iiif/MS-DAVY-11401/canvas/1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/33",
+          "@type": "sc:Canvas",
+          "height": 756,
+          "images": [
+            {
+              "@id": "https://iiif.harvardartmuseums.org/manifests/object/58651/annotation/anno-43313794",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://iiif.harvardartmuseums.org/manifests/object/58651/canvas/canvas-43313794",
+              "resource": {
+                "@id": "https://ids.lib.harvard.edu/ids/iiif/43313794/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 756,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://ids.lib.harvard.edu/ids/iiif/43313794",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 1024
+              }
+            }
+          ],
+          "label": "1",
+          "otherContent": [
+            {
+              "@id": "https://iiif.harvardartmuseums.org/manifests/object/58651/list/43313794",
+              "@type": "sc:AnnotationList"
+            }
+          ],
+          "width": 1024,
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://iiif.harvardartmuseums.org/manifests/object/58651"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://iiif.harvardartmuseums.org/manifests/object/58651/canvas/canvas-43313794"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/35",
+          "label": "VAC9619-001591.jp2",
+          "width": 11808,
+          "height": 14574,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://iiif.uits.iu.edu/iiif/2/ws85bt426%2Ffiles%2Fec469641-60bf-40e3-8814-c532618685d6%2Ffcr:versions%2Fversion1/full/600,/0/default.jpg",
+                "height": 14574,
+                "width": 11808,
+                "format": null,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.uits.iu.edu/iiif/2/ws85bt426%2Ffiles%2Fec469641-60bf-40e3-8814-c532618685d6%2Ffcr:versions%2Fversion1",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://digitalcollections.iu.edu/concern/images/7d27b5132/manifest/canvas/ws85bt426",
+              "@id": "https://digitalcollections.iu.edu/concern/images/7d27b5132/manifest/canvas/ws85bt426/annotation/msg5hg6hq"
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://digitalcollections.iu.edu/concern/images/7d27b5132/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://digitalcollections.iu.edu/concern/images/7d27b5132/manifest/canvas/ws85bt426"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/37",
+          "@type": "sc:Canvas",
+          "width": 1572,
+          "height": 1083,
+          "label": "Canvas-k930bx209",
+          "images": [
+            {
+              "@id": "https://library.osu.edu/dc/concern/file_sets/k930bx209/images",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://library.osu.edu/dc/concern/file_sets/k930bx209",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 1572,
+                "height": 1083,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://library.osu.edu/loris/k930bx209.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "disableUi": [
+                    "mediaDownload"
+                  ]
+                }
+              },
+              "on": "https://library.osu.edu/dc/concern/file_sets/k930bx209"
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://library.osu.edu/dc/dc/concern/generic_works/g733cq458/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://library.osu.edu/dc/concern/file_sets/k930bx209"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/38",
+          "@type": "sc:Canvas",
+          "label": "image NMAH-JN2019-01828-000001",
+          "height": 8222,
+          "width": 10960,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://ids.si.edu/ids/iiif/NMAH-JN2019-01828-000001",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://ids.si.edu/ids/iiif/NMAH-JN2019-01828-000001/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 8222,
+                "width": 10960,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://ids.si.edu/ids/iiif/NMAH-JN2019-01828-000001",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://ids.si.edu/ids/iiif/NMAH-JN2019-01828-000001"
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://ids.si.edu/ids/manifest/NMAH-JN2019-01828-000001"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://ids.si.edu/ids/iiif/canvas-NMAH-JN2019-01828-000001"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/39",
+          "@type": "sc:Canvas",
+          "height": 829,
+          "width": 1440,
+          "label": "Mills and industry in Ann Arbor, 1888",
+          "metadata": [
+            {
+              "label": "Title",
+              "value": "Mills and industry in Ann Arbor, 1888",
+              "field": "bp1ic_ti"
+            },
+            {
+              "label": "Description",
+              "value": "Ann Arbor Sanborn map, 1888",
+              "field": "bp1ic_de"
+            },
+            {
+              "label": "Place",
+              "value": "Lower Town",
+              "field": "bp1ic_pl"
+            },
+            {
+              "label": "Date",
+              "value": "railroads and mills",
+              "field": "bp1ic_da"
+            },
+            {
+              "label": "Keywords",
+              "value": "industry, mills, agricultural works",
+              "field": "bp1ic_k"
+            },
+            {
+              "label": "Media Type",
+              "value": "map",
+              "field": "bp1ic_m"
+            },
+            {
+              "label": "Document ID",
+              "value": "CN01",
+              "field": "bp1ic_id"
+            },
+            {
+              "label": "Institutional Source",
+              "value": "http://sanborn.umi.edu",
+              "field": "bp1ic_i"
+            },
+            {
+              "label": "Copyright",
+              "value": "The University of Michigan Library provides access to these materials for educational and research purposes. Some materials may be under copyright. If you decide to use any of these materials, you are responsible for making your own legal assessment and securing any necessary permission. If you have questions about the collection, please contact <a href=\"mailto:digital-collections-help@umich.edu\">Digital Collections Help</a>. If you have concerns about the inclusion of an item in this collection, please contact <a href=\"mailto:LibraryIT-info@umich.edu\">Library Information Technology</a>.",
+              "field": "dlxs_ri"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://quod.lib.umich.edu/cgi/i/image/api/manifest/bp1ic:CN01"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://quod.lib.umich.edu/cgi/i/image/api/manifest/bp1ic:CN01:SANBORN1888.JPG/canvas/0"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://quod.lib.umich.edu/cgi/i/image/api/file/bp1ic:CN01:SANBORN1888.JPG",
+              "format": "image/jp2"
+            },
+            {
+              "@id": "https://quod.lib.umich.edu/cgi/i/image/api/file/bp1ic:CN01:SANBORN1888.JPG",
+              "format": "image/x-mrsid"
+            },
+            {
+              "@id": "https://quod.lib.umich.edu/cgi/i/image/api/file/bp1ic:CN01:SANBORN1888.JPG",
+              "format": "application/zip"
+            },
+            {
+              "@id": "https://quod.lib.umich.edu/cgi/i/image/api/file/bp1ic:CN01:SANBORN1888.JPG",
+              "format": "image/jpeg"
+            }
+          ],
+          "images": [
+            {
+              "@id": "https://quod.lib.umich.edu/cgi/i/image/api/image/bp1ic:CN01:SANBORN1888.JPG/imageanno/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://quod.lib.umich.edu/cgi/i/image/api/manifest/bp1ic:CN01:SANBORN1888.JPG/canvas/0",
+              "resource": {
+                "@id": "https://quod.lib.umich.edu/cgi/i/image/api/image/bp1ic:CN01:SANBORN1888.JPG/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jp2",
+                "height": 829,
+                "width": 1440,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://quod.lib.umich.edu/cgi/i/image/api/image/bp1ic:CN01:SANBORN1888.JPG",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/40",
+          "@type": "sc:Canvas",
+          "label": "1r.[01.xz.a000]",
+          "width": 7485,
+          "height": 7204,
+          "images": [
+            {
+              "@id": "https://digi.vatlib.it/iiif/MSS_Borg.Carte.naut.V/res/anno0001",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://digi.vatlib.it/iiif/MSS_Borg.Carte.naut.V/res/img0001",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digi.vatlib.it/iiifimage/MSS_Borg.Carte.naut.V/Borg.Carte.naut.V_0001_fa_0001r.%5B01.xz.a000%5D.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 7485,
+                "height": 7204
+              },
+              "on": "https://digi.vatlib.it/iiif/MSS_Borg.Carte.naut.V/canvas/p0001"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://digi.vatlib.it/pub/digit/MSS_Borg.Carte.naut.V/thumb/Borg.Carte.naut.V_0001_fa_0001r.%5B01.xz.a000%5D.tif.jpg",
+            "@type": "dctypes:Image",
+            "format": "image/jpeg",
+            "width": 150,
+            "height": 144
+          },
+          "viewingHint": "non-paged",
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://digi.vatlib.it/iiif/MSS_Borg.Carte.naut.V/manifest.json"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://digi.vatlib.it/iiif/MSS_Borg.Carte.naut.V/canvas/p0001"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/41",
+          "@type": "sc:Canvas",
+          "label": "1r.[01.xz.b000]",
+          "width": 6255,
+          "height": 7118,
+          "images": [
+            {
+              "@id": "https://digi.vatlib.it/iiif/MSS_Borg.Carte.naut.V/res/anno0002",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://digi.vatlib.it/iiif/MSS_Borg.Carte.naut.V/res/img0002",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digi.vatlib.it/iiifimage/MSS_Borg.Carte.naut.V/Borg.Carte.naut.V_0002_fa_0001r.%5B01.xz.b000%5D.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 6255,
+                "height": 7118
+              },
+              "on": "https://digi.vatlib.it/iiif/MSS_Borg.Carte.naut.V/canvas/p0002"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://digi.vatlib.it/pub/digit/MSS_Borg.Carte.naut.V/thumb/Borg.Carte.naut.V_0002_fa_0001r.%5B01.xz.b000%5D.tif.jpg",
+            "@type": "dctypes:Image",
+            "format": "image/jpeg",
+            "width": 131,
+            "height": 150
+          },
+          "viewingHint": "non-paged",
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://digi.vatlib.it/iiif/MSS_Borg.Carte.naut.V/manifest.json"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://digi.vatlib.it/iiif/MSS_Borg.Carte.naut.V/canvas/p0002"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/42",
+          "@type": "sc:Canvas",
+          "label": "recto",
+          "images": [
+            {
+              "@id": "https://cdm16003.contentdm.oclc.org/iiif/p16003coll4:5677/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://cdm16003.contentdm.oclc.org/iiif/2/p16003coll4:5677/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://cdm16003.contentdm.oclc.org/iiif/2/p16003coll4:5677",
+                  "width": 8400,
+                  "height": 5878,
+                  "tiles": [
+                    {
+                      "width": 8400,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 8400,
+                "height": 5878
+              },
+              "on": "https://cdm16003.contentdm.oclc.org/iiif/p16003coll4:5677/canvas/c0"
+            }
+          ],
+          "width": 8400,
+          "height": 5878,
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://cdm16003.contentdm.oclc.org/iiif/p16003coll4:5679/manifest.json"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://cdm16003.contentdm.oclc.org/iiif/p16003coll4:5677/canvas/c0"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/43",
+          "@type": "sc:Canvas",
+          "label": "The Man of commerce : a chart showing the resemblance between the arteries of commerce, as represented by railroads, and the arterial system of man; also, the resemblance between the great vital organs of man and the commercial system of the great lakes / designed and copyrighted by A.F. McKay ; Land & River Improvement Co. ; Rand McNally & Co., Engravers.",
+          "images": [
+            {
+              "@id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:864/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://cdm17272.contentdm.oclc.org/iiif/2/agdm:864/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://cdm17272.contentdm.oclc.org/iiif/2/agdm:864",
+                  "width": 12000,
+                  "height": 7538,
+                  "tiles": [
+                    {
+                      "width": 12000,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 12000,
+                "height": 7538
+              },
+              "on": "https://cdm17272.contentdm.oclc.org/iiif/agdm:864/canvas/c0"
+            }
+          ],
+          "width": 12000,
+          "height": 7538,
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://cdm17272.contentdm.oclc.org/iiif/agdm:864/manifest.json"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://cdm17272.contentdm.oclc.org/iiif/agdm:864/canvas/c0"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/44",
+          "@type": "sc:Canvas",
+          "label": "BH 15.44-01",
+          "height": 1648,
+          "width": 1269,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.quartexcollections.com/pepperdine/iiif/1a465fdf-8fb9-4d1e-856a-6d57ab9fb785/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.quartexcollections.com/pepperdine/iiif/1a465fdf-8fb9-4d1e-856a-6d57ab9fb785",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "tiles": [
+                    {
+                      "width": 512,
+                      "scaleFactors": null
+                    }
+                  ]
+                },
+                "height": 1648,
+                "width": 1269
+              },
+              "on": "https://iiif.quartexcollections.com/pepperdine/iiif/b709510c-1e3c-4b1b-abe8-4fc9917e07a9/canvas/_1",
+              "metadata": [],
+              "@id": "https://iiif.quartexcollections.com/pepperdine/iiif/b709510c-1e3c-4b1b-abe8-4fc9917e07a9/canvas/_1/annotation/wa5bdw88o"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://iiif.quartexcollections.com/pepperdine/iiif/1a465fdf-8fb9-4d1e-856a-6d57ab9fb785/full/500,500/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 500,
+            "width": 500
+          },
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://iiif.quartexcollections.com/pepperdine/iiif/b709510c-1e3c-4b1b-abe8-4fc9917e07a9/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://iiif.quartexcollections.com/pepperdine/iiif/b709510c-1e3c-4b1b-abe8-4fc9917e07a9/canvas/_1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/45",
+          "@type": "sc:Canvas",
+          "label": "1820 Capitals in relation to physiographic Macroregions",
+          "images": [
+            {
+              "@id": "https://cdm16786.contentdm.oclc.org/iiif/skinner:907/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://cdm16786.contentdm.oclc.org/iiif/2/skinner:907/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://cdm16786.contentdm.oclc.org/iiif/2/skinner:907",
+                  "width": 4500,
+                  "height": 4533,
+                  "tiles": [
+                    {
+                      "width": 4500,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 4500,
+                "height": 4533
+              },
+              "on": "https://cdm16786.contentdm.oclc.org/iiif/skinner:907/canvas/c0"
+            }
+          ],
+          "width": 4500,
+          "height": 4533,
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://cdm16786.contentdm.oclc.org/iiif/skinner:907/manifest.json"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://cdm16786.contentdm.oclc.org/iiif/skinner:907/canvas/c0"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Compatibility testing set: 44 items/canvas/46",
+          "@type": "sc:Canvas",
+          "label": "0129-b04f04-0035-0001",
+          "height": 1056,
+          "width": 1639,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.quartexcollections.com/pepperdine/iiif/b447bb62-0f00-4f58-9f40-ff6fa7f741dc/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.quartexcollections.com/pepperdine/iiif/b447bb62-0f00-4f58-9f40-ff6fa7f741dc",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "tiles": [
+                    {
+                      "width": 512,
+                      "scaleFactors": null
+                    }
+                  ]
+                },
+                "height": 1056,
+                "width": 1639
+              },
+              "on": "https://iiif.quartexcollections.com/pepperdine/iiif/7600d31c-0d0a-4538-8c7e-03896153b1ea/canvas/_1",
+              "metadata": [],
+              "@id": "https://iiif.quartexcollections.com/pepperdine/iiif/7600d31c-0d0a-4538-8c7e-03896153b1ea/canvas/_1/annotation/zoclbdj55"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://iiif.quartexcollections.com/pepperdine/iiif/b447bb62-0f00-4f58-9f40-ff6fa7f741dc/full/500,500/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 500,
+            "width": 500
+          },
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://iiif.quartexcollections.com/pepperdine/iiif/7600d31c-0d0a-4538-8c7e-03896153b1ea/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://iiif.quartexcollections.com/pepperdine/iiif/7600d31c-0d0a-4538-8c7e-03896153b1ea/canvas/_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

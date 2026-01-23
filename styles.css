@@ -15,11 +15,14 @@ body {
   position: relative;
 }
 
+.container.viewerHidden .left-panel { width:100%; }
+.container.viewerHidden #viewer { display:none; }
+
 .left-panel {
-  width: 40%; /* Left panel occupies 40% */
+  width: 783px; /* Fits exactly 3 cards */
   display: flex;
   flex-direction: column;
-  min-width: 200px; /* Minimum width for left panel */
+  min-width: 531px; /* Fits exactly 2 cards */
 }
 
 .header {
@@ -32,126 +35,372 @@ body {
 
 .header-top {
   display: flex;
+  flex-wrap: nowrap; /* Changed from wrap */
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 10px;
+  gap: 10px; /* Add gap for spacing */
 }
 
 .header h1 {
   margin: 0;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   flex: 1;
 }
 
 .iiif-logo {
-  height: 40px;
+  height: 30px;
   width: auto;
-  margin-right: 15px;
+  margin-right: 8px;
+  flex-shrink: 0;
 }
 
-.toggle-btn {
-  padding: 8px 16px;
-  background-color: #f0f0f0;
-  color: #0073A3;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+/* Control Links (right-aligned text links) */
+.control-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  margin-left: auto;
+  flex-shrink: 0; /* Prevent shrinking */
+  padding-top: 2px; /* Slight adjustment to align better */
+}
+
+.control-link {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  transition: background-color 0.2s;
-  white-space: nowrap;
-  margin-left: 10px;
-}
-
-.toggle-btn:hover {
-  background-color: #e0e0e0;
-}
-
-.toggle-triangle {
-  padding: 5px 10px;
-  background-color: transparent;
+  font-size: 11px;
+  font-weight: 600;
   color: #666;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: color 0.2s ease;
+  white-space: nowrap;
   cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  transition: background-color 0.2s, transform 0.2s;
-  margin-left: 10px;
-  line-height: 1;
+  text-align: right;
 }
 
-.toggle-triangle:hover {
-  background-color: #f0f0f0;
+.control-link:hover {
+  color: #0073A3;
 }
 
-.toggle-triangle.collapsed {
-  transform: rotate(-90deg);
+@media (max-width: 768px) {
+  .control-link {
+    font-size: 10px;
+  }
 }
+
 
 .input-panel {
   overflow: hidden;
   transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
-  max-height: 1000px; /* Large enough for all content */
+  max-height: 1000px;
   opacity: 1;
+  padding: 12px 2px 5px 0px; /* Top Right Bottom Left - minimal bottom padding */
+  position: relative; /* Add this for potential absolute positioning */
 }
+
 
 .input-panel.hidden {
   max-height: 0;
   opacity: 0;
+  padding: 0; /* Collapse padding too */
 }
 
 .header input {
-  margin-top: 10px;
+  margin-top: 6px; /* Reduced from 10px */
   font-family: 'Open Sans', sans-serif;
-  width: calc(100% - 20px);
-  padding: 8px;
+  width: 100%;
+  padding: 6px 8px; /* Reduced from 8px */
   box-sizing: border-box;
+  border: 1px solid #d0d0d0;
+  border-radius: 3px;
+  font-size: 13px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.header input:focus {
+  outline: none;
+  border-color: #0073A3;
+  box-shadow: 0 0 0 2px rgba(0, 115, 163, 0.1);
+}
+
+.header input::placeholder {
+  color: #999;
+  font-size: 12px;
 }
 
 .header button {
-  padding: 8px 12px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  padding: 6px 12px; /* Reduced from 8px 12px */
+  background-color: #ffffff;
+  border: 1px solid #d0d0d0;
+  border-radius: 3px; /* Slightly smaller radius */
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  margin-top: 10px;
-  transition: background-color 0.2s;
+  font-size: 13px; /* Reduced from 14px */
+  margin-top: 6px; /* Reduced from 2px for consistency */
+  transition: all 0.15s ease; /* Faster, smoother */
+  font-weight: 500;
+  color: #333;
 }
 
 .header button:hover {
-  background-color: #e0e0e0;
+  background-color: #f5f5f5;
+  border-color: #0073A3;
+  color: #0073A3;
 }
+
+.header button:active {
+  transform: translateY(1px);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+
+.help-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  background: #0073A3;
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  transition: background 0.2s ease, transform 0.2s ease;
+  cursor: pointer;
+  flex-shrink: 0; /* Prevent squishing */
+}
+
+.help-icon:hover {
+  background: #0073A3;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .help-icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
+}
+
 
 /* Style the file input label to look like a button */
 .file-input-label {
   display: inline-block;
-  padding: 8px 12px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  padding: 6px 12px; /* Match button padding */
+  background-color: #ffffff;
+  border: 1px solid #d0d0d0;
+  border-radius: 3px;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  margin-top: 10px;
-  transition: background-color 0.2s;
+  font-size: 13px; /* Match button font size */
+  margin-top: 0;
+  transition: all 0.15s ease;
+  font-weight: 500;
+  color: #333; /* Match button text color */
 }
 
 .file-input-label:hover {
-  background-color: #e0e0e0;
+  background-color: #f5f5f5;
+  border-color: #0073A3;
+  color: #0073A3;
+}
+
+.file-input-label:active {
+  transform: translateY(1px);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
 }
 
 .file-name {
   display: inline-block;
-  margin-left: 10px;
-  margin-right: 15px;
-  font-size: 12px;
-  color: #666;
-  font-style: italic;
+  margin-left: 8px; /* Reduced from 10px */
+  font-size: 11px; /* Smaller */
+  color: #888;
+  font-style: normal; /* Remove italic for cleaner look */
+  vertical-align: middle;
 }
+.export-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.export-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: 2px solid #333;  /* Black border */
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 11px;
+  font-family: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  color: #666;  /* Grey text */
+}
+
+.export-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background: #f5f5f5;  /* Light grey on hover */
+  color: #333;  /* Darker text on hover */
+}
+
+.export-btn.primary {
+  /* Remove specific primary styles - both buttons same now */
+}
+
+.export-btn.secondary {
+  /* Remove specific secondary styles - both buttons same now */
+}
+
+.btn-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.btn-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  line-height: 1.2;
+}
+
+.btn-text strong {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #666;  /* Match the grey from the main button */
+}
+
+.btn-text small {
+  font-size: 9px;
+  font-weight: normal;
+  text-transform: none;
+  letter-spacing: 0;
+  opacity: 0.7;
+}
+
+/* Reduce export button row bottom space */
+.export-buttons-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 10px;
+  margin-bottom: 0; /* Ensure no extra bottom margin */
+}
+
+/* Save button - lighter border to match other elements */
+.export-btn.single {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;  /* Changed from 2px solid #333 - lighter and thinner */
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 11px;
+  font-family: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  color: #666;
+}
+
+.export-btn.single:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background: #f5f5f5;
+  color: #333;
+  border-color: #999;  /* Slightly darker on hover */
+}
+
+/* Row container - align IIIF button to right edge of inputs */
+.export-buttons-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;  /* Align to bottom for better visual */
+  margin-top: 10px;
+}
+
+
+.iiif-export-icon {
+  width: 30px;
+  height: auto;
+  filter: grayscale(100%);
+  display: block;
+}
+
+
+/* IIIF export button - override .header button styles */
+button.export-iiif-btn {
+  background: #f5f5f5 !important;
+  border: none !important;
+  padding: 4px !important;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s ease, background 0.2s ease;
+  margin-right: 0px;
+  border-radius: 3px;
+  margin-top: 0;
+}
+
+button.export-iiif-btn:hover {
+  opacity: 1;
+  background: #e8e8e8 !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+button.export-iiif-btn:active {
+  transform: none !important;
+  box-shadow: none !important;
+}
+* Reduce white space at bottom of input panel */
+.input-panel {
+  padding-bottom: 15px;  /* Reduced from default */
+}
+
+/* Ensure input section has no bottom margin */
+.input-section:last-child {
+  margin-bottom: 0;
+}
+
+.help-text {
+  margin: 6px 0 0 0;
+  font-size: 11px;
+  color: #666;
+  line-height: 1.4;
+}
+
+.help-text small {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .button-group {
+    flex-direction: column;
+    gap: 6px;
+  }
+}
+
 
 #gallery {
   flex: 1;
@@ -185,7 +434,13 @@ body {
 }
 
 .card p {
-  margin: 5px 0; /* Closer together lines */
+  margin: 5px 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Truncate at 4 lines; for Safari and older browsers */
+  line-clamp: 4; /* Standard property for modern browsers */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.4; /* Consistent line height */
 }
 
 .card strong {
@@ -250,6 +505,34 @@ body {
   background: grey;
 }
 
+/* Card links (styled like control links) */
+.card-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.card-links .card-link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  color: #666 !important; /* Override .card a color */
+  text-decoration: none !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: color 0.2s ease;
+  cursor: pointer;
+}
+
+.card-links .card-link:hover {
+  color: #0073A3 !important; /* Override .card a:hover color */
+  text-decoration: none !important;
+}
+
 /* Resizable divider */
 #resizer {
   width: 5px;
@@ -299,7 +582,7 @@ body {
 
 .modal-header {
   padding: 20px;
-  background-color: #4CAF50;
+  background-color: #0073A3;
   color: white;
   border-radius: 8px 8px 0 0;
   display: flex;
@@ -337,7 +620,7 @@ body {
 
 .modal-btn {
   padding: 8px 16px;
-  background-color: #4CAF50;
+  background-color: #0073A3;
   color: white;
   border: none;
   border-radius: 4px;
@@ -348,7 +631,7 @@ body {
 }
 
 .modal-btn:hover {
-  background-color: #45a049;
+  background-color: #0073A3;
 }
 
 #selectionCount {
@@ -378,12 +661,12 @@ body {
 }
 
 .page-item:hover {
-  border-color: #4CAF50;
+  border-color: #0073A3;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .page-item.selected {
-  border-color: #4CAF50;
+  border-color: #0073A3;
   background-color: #e8f5e9;
 }
 
@@ -435,7 +718,7 @@ body {
 
 .modal-btn-primary {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: #0073A3;
   color: white;
   border: none;
   border-radius: 4px;
@@ -447,10 +730,161 @@ body {
 }
 
 .modal-btn-primary:hover {
-  background-color: #45a049;
+  background-color: #0073A3;
 }
 
 .modal-btn-primary:disabled {
   background-color: #ccc;
   cursor: not-allowed;
+}
+
+/* Gallery Title Display */
+#page-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem;
+  flex: 1; /* Allow it to grow */
+  min-width: 0;
+  line-height: 1.2; /* Tighter line height */
+}
+
+.title-base {
+  /* Inherits existing h1 styles */
+}
+
+.title-gallery {
+  color: #0073A3;
+  font-weight: 600;
+}
+
+.title-gallery:not(:empty)::before {
+  content: ': ';
+  color: #333;
+}
+
+.title-gallery:empty {
+  display: none;
+}
+
+/* Prevent extremely long titles from breaking layout */
+#gallery-title-display {
+  max-width: 600px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  #page-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  
+  #gallery-title-display {
+    max-width: 100%;
+    font-size: 0.9em;
+  }
+  
+  .title-gallery:not(:empty)::before {
+    content: '';
+  }
+}
+
+/* Input Panel Sections - More compact */
+.input-section {
+  margin-bottom: 12px; /* Reduced from 1rem */
+}
+
+.section-label {
+  display: block;
+  font-weight: 600;
+  color: #0073A3;
+  margin-bottom: 6px; /* Reduced from 8px */
+  font-size: 13px; /* Slightly smaller */
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.section-divider {
+  height: 1px;
+  background: #e0e0e0;
+  margin: 12px 0; /* Reduced from 15px */
+}
+
+
+/* Load Options - more compact */
+.load-option {
+  margin-bottom: 6px; /* Reduced from 8px */
+}
+
+.load-option-divider {
+  text-align: center;
+  color: #aaa;
+  font-size: 11px; /* Smaller */
+  margin: 8px 0; /* Reduced from 10px */
+  position: relative;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.load-option-divider::before,
+.load-option-divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 43%;
+  height: 1px;
+  background: #e0e0e0;
+}
+
+.load-option-divider::before {
+  left: 0;
+}
+
+.load-option-divider::after {
+  right: 0;
+}
+
+/* Update file-name styling */
+.file-name {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 12px;
+  color: #666;
+  font-style: italic;
+  vertical-align: middle;
+}
+
+/* Ensure input fields match existing header input style */
+#galleryUrl {
+  margin-top: 0;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  padding: 6px 8px;
+  box-sizing: border-box;
+  border: 1px solid #d0d0d0;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+#galleryUrl:focus {
+  outline: none;
+  border-color: #0073A3;
+  box-shadow: 0 0 0 2px rgba(0, 115, 163, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section-label {
+    font-size: 13px;
+  }
+  
+  .file-name {
+    display: block;
+    margin-left: 0;
+    margin-top: 5px;
+    font-size: 11px;
+  }
 }

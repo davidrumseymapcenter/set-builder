@@ -1,0 +1,1278 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://example.org/collection/MitchellMaps_newnew",
+  "label": "MitchellMaps_newnew",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/fz074vg4070/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "A Map of the British and French Dominions in North America. With the Roads, Distances, limits, and Extent of the Settlements, Humbly Inscribed to the Right Honourable the Earl of Halifax, and other Right Honourable The Lords Commissioners for Trade & Plantations . . . 1755",
+      "attribution": "Property rights reside with the repository, Copyright © Stanford University. Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/fz074vg4070.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/fz074vg4070'>https://purl.stanford.edu/fz074vg4070</a>"
+        },
+        {
+          "label": "Title",
+          "value": "A Map of the British and French Dominions in North America. With the Roads, Distances, limits, and Extent of the Settlements, Humbly Inscribed to the Right Honourable the Earl of Halifax, and other Right Honourable The Lords Commissioners for Trade & Plantations . . . 1755"
+        },
+        {
+          "label": "Contributor",
+          "value": "Mitchell"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : hand colored ; 77 x 53.5 in"
+        },
+        {
+          "label": "Format",
+          "value": "cartographic image"
+        },
+        {
+          "label": "Format",
+          "value": "image/jpeg"
+        },
+        {
+          "label": "Description",
+          "value": "Nice full original example of the first edition of John Mitchell's monumental map of North America, bound in 2-4 sheet sections, as issued. Mitchell’s Map of the British and French Dominions in North America . . . is widely regarded as the most important map in American History. Prepared on the eve of the French & Indian War, it was the second large format map of North America printed by the British and included the best up to date information of the region. Over the next 200 years, it would play a significant role in the resolution of every significant boundary dispute involving the northern border of the then British Colonies and later the United States. It was also the map-of-record at the birth of the United States and continued in this role through several decades in the early life of the country. John Mitchell (1711-1768), a respected British physician, botanist, chemist, biologist, and surveyor, lived for a time in Virginia, but returned to England in 1746, where he remained until his death. Mitchell initially conceived of his map of North America in order to present the British public with a single large format image of all the colonies, in order to illustrate the extent of the French threat to the British claims in North America. Mitchell completed his first draft of the map in 1750. However, because Mitchell was limited to publicly available sources of information, this initial effort was rather crude, even in Mitchell's own opinion. As word of Mitchell's work spread, the Board of Trade and Plantations retained Mitchell to make a new map, using the official manuscript and printed maps and reports in the Board's possession, including maps by Fry and Jefferson, Christopher Gist, George Washington, John Barnwell, and others. The Board also instructed all colonial governors to send detailed maps and boundary information for Mitchell's use. Mitchell's map was first published by Andrew Millar in 1755, the year before war broke out with the French. The map is decidedly pro-English in its interpretation of the various boundaries and geographical information depicted on the map, as would be expected for what amounted to thinly veiled pre-war propaganda. In addition to the geographical detail shown on the map, Mitchell included many annotations describing the extent of British and French settlements. He also submitted a report to the Board in 1752, listing the French encroachments and his ideas to encourage British settlement west of the Appalachian Mountains, as a means of combating French influence in the region. Mitchell is also the likely author of The Contest in America Between Great Britain and France by an Impartial Hand (1756), which addresses the same topic. The first edition of the map was quickly followed by a second edition in 1757, which adds two large blocks of text in the Atlantic Ocean, providing Mitchell's data sources and an account of how he compiled the numerous provincial maps to create this map. After Mitchell's death in 1768, the plates were purchased by Jefferys & Faden, who revised the map and issued a third edition in 1773-74. Faden published a fourth edition in 1775, with the title changed to A Map of the British Colonies in North America .... Mitchell’s map shows the British Colonial claims of Virginia, both Carolinas, and Georgia extending beyond the Mississippi to the Pacific Ocean. In the West, Mitchell’s treatment of the lower Missouri is a vast improvement over earlier maps. Regarding the source of the Missouri, Mitchell notes “Missouri river is reckoned to run westward to the Mountains of New Mexico, as far as the Ohio does eastward,” reflecting his belief in symmetrical geography. Mitchell correctly shows the northern branch of the Missouri to be the main branch of the river, although his estimate of the latitude of the river’s source is inaccurate. Nonetheless, the information Mitchell’s map provided led Meriwether Lewis up the Marias River to determine the northern reaches of the Missouri River basin. Mitchell's map would become the primary political treaty map in American history. Regarded by many authorities as the most important map in the history of American cartography, twenty-one variant states and editions of the map appeared between 1755 and 1781. John Jay used a copy of the third edition during the negotiations of what would become the Treaty of Paris (1783). Thomas Jefferson recommended that Nicholas King use Mitchell’s map in preparing a new map for Meriwether Lewis, saying: “it was made with great care we know from what is laid down in those western parts with which we have lately become acquainted.” To get even a partial sense of the historic uses to which the map was put, we quote Col. Lawrence Martin, the second chief of the Library of Congress Geography and Map Division (as quoted by Ristow, pp.104-05): [MItchell's map] is thought to have been in use in the British House of Commons during the debate on the Quebec Act of 1774; it is known to have hung in the halls of Congress in 1802 and several times subsequently. It was used ... in the discussions of British land grants in the Ohio and Mississippi valleys, and in scores of controversies involving the boundary lines existing at the time of its publication. Great Britain and the United States agreed to its official status in the Convention of September 29, 1827.... it exerted substantial influence in the negotiation and ratification of the Webster-Ashburton Treaty of 1842, and serious argument was based upon it by Great Britain before the Court of Arbitration at The Hague in 1910 in connection with the North Atlantic Coast Fisheries Arbitration. It was submitted in evidence before the Law Lords of the British Privy Council in 1926 in the appeal of Price Brothers & Company, Limited, from a judgment of the supreme court of Canada, and in 1926-27 in the Canada-Newfoundland (Labrador) boundary case. It was used as evidence before the Supreme Court of the United States in the Wisconsin-Michigan boundary case, in 1926-27 in the Great Lakes level case, and in 1932 in the New Jersey-Delaware boundary case.\" The present example is the extremely rare first edition, third state of the map, with the corrected spelling of Andrew Millar's name and street address (spelled wrong in the first state), and with the towns named \"Leicester\" and \"Worchester,\" correctly named (in the state 2, there were two Leicesters and no Worchester, which was corrected in state 3 (also 1755), making this edition essentially the first accurate state of the first edition of the map."
+        },
+        {
+          "label": "Description",
+          "value": "Map shows Southeast, Midwest, North America, Mid Atlantic, Northeast, United States, New England."
+        },
+        {
+          "label": "Description",
+          "value": "Condition description: 8-sheet map, joined in 2-4 sheet sections (top and bottom). Bound in original binding."
+        },
+        {
+          "label": "Description",
+          "value": "Pritchard & Taliaferro, Degrees of Latitude 33 (state 2); Cumming 293; Stevens and Tree 54; Suarez, Shedding the Veil 56."
+        },
+        {
+          "label": "Coverage",
+          "value": "America"
+        },
+        {
+          "label": "Coverage",
+          "value": "Southern States"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale not determined"
+        },
+        {
+          "label": "Date",
+          "value": "1755"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/fz074vg4070"
+        },
+        {
+          "label": "Relation",
+          "value": "www.raremaps.com"
+        },
+        {
+          "label": "Relation",
+          "value": "The Barry Lawrence Ruderman Map Collection"
+        },
+        {
+          "label": "PublishDate",
+          "value": "2023-12-11T23:16:44Z"
+        }
+      ],
+      "description": "Nice full original example of the first edition of John Mitchell's monumental map of North America, bound in 2-4 sheet sections, as issued. Mitchell’s Map of the British and French Dominions in North America . . . is widely regarded as the most important map in American History. Prepared on the eve of the French & Indian War, it was the second large format map of North America printed by the British and included the best up to date information of the region. Over the next 200 years, it would play a significant role in the resolution of every significant boundary dispute involving the northern border of the then British Colonies and later the United States. It was also the map-of-record at the birth of the United States and continued in this role through several decades in the early life of the country. John Mitchell (1711-1768), a respected British physician, botanist, chemist, biologist, and surveyor, lived for a time in Virginia, but returned to England in 1746, where he remained until his death. Mitchell initially conceived of his map of North America in order to present the British public with a single large format image of all the colonies, in order to illustrate the extent of the French threat to the British claims in North America. Mitchell completed his first draft of the map in 1750. However, because Mitchell was limited to publicly available sources of information, this initial effort was rather crude, even in Mitchell's own opinion. As word of Mitchell's work spread, the Board of Trade and Plantations retained Mitchell to make a new map, using the official manuscript and printed maps and reports in the Board's possession, including maps by Fry and Jefferson, Christopher Gist, George Washington, John Barnwell, and others. The Board also instructed all colonial governors to send detailed maps and boundary information for Mitchell's use. Mitchell's map was first published by Andrew Millar in 1755, the year before war broke out with the French. The map is decidedly pro-English in its interpretation of the various boundaries and geographical information depicted on the map, as would be expected for what amounted to thinly veiled pre-war propaganda. In addition to the geographical detail shown on the map, Mitchell included many annotations describing the extent of British and French settlements. He also submitted a report to the Board in 1752, listing the French encroachments and his ideas to encourage British settlement west of the Appalachian Mountains, as a means of combating French influence in the region. Mitchell is also the likely author of The Contest in America Between Great Britain and France by an Impartial Hand (1756), which addresses the same topic. The first edition of the map was quickly followed by a second edition in 1757, which adds two large blocks of text in the Atlantic Ocean, providing Mitchell's data sources and an account of how he compiled the numerous provincial maps to create this map. After Mitchell's death in 1768, the plates were purchased by Jefferys & Faden, who revised the map and issued a third edition in 1773-74. Faden published a fourth edition in 1775, with the title changed to A Map of the British Colonies in North America .... Mitchell’s map shows the British Colonial claims of Virginia, both Carolinas, and Georgia extending beyond the Mississippi to the Pacific Ocean. In the West, Mitchell’s treatment of the lower Missouri is a vast improvement over earlier maps. Regarding the source of the Missouri, Mitchell notes “Missouri river is reckoned to run westward to the Mountains of New Mexico, as far as the Ohio does eastward,” reflecting his belief in symmetrical geography. Mitchell correctly shows the northern branch of the Missouri to be the main branch of the river, although his estimate of the latitude of the river’s source is inaccurate. Nonetheless, the information Mitchell’s map provided led Meriwether Lewis up the Marias River to determine the northern reaches of the Missouri River basin. Mitchell's map would become the primary political treaty map in American history. Regarded by many authorities as the most important map in the history of American cartography, twenty-one variant states and editions of the map appeared between 1755 and 1781. John Jay used a copy of the third edition during the negotiations of what would become the Treaty of Paris (1783). Thomas Jefferson recommended that Nicholas King use Mitchell’s map in preparing a new map for Meriwether Lewis, saying: “it was made with great care we know from what is laid down in those western parts with which we have lately become acquainted.” To get even a partial sense of the historic uses to which the map was put, we quote Col. Lawrence Martin, the second chief of the Library of Congress Geography and Map Division (as quoted by Ristow, pp.104-05): [MItchell's map] is thought to have been in use in the British House of Commons during the debate on the Quebec Act of 1774; it is known to have hung in the halls of Congress in 1802 and several times subsequently. It was used ... in the discussions of British land grants in the Ohio and Mississippi valleys, and in scores of controversies involving the boundary lines existing at the time of its publication. Great Britain and the United States agreed to its official status in the Convention of September 29, 1827.... it exerted substantial influence in the negotiation and ratification of the Webster-Ashburton Treaty of 1842, and serious argument was based upon it by Great Britain before the Court of Arbitration at The Hague in 1910 in connection with the North Atlantic Coast Fisheries Arbitration. It was submitted in evidence before the Law Lords of the British Privy Council in 1926 in the appeal of Price Brothers & Company, Limited, from a judgment of the supreme court of Canada, and in 1926-27 in the Canada-Newfoundland (Labrador) boundary case. It was used as evidence before the Supreme Court of the United States in the Wisconsin-Michigan boundary case, in 1926-27 in the Great Lakes level case, and in 1932 in the New Jersey-Delaware boundary case.\" The present example is the extremely rare first edition, third state of the map, with the corrected spelling of Andrew Millar's name and street address (spelled wrong in the first state), and with the towns named \"Leicester\" and \"Worchester,\" correctly named (in the state 2, there were two Leicesters and no Worchester, which was corrected in state 3 (also 1755), making this edition essentially the first accurate state of the first edition of the map.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/fz074vg4070/32874/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/fz074vg4070/32874",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 294
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/fz074vg4070/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/fz074vg4070/iiif/canvas/cocina-fileSet-fz074vg4070-fz074vg4070_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 6781,
+              "width": 9222,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/fz074vg4070/32874.jp2",
+                  "label": "Original source file (11.2 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/fz074vg4070/iiif/annotation/cocina-fileSet-fz074vg4070-fz074vg4070_1",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/fz074vg4070/32874/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 6781,
+                    "width": 9222,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/fz074vg4070/32874",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  },
+                  "on": "https://purl.stanford.edu/fz074vg4070/iiif/canvas/cocina-fileSet-fz074vg4070-fz074vg4070_1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1005~50014/manifest",
+      "label": "Amerique Septentrionale.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~1005~50014/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1005~50014/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Amerique Septentrionale.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Mitchell, John"
+                },
+                {
+                  "label": "Date",
+                  "value": "1756"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Amerique Septentrionale."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Le Rouge"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "133"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "192"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "2,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "1st French edition, 8 sheets. Very interesting French reengraving of Mitchell's map, emphasizing their territorial claims at the expense of the British claims; in particular they add an area of \"contestations\" between French claims and the English claims."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Stephenson (A la Carte) p109."
+                },
+                {
+                  "label": "World Area",
+                  "value": "North America"
+                },
+                {
+                  "label": "Event",
+                  "value": "American Revolution"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Amerique Septentrionale avec les Routes, Distances en miles, Limites et Establissements Francois et Anglais. Par le Docteur Mitchel, Traduit de l'Anglois. A Paris, Par le Rouge Ingr. Geographe du Roy rue des Grands Augustins 1756."
+                },
+                {
+                  "label": "List No",
+                  "value": "0510.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Mitchell, John"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1756"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Amerique Septentrionale avec les Routes, Distances en miles, Limites et Establissements Francois et Anglais. Par le Docteur Mitchel, Traduit de l'Anglois. A Paris, Par le Rouge Ingr. Geographe du Roy rue des Grands Augustins 1756."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "0510.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "133"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "192"
+                },
+                {
+                  "label": "Image No",
+                  "value": "0510000"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0005/0510000.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Mitchell, John"
+                },
+                {
+                  "label": "Collection",
+                  "value": "Rumsey Collection"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~1005~50014/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~1005~50014/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~1005~50014",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 22880,
+                    "height": 16100
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1005~50014/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1005~50014/list/luna"
+              ],
+              "width": 22880,
+              "height": 16100
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~1005~50014"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~222~20037/manifest",
+      "label": "Map of the British and French Dominions in North America.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~222~20037/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~222~20037/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Map of the British and French Dominions in North America.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Mitchell, John"
+                },
+                {
+                  "label": "Date",
+                  "value": "1757"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Map of the British and French Dominions in North America."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "John Mitchell"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "135"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "193"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "2,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "This is the second edition of this important map, dated 1755 but published in 1757, according to the British Museum. The only change from the first issue is the addition of several panels of interesting text in ocean. The original eight printed sheets of the map are here assembled in two large panels (each with four sheets) each dissected into 36 sections and mounted on linen. Uncolored, as issued. In the sixth line of the first column of the text this issue is referred to as the Second Edition One of the most important maps in American history, it went through five editions (see Stevens). We believe this second edition is scarcer than the other editions as it appears less often on the market. Compare to the first French edition of 1856 (our copy) regarding the conflicting claims of the British and French to American territory."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Stevens 54(c), Stephenson (A la Carte) p109."
+                },
+                {
+                  "label": "World Area",
+                  "value": "North America"
+                },
+                {
+                  "label": "Event",
+                  "value": "American Revolution"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "A Map of the British and French Dominions in North America with the Roads, Distances, Limits and Extent of the Settlements."
+                },
+                {
+                  "label": "List No",
+                  "value": "2842.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Mitchell, John"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1757"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "A Map of the British and French Dominions in North America with the Roads, Distances, Limits and Extent of the Settlements."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Stevens 54(c), Stephenson (A la Carte) p109."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "2nd edition, with text in ocean. In two large panels (each with four sheets) each dissected into 36 sections and mounted on linen. Although dated 1755, it was published in 1757, according to the British Museum. Uncolored, as issued. In the sixth line of the first column of the text this issue is referred to as the Second Edition. One of the most important maps in American history, it went through five editions (see Stevens). We believe this second edition is scarcer than the other editions as it appears less often on the market. Compare to the first French edition of 1856 (our copy) regarding the conflicting claims of the British and French to American territory."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "2842.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "135"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "193"
+                },
+                {
+                  "label": "Image No",
+                  "value": "2842000"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0002/2842000.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Mitchell, John"
+                },
+                {
+                  "label": "Collection",
+                  "value": "Rumsey Collection"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~222~20037/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~222~20037/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~222~20037",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 22710,
+                    "height": 16132
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~222~20037/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~222~20037/list/luna"
+              ],
+              "width": 22710,
+              "height": 16132
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~222~20037"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://www.loc.gov/item/74693173/manifest.json",
+      "@type": "sc:Manifest",
+      "attribution": "Provided by the Library of Congress",
+      "description": "Relief shown pictorially. Second impression of 1st ed. Scale ca. 1:2,000,000. Hand colored. LC Maps of North America, 1750-1789, 38 Includes text and inset \"A new map of Hudson's Bay and Labrador from the late survey of those coasts.\" Available also through the Library of Congress Web site as a raster image. Vault AACR2",
+      "label": "A map of the British and French dominions in North America, with the roads, distances, limits, and extent of the settlements, humbly inscribed to the Right Honourable the Earl of Halifax, and the other Right Honourable the Lords Commissioners for Trade & Plantations,",
+      "logo": "https://loc.gov/static/images/logo-loc-new-branding.svg",
+      "metadata": [
+        {
+          "label": "APA Citation Style",
+          "value": "Mitchell, J., Kitchin, T. &amp; Millar, A. (1755) <cite>A map of the British and French dominions in North America, with the roads, distances, limits, and extent of the settlements, humbly inscribed to the Right Honourable the Earl of Halifax, and the other Right Honourable the Lords Commissioners for Trade & Plantations</cite>. [London; Sold by And: Millar] [Map] Retrieved from the Library of Congress, https://www.loc.gov/item/74693173/."
+        },
+        {
+          "label": "MLA Citation Style",
+          "value": "Mitchell, John, Thomas Kitchin, and Andrew Millar. <cite>A map of the British and French dominions in North America, with the roads, distances, limits, and extent of the settlements, humbly inscribed to the Right Honourable the Earl of Halifax, and the other Right Honourable the Lords Commissioners for Trade & Plantations</cite>. [London; Sold by And: Millar, 1755] Map. Retrieved from the Library of Congress, &lt;www.loc.gov/item/74693173/&gt;."
+        },
+        {
+          "label": "Chicago Citation Style",
+          "value": "Mitchell, John, Thomas Kitchin, and Andrew Millar. <cite>A map of the British and French dominions in North America, with the roads, distances, limits, and extent of the settlements, humbly inscribed to the Right Honourable the Earl of Halifax, and the other Right Honourable the Lords Commissioners for Trade & Plantations</cite>. [London; Sold by And: Millar, 1755] Map. https://www.loc.gov/item/74693173/."
+        },
+        {
+          "label": "Contributors",
+          "value": [
+            "Mitchell, John, 1711-1768.",
+            "Kitchin, Thomas, -1784.",
+            "Millar, Andrew, 1705-1768."
+          ]
+        },
+        {
+          "label": "Created Published",
+          "value": [
+            "[London]; Sold by And: Millar, 1755."
+          ]
+        },
+        {
+          "label": "Original Format",
+          "value": [
+            "map"
+          ]
+        },
+        {
+          "label": "Subjects",
+          "value": [
+            "north america",
+            "america",
+            "maps",
+            "british",
+            "early works to 1800"
+          ]
+        },
+        {
+          "label": "Online Format",
+          "value": [
+            "image"
+          ]
+        },
+        {
+          "label": "Item Url",
+          "value": "https://www.loc.gov/item/74693173/"
+        }
+      ],
+      "navDate": "1755-01-01T00:00:00Z",
+      "seeAlso": [
+        {
+          "@id": "https://lccn.loc.gov/74693173/marcxml",
+          "format": "text/xml"
+        },
+        {
+          "@id": "https://lccn.loc.gov/74693173/mods",
+          "format": "text/xml"
+        },
+        {
+          "@id": "https://lccn.loc.gov/74693173/dc",
+          "format": "text/html"
+        }
+      ],
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:np000009",
+              "@type": "sc:Canvas",
+              "height": 4139,
+              "images": [
+                {
+                  "@id": "https://www.loc.gov/resource/g3300.np000009/seq-1/",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:np000009",
+                  "resource": {
+                    "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:np000009/full/pct:25/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 4139,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:np000009",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    },
+                    "width": 5873
+                  }
+                }
+              ],
+              "label": "Page 1",
+              "metadata": [
+                {
+                  "label": "Library of Congress Resource URL",
+                  "value": "https://www.loc.gov/resource/g3300.np000009/?sp=1"
+                }
+              ],
+              "related": "https://www.loc.gov/resource/g3300.np000009/?sp=1",
+              "thumbnail": {
+                "@id": "https://tile.loc.gov/storage-services/service/gmd/gmd3/g3300/g3300/np000009.gif",
+                "format": "image/jpeg",
+                "height": 150,
+                "width": 213
+              },
+              "width": 5873
+            }
+          ],
+          "label": "Order of the views"
+        }
+      ],
+      "thumbnail": {
+        "@id": "https://tile.loc.gov/storage-services/service/gmd/gmd3/g3300/g3300/np000009.gif"
+      },
+      "viewingDirection": "left-to-right",
+      "viewingHint": "paged"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://www.loc.gov/item/74693175/manifest.json",
+      "@type": "sc:Manifest",
+      "attribution": "Provided by the Library of Congress",
+      "description": "Scale ca. 1:2,000,000. Hand colored. Second ed. Relief shown pictorially. LC Maps of North America, 1750-1789, 40 Includes text and inset \"A new map of Hudson's Bay and Labrador from the late surveys of those coasts.\" Available also through the Library of Congress Web site as a raster image. Vault AACR2",
+      "label": "A map of the British and French dominions in North America, with the roads, distances, limits, and extent of the settlements, humbly inscribed to the Right Honourable the Earl of Halifax, and the other Right Honourable the Lords Commissioners for Trade & Plantations,",
+      "logo": "https://loc.gov/static/images/logo-loc-new-branding.svg",
+      "metadata": [
+        {
+          "label": "APA Citation Style",
+          "value": "Mitchell, J., Kitchin, T. &amp; Millar, A. (1757) <cite>A map of the British and French dominions in North America, with the roads, distances, limits, and extent of the settlements, humbly inscribed to the Right Honourable the Earl of Halifax, and the other Right Honourable the Lords Commissioners for Trade & Plantations</cite>. [London; Sold by And: Millar i.e. 1757] [Map] Retrieved from the Library of Congress, https://www.loc.gov/item/74693175/."
+        },
+        {
+          "label": "MLA Citation Style",
+          "value": "Mitchell, John, Thomas Kitchin, and Andrew Millar. <cite>A map of the British and French dominions in North America, with the roads, distances, limits, and extent of the settlements, humbly inscribed to the Right Honourable the Earl of Halifax, and the other Right Honourable the Lords Commissioners for Trade & Plantations</cite>. [London; Sold by And: Millar i.e. 1757, 1757] Map. Retrieved from the Library of Congress, &lt;www.loc.gov/item/74693175/&gt;."
+        },
+        {
+          "label": "Chicago Citation Style",
+          "value": "Mitchell, John, Thomas Kitchin, and Andrew Millar. <cite>A map of the British and French dominions in North America, with the roads, distances, limits, and extent of the settlements, humbly inscribed to the Right Honourable the Earl of Halifax, and the other Right Honourable the Lords Commissioners for Trade & Plantations</cite>. [London; Sold by And: Millar i.e. 1757, 1757] Map. https://www.loc.gov/item/74693175/."
+        },
+        {
+          "label": "Contributors",
+          "value": [
+            "Mitchell, John, 1711-1768.",
+            "Kitchin, Thomas, -1784.",
+            "Millar, Andrew, 1705-1768."
+          ]
+        },
+        {
+          "label": "Created Published",
+          "value": [
+            "[London]; Sold by And: Mill[ar] 1755[i.e. 1757]"
+          ]
+        },
+        {
+          "label": "Original Format",
+          "value": [
+            "map"
+          ]
+        },
+        {
+          "label": "Subjects",
+          "value": [
+            "america",
+            "north america",
+            "early works to 1800",
+            "maps",
+            "british"
+          ]
+        },
+        {
+          "label": "Online Format",
+          "value": [
+            "image"
+          ]
+        },
+        {
+          "label": "Item Url",
+          "value": "https://www.loc.gov/item/74693175/"
+        }
+      ],
+      "navDate": "1757-01-01T00:00:00Z",
+      "seeAlso": [
+        {
+          "@id": "https://lccn.loc.gov/74693175/marcxml",
+          "format": "text/xml"
+        },
+        {
+          "@id": "https://lccn.loc.gov/74693175/mods",
+          "format": "text/xml"
+        },
+        {
+          "@id": "https://lccn.loc.gov/74693175/dc",
+          "format": "text/html"
+        }
+      ],
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar004000",
+              "@type": "sc:Canvas",
+              "height": 4127,
+              "images": [
+                {
+                  "@id": "https://www.loc.gov/resource/g3300.ar004000/seq-1/",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar004000",
+                  "resource": {
+                    "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar004000/full/pct:25/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 4127,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar004000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    },
+                    "width": 5842
+                  }
+                }
+              ],
+              "label": "Page 1",
+              "metadata": [
+                {
+                  "label": "Library of Congress Resource URL",
+                  "value": "https://www.loc.gov/resource/g3300.ar004000/?sp=1"
+                }
+              ],
+              "related": "https://www.loc.gov/resource/g3300.ar004000/?sp=1",
+              "thumbnail": {
+                "@id": "https://tile.loc.gov/storage-services/service/gmd/gmd3/g3300/g3300/ar004000.gif",
+                "format": "image/jpeg",
+                "height": 150,
+                "width": 212
+              },
+              "width": 5842
+            }
+          ],
+          "label": "Order of the views"
+        }
+      ],
+      "thumbnail": {
+        "@id": "https://tile.loc.gov/storage-services/service/gmd/gmd3/g3300/g3300/ar004000.gif"
+      },
+      "viewingDirection": "left-to-right",
+      "viewingHint": "paged"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://www.loc.gov/item/74693178/manifest.json",
+      "@type": "sc:Manifest",
+      "attribution": "Provided by the Library of Congress",
+      "description": "Scale ca. 1:2,000,000. Hand colored. Fourth ed. Relief shown pictorially. LC Maps of North America, 1750-1789, 43 Includes text and inset \"A new map of Hudson's Bay and Labrador from the late surveys of those coasts.\" Available also through the Library of Congress Web site as a raster image. Vault AACR2: 100; 651/1; 650/2; 700/1",
+      "label": "A map of the British colonies in North America, with the roads, distances, limits, and extent of the settlements, humbly inscribed to the Right Honourable the Earl of Halifax, and the other Right Honourable the Lords Commissioners for Trade & Plantations,",
+      "logo": "https://loc.gov/static/images/logo-loc-new-branding.svg",
+      "metadata": [
+        {
+          "label": "APA Citation Style",
+          "value": "Mitchell, J., Kitchin, T. &amp; Jefferys And Faden, L. (1775) <cite>A map of the British colonies in North America, with the roads, distances, limits, and extent of the settlements, humbly inscribed to the Right Honourable the Earl of Halifax, and the other Right Honourable the Lords Commissioners for Trade & Plantations</cite>. [London, Printed for Jefferys and Faden, geographers to the King] [Map] Retrieved from the Library of Congress, https://www.loc.gov/item/74693178/."
+        },
+        {
+          "label": "MLA Citation Style",
+          "value": "Mitchell, John, Thomas Kitchin, and London Jefferys And Faden. <cite>A map of the British colonies in North America, with the roads, distances, limits, and extent of the settlements, humbly inscribed to the Right Honourable the Earl of Halifax, and the other Right Honourable the Lords Commissioners for Trade & Plantations</cite>. [London, Printed for Jefferys and Faden, geographers to the King, 1775] Map. Retrieved from the Library of Congress, &lt;www.loc.gov/item/74693178/&gt;."
+        },
+        {
+          "label": "Chicago Citation Style",
+          "value": "Mitchell, John, Thomas Kitchin, and London Jefferys And Faden. <cite>A map of the British colonies in North America, with the roads, distances, limits, and extent of the settlements, humbly inscribed to the Right Honourable the Earl of Halifax, and the other Right Honourable the Lords Commissioners for Trade & Plantations</cite>. [London, Printed for Jefferys and Faden, geographers to the King, 1775] Map. https://www.loc.gov/item/74693178/."
+        },
+        {
+          "label": "Contributors",
+          "value": [
+            "Mitchell, John, 1711-1768.",
+            "Kitchin, Thomas, -1784.",
+            "Jefferys and Faden, London."
+          ]
+        },
+        {
+          "label": "Created Published",
+          "value": [
+            "London, Printed for Jefferys and Faden, geographers to the King [1775]"
+          ]
+        },
+        {
+          "label": "Original Format",
+          "value": [
+            "map"
+          ]
+        },
+        {
+          "label": "Subjects",
+          "value": [
+            "north america",
+            "america",
+            "maps",
+            "british",
+            "early works to 1800"
+          ]
+        },
+        {
+          "label": "Online Format",
+          "value": [
+            "image"
+          ]
+        },
+        {
+          "label": "Item Url",
+          "value": "https://www.loc.gov/item/74693178/"
+        }
+      ],
+      "navDate": "1775-01-01T00:00:00Z",
+      "seeAlso": [
+        {
+          "@id": "https://lccn.loc.gov/74693178/marcxml",
+          "format": "text/xml"
+        },
+        {
+          "@id": "https://lccn.loc.gov/74693178/mods",
+          "format": "text/xml"
+        },
+        {
+          "@id": "https://lccn.loc.gov/74693178/dc",
+          "format": "text/html"
+        }
+      ],
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar004300",
+              "@type": "sc:Canvas",
+              "height": 3994,
+              "images": [
+                {
+                  "@id": "https://www.loc.gov/resource/g3300.ar004300/seq-1/",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar004300",
+                  "resource": {
+                    "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar004300/full/pct:25/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 3994,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar004300",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    },
+                    "width": 5883
+                  }
+                }
+              ],
+              "label": "Page 1",
+              "metadata": [
+                {
+                  "label": "Library of Congress Resource URL",
+                  "value": "https://www.loc.gov/resource/g3300.ar004300/?sp=1"
+                }
+              ],
+              "related": "https://www.loc.gov/resource/g3300.ar004300/?sp=1",
+              "thumbnail": {
+                "@id": "https://tile.loc.gov/storage-services/service/gmd/gmd3/g3300/g3300/ar004300.gif",
+                "format": "image/jpeg",
+                "height": 150,
+                "width": 221
+              },
+              "width": 5883
+            }
+          ],
+          "label": "Order of the views"
+        }
+      ],
+      "thumbnail": {
+        "@id": "https://tile.loc.gov/storage-services/service/gmd/gmd3/g3300/g3300/ar004300.gif"
+      },
+      "viewingDirection": "left-to-right",
+      "viewingHint": "paged"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/tw367mz1194/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "A Map of the British and French Dominions in North America with the Roads, Distances, Limits and Extent of the Settlements",
+      "attribution": "Property rights reside with the repository, Copyright © Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/tw367mz1194.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/tw367mz1194'>https://purl.stanford.edu/tw367mz1194</a>"
+        },
+        {
+          "label": "Title",
+          "value": "A  Map of the British and French Dominions in North America with the Roads, Distances, Limits and Extent of the Settlements"
+        },
+        {
+          "label": "Contributor",
+          "value": "Mitchell, John."
+        },
+        {
+          "label": "Type",
+          "value": "map"
+        },
+        {
+          "label": "Type",
+          "value": "cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "Road maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 135 x 193 cm"
+        },
+        {
+          "label": "Format",
+          "value": "cartographic material"
+        },
+        {
+          "label": "Language",
+          "value": "eng"
+        },
+        {
+          "label": "Description",
+          "value": "2nd edition, with text in ocean. In two large panels (each with four sheets) each dissected into 36 sections and mounted on linen. Although dated 1755, it was published in 1757, according to the British Museum. Uncolored, as issued. In the sixth line of the first column of the text this issue is referred to as the Second Edition. One of the most important maps in American history, it went through five editions (see Stevens). We believe this second edition is scarcer than the other editions as it appears less often on the market. Compare to the first French edition of 1856 (our copy) regarding the conflicting claims of the British and French to American territory."
+        },
+        {
+          "label": "Description",
+          "value": "Case Map."
+        },
+        {
+          "label": "Description",
+          "value": "References: Stevens 54(c), Stephenson (A la Carte)p109."
+        },
+        {
+          "label": "Description",
+          "value": "Pub list no.: 2842.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Colonies"
+        },
+        {
+          "label": "Coverage",
+          "value": "North America"
+        },
+        {
+          "label": "Subject",
+          "value": "Colonies--North America--Maps--Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "British"
+        },
+        {
+          "label": "Coverage",
+          "value": "North America"
+        },
+        {
+          "label": "Subject",
+          "value": "British--North America--Maps--Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "French"
+        },
+        {
+          "label": "Coverage",
+          "value": "North America"
+        },
+        {
+          "label": "Subject",
+          "value": "French--North America--Maps--Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Roads"
+        },
+        {
+          "label": "Coverage",
+          "value": "North America"
+        },
+        {
+          "label": "Subject",
+          "value": "Roads--North America--Maps--Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Cities and towns"
+        },
+        {
+          "label": "Coverage",
+          "value": "North America"
+        },
+        {
+          "label": "Subject",
+          "value": "Cities and towns--North America--Maps--Early works to 1800"
+        },
+        {
+          "label": "Coverage",
+          "value": "North America"
+        },
+        {
+          "label": "Subject",
+          "value": "G3301.F33 1757 .M5 FF"
+        },
+        {
+          "label": "Date",
+          "value": "1757"
+        },
+        {
+          "label": "Date",
+          "value": "1757"
+        },
+        {
+          "label": "Publisher",
+          "value": "John Mitchell,"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/tw367mz1194"
+        },
+        {
+          "label": "Identifier",
+          "value": "http://www.davidrumsey.com/luna/servlet/view/search?q=pub_list_no=2842.000%20LIMIT:RUMSEY~8~1&sort=Pub_List_No_InitialSort,Pub_Date,Pub_List_No,Series_No"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "PublishDate",
+          "value": "2024-05-07T09:25:43Z"
+        }
+      ],
+      "description": "2nd edition, with text in ocean. In two large panels (each with four sheets) each dissected into 36 sections and mounted on linen. Although dated 1755, it was published in 1757, according to the British Museum. Uncolored, as issued. In the sixth line of the first column of the text this issue is referred to as the Second Edition. One of the most important maps in American history, it went through five editions (see Stevens). We believe this second edition is scarcer than the other editions as it appears less often on the market. Compare to the first French edition of 1856 (our copy) regarding the conflicting claims of the British and French to American territory.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/tw367mz1194/2842000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/tw367mz1194/2842000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 284
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/tw367mz1194/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/tw367mz1194/iiif/canvas/cocina-fileSet-tw367mz1194-tw367mz1194_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 16132,
+              "width": 22710,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/tw367mz1194/2842000.jp2",
+                  "label": "Original source file (65.8 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/tw367mz1194/iiif/annotation/cocina-fileSet-tw367mz1194-tw367mz1194_1",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/tw367mz1194/2842000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 16132,
+                    "width": 22710,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/tw367mz1194/2842000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  },
+                  "on": "https://purl.stanford.edu/tw367mz1194/iiif/canvas/cocina-fileSet-tw367mz1194-tw367mz1194_1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://www.loc.gov/item/74693169/manifest.json",
+      "@type": "sc:Manifest",
+      "attribution": "Provided by the Library of Congress",
+      "description": "Scale ca. 1:2,000,000. Spine title: Map of North America. Hand colored. LC copy sectioned and mounted on cloth backing. First impression of 1st ed. Relief shown pictorially. LC copy annotated in ink. LC copy imperfect: Hole in left center. LC Maps of North America, 1750-1789, 37 Includes notes and inset \"A new map of Hudson's Bay and Labrador from the late surveys of those coasts.\" On verso in manuscript: 4.--Amerique carte en anglais. Available also through the Library of Congress Web site as a raster image. Vault AACR2",
+      "label": "A map of the British and French dominions in North America with the roads, distances, limits, and extent of the settlements, humbly inscribed to the Right Honourable the Earl of Halifax, and the other Right Honourable the Lords Commissioners for Trade & Plantations,",
+      "logo": "https://loc.gov/static/images/logo-loc-new-branding.svg",
+      "metadata": [
+        {
+          "label": "APA Citation Style",
+          "value": "Mitchell, J., Kitchin, T. &amp; Millar, A. (1755) <cite>A map of the British and French dominions in North America with the roads, distances, limits, and extent of the settlements, humbly inscribed to the Right Honourable the Earl of Halifax, and the other Right Honourable the Lords Commissioners for Trade & Plantations</cite>. [London; Sold by And: Miller si] [Map] Retrieved from the Library of Congress, https://www.loc.gov/item/74693169/."
+        },
+        {
+          "label": "MLA Citation Style",
+          "value": "Mitchell, John, Thomas Kitchin, and Andrew Millar. <cite>A map of the British and French dominions in North America with the roads, distances, limits, and extent of the settlements, humbly inscribed to the Right Honourable the Earl of Halifax, and the other Right Honourable the Lords Commissioners for Trade & Plantations</cite>. [London; Sold by And: Miller si, 1755] Map. Retrieved from the Library of Congress, &lt;www.loc.gov/item/74693169/&gt;."
+        },
+        {
+          "label": "Chicago Citation Style",
+          "value": "Mitchell, John, Thomas Kitchin, and Andrew Millar. <cite>A map of the British and French dominions in North America with the roads, distances, limits, and extent of the settlements, humbly inscribed to the Right Honourable the Earl of Halifax, and the other Right Honourable the Lords Commissioners for Trade & Plantations</cite>. [London; Sold by And: Miller si, 1755] Map. https://www.loc.gov/item/74693169/."
+        },
+        {
+          "label": "Contributors",
+          "value": [
+            "Mitchell, John, 1711-1768.",
+            "Kitchin, Thomas, -1784.",
+            "Millar, Andrew, 1705-1768."
+          ]
+        },
+        {
+          "label": "Created Published",
+          "value": [
+            "[London]; Sold by And: Miller [sic] 1755."
+          ]
+        },
+        {
+          "label": "Original Format",
+          "value": [
+            "map"
+          ]
+        },
+        {
+          "label": "Subjects",
+          "value": [
+            "north america",
+            "america",
+            "maps",
+            "british",
+            "early works to 1800"
+          ]
+        },
+        {
+          "label": "Online Format",
+          "value": [
+            "image"
+          ]
+        },
+        {
+          "label": "Item Url",
+          "value": "https://www.loc.gov/item/74693169/"
+        }
+      ],
+      "navDate": "1755-01-01T00:00:00Z",
+      "seeAlso": [
+        {
+          "@id": "https://lccn.loc.gov/74693169/marcxml",
+          "format": "text/xml"
+        },
+        {
+          "@id": "https://lccn.loc.gov/74693169/mods",
+          "format": "text/xml"
+        },
+        {
+          "@id": "https://lccn.loc.gov/74693169/dc",
+          "format": "text/html"
+        }
+      ],
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar003700",
+              "@type": "sc:Canvas",
+              "height": 4089,
+              "images": [
+                {
+                  "@id": "https://www.loc.gov/resource/g3300.ar003700/seq-1/",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar003700",
+                  "resource": {
+                    "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar003700/full/pct:25/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 4089,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar003700",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    },
+                    "width": 5798
+                  }
+                }
+              ],
+              "label": "Page 1",
+              "metadata": [
+                {
+                  "label": "Library of Congress Resource URL",
+                  "value": "https://www.loc.gov/resource/g3300.ar003700/?sp=1"
+                }
+              ],
+              "related": "https://www.loc.gov/resource/g3300.ar003700/?sp=1",
+              "thumbnail": {
+                "@id": "https://tile.loc.gov/storage-services/service/gmd/gmd3/g3300/g3300/ar003700.gif",
+                "format": "image/jpeg",
+                "height": 150,
+                "width": 213
+              },
+              "width": 5798
+            }
+          ],
+          "label": "Order of the views"
+        }
+      ],
+      "thumbnail": {
+        "@id": "https://tile.loc.gov/storage-services/service/gmd/gmd3/g3300/g3300/ar003700.gif"
+      },
+      "viewingDirection": "left-to-right",
+      "viewingHint": "paged"
+    }
+  ]
+}

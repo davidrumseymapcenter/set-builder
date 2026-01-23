@@ -1,0 +1,2671 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://example.org/manifest/Timescales",
+  "label": "Timescales",
+  "description": "A curated gallery of 23 images created with IIIF Image Gallery Builder",
+  "metadata": [
+    {
+      "label": "Created with",
+      "value": "IIIF Image Gallery Builder"
+    },
+    {
+      "label": "Number of images",
+      "value": "23"
+    },
+    {
+      "label": "Created",
+      "value": "2026-01-20"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "@id": "https://example.org/manifest/Timescales/sequence/1",
+      "canvases": [
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "XXXII. Histoire hieroglyphique des Azteques, depuis le deluge jusqu'a la fondation de la ville de Mexico, 223.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Humboldt, Alexander von, 1769-1859"
+            },
+            {
+              "label": "Author",
+              "value": "Bonpland, Aime"
+            },
+            {
+              "label": "Date",
+              "value": "1810"
+            },
+            {
+              "label": "Short Title",
+              "value": "XXXII. Histoire hieroglyphique des Azteques, depuis le deluge jusqu'a la fondation de la ville de Mexico, 223."
+            },
+            {
+              "label": "Publisher",
+              "value": "F. Schoell"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Paris"
+            },
+            {
+              "label": "Type",
+              "value": "View"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "36"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "32"
+            },
+            {
+              "label": "Note",
+              "value": "For another version of this story see our 4116.031"
+            },
+            {
+              "label": "Reference",
+              "value": "For the full text description of all the plates, see https://shar.es/abv8AS"
+            },
+            {
+              "label": "Country",
+              "value": "Mexico"
+            },
+            {
+              "label": "City",
+              "value": "Mexico City (Mexico)"
+            },
+            {
+              "label": "Subject",
+              "value": "Glyphs"
+            },
+            {
+              "label": "Full Title",
+              "value": "XXXII. Histoire hieroglyphique des Azteques, depuis le deluge jusqu'a la fondation de la ville de Mexico, 223."
+            },
+            {
+              "label": "List No",
+              "value": "10555.035"
+            },
+            {
+              "label": "Page No",
+              "value": "223"
+            },
+            {
+              "label": "Series No",
+              "value": "35"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Humboldt, Alexander von, 1769-1859"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Bonpland, Aime"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1810"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Voyage de Humboldt et Bonpland. Premiere Partie. Relation Historique. Atlas Pittoresque. Paris. F. Schoell. 1810. Vues des Cordillères, et monumens des peuples indigènes de l'Amérique"
+            },
+            {
+              "label": "Pub Reference",
+              "value": "Sabin 33754"
+            },
+            {
+              "label": "Pub Note",
+              "value": "This atlas was issued as part of Humboldt and Bonpland’s Voyage aux régions équinoxiales du Nouveau Continent fait en 1799, 1800, 1801, 1802, 1803 et 1804 (Paris, 1808-1834), which was published in over thirty volumes over several decades…See our companion volume \"Atlas\" which was published in 1831 (our 12125.000) and our “Atlas Geographique Et Physique Du Royaume De La Nouvelle-Espagne,” 1811 for another atlas volume in this series, concerning Mexico (our 0328.000). This copy is the augmented edition with the Introduction by Humboldt dated 1813 and the Supplement of plates, making the total plates 69. Sloan Auction 23: \"First edition of “the most beautiful and generally interesting of Humboldt’s works” (Sabin 33754). This version contains Humboldt’s 16-page introduction dated 1813. According to Fiedler & Leitner, this work was issued in seven fascicules between 1810 and 1813. This volume was the first part, second section of Humboldt’s monumental Voyage aux régions équinoxiales du nouveau continent, fait dans les années 1799 à 1804. Bernal 1788 (citing an 1816 edition). Brunet III, col. 373. Fiedler & Leitner, Alexander von Humboldts Schriften 4.3. Field 739. Field Auction 1052. Glass 627: “Pioneer work with first partial publications of various Mesoamerican pictorial manuscripts.” Hiler, p. 451. Hill (1) I, pp. 148-149. Hill (2) 839. Howell (Americana Auction, 1985) 276. Jones, South America Rediscovered, p. 16. Leclerc, Bibliotheca Americana (1867) 752: (1878) 1160 (citing an 1816 edition). Lipperheide 1630. Löwenberg, Humboldt: Bibliographische Ubersicht 103. McNeil, Europeans in Latin America 12n. Miles & Reese, The Illustrating Traveler: Adventure and illustration in North America and the Caribbean 1760-1895: “Set a standard for description and illustration which every serious scientific traveler of the nineteenth century strove to emulate.” Palau 117026 (citing the London edition). Pilling 1871 & addenda (citing an 1815 edition, title obtained from Sabin). Sabin 33754: “Every class of Mexican or Aztec, and Peruvian Antiquities receives in this work the clearest philosophical analysis. Many of the plates are beautifully colored; indeed, it is the most beautiful and generally interesting of Humboldt’s works.” This work, the first major one to result from Humboldt’s American explorations, fell like a thunderbolt on the European intellectual, scientific, artistic, and political communities. Just as Columbus had returned from his own voyage with wonderful things to relate, so had Humboldt, whose coffers were so full of treasures that it required the rest of his life for him to display their contents to the astounded world. Departing Europe in 1799, Humboldt and his partner, Bonpland, caused a sensation merely by returning to Europe six years later, since they had widely been given up for dead. The voyage took place almost by accident as it commenced only because Humboldt was repeatedly frustrated in his attempts to explore elsewhere. While in Spain, after a series of fortunate events and crucial introductions, he was issued a rare passport and recommendation by Carlos IV for Spain’s overseas possessions and, thus, for the first time could indulge his passion for travel and exploration. Humboldt achieved cultural hero status in the United States and Mexico in the second half of the nineteenth century. His travels, experiments, and knowledge transformed Western science. Two more energetic, inquisitive, learned, and gifted explorers than Humboldt and Bonpland would be difficult to find, although in an historic coincidence, their U.S. counterparts, Lewis and Clark, would also be making an equivalent impact at the same time. Humboldt and Bonpland travelled extensively in South and Central America. They paid particular attention to the region’s plant life, geology, antiquities, minerals, and geography. The pair seems to have been especially fascinated by volcanoes, exploring and climbing several during their travels. The fascination the geological features held for the two is clearly indicated by the magnificent folded plate showing the great volcano of Chimborazo in the Andean highlands, probably the finest and most arresting scene in the entire volume, and a production exhibiting an American scene that would remain practically without rival until the works of Nebel and Gualdi later in the century. Chimborazo was long thought to be the highest mountain on earth (measured from sea level), and many attempts were made to ascend it in the seventeenth and eighteenth centuries. In 1802 Humboldt and his party attempted to reach the summit and reached a point of 5,875 meters, higher than previously attained by any European up to that time. Humboldt referred to this event as one of the greatest moments of his life. Reports of this mountaineering accomplishment made Humboldt a celebrity in Europe. Humboldt included in this volume the first extensive reproductions of codices dating from around the Columbian era, such as materials from the Dresden Codex (the first publication), Codex Mendoza, and others. These plates inspired a renewed interest in American indigenous antiquities and were without rival until Kingsborough’s larger, more elaborate work nearly thirty years later (see herein). The production of this atlas was overseen closely by Humboldt, from the smallest details to the overall series. Many of the aquatint plates were based on his own drawings. He personally supervised the coloring to ensure that it was accurate. The work was published mostly at his own expense. Humboldt’s technique is sophisticated, sympathetic, and erudite, seeking as it does to place objects in both their human and natural context rather than as disembodied pieces of cultural fragmentation. Humboldt’s stated goal was “to examine the interweaving and interacting of all forces of nature.” He also was an early advocate of human rights and a pioneer in the field of ecology (see Aaron Sachs, “The Ultimate ‘Other’: Post-Colonialism and Alexander von Humboldt’s Ecological Relationship with Nature” in History and Theory 42:4, pp. 111–135). Humboldt’s subjects received the clearest philosophical analysis, and in its widest concept, this intellectual point of view stretched back to Diderot, Alambert, and their fellow encylopédistes.\""
+            },
+            {
+              "label": "Pub List No",
+              "value": "10555.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Exploration Book"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "39"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "59"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "42"
+            },
+            {
+              "label": "Image No",
+              "value": "10555035.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/195/10555035.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Humboldt, Alexander von, 1769-1859 ; Bonpland, Aime"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~333271~90101423/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~333271~90101423/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~333271~90101423/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~333271~90101423/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~333271~90101423",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 11135,
+                "height": 8923
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~333271~90101423/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~333271~90101423/canvas/c1/annotation/t9rdzo67l"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~333271~90101423/list/luna"
+          ],
+          "width": 11135,
+          "height": 8923
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "0001",
+          "height": 10874,
+          "width": 12412,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/sy409bk9698/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fsy409bk9698-sy409bk9698_1%2Fsy409bk9698_05_0001.jp2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 10874,
+                "width": 12412,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://purl.stanford.edu/sy409bk9698/iiif/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/2",
+          "@type": "sc:Canvas",
+          "label": "View: Gold and Silver Smiths in the Territory of Chito.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Ogilby, John, 1600-1676"
+            },
+            {
+              "label": "Author",
+              "value": "Montanus, Arnoldus, 1625?-1683"
+            },
+            {
+              "label": "Date",
+              "value": "1671"
+            },
+            {
+              "label": "Short Title",
+              "value": "View: Gold and Silver Smiths in the Territory of Chito."
+            },
+            {
+              "label": "Publisher",
+              "value": "Ogilby, John"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "London"
+            },
+            {
+              "label": "Type",
+              "value": "View"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "15"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "21"
+            },
+            {
+              "label": "Reference",
+              "value": "Burton, Philip D., 2007, The Mapping of North America II. A List of Printed Maps 1671-1700; Cumming, Southeast in Early Maps 70."
+            },
+            {
+              "label": "Full Title",
+              "value": "(View) \"Gold and Silver Smiths in the Territory of Chito\"."
+            },
+            {
+              "label": "List No",
+              "value": "12241.010"
+            },
+            {
+              "label": "Page No",
+              "value": "14"
+            },
+            {
+              "label": "Series No",
+              "value": "10"
+            },
+            {
+              "label": "Engraver or Printer",
+              "value": "RR Donnelley"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Ogilby, John, 1600-1676"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Montanus, Arnoldus, 1625?-1683"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1671"
+            },
+            {
+              "label": "Pub Title",
+              "value": "America: Being The Latest, And Most accurate Description Of The New World; Containing The Original of the Inhabitants, and the Remarkable Voyages thither. The Conquest of the Vast Empires of Mexico and Peru, And Other Large Provinces and Territories ... Collected from the most Authentick Authors, Augmented with later Observations, and Adorn'd with Maps and Sculptures, by John Ogilby, esq; His Majesty's Cosmographer, Geographick Printer, and Master of the Revels in the Kingdom of Ireland. London, Printed by the Author, and are to be had at his House in White Fryers, M.DC.LXXI."
+            },
+            {
+              "label": "Pub Note",
+              "value": "First edition, second issue, with the important Lord Proprietors map of Carolina by Moxon replacing the Arx Carolina plate and the Virginia pars Australis map of the first issue, with the addition of a map of Barbados, and with the plate list as in the first issue still listing Arx Carolina and Virginia pars Australis but not listing the Lords Proprietors Carolina or Barbados. This copy includes both the Arx Carolina plate and the Virginia pars Australis map, tipped in later. The work is an English translation of Arnold Montanus “De Nieuwe en Onbekende Weereld,” but with a number of additions concerning New England, New France, Maryland and Virginia. Many new maps and views were added. The Moxon map of Carolina is the first large format map of the newly established colony of Carolina. “America” was Ogilby’s finest foreign work; over 150 authors are credited although Montanus is lacking. “When it came to North America, particularly, he abandoned Montanus entirely for his own closer sources. His work used superior type and larger and finer paper than Montanus. Clearly some form of at least tacit agreement existed between Montanus and Ogilby as he acquired the same plates to illustrate his work. This is itself unusual as Ogilby was renowned for providing his own ‘sculptures’. The reasons may lie in the fact that the project clearly was already an expensive one, and that the work had been promised for some time and further delay was undesirable. The first map in the book, of the whole of America, was one of five plates provided by Ogilby himself. We may speculate that this was because Montanus did not actually own the Schagen plate, or that Ogilby wished to insert more English nomenclature” (Burden). Regarding Ogilby himself, he had a series of remarkably successful careers as a dancer, dance master, theatre manager/director, and translator of classics, and finally as author and publisher of travel and geography books."
+            },
+            {
+              "label": "Pub List No",
+              "value": "12241.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Exploration Book"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "26"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "43"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "28"
+            },
+            {
+              "label": "Image No",
+              "value": "12241010.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/12241010.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Ogilby, John, 1600-1676 ; Montanus, Arnoldus, 1625?-1683"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292898~90064461/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292898~90064461/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292898~90064461/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292898~90064461/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292898~90064461",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 3626,
+                "height": 2624
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292898~90064461/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292898~90064461/canvas/c1/annotation/72fi6z1k6"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292898~90064461/list/luna"
+          ],
+          "width": 3626,
+          "height": 2624
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/3",
+          "@type": "sc:Canvas",
+          "label": "View: (Strange Animals of Guatemala.)",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Ogilby, John, 1600-1676"
+            },
+            {
+              "label": "Author",
+              "value": "Montanus, Arnoldus, 1625?-1683"
+            },
+            {
+              "label": "Date",
+              "value": "1671"
+            },
+            {
+              "label": "Short Title",
+              "value": "View: (Strange Animals of Guatemala.)"
+            },
+            {
+              "label": "Publisher",
+              "value": "Ogilby, John"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "London"
+            },
+            {
+              "label": "Type",
+              "value": "View"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "15"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "21"
+            },
+            {
+              "label": "Reference",
+              "value": "Burton, Philip D., 2007, The Mapping of North America II. A List of Printed Maps 1671-1700; Cumming, Southeast in Early Maps 70."
+            },
+            {
+              "label": "Full Title",
+              "value": "(View) (Strange Animals of Guatemala.)"
+            },
+            {
+              "label": "List No",
+              "value": "12241.051"
+            },
+            {
+              "label": "Page No",
+              "value": "225"
+            },
+            {
+              "label": "Series No",
+              "value": "51"
+            },
+            {
+              "label": "Engraver or Printer",
+              "value": "RR Donnelley"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Ogilby, John, 1600-1676"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Montanus, Arnoldus, 1625?-1683"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1671"
+            },
+            {
+              "label": "Pub Title",
+              "value": "America: Being The Latest, And Most accurate Description Of The New World; Containing The Original of the Inhabitants, and the Remarkable Voyages thither. The Conquest of the Vast Empires of Mexico and Peru, And Other Large Provinces and Territories ... Collected from the most Authentick Authors, Augmented with later Observations, and Adorn'd with Maps and Sculptures, by John Ogilby, esq; His Majesty's Cosmographer, Geographick Printer, and Master of the Revels in the Kingdom of Ireland. London, Printed by the Author, and are to be had at his House in White Fryers, M.DC.LXXI."
+            },
+            {
+              "label": "Pub Note",
+              "value": "First edition, second issue, with the important Lord Proprietors map of Carolina by Moxon replacing the Arx Carolina plate and the Virginia pars Australis map of the first issue, with the addition of a map of Barbados, and with the plate list as in the first issue still listing Arx Carolina and Virginia pars Australis but not listing the Lords Proprietors Carolina or Barbados. This copy includes both the Arx Carolina plate and the Virginia pars Australis map, tipped in later. The work is an English translation of Arnold Montanus “De Nieuwe en Onbekende Weereld,” but with a number of additions concerning New England, New France, Maryland and Virginia. Many new maps and views were added. The Moxon map of Carolina is the first large format map of the newly established colony of Carolina. “America” was Ogilby’s finest foreign work; over 150 authors are credited although Montanus is lacking. “When it came to North America, particularly, he abandoned Montanus entirely for his own closer sources. His work used superior type and larger and finer paper than Montanus. Clearly some form of at least tacit agreement existed between Montanus and Ogilby as he acquired the same plates to illustrate his work. This is itself unusual as Ogilby was renowned for providing his own ‘sculptures’. The reasons may lie in the fact that the project clearly was already an expensive one, and that the work had been promised for some time and further delay was undesirable. The first map in the book, of the whole of America, was one of five plates provided by Ogilby himself. We may speculate that this was because Montanus did not actually own the Schagen plate, or that Ogilby wished to insert more English nomenclature” (Burden). Regarding Ogilby himself, he had a series of remarkably successful careers as a dancer, dance master, theatre manager/director, and translator of classics, and finally as author and publisher of travel and geography books."
+            },
+            {
+              "label": "Pub List No",
+              "value": "12241.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Exploration Book"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "26"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "43"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "28"
+            },
+            {
+              "label": "Image No",
+              "value": "12241051.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/12241051.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Ogilby, John, 1600-1676 ; Montanus, Arnoldus, 1625?-1683"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292939~90064501/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292939~90064501/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292939~90064501/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292939~90064501/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292939~90064501",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 4265,
+                "height": 3254
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292939~90064501/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292939~90064501/canvas/c1/annotation/jx8gafkkp"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292939~90064501/list/luna"
+          ],
+          "width": 4265,
+          "height": 3254
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/4",
+          "@type": "sc:Canvas",
+          "label": "Peru.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Ogilby, John, 1600-1676"
+            },
+            {
+              "label": "Author",
+              "value": "Montanus, Arnoldus, 1625?-1683"
+            },
+            {
+              "label": "Date",
+              "value": "1671"
+            },
+            {
+              "label": "Short Title",
+              "value": "Peru."
+            },
+            {
+              "label": "Publisher",
+              "value": "Ogilby, John"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "London"
+            },
+            {
+              "label": "Type",
+              "value": "Book Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "30"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "34"
+            },
+            {
+              "label": "Reference",
+              "value": "Burton, Philip D., 2007, The Mapping of North America II. A List of Printed Maps 1671-1700; Cumming, Southeast in Early Maps 70."
+            },
+            {
+              "label": "Country",
+              "value": "Peru"
+            },
+            {
+              "label": "Country",
+              "value": "Ecuador"
+            },
+            {
+              "label": "Country",
+              "value": "Bolivia"
+            },
+            {
+              "label": "Full Title",
+              "value": "Peru."
+            },
+            {
+              "label": "List No",
+              "value": "12241.085"
+            },
+            {
+              "label": "Page No",
+              "value": "after 412"
+            },
+            {
+              "label": "Series No",
+              "value": "85"
+            },
+            {
+              "label": "Engraver or Printer",
+              "value": "RR Donnelley"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Ogilby, John, 1600-1676"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Montanus, Arnoldus, 1625?-1683"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1671"
+            },
+            {
+              "label": "Pub Title",
+              "value": "America: Being The Latest, And Most accurate Description Of The New World; Containing The Original of the Inhabitants, and the Remarkable Voyages thither. The Conquest of the Vast Empires of Mexico and Peru, And Other Large Provinces and Territories ... Collected from the most Authentick Authors, Augmented with later Observations, and Adorn'd with Maps and Sculptures, by John Ogilby, esq; His Majesty's Cosmographer, Geographick Printer, and Master of the Revels in the Kingdom of Ireland. London, Printed by the Author, and are to be had at his House in White Fryers, M.DC.LXXI."
+            },
+            {
+              "label": "Pub Note",
+              "value": "First edition, second issue, with the important Lord Proprietors map of Carolina by Moxon replacing the Arx Carolina plate and the Virginia pars Australis map of the first issue, with the addition of a map of Barbados, and with the plate list as in the first issue still listing Arx Carolina and Virginia pars Australis but not listing the Lords Proprietors Carolina or Barbados. This copy includes both the Arx Carolina plate and the Virginia pars Australis map, tipped in later. The work is an English translation of Arnold Montanus “De Nieuwe en Onbekende Weereld,” but with a number of additions concerning New England, New France, Maryland and Virginia. Many new maps and views were added. The Moxon map of Carolina is the first large format map of the newly established colony of Carolina. “America” was Ogilby’s finest foreign work; over 150 authors are credited although Montanus is lacking. “When it came to North America, particularly, he abandoned Montanus entirely for his own closer sources. His work used superior type and larger and finer paper than Montanus. Clearly some form of at least tacit agreement existed between Montanus and Ogilby as he acquired the same plates to illustrate his work. This is itself unusual as Ogilby was renowned for providing his own ‘sculptures’. The reasons may lie in the fact that the project clearly was already an expensive one, and that the work had been promised for some time and further delay was undesirable. The first map in the book, of the whole of America, was one of five plates provided by Ogilby himself. We may speculate that this was because Montanus did not actually own the Schagen plate, or that Ogilby wished to insert more English nomenclature” (Burden). Regarding Ogilby himself, he had a series of remarkably successful careers as a dancer, dance master, theatre manager/director, and translator of classics, and finally as author and publisher of travel and geography books."
+            },
+            {
+              "label": "Pub List No",
+              "value": "12241.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Exploration Book"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "26"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "43"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "28"
+            },
+            {
+              "label": "Image No",
+              "value": "12241085.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/12241085.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Ogilby, John, 1600-1676 ; Montanus, Arnoldus, 1625?-1683"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292973~90066923/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292973~90066923/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292973~90066923/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292973~90066923/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292973~90066923",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 12448,
+                "height": 8838
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292973~90066923/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292973~90066923/canvas/c1/annotation/a01la4l4g"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292973~90066923/list/luna"
+          ],
+          "width": 12448,
+          "height": 8838
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/5",
+          "@type": "sc:Canvas",
+          "label": "0001",
+          "height": 16426,
+          "width": 22792,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/wk428tr8961/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fwk428tr8961-wk428tr8961_1%2Fwk428tr8961_05_0001.jp2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://purl.stanford.edu/wk428tr8961/iiif/canvas/cocina-fileSet-wk428tr8961-wk428tr8961_1",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/wk428tr8961%2Fwk428tr8961_05_0001/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 16426,
+                "width": 22792,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/wk428tr8961%2Fwk428tr8961_05_0001",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://purl.stanford.edu/wk428tr8961/iiif/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://purl.stanford.edu/wk428tr8961/iiif/canvas/cocina-fileSet-wk428tr8961-wk428tr8961_1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/6",
+          "@type": "sc:Canvas",
+          "label": "0001",
+          "height": 10113,
+          "width": 16207,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/bd935rr8206/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fbd935rr8206-bd935rr8206_1%2Fbd935rr8206_05_0001.jp2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://purl.stanford.edu/bd935rr8206/iiif/canvas/cocina-fileSet-bd935rr8206-bd935rr8206_1",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/bd935rr8206%2Fbd935rr8206_05_0001/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 10113,
+                "width": 16207,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/bd935rr8206%2Fbd935rr8206_05_0001",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://purl.stanford.edu/bd935rr8206/iiif/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://purl.stanford.edu/bd935rr8206/iiif/canvas/cocina-fileSet-bd935rr8206-bd935rr8206_1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/7",
+          "@type": "sc:Canvas",
+          "label": "[Ordenanza que papa la division de la M. noble y leal cuidad de Santiago de Queretaro ... ].",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Ruiz Calado, Joseph Ignacio"
+            },
+            {
+              "label": "Date",
+              "value": "1796"
+            },
+            {
+              "label": "Short Title",
+              "value": "[Ordenanza que papa la division de la M. noble y leal cuidad de Santiago de Queretaro ... ]."
+            },
+            {
+              "label": "Publisher",
+              "value": "Don Mariano de Zúñiga y Ontiveros"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Mexico"
+            },
+            {
+              "label": "Type",
+              "value": "Book Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "38"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "61"
+            },
+            {
+              "label": "Note",
+              "value": "Fold-out woodcut map of Santiago de Queretaro, Mexico. Title translates to: [Ordinance that established the division of the noble and loyal city of Santiago de Queretaro into minor quarters, the creation of mayors, and rules for their government, as resolved by His Majesty in Royal Decree of June 17, 1794 ... ]. Shows the political subdivisions within the city, streets, bridges, churches, plazas and other significant buildings, topography, river and vegetation. Boundaries delineated with colored outlines in red, blue and green. Relief shown pictorially. Perspective shifts throughout, with buildings, topography and trees illustrated in different orientations. Includes a bar scale, compass rose and labels of the cardinal directions at top, right, bottom and left. Text throughout map and in left margin, labeling streets and buildings, etc. Seal at upper right with Latin phrase \"Plus Ultra\" [= Further beyond], the national motto of Spain. Map indexed to indicate property divisions within the three major quarters, each further segmented into three minor ones. Indices appear on preceding fold-out leaf. Map is 38 x 61 cm, on sheet 43 x 65 cm, folded to 24 x 18 cm. (Title taken from title page.)"
+            },
+            {
+              "label": "City",
+              "value": "Querétaro (Mexico)"
+            },
+            {
+              "label": "Subject",
+              "value": "Land Development"
+            },
+            {
+              "label": "Full Title",
+              "value": "[Ordenanza que papa la division de la m. noble y leal cuidad de Santiago de Queretaro en quartelees menores, creacion de alcaldes de ellos, y reglas para su gobierno, segun lo resuelto por S. M. en Real Cédula de 17 de Junio de 1794, y en virtud de órdenes Superiores de Exmô. Señor Virrey, ha extendido El Corregidor de Latras de la misma Ciudad Lic. D. Joseph Ignacio Ruiz Calado, y aprobó S. E. en Superior Decreto de 4 de Junio de 1796.]"
+            },
+            {
+              "label": "List No",
+              "value": "14293.012"
+            },
+            {
+              "label": "Series No",
+              "value": "12"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Ruiz Calado, Joseph Ignacio"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1796"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Ordenanza que papa la division de la m. noble y leal cuidad de Santiago de Queretaro en quartelees menores, creacion de alcaldes de ellos, y reglas para su gobierno, segun lo resuelto por S. M. en Real Cédula de 17 de Junio de 1794, y en virtud de órdenes Superiores de Exmô. Señor Virrey, ha extendido El Corregidor de Latras de la misma Ciudad Lic. D. Joseph Ignacio Ruiz Calado, y aprobó S. E. en Superior Decreto de 4 de Junio de 1796. En México: por don Mariano de Zúñiga y Ontiveros, calle del Espíritu Santo."
+            },
+            {
+              "label": "Pub Reference",
+              "value": "https://jcblibrary.org/collection/ordenanza-que-para-la-division-de-la-m-noble-y-leal-ciudad-de-santiago-de-queretaro-en"
+            },
+            {
+              "label": "Pub Note",
+              "value": "Woodcut map of Santiago de Queretaro, Mexico, folded within a volume of associated descriptive text. Map shows the political subdivisions within the city, with colored outlines to delineate the three major quarters, each further segmented into three minor ones. Map indexed, with two indices on facing fold-out leaf. \"This rare 1796 map of Queretaro [Santiago de Queretaro] is a colonial-era plan of an urban center in New Spain. Queretaro was a key link between the mining areas to the north of Mexico City and the port of Veracruz. Its location made it one of the most developed and affluent urban centers in eighteenth-century Spanish America. This very early example of urban mapping was originally issued with a set of urban ordinances, demonstrating the reforming intentions of its author - the city’s magistrate - at the pinnacle of the city’s Baroque age. The map depicts each of the city’s 155 blocks. It reveals intimate details of the city’s topography, including the aqueduct, individual buildings, monuments, workshops, fountains, and the network of roads that united the urban structure.\" (Note taken from the John Carter Brown Library record; see link in Pub Reference.)"
+            },
+            {
+              "label": "Pub List No",
+              "value": "14293.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Geography Book"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "1"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "31"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "22"
+            },
+            {
+              "label": "Image No",
+              "value": "14293012.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/14293012.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Ruiz Calado, Joseph Ignacio"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~345920~90113384/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~345920~90113384/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~345920~90113384/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~345920~90113384/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~345920~90113384",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 15881,
+                "height": 10623
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~345920~90113384/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~345920~90113384/canvas/c1/annotation/0q78v0bq3"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~345920~90113384/list/luna"
+          ],
+          "width": 15881,
+          "height": 10623
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/8",
+          "@type": "sc:Canvas",
+          "label": "Image 1",
+          "height": 13406,
+          "width": 21500,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/nm477yr8537/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fnm477yr8537-nm477yr8537_1%2F11083000.jp2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://purl.stanford.edu/nm477yr8537/iiif/canvas/cocina-fileSet-nm477yr8537-nm477yr8537_1",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/nm477yr8537%2F11083000/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 13406,
+                "width": 21500,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/nm477yr8537%2F11083000",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://purl.stanford.edu/nm477yr8537/iiif/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://purl.stanford.edu/nm477yr8537/iiif/canvas/cocina-fileSet-nm477yr8537-nm477yr8537_1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/9",
+          "@type": "sc:Canvas",
+          "label": "Plan Geographique a vol d'oiseau de la ville, des fermes et du canal interoceanique par l'Isthme du Darien (Nouvelle Grenade Amérique du Sud)",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Airiau, Athanase"
+            },
+            {
+              "label": "Date",
+              "value": "1860"
+            },
+            {
+              "label": "Short Title",
+              "value": "Plan Geographique a vol d'oiseau de la ville, des fermes et du canal interoceanique par l'Isthme du Darien (Nouvelle Grenade Amérique du Sud)"
+            },
+            {
+              "label": "Publisher",
+              "value": "Bureaux De La Direction Du Canal"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Paris"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Paris"
+            },
+            {
+              "label": "Publisher",
+              "value": "France, Libraire"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Paris"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Paris"
+            },
+            {
+              "label": "Type",
+              "value": "Book Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "31"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "43"
+            },
+            {
+              "label": "Country",
+              "value": "Nicaragua"
+            },
+            {
+              "label": "Full Title",
+              "value": "Plan Geographique a vol d'oiseau de la ville, des fermes et du canal interoceanique par l'Isthme du Darien (Nouvelle Grenade Amérique du Sud)"
+            },
+            {
+              "label": "List No",
+              "value": "16081.009"
+            },
+            {
+              "label": "Series No",
+              "value": "9"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Belly, Felix"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Airiau, Athanase"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1860"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Percement de L'Isthme de Panama par Le Canal de Nicaragua Expose de La Question [bound with:] Canal Interoceanique par l'Isthme du Darien Nouvelle-Grenade (Amerique du Sud). Canalisation par la Colonisation"
+            },
+            {
+              "label": "Pub Reference",
+              "value": "Julie Velásquez Runk, \"Creating Wild Darién: Centuries of Darién's Imaginative Geography and its Lasting Effects,\" in Journal of Latin American Geography, October 2015."
+            },
+            {
+              "label": "Pub Note",
+              "value": "\"A Pair of Scarce Works on Isthmian Communication - With Many Maps The present volume contains two rare works relating to inter-oceanic communication through Central America. Both books are in French, issued at a pivotal moment in the conceptualization of an interoceanic canal through the Isthmus of Darien, now known as the Isthmus of Panama. The first title, by Felix Belly, includes three folding lithograph maps by A. Thomé de Gamond. Two of the maps relate to Central America, the other being a world map which indicates a profusion of maritime trade routes between Europe and America: Carte de l'Amerique Centrale comprenant les cinq Republiques de Guatemala, San-Salvador, Honduras, Nicaragua, et Costa-Rica... par Mr. A. Thomé de Gamond. Carte indiquant le tracé du Canal de Nicaragua conformément au traité Belly. Carte du Monde Indiquant l'abréviation des Routes maritimes par les Coupures de Suez et de Nicaragua... Central American Utopia: a Panama Canal Fantasy The second work, by Athanase Airiau, published in Paris in 1860, presents a visionary perspective on canalization and colonization in Panama. The work comprises five chapters and includes detailed maps and plans, aiming to support the feasibility and benefits of constructing an interoceanic canal to shorten sea journeys between the Atlantic and Pacific Oceans more than 50 years before the eventual completion of the Panama Canal in 1914. The maps are noteworthy for their somewhat fantastical, fractal-like urban geography, bringing to mind similar geometrically complex colonial plans from previous centuries, such as Sir Robert Montgomery's 1717 plan for the Margravate of Azilia. Airiau aimed his proposal at the authorities of the Granadine Confederation, present-day Colombia. His vision was centered around the canalization and colonization of the Isthmus of Panama. Airiau's ambitious plan included founding 150 farms and a city to be populated by European settlers, who would engage in agricultural activities as well as contribute to the construction and maintenance of the proposed canal. The project envisioned by Airiau was not merely an infrastructural endeavor but also a utopian plan for colonization, featuring pre-defined sections for diverse crops such as vanilla, nopal, indigo, tobacco, cereals, cocoa, cotton, vineyards, sugar, sorghum, fruits, and vegetables, along with various types of livestock. Many of the maps here are dedicated to notable political figures of the time, including Pedro Alcántara Herrán and Mariano Ospina Pérez. Airiau published this work during a period of significant interest in and debate over the potential construction of a canal that would connect the Atlantic and Pacific Oceans and thereby revolutionize global trade routes and maritime navigation. The text underscores the urgency of establishing such a canal, as recognized by the European community, reflecting the geopolitical and economic ambitions of the time. Airiau's advocacy for the Darien route over others is grounded in a comprehensive analysis of the region's geography, climate, and natural resources, positing it as the most favorable location for the canal's construction and for the establishment of a European colony. The narrative elaborates on the envisioned benefits of this dual project, which includes the creation of a maritime and commercial city, envisaging the canal not only as a feat of engineering but also as a catalyst for agricultural and industrial colonization. The city plans are notable, both for showing important urban characteristics and for their unusual shape. The Industrial City has quays and neighborhoods split between France, Russia, Great Britain, Austria, Spain, the Netherlands, Prussia, and the United States. The Agricultural City has roads the zig and zag without any particular purpose beyond top-down aesthetics, with some roads changing course in the middle of open fields where a straight line would have sufficed. Had they ever been completed the cities would have been something to behold, post-Hausmann grand European urban architecture carved out of the jungles of Central America. Despite the innovative nature of Airiau's proposal, it did not come to fruition, a reality attributable to its utopian character. Nonetheless, this historical episode illustrates the early and ambitious endeavors to improve global maritime routes in the Panama region decades before the successful completion of the Panama Canal in the 20th century. Maps and Views Carte Géographique de la République de la Nouvelle Grenade (Amérique du Sud) pour servir à la création d'Écoles Industrielles d'Agriculture, d'Arts et Métiers dans les Huit États de la Confédération. Carte Planimétrique Indiquant l'abréviation des Parcours Maritimes par les coupures des Isthmes du Darien et de Suez. PRESENT EXAMPLE LACKS: (Added with digital image online) Carte Géographique pour servir à l'étude du canal interocéanique par l'isthme du Darién (Nouvelle-Grenade, Amérique du Sud). Plan Geographique a vol d'oiseau de la ville, des fermes et du canal interoceanique par l'Isthme du Darien (Nouvelle Grenade Amérique du Sud) Plan de la ville projetée sur la parcours du canal de jonction de l'Atlantique au Pacifique par l'Isthme du Darien (Nouvelle Grenade Amérique du Sud) Plan-Projet. Ferme Coloniale et Stratégique de Canalisation Agricole, Industrielle, Commerciale et Maritime Propre à Recevoir 1,500 colons, sur le parcours du canal du Darien. (Nouvelle Grenade, Amérique du Sud.) Chapters La Nouvelle Grenade. Considérations générales sur l'opportunité de l'établissement d'un canal interocéanique. Projet d'un canal interocéanique par l'Isthme du Darien. Calcul du nombre probable de mètres cubes dans la tranchée du canal. Exposition sommaire des moyens de réalisation pratique de l'entreprise projetée, principalement en ce qui regarde la colonisation du Darien. Rarity Both works, especially the title by Airiau, are rare on the market.\" (Ruderman, 2024)"
+            },
+            {
+              "label": "Pub List No",
+              "value": "16081.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Geography Book"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "9"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "24"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "16"
+            },
+            {
+              "label": "Image No",
+              "value": "16081009.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/16081009.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Airiau, Athanase"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362148~90129695/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362148~90129695/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~362148~90129695/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~362148~90129695/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~362148~90129695",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 9284,
+                "height": 6748
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362148~90129695/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362148~90129695/canvas/c1/annotation/ugby263s3"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362148~90129695/list/luna"
+          ],
+          "width": 9284,
+          "height": 6748
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/10",
+          "@type": "sc:Canvas",
+          "label": "Carte Géographique pour servir à l'étude du canal interocéanique par l'isthme du Darién (Nouvelle-Grenade, Amérique du Sud).",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Airiau, Athanase"
+            },
+            {
+              "label": "Date",
+              "value": "1860"
+            },
+            {
+              "label": "Short Title",
+              "value": "Carte Géographique pour servir à l'étude du canal interocéanique par l'isthme du Darién (Nouvelle-Grenade, Amérique du Sud)."
+            },
+            {
+              "label": "Publisher",
+              "value": "Bureaux De La Direction Du Canal"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Paris"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Paris"
+            },
+            {
+              "label": "Publisher",
+              "value": "France, Libraire"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Paris"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Paris"
+            },
+            {
+              "label": "Type",
+              "value": "Book Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "60"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "82"
+            },
+            {
+              "label": "Note",
+              "value": "Digital copy only, physical map lacking in this set."
+            },
+            {
+              "label": "Country",
+              "value": "Nicaragua"
+            },
+            {
+              "label": "Full Title",
+              "value": "Carte Géographique pour servir à l'étude du canal interocéanique par l'isthme du Darién (Nouvelle-Grenade, Amérique du Sud)."
+            },
+            {
+              "label": "List No",
+              "value": "16081.007"
+            },
+            {
+              "label": "Series No",
+              "value": "8"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Belly, Felix"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Airiau, Athanase"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1860"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Percement de L'Isthme de Panama par Le Canal de Nicaragua Expose de La Question [bound with:] Canal Interoceanique par l'Isthme du Darien Nouvelle-Grenade (Amerique du Sud). Canalisation par la Colonisation"
+            },
+            {
+              "label": "Pub Reference",
+              "value": "Julie Velásquez Runk, \"Creating Wild Darién: Centuries of Darién's Imaginative Geography and its Lasting Effects,\" in Journal of Latin American Geography, October 2015."
+            },
+            {
+              "label": "Pub Note",
+              "value": "\"A Pair of Scarce Works on Isthmian Communication - With Many Maps The present volume contains two rare works relating to inter-oceanic communication through Central America. Both books are in French, issued at a pivotal moment in the conceptualization of an interoceanic canal through the Isthmus of Darien, now known as the Isthmus of Panama. The first title, by Felix Belly, includes three folding lithograph maps by A. Thomé de Gamond. Two of the maps relate to Central America, the other being a world map which indicates a profusion of maritime trade routes between Europe and America: Carte de l'Amerique Centrale comprenant les cinq Republiques de Guatemala, San-Salvador, Honduras, Nicaragua, et Costa-Rica... par Mr. A. Thomé de Gamond. Carte indiquant le tracé du Canal de Nicaragua conformément au traité Belly. Carte du Monde Indiquant l'abréviation des Routes maritimes par les Coupures de Suez et de Nicaragua... Central American Utopia: a Panama Canal Fantasy The second work, by Athanase Airiau, published in Paris in 1860, presents a visionary perspective on canalization and colonization in Panama. The work comprises five chapters and includes detailed maps and plans, aiming to support the feasibility and benefits of constructing an interoceanic canal to shorten sea journeys between the Atlantic and Pacific Oceans more than 50 years before the eventual completion of the Panama Canal in 1914. The maps are noteworthy for their somewhat fantastical, fractal-like urban geography, bringing to mind similar geometrically complex colonial plans from previous centuries, such as Sir Robert Montgomery's 1717 plan for the Margravate of Azilia. Airiau aimed his proposal at the authorities of the Granadine Confederation, present-day Colombia. His vision was centered around the canalization and colonization of the Isthmus of Panama. Airiau's ambitious plan included founding 150 farms and a city to be populated by European settlers, who would engage in agricultural activities as well as contribute to the construction and maintenance of the proposed canal. The project envisioned by Airiau was not merely an infrastructural endeavor but also a utopian plan for colonization, featuring pre-defined sections for diverse crops such as vanilla, nopal, indigo, tobacco, cereals, cocoa, cotton, vineyards, sugar, sorghum, fruits, and vegetables, along with various types of livestock. Many of the maps here are dedicated to notable political figures of the time, including Pedro Alcántara Herrán and Mariano Ospina Pérez. Airiau published this work during a period of significant interest in and debate over the potential construction of a canal that would connect the Atlantic and Pacific Oceans and thereby revolutionize global trade routes and maritime navigation. The text underscores the urgency of establishing such a canal, as recognized by the European community, reflecting the geopolitical and economic ambitions of the time. Airiau's advocacy for the Darien route over others is grounded in a comprehensive analysis of the region's geography, climate, and natural resources, positing it as the most favorable location for the canal's construction and for the establishment of a European colony. The narrative elaborates on the envisioned benefits of this dual project, which includes the creation of a maritime and commercial city, envisaging the canal not only as a feat of engineering but also as a catalyst for agricultural and industrial colonization. The city plans are notable, both for showing important urban characteristics and for their unusual shape. The Industrial City has quays and neighborhoods split between France, Russia, Great Britain, Austria, Spain, the Netherlands, Prussia, and the United States. The Agricultural City has roads the zig and zag without any particular purpose beyond top-down aesthetics, with some roads changing course in the middle of open fields where a straight line would have sufficed. Had they ever been completed the cities would have been something to behold, post-Hausmann grand European urban architecture carved out of the jungles of Central America. Despite the innovative nature of Airiau's proposal, it did not come to fruition, a reality attributable to its utopian character. Nonetheless, this historical episode illustrates the early and ambitious endeavors to improve global maritime routes in the Panama region decades before the successful completion of the Panama Canal in the 20th century. Maps and Views Carte Géographique de la République de la Nouvelle Grenade (Amérique du Sud) pour servir à la création d'Écoles Industrielles d'Agriculture, d'Arts et Métiers dans les Huit États de la Confédération. Carte Planimétrique Indiquant l'abréviation des Parcours Maritimes par les coupures des Isthmes du Darien et de Suez. PRESENT EXAMPLE LACKS: (Added with digital image online) Carte Géographique pour servir à l'étude du canal interocéanique par l'isthme du Darién (Nouvelle-Grenade, Amérique du Sud). Plan Geographique a vol d'oiseau de la ville, des fermes et du canal interoceanique par l'Isthme du Darien (Nouvelle Grenade Amérique du Sud) Plan de la ville projetée sur la parcours du canal de jonction de l'Atlantique au Pacifique par l'Isthme du Darien (Nouvelle Grenade Amérique du Sud) Plan-Projet. Ferme Coloniale et Stratégique de Canalisation Agricole, Industrielle, Commerciale et Maritime Propre à Recevoir 1,500 colons, sur le parcours du canal du Darien. (Nouvelle Grenade, Amérique du Sud.) Chapters La Nouvelle Grenade. Considérations générales sur l'opportunité de l'établissement d'un canal interocéanique. Projet d'un canal interocéanique par l'Isthme du Darien. Calcul du nombre probable de mètres cubes dans la tranchée du canal. Exposition sommaire des moyens de réalisation pratique de l'entreprise projetée, principalement en ce qui regarde la colonisation du Darien. Rarity Both works, especially the title by Airiau, are rare on the market.\" (Ruderman, 2024)"
+            },
+            {
+              "label": "Pub List No",
+              "value": "16081.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Geography Book"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "9"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "24"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "16"
+            },
+            {
+              "label": "Image No",
+              "value": "16081007.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/16081007.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Airiau, Athanase"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362146~90129701/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362146~90129701/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~362146~90129701/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~362146~90129701/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~362146~90129701",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 16071,
+                "height": 11868
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362146~90129701/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362146~90129701/canvas/c1/annotation/myu3wqiay"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362146~90129701/list/luna"
+          ],
+          "width": 16071,
+          "height": 11868
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/11",
+          "@type": "sc:Canvas",
+          "label": "Geological map and profiles of some of the principal mining districts of\n            Mexico. Geographical Institute, Baron F.W. Von Egloffstein, No. 164 Broadway N. York\n            Lettering by Oliver J. Stuart, N.Y. Entered ... 1864, by F.W. von Egloffstein ... New\n            York. Printed by W. Pate. (with) The Geological profiles. (to accompany) Contributions\n            to the Geology and the Physical Geography of Mexico, including a Geological and\n            Topographical Map ... 1864.",
+          "height": 13396,
+          "width": 14746,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/vf920sg3554/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fxv970xy3176-xv970xy3176_1%2F5521007.jp2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://purl.stanford.edu/vf920sg3554/iiif/canvas/cocina-fileSet-xv970xy3176-xv970xy3176_1",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/xv970xy3176%2F5521007/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 13396,
+                "width": 14746,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/xv970xy3176%2F5521007",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://purl.stanford.edu/vf920sg3554/iiif/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://purl.stanford.edu/vf920sg3554/iiif/canvas/cocina-fileSet-xv970xy3176-xv970xy3176_1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/12",
+          "@type": "sc:Canvas",
+          "label": "Geological map and profiles of some of the principal mining districts of\n            Mexico. Geographical Institute, Baron F.W. Von Egloffstein, No. 164 Broadway N. York\n            Lettering by Oliver J. Stuart, N.Y. Entered ... 1864, by F.W. von Egloffstein ... New\n            York. Printed by W. Pate. (with) The Geological profiles. (to accompany) Contributions\n            to the Geology and the Physical Geography of Mexico, including a Geological and\n            Topographical Map ... 1864.",
+          "height": 12993,
+          "width": 15196,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/vf920sg3554/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fsd193cg2394-sd193cg2394_1%2F5521008.jp2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://purl.stanford.edu/vf920sg3554/iiif/canvas/cocina-fileSet-sd193cg2394-sd193cg2394_1",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/sd193cg2394%2F5521008/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 12993,
+                "width": 15196,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/sd193cg2394%2F5521008",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://purl.stanford.edu/vf920sg3554/iiif/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://purl.stanford.edu/vf920sg3554/iiif/canvas/cocina-fileSet-sd193cg2394-sd193cg2394_1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/13",
+          "@type": "sc:Canvas",
+          "label": "Carta Etnografica. II. A. Garcia Cubas. Propiedad De Los Editores. Publicado por\n   Debray Sucesores - Mexico",
+          "height": 6160,
+          "width": 7825,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/qf485cq3676/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fzb031tf7933-zb031tf7933_1%2F2693002.jp2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://purl.stanford.edu/qf485cq3676/iiif/canvas/cocina-fileSet-zb031tf7933-zb031tf7933_1",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/zb031tf7933%2F2693002/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6160,
+                "width": 7825,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/zb031tf7933%2F2693002",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://purl.stanford.edu/qf485cq3676/iiif/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://purl.stanford.edu/qf485cq3676/iiif/canvas/cocina-fileSet-zb031tf7933-zb031tf7933_1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/14",
+          "@type": "sc:Canvas",
+          "label": "Carta Orografica. VI. A. Garcia Cubas. Propiedad De Los Editores. Publicado por\n   Debray Sucesores - Mexico",
+          "height": 6021,
+          "width": 7700,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/qf485cq3676/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fkr818tz6229-kr818tz6229_1%2F2693006.jp2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://purl.stanford.edu/qf485cq3676/iiif/canvas/cocina-fileSet-kr818tz6229-kr818tz6229_1",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/kr818tz6229%2F2693006/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6021,
+                "width": 7700,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/kr818tz6229%2F2693006",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://purl.stanford.edu/qf485cq3676/iiif/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://purl.stanford.edu/qf485cq3676/iiif/canvas/cocina-fileSet-kr818tz6229-kr818tz6229_1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/15",
+          "@type": "sc:Canvas",
+          "label": "Carta Historica y Arqueologica. X. (with) Radication en Anahuac de los Nahuatlacos\n   A. Garcia Cubas. Propiedad De Los Editores. Publicado por Debray Sucesores -\n   Mexico.",
+          "height": 6160,
+          "width": 7801,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/qf485cq3676/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fkm778kj6715-km778kj6715_1%2F2693010.jp2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://purl.stanford.edu/qf485cq3676/iiif/canvas/cocina-fileSet-km778kj6715-km778kj6715_1",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/km778kj6715%2F2693010/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6160,
+                "width": 7801,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/km778kj6715%2F2693010",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://purl.stanford.edu/qf485cq3676/iiif/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://purl.stanford.edu/qf485cq3676/iiif/canvas/cocina-fileSet-km778kj6715-km778kj6715_1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/16",
+          "@type": "sc:Canvas",
+          "label": "Plano Del Centro De La Ciudad De Mexico - from Apuntes Sobre- la Antiqua Mexico-Tenochtitlan",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Alcocoer, Dr. Ignacio"
+            },
+            {
+              "label": "Date",
+              "value": "1935"
+            },
+            {
+              "label": "Short Title",
+              "value": "Plano Del Centro De La Ciudad De Mexico - from Apuntes Sobre- la Antiqua Mexico-Tenochtitlan"
+            },
+            {
+              "label": "Publisher",
+              "value": "Instituto Panamericano de Geografia e Historia"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Mexico City"
+            },
+            {
+              "label": "Type",
+              "value": "Book Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "55"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "55"
+            },
+            {
+              "label": "Scale 1",
+              "value": "1,500"
+            },
+            {
+              "label": "City",
+              "value": "Mexico City (Mexico)"
+            },
+            {
+              "label": "Subject",
+              "value": "Historical"
+            },
+            {
+              "label": "Full Title",
+              "value": "Plano Del Centro De La Ciudad De Mexico - from Apuntes Sobre- la Antiqua Mexico-Tenochtitlan"
+            },
+            {
+              "label": "List No",
+              "value": "15388.000"
+            },
+            {
+              "label": "Series No",
+              "value": "2"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Alcocoer, Dr. Ignacio"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1935"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Apuntes Sobre- la Antiqua Mexico-Tenochtitlan"
+            },
+            {
+              "label": "Pub Note",
+              "value": "Interesting city plan of the center of Mexico City, on which the plan of the Aztec temple area of Tenochtitlan has been overlaid in red. \"Nota. La lineas y nombres en rojo indican la Ciudad pre-hispánica (México-Tenochtitlan). Las lineas y nombres en negro indican la ciudad moderna.\" The map is taken from Ignacio Alcocer's book entitled Apuntes sobre la antigua México-Tenochtitlán, which seems to be very scarce Ignacio Alcocer Rodriguez was the Governor of Coahuila from April 13th- November 1913 taking over from Venustiano Carranza. He was also Secretary of the Interior (Mexico) from 1913 to 1914. His book covers Aztec and Mesoamerican culture and artifacts."
+            },
+            {
+              "label": "Pub List No",
+              "value": "15388.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Historical Atlas"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "30"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "30"
+            },
+            {
+              "label": "Image No",
+              "value": "15388000.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/15388000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Alcocoer, Dr. Ignacio"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348353~90115913/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348353~90115913/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348353~90115913/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348353~90115913/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348353~90115913",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 13332,
+                "height": 13302
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348353~90115913/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348353~90115913/canvas/c1/annotation/rttr5abmj"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348353~90115913/list/luna"
+          ],
+          "width": 13332,
+          "height": 13302
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/17",
+          "@type": "sc:Canvas",
+          "label": "Mapa de la Ciudad Prehispanica Mexico Tenochtitlan Que Atribuimos a Hernan Cortes",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Alcocoer, Dr. Ignacio"
+            },
+            {
+              "label": "Date",
+              "value": "1935"
+            },
+            {
+              "label": "Short Title",
+              "value": "Mapa de la Ciudad Prehispanica Mexico Tenochtitlan Que Atribuimos a Hernan Cortes"
+            },
+            {
+              "label": "Publisher",
+              "value": "Instituto Panamericano de Geografia e Historia"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Mexico City"
+            },
+            {
+              "label": "Type",
+              "value": "Book Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "52"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "36"
+            },
+            {
+              "label": "City",
+              "value": "Mexico City (Mexico)"
+            },
+            {
+              "label": "Subject",
+              "value": "Historical"
+            },
+            {
+              "label": "Full Title",
+              "value": "Mapa de la Ciudad Prehispanica Mexico Tenochtitlan Que Atribuimos a Hernan Cortes"
+            },
+            {
+              "label": "List No",
+              "value": "15388.003"
+            },
+            {
+              "label": "Series No",
+              "value": "3"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Alcocoer, Dr. Ignacio"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1935"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Apuntes Sobre- la Antiqua Mexico-Tenochtitlan"
+            },
+            {
+              "label": "Pub Note",
+              "value": "Interesting city plan of the center of Mexico City, on which the plan of the Aztec temple area of Tenochtitlan has been overlaid in red. \"Nota. La lineas y nombres en rojo indican la Ciudad pre-hispánica (México-Tenochtitlan). Las lineas y nombres en negro indican la ciudad moderna.\" The map is taken from Ignacio Alcocer's book entitled Apuntes sobre la antigua México-Tenochtitlán, which seems to be very scarce Ignacio Alcocer Rodriguez was the Governor of Coahuila from April 13th- November 1913 taking over from Venustiano Carranza. He was also Secretary of the Interior (Mexico) from 1913 to 1914. His book covers Aztec and Mesoamerican culture and artifacts."
+            },
+            {
+              "label": "Pub List No",
+              "value": "15388.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Historical Atlas"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "30"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "20"
+            },
+            {
+              "label": "Image No",
+              "value": "15388003.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/15388000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Alcocoer, Dr. Ignacio"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348685~90116259/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348685~90116259/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348685~90116259/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348685~90116259/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348685~90116259",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 9743,
+                "height": 13479
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348685~90116259/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348685~90116259/canvas/c1/annotation/nwh658nvg"
+            }
+          ],
+          "width": 9743,
+          "height": 13479
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/18",
+          "@type": "sc:Canvas",
+          "label": "Plan central del Mapa de Cortes, aumentado y a colores distinguir la arquitectura de los principales edificios.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Alcocoer, Dr. Ignacio"
+            },
+            {
+              "label": "Date",
+              "value": "1935"
+            },
+            {
+              "label": "Short Title",
+              "value": "Plan central del Mapa de Cortes, aumentado y a colores distinguir la arquitectura de los principales edificios."
+            },
+            {
+              "label": "Publisher",
+              "value": "Instituto Panamericano de Geografia e Historia"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Mexico City"
+            },
+            {
+              "label": "Type",
+              "value": "Book Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "44"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "50"
+            },
+            {
+              "label": "City",
+              "value": "Mexico City (Mexico)"
+            },
+            {
+              "label": "Subject",
+              "value": "Historical"
+            },
+            {
+              "label": "Full Title",
+              "value": "Plan central del Mapa de Cortes, aumentado y a colores distinguir la arquitectura de los principales edificios."
+            },
+            {
+              "label": "List No",
+              "value": "15388.004"
+            },
+            {
+              "label": "Series No",
+              "value": "4"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Alcocoer, Dr. Ignacio"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1935"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Apuntes Sobre- la Antiqua Mexico-Tenochtitlan"
+            },
+            {
+              "label": "Pub Note",
+              "value": "Interesting city plan of the center of Mexico City, on which the plan of the Aztec temple area of Tenochtitlan has been overlaid in red. \"Nota. La lineas y nombres en rojo indican la Ciudad pre-hispánica (México-Tenochtitlan). Las lineas y nombres en negro indican la ciudad moderna.\" The map is taken from Ignacio Alcocer's book entitled Apuntes sobre la antigua México-Tenochtitlán, which seems to be very scarce Ignacio Alcocer Rodriguez was the Governor of Coahuila from April 13th- November 1913 taking over from Venustiano Carranza. He was also Secretary of the Interior (Mexico) from 1913 to 1914. His book covers Aztec and Mesoamerican culture and artifacts."
+            },
+            {
+              "label": "Pub List No",
+              "value": "15388.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Historical Atlas"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "30"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "20"
+            },
+            {
+              "label": "Image No",
+              "value": "15388004.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/15388000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Alcocoer, Dr. Ignacio"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348686~90116260/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348686~90116260/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348686~90116260/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348686~90116260/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348686~90116260",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 13369,
+                "height": 11595
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348686~90116260/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348686~90116260/canvas/c1/annotation/wnp08zars"
+            }
+          ],
+          "width": 13369,
+          "height": 11595
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/19",
+          "@type": "sc:Canvas",
+          "label": "The Interoceanic Route. The Route that links the Two Oceans. Veracruz to Acapulco.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Gomez, Julio Cesar"
+            },
+            {
+              "label": "Date",
+              "value": "1950"
+            },
+            {
+              "label": "Short Title",
+              "value": "The Interoceanic Route. The Route that links the Two Oceans. Veracruz to Acapulco."
+            },
+            {
+              "label": "Publisher",
+              "value": "Direccion General De Tourismo"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Mexico"
+            },
+            {
+              "label": "Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Type",
+              "value": "View"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "20"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "90"
+            },
+            {
+              "label": "Note",
+              "value": "Date estimated."
+            },
+            {
+              "label": "Country",
+              "value": "Mexico"
+            },
+            {
+              "label": "Subject",
+              "value": "Tourism"
+            },
+            {
+              "label": "Full Title",
+              "value": "The Interoceanic Route. The Route that links the Two Oceans. Veracruz to Acapulco."
+            },
+            {
+              "label": "List No",
+              "value": "15837.002"
+            },
+            {
+              "label": "Series No",
+              "value": "2"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Gomez, Julio Cesar"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1950"
+            },
+            {
+              "label": "Pub Title",
+              "value": "The Interoceanic Route. The Route that links the Two Oceans. Veracruz to Acapulco."
+            },
+            {
+              "label": "Pub List No",
+              "value": "15837.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Pub Type",
+              "value": "View"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "21"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "22"
+            },
+            {
+              "label": "Image No",
+              "value": "15837002.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/15837002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Gomez, Julio Cesar"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357777~90124705/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357777~90124705/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~357777~90124705/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~357777~90124705/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~357777~90124705",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 21322,
+                "height": 5094
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357777~90124705/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357777~90124705/canvas/c1/annotation/hluc5ixms"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357777~90124705/list/luna"
+          ],
+          "width": 21322,
+          "height": 5094
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/20",
+          "@type": "sc:Canvas",
+          "label": "Los recursos pesqueros de Mexico.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Gutiérrez, Tonatiúh, 1929-"
+            },
+            {
+              "label": "Author",
+              "value": "Mexico. Secretaría de Industria y Comercio"
+            },
+            {
+              "label": "Author",
+              "value": "Mexico. Comisión Nacional Consultiva de Pesca"
+            },
+            {
+              "label": "Author",
+              "value": "Instituto Nacional de Investigaciones Biológico Pesqueras (Mexico)"
+            },
+            {
+              "label": "Author",
+              "value": "Mexico. Dirección General de Pesca e Industrias Conexas"
+            },
+            {
+              "label": "Date",
+              "value": "1965"
+            },
+            {
+              "label": "Short Title",
+              "value": "Los recursos pesqueros de Mexico."
+            },
+            {
+              "label": "Publisher",
+              "value": "Mexico. Secretaría de Industria y Comercio"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Mexico"
+            },
+            {
+              "label": "Type",
+              "value": "Atlas Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "24"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "34"
+            },
+            {
+              "label": "Note",
+              "value": "Colored map of Mexico representing the geographic locations of different types of fish. Title translates to: The fishing resources of Mexico. Map shows political borders, coastlines, water routes and fishing locations. Includes a legend and compass rose. Map is 24 x 34 cm; atlas opened to double page 24 x 68 cm. Accompanied by a collage of black and white photographs showing fish on preceding plate. Facing page - interleaved between map and collage - contains accompanying descriptive text on transparent paper, through which one can see a partial view of the collage. Text begins: Por la situacion geográfica de nuestro país, frente al Golfo de México y al Océano Pacífico, y con un litoral aproximado de 10,000 Kms., se presentan características oceanodas zonas, para la presencia de recursos pesqueros comerciales ... [= Due to the geographical situation of our country, facing the Gulf of Mexico and the Pacific Ocean, and with an approximate coastline of 10,000 km, there are characteristics of oceanic regions, for the presence of commercial fishing resources ... ]."
+            },
+            {
+              "label": "Country",
+              "value": "Mexico"
+            },
+            {
+              "label": "Region",
+              "value": "California, Gulf of (Mexico)"
+            },
+            {
+              "label": "Region",
+              "value": "Mexico, Gulf of"
+            },
+            {
+              "label": "Subject",
+              "value": "Fishing"
+            },
+            {
+              "label": "Subject",
+              "value": "Data Visualization"
+            },
+            {
+              "label": "Full Title",
+              "value": "Los recursos pesqueros de Mexico. Atlas pesquero nacional, 1965, Tonatiúh Gutiérrez. Lámina No. 2."
+            },
+            {
+              "label": "List No",
+              "value": "14303.011"
+            },
+            {
+              "label": "Page No",
+              "value": "2"
+            },
+            {
+              "label": "Series No",
+              "value": "11"
+            },
+            {
+              "label": "Engraver or Printer",
+              "value": "Offset Publicitario Mexico"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Gutiérrez, Tonatiúh, 1929-"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Mexico. Secretaría de Industria y Comercio"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Mexico. Comisión Nacional Consultiva de Pesca"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Instituto Nacional de Investigaciones Biológico Pesqueras (Mexico)"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Mexico. Dirección General de Pesca e Industrias Conexas"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1965"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Atlas pesquero nacional. Tonatiuh Gutierrez. México, 1965. Secretaría de Industria y Comercio, Comisión Nacional Consultiva de Pesca, Instituto Nacional de Investigaciones Biológico Pesqueras, Dirección General de Pesca e Industrias Conexas."
+            },
+            {
+              "label": "Pub Note",
+              "value": "Atlas pesquero nacional by Tonatiúh Gutiérrez, published in Mexico, 1965. Title translates to: National fishing atlas. Bound in paper; perfect binding. Front cover decorated with a painting of underwater scenery, La conquista de nuestros recursos marinos [= The conquest of our marine resources], by Eleazar Molina. Printed by Offset Publicitario Mexico, S.A. (credid provided in both colophon on final page and on back cover). Collation: [8] pages, 40 leaves, 40 leaves of double-sided plates. Plates comprised of 22 maps, 18 charts and 40 collages of black and white photographs. Maps show political borders, coastlines, water routes and the locations of the fishing industry, including both fishing and fish processing. Maps accompanied by charts used to convey geographic information through data visualization. Each double-sided plate includes, on the side opposite the maps and charts, a collage of black and white photographs illustrating the fishing industry of Mexico. In addition, interleaved between the pairs of collages and maps/charts, are transparent sheets printed with descriptive text. The transparency allows for a partial view of either the collage or map, depending upon which way it is turned. Atlas includes an introduction and table of contents, as well as a quotation from the President of Mexico, at the time of publication, Gustavo Díaz Ordáz. All together, the maps, charts and photographs synthesize into a dynamic atlas the covers the geography, economy and cultural dimensions of fishing in Mexico."
+            },
+            {
+              "label": "Pub List No",
+              "value": "14303.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "National Atlas"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Thematic Atlas"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "22"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "24"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "34"
+            },
+            {
+              "label": "Image No",
+              "value": "14303011.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/14303011.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Gutiérrez, Tonatiúh, 1929-; Mexico. Secretaría de Industria y Comercio; Mexico. Comisión Nacional Consultiva de Pesca; Instituto Nacional de Investigaciones Biológico Pesqueras (Mexico); Mexico. Dirección General de Pesca e Industrias Conexas"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~358580~90125314/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~358580~90125314/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~358580~90125314/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~358580~90125314/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~358580~90125314",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 7512,
+                "height": 5290
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~358580~90125314/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~358580~90125314/canvas/c1/annotation/9pvekwvsj"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~358580~90125314/list/luna"
+          ],
+          "width": 7512,
+          "height": 5290
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/21",
+          "@type": "sc:Canvas",
+          "label": "Chiapas.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Gutiérrez, Tonatiúh, 1929-"
+            },
+            {
+              "label": "Author",
+              "value": "Mexico. Secretaría de Industria y Comercio"
+            },
+            {
+              "label": "Author",
+              "value": "Mexico. Comisión Nacional Consultiva de Pesca"
+            },
+            {
+              "label": "Author",
+              "value": "Instituto Nacional de Investigaciones Biológico Pesqueras (Mexico)"
+            },
+            {
+              "label": "Author",
+              "value": "Mexico. Dirección General de Pesca e Industrias Conexas"
+            },
+            {
+              "label": "Date",
+              "value": "1965"
+            },
+            {
+              "label": "Short Title",
+              "value": "Chiapas."
+            },
+            {
+              "label": "Publisher",
+              "value": "Mexico. Secretaría de Industria y Comercio"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Mexico"
+            },
+            {
+              "label": "Type",
+              "value": "Atlas Map"
+            },
+            {
+              "label": "Type",
+              "value": "Diagram"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "21"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "25"
+            },
+            {
+              "label": "Note",
+              "value": "Colored map of Chiapas (Mexico) representing the fishing industry. Map shows political borders, coastlines, routes and fishing industry locations. Includes a legend. With an index map indicating the location of Chiapas within Mexico. Also, with various charts, including: Valor de la explotacion mensual en 1962 [= Value of monthly exploitation in 1962] -- % total de especies [= Percentage of total species] -- % del país [= Percentage of the country]. Map is 21 x 25 cm; atlas opened to double page 24 x 68 cm. Accompanied by a collage of black and white photographs showing coins, fish and fishing. Facing page - interleaved between map and collage - contains accompanying descriptive text on transparent paper, through which one can see a partial view of the collage. Text begins: Comparte con Oaxaca una serie de características naturales, en lo que respecta a especies marinas y condiciones oceanográficas, así como en lo que se refiere a los problemas sociales y económicos de sus comunidades indígenas ... [= It shares with Oaxaca a series of natural characteristics, with regard to marine species and oceanographic conditions, as well as with regard to the social and economic problems of its indigenous communities ... ]."
+            },
+            {
+              "label": "Country",
+              "value": "Mexico"
+            },
+            {
+              "label": "Region",
+              "value": "Chiapas (Mexico : State)"
+            },
+            {
+              "label": "Subject",
+              "value": "Fishing"
+            },
+            {
+              "label": "Subject",
+              "value": "Data Visualization"
+            },
+            {
+              "label": "Full Title",
+              "value": "Chiapas. Atlas pesquero nacional, 1965, Tonatiúh Gutiérrez. Lámina No. 30."
+            },
+            {
+              "label": "List No",
+              "value": "14303.067"
+            },
+            {
+              "label": "Page No",
+              "value": "30"
+            },
+            {
+              "label": "Series No",
+              "value": "67"
+            },
+            {
+              "label": "Engraver or Printer",
+              "value": "Offset Publicitario Mexico"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Gutiérrez, Tonatiúh, 1929-"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Mexico. Secretaría de Industria y Comercio"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Mexico. Comisión Nacional Consultiva de Pesca"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Instituto Nacional de Investigaciones Biológico Pesqueras (Mexico)"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Mexico. Dirección General de Pesca e Industrias Conexas"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1965"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Atlas pesquero nacional. Tonatiuh Gutierrez. México, 1965. Secretaría de Industria y Comercio, Comisión Nacional Consultiva de Pesca, Instituto Nacional de Investigaciones Biológico Pesqueras, Dirección General de Pesca e Industrias Conexas."
+            },
+            {
+              "label": "Pub Note",
+              "value": "Atlas pesquero nacional by Tonatiúh Gutiérrez, published in Mexico, 1965. Title translates to: National fishing atlas. Bound in paper; perfect binding. Front cover decorated with a painting of underwater scenery, La conquista de nuestros recursos marinos [= The conquest of our marine resources], by Eleazar Molina. Printed by Offset Publicitario Mexico, S.A. (credid provided in both colophon on final page and on back cover). Collation: [8] pages, 40 leaves, 40 leaves of double-sided plates. Plates comprised of 22 maps, 18 charts and 40 collages of black and white photographs. Maps show political borders, coastlines, water routes and the locations of the fishing industry, including both fishing and fish processing. Maps accompanied by charts used to convey geographic information through data visualization. Each double-sided plate includes, on the side opposite the maps and charts, a collage of black and white photographs illustrating the fishing industry of Mexico. In addition, interleaved between the pairs of collages and maps/charts, are transparent sheets printed with descriptive text. The transparency allows for a partial view of either the collage or map, depending upon which way it is turned. Atlas includes an introduction and table of contents, as well as a quotation from the President of Mexico, at the time of publication, Gustavo Díaz Ordáz. All together, the maps, charts and photographs synthesize into a dynamic atlas the covers the geography, economy and cultural dimensions of fishing in Mexico."
+            },
+            {
+              "label": "Pub List No",
+              "value": "14303.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "National Atlas"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Thematic Atlas"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "22"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "24"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "34"
+            },
+            {
+              "label": "Image No",
+              "value": "14303067.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/14303067.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Gutiérrez, Tonatiúh, 1929-; Mexico. Secretaría de Industria y Comercio; Mexico. Comisión Nacional Consultiva de Pesca; Instituto Nacional de Investigaciones Biológico Pesqueras (Mexico); Mexico. Dirección General de Pesca e Industrias Conexas"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~358636~90125282/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~358636~90125282/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~358636~90125282/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~358636~90125282/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~358636~90125282",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 7438,
+                "height": 5217
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~358636~90125282/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~358636~90125282/canvas/c1/annotation/j3jiy7fd0"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~358636~90125282/list/luna"
+          ],
+          "width": 7438,
+          "height": 5217
+        },
+        {
+          "@id": "https://example.org/manifest/Timescales/canvas/22",
+          "@type": "sc:Canvas",
+          "label": "Land of Opportunity",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Zheng, Yunxin (Connie)"
+            },
+            {
+              "label": "Date",
+              "value": "2022"
+            },
+            {
+              "label": "Short Title",
+              "value": "Land of Opportunity"
+            },
+            {
+              "label": "Type",
+              "value": "Artwork"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "213"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "213"
+            },
+            {
+              "label": "Note",
+              "value": "\"Mixed media drawing and collage on cyanotype print. Land of Opportunity is a map that documents forty-three of the most well-documented toxic sites in the Bay Area, alongside local environmental justice protests and both federal and community-based remediation efforts. The tar-like blobs dripping down the paper are places notable for the amount of toxic material that has leaked into the soil and groundwater primarily as a result of high-tech industry, military activities, mercury mining during the gold rush era, and nuclear testing in the South Pacific during World War II. Despite its reputation for being one of the ‘greenest’ places in the United States, the Bay Area also has one of the highest concentrations of Superfund sites in the country, particularly in Silicon Valley, the techno-utopian capital of the United States. The map emphasizes community-based, grassroots organizing efforts, and shows both the kinds of poisons that have contaminated the land as well as the ways in which surrounding communities have protested the presence of these polluters and demanded their right to a clean, healthy environment. Land of Opportunity is a register of the ways in which the Bay Area has been shaped — both figuratively and literally — by dominant settler narratives of the landscape’s potential for wealth and resource extraction. But it is also more than the shadowland of settler, entrepreneurial greed, or the American imperial war machine: it’s also a place constituted and nourished by strong radical politics, care for community, and a trust in the power of local organizing. We live in a place of endless possibility — where the byproducts of greed and warmongering can be sublimated into other forms of power, and politics can be shaped in certain places by the will of the people.\" Connie Zheng, 2022 https://www.conniezheng.com"
+            },
+            {
+              "label": "Reference",
+              "value": "This artwork is copyright by Connie Zheng. Please contact the artist for reproduction or exhibit. https://www.conniezheng.com"
+            },
+            {
+              "label": "City",
+              "value": "San Francisco (Calif.)"
+            },
+            {
+              "label": "Region",
+              "value": "San Francisco Bay (Calif.)"
+            },
+            {
+              "label": "Subject",
+              "value": "Art"
+            },
+            {
+              "label": "Subject",
+              "value": "Food"
+            },
+            {
+              "label": "Full Title",
+              "value": "Land of Opportunity"
+            },
+            {
+              "label": "List No",
+              "value": "15417.000"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Zheng, Yunxin (Connie)"
+            },
+            {
+              "label": "Pub Date",
+              "value": "2022"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Land of Opportunity"
+            },
+            {
+              "label": "Pub List No",
+              "value": "15417.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Artwork"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "213"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "213"
+            },
+            {
+              "label": "Image No",
+              "value": "15417000.jp2"
+            },
+            {
+              "label": "Authors",
+              "value": "Zheng, Yunxin (Connie)"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348737~90116370/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348737~90116370/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348737~90116370/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348737~90116370/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348737~90116370",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 25136,
+                "height": 25159
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348737~90116370/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348737~90116370/canvas/c1/annotation/p7zdighhs"
+            }
+          ],
+          "width": 25136,
+          "height": 25159
+        }
+      ]
+    }
+  ]
+}

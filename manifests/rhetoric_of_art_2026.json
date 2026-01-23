@@ -1,0 +1,3505 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://example.org/collection/rhetoric of art 2026",
+  "label": "Rhetoric of Art PWR 2026",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~267441~90041892/manifest",
+      "label": "Imperial Airways Map of Empire & European Air Routes.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~267441~90041892/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~267441~90041892/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Imperial Airways Map of Empire & European Air Routes.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Moholy-Nagy, Laszlo"
+                },
+                {
+                  "label": "Author",
+                  "value": "Imperial Airways Ltd."
+                },
+                {
+                  "label": "Date",
+                  "value": "1937"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Imperial Airways Map of Empire & European Air Routes."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Imperial Airways Ltd."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "65"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "101"
+                },
+                {
+                  "label": "Note",
+                  "value": "This extraordinary world map by noted Bauhaus designer and artist, Laszlo Moholy-Nagy, draws on the pioneering information design work of Harry Beck and his London subway maps, here used to show the routes of Imperial Airways and associated airlines. What is special about the map is the combining of the more standard world map with air routes shown, with the abstract version in Beck's style of the entire route system, in an overlaid diagram floating above the Americas and the southern Pacific ocean. To further complicate the design, Moholy-Nagy uses Stanford maps with their more standard map conventions to delineate the countries that made up the British empire in 1937. The remainder of the world is left abstract. This is a very unusual map and very rare. Moholy-Nagy's name is not printed on the map, but the attribution comes from Borchardt-Hume, \"Albers and Moholy-Nagy: From the Bauhaus to the New World,\" 2006 Tate Publications, London. Clearly shows the British Empire and air routes. Inset shows frequency of service and miles from London for Europe, Africa, Asia and Australia/New Zealand."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Borchardt-Hume, \"Albers and Moholy-Nagy: From the Bauhaus to the New World,\" 2006, Tate Publications, London, p.58."
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Airlines"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Transit"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Imperial Airways Map of Empire & European Air Routes. ... Published by Imperial Airways Ltd. I A/P/61-1M 4/37."
+                },
+                {
+                  "label": "List No",
+                  "value": "8717.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Curwen Press Ltd."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Moholy-Nagy, Laszlo"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Imperial Airways Ltd."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1937"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Imperial Airways Map of Empire & European Air Routes. ... Published by Imperial Airways Ltd. I A/P/61-1M 4/37."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "This extraordinary world map by noted Bauhaus designer and artist, Laszlo Moholy-Nagy, draws on the pioneering information design work of Harry Beck and his London subway maps, here used to show the routes of Imperial Airways and associated airlines. What is special about the map is the combining of the more standard world map with air routes shown, with the abstract version in Beck's style of the entire route system, in an overlaid diagram floating above the Americas and the southern Pacific ocean. To further complicate the design, Moholy-Nagy uses Stanford maps with their more standard map conventions to delineate the countries that made up the British empire in 1937. The remainder of the world is left abstract. This is a very unusual map and very rare. Moholy-Nagy's name is not printed on the map, but the attribution comes from Borchardt-Hume, \"Albers and Moholy-Nagy: From the Bauhaus to the New World,\" 2006 Tate Publications, London. Clearly shows the British Empire and air routes. Inset shows frequency of service and miles from London for Europe, Africa, Asia and Australia/New Zealand."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8717.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "65"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "101"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8717000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/136/8717000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Moholy-Nagy, Laszlo; Imperial Airways Ltd."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~267441~90041892/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~267441~90041892/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~267441~90041892",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 20088,
+                    "height": 13140
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~267441~90041892/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~267441~90041892/list/luna"
+              ],
+              "width": 20088,
+              "height": 13140
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~267441~90041892"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~306114~90076504/manifest",
+      "label": "New York City Railway system. February 2011",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~306114~90076504/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~306114~90076504/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "New York City Railway system. February 2011",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Zero per Zero"
+                },
+                {
+                  "label": "Date",
+                  "value": "2014"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "New York City Railway system. February 2011"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Zero per Zero"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Korea"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "88"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Updated large color Railway system map of New York City in orange. Designed and produced by Zero Per Zero, printed with black background, inspired by the shape of heart from Milton Glaser's \"I love NY\" logo. Famous landmarks and tourist attractions are incorporated into the map, creating a sense of New York City as a tourist spot. Zero Per Zero City Railway System is a new approach to projecting the identity of a city onto its subway map. Showing streets, parks, cemetery, tourist attractions, train stations, airports, express and normal trains. Landmarks shown pictorially. Includes legend and street index. For copies of this map see http://www.zeroperzero.com/"
+                },
+                {
+                  "label": "City",
+                  "value": "New York City (N.Y.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Railroad"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Subway"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Transit"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "New York City Railway system/ February 2011. Designed + produce by Zero Per Zero. Printed in Korea."
+                },
+                {
+                  "label": "List No",
+                  "value": "11870.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Zero per Zero"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "2011"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "New York City Railway system. February 2011. Designed + produce by Zero Per Zero. Printed in Korea."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11870.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "88"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11870000.jp2"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Zero per Zero"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~306114~90076504/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~306114~90076504/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~306114~90076504",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 17376,
+                    "height": 12115
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~306114~90076504/canvas/c1"
+                }
+              ],
+              "width": 17376,
+              "height": 12115
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~306114~90076504"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~295715~90066654/manifest",
+      "label": "New York City Subway Diagram, 2012.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~295715~90066654/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~295715~90066654/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "New York City Subway Diagram, 2012.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Vignelli Associates"
+                },
+                {
+                  "label": "Author",
+                  "value": "Vignelli, Massimo (1931-2014)"
+                },
+                {
+                  "label": "Date",
+                  "value": "2012"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "New York City Subway Diagram, 2012."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Metropolitn Transportation Authority"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "93"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "116"
+                },
+                {
+                  "label": "Note",
+                  "value": "Schematic of the New York City subway system. A later edition of the iconic 1972 map (see our 9891.000)."
+                },
+                {
+                  "label": "City",
+                  "value": "New York (N.Y.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Transportation"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Railroad"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Transit"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "New York City Subway Diagram, 2012."
+                },
+                {
+                  "label": "List No",
+                  "value": "12364.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Vignelli Associates"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Vignelli, Massimo (1931-2014)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "2012"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "New York City Subway Diagram, 2012."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Color."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12364.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "93"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "116"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12364000.jp2"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Vignelli Associates; Vignelli, Massimo (1931-2014)"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~295715~90066654/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~295715~90066654/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~295715~90066654",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 14586,
+                    "height": 18208
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~295715~90066654/canvas/c1"
+                }
+              ],
+              "width": 14586,
+              "height": 18208
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~295715~90066654"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272449~90046214/manifest",
+      "label": "Air India route map (hand fan)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~272449~90046214/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272449~90046214/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Air India route map (hand fan)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Air India"
+                },
+                {
+                  "label": "Date",
+                  "value": "1960"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Air India route map (hand fan)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Air India"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "India"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Date estimated. Promotional rare paper hand fan 24x25, with wooden handle, 16 cm. Colored in gold, blue, and orange, with gold borders. Elaborate colored illustration on verso. Show Air India routes to five continents, to New York, Europe, East Africa, Asia and Australia."
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Airlines"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Air India route map (hand fan) . (Color illustration on verso)."
+                },
+                {
+                  "label": "List No",
+                  "value": "8187.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Air India"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1960"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Air India route map (hand fan) . (Color illustration on verso)."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8187.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Advertisement"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8187000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/8187000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Air India"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~272449~90046214/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~272449~90046214/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~272449~90046214",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11392,
+                    "height": 8240
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272449~90046214/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272449~90046214/list/luna"
+              ],
+              "width": 11392,
+              "height": 8240
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~272449~90046214"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289030~90060569/manifest",
+      "label": "Poloniae.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~289030~90060569/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289030~90060569/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Poloniae.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Kanarek"
+                },
+                {
+                  "label": "Author",
+                  "value": "Lipski"
+                },
+                {
+                  "label": "Date",
+                  "value": "1938"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Poloniae."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Central Board of Polish State Forests"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Warsaw"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "46"
+                },
+                {
+                  "label": "Note",
+                  "value": "\"Map was made in 1938 in Krakow and designed and illustrated by Tadeusz Lipski and Eliasz Kanarek. This rare edition of pre-war Poland was meant for the world exhibition in New York 1939-1940 to advertise the Polish forest, industry and wildlife in Polish forests. It did not come this far, not because of the war but due to the objection of Germany and Russia, which did not agree with the images on the south and eastern border of Poland: on the south side, they depicted Germans who are performing the Nazi salute; on the eastern border, the NKVD is lined up in shooting position. As a result, this version was taken out of print and there are only a few copies left.\" From https://bit.ly/2YPPCOd"
+                },
+                {
+                  "label": "Country",
+                  "value": "Poland"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Forests"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Poloniae."
+                },
+                {
+                  "label": "List No",
+                  "value": "12154.001"
+                },
+                {
+                  "label": "Page No",
+                  "value": "map"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Kanarek"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Lipski"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1938"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Poloniae."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"Printed by the Central Board of State Forests for Free Distribution at the New York World's Fair\"."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12154.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "46"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12154001.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/12154001.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Kanarek; Lipski"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~289030~90060569/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~289030~90060569/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~289030~90060569",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 9112,
+                    "height": 7032
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289030~90060569/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289030~90060569/list/luna"
+              ],
+              "width": 9112,
+              "height": 7032
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~289030~90060569"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~304731~90075290/manifest",
+      "label": "Carte figurative...de coton...1858 et 1861",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~304731~90075290/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~304731~90075290/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Carte figurative...de coton...1858 et 1861",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Minard, Charles Joseph, 1781-1870"
+                },
+                {
+                  "label": "Date",
+                  "value": "1861"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Carte figurative...de coton...1858 et 1861"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Regnier et Dourdet"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "Statistical Diagram"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "54"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "88"
+                },
+                {
+                  "label": "Note",
+                  "value": "Folds into covers with label \"1858-1861 Importation du Coton.\" Robinson, no.30. Signed by Minard. \"The map entitled 'Carte... des quantités de coton en laine importés en Europe en 1858 et 1861' shows two flow-maps of the Atlantic trade in wool and cotton, three years apart. The time period covers the beginning of the American Civil War, which was sparked by the slavery policies of the Lincoln presidency. By January 1861, seven of the southern states had seceded to form the Confederacy. The war between the Confederacy and the states who remained in the Union lasted until 1865, and had a devastating effect on American exports. The seven separatist states are marked on both maps. A line graph in the upper right corner shows the yearly export amounts of wool and cotton for America (blue). There is a sharp drop in exports from 1860, when the issues provoking the Civil War came to prominence. Comparing the two maps gives an even clearer picture of the change; by 1861 the amount of cotton and wool imported into Britain from the East Indies (yellow) had almost tripled, whereas the amount imported from America (blue) had only risen by a paltry 16,000 tons. Britain was then re-exporting the excess to other European countries (pink), at a rate three times higher than before the start of the Civil War.\" (Crouch)."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Arthur H. Robinson (1967), 'The Thematic Maps of Charles Joseph Minard', Imago Mundi, Vol. 21, (1967), pp. 95-108"
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Event",
+                  "value": "U.S. Civil War"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Carte figurative et approximative des quantités de coton en laine importés en Europe en 1858 et 1861 [Quantities of cotton and wool imported into Europe in 1858 and 1861]."
+                },
+                {
+                  "label": "List No",
+                  "value": "10135.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Minard, Charles Joseph, 1781-1870"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1862"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Carte figurative et approximative des quantités de coton en laine importés en Europe en 1858 et 1861 [Quantities of cotton and wool imported into Europe in 1858 and 1861]."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "See the complete portfolio of Minard's maps at the Bibliotheque Ecole des Ponts et Chaussees https://patrimoine.enpc.fr/document/ENPC01_Fol_10975 See the general listing of Minard's works at the same source https://patrimoine.enpc.fr/collections/show/12 See also RJ Andrews' catalog of Minard's maps with links to images http://infowetrust.com/wp-content/uploads/2017/03/Minard-catalog.pdf"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"Charles Joseph Minard (1781-1870) was \"a true pioneer in thematic cartography and in statistical graphics\" (Friendly). He began as a civil engineer, and by 1810 was working on behalf of the French government in Antwerp and Vlissingen. Minard went on to have a long and productive career, working on projects throughout Europe, and was named Superintendent of the School of Bridges and Roads in France in 1830. Six years later, he became Inspector of the Corps of Bridges. In 1851, he took mandatory retirement, although still working in an advisory capacity, and undertook private research. This is when his cartographical career began in earnest. He created 56 statistical maps over his lifetime, the most famous of which was the 'Carte figurative des pertes successives en hommes de l'Armée Française dans la campagne de Russie 1812-1813', showing the losses suffered by Napoleon's army during his failed invasion of Russia. Minard's genius lay in his realization that maps could provide visually clear renditions of complicated statistics. He wrote that the aim of his work was not to convey statistical results, but to show the relations between them, which would otherwise have to be worked out by the reader. He would often alter geographical reality on a map in order to make a diagram clearer, and so added the term 'approximative' to the title of his works to explain his decision. He was possibly the first to use the flow-map technique (his writing indicates that he believed he had invented it) and he was certainly the first to use pie charts on a map. The importance of Minard's work was quickly recognized by the French government. He was awarded the Legion d'Honneur, and throughout the 1850s all Ministers of Public Works in France had their portrait painted with a Minard chart in the background. In 1861, his work was presented to Napoleon III. Minard's maps were not widely known in his lifetime outside of the intelligentsia and upper levels of government, suggesting that he published them privately (Robinson).\" (Crouch). This map is part of a set of 15 Minard maps - for the complete set see Pub List No.'s 10132.000 through 10146.000"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10135.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "17"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10135002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/10135002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Minard, Charles Joseph, 1781-1870"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~304731~90075290/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~304731~90075290/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~304731~90075290",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 24038,
+                    "height": 15008
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~304731~90075290/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~304731~90075290/list/luna"
+              ],
+              "width": 24038,
+              "height": 15008
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~304731~90075290"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248321~5516059/manifest",
+      "label": "Plate 47. Lands.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~248321~5516059/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248321~5516059/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Plate 47. Lands.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Paullin, Charles O."
+                },
+                {
+                  "label": "Author",
+                  "value": "Wright, John K."
+                },
+                {
+                  "label": "Date",
+                  "value": "1932"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Plate 47. Lands."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Carnegie Institution of Washington"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington (D.C.)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "American Geographical Society of New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington (D.C.)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "50"
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Historical"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Plate 47. Lands. Indian Cessions 1750-1890. Claims and Cessions of Western Lands, 1776-1803 Connecticut and South Carolina. Claims and Cessions of Western Lands, 1776-1802, New York. Claims and Cessions of Western Lands, 1776-1802, Virginia and Georgia. Claims and Cessions of Western Lands, 1776-1802, Massachusetts and North Carolina."
+                },
+                {
+                  "label": "List No",
+                  "value": "0702.050"
+                },
+                {
+                  "label": "Page No",
+                  "value": "Plate 47"
+                },
+                {
+                  "label": "Series No",
+                  "value": "55"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "A. Hoen & Co."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Paullin, Charles O."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Wright, John K."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1932"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlas of the Historical Geography of the United States. By Charles O. Paullin, Carnegie Institution of Washington. Edited by John K. Wright, Librarian, American Geographical Society of New York. Published Jointly by Carnegie Institution of Washington and the American Geographical Society of New York, 1932."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "This is one of the best historical atlases published in the early 20th century. It combines history and geography, facsimile historical maps and new historical maps, and incorporates time and statistics in imaginative map visualizations. The text and maps are based upon information supplied by prominent authorities on the various subjects. The quality of the contents is also reflected by the authoritative map publishers. Numerous facsimile maps are included."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "0702.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Historical Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "166"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Image No",
+                  "value": "0702050"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/0702050.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Paullin, Charles O.; Wright, John K."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~248321~5516059/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~248321~5516059/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~248321~5516059",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11607,
+                    "height": 7094
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248321~5516059/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248321~5516059/list/luna"
+              ],
+              "width": 11607,
+              "height": 7094
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~248321~5516059"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248308~5516051/manifest",
+      "label": "Plate 39. Explorers. French and American Explorations in the West 1673 - 1852.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~248308~5516051/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248308~5516051/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Plate 39. Explorers. French and American Explorations in the West 1673 - 1852.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Paullin, Charles O."
+                },
+                {
+                  "label": "Author",
+                  "value": "Wright, John K."
+                },
+                {
+                  "label": "Date",
+                  "value": "1852"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Plate 39. Explorers. French and American Explorations in the West 1673 - 1852."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Carnegie Institution of Washington"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington (D.C.)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "American Geographical Society of New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington (D.C.)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Note",
+                  "value": "Shows routes of 52 exploers."
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Historical"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Plate 39. Explorers. French Explorations in the West, 1673-1743 (1794). American Explorations in the West, 1803-1852."
+                },
+                {
+                  "label": "List No",
+                  "value": "0702.042"
+                },
+                {
+                  "label": "Page No",
+                  "value": "Plate 39"
+                },
+                {
+                  "label": "Series No",
+                  "value": "47"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "A. Hoen & Co."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Paullin, Charles O."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Wright, John K."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1932"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlas of the Historical Geography of the United States. By Charles O. Paullin, Carnegie Institution of Washington. Edited by John K. Wright, Librarian, American Geographical Society of New York. Published Jointly by Carnegie Institution of Washington and the American Geographical Society of New York, 1932."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "This is one of the best historical atlases published in the early 20th century. It combines history and geography, facsimile historical maps and new historical maps, and incorporates time and statistics in imaginative map visualizations. The text and maps are based upon information supplied by prominent authorities on the various subjects. The quality of the contents is also reflected by the authoritative map publishers. Numerous facsimile maps are included."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "0702.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Historical Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "166"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Image No",
+                  "value": "0702042"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/0702042.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Paullin, Charles O.; Wright, John K."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~248308~5516051/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~248308~5516051/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~248308~5516051",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11609,
+                    "height": 7113
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248308~5516051/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248308~5516051/list/luna"
+              ],
+              "width": 11609,
+              "height": 7113
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~248308~5516051"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248344~5516072/manifest",
+      "label": "Plate 60. Settlement and Population, 1660-1790.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~248344~5516072/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248344~5516072/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Plate 60. Settlement and Population, 1660-1790.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Paullin, Charles O."
+                },
+                {
+                  "label": "Author",
+                  "value": "Wright, John K."
+                },
+                {
+                  "label": "Date",
+                  "value": "1932"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Plate 60. Settlement and Population, 1660-1790."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Carnegie Institution of Washington"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington (D.C.)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "American Geographical Society of New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington (D.C.)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Historical"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Plate 60. Settlement and Population, 1660-1790. Settled Areas and Population, 1660. Settled Areas and Population, 1770. Settled Areas, 1760, and Population, 1750. Settled Areas and Population, 1775. Settled Areas and Population, 1790."
+                },
+                {
+                  "label": "List No",
+                  "value": "0702.063"
+                },
+                {
+                  "label": "Page No",
+                  "value": "Plate 60"
+                },
+                {
+                  "label": "Series No",
+                  "value": "68"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "A. Hoen & Co."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Paullin, Charles O."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Wright, John K."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1932"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlas of the Historical Geography of the United States. By Charles O. Paullin, Carnegie Institution of Washington. Edited by John K. Wright, Librarian, American Geographical Society of New York. Published Jointly by Carnegie Institution of Washington and the American Geographical Society of New York, 1932."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "This is one of the best historical atlases published in the early 20th century. It combines history and geography, facsimile historical maps and new historical maps, and incorporates time and statistics in imaginative map visualizations. The text and maps are based upon information supplied by prominent authorities on the various subjects. The quality of the contents is also reflected by the authoritative map publishers. Numerous facsimile maps are included."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "0702.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Historical Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "166"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Image No",
+                  "value": "0702063"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/0702063.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Paullin, Charles O.; Wright, John K."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~248344~5516072/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~248344~5516072/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~248344~5516072",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 5914,
+                    "height": 7127
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248344~5516072/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248344~5516072/list/luna"
+              ],
+              "width": 5914,
+              "height": 7127
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~248344~5516072"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248457~5516172/manifest",
+      "label": "Plate 160. Military History. American Revolution, 1775 - 1800.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~248457~5516172/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248457~5516172/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Plate 160. Military History. American Revolution, 1775 - 1800.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Paullin, Charles O."
+                },
+                {
+                  "label": "Author",
+                  "value": "Wright, John K."
+                },
+                {
+                  "label": "Date",
+                  "value": "1932"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Plate 160. Military History. American Revolution, 1775 - 1800."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Carnegie Institution of Washington"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington (D.C.)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "American Geographical Society of New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington (D.C.)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "New Jersey"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "New York"
+                },
+                {
+                  "label": "City",
+                  "value": "Yorktown (Va.)"
+                },
+                {
+                  "label": "Event",
+                  "value": "American Revolution"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Historical"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Military"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Plate 160. Military History. The American Revolution, 1775 - 1783. 1775 - 1776. 1777. 1778 - 1779. Naval Battles, 1776 - 1800, War of the Revolution and War with France. The South, 1778 - 1779. The South, 1780. New York and New Jersey, 1780, Greene's Campaigns, 1781. 1781, Yorktown, 1781."
+                },
+                {
+                  "label": "List No",
+                  "value": "0702.163"
+                },
+                {
+                  "label": "Page No",
+                  "value": "Plate 160"
+                },
+                {
+                  "label": "Series No",
+                  "value": "168"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "A. Hoen & Co."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Paullin, Charles O."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Wright, John K."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1932"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlas of the Historical Geography of the United States. By Charles O. Paullin, Carnegie Institution of Washington. Edited by John K. Wright, Librarian, American Geographical Society of New York. Published Jointly by Carnegie Institution of Washington and the American Geographical Society of New York, 1932."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "This is one of the best historical atlases published in the early 20th century. It combines history and geography, facsimile historical maps and new historical maps, and incorporates time and statistics in imaginative map visualizations. The text and maps are based upon information supplied by prominent authorities on the various subjects. The quality of the contents is also reflected by the authoritative map publishers. Numerous facsimile maps are included."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "0702.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Historical Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "166"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Image No",
+                  "value": "0702163"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/0702163.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Paullin, Charles O.; Wright, John K."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~248457~5516172/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~248457~5516172/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~248457~5516172",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11560,
+                    "height": 7216
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248457~5516172/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248457~5516172/list/luna"
+              ],
+              "width": 11560,
+              "height": 7216
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~248457~5516172"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~308707~90078572/manifest",
+      "label": "Composite: Sheets 1-46 Forma Urbis Romae.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~308707~90078572/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~308707~90078572/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Composite: Sheets 1-46 Forma Urbis Romae.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Lanciani, Rudolfo"
+                },
+                {
+                  "label": "Date",
+                  "value": "1901"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Composite: Sheets 1-46 Forma Urbis Romae."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Edizioni Quasar"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Rome"
+                },
+                {
+                  "label": "Type",
+                  "value": "Composite Map"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "2,000"
+                },
+                {
+                  "label": "Reference",
+                  "value": "Copies of these maps may be purchased from Edizioni Quasar at http://www.edizioniquasar.it/sku.php?id_libro=1645&bef=1783&aft=2097"
+                },
+                {
+                  "label": "City",
+                  "value": "Rome (Italy)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Archeology"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Composite map of) Sheets 1-46 Forma Urbis Romae."
+                },
+                {
+                  "label": "List No",
+                  "value": "10199.060"
+                },
+                {
+                  "label": "Series No",
+                  "value": "60"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Lanciani, Rudolfo"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1990"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Forma Urbis Romae"
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "View this map in Google Earth https://rumsey3.s3.amazonaws.com/Rome%20Historical%20Lanciani.kmz Requires Google Earth Application https://www.google.com/earth/download/gep/agree.html"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "This edition by Quasar is a reprint of Rudolfo Lanciani's 1901 edition of Forma Urbis Romae, reduced by half. The sheets of the 1901 edition were 57 x 87 cm at a scale of 1:1,000. Included in this Quasar edition is an introduction by Filippo Coarelli giving background and context to Lanciani's work. Lanciani's map shows the built history of Rome from ancient times to the end of the 19th century. Using black, red, and blue colors, the map defines the different historical layers of the city's past - black for the ancient monuments, red for the early modern city and blue for the city at the time Lanciani published the map. Lanciani relied on thousands of photographs, drawings, and other documents, many of which are now online at https://exhibits.stanford.edu/lanciani Lanciani also used Nolli's 1748 map of Rome as source for his red colored layer - see our copy https://www.davidrumsey.com/luna/servlet/s/t74mn3 Although a hundred years old, Lanciani's map remains an important source of information on Rome's past and is a landmark in the evolution of historical mapping and data visualization."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10199.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "City Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Historical Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "47"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10199060.jp2"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Lanciani, Rudolfo"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~308707~90078572/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~308707~90078572/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~308707~90078572",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 83694,
+                    "height": 55348
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~308707~90078572/canvas/c1"
+                }
+              ],
+              "width": 83694,
+              "height": 55348
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~308707~90078572"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299542~90070534/manifest",
+      "label": "Woodstock August 13, 1969",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~299542~90070534/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299542~90070534/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Woodstock August 13, 1969",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "The East Village Other"
+                },
+                {
+                  "label": "Date",
+                  "value": "1969"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Woodstock August 13, 1969"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "The East Village Other"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Color pictorial map of the 3 days of peace and music in 1969. Published on the cover of The East Village Other, New York City based underground newspaper offered the routes to the festival on the cover in a \"yellow submarine\" style of surrealistic images."
+                },
+                {
+                  "label": "City",
+                  "value": "New York (N.Y.)"
+                },
+                {
+                  "label": "City",
+                  "value": "Woodstock (N.Y.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Satirical"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "The East Village Other : Woodstock August 13, 1969. Vol. 4, No. 37."
+                },
+                {
+                  "label": "List No",
+                  "value": "11633.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "The East Village Other"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1969"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The East Village Other : Woodstock August 13, 1969. Vol. 4, No. 37."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11633.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11633000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/11633000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "The East Village Other"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~299542~90070534/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~299542~90070534/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~299542~90070534",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 5938,
+                    "height": 8214
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299542~90070534/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299542~90070534/list/luna"
+              ],
+              "width": 5938,
+              "height": 8214
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~299542~90070534"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~274078~90047809/manifest",
+      "label": "New York City",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~274078~90047809/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~274078~90047809/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "New York City",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Anonymous"
+                },
+                {
+                  "label": "Date",
+                  "value": "1970"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "New York City"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "No Publisher"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Colored pictorial map of New York City with the buildings rendered as a bird’s-eye view in isometric perspective, presents detail view from New York City to the rest of the United States and the world showing New York as the center of the world, with a strip along Hudson River representing New Jersey, San Francisco, Los Angeles, Texas, Miami, and Washington, D.C. Flattened land masses labeled China, Japan and Russia, Ireland, England, France, Spain and Italy on left and right panels. Each buildings, restaurants, places of interest labeled. Shows Empire State building in top center and Statue of Liberty on lower cent of the map. Date estimated. No Publisher and cartographer."
+                },
+                {
+                  "label": "City",
+                  "value": "New York (N.Y.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "New York."
+                },
+                {
+                  "label": "List No",
+                  "value": "8484.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Anonymous"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1970"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "New York."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8484.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8484000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/8484000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Anonymous"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~274078~90047809/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~274078~90047809/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~274078~90047809",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 10222,
+                    "height": 12172
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~274078~90047809/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~274078~90047809/list/luna"
+              ],
+              "width": 10222,
+              "height": 12172
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~274078~90047809"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/cf769xd5267/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Harriet E. Baker's Book of Penmanship & Maps. At Mr. Dunham's School Windsor Vermont March 31, 1819",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/cf769xd5267.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/cf769xd5267'>https://purl.stanford.edu/cf769xd5267</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Harriet E. Baker's Book of Penmanship & Maps. At Mr. Dunham's School Windsor Vermont March 31, 1819"
+        },
+        {
+          "label": "Contributor",
+          "value": "Baker, Harriet E."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Manuscript maps."
+        },
+        {
+          "label": "Type",
+          "value": "Children's maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas ; 25 x 19 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "The existence of this book of penmanship throws interesting light on our other book of penmanship by Frances Henshaw, our 2501.000. This book by Harriet Baker is dated four years earlier, 1819, and from another school in Windsor, Vermont (Henshaw's school was in Middlebury, Vermont). Generally, the two books follow very similar structure, both the text and the maps, which would indicate that the production of these books of penmanship was more frequent than previously thought and also suggests that there was a common template used, even by different schools, in their construction. It can be said that Baker's maps are exquisite, perhaps a bit more so than Henshaw's, but Henshaw's text descriptions of the states are more elaborate than Baker's. For some reason, Baker omits maps of New York, Pennsylvania, South Carolina, Kentucky, Indiana, Illinois and Michigan, while including descriptions of most of them. Henshaw has no map or description of Michigan or Illinois. For the sources of the maps and text, see our entry for Henshaw's book, 2501.000. The Osher Map Library has a copy of another book of penmanship, also from Mr. Dunham's School in Windsor Vermont, titled “Catharine M. Cook’s Book of Penmanship at Mr. Dunham’s School, Windsor, Vermont, June 15th, 1818”"
+        },
+        {
+          "label": "Description",
+          "value": "Manuscript map."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 8307.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > United States > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Manuscript maps > United States > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "School > United States > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Education > United States > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Children's maps > United States > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Penmanship > United States > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1819"
+        },
+        {
+          "label": "Date",
+          "value": "1819"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/cf769xd5267"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-12"
+        }
+      ],
+      "description": "The existence of this book of penmanship throws interesting light on our other book of penmanship by Frances Henshaw, our 2501.000. This book by Harriet Baker is dated four years earlier, 1819, and from another school in Windsor, Vermont (Henshaw's school was in Middlebury, Vermont). Generally, the two books follow very similar structure, both the text and the maps, which would indicate that the production of these books of penmanship was more frequent than previously thought and also suggests that there was a common template used, even by different schools, in their construction. It can be said that Baker's maps are exquisite, perhaps a bit more so than Henshaw's, but Henshaw's text descriptions of the states are more elaborate than Baker's. For some reason, Baker omits maps of New York, Pennsylvania, South Carolina, Kentucky, Indiana, Illinois and Michigan, while including descriptions of most of them. Henshaw has no map or description of Michigan or Illinois. For the sources of the maps and text, see our entry for Henshaw's book, 2501.000. The Osher Map Library has a copy of another book of penmanship, also from Mr. Dunham's School in Windsor Vermont, titled “Catharine M. Cook’s Book of Penmanship at Mr. Dunham’s School, Windsor, Vermont, June 15th, 1818”",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/qg125fm6694%2F8307001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/qg125fm6694%2F8307001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 245
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/cf769xd5267/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/cf769xd5267/iiif/canvas/cocina-fileSet-by410vx1324-by410vx1324_1",
+              "@type": "sc:Canvas",
+              "label": "(Description of) New Jersey. (to accompany) Harriet E. Baker's Book of\n            Penmanship & Map. At Mr. Dunham's School Windsor Vermont March 31, 1819",
+              "height": 4919,
+              "width": 4167,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/by410vx1324/8307031.jp2",
+                  "label": "Original source file (3.7 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/cf769xd5267/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fby410vx1324-by410vx1324_1%2F8307031.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/cf769xd5267/iiif/canvas/cocina-fileSet-by410vx1324-by410vx1324_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/by410vx1324%2F8307031/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 4919,
+                    "width": 4167,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/by410vx1324%2F8307031",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "https://purl.stanford.edu/cf769xd5267/iiif/canvas/cocina-fileSet-sr049nw0361-sr049nw0361_1",
+              "@type": "sc:Canvas",
+              "label": "New Jersey. (to accompany) Harriet E. Baker's Book of Penmanship &\n            Map. At Mr. Dunham's School Windsor Vermont March 31, 1819",
+              "height": 4952,
+              "width": 4171,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/sr049nw0361/8307032.jp2",
+                  "label": "Original source file (3.72 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/cf769xd5267/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fsr049nw0361-sr049nw0361_1%2F8307032.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/cf769xd5267/iiif/canvas/cocina-fileSet-sr049nw0361-sr049nw0361_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/sr049nw0361%2F8307032/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 4952,
+                    "width": 4171,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/sr049nw0361%2F8307032",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299745~90070734/manifest",
+      "label": "Arms Across America - Waging Third World War.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~299745~90070734/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299745~90070734/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Arms Across America - Waging Third World War.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "War Resisters League"
+                },
+                {
+                  "label": "Author",
+                  "value": "Kowalok, Judy"
+                },
+                {
+                  "label": "Author",
+                  "value": "Bickhart, Rick"
+                },
+                {
+                  "label": "Author",
+                  "value": "Marsh, Michael"
+                },
+                {
+                  "label": "Date",
+                  "value": "1989"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Arms Across America - Waging Third World War."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "War Resisters League"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "88"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "57"
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Military"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Arms Across America - Waging Third World War."
+                },
+                {
+                  "label": "List No",
+                  "value": "12355.001"
+                },
+                {
+                  "label": "Page No",
+                  "value": "map"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Faculty Press"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "War Resisters League"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Kowalok, Judy"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Bickhart, Rick"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Marsh, Michael"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1989"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Arms Across America - Waging Third World War."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Color. List and map of military facilities in the United States."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12355.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "88"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "57"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12355001.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/12355001.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "War Resisters League; Kowalok, Judy; Bickhart, Rick; Marsh, Michael"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~299745~90070734/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~299745~90070734/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~299745~90070734",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11212,
+                    "height": 17190
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299745~90070734/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299745~90070734/list/luna"
+              ],
+              "width": 11212,
+              "height": 17190
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~299745~90070734"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292169~90064288/manifest",
+      "label": "Trailways presents vacation and play U.S.A.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~292169~90064288/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292169~90064288/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Trailways presents vacation and play U.S.A.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "National Trailways Bus System"
+                },
+                {
+                  "label": "Author",
+                  "value": "Willworth, Ken Jr."
+                },
+                {
+                  "label": "Date",
+                  "value": "1949"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Trailways presents vacation and play U.S.A."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "National Trailways Bus System"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Chicago, Ill."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "82"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Color pictorial map of the United states by Ken Willworth Jr. A 1949 ad for National Trailways Bus System. Showing the fun activities, wildlife, agriculture, industry and historical monuments found across the country. Shows state boundaries and compass rose. Relief shown by shadings."
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Trailways presents vacation and play U.S.A. 1949 National trailways Bus System. Ken Willworth Jr."
+                },
+                {
+                  "label": "List No",
+                  "value": "11364.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "National Trailways Bus System"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Willworth, Ken Jr."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1949"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Trailways presents vacation and play U.S.A. 1949 National trailways Bus System. Ken Willworth Jr."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11364.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "82"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11364000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/11364000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "National Trailways Bus System; Willworth, Ken Jr."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292169~90064288/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292169~90064288/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292169~90064288",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 17638,
+                    "height": 13292
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292169~90064288/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292169~90064288/list/luna"
+              ],
+              "width": 17638,
+              "height": 13292
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~292169~90064288"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/bt534tm5745/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Imperial Federation - Map of the world showing the extent of the British Empire in 1886. Statistical information furnished by Captain J.C.R. Colomb, M.P. formerly R.M.A. Mclure & Co. Queen Victoria Street, London. British territories coloured in red. (Published as) Supplement to ''The Graphic'', July 24th, 1886. (Inset) Map of the world showing the extent of British territories in 1786",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/bt534tm5745.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/bt534tm5745'>https://purl.stanford.edu/bt534tm5745</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Imperial Federation - Map of the world showing the extent of the British Empire in 1886. Statistical information furnished by Captain J.C.R. Colomb, M.P. formerly R.M.A. Mclure & Co. Queen Victoria Street, London. British territories coloured in red. (Published as) Supplement to ''The Graphic'', July 24th, 1886. (Inset) Map of the world showing the extent of British territories in 1786"
+        },
+        {
+          "label": "Contributor",
+          "value": "Colomb, John Charles Ready."
+        },
+        {
+          "label": "Contributor",
+          "value": "Crane, Walter."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 58 x 77 cm."
+        },
+        {
+          "label": "Description",
+          "value": "Pictorial map on Mercator projection centered on the Greenwich Prime Meridian, placing Great Britain just above the map's central focal point. Published as a color supplement to The \"Graphic\" at the same time as Queen Victoria's Jubilee of 1886. British Isles, and British colonies spreading out to the east and the west, were highlighted with red, while other geographical areas were left blank with only a minimum number of place names. An inset box was placed near each of the major colonies, listing statistics about geographical area, population, and trade. The words \"Freedom, Fraternity, Federation,\" suggesting a peaceful co-existence within the British Empire, were prominently placed along the map's top margin, but the remainder of the map's illustrations imply \"colonialism.\" At the bottom center Britannia is seated on top of the world ruling over her subjects, represented by a variety of animals and costumed figures. India, identified by an elephant and a tiger, appears in the lower left corner, while Australia, including a kangaroo and a sheep, is shown in the lower right. The illustrations were done by Walter Crane, a prominent illustrator and artist with strong socialist sympathies, perhaps explaining the contradictory themes in the map of imperialism and \"human labour\" holding up the world in the form of Atlas. Crane's contributions to the map remained unnoticed until the research of Pippa Biltcliffe was published in 2005."
+        },
+        {
+          "label": "Description",
+          "value": "Separate Map."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 8238.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Pictorial map > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "World > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale not given."
+        },
+        {
+          "label": "Date",
+          "value": "1886"
+        },
+        {
+          "label": "Date",
+          "value": "1886"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/bt534tm5745"
+        },
+        {
+          "label": "Publisher",
+          "value": "The \"Graphic\","
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-01-06"
+        }
+      ],
+      "description": "Pictorial map on Mercator projection centered on the Greenwich Prime Meridian, placing Great Britain just above the map's central focal point. Published as a color supplement to The \"Graphic\" at the same time as Queen Victoria's Jubilee of 1886. British Isles, and British colonies spreading out to the east and the west, were highlighted with red, while other geographical areas were left blank with only a minimum number of place names. An inset box was placed near each of the major colonies, listing statistics about geographical area, population, and trade. The words \"Freedom, Fraternity, Federation,\" suggesting a peaceful co-existence within the British Empire, were prominently placed along the map's top margin, but the remainder of the map's illustrations imply \"colonialism.\" At the bottom center Britannia is seated on top of the world ruling over her subjects, represented by a variety of animals and costumed figures. India, identified by an elephant and a tiger, appears in the lower left corner, while Australia, including a kangaroo and a sheep, is shown in the lower right. The illustrations were done by Walter Crane, a prominent illustrator and artist with strong socialist sympathies, perhaps explaining the contradictory themes in the map of imperialism and \"human labour\" holding up the world in the form of Atlas. Crane's contributions to the map remained unnoticed until the research of Pippa Biltcliffe was published in 2005.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/bt534tm5745%2F8238000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/bt534tm5745%2F8238000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 305
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/bt534tm5745/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/bt534tm5745/iiif/canvas/cocina-fileSet-bt534tm5745-bt534tm5745_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 12934,
+              "width": 16940,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/bt534tm5745/8238000.jp2",
+                  "label": "Original source file (39.4 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/bt534tm5745/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fbt534tm5745-bt534tm5745_1%2F8238000.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/bt534tm5745/iiif/canvas/cocina-fileSet-bt534tm5745-bt534tm5745_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/bt534tm5745%2F8238000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 12934,
+                    "width": 16940,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/bt534tm5745%2F8238000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316604~90085225/manifest",
+      "label": "A Map of Middle-Earth.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~316604~90085225/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316604~90085225/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "A Map of Middle-Earth.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Baynes, Pauline"
+                },
+                {
+                  "label": "Author",
+                  "value": "Tolkien, J.R.R."
+                },
+                {
+                  "label": "Author",
+                  "value": "Tolkien, C.J.R."
+                },
+                {
+                  "label": "Date",
+                  "value": "1970"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "A Map of Middle-Earth."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "George Allen & Unwin Ltd"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "92"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Note",
+                  "value": "From Rod Barron, Barron Maps http://www.barronmaps.com: “Now extremely scarce 1st trade impression of this important promotional poster for J RR Tolkien’s work, first published in London in 1970 by publishers, George, Allen & Unwin. The poster is based on artist Pauline Baynes’s 1969 artwork following the model of Tolkien’s original 1954 Map of Middleearth. This map had been compiled for an early edition of the Ring Trilogy by Christopher Tolkien, the author’s son, following his father’s meticulously detailed instructions. Baynes’s new map was first discussed at a meeting between the artist and author in Bournemouth in August 1969 and the collaborative & creative processes which led to its creation & completion by the end of that year were vividly brought to light in June 2016 when the Bodleian Library acquired Baynes’ own copy of the 1954 Middle-earth map. This turned out to be the working reference for this 1969 poster which had been considered lost but was found inside one of her books following her death in 2008. It was subsequently acquired by the Oxford booksellers Blackwell’s and offered for sale in 2015 for £60,000. Originally torn from her own copy of the Ring Trilogy, it was taken with her to the 1969 meetings with Tolkien, by whom it was then personally annotated & copiously referenced in different coloured inks. Interesting details on the map provide links between many of the map’s imaginary locations and existing places in the real world, such as Jerusalem, Belgrade & Ravenna. Perhaps most interestingly Frodo’s Hobbiton is, according to Tolkien’s inscription, “assumed to be approx at latitiude of Oxford”! Tolkien corrected several of the errors on the 1954 original and added new & previously unknown place names, many derived from obscure Elfish sources. The Baynes map was one of the star attractions of the Bodleian’s 2018 Tolkien: Maker of Middle-earth Exhibition which has recently transferred to the Morgan Library in New York, where it will be on display until May 2019. The trade issue of the poster proved immensely popular, especially amongst young students, for many of whom it became an almost symbolic must-have accessory, exemplifying the fantastical graphic art & alternative literary culture of the early 1970s. Above the map Baynes drew the figures of the Nine Walkers – Frodo, Sam, Aragorn, Gandalf, Boromir, Legolas, Gimli, Merry and Pippin – setting out on the Quest of the Ring; beneath the map she added a roll call of the evil foes & villains whom they would encounter, amongst which are depicted marauding Orcs, the Nine Black Riders, Gollum and the giant demon spider, Shelob. Roundel insets around the edge of the map visualize many of the trilogy’s important locations: Cerin Amroth, where Aragorn & Arwen were betrothed in the Elfish Kingdom; the Doors of Durin, the dwarfbuilt and elf-embellished secret doors that made the West Gate leading to the land of Moria in Middle-Earth; the Barrow-Downs of Eriador inhabited by evil wights; Sam & Frodo’s Hobbiton; The Teeth of Mordor, guarding the secret pass of Cirith Gorgor; The Argonath or Gate of the Kings, two enormous pillars carved in the likeness of Isildur and Anarion located on the northern fringes of Gondor; Barad-dûr, the Dark; Tower and fortress of Sauron; the twin cities of Minas Morgul and Minas Tirith on the mountainous borders of Mordor; and Orodruin, Mordor’s volcanic Mount of Doom. Tolkien was delighted with the Baynes’s vignettes, noting in one of his letters that “some of these agree remarkably with my own vision, especially the first four on the right (Minas Morgul is almost exact).” (Bodleian MS. Tolkien B 61. fol 3). Depicting so many of the characters of the book for the first time and providing such a captivating portal into Tolkien’s imaginary world the poster did much to boost the author’s burgeoning popularity amongst the younger generation during the 1970s and 1980s. It went through 12 separate impressions between 1970 and 1986. Baynes [1922-2008] was the only illustrator of whom Tolkien approved and the pair first became acquainted in 1948, following a chance introduction through Tolkien’s publishers. Her first commission was to illustrate Tolkien’s Farmer Giles of Ham. The results moved Tolkien to exclaim that Baynes had “reduced my text to a commentary on her drawings”. A lifelong friendship developed and she provided many illustrations for his subsequent works and artwork for several book covers, including the 1961 paperback edition of The Hobbit and the 1968 three in one Lord of the Rings paperback. As well as this poster she also designed a further map, There And Back Again – A Map of Bilbo’s Journey through Eriador and Rhovanion which was published by George, Allen & Unwin in the following year. She also the illustrated artwork and associated 1974 poster for Bilbo’s Last Song, apparently unpublished during his lifetime and given to Tolkien’s secretary, Joy Hill in 1966. This latter was apparently the first work published after Tolkien’s death. Tolkien also introduced Baynes to his Oxford friend C.S Lewis, which in turn led to her illustrating all of the Chronicles of Narnia, though her relationship with Lewis was much cooler and more distant. She would later take particular umbrage from the author’s criticism, made to his biographer, Sayer, that she could not draw lions. The head of Aslan the lion would feature prominently in her artwork for the equally popular Map of the Land of Narnia poster, published by Penguin Books in 1972, which we are also currently offering for sale. Tolkien and Lewis were both members of The Inklings, an eccentric group of Oxford authors and academics. They used to meet and read from their latest work in the Eagle and Child pub in St.Giles’s. It was recorded by Christopher Tolkien that fellow Inkling, Hugo Dyson [1896-1975], was often to be seen at their occasional meetings in Lewis’s Magdalen College rooms lolling on a couch and shouting, “Oh God, not another elf!” during Tolkien’s readings from The Lord of the Rings. Dyson was not alone in his considerable distaste for Tolkien’s stories and eventually JRR gave up his readings to the captive audience of assembled Inklings. Pauline Diana Baynes was born in Hove, East Sussex in September 1922, though much of her early childhood was spent in India, where her father worked for the Indian Civil Service in the city of Agra. Her parents later separated and she returned to Europe with her mother and elder sister, greatly missing the exotic surroundings of her former Indian life. From the age of 15 she studied at the Farnham School of Art and later attended the Slade, then in Oxford. During the Second World War she was was seconded to the Ministry of Defence and after camouflage work at Farnham Castle, subsequently worked for the Admiralty in Bath as a map & chart maker, acquiring valuable skills that were later employed in the design & production of both Tolkien’s & Lewis’s maps. During the war she also began work as a commercial illustrator and some of her illustrations featured in the popular Lilliput magazine. An accomplished and prolific book illustrator, amongst other notable commissions were Richard Adams’ Watership Down [1973] and Grant Uden’s Dictionary of Chivalry, a superb production that contained over 600 colour illustrations in its margins which took Baynes two years to complete, and for which she was awarded the Kate Greenaway Medal in 1968. Baynes married former German POW, Fritz-Otto Gash in 1961 and the couple lived with her devoted dogs in a rambling old cottage in the village of Dockenfield near Farnham in Surrey. Gasch died suddenly in 1988 and Baynes herself in August 2008. Refs: Wayne G Hammond: J.R.R. Tolkien: A Descriptive Bibliography [1993], p.376; Catherine McIlwaine: Tolkien:Maker of Middle-earth [Bodleian Library/ Chicago University Press, 2018], pp.384-385 (ill); Martha Hopkins & Michael Buscher : Language of the Land – The Library of Congress Book of Literary Maps [1999], pp.251-253; Daniel Reeve: Uncharted Territory – A Middle-Earth Mapmaker, in The Writer’s Map – Ed: Huw Lewis-Jones [Thames & Hudson, 2018], pp.159-165, esp.ill p.158; Pauline Baynes Obituary (Daily Telegraph, 2008); Pauline Baynes Obituary (The Guardian, 2008); Pauline Baynes Obituary (The Independent, 2008)”"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Literary"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Imaginary"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "A Map of Middle-Earth. Drawn and Embellished by Pauline Baynes. Based on the cartography of J.R.R. and C.J.R. Tolkien. First Trade Printing 1970. @ George Allen & Unwin Ltd. 1970. Printed in U.S.A. 345-24944-5-300 $3.00 Pauline Baynes 1969."
+                },
+                {
+                  "label": "List No",
+                  "value": "10282.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Baynes, Pauline"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Tolkien, J.R.R."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Tolkien, C.J.R."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1970"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "A Map of Middle-Earth. Drawn and Embellished by Pauline Baynes. Based on the cartography of J.R.R. and C.J.R. Tolkien. First Trade Printing 1970. @ George Allen & Unwin Ltd. 1970. Printed in U.S.A. 345-24944-5-300 $3.00 Pauline Baynes 1969."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10282.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "92"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10282000.jp2"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Baynes, Pauline; Tolkien, J.R.R.; Tolkien, C.J.R."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~316604~90085225/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~316604~90085225/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~316604~90085225",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 14614,
+                    "height": 22046
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316604~90085225/canvas/c1"
+                }
+              ],
+              "width": 14614,
+              "height": 22046
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~316604~90085225"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~298014~90069629/manifest",
+      "label": "1 Maja Swieto Calego Narodu. (Poland as a Red Carnation)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~298014~90069629/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~298014~90069629/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "1 Maja Swieto Calego Narodu. (Poland as a Red Carnation)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Cieslewicz, Roman, 1930 -1996"
+                },
+                {
+                  "label": "Date",
+                  "value": "1956"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "1 Maja Swieto Calego Narodu. (Poland as a Red Carnation)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Wyawnictwo Artstyczno - Grafozne, WAG."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Warsaw"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "87"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "59"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Pictorial map showing Poland as a red carnation, the tradition in Poland was to wear a red carnation to celebrate the International Workers Day on May 1st, which was one of the most important holidays of the Communist countries. Published by WAG. Editorial Ogolno Polityczne in Warsaw. Map shows administrative boundaries and major cities and towns. This is an early work of a Polish artist Roman Cieslewicz,1930 -1996 a graphic artist and photographer. Date estimated."
+                },
+                {
+                  "label": "Country",
+                  "value": "Poland"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "1 Maja Swieto Calego Narodu. Wyawnictwo Artstyczno - Grafozne, WAG. Redakcja Ogolnopolityczne Warszawa. Dom stowa polskiego zam. 1034 B-7-4528."
+                },
+                {
+                  "label": "List No",
+                  "value": "11696.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Cieslewicz, Roman, 1930 -1996"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1956"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "1 Maja Swieto Calego Narodu. Wyawnictwo Artstyczno - Grafozne, WAG. Redakcja Ogolnopolityczne Warszawa. Dom stowa polskiego zam. 1034 B-7-4528."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11696.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "87"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "59"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11696000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/11696000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Cieslewicz, Roman, 1930 -1996"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~298014~90069629/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~298014~90069629/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~298014~90069629",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11936,
+                    "height": 17178
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~298014~90069629/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~298014~90069629/list/luna"
+              ],
+              "width": 11936,
+              "height": 17178
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~298014~90069629"
+    }
+  ]
+}

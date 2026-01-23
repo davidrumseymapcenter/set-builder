@@ -1,0 +1,625 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://example.org/manifest/MitchellMaps_new",
+  "label": "MitchellMaps_new",
+  "description": "A curated gallery of 8 images created with IIIF Image Gallery Builder",
+  "metadata": [
+    {
+      "label": "Created with",
+      "value": "IIIF Image Gallery Builder"
+    },
+    {
+      "label": "Number of images",
+      "value": "8"
+    },
+    {
+      "label": "Created",
+      "value": "2026-01-17"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "@id": "https://example.org/manifest/MitchellMaps_new/sequence/1",
+      "canvases": [
+        {
+          "@id": "https://example.org/manifest/MitchellMaps_new/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "Image 1",
+          "height": 6781,
+          "width": 9222,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/fz074vg4070/iiif/annotation/cocina-fileSet-fz074vg4070-fz074vg4070_1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/fz074vg4070/32874/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6781,
+                "width": 9222,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/fz074vg4070/32874",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://purl.stanford.edu/fz074vg4070/iiif/canvas/cocina-fileSet-fz074vg4070-fz074vg4070_1"
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://purl.stanford.edu/fz074vg4070/iiif/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://purl.stanford.edu/fz074vg4070/iiif/canvas/cocina-fileSet-fz074vg4070-fz074vg4070_1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/MitchellMaps_new/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "Amerique Septentrionale.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Mitchell, John"
+            },
+            {
+              "label": "Date",
+              "value": "1756"
+            },
+            {
+              "label": "Short Title",
+              "value": "Amerique Septentrionale."
+            },
+            {
+              "label": "Publisher",
+              "value": "Le Rouge"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Paris"
+            },
+            {
+              "label": "Type",
+              "value": "Case Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "133"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "192"
+            },
+            {
+              "label": "Scale 1",
+              "value": "2,000,000"
+            },
+            {
+              "label": "Note",
+              "value": "1st French edition, 8 sheets. Very interesting French reengraving of Mitchell's map, emphasizing their territorial claims at the expense of the British claims; in particular they add an area of \"contestations\" between French claims and the English claims."
+            },
+            {
+              "label": "Reference",
+              "value": "Stephenson (A la Carte) p109."
+            },
+            {
+              "label": "World Area",
+              "value": "North America"
+            },
+            {
+              "label": "Event",
+              "value": "American Revolution"
+            },
+            {
+              "label": "Full Title",
+              "value": "Amerique Septentrionale avec les Routes, Distances en miles, Limites et Establissements Francois et Anglais. Par le Docteur Mitchel, Traduit de l'Anglois. A Paris, Par le Rouge Ingr. Geographe du Roy rue des Grands Augustins 1756."
+            },
+            {
+              "label": "List No",
+              "value": "0510.000"
+            },
+            {
+              "label": "Series No",
+              "value": "1"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Mitchell, John"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1756"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Amerique Septentrionale avec les Routes, Distances en miles, Limites et Establissements Francois et Anglais. Par le Docteur Mitchel, Traduit de l'Anglois. A Paris, Par le Rouge Ingr. Geographe du Roy rue des Grands Augustins 1756."
+            },
+            {
+              "label": "Pub List No",
+              "value": "0510.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Case Map"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "1"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "133"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "192"
+            },
+            {
+              "label": "Image No",
+              "value": "0510000"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0005/0510000.sid target=_blank>Full Image Download in MrSID Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Mitchell, John"
+            },
+            {
+              "label": "Collection",
+              "value": "Rumsey Collection"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1005~50014/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1005~50014/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~1005~50014/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~1005~50014/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~1005~50014",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 22880,
+                "height": 16100
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1005~50014/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1005~50014/canvas/c1/annotation/s5ipidifg"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1005~50014/list/luna"
+          ],
+          "width": 22880,
+          "height": 16100
+        },
+        {
+          "@id": "https://example.org/manifest/MitchellMaps_new/canvas/2",
+          "@type": "sc:Canvas",
+          "label": "Map of the British and French Dominions in North America.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Mitchell, John"
+            },
+            {
+              "label": "Date",
+              "value": "1757"
+            },
+            {
+              "label": "Short Title",
+              "value": "Map of the British and French Dominions in North America."
+            },
+            {
+              "label": "Publisher",
+              "value": "John Mitchell"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "London"
+            },
+            {
+              "label": "Type",
+              "value": "Case Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "135"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "193"
+            },
+            {
+              "label": "Scale 1",
+              "value": "2,000,000"
+            },
+            {
+              "label": "Note",
+              "value": "This is the second edition of this important map, dated 1755 but published in 1757, according to the British Museum. The only change from the first issue is the addition of several panels of interesting text in ocean. The original eight printed sheets of the map are here assembled in two large panels (each with four sheets) each dissected into 36 sections and mounted on linen. Uncolored, as issued. In the sixth line of the first column of the text this issue is referred to as the Second Edition One of the most important maps in American history, it went through five editions (see Stevens). We believe this second edition is scarcer than the other editions as it appears less often on the market. Compare to the first French edition of 1856 (our copy) regarding the conflicting claims of the British and French to American territory."
+            },
+            {
+              "label": "Reference",
+              "value": "Stevens 54(c), Stephenson (A la Carte) p109."
+            },
+            {
+              "label": "World Area",
+              "value": "North America"
+            },
+            {
+              "label": "Event",
+              "value": "American Revolution"
+            },
+            {
+              "label": "Full Title",
+              "value": "A Map of the British and French Dominions in North America with the Roads, Distances, Limits and Extent of the Settlements."
+            },
+            {
+              "label": "List No",
+              "value": "2842.000"
+            },
+            {
+              "label": "Series No",
+              "value": "1"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Mitchell, John"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1757"
+            },
+            {
+              "label": "Pub Title",
+              "value": "A Map of the British and French Dominions in North America with the Roads, Distances, Limits and Extent of the Settlements."
+            },
+            {
+              "label": "Pub Reference",
+              "value": "Stevens 54(c), Stephenson (A la Carte) p109."
+            },
+            {
+              "label": "Pub Note",
+              "value": "2nd edition, with text in ocean. In two large panels (each with four sheets) each dissected into 36 sections and mounted on linen. Although dated 1755, it was published in 1757, according to the British Museum. Uncolored, as issued. In the sixth line of the first column of the text this issue is referred to as the Second Edition. One of the most important maps in American history, it went through five editions (see Stevens). We believe this second edition is scarcer than the other editions as it appears less often on the market. Compare to the first French edition of 1856 (our copy) regarding the conflicting claims of the British and French to American territory."
+            },
+            {
+              "label": "Pub List No",
+              "value": "2842.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Case Map"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "1"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "135"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "193"
+            },
+            {
+              "label": "Image No",
+              "value": "2842000"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0002/2842000.sid target=_blank>Full Image Download in MrSID Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Mitchell, John"
+            },
+            {
+              "label": "Collection",
+              "value": "Rumsey Collection"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~222~20037/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~222~20037/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~222~20037/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~222~20037/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~222~20037",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 22710,
+                "height": 16132
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~222~20037/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~222~20037/canvas/c1/annotation/vkyd2vm5x"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~222~20037/list/luna"
+          ],
+          "width": 22710,
+          "height": 16132
+        },
+        {
+          "@id": "https://example.org/manifest/MitchellMaps_new/canvas/3",
+          "@type": "sc:Canvas",
+          "height": 4139,
+          "images": [
+            {
+              "@id": "https://www.loc.gov/resource/g3300.np000009/seq-1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:np000009",
+              "resource": {
+                "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:np000009/full/pct:25/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4139,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:np000009",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 5873
+              }
+            }
+          ],
+          "label": "Page 1",
+          "metadata": [
+            {
+              "label": "Library of Congress Resource URL",
+              "value": "https://www.loc.gov/resource/g3300.np000009/?sp=1"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.loc.gov/item/74693173/manifest.json"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:np000009"
+            }
+          ],
+          "related": "https://www.loc.gov/resource/g3300.np000009/?sp=1",
+          "thumbnail": {
+            "@id": "https://tile.loc.gov/storage-services/service/gmd/gmd3/g3300/g3300/np000009.gif",
+            "format": "image/jpeg",
+            "height": 150,
+            "width": 213
+          },
+          "width": 5873
+        },
+        {
+          "@id": "https://example.org/manifest/MitchellMaps_new/canvas/4",
+          "@type": "sc:Canvas",
+          "height": 4127,
+          "images": [
+            {
+              "@id": "https://www.loc.gov/resource/g3300.ar004000/seq-1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar004000",
+              "resource": {
+                "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar004000/full/pct:25/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4127,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar004000",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 5842
+              }
+            }
+          ],
+          "label": "Page 1",
+          "metadata": [
+            {
+              "label": "Library of Congress Resource URL",
+              "value": "https://www.loc.gov/resource/g3300.ar004000/?sp=1"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.loc.gov/item/74693175/manifest.json"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar004000"
+            }
+          ],
+          "related": "https://www.loc.gov/resource/g3300.ar004000/?sp=1",
+          "thumbnail": {
+            "@id": "https://tile.loc.gov/storage-services/service/gmd/gmd3/g3300/g3300/ar004000.gif",
+            "format": "image/jpeg",
+            "height": 150,
+            "width": 212
+          },
+          "width": 5842
+        },
+        {
+          "@id": "https://example.org/manifest/MitchellMaps_new/canvas/5",
+          "@type": "sc:Canvas",
+          "height": 3994,
+          "images": [
+            {
+              "@id": "https://www.loc.gov/resource/g3300.ar004300/seq-1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar004300",
+              "resource": {
+                "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar004300/full/pct:25/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3994,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar004300",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 5883
+              }
+            }
+          ],
+          "label": "Page 1",
+          "metadata": [
+            {
+              "label": "Library of Congress Resource URL",
+              "value": "https://www.loc.gov/resource/g3300.ar004300/?sp=1"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.loc.gov/item/74693178/manifest.json"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar004300"
+            }
+          ],
+          "related": "https://www.loc.gov/resource/g3300.ar004300/?sp=1",
+          "thumbnail": {
+            "@id": "https://tile.loc.gov/storage-services/service/gmd/gmd3/g3300/g3300/ar004300.gif",
+            "format": "image/jpeg",
+            "height": 150,
+            "width": 221
+          },
+          "width": 5883
+        },
+        {
+          "@id": "https://example.org/manifest/MitchellMaps_new/canvas/6",
+          "@type": "sc:Canvas",
+          "label": "Image 1",
+          "height": 16132,
+          "width": 22710,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/tw367mz1194/iiif/annotation/cocina-fileSet-tw367mz1194-tw367mz1194_1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/tw367mz1194/2842000/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 16132,
+                "width": 22710,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/tw367mz1194/2842000",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://purl.stanford.edu/tw367mz1194/iiif/canvas/cocina-fileSet-tw367mz1194-tw367mz1194_1"
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://purl.stanford.edu/tw367mz1194/iiif/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://purl.stanford.edu/tw367mz1194/iiif/canvas/cocina-fileSet-tw367mz1194-tw367mz1194_1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/MitchellMaps_new/canvas/7",
+          "@type": "sc:Canvas",
+          "height": 4089,
+          "images": [
+            {
+              "@id": "https://www.loc.gov/resource/g3300.ar003700/seq-1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar003700",
+              "resource": {
+                "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar003700/full/pct:25/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4089,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar003700",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 5798
+              }
+            }
+          ],
+          "label": "Page 1",
+          "metadata": [
+            {
+              "label": "Library of Congress Resource URL",
+              "value": "https://www.loc.gov/resource/g3300.ar003700/?sp=1"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.loc.gov/item/74693169/manifest.json"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3300:g3300:ar003700"
+            }
+          ],
+          "related": "https://www.loc.gov/resource/g3300.ar003700/?sp=1",
+          "thumbnail": {
+            "@id": "https://tile.loc.gov/storage-services/service/gmd/gmd3/g3300/g3300/ar003700.gif",
+            "format": "image/jpeg",
+            "height": 150,
+            "width": 213
+          },
+          "width": 5798
+        }
+      ]
+    }
+  ]
+}

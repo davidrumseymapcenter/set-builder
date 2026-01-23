@@ -1,0 +1,1712 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://example.org/manifest/CaliforniaDreaming2026-04",
+  "label": "CaliforniaDreaming2026-04",
+  "description": "A curated gallery of 15 images created with IIIF Image Gallery Builder",
+  "metadata": [
+    {
+      "label": "Created with",
+      "value": "IIIF Image Gallery Builder"
+    },
+    {
+      "label": "Number of images",
+      "value": "15"
+    },
+    {
+      "label": "Created",
+      "value": "2026-01-17"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "@id": "https://example.org/manifest/CaliforniaDreaming2026-04/sequence/1",
+      "canvases": [
+        {
+          "@id": "https://example.org/manifest/CaliforniaDreaming2026-04/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0001",
+          "height": 10874,
+          "width": 12412,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/sy409bk9698/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fsy409bk9698-sy409bk9698_1%2Fsy409bk9698_05_0001.jp2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 10874,
+                "width": 12412,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://purl.stanford.edu/sy409bk9698/iiif/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/CaliforniaDreaming2026-04/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "Image 1",
+          "height": 8709,
+          "width": 6376,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/fd398fy7644/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Ffd398fy7644-fd398fy7644_1%2F3442000.jp2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://purl.stanford.edu/fd398fy7644/iiif/canvas/cocina-fileSet-fd398fy7644-fd398fy7644_1",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/fd398fy7644%2F3442000/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 8709,
+                "width": 6376,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/fd398fy7644%2F3442000",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://purl.stanford.edu/fd398fy7644/iiif/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://purl.stanford.edu/fd398fy7644/iiif/canvas/cocina-fileSet-fd398fy7644-fd398fy7644_1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/CaliforniaDreaming2026-04/canvas/2",
+          "@type": "sc:Canvas",
+          "label": "image 1",
+          "width": 9975,
+          "height": 9725,
+          "images": [
+            {
+              "@id": "https://ark.digitalcommonwealth.org/ark:/50959/d217xv241/annotation/bn99hd71v",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://ark.digitalcommonwealth.org/ark:/50959/bn99hd71v/large_image",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 9975,
+                "height": 9725,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:bn99hd71v",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://ark.digitalcommonwealth.org/ark:/50959/d217xv241/canvas/bn99hd71v"
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://ark.digitalcommonwealth.org/ark:/50959/d217xv241/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://ark.digitalcommonwealth.org/ark:/50959/d217xv241/canvas/bn99hd71v"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/CaliforniaDreaming2026-04/canvas/3",
+          "@type": "sc:Canvas",
+          "label": "Image 1",
+          "height": 9422,
+          "width": 9090,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/dm265px9091/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fdm265px9091-dm265px9091_1%2F3452000.jp2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://purl.stanford.edu/dm265px9091/iiif/canvas/cocina-fileSet-dm265px9091-dm265px9091_1",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/dm265px9091%2F3452000/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 9422,
+                "width": 9090,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/dm265px9091%2F3452000",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://purl.stanford.edu/dm265px9091/iiif/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://purl.stanford.edu/dm265px9091/iiif/canvas/cocina-fileSet-dm265px9091-dm265px9091_1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/CaliforniaDreaming2026-04/canvas/4",
+          "@type": "sc:Canvas",
+          "label": "Composite: Sheets Nos. 1-4, Irrigation Map of the San Joaquin Valley, California.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Hall, Wm. Ham. (William Hammond)"
+            },
+            {
+              "label": "Author",
+              "value": "California State Engineering Department"
+            },
+            {
+              "label": "Date",
+              "value": "1886"
+            },
+            {
+              "label": "Short Title",
+              "value": "Composite: Sheets Nos. 1-4, Irrigation Map of the San Joaquin Valley, California."
+            },
+            {
+              "label": "Publisher",
+              "value": "California State Engineering Department"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Sacramento"
+            },
+            {
+              "label": "Type",
+              "value": "Composite Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "218"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "184"
+            },
+            {
+              "label": "Scale 1",
+              "value": "190,000"
+            },
+            {
+              "label": "Note",
+              "value": "Composite of the four sheets covering the entire San Joaquiin Valley."
+            },
+            {
+              "label": "Reference",
+              "value": "California Water Atlas p 26( Reproduces sheet 3 ); Vogdes p 239."
+            },
+            {
+              "label": "State/Province",
+              "value": "California"
+            },
+            {
+              "label": "Region",
+              "value": "San Joaquin Valley"
+            },
+            {
+              "label": "Subject",
+              "value": "Irrigation"
+            },
+            {
+              "label": "Subject",
+              "value": "Agriculture"
+            },
+            {
+              "label": "Full Title",
+              "value": "(Composite of) California State Engineering Department. Topographical And Irrigation Map Of The San Joaquin Valley. (Sheets Nos. 1-4). Wm. Ham. Hall, State Engineer, 1886. Note. This Topographical and Irrigation Map of San Joaquin Valley is published in four sheets, as follows: Sheet No. 1, from Tp. 4 N. to 1st Standard South. Sheet No. 2, from 1st to 3d Standard South. Sheet No. 3, from 3d to 5th Standard South. Sheet No. 4, from 5th to 8th Standard South. It is intended as a general illustration of the present extent of irrigation, and a means of studying its future possible development ..."
+            },
+            {
+              "label": "List No",
+              "value": "5833.005"
+            },
+            {
+              "label": "Series No",
+              "value": "5"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Hall, Wm. Ham. (William Hammond)"
+            },
+            {
+              "label": "Publication Author",
+              "value": "California State Engineering Department"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1886"
+            },
+            {
+              "label": "Pub Title",
+              "value": "California State Engineering Department. Topographical And Irrigation Map Of The San Joaquin Valley. (4 Continguous Sheets). Wm. Ham. Hall, State Engineer, 1886. Note. This Topographical and Irrigation Map of San Joaquin Valley is published in four sheets, as follows: Sheet No. 1, from Tp. 4 N. to 1st Standard South. Sheet No. 2, from 1st to 3d Standard South. Sheet No. 3, from 3d to 5th Standard South. Sheet No. 4, from 5th to 8th Standard South. It is intended as a general illustration of the present extent of irrigation, and a means of studying its future possible development ..."
+            },
+            {
+              "label": "Pub Reference",
+              "value": "California Water Atlas p 26( Reproduces sheet 3 ); Vogdes p 239."
+            },
+            {
+              "label": "Pub Note",
+              "value": "A 4 sheet set. The sheets accompanied a report on irrigation issued by the State Engineering Department. The sheets show the areas of land that can be practically irrigated in the San Joaquin portion of the Central Valley. Classifies lands into several categories. Printed in full color. Mounted on linen. Relief depicted by contour lines in valley areas, and by hachures in the hills and mountains. Maps scanned from the collection of the Water Resources Center Archives, University of California Library."
+            },
+            {
+              "label": "Pub List No",
+              "value": "5833.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Image No",
+              "value": "5833005"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/5833005.sid target=_blank>Full Image Download in MrSID Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Hall, Wm. Ham. (William Hammond); California State Engineering Department"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~207692~3003427/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~207692~3003427/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~207692~3003427/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~207692~3003427/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~207692~3003427",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 25890,
+                "height": 26954
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~207692~3003427/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~207692~3003427/canvas/c1/annotation/yfs771rxc"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~207692~3003427/list/luna"
+          ],
+          "width": 25890,
+          "height": 26954
+        },
+        {
+          "@id": "https://example.org/manifest/CaliforniaDreaming2026-04/canvas/5",
+          "@type": "sc:Canvas",
+          "label": "World's pictorial line : birdseye view of the Pacific Slope",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Union Pacific Railway Company"
+            },
+            {
+              "label": "Date",
+              "value": "1893"
+            },
+            {
+              "label": "Short Title",
+              "value": "World's pictorial line : birdseye view of the Pacific Slope"
+            },
+            {
+              "label": "Publisher",
+              "value": "Union Pacific System"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Omaha, Neb."
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Chicago"
+            },
+            {
+              "label": "Publisher",
+              "value": "Knight, Leonard & Co."
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Omaha, Neb."
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Chicago"
+            },
+            {
+              "label": "Type",
+              "value": "Pocket Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "45"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "114"
+            },
+            {
+              "label": "Scale 1",
+              "value": "None shown"
+            },
+            {
+              "label": "Note",
+              "value": "Color pictorial map, on sheet 45x114, folded to 23 x 10. Title from cover, with 28 pages of text. On verso 24 pages of text \"Sights and scenes in California\", on recto text pages 25-28. Includes logo of \"Union Pacific, the overland route\" on cover. Map shows major cities, routes, rivers and mountains. Relief shown pictorially."
+            },
+            {
+              "label": "State/Province",
+              "value": "California"
+            },
+            {
+              "label": "Subject",
+              "value": "Pictorial map"
+            },
+            {
+              "label": "Subject",
+              "value": "Railroad"
+            },
+            {
+              "label": "Full Title",
+              "value": "World's pictorial line : birdseye view of the Pacific Slope reached via the Union Pacific, the overland route. Copyrighted. 1893, by E.L. Lomax, General passenger and ticket agent, Union Pacific System, Omaha, Neb. Knight, Leonard & Co., Printers and engravers, Chicago, Ill."
+            },
+            {
+              "label": "List No",
+              "value": "13207.003"
+            },
+            {
+              "label": "Series No",
+              "value": "3"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Union Pacific Railway Company"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1893"
+            },
+            {
+              "label": "Pub Title",
+              "value": "World's pictorial line : birdseye view of the Pacific Slope reached via the Union Pacific, the overland route. Copyrighted. 1893, by E.L. Lomax, General passenger and ticket agent, Union Pacific System, Omaha, Neb. Knight, Leonard & Co., Printers and engravers, Chicago, Ill."
+            },
+            {
+              "label": "Pub List No",
+              "value": "13207.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Pocket Map"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "23"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "10"
+            },
+            {
+              "label": "Image No",
+              "value": "13207003.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/13207003.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Union Pacific Railway Company"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316589~90085206/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316589~90085206/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~316589~90085206/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~316589~90085206/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~316589~90085206",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 22664,
+                "height": 8996
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316589~90085206/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316589~90085206/canvas/c1/annotation/mvoqh6mno"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316589~90085206/list/luna"
+          ],
+          "width": 22664,
+          "height": 8996
+        },
+        {
+          "@id": "https://example.org/manifest/CaliforniaDreaming2026-04/canvas/6",
+          "@type": "sc:Canvas",
+          "label": "A Pictorial Map of Palo Alto and San Francisco Peninsula by Arthur Lites.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Lites, Arthur"
+            },
+            {
+              "label": "Author",
+              "value": "(Palo Alto) Chamber of Commerce"
+            },
+            {
+              "label": "Date",
+              "value": "1925"
+            },
+            {
+              "label": "Short Title",
+              "value": "A Pictorial Map of Palo Alto and San Francisco Peninsula by Arthur Lites."
+            },
+            {
+              "label": "Publisher",
+              "value": "City of Palo Alto"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Palo Alto"
+            },
+            {
+              "label": "Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "44"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "57"
+            },
+            {
+              "label": "Note",
+              "value": "Date estimated. A birdseye view map \"drawn from the viewpoint of one aboard a United States Navy Dirigible\" is bordered by vignette illustrations including a dirigible balloon or blimp at top right, \"U.S. Naval Air Station at Sunnyvale Chosen for Favorable Climate\". Other vignettes include \"A Recreational Center on the Bay Front Under Construction\" \"Community Theatre\", Stanford University buildings, California Redwood Park etc, with an historical figure in each corner. Map shows the buildings of Palo Alto and Stanford University, with San Francisco, Oakland and Berkeley at upper left, and Santa Clara and San Jose at right of center."
+            },
+            {
+              "label": "City",
+              "value": "Palo Alto (Calif.)"
+            },
+            {
+              "label": "Region",
+              "value": "San Francisco Bay Area"
+            },
+            {
+              "label": "Subject",
+              "value": "Pictorial map"
+            },
+            {
+              "label": "Full Title",
+              "value": "A Pictorial Map of Palo Alto and San Francisco Peninsula by Arthur Lites."
+            },
+            {
+              "label": "List No",
+              "value": "6787.003"
+            },
+            {
+              "label": "Page No",
+              "value": "map side"
+            },
+            {
+              "label": "Series No",
+              "value": "3"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Lites, Arthur"
+            },
+            {
+              "label": "Publication Author",
+              "value": "(Palo Alto) Chamber of Commerce"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1925"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Palo Alto, California. Palo Alto, A Pictorial Map Drawn from the View Point (Birdseye) of One Aboard a United States Navy Dirigible."
+            },
+            {
+              "label": "Pub Note",
+              "value": "Double sided folding brochure. Date estimated. Elegant script on the verso promotes the area, with its perfect climate. Several versions of this pamphlet were issued over a period of years from the 1920s through the 1940s, and possibly later. This first edition has an image of a blimp with text \"U.S. Naval Air Station at Sunnyvale\" at upper right of the map. Several versions of this pamphlet were issued over a period of years from the 1920s through the 1950s."
+            },
+            {
+              "label": "Pub List No",
+              "value": "6787.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "1"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "24"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "11"
+            },
+            {
+              "label": "Image No",
+              "value": "6787003"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/6787003.sid target=_blank>Full Image Download in MrSID Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Lites, Arthur; (Palo Alto) Chamber of Commerce"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~260348~5522945/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~260348~5522945/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~260348~5522945/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~260348~5522945/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~260348~5522945",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 10108,
+                "height": 7862
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~260348~5522945/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~260348~5522945/canvas/c1/annotation/ofnc7g3ze"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~260348~5522945/list/luna"
+          ],
+          "width": 10108,
+          "height": 7862
+        },
+        {
+          "@id": "https://example.org/manifest/CaliforniaDreaming2026-04/canvas/7",
+          "@type": "sc:Canvas",
+          "label": "Historic Road to Romance : California's Southern Empire tourist paradise",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Putnam, Claude George"
+            },
+            {
+              "label": "Author",
+              "value": "Brown Karl F."
+            },
+            {
+              "label": "Date",
+              "value": "1946"
+            },
+            {
+              "label": "Short Title",
+              "value": "Historic Road to Romance : California's Southern Empire tourist paradise"
+            },
+            {
+              "label": "Publisher",
+              "value": "Roads to Romance Association"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "San Bernadino, Calif."
+            },
+            {
+              "label": "Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "56"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "84"
+            },
+            {
+              "label": "Scale 1",
+              "value": "None shown"
+            },
+            {
+              "label": "Note",
+              "value": "Bird's eye view style pictorial map. The colorful design highlights missions and historical places, contemporary places and events in the region which includes San Bernardino County, Los Angeles County, Orange County, Riverside County, San Diego County, and Imperial County. With attractive border with vignette illustrating various historical events and places, including \"First California Mission San Diego de Alcala 1769, and Cabrillo, 1542\". Shows historic trails, roads, cities and towns, native American reservations, parks and points of interest. Includes decorative title cartouche and compass rose in yellow, blue and red. Relief shown pictorially."
+            },
+            {
+              "label": "Region",
+              "value": "Southern California"
+            },
+            {
+              "label": "Subject",
+              "value": "Roads"
+            },
+            {
+              "label": "Subject",
+              "value": "Pictorial map"
+            },
+            {
+              "label": "Full Title",
+              "value": "Historic Road to Romance : California's Southern Empire tourist paradise; cartography by Claude G. Putman. Research by Karl F. Brown. Copyright. 1946 by Road to Romance Assn. Inc."
+            },
+            {
+              "label": "List No",
+              "value": "8142.000"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Putnam, Claude George"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Brown Karl F."
+            },
+            {
+              "label": "Pub Date",
+              "value": "1946"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Historic Road to Romance : California's Southern Empire tourist paradise; cartography by Claude G. Putman. Research by Karl F. Brown. Copyright. 1946 by Road to Romance Assn. Inc."
+            },
+            {
+              "label": "Pub Note",
+              "value": "See note field above."
+            },
+            {
+              "label": "Pub List No",
+              "value": "8142.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "56"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "84"
+            },
+            {
+              "label": "Image No",
+              "value": "8142000.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/153/8142000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Putnam, Claude George; Brown Karl F."
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268602~90042795/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268602~90042795/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268602~90042795/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268602~90042795/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268602~90042795",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 19228,
+                "height": 12204
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268602~90042795/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268602~90042795/canvas/c1/annotation/gztn973xp"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268602~90042795/list/luna"
+          ],
+          "width": 19228,
+          "height": 12204
+        },
+        {
+          "@id": "https://example.org/manifest/CaliforniaDreaming2026-04/canvas/8",
+          "@type": "sc:Canvas",
+          "label": "The Panorama Today in Northern California",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Sheets, Millard"
+            },
+            {
+              "label": "Date",
+              "value": "1950"
+            },
+            {
+              "label": "Short Title",
+              "value": "The Panorama Today in Northern California"
+            },
+            {
+              "label": "Publisher",
+              "value": "American Trust Company"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "San Francisco"
+            },
+            {
+              "label": "Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "51"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "74"
+            },
+            {
+              "label": "Scale 1",
+              "value": "None shown"
+            },
+            {
+              "label": "Note",
+              "value": "Color pictorial mid-Century modern promotional map of Northern California, tell the history of the greater San Francisco Bay area. Showing vaqueros and missions; wagon trains and railroads; women at the beach and sailboats out at sea; eagles and skunks and deer and lots of cows and horses; fishing fleets; the Ferry Building; the UC Berkeley Campanile; Stanford University Hoover Tower; the Capitol building; large airplanes crossing the bay and grain elevators on the landscape. Also shows the Wine Regions of Napa Valley and Sonoma Valley, the agricultural regions of Sacramento and San Joaquin, the farm equipment and industrial agriculture buildings, and the images of Skiers near Lake Tahoe."
+            },
+            {
+              "label": "State/Province",
+              "value": "California"
+            },
+            {
+              "label": "Region",
+              "value": "San Francisco Bay Area (Calif.)"
+            },
+            {
+              "label": "Subject",
+              "value": "Pictorial map"
+            },
+            {
+              "label": "Full Title",
+              "value": "The Panorama Today in Northern California its resources activities and opportunities. Published on its 100th. Anniversary by American Trust Company, San Francisco. Millard Sheets. Lithogravure in U.S.A."
+            },
+            {
+              "label": "List No",
+              "value": "8080.000"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Sheets, Millard"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1950"
+            },
+            {
+              "label": "Pub Title",
+              "value": "The Panorama Today in Northern California its resources activities and opportunities. Published on its 100th. Anniversary by American Trust Company, San Francisco. Michael Shute. Lithoravure in U.S.A."
+            },
+            {
+              "label": "Pub Note",
+              "value": "See note field above."
+            },
+            {
+              "label": "Pub List No",
+              "value": "8080.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "51"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "74"
+            },
+            {
+              "label": "Image No",
+              "value": "8080000"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/8080000.sid target=_blank>Full Image Download in MrSID Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Sheets, Millard"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~264711~5524560/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~264711~5524560/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~264711~5524560/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~264711~5524560/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~264711~5524560",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 16668,
+                "height": 12480
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~264711~5524560/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~264711~5524560/canvas/c1/annotation/0nr4a1nd9"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~264711~5524560/list/luna"
+          ],
+          "width": 16668,
+          "height": 12480
+        },
+        {
+          "@id": "https://example.org/manifest/CaliforniaDreaming2026-04/canvas/9",
+          "@type": "sc:Canvas",
+          "label": "Existing and Proposed Water Developments in the State of California, 1951.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Irrigation Districts Association of California"
+            },
+            {
+              "label": "Date",
+              "value": "1951"
+            },
+            {
+              "label": "Short Title",
+              "value": "Existing and Proposed Water Developments in the State of California, 1951."
+            },
+            {
+              "label": "Publisher",
+              "value": "Irrigation Districts Association of California"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "San Francisco"
+            },
+            {
+              "label": "Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "69"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "99"
+            },
+            {
+              "label": "Note",
+              "value": "Oblique view with shaded relief. Text description of water development features. Color."
+            },
+            {
+              "label": "State/Province",
+              "value": "California"
+            },
+            {
+              "label": "Subject",
+              "value": "Water"
+            },
+            {
+              "label": "Full Title",
+              "value": "Existing and Proposed Water Developments in the State of California, 1951. Issued by Irrigation Districts Association of California, Water Economics Committee."
+            },
+            {
+              "label": "List No",
+              "value": "6382.000"
+            },
+            {
+              "label": "Series No",
+              "value": "1"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Irrigation Districts Association of California"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1951"
+            },
+            {
+              "label": "Pub Title",
+              "value": "California Water Resources Development, including Development of the Bureau of Reclamation, U.S. Army Corps of Engineers, Major Features of the California Water Plan together with Various Projects of Districts and Municipalities. Issued by Irrigation Districts Association of California, Water News and Information Program."
+            },
+            {
+              "label": "Pub Note",
+              "value": "See Note field above."
+            },
+            {
+              "label": "Pub List No",
+              "value": "6382.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "1"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "69"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "99"
+            },
+            {
+              "label": "Image No",
+              "value": "6382000"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/6382000.sid target=_blank>Full Image Download in MrSID Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Irrigation Districts Association of California"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238767~5511633/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238767~5511633/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~238767~5511633/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~238767~5511633/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~238767~5511633",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 13905,
+                "height": 9789
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238767~5511633/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238767~5511633/canvas/c1/annotation/jre59r0r0"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238767~5511633/list/luna"
+          ],
+          "width": 13905,
+          "height": 9789
+        },
+        {
+          "@id": "https://example.org/manifest/CaliforniaDreaming2026-04/canvas/10",
+          "@type": "sc:Canvas",
+          "label": "Silicon Valley, California.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Eclectibles"
+            },
+            {
+              "label": "Author",
+              "value": "Hillam, Corbin"
+            },
+            {
+              "label": "Date",
+              "value": "1981"
+            },
+            {
+              "label": "Short Title",
+              "value": "Silicon Valley, California."
+            },
+            {
+              "label": "Publisher",
+              "value": "Inmac"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Santa Clara"
+            },
+            {
+              "label": "Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "92"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "62"
+            },
+            {
+              "label": "Region",
+              "value": "Silicon Valley (Calif.)"
+            },
+            {
+              "label": "Subject",
+              "value": "Pictorial map"
+            },
+            {
+              "label": "Subject",
+              "value": "Silicon Valley"
+            },
+            {
+              "label": "Full Title",
+              "value": "Silicon Valley, California."
+            },
+            {
+              "label": "List No",
+              "value": "12096.000"
+            },
+            {
+              "label": "Series No",
+              "value": "1"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Eclectibles"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Hillam, Corbin"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1981"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Silicon Valley, California."
+            },
+            {
+              "label": "Pub List No",
+              "value": "12096.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "1"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "92"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "62"
+            },
+            {
+              "label": "Image No",
+              "value": "12096000.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/12096000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Eclectibles"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288996~90060602/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288996~90060602/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288996~90060602/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288996~90060602/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288996~90060602",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 12272,
+                "height": 18178
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288996~90060602/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288996~90060602/canvas/c1/annotation/colhgc5li"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288996~90060602/list/luna"
+          ],
+          "width": 12272,
+          "height": 18178
+        },
+        {
+          "@id": "https://example.org/manifest/CaliforniaDreaming2026-04/canvas/11",
+          "@type": "sc:Canvas",
+          "label": "image 1",
+          "width": 6469,
+          "height": 6713,
+          "images": [
+            {
+              "@id": "https://ark.digitalcommonwealth.org/ark:/50959/t722qd86g/annotation/vx027n225",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://ark.digitalcommonwealth.org/ark:/50959/vx027n225/large_image",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 6469,
+                "height": 6713,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:vx027n225",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://ark.digitalcommonwealth.org/ark:/50959/t722qd86g/canvas/vx027n225"
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://ark.digitalcommonwealth.org/ark:/50959/t722qd86g/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://ark.digitalcommonwealth.org/ark:/50959/t722qd86g/canvas/vx027n225"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/CaliforniaDreaming2026-04/canvas/12",
+          "@type": "sc:Canvas",
+          "label": "image 1",
+          "width": 9340,
+          "height": 9098,
+          "images": [
+            {
+              "@id": "https://ark.digitalcommonwealth.org/ark:/50959/8623r0577/annotation/vd673546f",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://ark.digitalcommonwealth.org/ark:/50959/vd673546f/large_image",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 9340,
+                "height": 9098,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:vd673546f",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://ark.digitalcommonwealth.org/ark:/50959/8623r0577/canvas/vd673546f"
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://ark.digitalcommonwealth.org/ark:/50959/8623r0577/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://ark.digitalcommonwealth.org/ark:/50959/8623r0577/canvas/vd673546f"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/CaliforniaDreaming2026-04/canvas/13",
+          "@type": "sc:Canvas",
+          "label": "[Map of Jambudvīpa]",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "(Jain Culture)"
+            },
+            {
+              "label": "Date",
+              "value": "1850"
+            },
+            {
+              "label": "Short Title",
+              "value": "[Map of Jambudvīpa]"
+            },
+            {
+              "label": "Publisher",
+              "value": "(Jain Culture)"
+            },
+            {
+              "label": "Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "86"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "89"
+            },
+            {
+              "label": "Note",
+              "value": "Date estimated."
+            },
+            {
+              "label": "World Area",
+              "value": "World"
+            },
+            {
+              "label": "Subject",
+              "value": "Religions"
+            },
+            {
+              "label": "Subject",
+              "value": "Pictorial map"
+            },
+            {
+              "label": "Subject",
+              "value": "Data Visualization"
+            },
+            {
+              "label": "Subject",
+              "value": "Celestial"
+            },
+            {
+              "label": "Full Title",
+              "value": "[Map of Jambudvīpa]"
+            },
+            {
+              "label": "List No",
+              "value": "16246.000"
+            },
+            {
+              "label": "Publication Author",
+              "value": "(Jain Culture)"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1850"
+            },
+            {
+              "label": "Pub Title",
+              "value": "[Map of Jambudvīpa]"
+            },
+            {
+              "label": "Pub Reference",
+              "value": "History of Cartography, Volume 2, see Joseph Schwartzberg, chapter 16; The Jain Cosmology, C. Caillat and R. Kumar cf Pi42/3; cf V&A number CIRC. 91-1970. More on Jain maps from Leventhal Map Center: https://www.leventhalmap.org/projects/jain-map-chat/"
+            },
+            {
+              "label": "Pub Note",
+              "value": "\"This colorful and symbolically rich work is a one-of-a-kind hand-painted representation of Jain cosmology, most likely produced in the 19th century in the western part of the Indian subcontinent, where Jainism is most prominent. Jain maps are rare, and this one stands out for the large quantity of text that accompanies the visual representation of the cosmos, providing a complete overview of Jain cosmology and terminology on a single sheet. The map is a cosmological representation of the universe based on Jain philosophical and spiritual concepts, depicting the structure of the universe, its realms, and the interrelation between spiritual and physical components. Jain cosmology presents a highly structured, logical model of the cosmos, including its dimensions and inhabitants, focusing on the ultimate goal of liberation (moksha). The text at the top-right explains that the map is centered on Mount Meru (मेरु), the focal point of the universe in Jain cosmology and an anchor providing cosmic balance, which sits within Madhyaloka, the central realm of the universe, where humans reside. Above the central realm is the upper realm (urdhva loka), the abode of the gods, while below is the hell-like infernal region, Naraka. Each realm is itself subdivided into multiple levels and zones. The progression of one’s soul through these realms in the eternal cycle of rebirth (samsara) is determined by one’s karma. The universe is surrounded by layers of water and wind, beyond which is nothingness. In this void, along the edges of the map, are words and phrases referring to Jain cosmological concepts, deities, and numerology. This work is notable for being a unique production and for its remarkable condition. While other Jain cosmological maps from the same period appear on the market occasionally, few of them are quite so rich in text and imagery, and even fewer survive in such good condition.\" (Neatline Maps, 2025)"
+            },
+            {
+              "label": "Pub List No",
+              "value": "16246.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Manuscript Map"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Fabric Map"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "86"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "89"
+            },
+            {
+              "label": "Image No",
+              "value": "16246000.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/218/16246000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "(Jain Culture)"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~368087~90135375/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~368087~90135375/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~368087~90135375/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~368087~90135375/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~368087~90135375",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 23091,
+                "height": 21869
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~368087~90135375/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~368087~90135375/canvas/c1/annotation/8xzbm2rko"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~368087~90135375/list/luna"
+          ],
+          "width": 23091,
+          "height": 21869
+        },
+        {
+          "@id": "https://example.org/manifest/CaliforniaDreaming2026-04/canvas/14",
+          "@type": "sc:Canvas",
+          "label": "Manuṣyaloka (मनुष्यलोक) (Cosmological Diagram - The World of Mortals.)",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "(Jain Culture)"
+            },
+            {
+              "label": "Date",
+              "value": "1850"
+            },
+            {
+              "label": "Short Title",
+              "value": "Manuṣyaloka (मनुष्यलोक) (Cosmological Diagram - The World of Mortals.)"
+            },
+            {
+              "label": "Publisher",
+              "value": "(Jain Culture)"
+            },
+            {
+              "label": "Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "80"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "80"
+            },
+            {
+              "label": "Note",
+              "value": "1850 date estimated. Cornell, below, dates their copy 18th century. LOC dates their copy 189? From a description of a similar Jain painting at the Johnson Museum at Cornell University: \"This large painting consists of a map-like rendering of the middle world, one of three worlds that comprise the Jain universe. Located between the celestial realm and the lower world of the damned, this middle world is where mortals and all sentient beings live and is the place from which liberation becomes possible. The composition takes the form of a series of concentric circles representing continents and oceans. In the center lies the continent of Jambudvipa, location of India and Mount Meru, surrounded by two oceans and two-and-a-half more continents. The oceans are filled with various aquatic creatures, while the continents contain humans, animals, rivers, and land features, including the five cosmic mountains, shown along the horizontal axis of the painting as yellow disks with pairs of multicolored, arch-like forms. Enshrined Jinas occupy the vertical axis of the continents and also appear in the four corners of the painting.\" Our Jain map is similar, it also depicts Jambudvipa with the region of Mahavideha, bounded north and south by mountain ranges with Mount Meru at its center and \"elephant tusk\" shaped mountains encompassing the regions of Uttarakuru to the north and Devakuru to the south. At the lower part of the map is the bow-shaped region of Bharata, representing India itself. For the Cornell painting, see http://museum.cornell.edu/collections/asian-pacific/south-asia/jain-cosmological-diagram-world-mortals\n\"Jainism is an Indian religion, which was founded by Vardhamana Mahavira, a spiritual leader called the Jina (conqueror), in the sixth century B.C. Jainism teaches nonviolence towards all living beings. Its philosophy and practice rely mainly on the effort of advancing the soul on the spiritual ladder to divine consciousness in a universe that has no beginning or end. Jainism has its own version of geography and cosmology, in which the universe is divided into three kingdoms: the upper is the realm of the heavens and the celestials; the middle is the domain of humans, animals, and plants; and the lower, which belongs to the damned and the disorderly. This 19th-century cosmological diagram of the manuṣyaloka (the human world), comes from western Rajasthan, a state in India with one of the largest Jain populations. The chart shows the Adhai-dvipa, or the two and a half continents inhabited by mortals. The continents are shown as concentric circles surrounded by ring-shaped oceans filled with swimmers and fish, complex networks of rivers and lakes, and mountain ranges. The continent Jambudvipa (rose-apple tree island) is shown in the center of the chart, encircled by a blue ring that represents the Lavana Samudra (Salt Ocean). The next ring corresponds to the continent Dhatakikanda bounded by Kalodadhi (Black-Water Ocean). The outermost band represents half of the third continent, Pushkaradvipa (lotus island).This final band is surrounded by the multi-colored peaks of the mountain range that delimits mortal space, while the pavilions at the corners of the chart represent celestial guardians of the human world.\" World Digital Library."
+            },
+            {
+              "label": "World Area",
+              "value": "World"
+            },
+            {
+              "label": "Subject",
+              "value": "Religions"
+            },
+            {
+              "label": "Subject",
+              "value": "Pictorial map"
+            },
+            {
+              "label": "Subject",
+              "value": "Celestial"
+            },
+            {
+              "label": "Subject",
+              "value": "Data Visualization"
+            },
+            {
+              "label": "Full Title",
+              "value": "Manuṣyaloka (मनुष्यलोक) (Cosmological Diagram - The World of Mortals.)"
+            },
+            {
+              "label": "List No",
+              "value": "12047.000"
+            },
+            {
+              "label": "Series No",
+              "value": "1"
+            },
+            {
+              "label": "Publication Author",
+              "value": "(Jain Culture)"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1850"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Manuṣyaloka (मनुष्यलोक) (Cosmological Diagram - The Map of Jambudvipa.)"
+            },
+            {
+              "label": "Pub Reference",
+              "value": "History of Cartography, Volume 2, see Joseph Schwartzberg, chapter 16; The Jain Cosmology, C. Caillat and R. Kumar cf Pi42/3; cf V&A number CIRC. 91-1970."
+            },
+            {
+              "label": "Pub Note",
+              "value": "Date estimated. Painted in gouache on a large fabric square."
+            },
+            {
+              "label": "Pub List No",
+              "value": "12047.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Fabric Map"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Manuscript Map"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "1"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "80"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "80"
+            },
+            {
+              "label": "Image No",
+              "value": "12047000.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/12047000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "(Jain Culture)"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~281766~90054435/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~281766~90054435/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~281766~90054435/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~281766~90054435/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~281766~90054435",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 11157,
+                "height": 10634
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~281766~90054435/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~281766~90054435/canvas/c1/annotation/9urlw4b5o"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~281766~90054435/list/luna"
+          ],
+          "width": 11157,
+          "height": 10634
+        }
+      ]
+    }
+  ]
+}

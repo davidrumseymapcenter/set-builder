@@ -1,0 +1,1727 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://example.org/collection/Global_History_The_Early_Modern_World",
+  "label": "Global_History_The_Early_Modern_World",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/zx133wz7827/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[Manuscript Wall Map of the World]",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/zx133wz7827.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/zx133wz7827'>https://purl.stanford.edu/zx133wz7827</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[Manuscript Wall Map of the World]"
+        },
+        {
+          "label": "Contributor",
+          "value": "Monte, Urbano, 1544-1613"
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "Manuscript maps."
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 67 maps ; 42 x 28 cm."
+        },
+        {
+          "label": "Language",
+          "value": "Italian"
+        },
+        {
+          "label": "Description",
+          "value": "“An important and extraordinary manuscript world map drawn up on a north polar projection to form the largest manuscript map of the world at 9 by 9 feet. This map is one of 3 examples extant (2 manuscript, 1 printed) that form the continuum of Urbano Monte's work on his ultimate world map. The other two examples were studied at length by Almagia: manuscript copy S is at the Bibliotheca Seminario Arcivisovale at Venegano near Milan is similar to this example with the map in 60 sheets. A second example, printed copy A, is at the Bibliotheca Ambrosiana in Milan, with the frontispiece dated 1590 and the map divided in 64 sheets making the division lines of the sheets easier to arrange. This printed version was published in 1604 on 64 plates, and is the only printed copy known.. Two other single sheet engraved world maps by Monte in North Polar projection are also known, published in Milan in 1603 and 1604, copies of both to be found in the Ambrosiana; an example of the 1603 is also in the Doria atlas from the Wardington Collection. Whilst unusual, the idea of a North Polar projection does have precedents in cartography, notably the beautiful world map of Postel first published in Paris in 1581, and one to be found engraved in ivory on a table top by Gennaro Picicaro, thought to be Naples, 1597 and probably borrowing from the ideas of Monte. The ideas for the projection can also be seen in the Contarini/Roselli map (Venice: 1506), the Ruysch map (Rome: 1507), and the Fine in Paris in 1531. All were attempts to capture the full extent of the world, in which much was still unknown. Of Monte little is known, except for the examples of his maps that have survived. He contributed to a 4 volume historical diary titled Delle cose piu notabili successe nella citta di Milano, the 4th volume of which describes the visit of the Japanese Embassy to Europe 1582-1590, in particular their stay in Italy. Monte would certainly have met the party when they visited Milan in 1582, and its presumed that the form of Japan depicted in this map stems from information provided by the Embassy. Monte's principal fame rests with his geographical treatise Trattato Universale descrittione et sito de tutta la terra sin qui consociuta descritto da Urbano Monte, which accomaanies the 64 sheet manuscript map in the Ambrosiano and would have been Libri primo and secondo to this volume; probably a separate folio volume of text to describe and relate the history and geography of the world. A particular point of interest is the small roundel portrait drawn under the dedication. Having drawn a nice small roundel portrait of himself in 1587, aged 43, he went back 2 years later to add a pasted-over portrait of himself, aged 45, suggesting that he came back to his work after signing off in 1587 (see sheet 42). The atlas has the feel of a work in progress, particularly because of the marginal annotations by Monte and the variety of papers used in its composition. Also, the make up of the atlas—particularly the non-sequential numbering of the earlier sheets, the wear to sheet 7 before binding, and the 17th century binding and guards—suggests that although in some form of binding from the late 16th century, it was reassembled in the present binding and form in mid or early 17th century. The geography of this map is essentially Mercatorial, using Mercator's world map of 1569 as the style guide. On tavola XXV, Monte claims his sources for the map, citing geographers Piccolomini, Pliny, Ptolemy, Cortes, Fernando Columbus, Juan Gonzalez de Mendoza, Giovanni d'Anania, various Jesuit letters, including Marco Polo, and cartographers Mercator, Gastaldi, Olaus Magnus, Giovio, Lopes and the brothers Zeno. Of great interest is the attempt Monte makes to make his map not just a geographical tool but to show climate, customs, length of day, distances within regions— in other words, to create a universal scientific planisphere. In his dedication on tavola XL he specifies how to"
+        },
+        {
+          "label": "Description",
+          "value": "arrange the sheets of the mappamondo and makes it explicit that the whole map was to be stuck on a wooden panel 5 and a half brachia square (3.25m) so that it could be revolved around a central pivot or pin through the north pole. Monte's wall map comes at a time when the map mural had been gaining popularity in Italian decoration. Indeed a treatise in 1510 by Paolo Cortese describes the appropriate decoration for a Cardinal's room as \"a learned enjoyment of a picture representing the world.\" Between 1560 and 1580 four of the greatest map murals had been executed: fresco maps in Palazzo Vechia, Florence, two in the Vatican and another in Palazzo Farrnese in Caprarola. Almost certainly Monte had envisioned his opus as gracing the walls of a Ducal Palace in Milan, and the engraving of the 1590 sheets to make a printed wall map indicates that he had planned to distribute his geography to a wider audience. A monumental map, this little known work by Monte can take its place alongside Mercator, Waldseemueller, Gastaldi and other greats of 16th century world mapping.” Bonhams, 2012 (corrected)."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas."
+        },
+        {
+          "label": "Acquisition",
+          "value": "Provenance of this copy: Sotheby's, May 12th, 1981, lot 53, sold to N. Israel; H.P. Kraus catalog 165 Cimelia: A Catalogue of Important Illuminated and Textual Manuscripts Published in Commemoration of the Sale of the Ludwig Collection, January, 1983; sold to private party; 2017 sold to David Rumsey Map Collection by Barry Lawrence Ruderman Antique Maps."
+        },
+        {
+          "label": "Local note",
+          "value": "David Rumsey Map Center copy 1: Pub list no. 10130.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Manuscript maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > Early works to 1800"
+        },
+        {
+          "label": "Date",
+          "value": "1587"
+        },
+        {
+          "label": "Date",
+          "value": "1587"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/zx133wz7827"
+        },
+        {
+          "label": "Publisher",
+          "value": "[manuscript]i,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2018-03-20"
+        }
+      ],
+      "description": "“An important and extraordinary manuscript world map drawn up on a north polar projection to form the largest manuscript map of the world at 9 by 9 feet. This map is one of 3 examples extant (2 manuscript, 1 printed) that form the continuum of Urbano Monte's work on his ultimate world map. The other two examples were studied at length by Almagia: manuscript copy S is at the Bibliotheca Seminario Arcivisovale at Venegano near Milan is similar to this example with the map in 60 sheets. A second example, printed copy A, is at the Bibliotheca Ambrosiana in Milan, with the frontispiece dated 1590 and the map divided in 64 sheets making the division lines of the sheets easier to arrange. This printed version was published in 1604 on 64 plates, and is the only printed copy known.. Two other single sheet engraved world maps by Monte in North Polar projection are also known, published in Milan in 1603 and 1604, copies of both to be found in the Ambrosiana; an example of the 1603 is also in the Doria atlas from the Wardington Collection. Whilst unusual, the idea of a North Polar projection does have precedents in cartography, notably the beautiful world map of Postel first published in Paris in 1581, and one to be found engraved in ivory on a table top by Gennaro Picicaro, thought to be Naples, 1597 and probably borrowing from the ideas of Monte. The ideas for the projection can also be seen in the Contarini/Roselli map (Venice: 1506), the Ruysch map (Rome: 1507), and the Fine in Paris in 1531. All were attempts to capture the full extent of the world, in which much was still unknown. Of Monte little is known, except for the examples of his maps that have survived. He contributed to a 4 volume historical diary titled Delle cose piu notabili successe nella citta di Milano, the 4th volume of which describes the visit of the Japanese Embassy to Europe 1582-1590, in particular their stay in Italy. Monte would certainly have met the party when they visited Milan in 1582, and its presumed that the form of Japan depicted in this map stems from information provided by the Embassy. Monte's principal fame rests with his geographical treatise Trattato Universale descrittione et sito de tutta la terra sin qui consociuta descritto da Urbano Monte, which accomaanies the 64 sheet manuscript map in the Ambrosiano and would have been Libri primo and secondo to this volume; probably a separate folio volume of text to describe and relate the history and geography of the world. A particular point of interest is the small roundel portrait drawn under the dedication. Having drawn a nice small roundel portrait of himself in 1587, aged 43, he went back 2 years later to add a pasted-over portrait of himself, aged 45, suggesting that he came back to his work after signing off in 1587 (see sheet 42). The atlas has the feel of a work in progress, particularly because of the marginal annotations by Monte and the variety of papers used in its composition. Also, the make up of the atlas—particularly the non-sequential numbering of the earlier sheets, the wear to sheet 7 before binding, and the 17th century binding and guards—suggests that although in some form of binding from the late 16th century, it was reassembled in the present binding and form in mid or early 17th century. The geography of this map is essentially Mercatorial, using Mercator's world map of 1569 as the style guide. On tavola XXV, Monte claims his sources for the map, citing geographers Piccolomini, Pliny, Ptolemy, Cortes, Fernando Columbus, Juan Gonzalez de Mendoza, Giovanni d'Anania, various Jesuit letters, including Marco Polo, and cartographers Mercator, Gastaldi, Olaus Magnus, Giovio, Lopes and the brothers Zeno. Of great interest is the attempt Monte makes to make his map not just a geographical tool but to show climate, customs, length of day, distances within regions— in other words, to create a universal scientific planisphere. In his dedication on tavola XL he specifies how to",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/fg733xj4169%2F10130001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/fg733xj4169%2F10130001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 291
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/zx133wz7827/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/zx133wz7827/iiif/canvas/cocina-fileSet-wc258xz4590-wc258xz4590_1",
+              "@type": "sc:Canvas",
+              "label": "Tavola Setima, Che Ha Sua Superiore La Tavola Seconda. Libro\n            Terzo",
+              "height": 9251,
+              "width": 12493,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/wc258xz4590/10130009.jp2",
+                  "label": "Original source file (20.8 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/zx133wz7827/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fwc258xz4590-wc258xz4590_1%2F10130009.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/zx133wz7827/iiif/canvas/cocina-fileSet-wc258xz4590-wc258xz4590_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/wc258xz4590%2F10130009/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 9251,
+                    "width": 12493,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/wc258xz4590%2F10130009",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~332377~90100794/manifest",
+      "label": "Pascaarte van alle de Zecusten van Europa. Nieulycx beschreven door Willem Ians Blauw",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~332377~90100794/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~332377~90100794/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Pascaarte van alle de Zecusten van Europa. Nieulycx beschreven door Willem Ians Blauw",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Blaeu, Willem Janszoon, 1571-1638"
+                },
+                {
+                  "label": "Date",
+                  "value": "1621"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Pascaarte van alle de Zecusten van Europa. Nieulycx beschreven door Willem Ians Blauw"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Willem Janszoon Blaeu"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "Chart Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "85"
+                },
+                {
+                  "label": "Note",
+                  "value": "The rough condition and the holes at the edges indicate that this chart was nailed to a table in the pilothouse of a ship for quick reference during navigation. A related chart published by Blaeu and held by the Utrecht University Library has the same condition and edge holes - there is a good blog post by Curator dr. Marco van Egmond about it here https://www.uu.nl/en/utrecht-university-library-special-collections/the-treasury/maps-and-atlases-from-the-treasury/portolan-map-of-europe-by-blaeu"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Europe"
+                },
+                {
+                  "label": "Region",
+                  "value": "Mediterranean Region"
+                },
+                {
+                  "label": "Region",
+                  "value": "North Africa"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Pascaarte van alle de Zecusten van Europa. Nieulycx beschreven door Willem Ians Blauw"
+                },
+                {
+                  "label": "List No",
+                  "value": "10798.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Blaeu, Willem Janszoon, 1571-1638"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1621"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Pascaarte van alle de Zecusten van Europa. Nieulycx beschreven door Willem Ians Blauw"
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Schilder, ‘Monumenta Cartographica Neerlandica’, IV, 45.1; Denucé, p.8; ‘Catalogue des cartes nautiques’ (1963), p.313; Stopp & Langel, p.33 and plate VI; Ristow, 'A la Cart', pp. 63-75."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"The first edition Willem Blaeu's exceedingly rare, separately issued and large-format sea chart of Europe. This large and sumptuously decorative chart is one of the rarest and most historically important monuments of Dutch Baroque cartography, and a milestone in the career of the celebrated mapmaker Willem Jansz Blaeu. It is also exceedingly rare in the first edition, with no examples recorded in British or American institutional collections. Blaeu's chart captures the entire coastlines of Europe and the shores of the Mediterranean Sea. The coverage of the main part of the chart commences in the northeast at Novaya Zemlya, then follows the intricate European coastline past Norway, into the Baltic Sea, then down through the North Sea and the Atlantic littoral, through the Pillars of Hercules to take all of the Mediterranean Sea west of Corfu, along with the adjacent coastlines of North Africa. It also extends deep into the North Atlantic to feature Iceland, Greenland, Spitsbergen and the Azores. The latter is important as the location of the Prime Meridian of Longitude (before it was changed later in the century to 'Pico' in Tenerife, and then to Greenwich in the 19th Century), and an important marker for ships sailing to the West Indies and South America. A beautiful inset in the lower left of the chart details the shorelines of the Eastern Mediterranean. The chart is oriented with the west towards the top and assumes a Portolan-style appearance, with sparing geographic detail in the interior, but neat and tightly clustered place names along the littoral, while the seas are traversed by rhumblines, emanating from compass roses. The interior areas are adorned with the elaborate national coats of arms of various nations, including those of Russia, Sweden, Denmark-Norway, the Holy Roman Empire, England, France, Spain and the Ottoman Empire. Four scale cartouches adorn the corners, while a magnificent title cartouche, topped by Blaeu's symbol of an armillary sphere and with his motto \"Indefessus Agendo\" ('Act Steadily') graces the lower-center of the chart. The seas are further embellished with sailing ships and seals, while on the land roam Inuit hunters, goats, bears and elephants. Importantly, the chart is one of the earliest maps to include details of the waters around Greenland and the Davis Strait, on the west coast of the island, after the 1612 map of Hessel Gerritsz, a cartographer closely associated with Blaeu. Blaeu also makes a step forward in omitting the mythical island of 'Friesland', which was still included on many contemporary charts. While most of the coastlines of Europe are well charted and fully familiar to the modern eye, the Russian Arctic coastline, in the lower right of the chart, remains partially undefined. The chart presents the most advanced knowledge of the region, largely based on the recent charting done by Dutch explorers. In particular, Blaeu shows the western coasts of Novaya Zemlya, discovered by Willem Barentsz in the 1590s, although he is cautiously silent on whether or not the landform is an island. Blaeu based much of the cartography of the present chart on a chart he made in 1606, although the Pascaarte van alle de Zecusten van Europa is much larger and more detailed. Blaeu devised the chart to take advantage of major events that were occurring with respect to the Dutch Republic's growing global ambitions. In 1621, the year that this chart was produced, the Dutch West India Company (the WIC) was formed in an effort to acquire commercial colonies in the Americas. The Company's mariners vitally needed such an omnibus chart that would guide their ships in approaching and clearing European inland waters, while being able to sail down between the Canaries and Azores to take advantage of the trade winds, and so to sail down towards the West Indies. In a short matter of time, the WIC founded New Amsterdam (1624, modern New York), conquered much of Northern Brazil (starting in 1630), and acquired Caribbean Islands such as Curaçao and part of Saint Martin (1630). To further assist the WIC, Blaeu published his West Indische Paskaert later the same year. Another major interest was the Noordsche Compagnie (the Northern Company), established in 1614, which held a monopoly on all Dutch trade in the Arctic, which was primarily centered on whaling and fishing. The chart's progressive delineation of Arctic Russia and Scandinavia, Spitsbergen, Iceland and Greenland would have been most useful. As the finest general sea chart of Europe made during its era, Blaeu's chart also had important military strategic value. In 1621, the Twelve Years' Truce in the Eighty Years' War (1568-1648) expired and the Dutch Republic and Spain renewed their epic conflict. Leading officials of the government of the Dutch Stadhouder, Prince Maurits of Orange-Nassau, as well as senior naval commanders, would certainly have consulted copies of the chart when planning their missions. Indeed, over the coming years the Dutch Navy came into combat with the Armada Real in wide variety of places, from the Mediterranean to the North Sea, so an accurate panoptic view of the continent would have been most beneficial. Blaeu's magnificent chart thus acted as a 'calling card' for the WIC, the Noordische Company and the Dutch Navy, which ensured Blaeu a tremendous amount of business for the rest of his days. Blaeu's chart proved to be highly influential and was copied many times over the next three generations, including editions by Anthonie Jacobsz, Pieter Goos, Justus Danckerts, as well as by Blaeu's own grandchildren Willem II, Pieter and Joan. Frederick De Wit also made a version of the chart, which cut off the region that included Greenland, which was copied by Renard and Ottens. Perhaps most notably and fittingly, Blaeu's Pascaarte van alle de Zecusten van Europa was used by the great painter Vermeer as the backdrop to his painting 'The Geographer' (1669), which today resides in the Städel Museum in Frankfurt. Willem Jansz Blaeu (1571-1638) was the most important mapmaker of the 17th Century, and was responsible, more than any other figure, for the ascension of Dutch cartography to a globally dominant position. Blaeu, originally from Alkmaar, north of Amsterdam, apprenticed from 1594 to 1596 under the legendary Danish astronomer Tycho Brahe at his observatory on Ven Island, near Copenhagen. Upon his return to the Netherlands, Blaeu started a business making charts, globes and nautical instruments. His timing was impeccable, as the Dutch economy, based on maritime trade, was booming and there was an insatiable demand for high quality sea charts and nautical kits. Notably, in 1596, the Dutch made their first voyage to the East Indies, which soon led to the establishment of the Dutch East India Company (1602). The VOC would be one of Blaeu's anchor clients and, in 1633, he would be appointed to be the Company's official hydrographer. Blaeu's sea atlas of European waters, Het Licht der Zee-vaert (1608) was revolutionary, being the first broadly accurate maritime atlas. He went on to create magnificent wall maps, large-format charts and eventually terrestrial atlases, all decorated with the finest Dutch Baroque artistry. In particular, the Pascaarte van alle de Zecusten van Europa helped to establish Blaeu's supremacy in the highly competitive Dutch cartography market. Towards the end of his life, Blaeu published the Atlas Novus (1635), a grand production that was later expanded by his son, Joan Blaeu (1598-1673), who grew the Blaeu business into the largest geographic publishing house in history. The Pascaarte van alle de Zecusten van Europa was during its time a practical working sea chart. The map tended to be heavily used aboard ship, accounting for its low survival rate. It was printed on both paper and on vellum (as with the present example). Both types are exceedingly rare, with only 8 institutional examples known (6 on vellum and only 2 printed on paper). Gunther Schilder notes that of these examples none resides in American or British collections. The institutions which record examples are: Universiteitsbibliotheek Amsterdam; Stadsarchief Antwerpen; Staatsbibliothek zu Berlin; Nationalbibliothek Budapest; Hessesche Landesbibliothek, Darmstadt; Badische Landesbibliothek, Karlsruhe; Bibliotheque Nationale de France; Herzogin Anna Amalia-Bibliothek, Weimar; and the Stopp Collection.\" (Ruderman, 2021)."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10798.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Chart Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "85"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10798000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/190/10798000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Blaeu, Willem Janszoon, 1571-1638"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~332377~90100794/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~332377~90100794/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~332377~90100794",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 18330,
+                    "height": 14486
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~332377~90100794/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~332377~90100794/list/luna"
+              ],
+              "width": 18330,
+              "height": 14486
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~332377~90100794"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/tf561ws3691/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Isolario descrittione geografico-historica, sacro-profana, antico-moderna, politica, naturale, e poetica, mari, golfi, seni, piagge, porti, barche, pesche, promontori, monti, boschi, fiumi, laghi, stagni, bagni, volcani, miniere, gemme, richezze, e monete; iscrittioni, linguaggi, governi, forze, armate, guerre, aleanze, acquisti, perdite, tregue, trattati di pace, religioni claustrali, ed equestri; concili, e missioni; vescovadi, arcivescouadi, e patriarcati; leggi, costumi, habiti, blasoni, accademie, huomini illustri, ed ogni pui esatta notitia di tuttel'isole coll'osservationi degli scogli sirti, scagni, e secche del globo terracqueo. : Aggiuntivi anche i ritratti de dominatori di esse. Ornato di trecento-dieci tavole geografiche, topografiche, corografiche, iconografiche, scenografiche, idrografiche, e potamografiche; a'maggiore dilucidatione, ed uso della Navigatione, e in supplimento dei XIV volumi del Bleau. Tomo II dell' Atlante veneto. Opera, e Studio del P. Maestro Vincenzo Coronelli ... A Spese dell Auttore MDCLXXXXVI (1696). (half title) Isolario dell'Atlante Veneto de P. Coronelli, parte II, In Venetia MDCLXXXXVII (1697)",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/tf561ws3691.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/tf561ws3691'>https://purl.stanford.edu/tf561ws3691</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Isolario descrittione geografico-historica, sacro-profana, antico-moderna, politica, naturale, e poetica, mari, golfi, seni, piagge, porti, barche, pesche, promontori, monti, boschi, fiumi, laghi, stagni, bagni, volcani, miniere, gemme, richezze, e monete; iscrittioni, linguaggi, governi, forze, armate, guerre, aleanze, acquisti, perdite, tregue, trattati di pace, religioni claustrali, ed equestri; concili, e missioni; vescovadi, arcivescouadi, e patriarcati; leggi, costumi, habiti, blasoni, accademie, huomini illustri, ed ogni pui esatta notitia di tuttel'isole coll'osservationi degli scogli sirti, scagni, e secche del globo terracqueo. : Aggiuntivi anche i ritratti de dominatori di esse. Ornato di trecento-dieci tavole geografiche, topografiche, corografiche, iconografiche, scenografiche, idrografiche, e potamografiche; a'maggiore dilucidatione, ed uso della Navigatione, e in supplimento dei XIV volumi del Bleau. Tomo II dell' Atlante veneto. Opera, e Studio del P. Maestro Vincenzo Coronelli ... A Spese dell Auttore MDCLXXXXVI (1696). (half title) Isolario dell'Atlante Veneto de P. Coronelli, parte II, In Venetia MDCLXXXXVII (1697)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Coronelli, Vincenzo (1650-1718)."
+        },
+        {
+          "label": "Contributor",
+          "value": "Accademia cosmografica degli Argonauti"
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 29 maps ; 48 x 34 cm."
+        },
+        {
+          "label": "Language",
+          "value": "Italian"
+        },
+        {
+          "label": "Description",
+          "value": "Coronelli's Isolario Atlante Veneto, (1691-1692; 1696-98), in 2 volumes in 2 parts. This is the second part of volume 2. The first part of volume 2 covers the Mediterranean, Italy and the Adriatic; the second (this copy), covers Britain and Europe, Africa, Japan and Asia, and the West Indies. Each volume with engraved titles, half-titles, titles of Isolario, engraved architectural frontispieces, portraits, views, charts, text and 24 engraved maps, using the latest geographical information available. Many of the more important maps were engraved on two sheets, to allow greater detail. Coronelli's Isolario is considered to be one of the most decorative atlases of 17th century. Illustrated in Coronelli's unique style, it is a comprehensive survey of the islands of the world as known in his time, along with diagrams of various nautical weather conditions, instruments, fortresses and ship diagrams. Collation of Coronelli's atlases varies greatly; this copy is complete, but we have seen other copies with more maps and globe gores added. Coronelli, an Italian theologian, cartographer and geographer, was author or contributor to over 140 titles and produced several hundred maps, either printed separately or as parts of atlases."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 11391.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Historical geography > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Geography, ancient > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Classical geography > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Political geography > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Boundaries > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Physical geography > Maps > Early works to 1800"
+        },
+        {
+          "label": "Date",
+          "value": "1697"
+        },
+        {
+          "label": "Date",
+          "value": "1697"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/tf561ws3691"
+        },
+        {
+          "label": "Publisher",
+          "value": "A' spese dell'autore,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2020-01-09"
+        }
+      ],
+      "description": "Coronelli's Isolario Atlante Veneto, (1691-1692; 1696-98), in 2 volumes in 2 parts. This is the second part of volume 2. The first part of volume 2 covers the Mediterranean, Italy and the Adriatic; the second (this copy), covers Britain and Europe, Africa, Japan and Asia, and the West Indies. Each volume with engraved titles, half-titles, titles of Isolario, engraved architectural frontispieces, portraits, views, charts, text and 24 engraved maps, using the latest geographical information available. Many of the more important maps were engraved on two sheets, to allow greater detail. Coronelli's Isolario is considered to be one of the most decorative atlases of 17th century. Illustrated in Coronelli's unique style, it is a comprehensive survey of the islands of the world as known in his time, along with diagrams of various nautical weather conditions, instruments, fortresses and ship diagrams. Collation of Coronelli's atlases varies greatly; this copy is complete, but we have seen other copies with more maps and globe gores added. Coronelli, an Italian theologian, cartographer and geographer, was author or contributor to over 140 titles and produced several hundred maps, either printed separately or as parts of atlases.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/yk910fh4745%2F11391001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/yk910fh4745%2F11391001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 294,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/tf561ws3691/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/tf561ws3691/iiif/canvas/cocina-fileSet-yv996xv4578-yv996xv4578_1",
+              "@type": "sc:Canvas",
+              "label": "Impero del Gran Mogol. Descritto e didicato all' Illustrissimo et\n            Eccellentisimo S. Girolamo Correr, Sauio Grande dal P. Cosmografo Coronelli. (to\n            accompany) Isolario descrittione geografico-historica, sacro-profana, antico-moderna\n            e in supplimento dei XIV volumi del Bleau. Tomo II dell' Atlante veneto. Opera, e\n            Studio del P. Maestro Vincenzo Coronelli ... A Spese dell Auttore MDCLXXXXVI (1696).",
+              "height": 11550,
+              "width": 16408,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/yv996xv4578/11391110.jp2",
+                  "label": "Original source file (34.1 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/tf561ws3691/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fyv996xv4578-yv996xv4578_1%2F11391110.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/tf561ws3691/iiif/canvas/cocina-fileSet-yv996xv4578-yv996xv4578_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/yv996xv4578%2F11391110/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11550,
+                    "width": 16408,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/yv996xv4578%2F11391110",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~321045~90090121/manifest",
+      "label": "Tome V. No. 45. Page 124. Carte des Indes, de la Chine & des Iles de Sumatra, Java, & c.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~321045~90090121/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~321045~90090121/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Tome V. No. 45. Page 124. Carte des Indes, de la Chine & des Iles de Sumatra, Java, & c.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Chatelain Henri, 1684-1743"
+                },
+                {
+                  "label": "Author",
+                  "value": "Gueudeville, Nicolas"
+                },
+                {
+                  "label": "Date",
+                  "value": "1719"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Tome V. No. 45. Page 124. Carte des Indes, de la Chine & des Iles de Sumatra, Java, & c."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "L'Honore & Chatelai"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Freres Chatelain"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "57"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "54"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "4,100,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Engraved folded map of East Asia, centered on China, covers from the Caspian Sea and India to New Guinea. Showing towns, villages, islands and rivers. Relief shown pictorially."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Phillips 548"
+                },
+                {
+                  "label": "Country",
+                  "value": "India"
+                },
+                {
+                  "label": "Country",
+                  "value": "China"
+                },
+                {
+                  "label": "Region",
+                  "value": "Southeast Asia"
+                },
+                {
+                  "label": "Region",
+                  "value": "East Asia"
+                },
+                {
+                  "label": "Region",
+                  "value": "East Indies"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Historical"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Carte des Indes, de la Chine & des Iles de Sumatra, Java, & c : dressee sur les memoires les plus nouveaux & sur les meilleurs observations, tirées des relations les plus fideles. Tom. V. No. 45. Pag. 124. ((to accompany) Atlas Historique ... Tom. V. A Amsterdam, chez L'Honore & Chatelain Libraires. M DCC XIX (1719)."
+                },
+                {
+                  "label": "List No",
+                  "value": "13272.557"
+                },
+                {
+                  "label": "Page No",
+                  "value": "T.V. No. 45.P.124"
+                },
+                {
+                  "label": "Series No",
+                  "value": "557"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Chatelain Henri, 1684-1743"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Gueudeville, Nicolas"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1720"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlas Historique, Ou Nouvelle Introduction A l'Histoire, aÌ la Chronologie & aÌ la Geìographie Ancienne & Moderne : Repreìsenteìe dans de Nouvelles Cartes, OuÌ l'on remarque l'Etablissement des Etats & Empires du Monde, leur dureìe, leur chute, & leurs differens Gouvernemens … Par Mr. C.***. Avec des Dissertations sur l'Histoire de chaque Etat. Par Mr. Gueudeville. Amsterdam, chez l’Honore & Chatelain. Tome 1-7."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Phillips 548"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "First edition of this Historical atlas of the world, with new introduction to history and chronology and updated maps, in 7 volumes, dated 1714-1720. By Henri Abraham Chatelain and descriptive text for volumes I-VI, by Nicolas Gueudeville. Include 308 maps, views and charts, some folded, some double page. Vol. 1-2, 4-5 and 7 have added illustrated title-pages. Vol. 2-3, nouvelle. edition, 1720; Vol. 2 called \"Tome II, Premiere partie\". Vol. 3 called \"Tome II, seconde partie..\" Vol. 7 has title: Supplement a l’Atlas historique ... avec des dissertations sur chaque sujet, par mr. H.P. Limiers ... Tome VII & dernier. Volumes 1-6 covers: T. I. Grece, Romaine, Italie, France, Espagne, Provinces-Unies. T. II. Allemagne, Prusse, Hongrie, Boheme. T. III. Grande Bretagne, Irlande, Suisse, Savoye, Lorraine, Venise. T. IV. Dannemarck, Suede, Pologne, Moscovie, Turquie. T. V. Asie. T. VI. Afrique. Volumes are bound in brown leather covers with gold-embossed on spine and title \"Atlas Historique Tom ...\" stamped in gold. \"Henri Abraham Chatelain, whose \"Atlas Historique\" was one of the most expansive Dutch encyclopedias of the age. First published in 1705, Chatelain's Atlas Historique was part of an immense seven-volume encyclopedia. Although the main focus of the text was geography, the work also included a wealth of historical, political, and genealogical information. The text was compiled by Nicholas Gueudeville and Garillon with a supplement by H.P. de Limiers and the maps were engraved by Chatelain, primarily after maps by De L'Isle. The maps were accompanied by information pertaining to cosmography, geography, history, chronology, genealogy, topography, heraldry, and costumes of the world. The maps in the Atlas Historique were mainly based on those of the French cartographer, Guillaume De L’Isle, but were presented by the Chatelains in an encyclopaedic form. The accompanying text is in French and often is printed in two columns on the page with maps and other illustrations interspersed. Each map and table is numbered consecutively within its volume and all maps bear the privileges of the States of Holland and West-Friesland. An ambitious and beautifully-presented work, the Atlas Historique was intended for the general public, fascinated in the early eighteenth century by the recently conquered colonies and the new discoveries. Distant countries, such as the Americas, Africa, the Middle East, Mongolia, China, Japan, Indonesia, etc., take an important place in this work. In addition to the maps, many of which are based on Guillaume De L'Isle, the plates are after the best travel accounts of the period, such as those of Dapper, Chardin, de Bruyn, Le Hay and other. Other sections deal with the history of the european countries, and covers a wide range of subjects including genealogy, history, cosmography, topography, heraldry and chronology, costume of the world, all illustrated with numerous engraved maps, plates of local inhabitants and heraldic charts of the lineages of the ruling families of the time. The maps, prints and tables required to make up a complete set are listed in detail in each volume. The encyclopaedic nature of the work as a whole is reflected in this six frontispiece. The pages are the work of the celerated mr. Romeijn de Hooghe. and are engraved by J.Goeree, T.Schynyoet and P.Sluyter. New scholarship has suggested the compiler of the atlas, who is identified on the title as \"Mr. C***\" not to be Henri Abraham Châtelain, but Zacharie Châtelain. (See Van Waning's article in the Journal of the International Map Collectors' Society for persuasive evidence of the latter's authorship.)\" (From Paulus Swaen catalog)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "13272.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Historical Atlas"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "57"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "54"
+                },
+                {
+                  "label": "Image No",
+                  "value": "13272557.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/13272557.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Chatelain Henri, 1684-1743; Gueudeville, Nicolas"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~321045~90090121/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~321045~90090121/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~321045~90090121",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12082,
+                    "height": 11445
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~321045~90090121/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~321045~90090121/list/luna"
+              ],
+              "width": 12082,
+              "height": 11445
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~321045~90090121"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/dg598pv6728/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "(Composite Chart Atlas)",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/dg598pv6728.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/dg598pv6728'>https://purl.stanford.edu/dg598pv6728</a>"
+        },
+        {
+          "label": "Title",
+          "value": "(Composite Chart Atlas)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Van Keulen, Joannes."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Type",
+          "value": "Nautical charts."
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas ; 20 maps ; 55 x 32 cm."
+        },
+        {
+          "label": "Language",
+          "value": "Dutch"
+        },
+        {
+          "label": "Description",
+          "value": "A well used sea atlas that likely was carried on board a ship. Date estimated based on the date on the last map in the atlas. Uncolored. In Dutch. Soft, pale gray-green paper covers."
+        },
+        {
+          "label": "Description",
+          "value": "Chart Atlas."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 12203.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Nautical charts > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Ocean > Maps > Early works to 1800"
+        },
+        {
+          "label": "Date",
+          "value": "1680"
+        },
+        {
+          "label": "Date",
+          "value": "1680"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/dg598pv6728"
+        },
+        {
+          "label": "Publisher",
+          "value": "Joannes van Keulen,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-09-15"
+        }
+      ],
+      "description": "A well used sea atlas that likely was carried on board a ship. Date estimated based on the date on the last map in the atlas. Uncolored. In Dutch. Soft, pale gray-green paper covers.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/ft344ng2030%2F12203001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/ft344ng2030%2F12203001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 327
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/dg598pv6728/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/dg598pv6728/iiif/canvas/cocina-fileSet-zp332vp0131-zp332vp0131_1",
+              "@type": "sc:Canvas",
+              "label": "Nieuwe Pascaert van Oost Indien",
+              "height": 9255,
+              "width": 10576,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/zp332vp0131/12203021.jp2",
+                  "label": "Original source file (17.6 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/dg598pv6728/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fzp332vp0131-zp332vp0131_1%2F12203021.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/dg598pv6728/iiif/canvas/cocina-fileSet-zp332vp0131-zp332vp0131_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/zp332vp0131%2F12203021/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 9255,
+                    "width": 10576,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/zp332vp0131%2F12203021",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338809~90106858/manifest",
+      "label": "The Western Ocean.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~338809~90106858/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338809~90106858/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "The Western Ocean.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Mount, John"
+                },
+                {
+                  "label": "Author",
+                  "value": "Page, Thomas, 1704-1762"
+                },
+                {
+                  "label": "Date",
+                  "value": "1766"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "The Western Ocean."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "J. Mount and T. Page"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "52"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "30,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Nautical chart of the Atlantic Ocean. Shows surrounding land, port cities, coastlines, islands, shoals, anchorage, and soundings. Includes rhumb lines, latitudinal and longitudinal lines, as well as three bar scales and a compass rose, with north oriented toward top of sheet. Descriptive notes throughout. Decorative cartouche. Black and white engraving. Chart is 42 x 52 cm, on double sheet 47 x 59 cm."
+                },
+                {
+                  "label": "Region",
+                  "value": "Atlantic Ocean"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Nautical Charts"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "The Western Ocean."
+                },
+                {
+                  "label": "List No",
+                  "value": "14347.009"
+                },
+                {
+                  "label": "Series No",
+                  "value": "9"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Mount, John"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Page, Thomas, 1704-1762"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1766"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The English pilot : Part V. Describing the sea-coast, capes, head-lands, bays, roads, harbours, rivers and ports; with the exact appearances and representations of the most principal marks, lands, &c. together with the soundings, sands, shoals, rocks and dangers on the west-coast of Africa : from the straits of Gibralter to the Cape of Good Hope, Viz. The coasts of Barbary, Gualta, Arguin, Hoden, Falofi, Gambia, Melli, Benni, Malegete, Grain, Ivory, or Tooth, Band, Quaqua and Gold Coast, Bight of Bennin, Biafra, Gabon, Loango, Congo, Angola, Cimbebas and CAffrary : with the adjacent islands of the Canary, Madera, and those off the Cape Verde. Shewing the courses and distances from one place to another : the setting of the tides and currents; the ebbing and flowing of the sea, with many other things useful in the art of navigation. Done according to the best observations and informations, with the late improvements of several able navigators of our own and other nations. The Seventh Edition, with new additions. London : printed for J. Mount and T. Page, on Tower-Hill, M,DCC,LXVI."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Phillips 3230."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "The English pilot : Part V, published by John Mount and Thomas Page in London, 1766. The English pilot was a sea-chart atlas published in several editions from 1671 to 1803. This, fifth, edition focus on the coasts of Africa and the vicinity, from the English Channel to the Strait of Gibraltar and further to the Cape of Good Hope. Bound in brown leather, with gilded spine title. Ink inscription on first (blank) page indicates provenance, listing several names, beginning with Joseph Sowler. Collation: [1], 42 pages, with 19 double leaves of double plates, including several fold-out sheets. Plates comprised of 21 nautical charts (three together on plate following page 16). Charts show surrounding land, port cities, topography, vegetation, coastlines, islands, shoals, anchorage, and soundings. Relief shown pictorially. Charts include rhumb lines, latitudinal and longitudinal lines, as well as bar scales, compass roses and descriptive notes. Extended description appears in chapters I through XVI, illustrated by woodcut profile views of coastal topography. For the other parts of The English Pilot in the collection, see Pub List No 13301.000 (Part II), 13251.000 (Parts I and III, bound together) and 12434.000 (Part IV)."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14347.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Chart Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Regional Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "21"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "48"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14347009.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/195/14347009.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Mount, John; Page, Thomas, 1704-1762"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338809~90106858/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338809~90106858/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338809~90106858",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 14746,
+                    "height": 11712
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338809~90106858/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338809~90106858/list/luna"
+              ],
+              "width": 14746,
+              "height": 11712
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~338809~90106858"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/zg066mg2041/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Nieuwe Pascaert van Oost Indien Verthoonende hen van C. de Bona Esperanca tot aen het\n          Landt van Eſo. Geleyt op Waßende Graeden en van Veel Fouten Verbetert",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/zg066mg2041.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/zg066mg2041'>https://purl.stanford.edu/zg066mg2041</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Nieuwe Pascaert van Oost Indien Verthoonende hen van C. de Bona Esperanca tot aen het\n          Landt van Eſo. Geleyt op Waßende Graeden en van Veel Fouten Verbetert"
+        },
+        {
+          "label": "Title",
+          "value": "New map of East Indies from Cape of Good Hope to Japan and Australia"
+        },
+        {
+          "label": "Creator",
+          "value": "Keulen, Johannes van, 1654-1715"
+        },
+        {
+          "label": "Contributor",
+          "value": "Loon, H. v. (Herman van) (engraver)"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 51 x 58 cm"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "By Ioannes van Keulen."
+        },
+        {
+          "label": "Description",
+          "value": "Appears in: Zee Atlas (1680)"
+        },
+        {
+          "label": "Description",
+          "value": "Outline color"
+        },
+        {
+          "label": "Description",
+          "value": "Sea chart"
+        },
+        {
+          "label": "Description",
+          "value": "Two cartouches are shown on this map. The cartouche at the top is similar to Otten's map\n        (see NOR 0252). The second cartouche provides the name and address of the author and is\n        surrounded by dolphins and European traders. Two compass roses radiate rhumb lines."
+        },
+        {
+          "label": "Acquisition",
+          "value": "Dr. Oscar I. Norwich"
+        },
+        {
+          "label": "Local note",
+          "value": "David Rumsey Map Center copy 1: Norwich no. NOR\n        0267."
+        },
+        {
+          "label": "Subject",
+          "value": "Africa > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Ocean"
+        },
+        {
+          "label": "Coverage",
+          "value": "No scale given"
+        },
+        {
+          "label": "Coverage",
+          "value": "26°08′00″E -- 84°06′00″E / 40°24′00″N -- 35°16′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1680"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/zg066mg2041"
+        },
+        {
+          "label": "Relation",
+          "value": "Dr. Oscar I. Norwich collection of maps of Africa and its islands, 1486 - ca. 1865"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-08-11"
+        }
+      ],
+      "description": "Appears in: Zee Atlas (1680)",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/zg066mg2041%2FAM_0233/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/zg066mg2041%2FAM_0233",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 358
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/zg066mg2041/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/zg066mg2041/iiif/canvas/cocina-fileSet-zg066mg2041-7343bd78-2fbb-45bb-9b94-b76c2ce68967",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 9388,
+              "width": 10481,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/zg066mg2041/AM_0233.jp2",
+                  "label": "Original source file (17.7 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/zg066mg2041/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fzg066mg2041-7343bd78-2fbb-45bb-9b94-b76c2ce68967%2FAM_0233.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/zg066mg2041/iiif/canvas/cocina-fileSet-zg066mg2041-7343bd78-2fbb-45bb-9b94-b76c2ce68967",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/zg066mg2041%2FAM_0233/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 9388,
+                    "width": 10481,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/zg066mg2041%2FAM_0233",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/yy309xw0364/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "(A New Universal Atlas; Exhibiting all the Empires, Kingdoms, States, Republics, &c. &c. in the Whole World; Being a Complete Collection of the Most Approved Maps Extant; Corrected with the greatest care, and augmented from the last edition of D'Anville and Robert; [de Vaugondy] with many Improvements by Major James Rennel, and other eminent geographers, including all the tracks and new discoveries of the British Circumnavigators, Biron, Wallis, Carteret, Captain James Cook, Vancouver, Perouse, &c. &c. 6th Ed. ... London, R. Laurie & J. Whittle, 1804",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/yy309xw0364.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/yy309xw0364'>https://purl.stanford.edu/yy309xw0364</a>"
+        },
+        {
+          "label": "Title",
+          "value": "(A New Universal Atlas; Exhibiting all the Empires, Kingdoms, States, Republics, &c. &c. in the Whole World; Being a Complete Collection of the Most Approved Maps Extant; Corrected with the greatest care, and augmented from the last edition of D'Anville and Robert; [de Vaugondy] with many Improvements by Major James Rennel, and other eminent geographers, including all the tracks and new discoveries of the British Circumnavigators, Biron, Wallis, Carteret, Captain James Cook, Vancouver, Perouse, &c. &c. 6th Ed. ... London, R. Laurie & J. Whittle, 1804"
+        },
+        {
+          "label": "Contributor",
+          "value": "Kitchin, Thomas."
+        },
+        {
+          "label": "Contributor",
+          "value": "Armstrong, John."
+        },
+        {
+          "label": "Contributor",
+          "value": "Baker, B."
+        },
+        {
+          "label": "Contributor",
+          "value": "Campbell, Lieut."
+        },
+        {
+          "label": "Contributor",
+          "value": "D'Anville."
+        },
+        {
+          "label": "Contributor",
+          "value": "Enouy, J."
+        },
+        {
+          "label": "Contributor",
+          "value": "Jefferys, Thomas."
+        },
+        {
+          "label": "Contributor",
+          "value": "Jones & Smith."
+        },
+        {
+          "label": "Contributor",
+          "value": "Lodge, J."
+        },
+        {
+          "label": "Contributor",
+          "value": "Mylne, Robert."
+        },
+        {
+          "label": "Contributor",
+          "value": "Neele, S."
+        },
+        {
+          "label": "Contributor",
+          "value": "Phillips, J."
+        },
+        {
+          "label": "Contributor",
+          "value": "Robert Laurie & James Whittle."
+        },
+        {
+          "label": "Contributor",
+          "value": "Rocque, J."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 76 maps ; 57 x 41 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "60 maps on 76 sheets; lacks title page, has index. Maps dated 1794-1804. Many of the maps are updated from Kitchin's 36 sheet General Atlas, and the American Atlas. In 1796 and 1800 Laurie and Whittle published their New and Elegant Imperial Sheet Atlas (P6009, 6016), with 50 maps all, we believe on a single sheet, with a different map of the U.S. showing the American Flag above the cartouche. The Universal Atlas was their biggest production, with many of the maps multi sheet. Outline color. Atlas is bound in new quarter leather orange cloth covered boards with a red leather label on the spine stamped with \"Atlas. Laurie. Whittle.\" in gilt."
+        },
+        {
+          "label": "Description",
+          "value": "References: OCLC 7160203. Cf P699."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 2310.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Boundaries > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1804"
+        },
+        {
+          "label": "Date",
+          "value": "1804"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/yy309xw0364"
+        },
+        {
+          "label": "Publisher",
+          "value": "Laurie & Whittle,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-06"
+        }
+      ],
+      "description": "60 maps on 76 sheets; lacks title page, has index. Maps dated 1794-1804. Many of the maps are updated from Kitchin's 36 sheet General Atlas, and the American Atlas. In 1796 and 1800 Laurie and Whittle published their New and Elegant Imperial Sheet Atlas (P6009, 6016), with 50 maps all, we believe on a single sheet, with a different map of the U.S. showing the American Flag above the cartouche. The Universal Atlas was their biggest production, with many of the maps multi sheet. Outline color. Atlas is bound in new quarter leather orange cloth covered boards with a red leather label on the spine stamped with \"Atlas. Laurie. Whittle.\" in gilt.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/fr298gb9501%2F2310a/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/fr298gb9501%2F2310a",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 263
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/yy309xw0364/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/yy309xw0364/iiif/canvas/cocina-fileSet-gn153xn0682-gn153xn0682_1",
+              "@type": "sc:Canvas",
+              "label": "A map of the north part of Hindostan or a geographical survey of the provinces\n            of Bengal, Bahar, Awd, Ellahabad, Agra and Delhi. By Major James Rennell, F.R.S\n            Engineer, Surveyor General to the Honourable the East India Company. Published 12th May,\n            1794 by Laurie & Whittle, 53, Fleet Street, London.",
+              "height": 9484,
+              "width": 14220,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/gn153xn0682/2310062.jp2",
+                  "label": "Original source file (24.2 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/yy309xw0364/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fgn153xn0682-gn153xn0682_1%2F2310062.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/yy309xw0364/iiif/canvas/cocina-fileSet-gn153xn0682-gn153xn0682_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/gn153xn0682%2F2310062/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 9484,
+                    "width": 14220,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/gn153xn0682%2F2310062",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~283731~90056250/manifest",
+      "label": "A new map of Great Tartary, and China",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~283731~90056250/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~283731~90056250/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "A new map of Great Tartary, and China",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Wells, Edward, 1667-1727"
+                },
+                {
+                  "label": "Date",
+                  "value": "1700"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "A new map of Great Tartary, and China"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "T.W."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "18,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Copper engraved double page map. Showing political divisions. Relief shown pictorially. Includes notes, compass rose and explanations. Prime meridians are Ferro and London."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Asia"
+                },
+                {
+                  "label": "Subject",
+                  "value": "School"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "A new map of Great Tartary, and China : with the adjoyning parts of Asia, taken from M. de Fers Map of Asia. Sutton Nicholls sculp. (insets) This draught of the country to the NE of China is made according to the memory of Martini the Jesuite &c. (with) This draught of the country to the NNE and East of China is according to the memory of Verbiest the Jesuite. (to accompany) A new sett of maps both of antient and present geography. 29."
+                },
+                {
+                  "label": "List No",
+                  "value": "11181.032"
+                },
+                {
+                  "label": "Page No",
+                  "value": "29"
+                },
+                {
+                  "label": "Series No",
+                  "value": "32"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Nichols, Sutton"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Fer, Nicolas de, 1646-1720"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Wells, Edward, 1667-1727"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1710"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "A new sett of maps both of antient and present geography : wherein not only the latitude and longitude of many places are corrected, according to the latest observations ; but also the most remarkable differences of antient and present geography may be quickly discern'd by a bare inspection or comparing of correspondent maps ; which seems to be the most natural and easy method to lead young students (for whose use the work is principally intended) unto a competent knowledge of the geographic science. Together with a geographical treatise particularly adapted to the use and design of these maps. By Edward Wells ... Imprimatur, Gu. Paynter Vice-Can. Oxon. London: Printed by T.W. for J. Walthoe, R. Wilkin, J. and J. Bonwicke, S. Birt, T. Ward and E. Wicksteed."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Atlas is complete with 41 double-page with table of contents \"A catalogue of maps which compose this new sett ... \" Maps are copper engraved  by the Oxford engravers M. Burghers, R. Spofforth, Benjamin Cole and Sutton Nicholls. The atlas contains, in most cases, two of each map to compare the ancient and modern configurations. Showing boundaries, major cities and towns, rivers, mountains, churches and fortifications. Each map carries a dedication \"To his Highness William Duke of Gloucester.\" The maps are highly decorative, with elaborate title cartouches surrounded by coats of arms, putti, or allegorical figures. The two world maps feature the island of California, a partially explored Australia, and numerous notations of parts as yet undiscovered. The Americas stand on their own, with a single map each for North America and South America, as well as one for the English Plantations in America. The map of North America also depicts the island of California and Florida encompasses the entire south. This edition is similar to the first edition of 1700 but has a different title page and several of the maps have been updated. Publication Date is estimated to be circa 1710, while the date of each map is given as 1700 when they were originally published. The Oxford scholar Wells produced these maps for the education of his young pupil William, Duke of Gloucester, the son of Queen Anne and George, Prince of Denmark. William suffered from encephalitis and died in 1700 at the age of eleven. Wells dedicated and published the atlas as a tribute to the Duke."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11181.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "School Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "41"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11181032.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/11181032.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Wells, Edward, 1667-1727"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~283731~90056250/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~283731~90056250/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~283731~90056250",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12061,
+                    "height": 8382
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~283731~90056250/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~283731~90056250/list/luna"
+              ],
+              "width": 12061,
+              "height": 8382
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~283731~90056250"
+    }
+  ]
+}
