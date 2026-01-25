@@ -3,7 +3,7 @@
   "@type": "sc:Manifest",
   "@id": "https://example.org/manifest/Maps of the American West",
   "label": "Maps of the American West",
-  "description": "A curated gallery of 40 images created with IIIF Image Gallery Builder",
+  "description": "A curated gallery of 42 images created with IIIF Image Gallery Builder",
   "metadata": [
     {
       "label": "Created with",
@@ -11,7 +11,7 @@
     },
     {
       "label": "Number of images",
-      "value": "40"
+      "value": "42"
     },
     {
       "label": "Created",
@@ -25,6 +25,43 @@
       "canvases": [
         {
           "@id": "https://example.org/manifest/Maps of the American West/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0001",
+          "height": 10874,
+          "width": 12412,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/sy409bk9698/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fsy409bk9698-sy409bk9698_1%2Fsy409bk9698_05_0001.jp2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 10874,
+                "width": 12412,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://purl.stanford.edu/sy409bk9698/iiif/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/1",
           "@type": "sc:Canvas",
           "label": "Nouveau Mexique.",
           "description": "",
@@ -179,7 +216,7 @@
                 "height": 3661
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315757~90084766/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315757~90084766/canvas/c1/annotation/fl6edjj9r"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315757~90084766/canvas/c1/annotation/j859xk6w7"
             }
           ],
           "otherContent": [
@@ -189,7 +226,7 @@
           "height": 3661
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/1",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/2",
           "@type": "sc:Canvas",
           "label": "Map of the British and French Dominions in North America.",
           "description": "",
@@ -348,7 +385,7 @@
                 "height": 16132
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~222~20037/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~222~20037/canvas/c1/annotation/cf6sdqamb"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~222~20037/canvas/c1/annotation/4t486t7v2"
             }
           ],
           "otherContent": [
@@ -358,7 +395,7 @@
           "height": 16132
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/2",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/3",
           "@type": "sc:Canvas",
           "label": "Western Part of the Territories.",
           "description": "",
@@ -529,7 +566,7 @@
                 "height": 5440
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~961~60263/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~961~60263/canvas/c1/annotation/h5r7g8dzt"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~961~60263/canvas/c1/annotation/ebvsn5krt"
             }
           ],
           "otherContent": [
@@ -539,7 +576,7 @@
           "height": 5440
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/3",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/4",
           "@type": "sc:Canvas",
           "label": "Spanish dominions in North America.",
           "description": "",
@@ -722,7 +759,7 @@
                 "height": 4167
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~31718~1150513/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~31718~1150513/canvas/c1/annotation/jdxrq9yvh"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~31718~1150513/canvas/c1/annotation/4pylpt9b6"
             }
           ],
           "otherContent": [
@@ -732,7 +769,7 @@
           "height": 4167
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/4",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/5",
           "@type": "sc:Canvas",
           "label": "(NW Part only) United States with the contiguous British & Spanish Possessions.",
           "description": "",
@@ -883,7 +920,7 @@
                 "height": 7775
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~200357~3000295/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~200357~3000295/canvas/c1/annotation/0o5npcrmg"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~200357~3000295/canvas/c1/annotation/m02jk6xuq"
             }
           ],
           "otherContent": [
@@ -893,7 +930,7 @@
           "height": 7775
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/5",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/6",
           "@type": "sc:Canvas",
           "label": "Indian Territory, Northern Texas and New Mexico.",
           "description": "",
@@ -1060,7 +1097,7 @@
                 "height": 4912
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~952~50020/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~952~50020/canvas/c1/annotation/80zc5in9y"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~952~50020/canvas/c1/annotation/ft80ly15x"
             }
           ],
           "otherContent": [
@@ -1070,7 +1107,7 @@
           "height": 4912
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/6",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/7",
           "@type": "sc:Canvas",
           "label": "Map of the Oregon Territory",
           "description": "",
@@ -1245,7 +1282,7 @@
                 "height": 7504
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~4230~430111/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~4230~430111/canvas/c1/annotation/9q75l8mhy"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~4230~430111/canvas/c1/annotation/f8ftyxgiv"
             }
           ],
           "otherContent": [
@@ -1255,7 +1292,7 @@
           "height": 7504
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/7",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/8",
           "@type": "sc:Canvas",
           "label": "Map Of An Exploring Expedition To The Rocky Mountains.",
           "description": "",
@@ -1426,7 +1463,7 @@
                 "height": 9751
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1818~170044/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1818~170044/canvas/c1/annotation/u9a4kewuk"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1818~170044/canvas/c1/annotation/n6g6oldmw"
             }
           ],
           "otherContent": [
@@ -1436,7 +1473,7 @@
           "height": 9751
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/8",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/9",
           "@type": "sc:Canvas",
           "label": "United States.",
           "description": "",
@@ -1583,7 +1620,7 @@
                 "height": 11972
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~200157~3000096/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~200157~3000096/canvas/c1/annotation/ek68zooze"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~200157~3000096/canvas/c1/annotation/dw5ptuvxn"
             }
           ],
           "otherContent": [
@@ -1593,7 +1630,7 @@
           "height": 11972
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/9",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/10",
           "@type": "sc:Canvas",
           "label": "Gold And Quicksilver District Of California, 1848",
           "description": "",
@@ -1760,7 +1797,7 @@
                 "height": 6984
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~223782~5506267/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~223782~5506267/canvas/c1/annotation/82w340tdu"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~223782~5506267/canvas/c1/annotation/z2q17hdte"
             }
           ],
           "otherContent": [
@@ -1770,7 +1807,44 @@
           "height": 6984
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/10",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/11",
+          "@type": "sc:Canvas",
+          "label": "Image 1",
+          "height": 8709,
+          "width": 6376,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/fd398fy7644/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Ffd398fy7644-fd398fy7644_1%2F3442000.jp2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://purl.stanford.edu/fd398fy7644/iiif/canvas/cocina-fileSet-fd398fy7644-fd398fy7644_1",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/fd398fy7644%2F3442000/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 8709,
+                "width": 6376,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/fd398fy7644%2F3442000",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ],
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://purl.stanford.edu/fd398fy7644/iiif/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://purl.stanford.edu/fd398fy7644/iiif/canvas/cocina-fileSet-fd398fy7644-fd398fy7644_1"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/12",
           "@type": "sc:Canvas",
           "label": "Oregon, Upper California & New Mexico.",
           "description": "",
@@ -1937,7 +2011,7 @@
                 "height": 7368
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~251359~5517537/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~251359~5517537/canvas/c1/annotation/rgtsiqkxz"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~251359~5517537/canvas/c1/annotation/7j11b1an5"
             }
           ],
           "otherContent": [
@@ -1947,7 +2021,7 @@
           "height": 7368
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/11",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/13",
           "@type": "sc:Canvas",
           "label": "Isothermal chart: Mean distribution of heat for the Summer on the North American Continent",
           "description": "",
@@ -2118,7 +2192,7 @@
                 "height": 5308
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~250230~5516819/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~250230~5516819/canvas/c1/annotation/caulgmdhq"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~250230~5516819/canvas/c1/annotation/03tiqrc8a"
             }
           ],
           "otherContent": [
@@ -2128,7 +2202,7 @@
           "height": 5308
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/12",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/14",
           "@type": "sc:Canvas",
           "label": "Hyetal or rain chart: Mean distribution of rain for the Spring on the North American Continent",
           "description": "",
@@ -2303,7 +2377,7 @@
                 "height": 5296
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~250235~5516823/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~250235~5516823/canvas/c1/annotation/72q72m9we"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~250235~5516823/canvas/c1/annotation/2gop9hx70"
             }
           ],
           "otherContent": [
@@ -2313,7 +2387,7 @@
           "height": 5296
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/13",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/15",
           "@type": "sc:Canvas",
           "label": "Map Of Nevada Showing New Discoveries Of Silver Peak",
           "description": "",
@@ -2472,7 +2546,7 @@
                 "height": 5736
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~223979~5506300/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~223979~5506300/canvas/c1/annotation/zx4xja49m"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~223979~5506300/canvas/c1/annotation/yp7ulji8x"
             }
           ],
           "otherContent": [
@@ -2482,7 +2556,7 @@
           "height": 5736
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/14",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/16",
           "@type": "sc:Canvas",
           "label": "Rand McNally & Co.'s sectional map of the Dakota and the Black Hills",
           "description": "",
@@ -2629,7 +2703,7 @@
                 "height": 9772
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254028~5519109/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254028~5519109/canvas/c1/annotation/eqe0exden"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254028~5519109/canvas/c1/annotation/y6dxwolt4"
             }
           ],
           "otherContent": [
@@ -2639,7 +2713,7 @@
           "height": 9772
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/15",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/17",
           "@type": "sc:Canvas",
           "label": "Sutro Tunnel And The Comstock Lode State Of Nevada",
           "description": "",
@@ -2798,7 +2872,7 @@
                 "height": 8311
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~224196~5506348/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~224196~5506348/canvas/c1/annotation/zba7ctg03"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~224196~5506348/canvas/c1/annotation/knql27zd6"
             }
           ],
           "otherContent": [
@@ -2808,7 +2882,7 @@
           "height": 8311
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/16",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/18",
           "@type": "sc:Canvas",
           "label": "Composite: (Lake of the Woods to the Rocky Mountain Divide).",
           "description": "",
@@ -2983,7 +3057,7 @@
                 "height": 11288
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~235284~5510512/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~235284~5510512/canvas/c1/annotation/rnzlj7co3"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~235284~5510512/canvas/c1/annotation/ba45vb5bd"
             }
           ],
           "otherContent": [
@@ -2993,7 +3067,7 @@
           "height": 11288
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/17",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/19",
           "@type": "sc:Canvas",
           "label": "Rain chart of the United States",
           "description": "",
@@ -3176,7 +3250,7 @@
                 "height": 10927
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254975~5519558/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254975~5519558/canvas/c1/annotation/v9wtyca81"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254975~5519558/canvas/c1/annotation/j2wq4mv99"
             }
           ],
           "otherContent": [
@@ -3186,7 +3260,7 @@
           "height": 10927
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/18",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/20",
           "@type": "sc:Canvas",
           "label": "Map of Bradley & Co's ditch property near Alta Station after the slide. E.C. Uren.",
           "description": "",
@@ -3345,7 +3419,7 @@
                 "height": 17710
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299496~90070568/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299496~90070568/canvas/c1/annotation/q9eig4h5r"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299496~90070568/canvas/c1/annotation/gu1u7giaq"
             }
           ],
           "otherContent": [
@@ -3355,7 +3429,7 @@
           "height": 17710
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/19",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/21",
           "@type": "sc:Canvas",
           "label": "Reyno de la Nueva Expana a Principios del Siglo XIX.",
           "description": "",
@@ -3510,7 +3584,7 @@
                 "height": 6160
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1304~90115/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1304~90115/canvas/c1/annotation/hyft51a4o"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1304~90115/canvas/c1/annotation/o20qcvi45"
             }
           ],
           "otherContent": [
@@ -3520,7 +3594,7 @@
           "height": 6160
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/20",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/22",
           "@type": "sc:Canvas",
           "label": "12. Mean monthly rainfall, December",
           "description": "",
@@ -3687,7 +3761,7 @@
                 "height": 9816
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254999~5519573/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254999~5519573/canvas/c1/annotation/15t8h7wft"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254999~5519573/canvas/c1/annotation/7kmbvngym"
             }
           ],
           "otherContent": [
@@ -3697,7 +3771,7 @@
           "height": 9816
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/21",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/23",
           "@type": "sc:Canvas",
           "label": "Topographical Map Of The Yosemite Valley And Vicinity.",
           "description": "",
@@ -3876,7 +3950,7 @@
                 "height": 5743
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~406~40015/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~406~40015/canvas/c1/annotation/gwwngvpta"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~406~40015/canvas/c1/annotation/z889vw6ak"
             }
           ],
           "otherContent": [
@@ -3886,7 +3960,7 @@
           "height": 5743
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/22",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/24",
           "@type": "sc:Canvas",
           "label": "9. Predominating sex 1890.",
           "description": "",
@@ -4061,7 +4135,7 @@
                 "height": 6700
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~31954~1151335/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~31954~1151335/canvas/c1/annotation/x3n7dr8z7"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~31954~1151335/canvas/c1/annotation/g4gg7vl1k"
             }
           ],
           "otherContent": [
@@ -4071,7 +4145,7 @@
           "height": 6700
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/23",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/25",
           "@type": "sc:Canvas",
           "label": "Rand - McNally Official Railway Map Of The Pacific Coast States Including Territory East To Denver",
           "description": "",
@@ -4230,7 +4304,7 @@
                 "height": 19312
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~38005~1211025/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~38005~1211025/canvas/c1/annotation/w9mjoa8p0"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~38005~1211025/canvas/c1/annotation/coafxpdqq"
             }
           ],
           "otherContent": [
@@ -4240,7 +4314,7 @@
           "height": 19312
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/24",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/26",
           "@type": "sc:Canvas",
           "label": "ABC The Pathfinder Railway Guide Map, Western Section.",
           "description": "",
@@ -4387,7 +4461,7 @@
                 "height": 15254
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272392~90046256/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272392~90046256/canvas/c1/annotation/1rtcokrk5"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272392~90046256/canvas/c1/annotation/6yolnf58k"
             }
           ],
           "otherContent": [
@@ -4397,7 +4471,7 @@
           "height": 15254
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/25",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/27",
           "@type": "sc:Canvas",
           "label": "California, Nevada showing intensity.",
           "description": "",
@@ -4600,7 +4674,7 @@
                 "height": 11889
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~31136~1151067/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~31136~1151067/canvas/c1/annotation/79mytb5m9"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~31136~1151067/canvas/c1/annotation/i061tvfix"
             }
           ],
           "otherContent": [
@@ -4610,7 +4684,7 @@
           "height": 11889
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/26",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/28",
           "@type": "sc:Canvas",
           "label": "Monthly Precipitation. Atlas of American Agriculture.",
           "description": "",
@@ -4769,7 +4843,7 @@
                 "height": 8135
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~206685~3003225/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~206685~3003225/canvas/c1/annotation/sxrwdqyk9"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~206685~3003225/canvas/c1/annotation/8z6aayxi4"
             }
           ],
           "otherContent": [
@@ -4779,7 +4853,7 @@
           "height": 8135
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/27",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/29",
           "@type": "sc:Canvas",
           "label": "Scenic Map of the Pacific Coast. Southern Pacific Lines. All the Pacific Coast is a Show Place.",
           "description": "",
@@ -4934,7 +5008,7 @@
                 "height": 16188
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~275367~90048575/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~275367~90048575/canvas/c1/annotation/q3peg7y6e"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~275367~90048575/canvas/c1/annotation/qul8oy6c6"
             }
           ],
           "otherContent": [
@@ -4944,7 +5018,7 @@
           "height": 16188
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/28",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/30",
           "@type": "sc:Canvas",
           "label": "The conquest of a continent",
           "description": "",
@@ -5087,7 +5161,7 @@
                 "height": 11220
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290356~90061866/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290356~90061866/canvas/c1/annotation/4prfm2k9m"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290356~90061866/canvas/c1/annotation/j3oe7bieg"
             }
           ],
           "otherContent": [
@@ -5097,7 +5171,7 @@
           "height": 11220
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/29",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/31",
           "@type": "sc:Canvas",
           "label": "Central Valley Project - California.",
           "description": "",
@@ -5240,7 +5314,7 @@
                 "height": 5702
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289025~90060574/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289025~90060574/canvas/c1/annotation/af6bywb4t"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289025~90060574/canvas/c1/annotation/srss1rxcv"
             }
           ],
           "otherContent": [
@@ -5250,7 +5324,7 @@
           "height": 5702
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/30",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/32",
           "@type": "sc:Canvas",
           "label": "Assembly center sites.",
           "description": "",
@@ -5413,7 +5487,7 @@
                 "height": 7097
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347225~90114701/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347225~90114701/canvas/c1/annotation/1i2rx6wzr"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347225~90114701/canvas/c1/annotation/94knp0hsv"
             }
           ],
           "otherContent": [
@@ -5423,7 +5497,7 @@
           "height": 7097
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/31",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/33",
           "@type": "sc:Canvas",
           "label": "Indians of the U.S.A.",
           "description": "",
@@ -5566,7 +5640,7 @@
                 "height": 11440
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268558~90042825/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268558~90042825/canvas/c1/annotation/u67m2ab6w"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268558~90042825/canvas/c1/annotation/1pwadk5fk"
             }
           ],
           "otherContent": [
@@ -5576,7 +5650,7 @@
           "height": 11440
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/32",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/34",
           "@type": "sc:Canvas",
           "label": "Americans of negro lineage",
           "description": "",
@@ -5719,7 +5793,7 @@
                 "height": 15638
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288948~90060506/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288948~90060506/canvas/c1/annotation/nb2nzrgkg"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288948~90060506/canvas/c1/annotation/5tnwjugx4"
             }
           ],
           "otherContent": [
@@ -5729,7 +5803,7 @@
           "height": 15638
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/33",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/35",
           "@type": "sc:Canvas",
           "label": "American folklore & Legends : By John Dukes McKee",
           "description": "",
@@ -5868,7 +5942,7 @@
                 "height": 12648
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~267156~90041647/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~267156~90041647/canvas/c1/annotation/fbsz7p3ng"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~267156~90041647/canvas/c1/annotation/dpdug3zxq"
             }
           ],
           "otherContent": [
@@ -5878,7 +5952,7 @@
           "height": 12648
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/34",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/36",
           "@type": "sc:Canvas",
           "label": "A Map of the Marked Historical Sites of California",
           "description": "",
@@ -6057,7 +6131,7 @@
                 "height": 20519
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~258740~5522149/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~258740~5522149/canvas/c1/annotation/aig2adnbt"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~258740~5522149/canvas/c1/annotation/44v7vbqeu"
             }
           ],
           "otherContent": [
@@ -6067,7 +6141,7 @@
           "height": 20519
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/35",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/37",
           "@type": "sc:Canvas",
           "label": "The Adventures of Huckleberry Finn from the Book by Mark Twain.",
           "description": "",
@@ -6218,7 +6292,7 @@
                 "height": 9599
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268234~90042516/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268234~90042516/canvas/c1/annotation/p4db9bt3h"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268234~90042516/canvas/c1/annotation/3dk2ynotz"
             }
           ],
           "otherContent": [
@@ -6228,7 +6302,7 @@
           "height": 9599
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/36",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/38",
           "@type": "sc:Canvas",
           "label": "California Water Resources Development.",
           "description": "",
@@ -6371,7 +6445,7 @@
                 "height": 9751
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238762~5511632/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238762~5511632/canvas/c1/annotation/ic5huxk1h"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238762~5511632/canvas/c1/annotation/e8byrkszw"
             }
           ],
           "otherContent": [
@@ -6381,7 +6455,7 @@
           "height": 9751
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/37",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/39",
           "@type": "sc:Canvas",
           "label": "Indian Land Cessions.",
           "description": "",
@@ -6540,7 +6614,7 @@
                 "height": 13758
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238678~5511614/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238678~5511614/canvas/c1/annotation/050bk4y5y"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238678~5511614/canvas/c1/annotation/933ad7gtj"
             }
           ],
           "otherContent": [
@@ -6550,7 +6624,7 @@
           "height": 13758
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/38",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/40",
           "@type": "sc:Canvas",
           "label": "Hannibal, Missouri : Boyhood home of Mark Twain",
           "description": "",
@@ -6693,14 +6767,14 @@
                 "height": 23038
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~332284~90101603/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~332284~90101603/canvas/c1/annotation/e6ns86bfj"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~332284~90101603/canvas/c1/annotation/sau18sdsa"
             }
           ],
           "width": 15346,
           "height": 23038
         },
         {
-          "@id": "https://example.org/manifest/Maps of the American West/canvas/39",
+          "@id": "https://example.org/manifest/Maps of the American West/canvas/41",
           "@type": "sc:Canvas",
           "label": "Native Tribes of North America, Central America and the Caribbean.",
           "description": "",
@@ -6839,7 +6913,7 @@
                 "height": 13771
               },
               "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~273022~90046772/canvas/c1",
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~273022~90046772/canvas/c1/annotation/975ivvofy"
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~273022~90046772/canvas/c1/annotation/qzh4vjt55"
             }
           ],
           "otherContent": [
