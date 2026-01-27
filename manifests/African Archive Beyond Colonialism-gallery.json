@@ -1,0 +1,1648 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/African Archive Beyond Colonialism",
+  "label": "African Archive Beyond Colonialism",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/ty736qh2781/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Claudii Ptolemaei Alexandrini Geographicae enarrationis libri octo. Sed ad Graeca & prisca exemplaria a Michaele Villanouano secundo recogniti & locis innumeris denuo castigati. Adiecta insuper ab eodem Scholia, quibus & difficilis ille Primus Liber nunc primum explicatur, & exoleta Urbium nomina ad nostri seculi morem exponuntur. Quinquaginta illae quoque cum veterum tum recentium Tabulae adnectuntur variisque incolentium ritus & mores explicantur. Accedit index locupletissimus hactenus non uisus. Prostant Lugduni Apud Hugonem a Porta. M.D.XLI. (1541)",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/ty736qh2781.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/ty736qh2781'>https://purl.stanford.edu/ty736qh2781</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Claudii Ptolemaei Alexandrini Geographicae enarrationis libri octo. Sed ad Graeca & prisca exemplaria a Michaele Villanouano secundo recogniti & locis innumeris denuo castigati. Adiecta insuper ab eodem Scholia, quibus & difficilis ille Primus Liber nunc primum explicatur, & exoleta Urbium nomina ad nostri seculi morem exponuntur. Quinquaginta illae quoque cum veterum tum recentium Tabulae adnectuntur variisque incolentium ritus & mores explicantur. Accedit index locupletissimus hactenus non uisus. Prostant Lugduni Apud Hugonem a Porta. M.D.XLI. (1541)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Ptolemy, active 2nd century"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 50 maps ; 41 x 28 cm"
+        },
+        {
+          "label": "Language",
+          "value": "Latin"
+        },
+        {
+          "label": "Description",
+          "value": "Second edition of Michael Servetus' Ptolemy 's Geographia utilising Lorenz Fries's woodcut maps, was published by Gaspar Trechsel in Vienna, in 1541 and sold by Hughes de la Porte in Lyons. This atlas is divided into three parts: First, the text comprising the new Latin translation by the humanist Wilibald Pirckheimer of the 1525 edition, which has been edited by Michael Servetus, for the first time for 1535 edition and the second time for this 1541 edition. The second part consists of 50 maps, comprising 27 Ptolemaic and 23 modern maps. The maps were printed from the same wooden blocks which were made for the first edition in 1522 by Lorenz Fries, the famous physician, astrologer and geographer, many with descriptive text on recto and verso. With half title index before or after the maps varies. A special feature of the 1541 edition is the missing text on verso of some modern maps. This is due to the action of Calvinism, especially since the text on verso of the Holy Land map provoked controversy. The third and final part consists of a comprehensive index. Many of the first three editions were burned, which led Servetus to abdicate on some text on the map versos. Maps Showing rivers, canals, waterways, place names, fortifications, and administrative boundaries. Relief shown pictorially. Some maps drawn in a trapezoidal projection."
+        },
+        {
+          "label": "Description",
+          "value": "References: Mickwitz, Ann-Maria (& others) ed. The A.E. Nordenskiold Collection..., II, 211."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas"
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 11325.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Classical geography > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Geography, Ancient > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Historical geography > Maps > Early works to 1800"
+        },
+        {
+          "label": "Date",
+          "value": "1541"
+        },
+        {
+          "label": "Date",
+          "value": "1541"
+        },
+        {
+          "label": "Date",
+          "value": "1541"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/ty736qh2781"
+        },
+        {
+          "label": "Publisher",
+          "value": "Fries, Lorenz"
+        },
+        {
+          "label": "Publisher",
+          "value": "Servetus, Michael"
+        },
+        {
+          "label": "Publisher",
+          "value": "Apud Hugonem a Porta,"
+        },
+        {
+          "label": "Publisher",
+          "value": "Gaspar Trechsel,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-09-15"
+        }
+      ],
+      "description": "Second edition of Michael Servetus' Ptolemy 's Geographia utilising Lorenz Fries's woodcut maps, was published by Gaspar Trechsel in Vienna, in 1541 and sold by Hughes de la Porte in Lyons. This atlas is divided into three parts: First, the text comprising the new Latin translation by the humanist Wilibald Pirckheimer of the 1525 edition, which has been edited by Michael Servetus, for the first time for 1535 edition and the second time for this 1541 edition. The second part consists of 50 maps, comprising 27 Ptolemaic and 23 modern maps. The maps were printed from the same wooden blocks which were made for the first edition in 1522 by Lorenz Fries, the famous physician, astrologer and geographer, many with descriptive text on recto and verso. With half title index before or after the maps varies. A special feature of the 1541 edition is the missing text on verso of some modern maps. This is due to the action of Calvinism, especially since the text on verso of the Holy Land map provoked controversy. The third and final part consists of a comprehensive index. Many of the first three editions were burned, which led Servetus to abdicate on some text on the map versos. Maps Showing rivers, canals, waterways, place names, fortifications, and administrative boundaries. Relief shown pictorially. Some maps drawn in a trapezoidal projection.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/xf493jd3621%2F11325001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/xf493jd3621%2F11325001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 283
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/ty736qh2781/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/ty736qh2781/iiif/canvas/cocina-fileSet-th212qn0986-th212qn0986_1",
+              "@type": "sc:Canvas",
+              "label": "Tabvla prima Aphricae continet Mauritania Tingitanam, Mauritaniam Caesariense\n            (to accompany) Claudii Ptolemaei Alexandrini Geographicae enarrationis libri octo. Sed\n            ad Graeca & prisca exemplaria a Michaele Villanouano secundo recogniti & locis\n            innumeris denuo castigati. Prostant Lugduni Apud Hugonem a Porta. M.D.XLI. (1541).",
+              "height": 7291,
+              "width": 10472,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/th212qn0986/11325026.jp2",
+                  "label": "Original source file (13.7 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/ty736qh2781/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fth212qn0986-th212qn0986_1%2F11325026.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/ty736qh2781/iiif/canvas/cocina-fileSet-th212qn0986-th212qn0986_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/th212qn0986%2F11325026/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7291,
+                    "width": 10472,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/th212qn0986%2F11325026",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "https://purl.stanford.edu/ty736qh2781/iiif/canvas/cocina-fileSet-xy880wk6477-xy880wk6477_1",
+              "@type": "sc:Canvas",
+              "label": "Aphricae tabvla seconda continet. (to accompany) Claudii Ptolemaei Alexandrini\n            Geographicae enarrationis libri octo. Sed ad Graeca & prisca exemplaria a Michaele\n            Villanouano secundo recogniti & locis innumeris denuo castigati. Prostant Lugduni\n            Apud Hugonem a Porta. M.D.XLI. (1541)",
+              "height": 7291,
+              "width": 10504,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/xy880wk6477/11325028.jp2",
+                  "label": "Original source file (13.8 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/ty736qh2781/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fxy880wk6477-xy880wk6477_1%2F11325028.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/ty736qh2781/iiif/canvas/cocina-fileSet-xy880wk6477-xy880wk6477_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/xy880wk6477%2F11325028/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7291,
+                    "width": 10504,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/xy880wk6477%2F11325028",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "https://purl.stanford.edu/ty736qh2781/iiif/canvas/cocina-fileSet-wy559gh4298-wy559gh4298_1",
+              "@type": "sc:Canvas",
+              "label": "Libyae Interioris Pars. Aphricae tabvla Tertia continet. (to accompany) Claudii\n            Ptolemaei Alexandrini Geographicae enarrationis libri octo. Sed ad Graeca & prisca\n            exemplaria a Michaele Villanouano secundo recogniti & locis innumeris denuo\n            castigati. Prostant Lugduni Apud Hugonem a Porta. M.D.XLI. (1541)",
+              "height": 7291,
+              "width": 10512,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/wy559gh4298/11325030.jp2",
+                  "label": "Original source file (13.8 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/ty736qh2781/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fwy559gh4298-wy559gh4298_1%2F11325030.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/ty736qh2781/iiif/canvas/cocina-fileSet-wy559gh4298-wy559gh4298_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/wy559gh4298%2F11325030/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7291,
+                    "width": 10512,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/wy559gh4298%2F11325030",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "https://purl.stanford.edu/ty736qh2781/iiif/canvas/cocina-fileSet-hs414dc2878-hs414dc2878_1",
+              "@type": "sc:Canvas",
+              "label": "Aphricae tabvla quarta continet. (to accompany) Claudii Ptolemaei Alexandrini\n            Geographicae enarrationis libri octo. Sed ad Graeca & prisca exemplaria a Michaele\n            Villanouano secundo recogniti & locis innumeris denuo castigati. Prostant Lugduni\n            Apud Hugonem a Porta. M.D.XLI. (1541)",
+              "height": 7291,
+              "width": 10496,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hs414dc2878/11325032.jp2",
+                  "label": "Original source file (13.8 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/ty736qh2781/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fhs414dc2878-hs414dc2878_1%2F11325032.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/ty736qh2781/iiif/canvas/cocina-fileSet-hs414dc2878-hs414dc2878_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hs414dc2878%2F11325032/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7291,
+                    "width": 10496,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hs414dc2878%2F11325032",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/bb247fd7799/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Atlas Spheroidal Et Universel De Geographie Dresse A L'Aide Des Documents Officiels, Recemment Publies En France Et A L'Etranger Par M.F.A. Garnier Membre De La Societe De Geographie, Etc. Paris, Veuve Jules Renouard, Libraire, Editeur De A. Balbi, Abrege De Geographie; A. Guibert, Dictionnaire De Geographie; Dufour Et Jomard, Le Globe, Etc. Rue De Tournon, 6, Faubourg Saint-Germain. MDCCCLXII",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/bb247fd7799.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/bb247fd7799'>https://purl.stanford.edu/bb247fd7799</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Atlas Spheroidal Et Universel De Geographie Dresse A L'Aide Des Documents Officiels, Recemment Publies En France Et A L'Etranger Par M.F.A. Garnier Membre De La Societe De Geographie, Etc. Paris, Veuve Jules Renouard, Libraire, Editeur De A. Balbi, Abrege De Geographie; A. Guibert, Dictionnaire De Geographie; Dufour Et Jomard, Le Globe, Etc. Rue De Tournon, 6, Faubourg Saint-Germain. MDCCCLXII"
+        },
+        {
+          "label": "Contributor",
+          "value": "Garnier, F. A., 1803-1863."
+        },
+        {
+          "label": "Contributor",
+          "value": "Antoine, Louis."
+        },
+        {
+          "label": "Contributor",
+          "value": "Balbi, A."
+        },
+        {
+          "label": "Contributor",
+          "value": "Dufour, A.-H. (Auguste-Henri), 1798-1865."
+        },
+        {
+          "label": "Contributor",
+          "value": "Guibert, A."
+        },
+        {
+          "label": "Contributor",
+          "value": "Jomard, M. (Edme-Francois), 1777-1862."
+        },
+        {
+          "label": "Contributor",
+          "value": "Pajadon."
+        },
+        {
+          "label": "Contributor",
+          "value": "Sarazin (Firm)."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 63 maps ; 62 x 48 cm."
+        },
+        {
+          "label": "Language",
+          "value": "French"
+        },
+        {
+          "label": "Description",
+          "value": "References: P836."
+        },
+        {
+          "label": "Description",
+          "value": "This atlas is exceptional for its \"spheroidal\" maps of the globe, showing the various continents and poles, shaded to give the effect of a sphere floating in space. The remaining maps are also very well executed and colored, mostly by hand, a few in colored litho. In recent years, this atlas has become rare in the trade. This is the only atlas that Garnier produced, according to Phillips. Tooley lists an 1860 edition. Covers are quarter leather marbled paper covered boards with a paper label; the burgundy leather spine is embossed with \"F.A. Garnier. Atlas Universel Et Spheroidal De Geographie\" in gilt."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 5023.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1862"
+        },
+        {
+          "label": "Date",
+          "value": "1862"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/bb247fd7799"
+        },
+        {
+          "label": "Publisher",
+          "value": "Veuve Jules Renouard, Libraire,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-11"
+        }
+      ],
+      "description": "References: P836.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/zr561qn9073%2F5023A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/zr561qn9073%2F5023A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 253
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/bb247fd7799/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-mt384cm6838-mt384cm6838_1",
+              "@type": "sc:Canvas",
+              "label": "Afrique spheroidale. Atlas spheroidal & universel de geographie dresse par\n            F.A. Garnier, geographe. Vve. Jules Renouard, Editeur, R. de Tournon, no. 6, Paris\n            1860. Imp. Sarazin, r. Git-le-Coeur, 8. Paris.",
+              "height": 7670,
+              "width": 6332,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/mt384cm6838/5023017.jp2",
+                  "label": "Original source file (8.72 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/bb247fd7799/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fmt384cm6838-mt384cm6838_1%2F5023017.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-mt384cm6838-mt384cm6838_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/mt384cm6838%2F5023017/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7670,
+                    "width": 6332,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/mt384cm6838%2F5023017",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-fy349yj7080-fy349yj7080_1",
+              "@type": "sc:Canvas",
+              "label": "Afrique. Atlas spheroidal & universel de geographie dresse par F.A\n            Garnier, geographe. Vve. Jules Renouard, Editeur, Rue de Tournon, no. 6, Paris. 1860.\n            Imp. de Sarazin, R. Git-le-Coeur, 8, Paris.",
+              "height": 7670,
+              "width": 11929,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/fy349yj7080/5023043.jp2",
+                  "label": "Original source file (16.4 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/bb247fd7799/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Ffy349yj7080-fy349yj7080_1%2F5023043.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-fy349yj7080-fy349yj7080_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/fy349yj7080%2F5023043/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7670,
+                    "width": 11929,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/fy349yj7080%2F5023043",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-yx278ky9811-yx278ky9811_1",
+              "@type": "sc:Canvas",
+              "label": "Afrique Septentrionale. Maroc, Algerie, Tunis, Tripoli, groupes de Malte, des\n            Acores, de Madere, et des Canaries. Atlas spheroidal & universel de geographie\n            dresse par F.A. Garnier, geographe. Paris, Ve. Jules Renouard, Editeur, Rue de Tournon\n            no. 6. 1860. Imp. Sarazin, r. Git-le-Coeur, 8, Paris.",
+              "height": 6100,
+              "width": 7670,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/yx278ky9811/5023044.jp2",
+                  "label": "Original source file (8.4 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/bb247fd7799/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fyx278ky9811-yx278ky9811_1%2F5023044.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-yx278ky9811-yx278ky9811_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/yx278ky9811%2F5023044/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 6100,
+                    "width": 7670,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/yx278ky9811%2F5023044",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-tk729sn1446-tk729sn1446_1",
+              "@type": "sc:Canvas",
+              "label": "Afrique Francaise. Algerie. Atlas spheroidal & universel de geographie\n            dresse par F.A. Garnier, geographe. Vve. Jules Renouard, Editeur, Rue de Tournon, no. 6\n            Paris. 1860. Impie. de Sarazin, 8, r. Git-le-Coeur, Paris.",
+              "height": 6172,
+              "width": 7670,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/tk729sn1446/5023045.jp2",
+                  "label": "Original source file (8.5 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/bb247fd7799/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Ftk729sn1446-tk729sn1446_1%2F5023045.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-tk729sn1446-tk729sn1446_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/tk729sn1446%2F5023045/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 6172,
+                    "width": 7670,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/tk729sn1446%2F5023045",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-jf713hx5097-jf713hx5097_1",
+              "@type": "sc:Canvas",
+              "label": "Afrique Occidentale et Centrale, comprenant le Sahara, le Takrour, la\n            Senegambie, l'Ouankarah et les Iles du Cap Vert. Atlas spheroidal & universel\n            de geographie dresse par F.A. Garnier, geographe. Paris, Vve. Jules Renouard, Editeur\n            Rue de Tournon, no. 6. 1860. Imp. Sarazin, 8, r. Git-le-Coeur, Paris.",
+              "height": 6060,
+              "width": 7670,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/jf713hx5097/5023046.jp2",
+                  "label": "Original source file (8.35 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/bb247fd7799/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fjf713hx5097-jf713hx5097_1%2F5023046.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-jf713hx5097-jf713hx5097_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/jf713hx5097%2F5023046/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 6060,
+                    "width": 7670,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/jf713hx5097%2F5023046",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-dp785tw8328-dp785tw8328_1",
+              "@type": "sc:Canvas",
+              "label": "Afrique Meridionale, la Guinee infer(ieu)re., Mozambique, l'Hottentotie\n            la Caferie, la Colonie du Cap, et les iles de l'Ascension, Ste. Helene, Madagascar,\n            la Reunion, Maurice, &c. Atlas spheroidal & universel de geographie dresse par\n            F.A. Garnier, geographe. Ve. Jules Renouard, Editeur, Rue de Tournon, no. 6, Paris.\n            1860. Impie. Sarazin, r. Git-le-Coeur, 8, Paris.",
+              "height": 6052,
+              "width": 7670,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/dp785tw8328/5023047.jp2",
+                  "label": "Original source file (8.34 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/bb247fd7799/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fdp785tw8328-dp785tw8328_1%2F5023047.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-dp785tw8328-dp785tw8328_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/dp785tw8328%2F5023047/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 6052,
+                    "width": 7670,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/dp785tw8328%2F5023047",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-gw293wv9175-gw293wv9175_1",
+              "@type": "sc:Canvas",
+              "label": "Afrique Orientale, comprenant l'Egypte, l'Abyssinie, et partie du\n            Takrour Oriental. (with) Extremite orientle. de la cote d'Afrique, d'apres la\n            carte de M. le commt. Guillain. Atlas spheroidal & universel de geographie dresse\n            par F.A. Garnier, geographe. Vve. Jules Renouard, Editeur, Rue de Tournon, no. 6, Paris\n            1860. Imp. Sarazin, r. Git-le-Coeur, 8, Paris.",
+              "height": 7670,
+              "width": 6052,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/gw293wv9175/5023048.jp2",
+                  "label": "Original source file (8.34 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/bb247fd7799/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fgw293wv9175-gw293wv9175_1%2F5023048.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-gw293wv9175-gw293wv9175_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/gw293wv9175%2F5023048/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7670,
+                    "width": 6052,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/gw293wv9175%2F5023048",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~346030~90113465/manifest",
+      "label": "Composite Map: Africa, with all its states, kingdoms, republics, regions, islands, &ca. ...",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~346030~90113465/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~346030~90113465/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Composite Map: Africa, with all its states, kingdoms, republics, regions, islands, &ca. ...",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Faden, William, 1749-1836"
+                },
+                {
+                  "label": "Author",
+                  "value": "Anville, Jean Baptiste Bourguignon d, 1697-1782"
+                },
+                {
+                  "label": "Author",
+                  "value": "Boulton, S."
+                },
+                {
+                  "label": "Date",
+                  "value": "1794"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Composite Map: Africa, with all its states, kingdoms, republics, regions, islands, &ca. ..."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Laurie & Whittle"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Composite Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "104"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "122"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "8,500,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Composite map of Africa, as of 1794. Shows political boundaries, cities, roads, topography, bodies of water, drainage, coastlines and islands. Relief shown pictorially. Includes latitudinal and longitudinal lines, as well as seven bar scales and arrows indicating the direction of ocean currents. With two inset maps: Azores -- A particular chart of the Gold Coast. Decorative cartouche. Descriptive text throughout, including notes on exploration and other history. Hand-colored engraving. Map is 104 x 122 cm, on two fold-out sheets, together 110 x 131 cm. With stamp: Liverpool Library."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Region",
+                  "value": "Azores"
+                },
+                {
+                  "label": "Region",
+                  "value": "Gold Coast"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Political"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Exploration"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Historical"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Nautical Charts"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Composite Map to) Africa, with all its states, kingdoms, republics, regions, islands, &ca. Improved and inlarged from d'Anville''s Map; to which have been added a particular chart of the Gold Coast, wherein are distinguished all the European forts and factories, by S. Boulton, and also a summary description relative to the trade and natural produce, manners and customs of the African continent and islands. London, published by Laurie & Whittle, No. 53 Fleet-Street, as the Act directs, 12th May, 1794."
+                },
+                {
+                  "label": "List No",
+                  "value": "14383.050"
+                },
+                {
+                  "label": "Page No",
+                  "value": "38-39"
+                },
+                {
+                  "label": "Series No",
+                  "value": "50"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Faden, William, 1749-1836"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Faden, William, 1749-1836"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1794"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "General chart, Cook."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Published in London, 1794. Composite world atlas by William Faden (1749-1836). Bound in 19th century half red calf over purple pebble-grain cloth, with gilt spine title. Pink end papers. Bookplate: Liverpool Library, Lyceum, Bold Street. Stamp for the “Liverpool Library” on many of the maps within. Elephant folio. Collation: 2° : [1], 48 leaves of plates. With a contemporary manuscript index listing forty-eight subjects in order of appearance, including the wall-maps of the Mediterranean, Asia, India, Africa and the Americas, each joined in two sections and listed as two subjects. Geographic coverage spans the globe, including maps of the Western, Eastern, Northern and Southern Hemispheres, as well as Europe, the United States and the West Indies. Maps show political boundaries, cities, roads, canals, topography, deserts, bodies of water, drainage, coastlines, islands, water depths and anchorage. Maps feature routes of European exploration, such as the voyages of Captain Cook. Maps include decorative cartouches and descriptive text, including notes on voyages. Engravings with original hand-coloring. See our 2104.000 for a later 1802 edition and our 15054.000 for the 1804 Cedid Atlas (the first Ottoman world atlas) derived from this atlas and the 1802 edition. William Faden was a partner in the Jeffreys’ cartographic firm. “With the onset of peace and his reputation made, Faden had the necessary capital and contacts to expand the range of maps he offered. The War of the French Directory was a further opportunity for Faden. This atlas was evidently prepared around 1794, the latest date found on any of the maps, with the European section buttressed by a range of rare Faden maps issued to illustrate the theaters of war, including the plan of the environs of Toulon, his re-issues of the index map to Dury’s wall-map of the Kingdom of Sardinia, and the sheet with insets of Corsica and Sardinia from Dury’s wall-map of the Genoese states, as well as general maps of France, the Low Countries and Delarochette’s map of the English Channel from 1794. The additional maps of England and Spain bear the imprint of Sayer; Asia, Africa Egypt, America and the West Indies are from the stock of Laurie and Whittle, all used in editions of the Sayer/Laurie and Whittle General atlas. Among other highlights in this atlas are Delarochette’s map of Cape Providence (1782), Henry Robert’s maps of the world and the northwest coast of America based upon the discoveries of Cook’s voyages (1784) and Faden’s map of the United States, the second of two states dated 1793, with numerous additions within the map, marking the short-lived state of Franklinia.” (Notes taken from dealer.)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14383.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "49"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14383050.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/14383050.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Faden, William, 1749-1836; Anville, Jean Baptiste Bourguignon d, 1697-1782; Boulton, S."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~346030~90113465/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~346030~90113465/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~346030~90113465",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 17185,
+                    "height": 13567
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~346030~90113465/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~346030~90113465/list/luna"
+              ],
+              "width": 17185,
+              "height": 13567
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~346030~90113465"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~341687~90109752/manifest",
+      "label": "(Africa)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~341687~90109752/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~341687~90109752/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "(Africa)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Raif Efendi, Mahmud"
+                },
+                {
+                  "label": "Author",
+                  "value": "Faden, William (1749-1836)"
+                },
+                {
+                  "label": "Date",
+                  "value": "1804"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "(Africa)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Tab’hane-yi Hümayunda Mühenduishâne Press"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Istanbul"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "49"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "55"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "17,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "For the source map by Faden see https://www.davidrumsey.com/luna/servlet/s/w67781"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Ottoman Mapping"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Africa)"
+                },
+                {
+                  "label": "List No",
+                  "value": "15054.063"
+                },
+                {
+                  "label": "Series No",
+                  "value": "63"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Raif Efendi, Mahmud"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Faden, William (1749-1836)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1804"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "حديد اطلس ترجمه سى Cedid Atlas Tercümesi [Translation of the New Atlas]."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"Mahmoud Raif Efendi’s exceedingly rare ​‘Cedid Atlas’, ​“the first world atlas printed by Muslims, of which only fifty copies were printed” (Library of Congress). The atlas should be seen as part of the ​‘Nazam‑i Cedid’ (New Order). Initiated in 1792, by the new Sultan Selim III, the ​‘Nazam‑i Cedid’ was an attempt by Selim to model the Ottoman state along European lines, who by this time had begun to outstrip the Ottoman Empire both politically and militarily. In order to gain more information on the developments in European states, Selim established, for the first time, permanent embassies in major European capitals. Prospective candidates were chosen from the higher echelons of Ottoman society and, as the court historian Rashid states, had ​“to have attained knowledge of arrangements of discourse and intrigues of Christians”. The first delegation was sent to London in 1793. The embassy’s ambassador was Yusuf Agah Efendi; its chief secretary was Mahmoud Raif Efendi, the author of the present work. Raif was not idle whilst in London, not only did he master French, the language of diplomacy at the time, he wrote an account of his time in England, ​‘Journal du Mahmoud Raif Efendi en Angleterre..’, the only ​‘sefretnames’ (diplomatic report) to be written in a foreign language, and found time to pen a treatise on geography ​‘Ucalet ül-Coğrafya’ (A Handbook of Geography). He also had time to visit London booksellers, where he procured a copy of William Faden’s ​‘The General Atlas of the Four Grand Quarters of the World’, which he used as a template for the present work. On his return to Istanbul, in 1797, he wrote another work in French, ​‘Tableau des Nouveaux Reglements de l’Empire Ottoman’, which gave details of Sultan Selim’s reforms of the Ottoman state. In 1800, he was made Reis Efendi (Foreign Secretary) a position he would hold until 1805. In 1807, Raif was killed during the Janissary revolt. The revolt was a reaction against Selim III’s attempted western reforms, that Raif himself had so fervently championed. The atlas consists of a title, 79 pages of text, and 25 engraved maps, all of which were based upon Faden’s work. The text, which accompanies the atlas is Raif Effendi’s ​‘Ucalet ül-Coğrafya’, which he had written while in London. The Ottoman translation was prepared by Yakovakı Efendi and the maps re-engraved under the direction of Abdurrahman Efendi. Of the fifty copies printed, one was presented to Sultan Selim III, six others were given to important state officials (presumably one to Raif Efendi himself), and two were presented to the Library of the Engineering School. The remaining stock was left for general sale to the public. Alas, a large majority of the atlases were destroyed during the Janissary uprising of 1807–8. To the revolutionaries the atlas was probably a symbol of the westernisation they were intent on stopping. Due to the small print run and destruction of numerous copies as a result of the 1807 revolt, the work is incredibly rare. There are only six recorded complete institutional examples: Topkapı Sarayı (Topkapı Palace), Turkey; Library of the Boğaziçi University, Turkey; Municipality of Üsküdar (Üsküdar Belediyesi), Turkey; The Library of Congress; Princeton University Library; and Lieden University Library. Two works in one volume, folio (530 by 375mm), title, 79pp. text, marginalia to text, engraved title, and 25 engraved maps (four folding, of which three are on two sheets joined), all after William Faden, all in fine contemporary hand-colour, later red morocco.1218 H (April 1803–March 1804 CE) 1804.\" (Daniel Crouch, 2022) See our William Faden World Atlas that was the source for this atlas - 2104.000 The map of Egypt was sourced from Anville's 1765 Egypt map, see our 2603.046, but it also appeared in earlier editions of the Faden atas."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15054.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "25"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "55"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15054063.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/15054063.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Raif Efendi, Mahmud ; Faden, William (1749-1836)"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~341687~90109752/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~341687~90109752/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~341687~90109752",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11352,
+                    "height": 8412
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~341687~90109752/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~341687~90109752/list/luna"
+              ],
+              "width": 11352,
+              "height": 8412
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~341687~90109752"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~303499~90073898/manifest",
+      "label": "82. Westafrika.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~303499~90073898/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~303499~90073898/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "82. Westafrika.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Stieler, Adolf"
+                },
+                {
+                  "label": "Author",
+                  "value": "Haack, H."
+                },
+                {
+                  "label": "Date",
+                  "value": "1944"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "82. Westafrika."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Justus Perthes"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Gotha"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "38"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "7,500,000"
+                },
+                {
+                  "label": "Country",
+                  "value": "Mauritania"
+                },
+                {
+                  "label": "Country",
+                  "value": "Mali"
+                },
+                {
+                  "label": "Country",
+                  "value": "Ghana"
+                },
+                {
+                  "label": "Country",
+                  "value": "Guinea"
+                },
+                {
+                  "label": "Region",
+                  "value": "West Africa"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "82. Westafrika."
+                },
+                {
+                  "label": "List No",
+                  "value": "12248.173"
+                },
+                {
+                  "label": "Page No",
+                  "value": "82"
+                },
+                {
+                  "label": "Series No",
+                  "value": "173"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Domann"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Barich"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Pinkau"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Luertzing"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Stieler, Adolf"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Haack, H."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1945"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Stielers Hand-Atlas. 254 Haupt- und Nebenkarten in Kupferstich. Zehnte Auflage Hundertjahr - Ausgabe. Herausegeben unter Leitung von Prof. Dr. H. Haack, in Justus Perthes' Geogr. Anstalt. Gotha: Justus Perthes."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Outline color. Text/Index Map pages printed in blue ink. Relief shown by hachures. Editions of this atlas extended through the years of World War II. This edition is the last edition of the Stieler atlas. It is very rare and known only in a few copies. It was printed during the final months of World War II, probably in April or May of 1945."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12248.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "108"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12248173.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/12248173.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Stieler, Adolf; Haack, H."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~303499~90073898/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~303499~90073898/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~303499~90073898",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 8781,
+                    "height": 12482
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~303499~90073898/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~303499~90073898/list/luna"
+              ],
+              "width": 8781,
+              "height": 12482
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~303499~90073898"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~206054~3002878/manifest",
+      "label": "Africa. Africa (Northwestern Part).",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~206054~3002878/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~206054~3002878/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Africa. Africa (Northwestern Part).",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Hammond, C.S."
+                },
+                {
+                  "label": "Date",
+                  "value": "1948"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Africa. Africa (Northwestern Part)."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Garden City Publishing Company, Inc."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Garden City"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "29,261,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "West Africa map at scale 1:12,070,000."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Country",
+                  "value": "Algeria"
+                },
+                {
+                  "label": "Country",
+                  "value": "Mali"
+                },
+                {
+                  "label": "Country",
+                  "value": "Morocco"
+                },
+                {
+                  "label": "Country",
+                  "value": "Nigeria"
+                },
+                {
+                  "label": "Region",
+                  "value": "Western Sahara"
+                },
+                {
+                  "label": "Region",
+                  "value": "West Africa"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Communications"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Africa. C2483. (inset) Reunion, Mauritius. (inset) Capetown. Africa (Northwestern Part). 7386."
+                },
+                {
+                  "label": "List No",
+                  "value": "1954.033"
+                },
+                {
+                  "label": "Page No",
+                  "value": "72-73"
+                },
+                {
+                  "label": "Series No",
+                  "value": "33"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hammond, C.S."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1948"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Hammond's New World Atlas. Containing New and Complete Historical, Economic, Political and Physical Maps of the Entire World in Full Colors with Complete Indexes and the Races of Mankind, Illustrated Gazetteer of the World, Illustrated Gazetteer of the United States and Territories. Garden City Publishing Company, Inc. Garden City, N.Y., U.S.A. 1948."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Most maps in full color. Many maps have an identification number in a bottom corner - meaning unknown since they are sometimes repeated on different maps."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "1954.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "277"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "52"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Image No",
+                  "value": "1954033"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/1954033.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Hammond, C.S."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~206054~3002878/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~206054~3002878/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~206054~3002878",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11609,
+                    "height": 8672
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~206054~3002878/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~206054~3002878/list/luna"
+              ],
+              "width": 11609,
+              "height": 8672
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~206054~3002878"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/nh798xr8816/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Afrique Occidentale Francaise. (French West Africa.)",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/nh798xr8816.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/nh798xr8816'>https://purl.stanford.edu/nh798xr8816</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Afrique Occidentale Francaise. (French West Africa.)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Craste, Leon."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 1 maps ; 79 x 117 cm."
+        },
+        {
+          "label": "Description",
+          "value": "Date estimated. Color. Mounted on heavy paper with fabric backing. Date estimated."
+        },
+        {
+          "label": "Description",
+          "value": "Separate Map."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 9022.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Pictorial map > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Mauritania > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Niger > Maps"
+        },
+        {
+          "label": "Date",
+          "value": "1951"
+        },
+        {
+          "label": "Date",
+          "value": "1951"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/nh798xr8816"
+        },
+        {
+          "label": "Publisher",
+          "value": "Ministere de la France d'Outre-Mere = Agence des Colonies,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-01-06"
+        }
+      ],
+      "description": "Date estimated. Color. Mounted on heavy paper with fabric backing. Date estimated.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/nh798xr8816%2F9022000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/nh798xr8816%2F9022000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 269
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/nh798xr8816/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/nh798xr8816/iiif/canvas/cocina-fileSet-nh798xr8816-nh798xr8816_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 269,
+              "width": 400,
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/nh798xr8816/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fnh798xr8816-nh798xr8816_1%2F9022000.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/nh798xr8816/iiif/canvas/cocina-fileSet-nh798xr8816-nh798xr8816_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/nh798xr8816%2F9022000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 269,
+                    "width": 400,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/nh798xr8816%2F9022000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
