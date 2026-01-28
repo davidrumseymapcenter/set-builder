@@ -194,7 +194,168 @@
                   }
                 }
               ]
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/ty736qh2781/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Claudii Ptolemaei Alexandrini Geographicae enarrationis libri octo. Sed ad Graeca & prisca exemplaria a Michaele Villanouano secundo recogniti & locis innumeris denuo castigati. Adiecta insuper ab eodem Scholia, quibus & difficilis ille Primus Liber nunc primum explicatur, & exoleta Urbium nomina ad nostri seculi morem exponuntur. Quinquaginta illae quoque cum veterum tum recentium Tabulae adnectuntur variisque incolentium ritus & mores explicantur. Accedit index locupletissimus hactenus non uisus. Prostant Lugduni Apud Hugonem a Porta. M.D.XLI. (1541)",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/ty736qh2781.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/ty736qh2781'>https://purl.stanford.edu/ty736qh2781</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Claudii Ptolemaei Alexandrini Geographicae enarrationis libri octo. Sed ad Graeca & prisca exemplaria a Michaele Villanouano secundo recogniti & locis innumeris denuo castigati. Adiecta insuper ab eodem Scholia, quibus & difficilis ille Primus Liber nunc primum explicatur, & exoleta Urbium nomina ad nostri seculi morem exponuntur. Quinquaginta illae quoque cum veterum tum recentium Tabulae adnectuntur variisque incolentium ritus & mores explicantur. Accedit index locupletissimus hactenus non uisus. Prostant Lugduni Apud Hugonem a Porta. M.D.XLI. (1541)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Ptolemy, active 2nd century"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 50 maps ; 41 x 28 cm"
+        },
+        {
+          "label": "Language",
+          "value": "Latin"
+        },
+        {
+          "label": "Description",
+          "value": "Second edition of Michael Servetus' Ptolemy 's Geographia utilising Lorenz Fries's woodcut maps, was published by Gaspar Trechsel in Vienna, in 1541 and sold by Hughes de la Porte in Lyons. This atlas is divided into three parts: First, the text comprising the new Latin translation by the humanist Wilibald Pirckheimer of the 1525 edition, which has been edited by Michael Servetus, for the first time for 1535 edition and the second time for this 1541 edition. The second part consists of 50 maps, comprising 27 Ptolemaic and 23 modern maps. The maps were printed from the same wooden blocks which were made for the first edition in 1522 by Lorenz Fries, the famous physician, astrologer and geographer, many with descriptive text on recto and verso. With half title index before or after the maps varies. A special feature of the 1541 edition is the missing text on verso of some modern maps. This is due to the action of Calvinism, especially since the text on verso of the Holy Land map provoked controversy. The third and final part consists of a comprehensive index. Many of the first three editions were burned, which led Servetus to abdicate on some text on the map versos. Maps Showing rivers, canals, waterways, place names, fortifications, and administrative boundaries. Relief shown pictorially. Some maps drawn in a trapezoidal projection."
+        },
+        {
+          "label": "Description",
+          "value": "References: Mickwitz, Ann-Maria (& others) ed. The A.E. Nordenskiold Collection..., II, 211."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas"
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 11325.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Classical geography > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Geography, Ancient > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Historical geography > Maps > Early works to 1800"
+        },
+        {
+          "label": "Date",
+          "value": "1541"
+        },
+        {
+          "label": "Date",
+          "value": "1541"
+        },
+        {
+          "label": "Date",
+          "value": "1541"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/ty736qh2781"
+        },
+        {
+          "label": "Publisher",
+          "value": "Fries, Lorenz"
+        },
+        {
+          "label": "Publisher",
+          "value": "Servetus, Michael"
+        },
+        {
+          "label": "Publisher",
+          "value": "Apud Hugonem a Porta,"
+        },
+        {
+          "label": "Publisher",
+          "value": "Gaspar Trechsel,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-09-15"
+        }
+      ],
+      "description": "Second edition of Michael Servetus' Ptolemy 's Geographia utilising Lorenz Fries's woodcut maps, was published by Gaspar Trechsel in Vienna, in 1541 and sold by Hughes de la Porte in Lyons. This atlas is divided into three parts: First, the text comprising the new Latin translation by the humanist Wilibald Pirckheimer of the 1525 edition, which has been edited by Michael Servetus, for the first time for 1535 edition and the second time for this 1541 edition. The second part consists of 50 maps, comprising 27 Ptolemaic and 23 modern maps. The maps were printed from the same wooden blocks which were made for the first edition in 1522 by Lorenz Fries, the famous physician, astrologer and geographer, many with descriptive text on recto and verso. With half title index before or after the maps varies. A special feature of the 1541 edition is the missing text on verso of some modern maps. This is due to the action of Calvinism, especially since the text on verso of the Holy Land map provoked controversy. The third and final part consists of a comprehensive index. Many of the first three editions were burned, which led Servetus to abdicate on some text on the map versos. Maps Showing rivers, canals, waterways, place names, fortifications, and administrative boundaries. Relief shown pictorially. Some maps drawn in a trapezoidal projection.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/xf493jd3621%2F11325001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/xf493jd3621%2F11325001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 283
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/ty736qh2781/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
             {
               "@id": "https://purl.stanford.edu/ty736qh2781/iiif/canvas/cocina-fileSet-hg580fq8868-hg580fq8868_1",
               "@type": "sc:Canvas",
@@ -235,9 +396,9 @@
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
-      "@id": "https://purl.stanford.edu/bb247fd7799/iiif/manifest",
+      "@id": "https://purl.stanford.edu/db774zf2296/iiif/manifest",
       "@type": "sc:Manifest",
-      "label": "Atlas Spheroidal Et Universel De Geographie Dresse A L'Aide Des Documents Officiels, Recemment Publies En France Et A L'Etranger Par M.F.A. Garnier Membre De La Societe De Geographie, Etc. Paris, Veuve Jules Renouard, Libraire, Editeur De A. Balbi, Abrege De Geographie; A. Guibert, Dictionnaire De Geographie; Dufour Et Jomard, Le Globe, Etc. Rue De Tournon, 6, Faubourg Saint-Germain. MDCCCLXII",
+      "label": "(Atlas General)",
       "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
       "logo": {
         "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
@@ -249,49 +410,45 @@
       },
       "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
       "seeAlso": {
-        "@id": "https://purl.stanford.edu/bb247fd7799.mods",
+        "@id": "https://purl.stanford.edu/db774zf2296.mods",
         "format": "application/mods+xml"
       },
       "metadata": [
         {
           "label": "Available Online",
-          "value": "<a href='https://purl.stanford.edu/bb247fd7799'>https://purl.stanford.edu/bb247fd7799</a>"
+          "value": "<a href='https://purl.stanford.edu/db774zf2296'>https://purl.stanford.edu/db774zf2296</a>"
         },
         {
           "label": "Title",
-          "value": "Atlas Spheroidal Et Universel De Geographie Dresse A L'Aide Des Documents Officiels, Recemment Publies En France Et A L'Etranger Par M.F.A. Garnier Membre De La Societe De Geographie, Etc. Paris, Veuve Jules Renouard, Libraire, Editeur De A. Balbi, Abrege De Geographie; A. Guibert, Dictionnaire De Geographie; Dufour Et Jomard, Le Globe, Etc. Rue De Tournon, 6, Faubourg Saint-Germain. MDCCCLXII"
+          "value": "(Atlas General)"
         },
         {
           "label": "Contributor",
-          "value": "Garnier, F. A., 1803-1863."
+          "value": "Anville, Jean Baptiste Bourguignon d, 1697-1782."
         },
         {
           "label": "Contributor",
-          "value": "Antoine, Louis."
+          "value": "Aveline."
         },
         {
           "label": "Contributor",
-          "value": "Balbi, A."
+          "value": "Coypet."
         },
         {
           "label": "Contributor",
-          "value": "Dufour, A.-H. (Auguste-Henri), 1798-1865."
+          "value": "De la Haye, Guill."
         },
         {
           "label": "Contributor",
-          "value": "Guibert, A."
+          "value": "De Lafosse."
         },
         {
           "label": "Contributor",
-          "value": "Jomard, M. (Edme-Francois), 1777-1862."
+          "value": "Gravelot, H."
         },
         {
           "label": "Contributor",
-          "value": "Pajadon."
-        },
-        {
-          "label": "Contributor",
-          "value": "Sarazin (Firm)."
+          "value": "Le Mire, N."
         },
         {
           "label": "Type",
@@ -302,32 +459,16 @@
           "value": "Cartographic image"
         },
         {
-          "label": "Type",
-          "value": "World atlases."
-        },
-        {
-          "label": "Type",
-          "value": "Maps"
-        },
-        {
-          "label": "Type",
-          "value": "World maps."
-        },
-        {
           "label": "Format",
-          "value": "1 atlas : 63 maps ; 62 x 48 cm."
-        },
-        {
-          "label": "Language",
-          "value": "French"
+          "value": "1 atlas : 45 maps ; 46 x 77 cm."
         },
         {
           "label": "Description",
-          "value": "References: P836."
+          "value": "Maps dated 1743-71. Most of D'Anville's Atlases were made up for the individual customer, so it appears that no two are alike. Many of the maps are multisheet maps that have here been joined, so the actual map sheet count is about 45. This set is accompanied by a printed list of \"Cartes Geographiques de M. D'Anville\" with the maps numbered 1-38 in ms, corresponding to the maps in the atlas. This sheet also lists \"Ouvrages par ecrit, et qui ont ete imprimes.\" One of the listed books is dated 1777. D'Anville's maps have a clarity and directness that is very \"modern.\" He read widely, and incorporated the best available geographic knowledge into his work. The English and others copied from his maps extensively. Many of the maps were missing when we acquired this atlas, and have been added subsequently. Maps stored, some bound, in a binding with half leather and cloth ties. \"Atlas\" printed on the spine."
         },
         {
           "label": "Description",
-          "value": "This atlas is exceptional for its \"spheroidal\" maps of the globe, showing the various continents and poles, shaded to give the effect of a sphere floating in space. The remaining maps are also very well executed and colored, mostly by hand, a few in colored litho. In recent years, this atlas has become rare in the trade. This is the only atlas that Garnier produced, according to Phillips. Tooley lists an 1860 edition. Covers are quarter leather marbled paper covered boards with a paper label; the burgundy leather spine is embossed with \"F.A. Garnier. Atlas Universel Et Spheroidal De Geographie\" in gilt."
+          "value": "References: cf P571, 572, 599; NMM 200."
         },
         {
           "label": "Description",
@@ -335,31 +476,31 @@
         },
         {
           "label": "Local note",
-          "value": "Pub list no.: 5023.000."
+          "value": "Pub list no.: 2603.000."
         },
         {
           "label": "Subject",
-          "value": "Atlases > 19th century"
+          "value": "Classical > Maps"
         },
         {
           "label": "Subject",
-          "value": "World maps > 19th century"
+          "value": "World > Maps"
         },
         {
           "label": "Date",
-          "value": "1862"
+          "value": "1771"
         },
         {
           "label": "Date",
-          "value": "1862"
+          "value": "1771"
         },
         {
           "label": "Identifier",
-          "value": "https://purl.stanford.edu/bb247fd7799"
+          "value": "https://purl.stanford.edu/db774zf2296"
         },
         {
           "label": "Publisher",
-          "value": "Veuve Jules Renouard, Libraire,"
+          "value": "J.B.B. D'Anville,"
         },
         {
           "label": "Relation",
@@ -367,159 +508,57 @@
         },
         {
           "label": "Record published",
-          "value": "2016-10-11"
+          "value": "2016-10-06"
         }
       ],
-      "description": "References: P836.",
+      "description": "Maps dated 1743-71. Most of D'Anville's Atlases were made up for the individual customer, so it appears that no two are alike. Many of the maps are multisheet maps that have here been joined, so the actual map sheet count is about 45. This set is accompanied by a printed list of \"Cartes Geographiques de M. D'Anville\" with the maps numbered 1-38 in ms, corresponding to the maps in the atlas. This sheet also lists \"Ouvrages par ecrit, et qui ont ete imprimes.\" One of the listed books is dated 1777. D'Anville's maps have a clarity and directness that is very \"modern.\" He read widely, and incorporated the best available geographic knowledge into his work. The English and others copied from his maps extensively. Many of the maps were missing when we acquired this atlas, and have been added subsequently. Maps stored, some bound, in a binding with half leather and cloth ties. \"Atlas\" printed on the spine.",
       "thumbnail": {
-        "@id": "https://stacks.stanford.edu/image/iiif/zr561qn9073%2F5023A/full/!400,400/0/default.jpg",
+        "@id": "https://stacks.stanford.edu/image/iiif/vq366dh2347%2F2603A/full/!400,400/0/default.jpg",
         "@type": "dctypes:Image",
         "format": "image/jpeg",
         "service": {
           "@context": "http://iiif.io/api/image/2/context.json",
-          "@id": "https://stacks.stanford.edu/image/iiif/zr561qn9073%2F5023A",
+          "@id": "https://stacks.stanford.edu/image/iiif/vq366dh2347%2F2603A",
           "profile": "http://iiif.io/api/image/2/level2.json"
         },
         "width": 400,
-        "height": 253
+        "height": 322
       },
       "sequences": [
         {
-          "@id": "https://purl.stanford.edu/bb247fd7799/iiif/manifest#sequence-1",
+          "@id": "https://purl.stanford.edu/db774zf2296/iiif/manifest#sequence-1",
           "@type": "sc:Sequence",
           "label": "Current order",
           "viewingDirection": "left-to-right",
           "canvases": [
             {
-              "@id": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-mt384cm6838-mt384cm6838_1",
+              "@id": "https://purl.stanford.edu/db774zf2296/iiif/canvas/cocina-fileSet-nw074cq6070-nw074cq6070_1",
               "@type": "sc:Canvas",
-              "label": "Afrique spheroidale. Atlas spheroidal & universel de geographie dresse par\n            F.A. Garnier, geographe. Vve. Jules Renouard, Editeur, R. de Tournon, no. 6, Paris\n            1860. Imp. Sarazin, r. Git-le-Coeur, 8. Paris.",
-              "height": 7670,
-              "width": 6332,
+              "label": "(Composite of) Carte particuliere de la Cote occidentale de l'Afrique, depuis le\n   Cap Blanc jusqu'au Cap de Verga, et du cours des rivieres de Senega et de Gambie, en ce qui\n   est connu. Dressee pour la Compagnie des Indes par le Sr. d'Anville, en Juillet M DCC LI\n   Grave par Guill? De la Haye.",
+              "height": 12281,
+              "width": 8691,
               "rendering": [
                 {
-                  "@id": "https://stacks.stanford.edu/file/mt384cm6838/5023017.jp2",
-                  "label": "Original source file (8.72 MB)",
+                  "@id": "https://stacks.stanford.edu/file/nw074cq6070/2603030.jp2",
+                  "label": "Original source file (19.2 MB)",
                   "format": "image/jp2"
                 }
               ],
               "images": [
                 {
-                  "@id": "https://purl.stanford.edu/bb247fd7799/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fmt384cm6838-mt384cm6838_1%2F5023017.jp2",
+                  "@id": "https://purl.stanford.edu/db774zf2296/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fnw074cq6070-nw074cq6070_1%2F2603030.jp2",
                   "@type": "oa:Annotation",
                   "motivation": "sc:painting",
-                  "on": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-mt384cm6838-mt384cm6838_1",
+                  "on": "https://purl.stanford.edu/db774zf2296/iiif/canvas/cocina-fileSet-nw074cq6070-nw074cq6070_1",
                   "resource": {
-                    "@id": "https://stacks.stanford.edu/image/iiif/mt384cm6838%2F5023017/full/full/0/default.jpg",
+                    "@id": "https://stacks.stanford.edu/image/iiif/nw074cq6070%2F2603030/full/full/0/default.jpg",
                     "@type": "dctypes:Image",
                     "format": "image/jpeg",
-                    "height": 7670,
-                    "width": 6332,
+                    "height": 12281,
+                    "width": 8691,
                     "service": {
                       "@context": "http://iiif.io/api/image/2/context.json",
-                      "@id": "https://stacks.stanford.edu/image/iiif/mt384cm6838%2F5023017",
-                      "profile": "http://iiif.io/api/image/2/level2.json"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "@id": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-jf713hx5097-jf713hx5097_1",
-              "@type": "sc:Canvas",
-              "label": "Afrique Occidentale et Centrale, comprenant le Sahara, le Takrour, la\n            Senegambie, l'Ouankarah et les Iles du Cap Vert. Atlas spheroidal & universel\n            de geographie dresse par F.A. Garnier, geographe. Paris, Vve. Jules Renouard, Editeur\n            Rue de Tournon, no. 6. 1860. Imp. Sarazin, 8, r. Git-le-Coeur, Paris.",
-              "height": 6060,
-              "width": 7670,
-              "rendering": [
-                {
-                  "@id": "https://stacks.stanford.edu/file/jf713hx5097/5023046.jp2",
-                  "label": "Original source file (8.35 MB)",
-                  "format": "image/jp2"
-                }
-              ],
-              "images": [
-                {
-                  "@id": "https://purl.stanford.edu/bb247fd7799/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fjf713hx5097-jf713hx5097_1%2F5023046.jp2",
-                  "@type": "oa:Annotation",
-                  "motivation": "sc:painting",
-                  "on": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-jf713hx5097-jf713hx5097_1",
-                  "resource": {
-                    "@id": "https://stacks.stanford.edu/image/iiif/jf713hx5097%2F5023046/full/full/0/default.jpg",
-                    "@type": "dctypes:Image",
-                    "format": "image/jpeg",
-                    "height": 6060,
-                    "width": 7670,
-                    "service": {
-                      "@context": "http://iiif.io/api/image/2/context.json",
-                      "@id": "https://stacks.stanford.edu/image/iiif/jf713hx5097%2F5023046",
-                      "profile": "http://iiif.io/api/image/2/level2.json"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "@id": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-dp785tw8328-dp785tw8328_1",
-              "@type": "sc:Canvas",
-              "label": "Afrique Meridionale, la Guinee infer(ieu)re., Mozambique, l'Hottentotie\n            la Caferie, la Colonie du Cap, et les iles de l'Ascension, Ste. Helene, Madagascar,\n            la Reunion, Maurice, &c. Atlas spheroidal & universel de geographie dresse par\n            F.A. Garnier, geographe. Ve. Jules Renouard, Editeur, Rue de Tournon, no. 6, Paris.\n            1860. Impie. Sarazin, r. Git-le-Coeur, 8, Paris.",
-              "height": 6052,
-              "width": 7670,
-              "rendering": [
-                {
-                  "@id": "https://stacks.stanford.edu/file/dp785tw8328/5023047.jp2",
-                  "label": "Original source file (8.34 MB)",
-                  "format": "image/jp2"
-                }
-              ],
-              "images": [
-                {
-                  "@id": "https://purl.stanford.edu/bb247fd7799/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fdp785tw8328-dp785tw8328_1%2F5023047.jp2",
-                  "@type": "oa:Annotation",
-                  "motivation": "sc:painting",
-                  "on": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-dp785tw8328-dp785tw8328_1",
-                  "resource": {
-                    "@id": "https://stacks.stanford.edu/image/iiif/dp785tw8328%2F5023047/full/full/0/default.jpg",
-                    "@type": "dctypes:Image",
-                    "format": "image/jpeg",
-                    "height": 6052,
-                    "width": 7670,
-                    "service": {
-                      "@context": "http://iiif.io/api/image/2/context.json",
-                      "@id": "https://stacks.stanford.edu/image/iiif/dp785tw8328%2F5023047",
-                      "profile": "http://iiif.io/api/image/2/level2.json"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "@id": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-gw293wv9175-gw293wv9175_1",
-              "@type": "sc:Canvas",
-              "label": "Afrique Orientale, comprenant l'Egypte, l'Abyssinie, et partie du\n            Takrour Oriental. (with) Extremite orientle. de la cote d'Afrique, d'apres la\n            carte de M. le commt. Guillain. Atlas spheroidal & universel de geographie dresse\n            par F.A. Garnier, geographe. Vve. Jules Renouard, Editeur, Rue de Tournon, no. 6, Paris\n            1860. Imp. Sarazin, r. Git-le-Coeur, 8, Paris.",
-              "height": 7670,
-              "width": 6052,
-              "rendering": [
-                {
-                  "@id": "https://stacks.stanford.edu/file/gw293wv9175/5023048.jp2",
-                  "label": "Original source file (8.34 MB)",
-                  "format": "image/jp2"
-                }
-              ],
-              "images": [
-                {
-                  "@id": "https://purl.stanford.edu/bb247fd7799/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fgw293wv9175-gw293wv9175_1%2F5023048.jp2",
-                  "@type": "oa:Annotation",
-                  "motivation": "sc:painting",
-                  "on": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-gw293wv9175-gw293wv9175_1",
-                  "resource": {
-                    "@id": "https://stacks.stanford.edu/image/iiif/gw293wv9175%2F5023048/full/full/0/default.jpg",
-                    "@type": "dctypes:Image",
-                    "format": "image/jpeg",
-                    "height": 7670,
-                    "width": 6052,
-                    "service": {
-                      "@context": "http://iiif.io/api/image/2/context.json",
-                      "@id": "https://stacks.stanford.edu/image/iiif/gw293wv9175%2F5023048",
+                      "@id": "https://stacks.stanford.edu/image/iiif/nw074cq6070%2F2603030",
                       "profile": "http://iiif.io/api/image/2/level2.json"
                     }
                   }
@@ -919,6 +958,786 @@
         "format": "image/png"
       },
       "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~341687~90109752"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/bb247fd7799/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Atlas Spheroidal Et Universel De Geographie Dresse A L'Aide Des Documents Officiels, Recemment Publies En France Et A L'Etranger Par M.F.A. Garnier Membre De La Societe De Geographie, Etc. Paris, Veuve Jules Renouard, Libraire, Editeur De A. Balbi, Abrege De Geographie; A. Guibert, Dictionnaire De Geographie; Dufour Et Jomard, Le Globe, Etc. Rue De Tournon, 6, Faubourg Saint-Germain. MDCCCLXII",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/bb247fd7799.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/bb247fd7799'>https://purl.stanford.edu/bb247fd7799</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Atlas Spheroidal Et Universel De Geographie Dresse A L'Aide Des Documents Officiels, Recemment Publies En France Et A L'Etranger Par M.F.A. Garnier Membre De La Societe De Geographie, Etc. Paris, Veuve Jules Renouard, Libraire, Editeur De A. Balbi, Abrege De Geographie; A. Guibert, Dictionnaire De Geographie; Dufour Et Jomard, Le Globe, Etc. Rue De Tournon, 6, Faubourg Saint-Germain. MDCCCLXII"
+        },
+        {
+          "label": "Contributor",
+          "value": "Garnier, F. A., 1803-1863."
+        },
+        {
+          "label": "Contributor",
+          "value": "Antoine, Louis."
+        },
+        {
+          "label": "Contributor",
+          "value": "Balbi, A."
+        },
+        {
+          "label": "Contributor",
+          "value": "Dufour, A.-H. (Auguste-Henri), 1798-1865."
+        },
+        {
+          "label": "Contributor",
+          "value": "Guibert, A."
+        },
+        {
+          "label": "Contributor",
+          "value": "Jomard, M. (Edme-Francois), 1777-1862."
+        },
+        {
+          "label": "Contributor",
+          "value": "Pajadon."
+        },
+        {
+          "label": "Contributor",
+          "value": "Sarazin (Firm)."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 63 maps ; 62 x 48 cm."
+        },
+        {
+          "label": "Language",
+          "value": "French"
+        },
+        {
+          "label": "Description",
+          "value": "References: P836."
+        },
+        {
+          "label": "Description",
+          "value": "This atlas is exceptional for its \"spheroidal\" maps of the globe, showing the various continents and poles, shaded to give the effect of a sphere floating in space. The remaining maps are also very well executed and colored, mostly by hand, a few in colored litho. In recent years, this atlas has become rare in the trade. This is the only atlas that Garnier produced, according to Phillips. Tooley lists an 1860 edition. Covers are quarter leather marbled paper covered boards with a paper label; the burgundy leather spine is embossed with \"F.A. Garnier. Atlas Universel Et Spheroidal De Geographie\" in gilt."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 5023.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1862"
+        },
+        {
+          "label": "Date",
+          "value": "1862"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/bb247fd7799"
+        },
+        {
+          "label": "Publisher",
+          "value": "Veuve Jules Renouard, Libraire,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-11"
+        }
+      ],
+      "description": "References: P836.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/zr561qn9073%2F5023A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/zr561qn9073%2F5023A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 253
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/bb247fd7799/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-mt384cm6838-mt384cm6838_1",
+              "@type": "sc:Canvas",
+              "label": "Afrique spheroidale. Atlas spheroidal & universel de geographie dresse par\n            F.A. Garnier, geographe. Vve. Jules Renouard, Editeur, R. de Tournon, no. 6, Paris\n            1860. Imp. Sarazin, r. Git-le-Coeur, 8. Paris.",
+              "height": 7670,
+              "width": 6332,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/mt384cm6838/5023017.jp2",
+                  "label": "Original source file (8.72 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/bb247fd7799/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fmt384cm6838-mt384cm6838_1%2F5023017.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-mt384cm6838-mt384cm6838_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/mt384cm6838%2F5023017/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7670,
+                    "width": 6332,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/mt384cm6838%2F5023017",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/bb247fd7799/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Atlas Spheroidal Et Universel De Geographie Dresse A L'Aide Des Documents Officiels, Recemment Publies En France Et A L'Etranger Par M.F.A. Garnier Membre De La Societe De Geographie, Etc. Paris, Veuve Jules Renouard, Libraire, Editeur De A. Balbi, Abrege De Geographie; A. Guibert, Dictionnaire De Geographie; Dufour Et Jomard, Le Globe, Etc. Rue De Tournon, 6, Faubourg Saint-Germain. MDCCCLXII",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/bb247fd7799.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/bb247fd7799'>https://purl.stanford.edu/bb247fd7799</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Atlas Spheroidal Et Universel De Geographie Dresse A L'Aide Des Documents Officiels, Recemment Publies En France Et A L'Etranger Par M.F.A. Garnier Membre De La Societe De Geographie, Etc. Paris, Veuve Jules Renouard, Libraire, Editeur De A. Balbi, Abrege De Geographie; A. Guibert, Dictionnaire De Geographie; Dufour Et Jomard, Le Globe, Etc. Rue De Tournon, 6, Faubourg Saint-Germain. MDCCCLXII"
+        },
+        {
+          "label": "Contributor",
+          "value": "Garnier, F. A., 1803-1863."
+        },
+        {
+          "label": "Contributor",
+          "value": "Antoine, Louis."
+        },
+        {
+          "label": "Contributor",
+          "value": "Balbi, A."
+        },
+        {
+          "label": "Contributor",
+          "value": "Dufour, A.-H. (Auguste-Henri), 1798-1865."
+        },
+        {
+          "label": "Contributor",
+          "value": "Guibert, A."
+        },
+        {
+          "label": "Contributor",
+          "value": "Jomard, M. (Edme-Francois), 1777-1862."
+        },
+        {
+          "label": "Contributor",
+          "value": "Pajadon."
+        },
+        {
+          "label": "Contributor",
+          "value": "Sarazin (Firm)."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 63 maps ; 62 x 48 cm."
+        },
+        {
+          "label": "Language",
+          "value": "French"
+        },
+        {
+          "label": "Description",
+          "value": "References: P836."
+        },
+        {
+          "label": "Description",
+          "value": "This atlas is exceptional for its \"spheroidal\" maps of the globe, showing the various continents and poles, shaded to give the effect of a sphere floating in space. The remaining maps are also very well executed and colored, mostly by hand, a few in colored litho. In recent years, this atlas has become rare in the trade. This is the only atlas that Garnier produced, according to Phillips. Tooley lists an 1860 edition. Covers are quarter leather marbled paper covered boards with a paper label; the burgundy leather spine is embossed with \"F.A. Garnier. Atlas Universel Et Spheroidal De Geographie\" in gilt."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 5023.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1862"
+        },
+        {
+          "label": "Date",
+          "value": "1862"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/bb247fd7799"
+        },
+        {
+          "label": "Publisher",
+          "value": "Veuve Jules Renouard, Libraire,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-11"
+        }
+      ],
+      "description": "References: P836.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/zr561qn9073%2F5023A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/zr561qn9073%2F5023A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 253
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/bb247fd7799/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-jf713hx5097-jf713hx5097_1",
+              "@type": "sc:Canvas",
+              "label": "Afrique Occidentale et Centrale, comprenant le Sahara, le Takrour, la\n            Senegambie, l'Ouankarah et les Iles du Cap Vert. Atlas spheroidal & universel\n            de geographie dresse par F.A. Garnier, geographe. Paris, Vve. Jules Renouard, Editeur\n            Rue de Tournon, no. 6. 1860. Imp. Sarazin, 8, r. Git-le-Coeur, Paris.",
+              "height": 6060,
+              "width": 7670,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/jf713hx5097/5023046.jp2",
+                  "label": "Original source file (8.35 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/bb247fd7799/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fjf713hx5097-jf713hx5097_1%2F5023046.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-jf713hx5097-jf713hx5097_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/jf713hx5097%2F5023046/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 6060,
+                    "width": 7670,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/jf713hx5097%2F5023046",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/bb247fd7799/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Atlas Spheroidal Et Universel De Geographie Dresse A L'Aide Des Documents Officiels, Recemment Publies En France Et A L'Etranger Par M.F.A. Garnier Membre De La Societe De Geographie, Etc. Paris, Veuve Jules Renouard, Libraire, Editeur De A. Balbi, Abrege De Geographie; A. Guibert, Dictionnaire De Geographie; Dufour Et Jomard, Le Globe, Etc. Rue De Tournon, 6, Faubourg Saint-Germain. MDCCCLXII",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/bb247fd7799.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/bb247fd7799'>https://purl.stanford.edu/bb247fd7799</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Atlas Spheroidal Et Universel De Geographie Dresse A L'Aide Des Documents Officiels, Recemment Publies En France Et A L'Etranger Par M.F.A. Garnier Membre De La Societe De Geographie, Etc. Paris, Veuve Jules Renouard, Libraire, Editeur De A. Balbi, Abrege De Geographie; A. Guibert, Dictionnaire De Geographie; Dufour Et Jomard, Le Globe, Etc. Rue De Tournon, 6, Faubourg Saint-Germain. MDCCCLXII"
+        },
+        {
+          "label": "Contributor",
+          "value": "Garnier, F. A., 1803-1863."
+        },
+        {
+          "label": "Contributor",
+          "value": "Antoine, Louis."
+        },
+        {
+          "label": "Contributor",
+          "value": "Balbi, A."
+        },
+        {
+          "label": "Contributor",
+          "value": "Dufour, A.-H. (Auguste-Henri), 1798-1865."
+        },
+        {
+          "label": "Contributor",
+          "value": "Guibert, A."
+        },
+        {
+          "label": "Contributor",
+          "value": "Jomard, M. (Edme-Francois), 1777-1862."
+        },
+        {
+          "label": "Contributor",
+          "value": "Pajadon."
+        },
+        {
+          "label": "Contributor",
+          "value": "Sarazin (Firm)."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 63 maps ; 62 x 48 cm."
+        },
+        {
+          "label": "Language",
+          "value": "French"
+        },
+        {
+          "label": "Description",
+          "value": "References: P836."
+        },
+        {
+          "label": "Description",
+          "value": "This atlas is exceptional for its \"spheroidal\" maps of the globe, showing the various continents and poles, shaded to give the effect of a sphere floating in space. The remaining maps are also very well executed and colored, mostly by hand, a few in colored litho. In recent years, this atlas has become rare in the trade. This is the only atlas that Garnier produced, according to Phillips. Tooley lists an 1860 edition. Covers are quarter leather marbled paper covered boards with a paper label; the burgundy leather spine is embossed with \"F.A. Garnier. Atlas Universel Et Spheroidal De Geographie\" in gilt."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 5023.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1862"
+        },
+        {
+          "label": "Date",
+          "value": "1862"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/bb247fd7799"
+        },
+        {
+          "label": "Publisher",
+          "value": "Veuve Jules Renouard, Libraire,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-11"
+        }
+      ],
+      "description": "References: P836.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/zr561qn9073%2F5023A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/zr561qn9073%2F5023A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 253
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/bb247fd7799/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-dp785tw8328-dp785tw8328_1",
+              "@type": "sc:Canvas",
+              "label": "Afrique Meridionale, la Guinee infer(ieu)re., Mozambique, l'Hottentotie\n            la Caferie, la Colonie du Cap, et les iles de l'Ascension, Ste. Helene, Madagascar,\n            la Reunion, Maurice, &c. Atlas spheroidal & universel de geographie dresse par\n            F.A. Garnier, geographe. Ve. Jules Renouard, Editeur, Rue de Tournon, no. 6, Paris.\n            1860. Impie. Sarazin, r. Git-le-Coeur, 8, Paris.",
+              "height": 6052,
+              "width": 7670,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/dp785tw8328/5023047.jp2",
+                  "label": "Original source file (8.34 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/bb247fd7799/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fdp785tw8328-dp785tw8328_1%2F5023047.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-dp785tw8328-dp785tw8328_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/dp785tw8328%2F5023047/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 6052,
+                    "width": 7670,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/dp785tw8328%2F5023047",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/bb247fd7799/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Atlas Spheroidal Et Universel De Geographie Dresse A L'Aide Des Documents Officiels, Recemment Publies En France Et A L'Etranger Par M.F.A. Garnier Membre De La Societe De Geographie, Etc. Paris, Veuve Jules Renouard, Libraire, Editeur De A. Balbi, Abrege De Geographie; A. Guibert, Dictionnaire De Geographie; Dufour Et Jomard, Le Globe, Etc. Rue De Tournon, 6, Faubourg Saint-Germain. MDCCCLXII",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/bb247fd7799.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/bb247fd7799'>https://purl.stanford.edu/bb247fd7799</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Atlas Spheroidal Et Universel De Geographie Dresse A L'Aide Des Documents Officiels, Recemment Publies En France Et A L'Etranger Par M.F.A. Garnier Membre De La Societe De Geographie, Etc. Paris, Veuve Jules Renouard, Libraire, Editeur De A. Balbi, Abrege De Geographie; A. Guibert, Dictionnaire De Geographie; Dufour Et Jomard, Le Globe, Etc. Rue De Tournon, 6, Faubourg Saint-Germain. MDCCCLXII"
+        },
+        {
+          "label": "Contributor",
+          "value": "Garnier, F. A., 1803-1863."
+        },
+        {
+          "label": "Contributor",
+          "value": "Antoine, Louis."
+        },
+        {
+          "label": "Contributor",
+          "value": "Balbi, A."
+        },
+        {
+          "label": "Contributor",
+          "value": "Dufour, A.-H. (Auguste-Henri), 1798-1865."
+        },
+        {
+          "label": "Contributor",
+          "value": "Guibert, A."
+        },
+        {
+          "label": "Contributor",
+          "value": "Jomard, M. (Edme-Francois), 1777-1862."
+        },
+        {
+          "label": "Contributor",
+          "value": "Pajadon."
+        },
+        {
+          "label": "Contributor",
+          "value": "Sarazin (Firm)."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 63 maps ; 62 x 48 cm."
+        },
+        {
+          "label": "Language",
+          "value": "French"
+        },
+        {
+          "label": "Description",
+          "value": "References: P836."
+        },
+        {
+          "label": "Description",
+          "value": "This atlas is exceptional for its \"spheroidal\" maps of the globe, showing the various continents and poles, shaded to give the effect of a sphere floating in space. The remaining maps are also very well executed and colored, mostly by hand, a few in colored litho. In recent years, this atlas has become rare in the trade. This is the only atlas that Garnier produced, according to Phillips. Tooley lists an 1860 edition. Covers are quarter leather marbled paper covered boards with a paper label; the burgundy leather spine is embossed with \"F.A. Garnier. Atlas Universel Et Spheroidal De Geographie\" in gilt."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 5023.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1862"
+        },
+        {
+          "label": "Date",
+          "value": "1862"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/bb247fd7799"
+        },
+        {
+          "label": "Publisher",
+          "value": "Veuve Jules Renouard, Libraire,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-11"
+        }
+      ],
+      "description": "References: P836.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/zr561qn9073%2F5023A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/zr561qn9073%2F5023A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 253
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/bb247fd7799/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-gw293wv9175-gw293wv9175_1",
+              "@type": "sc:Canvas",
+              "label": "Afrique Orientale, comprenant l'Egypte, l'Abyssinie, et partie du\n            Takrour Oriental. (with) Extremite orientle. de la cote d'Afrique, d'apres la\n            carte de M. le commt. Guillain. Atlas spheroidal & universel de geographie dresse\n            par F.A. Garnier, geographe. Vve. Jules Renouard, Editeur, Rue de Tournon, no. 6, Paris\n            1860. Imp. Sarazin, r. Git-le-Coeur, 8, Paris.",
+              "height": 7670,
+              "width": 6052,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/gw293wv9175/5023048.jp2",
+                  "label": "Original source file (8.34 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/bb247fd7799/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fgw293wv9175-gw293wv9175_1%2F5023048.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/bb247fd7799/iiif/canvas/cocina-fileSet-gw293wv9175-gw293wv9175_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/gw293wv9175%2F5023048/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7670,
+                    "width": 6052,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/gw293wv9175%2F5023048",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
