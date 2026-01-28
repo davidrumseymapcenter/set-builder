@@ -876,41 +876,55 @@ function exportCombinedManifest() {
     return;
   }
 
-  // Build manifests array from current gallery order
-  // Use a Map to track unique manifests and prevent duplicates
-  const manifestMap = new Map();
- cards.forEach(card => {
-  // Find the manifest link in the card
-  const manifestLinks = card.querySelectorAll('a');
-  let manifestUrl = null;
+// // Build manifests array from current gallery order by reading card data
+  const currentManifests = [];
   
-  manifestLinks.forEach(link => {
-    if (link.textContent === 'View Manifest') {
-      manifestUrl = link.href;
+  cards.forEach(card => {
+    const manifestId = card.dataset.manifestId;
+    const canvasData = card.dataset.canvasData;
+    
+    if (!manifestId || !canvasData) return;
+    
+    let canvas;
+    try {
+      canvas = JSON.parse(canvasData);
+    } catch (e) {
+      console.error('Failed to parse canvas data:', e);
+      return;
     }
-  });
-  
-  if (manifestUrl) {
-    // Find the corresponding manifest in collectedManifests
-    const manifest = collectedManifests.find(m => 
-      (m['@id'] === manifestUrl || m.id === manifestUrl)
+    
+    // Find the source manifest
+    const sourceManifest = collectedManifests.find(m => 
+      (m['@id'] === manifestId || m.id === manifestId)
     );
     
-    if (manifest) {
-      // Use manifest URL as key to prevent duplicates
-      const key = manifest['@id'] || manifest.id;
-      if (!manifestMap.has(key)) {
-        manifestMap.set(key, manifest);
-      }
+    if (!sourceManifest) return;
+    
+    // Create a single-canvas manifest for this card
+    const iiifVersion = getIIIFVersion(sourceManifest);
+    let singleCanvasManifest;
+    
+    if (iiifVersion === 3) {
+      singleCanvasManifest = {
+        ...sourceManifest,
+        items: [canvas]
+      };
+    } else {
+      singleCanvasManifest = {
+        ...sourceManifest,
+        sequences: [{
+          ...(sourceManifest.sequences?.[0] || {}),
+          canvases: [canvas]
+        }]
+      };
     }
-  }
-});
+    
+    currentManifests.push(singleCanvasManifest);
+  });
 
-// Convert Map back to array (in the order they were encountered)
-const currentManifests = Array.from(manifestMap.values());
-
-// Update collectedManifests to match current state
-collectedManifests = currentManifests;
+  // Update collectedManifests to match current state
+  collectedManifests = currentManifests;
+  
 
 // Sanitize all manifests to fix otherContent issues
 const sanitizedManifests = collectedManifests.map(manifest => {
