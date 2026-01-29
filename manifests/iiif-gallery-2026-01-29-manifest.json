@@ -1,0 +1,28 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://example.org/manifest/iiif-gallery-2026-01-29",
+  "label": "iiif-gallery-2026-01-29",
+  "description": "A curated gallery of 0 images created with IIIF Image Gallery Builder",
+  "metadata": [
+    {
+      "label": "Created with",
+      "value": "IIIF Image Gallery Builder"
+    },
+    {
+      "label": "Number of images",
+      "value": "0"
+    },
+    {
+      "label": "Created",
+      "value": "2026-01-29"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "@id": "https://example.org/manifest/iiif-gallery-2026-01-29/sequence/1",
+      "canvases": []
+    }
+  ]
+}
