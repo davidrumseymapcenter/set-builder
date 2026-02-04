@@ -159,6 +159,7 @@ function initializeResizer() {
   
   let isResizing = false;
 
+  // Mouse events (existing)
   resizer.addEventListener('mousedown', (e) => {
     isResizing = true;
     document.body.style.cursor = 'col-resize';
@@ -181,6 +182,36 @@ function initializeResizer() {
     if (isResizing) {
       isResizing = false;
       document.body.style.cursor = 'default';
+      document.body.style.userSelect = 'auto';
+    }
+  });
+
+  // Touch events (new)
+  resizer.addEventListener('touchstart', (e) => {
+    isResizing = true;
+    document.body.style.userSelect = 'none'; // Prevent text selection while dragging
+    e.preventDefault(); // Prevent scrolling while dragging
+  });
+
+  document.addEventListener('touchmove', (e) => {
+    if (!isResizing) return;
+
+    // Get the touch position
+    const touch = e.touches[0];
+    const containerWidth = document.querySelector('.container').offsetWidth;
+    const newLeftWidth = (touch.clientX / containerWidth) * 100;
+
+    // Set bounds for resizing (min 20%, max 80%)
+    if (newLeftWidth > 20 && newLeftWidth < 80) {
+      leftPanel.style.width = `${newLeftWidth}%`;
+    }
+    
+    e.preventDefault(); // Prevent scrolling while dragging
+  });
+
+  document.addEventListener('touchend', () => {
+    if (isResizing) {
+      isResizing = false;
       document.body.style.userSelect = 'auto';
     }
   });
@@ -924,7 +955,7 @@ function exportCombinedManifest() {
 
   // Update collectedManifests to match current state
   collectedManifests = currentManifests;
-  
+
 
 // Sanitize all manifests to fix otherContent issues
 const sanitizedManifests = collectedManifests.map(manifest => {
