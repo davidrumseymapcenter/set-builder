@@ -1,8 +1,8 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Collection",
-  "@id": "https://example.org/collection/MitchellMaps_newnew",
-  "label": "MitchellMaps_newnew",
+  "@id": "https://example.org/collection/MitchellMaps-gallery.json",
+  "label": "MitchellMaps-gallery",
   "items": [
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
