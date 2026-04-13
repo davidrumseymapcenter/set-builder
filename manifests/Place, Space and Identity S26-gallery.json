@@ -1,0 +1,2686 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Place, Space and Identity S26",
+  "label": "Place, Space and Identity S26",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/bt534tm5745/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Imperial Federation - Map of the world showing the extent of the British Empire in 1886. Statistical information furnished by Captain J.C.R. Colomb, M.P. formerly R.M.A. Mclure & Co. Queen Victoria Street, London. British territories coloured in red. (Published as) Supplement to ''The Graphic'', July 24th, 1886. (Inset) Map of the world showing the extent of British territories in 1786",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/bt534tm5745.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/bt534tm5745'>https://purl.stanford.edu/bt534tm5745</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Imperial Federation - Map of the world showing the extent of the British Empire in 1886. Statistical information furnished by Captain J.C.R. Colomb, M.P. formerly R.M.A. Mclure & Co. Queen Victoria Street, London. British territories coloured in red. (Published as) Supplement to ''The Graphic'', July 24th, 1886. (Inset) Map of the world showing the extent of British territories in 1786"
+        },
+        {
+          "label": "Contributor",
+          "value": "Colomb, John Charles Ready."
+        },
+        {
+          "label": "Contributor",
+          "value": "Crane, Walter."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 58 x 77 cm."
+        },
+        {
+          "label": "Description",
+          "value": "Pictorial map on Mercator projection centered on the Greenwich Prime Meridian, placing Great Britain just above the map's central focal point. Published as a color supplement to The \"Graphic\" at the same time as Queen Victoria's Jubilee of 1886. British Isles, and British colonies spreading out to the east and the west, were highlighted with red, while other geographical areas were left blank with only a minimum number of place names. An inset box was placed near each of the major colonies, listing statistics about geographical area, population, and trade. The words \"Freedom, Fraternity, Federation,\" suggesting a peaceful co-existence within the British Empire, were prominently placed along the map's top margin, but the remainder of the map's illustrations imply \"colonialism.\" At the bottom center Britannia is seated on top of the world ruling over her subjects, represented by a variety of animals and costumed figures. India, identified by an elephant and a tiger, appears in the lower left corner, while Australia, including a kangaroo and a sheep, is shown in the lower right. The illustrations were done by Walter Crane, a prominent illustrator and artist with strong socialist sympathies, perhaps explaining the contradictory themes in the map of imperialism and \"human labour\" holding up the world in the form of Atlas. Crane's contributions to the map remained unnoticed until the research of Pippa Biltcliffe was published in 2005."
+        },
+        {
+          "label": "Description",
+          "value": "Separate Map."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 8238.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Pictorial map > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "World > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale not given."
+        },
+        {
+          "label": "Date",
+          "value": "1886"
+        },
+        {
+          "label": "Date",
+          "value": "1886"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/bt534tm5745"
+        },
+        {
+          "label": "Publisher",
+          "value": "The \"Graphic\","
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-01-06"
+        }
+      ],
+      "description": "Pictorial map on Mercator projection centered on the Greenwich Prime Meridian, placing Great Britain just above the map's central focal point. Published as a color supplement to The \"Graphic\" at the same time as Queen Victoria's Jubilee of 1886. British Isles, and British colonies spreading out to the east and the west, were highlighted with red, while other geographical areas were left blank with only a minimum number of place names. An inset box was placed near each of the major colonies, listing statistics about geographical area, population, and trade. The words \"Freedom, Fraternity, Federation,\" suggesting a peaceful co-existence within the British Empire, were prominently placed along the map's top margin, but the remainder of the map's illustrations imply \"colonialism.\" At the bottom center Britannia is seated on top of the world ruling over her subjects, represented by a variety of animals and costumed figures. India, identified by an elephant and a tiger, appears in the lower left corner, while Australia, including a kangaroo and a sheep, is shown in the lower right. The illustrations were done by Walter Crane, a prominent illustrator and artist with strong socialist sympathies, perhaps explaining the contradictory themes in the map of imperialism and \"human labour\" holding up the world in the form of Atlas. Crane's contributions to the map remained unnoticed until the research of Pippa Biltcliffe was published in 2005.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/bt534tm5745%2F8238000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/bt534tm5745%2F8238000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 305
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/bt534tm5745/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/bt534tm5745/iiif/canvas/cocina-fileSet-bt534tm5745-bt534tm5745_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 12934,
+              "width": 16940,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/bt534tm5745/8238000.jp2",
+                  "label": "Original source file (39.4 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/bt534tm5745/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fbt534tm5745-bt534tm5745_1%2F8238000.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/bt534tm5745/iiif/canvas/cocina-fileSet-bt534tm5745-bt534tm5745_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/bt534tm5745%2F8238000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 12934,
+                    "width": 16940,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/bt534tm5745%2F8238000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/yn409cz7502/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Stanford University",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/yn409cz7502.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/yn409cz7502'>https://purl.stanford.edu/yn409cz7502</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Stanford University"
+        },
+        {
+          "label": "Contributor",
+          "value": "Farmer, Edward M."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : col. ; 41 x 53 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "Edward M. Farmer."
+        },
+        {
+          "label": "Description",
+          "value": "Bird's-eye view."
+        },
+        {
+          "label": "Subject",
+          "value": "Stanford University > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Stanford University > Pictorial works"
+        },
+        {
+          "label": "Coverage",
+          "value": "Pictorial map, not drawn to scale."
+        },
+        {
+          "label": "Date",
+          "value": "1934"
+        },
+        {
+          "label": "Date",
+          "value": "1934"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/yn409cz7502"
+        },
+        {
+          "label": "Publisher",
+          "value": "Leland Stanford Junior University"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-08-11"
+        }
+      ],
+      "description": "Bird's-eye view.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/yn409cz7502%2Fyn409cz7502_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/yn409cz7502%2Fyn409cz7502_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 312
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/yn409cz7502/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/yn409cz7502/iiif/canvas/cocina-fileSet-yn409cz7502-yn409cz7502_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 10742,
+              "width": 13783,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/yn409cz7502/yn409cz7502_00_0001.jp2",
+                  "label": "Original source file (26.6 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/yn409cz7502/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fyn409cz7502-yn409cz7502_1%2Fyn409cz7502_00_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/yn409cz7502/iiif/canvas/cocina-fileSet-yn409cz7502-yn409cz7502_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/yn409cz7502%2Fyn409cz7502_00_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10742,
+                    "width": 13783,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/yn409cz7502%2Fyn409cz7502_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~366529~90133797/manifest",
+      "label": "Puerto de Apra on the Island Guahan vulgo Guam by Antonio Ridrigues 1733",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~366529~90133797/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~366529~90133797/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Puerto de Apra on the Island Guahan vulgo Guam by Antonio Ridrigues 1733",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Dalrymple, Alexander"
+                },
+                {
+                  "label": "Date",
+                  "value": "1781"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Puerto de Apra on the Island Guahan vulgo Guam by Antonio Ridrigues 1733"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Alexander Dalrymple"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Chart Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Region",
+                  "value": "Guam Island"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Nautical Charts"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Puerto de Apra on the Island Guahan vulgo Guam by Antonio Ridrigues 1733"
+                },
+                {
+                  "label": "List No",
+                  "value": "16141.158"
+                },
+                {
+                  "label": "Page No",
+                  "value": "156"
+                },
+                {
+                  "label": "Series No",
+                  "value": "158"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Dalrymple, Alexander"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1783"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "[Atlas of Plans of Ports, &c.]"
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Andrew S. Cook, \"Alexander Dalrymple (1737-1808), Hydrographer to the East India Company and the Admiralty as Publisher: A Catalogue of Books and Charts.\" 1993. https://research-repository.st-andrews.ac.uk/handle/10023/2634"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"A Complete Example of Alexander Dalrymple's First Commercial \"Atlas.\" A Prized Rarity of 18th-Century Navigation and Exploration. Note: The following catalog entry deals with a compilation of charts by the famed hydrographer Alexander Dalrymple, whose published works are extremely rare and, in many cases, bibliographically complex. We are indebted to Andrew S. Cook and his 1993 University of St. Andrews Ph.D. thesis, which, in five volumes, comprehensively catalogs Dalrymple's printed output. We make shorthand references to Cook catalog numbers in this catalog entry, and his input on this item was invaluable. This remarkable bound volume of 202 maps, prepared in London in 1783, is a cartographic gem representing the entirety of Alexander Dalrymple's first commercial list of maps for sale. Dalrymple, a preeminent figure in the field of hydrography, created these charts in a period marked by significant contributions to the mapping of the world's seas and coasts. This volume, which might be termed Dalrymple's first commercial atlas, provides an exceptional treatment of various ports on the route from Europe to India, Southeast Asia, and China, with substantial content in Africa and the Middle East. Alexander Dalrymple is, without question, the most important and influential British hydrographer of the 18th century. Originally employed as a civil servant in Madras, India, in the 1750s, Dalrymple began his career as an explorer in 1759, when he went east to chart and look for trading opportunities in the Philippines, Borneo, and Sulu. His career at this time and later was inextricably tied to the East India Company. The EIC, as it is often called, was a British trading company, chartered in 1600, that played a pivotal role in trade between Britain and Asia and eventually became a de facto colonial ruler in India before being dissolved in 1874. Dalrymple had a complicated relationship with the EIC, as he did with many people and organizations throughout his life. Dalrymple's first charts were published between October 1769 and the end of 1771, primarily derived from his own observations in the East. He remained involved in chart compilation and publication in various capacities until 1779. It was in that year that the EIC assigned him to \"examining the Ship Journals\" and granted him an allowance of £500 a year for the expenses of publishing charts and nautical memoirs, and that became his primary focus. Between 1779 and 1783, Dalrymple focused on preparing charts and views with a special focus on areas of importance during the American Revolution and Britain's consequent war with the Dutch and French. These were intended to help British ships avoid interception by the French and Dutch along the usual trade routes in the East. During this period Dalrymple was prolific in his output of coastal profiles and views of land, producing some 171 plates of this type between 1779 and 1783. The Emergence of Dalrymple as a Commercial Map Publisher in 1783 This compilation of charts was assembled in May of 1783 (the last-dated chart bears an imprint of May 11, 1783), just after Dalrymple produced his first commercial catalog of maps the preceding month. That catalog, List of Plans of Ports, &c. 1783 (Catalogue A79), lists 202 charts, all of which are included in this volume. Cook (Vol. I, pages 117-118) describes the context of these publications: By the terms of Dalrymple's contract [with the EIC] each chart, view or plan plate became his property after he had delivered 100 impressions to the Company. In 1783 he began consciously to exploit this developing asset by assembling sets of his publications for commercial sale... [Lenghty discussion of small-scale works offered for sale in preceding years.] But in 1783 he included with Collection of Charts, Views of Land and Plans of Ports a separate price list for all his engraved plates, complete to April 1783, and incorporating plates from his 1772 and 1775 collections. The prices were by the set or individually: 202 plates of plans at 6d., 1s. or 2s. each or 3 guineas a set; 37 plates of views of land at 29. each or 1½ guineas a set; 10 small-format charts from 1s. to 4s. each or at 19s. a set; and 19 large-format charts from 2s. 6d. to 5s. each or at 3 guineas a set. Greater discounts were available on combined sets, the complete collection being offered at 7 guineas. Dalrymple also offered three maps he had had engraved, of Broach, the Madras lands, and Itchapour, and the five views Henry had drawn in south India in 1776, at set prices of 1½ guineas and 10s.6d. respectively. Dalrymple had revised the text of the 1775 Collection of Plans of Ports in 1782, and improved, modified or replaced eighty-one of the 83 plates during 1781 and 1782 for reprinting in 1783 together with his East India Company plates as part of this venture. This set of maps was produced before Dalrymple indexed his charts into eighteen classes, a practice he started in 1786. The Maps The atlas includes charts derived from diverse sources, including contemporary and near-contemporary ship journals, famed explorers of preceding decades and centuries, and the published output of famous Dutch and French hydrographers, such as those of the Van Keulen family and Jacques-Nicolas Bellin. The set includes 10 maps related to Atlantic Islands; 49 maps related to Africa; 13 related to Arabia and the Persian Gulf; 25 related to Pakistan, India, and Sri Lanka; 6 to Burma; 9 to Malaysia; 4 to Vietnam; 7 to China; 23 to the Philippines; 1 to Brunei; 51 to Indonesia; 3 to New Guinea; 1 to New Zealand; 1 to the Solomon Islands; 1 to Guam; 2 to Australia (including the Swan River); and 1 to Saint Paul Island in the southern Indian Ocean. A complete list of maps is available upon request. This Work in Context The maps in this series are noteworthy in that they serve as an excellent supplement, or complement, to the larger-format chart books of the so-called East India Navigation that were being produced in London in the 1780s, namely Robert Sayer & John Bennett's The East India Pilot and The Oriental Pilot; Or, East-India Directory; as well as William Herbert's A New Directory for the East Indies... The lack of substantial overlap between Dalrymple's maps and those in 1782 Sayer & Bennett atlas (see Philips 9486) invites a question about the consciousness of Dalrymple's decision to avoid duplication. Whereas the larger-format works were heavy on general and regional charts and treatments of the most important ports, Dalrymple focuses on the smaller and less well-known locales along the routes to and from the East Indies. Thus, an owner of Sayer & Bennett's atlas would still find substantial utility in Dalrymple's set; however, Dalrymple's charts would probably not be sufficient in themselves to navigate to the East Indies. This is undoubtedly partially related to the requirements of the EIC, which was Dalrymple's first and primary audience. Rarity This book's made-to-order nature and lack of a title page or accompanying text contribute to its extreme rarity a general difficulty in tracing it in institutional collections. The last substantial collection of Dalrymple charts to appear on the market was sold a decade ago in the September 2014 Sotheby's sale, The Library of Franklin Brooke-Hitching Part 2, D-J, Lot 363. That lot constituted a later collection of 454 charts assembled in 1789. It made £302,500 including premium (approximately $493,000).\" (Ruderman, 2024)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16141.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Chart Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "202"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "32"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "26"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16141158.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/16141158.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Dalrymple, Alexander"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~366529~90133797/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~366529~90133797/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~366529~90133797",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 8359,
+                    "height": 8284
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~366529~90133797/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~366529~90133797/list/luna"
+              ],
+              "width": 8359,
+              "height": 8284
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~366529~90133797"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~265384~90062476/manifest",
+      "label": "Historical Island of Guam.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~265384~90062476/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~265384~90062476/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Historical Island of Guam.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Nelson, Bruce N."
+                },
+                {
+                  "label": "Author",
+                  "value": "The Islander Company"
+                },
+                {
+                  "label": "Date",
+                  "value": "1958"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Historical Island of Guam."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "The Islander Company"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "(Los Angeles)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "88,900"
+                },
+                {
+                  "label": "Note",
+                  "value": "Vignettes include sights and activities and are generally labeled. Date based on WorldCat catalog entry. Low angle oblique view."
+                },
+                {
+                  "label": "Region",
+                  "value": "Guam Island"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "The Historical Island of Guam of the Marianas Islands."
+                },
+                {
+                  "label": "List No",
+                  "value": "8550.002"
+                },
+                {
+                  "label": "Page No",
+                  "value": "map side"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Universal Printing & Lithograph Co."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Nelson, Bruce N."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "The Islander Company"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1958"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Pictorial Map ... Guam Island."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Date based on WorldCat catalog entry. Double sided. Blue, green and brown printing."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8550.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "2"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "22"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8550002"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/8550002.jp2 target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Nelson, Bruce N.; The Islander Company"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~265384~90062476/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~265384~90062476/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~265384~90062476",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 8248,
+                    "height": 11084
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~265384~90062476/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~265384~90062476/list/luna"
+              ],
+              "width": 8248,
+              "height": 11084
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~265384~90062476"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338583~90106585/manifest",
+      "label": "Carte particulière Détroits de Rottie et de Simàò.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~338583~90106585/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338583~90106585/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Carte particulière Détroits de Rottie et de Simàò.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Péron, François, 1775-1810"
+                },
+                {
+                  "label": "Author",
+                  "value": "Freycinet, Louis Claude Desaulses de, 1779-1842"
+                },
+                {
+                  "label": "Author",
+                  "value": "Lale"
+                },
+                {
+                  "label": "Author",
+                  "value": "Giraldon, active 1800-1815"
+                },
+                {
+                  "label": "Date",
+                  "value": "1803"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Carte particulière Détroits de Rottie et de Simàò."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Imprimerie Impériale"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "32"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "46"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "460,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map of the Rottie and Simàò Straits. Shows islands, topography, vegetation, drainage, coastlines, shoals and anchorage. Relief shown with hachures. Features arrows tracing the voyages of explorations. Includes latitudinal and longitudinal lines. Black and white engraving. Map is 32 x 46 cm, on sheet 43 x 58 cm. Appears in Partie Navigation et géographie : Atlas."
+                },
+                {
+                  "label": "Reference",
+                  "value": "References:  Ferguson 449, 563 & 603; Wantrup 78a, 79a , 80a & 81; Hill p. 1329 (Narrative volumes only); Davidson, Book Collector's Notes, pp. 108-110; Sharp, Discovery of Australia, pp.232-39; Dunmore, French Explorers in the Pacific II, pp.9-40; Plomley, The Baudin Expedition and the Tasmanian Aborigines 1802. (Full text images of all pages can be seen at the Biodiversity Heritage Library; link in Pub Reference.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Exploration"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Nautical Charts"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Historical"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Carte particulière Détroits de Rottie et de Simàò. Dressée par L. Freycinet Commandant la Goëlette le Casuarimna, 1803."
+                },
+                {
+                  "label": "List No",
+                  "value": "14352.142"
+                },
+                {
+                  "label": "Page No",
+                  "value": "32"
+                },
+                {
+                  "label": "Series No",
+                  "value": "142"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Imprimerie Impériale"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Bouclet, active 1793-1820"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Péron, François, 1775-1810"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1816"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Voyage de découvertes aux Terres Australes, exécuté par ordre de Sa Majesté l'Empereur et Roi, sur les corvettes le Géographe, le Naturaliste, et la goelette le Casuarina, pendants les années 1800, 1801, 1802, 1803 et 1804; publié par décret impérial, sous le ministère de M. de Champagny, et rédigé par M. F. Péron, Naturaliste de l'expédition, correspondant de l'Institut de France; de la Société de l'École de Médecine de Paris, des Sociétés Philomatique et Médicale de la même ville. Tome premier. Á Paris, de l'Imprimerie Impériale. M. DCCC. VII."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "For complete scans of all text pages see https://www.biodiversitylibrary.org/bibliography/44096"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "The rare complete official narrative and hydrography of the great French voyage of the Napoleonic period, the Baudin-Freycinet Expedition. The voyage has been characterized as the last great Enlightenment voyage, and was perhaps its purest expression, combining as it did scientific curiosity and research, territorial and geopolitical ambition, and the spirit of inquiry on the widest scale. As the first full atlas of the Australian coastline, its cartographical contribution is of extraordinary value, with a navigational section charting the coast. It is among the finest items of Australiana ever published, recounting an outstanding exploration. The six volumes were published separately over a period of ten years, commencing in 1816. In this complete form, the journals are exceedingly rare.  The expedition was ordered by the French government in order to complete the cartographic survey of the Australian coast, covering the area not examined by Cook. Commanded by Nicolas Baudin, the crew was composed of twenty-two scientists, ranging from hydrographers, geographers and astronomers to zoologists, botanists and 'artiste-peintres’. The expedition left France in 1800 and sailed via Mauritius to the Western Australian coast in the region of Cape Leeuwin, arriving in May 1801. Peron sailed as naturalist on the expedition and Freycinet as cartographer. The vessels, Geographe and Naturaliste, sailed north from Cape Leeuwin, charting the mouth of the Swan River, the site of present day Perth.  After three months in Timor, the two ships set out for Tasmania, continuing to make surveys and a close study of the indigenous Tasmanian people and their material culture.  The expedition continued on to New South Wales, creating a fine panorama of the town of Sydney, as well as views and a town plan. They then undertook a complete survey of the southern coast and an examination of the northern coast before returning to Mauritius where, near the end of 1803, Baudin died. The voyage brought back to France a wealth of geographical information.  The cartography of the voyage was of crucial interest. The French exploration coincided with the the English circumnavigation of Mathew Flinders. The two expeditions famously met up at the consequently named Encounter Bay in South Australia. With Flinders' subsequent imprisonment by the French, his captors were first into print with their mapping of Australia, the great Hydrographical Atlas appearing in 1812, two years before the publication of Flinders' narrative and charts, and thus the first full Australian atlas, a remarkable achievement for visitors rather than settlers. (See Flinders atlas in the collection under Pub List No. 10745.000.)   The expedition narration was begun by Peron, and completed by Freycinet after Peron's death.  A tacit agreement between Peron and Freycinet, both of whom disliked Baudin, kept the commander's name mostly absent from the present official account of the expedition.  The narrative includes the first publication of a complete and fully detailed map of the Australian coastline. It is a cartographic milestone, artfully done, exemplifying the French artistry of the time.  The southern coast is almost entirely named \"Terre Napolean,\" indicating France's colonial ambitions. Highlights of the numerous plates and maps (many hand-colored) include an engraved portrait of Peron, done within days of his death; coastlines of Tasmania, South Australia, Western Australia and Queensland, as well as two folding panoramic views of Sydney and Timor. Also included are nautical charts, coastal profiles, views and plans of Sydney, as well as detailed charts of harbors and islands around Australia, Tasmania and Timor. Complete set comprised of two volumes of historical text, two volumes of plates, including portraits and views, one volume of navigation text describing the voyage, and one atlas (see further details below). Together, the six volumes contain 87 plates, comprised of 61 maps, 39 views, 13 portraits and 13 illustrations. Maps shows cities, routes, ports, topography, vegetation, drainage, coastline, shoals, anchorage and islands. Maps include latitudinal and longitudinal lines, as well as legends, bar scales, compass roses and explanatory notes. Engravings, some hand-colored. In addition to the maps, views offer further detail of specific locations, such as the tombs on Maria Island, in the Tasman Sea. Details include flora and fauna, as well as indigenous people, along with their shelters. Ethnographic portraits beautifully capture indigenous individuals of Tasmanian and New South Wales, replete with their names, dress and ornamentation. Illustrations provide close studies of indigenous accoutrements, including baskets, vases, jewelry, weapons and fishing gear. Additional illustrations show animals of the continent, such as kangaroos, platypus and wombats. Most volumes in the original pink papered boards, with gilded titles, and with some pages still uncut. Collations: Vol 1 of Historique : Paris, de l'Imprimerie Imperiale, 1807. 4to, pp [4], (i)-xv, (blank) (3), 4-496, 2pp errata. -- Vol 2 of Historique : Paris, a l'Imprimerie Royale, 1816.  4to, pp [4], frontispiece portrait, v-xxxi; (blank); (1)-471pp. -- Atlas par Mm. Lesueur et Petit : Paris. Small folio, pp [6] text; original tissue guards; with 40 leaves of plates (2 folding). -- Atlas Deuxième Partie, Rédigée par Mr. L. Freycinet : Paris, 1811. Small folio, pp [6] text; with 14 leaves of plates, (2 folding). -- Navigation et Géographie Rédigée par M. Louis Freycinet : Paris, De l'Imprimerie Royale, 1815. 4to, pp [4]; v-vxi; (1)-576, 2pp errata, the last pages of text unopened, uncut. -- Partie Navigation et Géographie Rédigée par Louis Freycinet : Atlas. Paris, 1812.  Imperial folio, pp [4]; with 32 leaves of plates (25 double-page).  Original red diced calf, gilt decorated spine, original red papered boards with gilt border decoration.   References:  Ferguson 449, 563 & 603; Wantrup 78a, 79a , 80a & 81; Hill p. 1329 (Narrative volumes only); Davidson, Book Collector's Notes, pp. 108-110; Sharp, Discovery of Australia, pp.232-39; Dunmore, French Explorers in the Pacific II, pp.9-40; Plomley, The Baudin Expedition and the Tasmanian Aborigines 1802. (Full text images of all pages can be seen at the Biodiversity Heritage Library; link in Pub Reference.)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14352.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14352142.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/195/14352142.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Péron, François, 1775-1810; Freycinet, Louis Claude Desaulses de, 1779-1842; Lale; Giraldon, active 1800-1815"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338583~90106585/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338583~90106585/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338583~90106585",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 14958,
+                    "height": 11105
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338583~90106585/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338583~90106585/list/luna"
+              ],
+              "width": 14958,
+              "height": 11105
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~338583~90106585"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338537~90106482/manifest",
+      "label": "Esquisse de la Baie de Coupang (Côte S. O. Île de Timor).",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~338537~90106482/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338537~90106482/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Esquisse de la Baie de Coupang (Côte S. O. Île de Timor).",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Péron, François, 1775-1810"
+                },
+                {
+                  "label": "Author",
+                  "value": "Freycinet, Louis Claude Desaulses de, 1779-1842"
+                },
+                {
+                  "label": "Author",
+                  "value": "Aubert, L."
+                },
+                {
+                  "label": "Author",
+                  "value": "Lesueur, Charles Alexandre, 1778-1846"
+                },
+                {
+                  "label": "Date",
+                  "value": "1805"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Esquisse de la Baie de Coupang (Côte S. O. Île de Timor)."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Imprimerie Impériale"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "17"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "250,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map of the Kupang Bay on the island of Timor, Indonesia. Shows ports, topography, vegetation, drainage, coastline, shoals and islands. Relief shown with hachures. Includes latitudinal and longitudinal lines, as well as a bar scale and compass rose, with north oriented toward top. Black and white engraving. Map is 17 x 21 cm, on sheet 27 x 35 cm. Appears in Atlas II."
+                },
+                {
+                  "label": "Reference",
+                  "value": "References:  Ferguson 449, 563 & 603; Wantrup 78a, 79a , 80a & 81; Hill p. 1329 (Narrative volumes only); Davidson, Book Collector's Notes, pp. 108-110; Sharp, Discovery of Australia, pp.232-39; Dunmore, French Explorers in the Pacific II, pp.9-40; Plomley, The Baudin Expedition and the Tasmanian Aborigines 1802. (Full text images of all pages can be seen at the Biodiversity Heritage Library; link in Pub Reference.)"
+                },
+                {
+                  "label": "Region",
+                  "value": "Kupang Bay (Indonesia)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Nautical Charts"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Esquisse de la Baie de Coupang (Côte S. O. Île de Timor) par Mm. Péron et Lesueur, an 1805."
+                },
+                {
+                  "label": "List No",
+                  "value": "14352.096"
+                },
+                {
+                  "label": "Page No",
+                  "value": "14"
+                },
+                {
+                  "label": "Series No",
+                  "value": "96"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Langlois"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Tardieu, P. F. (Pierre François), 1757-1822"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Péron, François, 1775-1810"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1816"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Voyage de découvertes aux Terres Australes, exécuté par ordre de Sa Majesté l'Empereur et Roi, sur les corvettes le Géographe, le Naturaliste, et la goelette le Casuarina, pendants les années 1800, 1801, 1802, 1803 et 1804; publié par décret impérial, sous le ministère de M. de Champagny, et rédigé par M. F. Péron, Naturaliste de l'expédition, correspondant de l'Institut de France; de la Société de l'École de Médecine de Paris, des Sociétés Philomatique et Médicale de la même ville. Tome premier. Á Paris, de l'Imprimerie Impériale. M. DCCC. VII."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "For complete scans of all text pages see https://www.biodiversitylibrary.org/bibliography/44096"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "The rare complete official narrative and hydrography of the great French voyage of the Napoleonic period, the Baudin-Freycinet Expedition. The voyage has been characterized as the last great Enlightenment voyage, and was perhaps its purest expression, combining as it did scientific curiosity and research, territorial and geopolitical ambition, and the spirit of inquiry on the widest scale. As the first full atlas of the Australian coastline, its cartographical contribution is of extraordinary value, with a navigational section charting the coast. It is among the finest items of Australiana ever published, recounting an outstanding exploration. The six volumes were published separately over a period of ten years, commencing in 1816. In this complete form, the journals are exceedingly rare.  The expedition was ordered by the French government in order to complete the cartographic survey of the Australian coast, covering the area not examined by Cook. Commanded by Nicolas Baudin, the crew was composed of twenty-two scientists, ranging from hydrographers, geographers and astronomers to zoologists, botanists and 'artiste-peintres’. The expedition left France in 1800 and sailed via Mauritius to the Western Australian coast in the region of Cape Leeuwin, arriving in May 1801. Peron sailed as naturalist on the expedition and Freycinet as cartographer. The vessels, Geographe and Naturaliste, sailed north from Cape Leeuwin, charting the mouth of the Swan River, the site of present day Perth.  After three months in Timor, the two ships set out for Tasmania, continuing to make surveys and a close study of the indigenous Tasmanian people and their material culture.  The expedition continued on to New South Wales, creating a fine panorama of the town of Sydney, as well as views and a town plan. They then undertook a complete survey of the southern coast and an examination of the northern coast before returning to Mauritius where, near the end of 1803, Baudin died. The voyage brought back to France a wealth of geographical information.  The cartography of the voyage was of crucial interest. The French exploration coincided with the the English circumnavigation of Mathew Flinders. The two expeditions famously met up at the consequently named Encounter Bay in South Australia. With Flinders' subsequent imprisonment by the French, his captors were first into print with their mapping of Australia, the great Hydrographical Atlas appearing in 1812, two years before the publication of Flinders' narrative and charts, and thus the first full Australian atlas, a remarkable achievement for visitors rather than settlers. (See Flinders atlas in the collection under Pub List No. 10745.000.)   The expedition narration was begun by Peron, and completed by Freycinet after Peron's death.  A tacit agreement between Peron and Freycinet, both of whom disliked Baudin, kept the commander's name mostly absent from the present official account of the expedition.  The narrative includes the first publication of a complete and fully detailed map of the Australian coastline. It is a cartographic milestone, artfully done, exemplifying the French artistry of the time.  The southern coast is almost entirely named \"Terre Napolean,\" indicating France's colonial ambitions. Highlights of the numerous plates and maps (many hand-colored) include an engraved portrait of Peron, done within days of his death; coastlines of Tasmania, South Australia, Western Australia and Queensland, as well as two folding panoramic views of Sydney and Timor. Also included are nautical charts, coastal profiles, views and plans of Sydney, as well as detailed charts of harbors and islands around Australia, Tasmania and Timor. Complete set comprised of two volumes of historical text, two volumes of plates, including portraits and views, one volume of navigation text describing the voyage, and one atlas (see further details below). Together, the six volumes contain 87 plates, comprised of 61 maps, 39 views, 13 portraits and 13 illustrations. Maps shows cities, routes, ports, topography, vegetation, drainage, coastline, shoals, anchorage and islands. Maps include latitudinal and longitudinal lines, as well as legends, bar scales, compass roses and explanatory notes. Engravings, some hand-colored. In addition to the maps, views offer further detail of specific locations, such as the tombs on Maria Island, in the Tasman Sea. Details include flora and fauna, as well as indigenous people, along with their shelters. Ethnographic portraits beautifully capture indigenous individuals of Tasmanian and New South Wales, replete with their names, dress and ornamentation. Illustrations provide close studies of indigenous accoutrements, including baskets, vases, jewelry, weapons and fishing gear. Additional illustrations show animals of the continent, such as kangaroos, platypus and wombats. Most volumes in the original pink papered boards, with gilded titles, and with some pages still uncut. Collations: Vol 1 of Historique : Paris, de l'Imprimerie Imperiale, 1807. 4to, pp [4], (i)-xv, (blank) (3), 4-496, 2pp errata. -- Vol 2 of Historique : Paris, a l'Imprimerie Royale, 1816.  4to, pp [4], frontispiece portrait, v-xxxi; (blank); (1)-471pp. -- Atlas par Mm. Lesueur et Petit : Paris. Small folio, pp [6] text; original tissue guards; with 40 leaves of plates (2 folding). -- Atlas Deuxième Partie, Rédigée par Mr. L. Freycinet : Paris, 1811. Small folio, pp [6] text; with 14 leaves of plates, (2 folding). -- Navigation et Géographie Rédigée par M. Louis Freycinet : Paris, De l'Imprimerie Royale, 1815. 4to, pp [4]; v-vxi; (1)-576, 2pp errata, the last pages of text unopened, uncut. -- Partie Navigation et Géographie Rédigée par Louis Freycinet : Atlas. Paris, 1812.  Imperial folio, pp [4]; with 32 leaves of plates (25 double-page).  Original red diced calf, gilt decorated spine, original red papered boards with gilt border decoration.   References:  Ferguson 449, 563 & 603; Wantrup 78a, 79a , 80a & 81; Hill p. 1329 (Narrative volumes only); Davidson, Book Collector's Notes, pp. 108-110; Sharp, Discovery of Australia, pp.232-39; Dunmore, French Explorers in the Pacific II, pp.9-40; Plomley, The Baudin Expedition and the Tasmanian Aborigines 1802. (Full text images of all pages can be seen at the Biodiversity Heritage Library; link in Pub Reference.)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14352.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14352096.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/195/14352096.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Péron, François, 1775-1810; Freycinet, Louis Claude Desaulses de, 1779-1842; Aubert, L.; Lesueur, Charles Alexandre, 1778-1846"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338537~90106482/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338537~90106482/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338537~90106482",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 9482,
+                    "height": 7488
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338537~90106482/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338537~90106482/list/luna"
+              ],
+              "width": 9482,
+              "height": 7488
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~338537~90106482"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338518~90106468/manifest",
+      "label": "Timor ...",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~338518~90106468/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338518~90106468/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Timor ...",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Péron, François, 1775-1810"
+                },
+                {
+                  "label": "Author",
+                  "value": "Lesueur, Charles Alexandre, 1778-1846"
+                },
+                {
+                  "label": "Author",
+                  "value": "Aubert, L."
+                },
+                {
+                  "label": "Author",
+                  "value": "Milbert, Jacques Gérard, 1766-1840"
+                },
+                {
+                  "label": "Date",
+                  "value": "1811"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Timor ..."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Imprimerie Impériale"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "17"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Note",
+                  "value": "View of Küpang Fort, Timor. Features architecture, topography, vegetation, shoreline and ships, as well as figures. Relief shown pictorially. Black and white engraving. View is 17 x 47 cm, on fold-out sheet 35 x 55 cm. Appears in Atlas I."
+                },
+                {
+                  "label": "Reference",
+                  "value": "References:  Ferguson 449, 563 & 603; Wantrup 78a, 79a , 80a & 81; Hill p. 1329 (Narrative volumes only); Davidson, Book Collector's Notes, pp. 108-110; Sharp, Discovery of Australia, pp.232-39; Dunmore, French Explorers in the Pacific II, pp.9-40; Plomley, The Baudin Expedition and the Tasmanian Aborigines 1802. (Full text images of all pages can be seen at the Biodiversity Heritage Library; link in Pub Reference.)"
+                },
+                {
+                  "label": "Region",
+                  "value": "Timor Island"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Ethnography; Nationality; Race"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Architecture"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Timor : Vue de la Rade, de la Ville et du Fort de Coupang (Küpang.). Lesueur del. ; J. Milbert direx. ; gravé à l'eau-forte por Pillement terminé par Née. De l'Imprimerie de Langlois."
+                },
+                {
+                  "label": "List No",
+                  "value": "14352.077"
+                },
+                {
+                  "label": "Page No",
+                  "value": "XXXIX"
+                },
+                {
+                  "label": "Series No",
+                  "value": "77"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Langlois"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Pillement"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Péron, François, 1775-1810"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1816"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Voyage de découvertes aux Terres Australes, exécuté par ordre de Sa Majesté l'Empereur et Roi, sur les corvettes le Géographe, le Naturaliste, et la goelette le Casuarina, pendants les années 1800, 1801, 1802, 1803 et 1804; publié par décret impérial, sous le ministère de M. de Champagny, et rédigé par M. F. Péron, Naturaliste de l'expédition, correspondant de l'Institut de France; de la Société de l'École de Médecine de Paris, des Sociétés Philomatique et Médicale de la même ville. Tome premier. Á Paris, de l'Imprimerie Impériale. M. DCCC. VII."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "For complete scans of all text pages see https://www.biodiversitylibrary.org/bibliography/44096"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "The rare complete official narrative and hydrography of the great French voyage of the Napoleonic period, the Baudin-Freycinet Expedition. The voyage has been characterized as the last great Enlightenment voyage, and was perhaps its purest expression, combining as it did scientific curiosity and research, territorial and geopolitical ambition, and the spirit of inquiry on the widest scale. As the first full atlas of the Australian coastline, its cartographical contribution is of extraordinary value, with a navigational section charting the coast. It is among the finest items of Australiana ever published, recounting an outstanding exploration. The six volumes were published separately over a period of ten years, commencing in 1816. In this complete form, the journals are exceedingly rare.  The expedition was ordered by the French government in order to complete the cartographic survey of the Australian coast, covering the area not examined by Cook. Commanded by Nicolas Baudin, the crew was composed of twenty-two scientists, ranging from hydrographers, geographers and astronomers to zoologists, botanists and 'artiste-peintres’. The expedition left France in 1800 and sailed via Mauritius to the Western Australian coast in the region of Cape Leeuwin, arriving in May 1801. Peron sailed as naturalist on the expedition and Freycinet as cartographer. The vessels, Geographe and Naturaliste, sailed north from Cape Leeuwin, charting the mouth of the Swan River, the site of present day Perth.  After three months in Timor, the two ships set out for Tasmania, continuing to make surveys and a close study of the indigenous Tasmanian people and their material culture.  The expedition continued on to New South Wales, creating a fine panorama of the town of Sydney, as well as views and a town plan. They then undertook a complete survey of the southern coast and an examination of the northern coast before returning to Mauritius where, near the end of 1803, Baudin died. The voyage brought back to France a wealth of geographical information.  The cartography of the voyage was of crucial interest. The French exploration coincided with the the English circumnavigation of Mathew Flinders. The two expeditions famously met up at the consequently named Encounter Bay in South Australia. With Flinders' subsequent imprisonment by the French, his captors were first into print with their mapping of Australia, the great Hydrographical Atlas appearing in 1812, two years before the publication of Flinders' narrative and charts, and thus the first full Australian atlas, a remarkable achievement for visitors rather than settlers. (See Flinders atlas in the collection under Pub List No. 10745.000.)   The expedition narration was begun by Peron, and completed by Freycinet after Peron's death.  A tacit agreement between Peron and Freycinet, both of whom disliked Baudin, kept the commander's name mostly absent from the present official account of the expedition.  The narrative includes the first publication of a complete and fully detailed map of the Australian coastline. It is a cartographic milestone, artfully done, exemplifying the French artistry of the time.  The southern coast is almost entirely named \"Terre Napolean,\" indicating France's colonial ambitions. Highlights of the numerous plates and maps (many hand-colored) include an engraved portrait of Peron, done within days of his death; coastlines of Tasmania, South Australia, Western Australia and Queensland, as well as two folding panoramic views of Sydney and Timor. Also included are nautical charts, coastal profiles, views and plans of Sydney, as well as detailed charts of harbors and islands around Australia, Tasmania and Timor. Complete set comprised of two volumes of historical text, two volumes of plates, including portraits and views, one volume of navigation text describing the voyage, and one atlas (see further details below). Together, the six volumes contain 87 plates, comprised of 61 maps, 39 views, 13 portraits and 13 illustrations. Maps shows cities, routes, ports, topography, vegetation, drainage, coastline, shoals, anchorage and islands. Maps include latitudinal and longitudinal lines, as well as legends, bar scales, compass roses and explanatory notes. Engravings, some hand-colored. In addition to the maps, views offer further detail of specific locations, such as the tombs on Maria Island, in the Tasman Sea. Details include flora and fauna, as well as indigenous people, along with their shelters. Ethnographic portraits beautifully capture indigenous individuals of Tasmanian and New South Wales, replete with their names, dress and ornamentation. Illustrations provide close studies of indigenous accoutrements, including baskets, vases, jewelry, weapons and fishing gear. Additional illustrations show animals of the continent, such as kangaroos, platypus and wombats. Most volumes in the original pink papered boards, with gilded titles, and with some pages still uncut. Collations: Vol 1 of Historique : Paris, de l'Imprimerie Imperiale, 1807. 4to, pp [4], (i)-xv, (blank) (3), 4-496, 2pp errata. -- Vol 2 of Historique : Paris, a l'Imprimerie Royale, 1816.  4to, pp [4], frontispiece portrait, v-xxxi; (blank); (1)-471pp. -- Atlas par Mm. Lesueur et Petit : Paris. Small folio, pp [6] text; original tissue guards; with 40 leaves of plates (2 folding). -- Atlas Deuxième Partie, Rédigée par Mr. L. Freycinet : Paris, 1811. Small folio, pp [6] text; with 14 leaves of plates, (2 folding). -- Navigation et Géographie Rédigée par M. Louis Freycinet : Paris, De l'Imprimerie Royale, 1815. 4to, pp [4]; v-vxi; (1)-576, 2pp errata, the last pages of text unopened, uncut. -- Partie Navigation et Géographie Rédigée par Louis Freycinet : Atlas. Paris, 1812.  Imperial folio, pp [4]; with 32 leaves of plates (25 double-page).  Original red diced calf, gilt decorated spine, original red papered boards with gilt border decoration.   References:  Ferguson 449, 563 & 603; Wantrup 78a, 79a , 80a & 81; Hill p. 1329 (Narrative volumes only); Davidson, Book Collector's Notes, pp. 108-110; Sharp, Discovery of Australia, pp.232-39; Dunmore, French Explorers in the Pacific II, pp.9-40; Plomley, The Baudin Expedition and the Tasmanian Aborigines 1802. (Full text images of all pages can be seen at the Biodiversity Heritage Library; link in Pub Reference.)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14352.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14352077.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/195/14352077.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Péron, François, 1775-1810; Lesueur, Charles Alexandre, 1778-1846; Aubert, L.; Milbert, Jacques Gérard, 1766-1840"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338518~90106468/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338518~90106468/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338518~90106468",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 13932,
+                    "height": 9451
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338518~90106468/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338518~90106468/list/luna"
+              ],
+              "width": 13932,
+              "height": 9451
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~338518~90106468"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~342710~90110827/manifest",
+      "label": "Esbôço etnográfica e lingüistica de Timor.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~342710~90110827/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~342710~90110827/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Esbôço etnográfica e lingüistica de Timor.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Portugal. Ministério das Colónias"
+                },
+                {
+                  "label": "Author",
+                  "value": "Portugal. Junta de Investigações Coloniais"
+                },
+                {
+                  "label": "Date",
+                  "value": "1946"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Esbôço etnográfica e lingüistica de Timor."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Instituto Geográfico e Cadastral"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Lisbon"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "20"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "1,500,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map of Timor, featuring ethnicity and languages. Shows political boundaries, cities, bodies of water, drainage, coastlines and islands. Includes latitudinal and longitudinal lines, as well as a legend and scale statement. Indexed to indicate languages spoken in different areas. Colored lithograph. Map is 20 x 31 cm, on sheet 34 x 48 cm."
+                },
+                {
+                  "label": "Region",
+                  "value": "Timor Island"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Ethnography; Nationality; Race"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Languages"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Esbôço etnográfica e lingüistica de Timor. Gravada e impressa no Instituto Geographico e Cadastral, em 1946. Ministério das Colónias, Junta das Missões Geográficas e de Investigações Coloniais."
+                },
+                {
+                  "label": "List No",
+                  "value": "14369.108"
+                },
+                {
+                  "label": "Page No",
+                  "value": "107"
+                },
+                {
+                  "label": "Series No",
+                  "value": "108"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Instituto Geographico e Cadastral"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Portugal. Ministério das Colónias"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Portugal. Junta de Investigações Coloniais"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1948"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlas de Portugal ultramarino e das grandes viagens Portuguesas de descobrimento e expansão / Ministério das Colónias, Junta das Missões Geográficas e de Investigações Coloniais. Lisboa ~ MCMXLVIII."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "British Library: Cartographic Items Maps Ref.G.5.(EUR).(6).; OCLC: 65363869, 83588368."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Atlas de Portugal ultramarino e das grandes viagens Portuguesas de descobrimento e expansão, by the Ministério das Colónias of Portugal; published in Lisbon by the Instituto Geográfico e Cadastral, 1948. Title translates to: Atlas of overseas Portugal and the great Portuguese voyages of discovery and expansion. Bound in original brown cloth with calf spine. Title and imprint gilt debossed on front cover and spine. Collation: 2° : [10] pages, [101] leaves of plates (including some double), [4] pages. Volume includes a preface, table of contents, list of citations and colophon. Plates comprised of 110 maps, which represent Portuguese colonies across the globe, through systemic cartographic portraits of each place. Maps show political boundaries, cities, air routes, railways, roads, topography, bodies of water, drainage, coastlines and islands. Maps feature elevation, geology, climate, phytogeography, historical exploration, population, ethnicity, languages spoken, and economics, such as export and import values. Atlas was an intellectual production of the state colonial research agency, the Junta das Missões Geográficas e de Investigações Colonials, under the oppressive \"Estado Novo\" regime, which was led by the dictator António de Oliveira Salazar (1889 – 1970), an economics professor who promoted science, statistics, mapping and data visualization. The atlas was intended to be an expanded successor to the Comissão de Cartografia’s Atlas Colonial Português (Lisbon: [Imprensa Nacional], 1914), which showcased Portugal’s colonies but only included conventional topographic maps. \"An unusually fine example of the most comprehensive and sophisticated atlas of Portugal’s colonial possessions ever made, and one of the greatest intellectual products of the ‘Estado Novo’ regime, that while oppressive, valued science, statistics and mapping; made by the state colonial research agency, the Junta das MissoÞes Geograìficas e de InvestigaçoÞes Colonials, the colossal work features 110 colour maps, including advanced topographical maps and thematic cartography (recording historical exploration, as well as geological, economic, hypsometric, demographic, ethnographic, climate, transport and communication maps) for each of the Portuguese colonies, custom made for the atlas by the Instituto Geográfico e Cadastral. This attractive and technically advanced atlas showcases Portugal’s overseas empire which then included Mozambique; Angola; Macau, China; Goa, India, along with its dependencies DamaÞo, Diu and Dadra & Nagar Haveli; Cabo Verde; São Tomé & Principe; Guiné (today Guinea-Bissau); and Timor-Leste (East Timor, in the Indonesian Archipelago). It was made by the Junta das MissoÞes Geograìficas e de InvestigaçoÞes Colonials, Portugal’s special state colonial research agency, which succeeded the former Comissão de Cartografia. The atlas commences with 11 maps charting the amazing historical achievements of Portuguese explorers, who were often the first Europeans to encounter parts of the world beyond their own continent, accomplishments which gave Portugal the world’s first global empire. Following that is an intriguing map shown the airline connections between Lisbon and its African colonies. The main body of the work is comprised of a systematic cartographic showcasing of each colony, including fine topographic maps, as well as thematic works such as geological, economic, hypsometric (elevation), demographic (population), ethnographic, linguistic, climate, and transport and communication maps. On the topographic side, the atlas incudes a monumental 6-sheet map of Angola and a 3-sheeet map of Mozambique. All the maps were custom made for the atlas by the state cartographic agency, the Instituto Geográfico e Cadastral. The atlas was intended to be the tremendously expanded successor to the Comissão de Cartografia’s Atlas Colonial Português (Lisbon: [Imprensa Nacional], 1914), that showcased Portugal’s colonies but that only included conventional topographic maps (albeit of very high quality). The present atlas is one of the greatest intellectual products of the Estado Novo regime (1926-74) that ruled Portugal and its overseas territories, led most of the time by the dictator António de Oliveira Salazar (1889 – 1970), an economics professor. While he presided over a conservative autocracy with a lamentable human rights record (especially in the African colonies), he revolutionized and modernized Portugal’s imperial bureaucracy, valuing science, statistics, mapping and data visualization. This, combined with the prevailing international movements of Art Deco and Mid-Century design, produced graphic works throughout the Portuguese lands that feature bright colour schemes, while imparting technical or scientific information in a precise, but visually crisp manner. While the atlas is not all that rare, it is very uncommon to encounter an example is such fine condition as the present offering. Due to the book’s immense size and weight, it is very prone to damage, and almost all the examples of which we aware have condition issues, whereas the present example is preserved in a lovely state. The present example of the atlas bears the ex libris of Professor Dr. Fernando de Mello Mendes, a prominent Portuguese mining engineer who did important work in Africa. Portugal’s ‘Ultramar’: The First European Overseas Empire Portugal established the first and one of the longest lasting European colonial empires, commenced by the amazingly audacious maritime projects of Prince Henry the Navigator (1394 – 1460). By the early 16th century Portugal’s empire, including both held colonial territories and trading posts, extended from South America all the way around Africa and thorough the Indian Ocean to the Asia Pacific, as far as Japan. Portugal’s disastrous union with Spain (1580 - 1640) severely weakened the empire, causing it to lose many of its colonies and trading posts to the Netherlands and England. However, in the aftermath, Portugal still retained a massive colonial empire that included (with dates of their establishment as colonies): Cabo Verde (1462); São Tomé & Principe (1486); Mozambique (1506); Goa, India (1510), along with its dependencies DamaÞo, Diu and Dadra & Nagar Haveli; Brazil (1532), the gem of the empire; Macao, China (1557); Angola (1571); Guiné (1588), today Guinea-Bissau; and Timor-Leste (1769), or East Timor, in the Indonesian Archipelago.  While Brazil became an independent mega-state, ruled by a branch of the Portuguese royal family, in 1822 (albeit maintaining close ties the Lisbon), Portugal retained its remaining colonies for a longer time that most other European powers. In fact, in modern times, these lands were classified as ‘overseas provinces’, or integral parts of Portugal proper, and not as colonies (the residents of those lands were even given full Portuguese citizenship); for example, Angola was legally just as much part of Portugal as Lisbon. Over the generations, hundreds of thousands of ethic Portuguese people had also migrated to the overseas provinces, with generations of their stock born there. While many (but not all) of the indigenous peoples had different notions, the Portuguese national psyche held the overseas domains as an inalienable part of the country’s identity. During World War I, when Portugal, in alliance with Britain, had to defend Mozambique from a surprisingly effective German invasion launched by the master-guerrilla leader, General Paul von Lettow-Vorbeck. While the Anglo-Portuguese side eventually prevailed, this came after only many shocking trials and tribulations. Under the ‘Estado Novo’ regime (1926-74), ruled most of the time by the dictator António de Oliveira Salazar, Portugal stubbornly resisted the anti-colonialism movements that were sweeping the world. Portugal sent in the army to suppress rebellions in Angola and Mozambique and were for a time successful. However, in 1961, India seized Goa in a lightening military strike, ‘Operation Vijay’, hailing the beginning of the end of the Portuguese overseas empire. Portugal’s ‘Carnation Revolution’ of 1974 saw the collapse of the Estado Nova regime, which was replaced with a liberal democratic government. Portugal then allowed all the remaining colonies to gain their independence (although Timor Leste was soon invaded and conquered by Indonesia; it attained its independence in 2002), except for Macao, which was retained until 1999, when it was voluntarily handed back to China. While Portugal no longer possesses any colonies, it retains very strong social and economic ties with its former overseas realms. Well over a million of Portugal’s residents are of colonial decent (either ethnic Portuguese or from ingenious stock, or mixed), such that the colonial legacy is still very much part of the modern Portuguese identity.\" (Alexander Johnson and Dasa Pahor, 2022)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14369.000"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "110"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "50"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14369108.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/14369108.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Portugal. Ministério das Colónias; Portugal. Junta de Investigações Coloniais"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~342710~90110827/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~342710~90110827/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~342710~90110827",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 7261,
+                    "height": 5353
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~342710~90110827/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~342710~90110827/list/luna"
+              ],
+              "width": 7261,
+              "height": 5353
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~342710~90110827"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~310751~90080540/manifest",
+      "label": "Vieux Carreede la Nouvelle Orleans over a span of many years",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~310751~90080540/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~310751~90080540/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Vieux Carreede la Nouvelle Orleans over a span of many years",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Gillican, Lucille"
+                },
+                {
+                  "label": "Author",
+                  "value": "Andrew, Louis"
+                },
+                {
+                  "label": "Author",
+                  "value": "Funk & Wagnalls Company."
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Vieux Carreede la Nouvelle Orleans over a span of many years"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Lucille Gillican"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Louisiana"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "90"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "A pictorial map of the New Orleans French quarter, drawn in 1028 and published in 1029 by Lucile Gillican and Louis Elizabeth Andrews Fischer. Depicts the New Orleans French Quarter or Vieux Carre highlighting historic buildings and New Orleans culture. At the tope and sides of map: views of places, people, historical notes and landmarks. Library has smaller edition of this map, see Pub list no. 8784.000."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "Louisiana"
+                },
+                {
+                  "label": "City",
+                  "value": "New Orleans (La.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Vieux Carreede la Nouvelle Orleans over a span of many years. A-Map done in the year 1928, by Lucille Gillican and Louis Andrews. Copyright 1929 by Lucille Gillican"
+                },
+                {
+                  "label": "List No",
+                  "value": "13053.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Gillican, Lucille"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Andrew, Louis"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1929"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Vieux Carreede la Nouvelle Orleans over a span of many years. A-Map done in the year 1928, by Lucille Gillican and Louis Andrews. Copyright 1929 by Lucille Gillican"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "13053.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "90"
+                },
+                {
+                  "label": "Image No",
+                  "value": "13053000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/13053000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Gillican, Lucille; Andrew, Louis"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~310751~90080540/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~310751~90080540/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~310751~90080540",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 23012,
+                    "height": 15936
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~310751~90080540/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~310751~90080540/list/luna"
+              ],
+              "width": 23012,
+              "height": 15936
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~310751~90080540"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~318964~90087897/manifest",
+      "label": "Chicago jazz spots",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~318964~90087897/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~318964~90087897/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Chicago jazz spots",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Miller, Paul Eduard"
+                },
+                {
+                  "label": "Author",
+                  "value": "Jones, Richard M."
+                },
+                {
+                  "label": "Date",
+                  "value": "1945"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Chicago jazz spots"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Da Capo Press"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "61"
+                },
+                {
+                  "label": "City",
+                  "value": "Chicago (Ill.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Chicago jazz spots, 1914-1928 : Redrawn from the original map by Paul Eduard Miller, Richard M. Jones. Copyright 1945."
+                },
+                {
+                  "label": "List No",
+                  "value": "13297.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Miller, Paul Eduard"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Jones, Richard M."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1945"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Chicago jazz spots, 1914-1928 : Redrawn from the original map by Paul Eduard Miller, Richard M. Jones. Copyright 1945."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "View of the Jazz spots in Chicago. Covers neighborhoods between 26th and 63rd Streets; parts of the Near North Side, Loop, and near South Side; and the Madison Street region between Halsted Street and Kedzie Avenue on the near West Side. Shows jazz clubs, theaters, music stores, bars and restaurants. Includes smaller inset maps of the intersections of State Street with 31st and 35th Streets, illustrations of musicians, dancers, the Loop, and Chinatown, etc."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "13297.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Image No",
+                  "value": "13297000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/13297000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Miller, Paul Eduard; Jones, Richard M."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~318964~90087897/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~318964~90087897/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~318964~90087897",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12164,
+                    "height": 8690
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~318964~90087897/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~318964~90087897/list/luna"
+              ],
+              "width": 12164,
+              "height": 8690
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~318964~90087897"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328913~90097400/manifest",
+      "label": "Stations of the God's-Eye Pilgrimage Places in the Haight",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~328913~90097400/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328913~90097400/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Stations of the God's-Eye Pilgrimage Places in the Haight",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Rolling Stone Magazine"
+                },
+                {
+                  "label": "Author",
+                  "value": "Scott, Greg"
+                },
+                {
+                  "label": "Date",
+                  "value": "1976"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Stations of the God's-Eye Pilgrimage Places in the Haight"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Rolling Stone Magazine"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "San Francisco"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "56"
+                },
+                {
+                  "label": "City",
+                  "value": "San Francisco (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Historical"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Stations of the God's-Eye Pilgrimage Places in the Haight"
+                },
+                {
+                  "label": "List No",
+                  "value": "10616.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Rolling Stone Magazine"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Scott, Greg"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1976"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Stations of the God's-Eye Pilgrimage Places in the Haight"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"Detailed map of Haight-Ashbury, which was issued with the February 26, 1976 edition of Rolling Stone Magazine. The map celebrates decade following the summer of Summer of Love, where the Haight has already become a place of \"pilgrimage\". Complimenting an article that follows up on the characters of the area, this double page map shows the key spots from the Diggers store, to Janis Joplin's apartment (112 Lyon St. #27) and the Grateful Dead House (710 Ashland St.). A number of interesting photographs illustrate points on the map. Places shown include: Hippie Hill: the public forum, picnicking spot and primal social setting of the neighborhood. The Diggers' Free Frame of Reference and Free Store The Radha-Krishna Temple Far-Fetched Foods, also known as Blind Jerry's: the first health food store in the Haight Mouse Studios/Pacific Ocean Trading Co.: poster gallery The I-Thou coffee shop Quasar's Ice Cream The Trip without a Ticket: a later incarnation of the Free frame of Reference The Hip Job Co-Op: job referrals The Straight Theater: a movie theater converted to dance hall 42 Belvedere, where Rudolf Nureyev and Margot Fonteyn were busted The Shire School: tuition-free Summerhill-inspired primary school The Haight-Ashbury Free Medical Clinic (located at Happening House) Tracy's Donuts: popular gathering place because of its late hours The Pall Mall Cocktail Lounge: started serving \"Love Burgers\" The Print Mint: a poster gallery started after the tenant, a Berkeley book dealer, was denied a license to sell used books in the Haight The Psychedelic Shop: books, records, paraphernalia, meditation room Mnasidika: first hip shop on Haight Street The Blue Unicorn: first coffee house in the neighborhood, opened 1963 710 Ashbury, the Grateful Dead house The Blushing Peony (also, at various times, Skinnidippin, Middle All Saints Episcopal Church: lent its facilities to the Diggers over the objection of parishioners The Panhandle: scene of free rock concerts and Diggers' free feeds The Drogstore Cafe The Phoenix: paraphernalia shop--pipes, papers, incense, Indian goods. The offices of the \"Oracle\" were upstairs 112 Lyon: Janis Joplin's apartment 1360 Fell, Allen Ginsberg's sometime residence Huckleberry's for Runaways: housing and counseling for runaway minors The Albin place, 1090 Page: birthplace of Big Brother and the Holding Company The Tape Music Center: Charlatans' rehearsal hall, Bill Ham's light show performances, Anna Halprin Dance Troupe, electronic music performances, SF studio of Berkeley radio station KPFA-FM Magic Theater for Madmen Only: primordial hippie boutique: (Ruderman, 2020)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10616.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10616001.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/185/10616001.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Rolling Stone Magazine; Scott, Greg"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328913~90097400/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328913~90097400/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328913~90097400",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 13892,
+                    "height": 8348
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328913~90097400/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328913~90097400/list/luna"
+              ],
+              "width": 13892,
+              "height": 8348
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~328913~90097400"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~302640~90073406/manifest",
+      "label": "Gay Freedom San Francisco",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~302640~90073406/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~302640~90073406/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Gay Freedom San Francisco",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Letta, Donald"
+                },
+                {
+                  "label": "Author",
+                  "value": "New Directions Publishing Company"
+                },
+                {
+                  "label": "Date",
+                  "value": "1980"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Gay Freedom San Francisco"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "New Directions Publishing Co."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "San Francisco"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "86"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Detailed pictorial poster of San Francisco Gay History. Depicts the city's different districts and businesses who supported the gay community in the 80's, including The Cinch, Hamburger Mary's, Godiva, Golden Gate Health Club Trocadero Transfer, etc. Most no longer in business. Showing streets, buildings and landmarks. Includes index on both sides and advertisements. Date estimated."
+                },
+                {
+                  "label": "City",
+                  "value": "San Francisco (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Advertising"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Gay Freedom San Francisco : dignity, respect and human rights for all. These are gay and straight business's that who welcomed the gay community with respect. If you respect human rights, support the people who respect you."
+                },
+                {
+                  "label": "List No",
+                  "value": "11759.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Letta, Donald"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "New Directions Publishing Company"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1980"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Gay Freedom San Francisco : dignity, respect and human rights for all. These are gay and straight business's that who welcomed the gay community with respect. If you respect human rights, support the people who respect you."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11759.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "86"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11759000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/11759000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Letta, Donald; New Directions Publishing Company"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~302640~90073406/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~302640~90073406/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~302640~90073406",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11748,
+                    "height": 17660
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~302640~90073406/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~302640~90073406/list/luna"
+              ],
+              "width": 11748,
+              "height": 17660
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~302640~90073406"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272449~90046214/manifest",
+      "label": "Air India route map (hand fan)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~272449~90046214/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272449~90046214/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Air India route map (hand fan)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Air India"
+                },
+                {
+                  "label": "Date",
+                  "value": "1960"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Air India route map (hand fan)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Air India"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "India"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Date estimated. Promotional rare paper hand fan 24x25, with wooden handle, 16 cm. Colored in gold, blue, and orange, with gold borders. Elaborate colored illustration on verso. Show Air India routes to five continents, to New York, Europe, East Africa, Asia and Australia."
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Airlines"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Air India route map (hand fan) . (Color illustration on verso)."
+                },
+                {
+                  "label": "List No",
+                  "value": "8187.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Air India"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1960"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Air India route map (hand fan) . (Color illustration on verso)."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8187.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Advertisement"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8187000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/8187000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Air India"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~272449~90046214/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~272449~90046214/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~272449~90046214",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11392,
+                    "height": 8240
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272449~90046214/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272449~90046214/list/luna"
+              ],
+              "width": 11392,
+              "height": 8240
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~272449~90046214"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/ht152fg3281/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "East Africa : showing the recently-arranged political boundaries",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/ht152fg3281.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/ht152fg3281'>https://purl.stanford.edu/ht152fg3281</a>"
+        },
+        {
+          "label": "Title",
+          "value": "East Africa : showing the recently-arranged political boundaries"
+        },
+        {
+          "label": "Contributor",
+          "value": "Royal Geographical Society (Great Britain)"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : col. ; 21 x 25 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Relief shown by spot heights."
+        },
+        {
+          "label": "Description",
+          "value": "Shows demarcation between English and German sphere of influence in the Kenya/Tanzania area."
+        },
+        {
+          "label": "Description",
+          "value": "Includes insets: Eastern Somal[i]land -- [Zanzibar area]."
+        },
+        {
+          "label": "Subject",
+          "value": "Africa, Eastern > Boundaries > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:8,000,000"
+        },
+        {
+          "label": "Coverage",
+          "value": "20°00′00″E -- 51°00′00″E / 37°00′00″N -- 5°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1887"
+        },
+        {
+          "label": "Identifier",
+          "value": "OCLC: 65468210"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/ht152fg3281"
+        },
+        {
+          "label": "Publisher",
+          "value": "Royal Geographical Society"
+        },
+        {
+          "label": "Relation",
+          "value": "Caroline Batchelor Map Collection"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-12-08"
+        }
+      ],
+      "description": "Relief shown by spot heights.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/ht152fg3281%2Fht152fg3281_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/ht152fg3281%2Fht152fg3281_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 252
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/ht152fg3281/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/ht152fg3281/iiif/canvas/cocina-fileSet-ht152fg3281-6be64c45-8f63-46ba-b5e1-0fba18fbb7aa",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 4119,
+              "width": 6528,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/ht152fg3281/ht152fg3281_00_0001.jp2",
+                  "label": "Original source file (4.84 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/ht152fg3281/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fht152fg3281-6be64c45-8f63-46ba-b5e1-0fba18fbb7aa%2Fht152fg3281_00_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/ht152fg3281/iiif/canvas/cocina-fileSet-ht152fg3281-6be64c45-8f63-46ba-b5e1-0fba18fbb7aa",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/ht152fg3281%2Fht152fg3281_00_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 4119,
+                    "width": 6528,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/ht152fg3281%2Fht152fg3281_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/vd246jr3999/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Philips' authentic imperial maps for tourists and travelers : Rhodesia, Tanganyika Territory and Kenya Colony",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/vd246jr3999.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/vd246jr3999'>https://purl.stanford.edu/vd246jr3999</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Philips' authentic imperial maps for tourists and travelers : Rhodesia, Tanganyika Territory and Kenya Colony"
+        },
+        {
+          "label": "Title",
+          "value": "Rhodesia, Tanganyika Territory and Kenya Colony"
+        },
+        {
+          "label": "Title",
+          "value": "Southern & Northern Rhodesia with British East Africa"
+        },
+        {
+          "label": "Contributor",
+          "value": "George Philip & Son"
+        },
+        {
+          "label": "Contributor",
+          "value": "London Geographical Institute"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : color"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "George Philip & Son."
+        },
+        {
+          "label": "Description",
+          "value": "Shows railways, roads, air routes, principle shipping routes, and principal submarine cables."
+        },
+        {
+          "label": "Subject",
+          "value": "Tourists maps > Zambia"
+        },
+        {
+          "label": "Subject",
+          "value": "Tourists maps > Zimbabwe"
+        },
+        {
+          "label": "Subject",
+          "value": "Administrative and political divisions"
+        },
+        {
+          "label": "Subject",
+          "value": "Zambia > Administrative and political divisions > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Zimbabwe > Administrative and political divisions > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Zambia > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Zimbabwe > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Africa, Eastern > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Africa, Southern > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Zambia"
+        },
+        {
+          "label": "Subject",
+          "value": "Zimbabwe"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:5,702,000."
+        },
+        {
+          "label": "Date",
+          "value": "1920"
+        },
+        {
+          "label": "Date",
+          "value": "1920"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/vd246jr3999"
+        },
+        {
+          "label": "Publisher",
+          "value": "George Philip & Son"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-09-16"
+        }
+      ],
+      "description": "Shows railways, roads, air routes, principle shipping routes, and principal submarine cables.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/vd246jr3999%2Fvd246jr3999_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/vd246jr3999%2Fvd246jr3999_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 234,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/vd246jr3999/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/vd246jr3999/iiif/canvas/cocina-fileSet-vd246jr3999-vd246jr3999_3",
+              "@type": "sc:Canvas",
+              "label": "Image 3",
+              "height": 16578,
+              "width": 16240,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/vd246jr3999/vd246jr3999_0003.jp2",
+                  "label": "Original source file (165 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/vd246jr3999/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F4d680387-9b57-4573-86e6-984ce33ea56f",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/vd246jr3999/iiif/canvas/cocina-fileSet-vd246jr3999-vd246jr3999_3",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/vd246jr3999%2Fvd246jr3999_0003/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 16578,
+                    "width": 16240,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/vd246jr3999%2Fvd246jr3999_0003",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
