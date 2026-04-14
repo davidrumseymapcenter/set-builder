@@ -2241,6 +2241,191 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~24449~900011/manifest",
+      "label": "Map Of Missouri.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~24449~900011/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~24449~900011/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Map Of Missouri.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "St. Louis-San Francisco Railway Company"
+                },
+                {
+                  "label": "Date",
+                  "value": "1879"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Map Of Missouri."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Woodward, Tiernan & Hale"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "St. Louis"
+                },
+                {
+                  "label": "Type",
+                  "value": "Timetable Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "32"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "1,966,700"
+                },
+                {
+                  "label": "Note",
+                  "value": "Does not show land grant. In English; text in upper and lower margin in German."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Cf. Checklist of printed maps of the Middle West to 1900, 9-0926 (ca. 1870? ed.)"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "Missouri"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Railroad"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Map of Missouri, showing line and land grant of the St. Louis & San Francisco Railway, and its connections. A.L. Thornton, Map Engraver, St. Louis. Der Reichste Agricultur- und Mineralien Staat in der Union! Ausgezeichnetes, gesundes Klima, gut bewaessert und bewaldet!"
+                },
+                {
+                  "label": "List No",
+                  "value": "5242.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "3"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Thornton, A. L."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "St. Louis-San Francisco Railway Company"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1879"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "St. Louis and San Francisco Railway befordert Fracht und Passagiere zu den billigsten Preisen! nach allen Punkten in Sud-West Missouri, dem Sudlichen Kansas und Texas ... Woodward, Tiernan & Hale, Printers, St. Louis. (map on verso) Map of Missouri, showing line and land grant of the St. Louis & San Francisco Railway, and its connections. A.L. Thornton, Map Engraver, St. Louis. Der Reichste Agricultur- und Mineralien Staat in der Union! Ausgezeichnetes, gesundes Klima, gut bewaessert und bewaldet!"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Printed without color, folded into self wrappers 17 x 9 . Much of the text and advertisements is written in German, although the timetable is in English."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "5242.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Timetable Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "32"
+                },
+                {
+                  "label": "Image No",
+                  "value": "5242001"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0090/5242001.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "St. Louis-San Francisco Railway Company"
+                },
+                {
+                  "label": "Collection",
+                  "value": "Rumsey Collection"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~24449~900011/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~24449~900011/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~24449~900011",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 4081,
+                    "height": 3203
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~24449~900011/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~24449~900011/list/luna"
+              ],
+              "width": 4081,
+              "height": 3203
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~24449~900011"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
       "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~306226~90076598/manifest",
       "label": "W. Rose's revised chart of the Comstock mines and Sutro Tunnel",
       "attribution": "David Rumsey Historical Map Collection",
