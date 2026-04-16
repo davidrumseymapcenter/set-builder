@@ -932,416 +932,6 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "sc:Manifest",
-      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~250239~5516827/manifest",
-      "label": "Hyetal or rain chart: Mean distribution of rain for the Year on the North American Continent",
-      "attribution": "David Rumsey Historical Map Collection",
-      "service": {
-        "@context": "http://iiif.io/api/search/1/context.json",
-        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~250239~5516827/search",
-        "profile": "http://iiif.io/api/search/1/search"
-      },
-      "sequences": [
-        {
-          "@type": "sc:Sequence",
-          "canvases": [
-            {
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~250239~5516827/canvas/c1",
-              "@type": "sc:Canvas",
-              "label": "Hyetal or rain chart: Mean distribution of rain for the Year on the North American Continent",
-              "description": "",
-              "metadata": [
-                {
-                  "label": "Author",
-                  "value": "Blodget, Lorin"
-                },
-                {
-                  "label": "Date",
-                  "value": "1857"
-                },
-                {
-                  "label": "Short Title",
-                  "value": "Hyetal or rain chart: Mean distribution of rain for the Year on the North American Continent"
-                },
-                {
-                  "label": "Publisher",
-                  "value": "J.B. Lippincott"
-                },
-                {
-                  "label": "Publisher Location",
-                  "value": "Philadelphia"
-                },
-                {
-                  "label": "Type",
-                  "value": "Book Map"
-                },
-                {
-                  "label": "Obj Height cm",
-                  "value": "24"
-                },
-                {
-                  "label": "Obj Width cm",
-                  "value": "62"
-                },
-                {
-                  "label": "Scale 1",
-                  "value": "13,000,000"
-                },
-                {
-                  "label": "Note",
-                  "value": "Uncolored seasonal rain map. Showing general distribution of rainfall in inches in year over North America. Shows principle cities, rivers, mountains, etc. Relief shown by hachures."
-                },
-                {
-                  "label": "Reference",
-                  "value": "Sabin 5950."
-                },
-                {
-                  "label": "World Area",
-                  "value": "North America"
-                },
-                {
-                  "label": "Country",
-                  "value": "United States"
-                },
-                {
-                  "label": "Subject",
-                  "value": "Climate"
-                },
-                {
-                  "label": "Subject",
-                  "value": "Statistical"
-                },
-                {
-                  "label": "Subject",
-                  "value": "Thematic"
-                },
-                {
-                  "label": "Subject",
-                  "value": "Data Visualization"
-                },
-                {
-                  "label": "Full Title",
-                  "value": "Hyetal or rain chart: Mean distribution of rain for the year on the North American Continent; between 25 (degrees) and 50 (degrees) N. Lat. By Lorin Blodget. Fred Bourquin & Co., 50 S. 3rd. St. Phila. (to accompany) Climatology of the United States ...1857."
-                },
-                {
-                  "label": "List No",
-                  "value": "0083.024"
-                },
-                {
-                  "label": "Series No",
-                  "value": "24"
-                },
-                {
-                  "label": "Engraver or Printer",
-                  "value": "Bourquin, F."
-                },
-                {
-                  "label": "Publication Author",
-                  "value": "Blodget, Lorin"
-                },
-                {
-                  "label": "Pub Date",
-                  "value": "1857"
-                },
-                {
-                  "label": "Pub Title",
-                  "value": "Climatology of the United States, And of the Temperate Latitudes of the North American Continent. ... By Lorin Blodget ... Philadelphia: J.B. Lippincott and Co. Trubner and Co.; London. 1857. (on verso) Entered ... 1857, by Lorin Blodget ... Pennsylvania."
-                },
-                {
-                  "label": "Pub Reference",
-                  "value": "Sabin 5950."
-                },
-                {
-                  "label": "Pub Note",
-                  "value": "Sabin: \"Highly eulogized by Humboldt.\" First important work on this subject. See DAB. Maps uncolored except for climatological information which is shown in red. Cloth covered boards with \"Blodget's Climatology of the United States\" on spine."
-                },
-                {
-                  "label": "Pub List No",
-                  "value": "0083.000"
-                },
-                {
-                  "label": "Pub Type",
-                  "value": "Survey Book"
-                },
-                {
-                  "label": "Pub Maps",
-                  "value": "12"
-                },
-                {
-                  "label": "Pub Height cm",
-                  "value": "28"
-                },
-                {
-                  "label": "Pub Width cm",
-                  "value": "18"
-                },
-                {
-                  "label": "Image No",
-                  "value": "0083024"
-                },
-                {
-                  "label": "Download 1",
-                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/0083024.sid target=_blank>Full Image Download in MrSID Format</a>"
-                },
-                {
-                  "label": "Download 2",
-                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
-                },
-                {
-                  "label": "Authors",
-                  "value": "Blodget, Lorin"
-                }
-              ],
-              "thumbnail": {
-                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~250239~5516827/full/!96,96/0/default.jpg",
-                "format": "image/jpeg"
-              },
-              "images": [
-                {
-                  "@type": "oa:Annotation",
-                  "motivation": "sc:painting",
-                  "resource": {
-                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~250239~5516827/full/!1024,1024/0/default.jpg",
-                    "@type": "dctypes:Image",
-                    "service": {
-                      "@context": "http://iiif.io/api/image/2/context.json",
-                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~250239~5516827",
-                      "profile": "http://iiif.io/api/image/2/level1.json",
-                      "protocol": "http://iiif.io/api/image"
-                    },
-                    "format": "image/jpeg",
-                    "width": 10997,
-                    "height": 5282
-                  },
-                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~250239~5516827/canvas/c1"
-                }
-              ],
-              "otherContent": [
-                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~250239~5516827/list/luna"
-              ],
-              "width": 10997,
-              "height": 5282
-            }
-          ]
-        }
-      ],
-      "logo": {
-        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
-        "format": "image/png"
-      },
-      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~250239~5516827"
-    },
-    {
-      "@context": "http://iiif.io/api/presentation/2/context.json",
-      "@type": "sc:Manifest",
-      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254975~5519558/manifest",
-      "label": "Rain chart of the United States",
-      "attribution": "David Rumsey Historical Map Collection",
-      "service": {
-        "@context": "http://iiif.io/api/search/1/context.json",
-        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~254975~5519558/search",
-        "profile": "http://iiif.io/api/search/1/search"
-      },
-      "sequences": [
-        {
-          "@type": "sc:Sequence",
-          "canvases": [
-            {
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254975~5519558/canvas/c1",
-              "@type": "sc:Canvas",
-              "label": "Rain chart of the United States",
-              "description": "",
-              "metadata": [
-                {
-                  "label": "Author",
-                  "value": "Powell, John Wesley, 1834-1902."
-                },
-                {
-                  "label": "Date",
-                  "value": "1879"
-                },
-                {
-                  "label": "Short Title",
-                  "value": "Rain chart of the United States"
-                },
-                {
-                  "label": "Publisher",
-                  "value": "Government Printing Office"
-                },
-                {
-                  "label": "Publisher Location",
-                  "value": "Washington"
-                },
-                {
-                  "label": "Type",
-                  "value": "Book Map"
-                },
-                {
-                  "label": "Obj Height cm",
-                  "value": "51"
-                },
-                {
-                  "label": "Obj Width cm",
-                  "value": "72"
-                },
-                {
-                  "label": "Scale 1",
-                  "value": "6,600,000"
-                },
-                {
-                  "label": "Note",
-                  "value": "Color map. Showing isothermal lines. Includes explanation. \"The base chart was engraved for the Statistical atlas of the United States\"."
-                },
-                {
-                  "label": "Reference",
-                  "value": "Wheat 1290; Utah-Phil-Maps p949 & Moffatt 151."
-                },
-                {
-                  "label": "Country",
-                  "value": "United States"
-                },
-                {
-                  "label": "Subject",
-                  "value": "Land Development"
-                },
-                {
-                  "label": "Subject",
-                  "value": "Railroad"
-                },
-                {
-                  "label": "Full Title",
-                  "value": "Rain chart of the United States : showing by isohyetal lines the distribution of the mean annual precipitation in rain and melted snow. This is a copy of the chart constructed for the Smithsonian Institution in 1868 by Charles A Schott ... Julius Bien, Lithographer. (at head of title) Department of the Interior, U.S. Geographical and Geological Survey of the Rocky Mountain region, J.W. Powell in charge. (on upper margin) To accompany report on the Lands of the Arid Region of the U.S."
-                },
-                {
-                  "label": "List No",
-                  "value": "2347.011"
-                },
-                {
-                  "label": "Series No",
-                  "value": "11"
-                },
-                {
-                  "label": "Engraver or Printer",
-                  "value": "Schott, Charles A."
-                },
-                {
-                  "label": "Engraver or Printer",
-                  "value": "Mahon, Charles"
-                },
-                {
-                  "label": "Engraver or Printer",
-                  "value": "Graves, W.H."
-                },
-                {
-                  "label": "Engraver or Printer",
-                  "value": "Lindenkohl, H. (Henry)"
-                },
-                {
-                  "label": "Engraver or Printer",
-                  "value": "Bien, Julius"
-                },
-                {
-                  "label": "Engraver or Printer",
-                  "value": "Renshawe, J. H. (John Henry), 1852-"
-                },
-                {
-                  "label": "Publication Author",
-                  "value": "Powell, John Wesley, 1834-1902."
-                },
-                {
-                  "label": "Pub Date",
-                  "value": "1879"
-                },
-                {
-                  "label": "Pub Title",
-                  "value": "Report on the Lands of the Arid Region of the United States, with a More Detailed Account of the Lands of Utah. With Maps. By J.W. Powell. Second edition. Washington: Government Printing Office. 1879."
-                },
-                {
-                  "label": "Pub Reference",
-                  "value": "Wheat 1290; Utah-Phil-Maps p949 & Moffatt 151."
-                },
-                {
-                  "label": "Pub Note",
-                  "value": "3 excellent colored large maps, particularly the one of Utah. Also two small maps that are integrated into the report. The Utah map combines information from all four surveys. 1st edition was 1878. See Stegner, Beyond the Hundredth Meridian pp. 219-240, for a discussion of the Report. Bound in cloth covered boards with title on spine."
-                },
-                {
-                  "label": "Pub List No",
-                  "value": "2347.000"
-                },
-                {
-                  "label": "Pub Type",
-                  "value": "Exploration Book"
-                },
-                {
-                  "label": "Pub Maps",
-                  "value": "5"
-                },
-                {
-                  "label": "Pub Height cm",
-                  "value": "30"
-                },
-                {
-                  "label": "Pub Width cm",
-                  "value": "24"
-                },
-                {
-                  "label": "Image No",
-                  "value": "2347011"
-                },
-                {
-                  "label": "Download 1",
-                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/2347011.sid target=_blank>Full Image Download in MrSID Format</a>"
-                },
-                {
-                  "label": "Download 2",
-                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
-                },
-                {
-                  "label": "Authors",
-                  "value": "Powell, John Wesley, 1834-1902."
-                }
-              ],
-              "thumbnail": {
-                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~254975~5519558/full/!96,96/0/default.jpg",
-                "format": "image/jpeg"
-              },
-              "images": [
-                {
-                  "@type": "oa:Annotation",
-                  "motivation": "sc:painting",
-                  "resource": {
-                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~254975~5519558/full/!1024,1024/0/default.jpg",
-                    "@type": "dctypes:Image",
-                    "service": {
-                      "@context": "http://iiif.io/api/image/2/context.json",
-                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~254975~5519558",
-                      "profile": "http://iiif.io/api/image/2/level1.json",
-                      "protocol": "http://iiif.io/api/image"
-                    },
-                    "format": "image/jpeg",
-                    "width": 14834,
-                    "height": 10927
-                  },
-                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254975~5519558/canvas/c1"
-                }
-              ],
-              "otherContent": [
-                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254975~5519558/list/luna"
-              ],
-              "width": 14834,
-              "height": 10927
-            }
-          ]
-        }
-      ],
-      "logo": {
-        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
-        "format": "image/png"
-      },
-      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~254975~5519558"
-    },
-    {
-      "@context": "http://iiif.io/api/presentation/2/context.json",
-      "@type": "sc:Manifest",
       "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1824~180033/manifest",
       "label": "Kansas And The Gold Mines.",
       "attribution": "David Rumsey Historical Map Collection",
@@ -2241,6 +1831,392 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~306226~90076598/manifest",
+      "label": "W. Rose's revised chart of the Comstock mines and Sutro Tunnel",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~306226~90076598/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~306226~90076598/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "W. Rose's revised chart of the Comstock mines and Sutro Tunnel",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Rose, W."
+                },
+                {
+                  "label": "Date",
+                  "value": "1878"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "W. Rose's revised chart of the Comstock mines and Sutro Tunnel"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Payot, Upham & Co."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "San Francisco"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "57"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "78"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "14,400"
+                },
+                {
+                  "label": "Note",
+                  "value": "Revised map of part of Nevada. Representing Comstock mines and the position of the Sutro Tunnel and the counties surrounding it. Shows mining claims, location of mineral veins, counties, roads, flumes, railroad, Indian reservations, and the Sutro Tunnel. Towns or settlements of Silver City, American Flat, Gold Hill Town, Virginia City, and Flowery Ridge. Includes small vignettes of buildings, structures, and mountain peaks. Relief shown pictorially. The Comstock Lode, a huge vein of silver discovered in 1857 under Nevada’s Mount Davidson, was the greatest precious-metal discovery since gold was found in California in 1848. Sutro Tunnel, conceived by German engineer Adolph Sutro (1830-98) as a means of draining off the huge quantities of water infiltrating the ever-deeper shafts. Constructed under Sutro’s leadership between 1869 and 1878, the tunnel extended several miles from Mount Davidson to its exit on a piece of land granted to Sutro in the vicinity of Dayton."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "Nevada"
+                },
+                {
+                  "label": "City",
+                  "value": "Virginia City (Nev.)"
+                },
+                {
+                  "label": "City",
+                  "value": "Gold Hill (Nev.)"
+                },
+                {
+                  "label": "Region",
+                  "value": "Comstock Lode (Nev.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Mining"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "W. Rose's revised chart of the Comstock mines and Sutro Tunnel, State of Nevada. Compiled & Drawn by W. Rose. Published by Payot, Upham & Co., San Francisco. A. Waldstein, Lith. S.F. Entered According Act of Congress in the Year 1878 ... Washington, D.C. (inset profile view) Sutro Tunne. (with view) The Mouth of Sutro Tunnel."
+                },
+                {
+                  "label": "List No",
+                  "value": "13018.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Rose, W."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1878"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "W. Rose's revised chart of the Comstock mines and Sutro Tunnel, State of Nevada. Compiled & Drawn by W. Rose. Published by Payot, Upham & Co., San Francisco. A. Waldstein, Lith. S.F. Entered According Act of Congress in the Year 1878 ... Washington, D.C. (inset profile view) Sutro Tunne. (with view) The Mouth of Sutro Tunnel."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "13018.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "57"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "78"
+                },
+                {
+                  "label": "Image No",
+                  "value": "13018000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/13018000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Rose, W."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~306226~90076598/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~306226~90076598/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~306226~90076598",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 21106,
+                    "height": 15912
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~306226~90076598/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~306226~90076598/list/luna"
+              ],
+              "width": 21106,
+              "height": 15912
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~306226~90076598"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254975~5519558/manifest",
+      "label": "Rain chart of the United States",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~254975~5519558/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254975~5519558/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Rain chart of the United States",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Powell, John Wesley, 1834-1902."
+                },
+                {
+                  "label": "Date",
+                  "value": "1879"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Rain chart of the United States"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Government Printing Office"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington"
+                },
+                {
+                  "label": "Type",
+                  "value": "Book Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "72"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "6,600,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Color map. Showing isothermal lines. Includes explanation. \"The base chart was engraved for the Statistical atlas of the United States\"."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Wheat 1290; Utah-Phil-Maps p949 & Moffatt 151."
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Land Development"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Railroad"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Rain chart of the United States : showing by isohyetal lines the distribution of the mean annual precipitation in rain and melted snow. This is a copy of the chart constructed for the Smithsonian Institution in 1868 by Charles A Schott ... Julius Bien, Lithographer. (at head of title) Department of the Interior, U.S. Geographical and Geological Survey of the Rocky Mountain region, J.W. Powell in charge. (on upper margin) To accompany report on the Lands of the Arid Region of the U.S."
+                },
+                {
+                  "label": "List No",
+                  "value": "2347.011"
+                },
+                {
+                  "label": "Series No",
+                  "value": "11"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Schott, Charles A."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Mahon, Charles"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Graves, W.H."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Lindenkohl, H. (Henry)"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Bien, Julius"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Renshawe, J. H. (John Henry), 1852-"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Powell, John Wesley, 1834-1902."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1879"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Report on the Lands of the Arid Region of the United States, with a More Detailed Account of the Lands of Utah. With Maps. By J.W. Powell. Second edition. Washington: Government Printing Office. 1879."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Wheat 1290; Utah-Phil-Maps p949 & Moffatt 151."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "3 excellent colored large maps, particularly the one of Utah. Also two small maps that are integrated into the report. The Utah map combines information from all four surveys. 1st edition was 1878. See Stegner, Beyond the Hundredth Meridian pp. 219-240, for a discussion of the Report. Bound in cloth covered boards with title on spine."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "2347.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "5"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Image No",
+                  "value": "2347011"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/2347011.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Powell, John Wesley, 1834-1902."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~254975~5519558/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~254975~5519558/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~254975~5519558",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 14834,
+                    "height": 10927
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254975~5519558/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254975~5519558/list/luna"
+              ],
+              "width": 14834,
+              "height": 10927
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~254975~5519558"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
       "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~24449~900011/manifest",
       "label": "Map Of Missouri.",
       "attribution": "David Rumsey Historical Map Collection",
@@ -2422,183 +2398,6 @@
         "format": "image/png"
       },
       "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~24449~900011"
-    },
-    {
-      "@context": "http://iiif.io/api/presentation/2/context.json",
-      "@type": "sc:Manifest",
-      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~306226~90076598/manifest",
-      "label": "W. Rose's revised chart of the Comstock mines and Sutro Tunnel",
-      "attribution": "David Rumsey Historical Map Collection",
-      "service": {
-        "@context": "http://iiif.io/api/search/1/context.json",
-        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~306226~90076598/search",
-        "profile": "http://iiif.io/api/search/1/search"
-      },
-      "sequences": [
-        {
-          "@type": "sc:Sequence",
-          "canvases": [
-            {
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~306226~90076598/canvas/c1",
-              "@type": "sc:Canvas",
-              "label": "W. Rose's revised chart of the Comstock mines and Sutro Tunnel",
-              "description": "",
-              "metadata": [
-                {
-                  "label": "Author",
-                  "value": "Rose, W."
-                },
-                {
-                  "label": "Date",
-                  "value": "1878"
-                },
-                {
-                  "label": "Short Title",
-                  "value": "W. Rose's revised chart of the Comstock mines and Sutro Tunnel"
-                },
-                {
-                  "label": "Publisher",
-                  "value": "Payot, Upham & Co."
-                },
-                {
-                  "label": "Publisher Location",
-                  "value": "San Francisco"
-                },
-                {
-                  "label": "Type",
-                  "value": "Separate Map"
-                },
-                {
-                  "label": "Obj Height cm",
-                  "value": "57"
-                },
-                {
-                  "label": "Obj Width cm",
-                  "value": "78"
-                },
-                {
-                  "label": "Scale 1",
-                  "value": "14,400"
-                },
-                {
-                  "label": "Note",
-                  "value": "Revised map of part of Nevada. Representing Comstock mines and the position of the Sutro Tunnel and the counties surrounding it. Shows mining claims, location of mineral veins, counties, roads, flumes, railroad, Indian reservations, and the Sutro Tunnel. Towns or settlements of Silver City, American Flat, Gold Hill Town, Virginia City, and Flowery Ridge. Includes small vignettes of buildings, structures, and mountain peaks. Relief shown pictorially. The Comstock Lode, a huge vein of silver discovered in 1857 under Nevada’s Mount Davidson, was the greatest precious-metal discovery since gold was found in California in 1848. Sutro Tunnel, conceived by German engineer Adolph Sutro (1830-98) as a means of draining off the huge quantities of water infiltrating the ever-deeper shafts. Constructed under Sutro’s leadership between 1869 and 1878, the tunnel extended several miles from Mount Davidson to its exit on a piece of land granted to Sutro in the vicinity of Dayton."
-                },
-                {
-                  "label": "State/Province",
-                  "value": "Nevada"
-                },
-                {
-                  "label": "City",
-                  "value": "Virginia City (Nev.)"
-                },
-                {
-                  "label": "City",
-                  "value": "Gold Hill (Nev.)"
-                },
-                {
-                  "label": "Region",
-                  "value": "Comstock Lode (Nev.)"
-                },
-                {
-                  "label": "Subject",
-                  "value": "Mining"
-                },
-                {
-                  "label": "Full Title",
-                  "value": "W. Rose's revised chart of the Comstock mines and Sutro Tunnel, State of Nevada. Compiled & Drawn by W. Rose. Published by Payot, Upham & Co., San Francisco. A. Waldstein, Lith. S.F. Entered According Act of Congress in the Year 1878 ... Washington, D.C. (inset profile view) Sutro Tunne. (with view) The Mouth of Sutro Tunnel."
-                },
-                {
-                  "label": "List No",
-                  "value": "13018.000"
-                },
-                {
-                  "label": "Publication Author",
-                  "value": "Rose, W."
-                },
-                {
-                  "label": "Pub Date",
-                  "value": "1878"
-                },
-                {
-                  "label": "Pub Title",
-                  "value": "W. Rose's revised chart of the Comstock mines and Sutro Tunnel, State of Nevada. Compiled & Drawn by W. Rose. Published by Payot, Upham & Co., San Francisco. A. Waldstein, Lith. S.F. Entered According Act of Congress in the Year 1878 ... Washington, D.C. (inset profile view) Sutro Tunne. (with view) The Mouth of Sutro Tunnel."
-                },
-                {
-                  "label": "Pub Note",
-                  "value": "See note field above."
-                },
-                {
-                  "label": "Pub List No",
-                  "value": "13018.000"
-                },
-                {
-                  "label": "Pub Type",
-                  "value": "Separate Map"
-                },
-                {
-                  "label": "Pub Height cm",
-                  "value": "57"
-                },
-                {
-                  "label": "Pub Width cm",
-                  "value": "78"
-                },
-                {
-                  "label": "Image No",
-                  "value": "13018000.jp2"
-                },
-                {
-                  "label": "Download 1",
-                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/13018000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
-                },
-                {
-                  "label": "Download 2",
-                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
-                },
-                {
-                  "label": "Authors",
-                  "value": "Rose, W."
-                }
-              ],
-              "thumbnail": {
-                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~306226~90076598/full/!96,96/0/default.jpg",
-                "format": "image/jpeg"
-              },
-              "images": [
-                {
-                  "@type": "oa:Annotation",
-                  "motivation": "sc:painting",
-                  "resource": {
-                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~306226~90076598/full/!1024,1024/0/default.jpg",
-                    "@type": "dctypes:Image",
-                    "service": {
-                      "@context": "http://iiif.io/api/image/2/context.json",
-                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~306226~90076598",
-                      "profile": "http://iiif.io/api/image/2/level1.json",
-                      "protocol": "http://iiif.io/api/image"
-                    },
-                    "format": "image/jpeg",
-                    "width": 21106,
-                    "height": 15912
-                  },
-                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~306226~90076598/canvas/c1"
-                }
-              ],
-              "otherContent": [
-                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~306226~90076598/list/luna"
-              ],
-              "width": 21106,
-              "height": 15912
-            }
-          ]
-        }
-      ],
-      "logo": {
-        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
-        "format": "image/png"
-      },
-      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~306226~90076598"
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -3371,183 +3170,6 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "sc:Manifest",
-      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~326558~90095115/manifest",
-      "label": "Linguistic Stocks of American Indians North of Mexico By J.W. Powell.",
-      "attribution": "David Rumsey Historical Map Collection",
-      "service": {
-        "@context": "http://iiif.io/api/search/1/context.json",
-        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~326558~90095115/search",
-        "profile": "http://iiif.io/api/search/1/search"
-      },
-      "sequences": [
-        {
-          "@type": "sc:Sequence",
-          "canvases": [
-            {
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~326558~90095115/canvas/c1",
-              "@type": "sc:Canvas",
-              "label": "Linguistic Stocks of American Indians North of Mexico By J.W. Powell.",
-              "description": "",
-              "metadata": [
-                {
-                  "label": "Author",
-                  "value": "Powell, John Wesley, 1834-1902"
-                },
-                {
-                  "label": "Author",
-                  "value": "Gannett, Henry, 1846-1914"
-                },
-                {
-                  "label": "Date",
-                  "value": "1890"
-                },
-                {
-                  "label": "Short Title",
-                  "value": "Linguistic Stocks of American Indians North of Mexico By J.W. Powell."
-                },
-                {
-                  "label": "Publisher",
-                  "value": "Government Printing Office"
-                },
-                {
-                  "label": "Publisher Location",
-                  "value": "Washington (D.C.)"
-                },
-                {
-                  "label": "Type",
-                  "value": "Separate Map"
-                },
-                {
-                  "label": "Obj Height cm",
-                  "value": "53"
-                },
-                {
-                  "label": "Obj Width cm",
-                  "value": "44"
-                },
-                {
-                  "label": "Scale 1",
-                  "value": "15,700,000"
-                },
-                {
-                  "label": "Reference",
-                  "value": "Schwartz, S. and Ehrenberg, R., The Mapping of America, pl. 198"
-                },
-                {
-                  "label": "World Area",
-                  "value": "North America"
-                },
-                {
-                  "label": "Subject",
-                  "value": "Indians"
-                },
-                {
-                  "label": "Subject",
-                  "value": "Languages"
-                },
-                {
-                  "label": "Full Title",
-                  "value": "Linguistic Stocks of American Indians North of Mexico By J.W. Powell."
-                },
-                {
-                  "label": "List No",
-                  "value": "10542.000"
-                },
-                {
-                  "label": "Publication Author",
-                  "value": "Powell, John Wesley, 1834-1902"
-                },
-                {
-                  "label": "Publication Author",
-                  "value": "Gannett, Henry, 1846-1914"
-                },
-                {
-                  "label": "Pub Date",
-                  "value": "1890"
-                },
-                {
-                  "label": "Pub Title",
-                  "value": "Linguistic Stocks of American Indians North of Mexico By J.W. Powell."
-                },
-                {
-                  "label": "Pub Note",
-                  "value": "This map was published in the Seventh Annual Report of the Bureau of Ethnology, edited by Henry Gannett ( see full text at https://www.biodiversitylibrary.org/item/87737#page/8/mode/2up )."
-                },
-                {
-                  "label": "Pub List No",
-                  "value": "10542.000"
-                },
-                {
-                  "label": "Pub Type",
-                  "value": "Separate Map"
-                },
-                {
-                  "label": "Pub Height cm",
-                  "value": "53"
-                },
-                {
-                  "label": "Pub Width cm",
-                  "value": "44"
-                },
-                {
-                  "label": "Image No",
-                  "value": "10542000.jp2"
-                },
-                {
-                  "label": "Download 1",
-                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/185/10542000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
-                },
-                {
-                  "label": "Download 2",
-                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
-                },
-                {
-                  "label": "Authors",
-                  "value": "Powell, John Wesley, 1834-1902; Gannett, Henry, 1846-1914"
-                }
-              ],
-              "thumbnail": {
-                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~326558~90095115/full/!96,96/0/default.jpg",
-                "format": "image/jpeg"
-              },
-              "images": [
-                {
-                  "@type": "oa:Annotation",
-                  "motivation": "sc:painting",
-                  "resource": {
-                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~326558~90095115/full/!1024,1024/0/default.jpg",
-                    "@type": "dctypes:Image",
-                    "service": {
-                      "@context": "http://iiif.io/api/image/2/context.json",
-                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~326558~90095115",
-                      "profile": "http://iiif.io/api/image/2/level1.json",
-                      "protocol": "http://iiif.io/api/image"
-                    },
-                    "format": "image/jpeg",
-                    "width": 11650,
-                    "height": 13282
-                  },
-                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~326558~90095115/canvas/c1"
-                }
-              ],
-              "otherContent": [
-                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~326558~90095115/list/luna"
-              ],
-              "width": 11650,
-              "height": 13282
-            }
-          ]
-        }
-      ],
-      "logo": {
-        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
-        "format": "image/png"
-      },
-      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~326558~90095115"
-    },
-    {
-      "@context": "http://iiif.io/api/presentation/2/context.json",
-      "@type": "sc:Manifest",
       "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~31954~1151335/manifest",
       "label": "9. Predominating sex 1890.",
       "attribution": "David Rumsey Historical Map Collection",
@@ -3918,163 +3540,6 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "sc:Manifest",
-      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229594~5508154/manifest",
-      "label": "United States Including Territories and Insular Possessions",
-      "attribution": "David Rumsey Historical Map Collection",
-      "service": {
-        "@context": "http://iiif.io/api/search/1/context.json",
-        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~229594~5508154/search",
-        "profile": "http://iiif.io/api/search/1/search"
-      },
-      "sequences": [
-        {
-          "@type": "sc:Sequence",
-          "canvases": [
-            {
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229594~5508154/canvas/c1",
-              "@type": "sc:Canvas",
-              "label": "United States Including Territories and Insular Possessions",
-              "description": "",
-              "metadata": [
-                {
-                  "label": "Author",
-                  "value": "U.S. General Land Office"
-                },
-                {
-                  "label": "Date",
-                  "value": "1913"
-                },
-                {
-                  "label": "Short Title",
-                  "value": "United States Including Territories and Insular Possessions"
-                },
-                {
-                  "label": "Publisher",
-                  "value": "The Sackett & Wilhelms Co."
-                },
-                {
-                  "label": "Publisher Location",
-                  "value": "New York"
-                },
-                {
-                  "label": "Type",
-                  "value": "Wall Map"
-                },
-                {
-                  "label": "Obj Height cm",
-                  "value": "150"
-                },
-                {
-                  "label": "Obj Width cm",
-                  "value": "209"
-                },
-                {
-                  "label": "Scale 1",
-                  "value": "2,344,320"
-                },
-                {
-                  "label": "Note",
-                  "value": "Map as in 1912 with a new date. In outline color showing the area of the territories and the year of acquisition by the United States. Eleven inset maps from left to right: 1-2. Alaska (with) Aleutian Islands. 3. Philippine Islands. 4-5. Tutuila Group of the Samoan Islands. 6. Guam or Cuajan Island. 7. Hawaiian Islands. 8. Palmyra Island. 9. Porto Rico. 10. Canal Zone. 11. Isthmus Of Panama. 12. Index Map. Color coded legend details National Forest land, National Parks and Indian Reservations."
-                },
-                {
-                  "label": "Country",
-                  "value": "United States"
-                },
-                {
-                  "label": "Full Title",
-                  "value": "Department Of The Interior, General Land Office, Fred Dennett, Commissioner. United States Including Territories and Insular Possessions Showing the Extent of Public Surveys. Indian, Military And Forest Reservations, Railroads, Canals, National Parks And Other Details. Compiled Under The Direction Of L.P. Berthrong, Chief Of Drafting Division. 1913. M. Hendges, Draughtsman. The Sackett & Wilhelms Co.: New York. Engraved By R.F. Bartle & Co. Washington, D.C. (with) twelve inset maps listed in Notes."
-                },
-                {
-                  "label": "List No",
-                  "value": "5506.000"
-                },
-                {
-                  "label": "Publication Author",
-                  "value": "U.S. General Land Office"
-                },
-                {
-                  "label": "Pub Date",
-                  "value": "1913"
-                },
-                {
-                  "label": "Pub Title",
-                  "value": "Department Of The Interior, General Land Office, Fred Dennett, Commissioner. United States Including Territories and Insular Possessions Showing the Extent of Public Surveys. Indian, Military And Forest Reservations, Railroads, Canals, National Parks And Other Details. Compiled Under The Direction Of L.P. Berthrong, Chief Of Drafting Division. 1913. M. Hendges, Draughtsman. The Sackett & Wilhelms Co.: New York. Engraved By R.F. Bartle & Co. Washington, D.C. (with) twelve inset maps listed in Notes."
-                },
-                {
-                  "label": "Pub List No",
-                  "value": "5506.000"
-                },
-                {
-                  "label": "Pub Type",
-                  "value": "Wall Map"
-                },
-                {
-                  "label": "Pub Height cm",
-                  "value": "150"
-                },
-                {
-                  "label": "Pub Width cm",
-                  "value": "209"
-                },
-                {
-                  "label": "Image No",
-                  "value": "5506000"
-                },
-                {
-                  "label": "Download 1",
-                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/5506000.sid target=_blank>Full Image Download in MrSID Format</a>"
-                },
-                {
-                  "label": "Download 2",
-                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
-                },
-                {
-                  "label": "Authors",
-                  "value": "U.S. General Land Office"
-                }
-              ],
-              "thumbnail": {
-                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~229594~5508154/full/!96,96/0/default.jpg",
-                "format": "image/jpeg"
-              },
-              "images": [
-                {
-                  "@type": "oa:Annotation",
-                  "motivation": "sc:painting",
-                  "resource": {
-                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~229594~5508154/full/!1024,1024/0/default.jpg",
-                    "@type": "dctypes:Image",
-                    "service": {
-                      "@context": "http://iiif.io/api/image/2/context.json",
-                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~229594~5508154",
-                      "profile": "http://iiif.io/api/image/2/level1.json",
-                      "protocol": "http://iiif.io/api/image"
-                    },
-                    "format": "image/jpeg",
-                    "width": 27603,
-                    "height": 19463
-                  },
-                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229594~5508154/canvas/c1"
-                }
-              ],
-              "otherContent": [
-                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229594~5508154/list/luna"
-              ],
-              "width": 27603,
-              "height": 19463
-            }
-          ]
-        }
-      ],
-      "logo": {
-        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
-        "format": "image/png"
-      },
-      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~229594~5508154"
-    },
-    {
-      "@context": "http://iiif.io/api/presentation/2/context.json",
-      "@type": "sc:Manifest",
       "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~278339~90051657/manifest",
       "label": "Where angry waters roll",
       "attribution": "David Rumsey Historical Map Collection",
@@ -4409,6 +3874,149 @@
         "format": "image/png"
       },
       "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~290356~90061866"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/fw797hb0037/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "United States showing routes of principal explorers and early roads and highways",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/fw797hb0037.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/fw797hb0037'>https://purl.stanford.edu/fw797hb0037</a>"
+        },
+        {
+          "label": "Title",
+          "value": "United States showing routes of principal explorers and early roads and highways"
+        },
+        {
+          "label": "Contributor",
+          "value": "United States, General Land Office"
+        },
+        {
+          "label": "Contributor",
+          "value": "Bond, Frank"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : col. ; 58 x 79 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "from data prepared by Frank Bond, chief clerk, Department of the Interior, General Land Office."
+        },
+        {
+          "label": "Description",
+          "value": "Alaska -- Philippine Islands -- American Samoa -- Manua Group -- Guam -- Hawaiian Islands -- Palmyra Island -- Porto Rico and the Virgin Islands of the U.S. -- Canal Zone -- Isthmus of Panama, showing location of Canal -- Index map."
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Discovery and exploration > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:6,000,000]."
+        },
+        {
+          "label": "Date",
+          "value": "1937"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/fw797hb0037"
+        },
+        {
+          "label": "Publisher",
+          "value": "The Office"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-05-29"
+        }
+      ],
+      "description": "Alaska -- Philippine Islands -- American Samoa -- Manua Group -- Guam -- Hawaiian Islands -- Palmyra Island -- Porto Rico and the Virgin Islands of the U.S. -- Canal Zone -- Isthmus of Panama, showing location of Canal -- Index map.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/fw797hb0037%2Ffw797hb0037_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/fw797hb0037%2Ffw797hb0037_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 281
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/fw797hb0037/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/fw797hb0037/iiif/canvas/cocina-fileSet-fw797hb0037-fw797hb0037_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 15908,
+              "width": 22619,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/fw797hb0037/fw797hb0037_0001.jp2",
+                  "label": "Original source file (260 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/fw797hb0037/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F5b924a6e-6978-4305-b792-9d8ae8fb45ac",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/fw797hb0037/iiif/canvas/cocina-fileSet-fw797hb0037-fw797hb0037_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/fw797hb0037%2Ffw797hb0037_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 15908,
+                    "width": 22619,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/fw797hb0037%2Ffw797hb0037_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -5624,6 +5232,141 @@
         "format": "image/png"
       },
       "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~238762~5511632"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/wr094nz5879/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "United States of America, national parks and monuments, national forests, Indian reservations, wildlife refuges, public lands, and historical boundaries",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/wr094nz5879.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/wr094nz5879'>https://purl.stanford.edu/wr094nz5879</a>"
+        },
+        {
+          "label": "Title",
+          "value": "United States of America, national parks and monuments, national forests, Indian reservations, wildlife refuges, public lands, and historical boundaries"
+        },
+        {
+          "label": "Contributor",
+          "value": "Geological Survey (U.S.)"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "col. map 97 x 155 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "compiled by the Geological Survey in cooperation with the Bureau of Land Management, United States Department of the Interior."
+        },
+        {
+          "label": "Description",
+          "value": "\"Albers equal area projection.\""
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:3,168,000"
+        },
+        {
+          "label": "Coverage",
+          "value": "or 1 inch equals 50 miles."
+        },
+        {
+          "label": "Date",
+          "value": "1964"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/wr094nz5879"
+        },
+        {
+          "label": "Publisher",
+          "value": "The Survey"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-07-08"
+        }
+      ],
+      "description": "\"Albers equal area projection.\"",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wr094nz5879%2Fwr094nz5879_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wr094nz5879%2Fwr094nz5879_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 261
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/wr094nz5879/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/wr094nz5879/iiif/canvas/cocina-fileSet-wr094nz5879-wr094nz5879_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 26047,
+              "width": 39921,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/wr094nz5879/wr094nz5879_0001.jp2",
+                  "label": "Original source file (610 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/wr094nz5879/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F820b3a05-e583-4850-b94e-aa208ce22e26",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/wr094nz5879/iiif/canvas/cocina-fileSet-wr094nz5879-wr094nz5879_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/wr094nz5879%2Fwr094nz5879_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 26047,
+                    "width": 39921,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/wr094nz5879%2Fwr094nz5879_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
