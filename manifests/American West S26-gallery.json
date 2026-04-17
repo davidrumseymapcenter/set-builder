@@ -6,188 +6,166 @@
   "items": [
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/nn245qv4913/iiif/manifest",
       "@type": "sc:Manifest",
-      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1007~100110/manifest",
-      "label": "Map of the Missouri; of the higher parts of the Mississippi.",
-      "attribution": "David Rumsey Historical Map Collection",
-      "service": {
-        "@context": "http://iiif.io/api/search/1/context.json",
-        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~1007~100110/search",
-        "profile": "http://iiif.io/api/search/1/search"
+      "label": "Travels Through The Interior Parts Of North America, In The Years 1766, 1767, And 1768. By J. Carver, Esq. Captain Of A Company Of Provincial Troops During The Late War With France. Illustrated With Copper Plates, Coloured. The Third Edition. To which is added, Some Account Of The Author, And A Copious Index. London: Printed for C. Dilly, in the Poultry; H. Payne, in Pall-mall; and J. Phillips, in George-Yard, Lombard-Street. MDCCLXXXI. (with 2 maps)",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/nn245qv4913.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/nn245qv4913'>https://purl.stanford.edu/nn245qv4913</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Travels Through The Interior Parts Of North America, In The Years 1766, 1767, And 1768. By J. Carver, Esq. Captain Of A Company Of Provincial Troops During The Late War With France. Illustrated With Copper Plates, Coloured. The Third Edition. To which is added, Some Account Of The Author, And A Copious Index. London: Printed for C. Dilly, in the Poultry; H. Payne, in Pall-mall; and J. Phillips, in George-Yard, Lombard-Street. MDCCLXXXI. (with 2 maps)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Carver, Jonathan."
+        },
+        {
+          "label": "Type",
+          "value": "Text"
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 volume : 2 maps ; 21 x 13 cm."
+        },
+        {
+          "label": "Description",
+          "value": "3rd and best edition. With two important maps: A New Map of North America, From the Latest Discoveries 1778 (shows the proposed nine numbered territories west of Pennsylvania) and A Plan of Captain Carver's Travels in the interior Parts of North America in 1766 and 1767."
+        },
+        {
+          "label": "Description",
+          "value": "Exploration Book."
+        },
+        {
+          "label": "Description",
+          "value": "References: Howes C215."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 0131.000."
+        },
+        {
+          "label": "Subject",
+          "value": "North America > Discovery and exploration > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Discovery and exploration > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Michigan > Discovery and exploration > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Superior, Lake > Discovery and exploration > Maps > Early works to 1800"
+        },
+        {
+          "label": "Date",
+          "value": "1781"
+        },
+        {
+          "label": "Date",
+          "value": "1781"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/nn245qv4913"
+        },
+        {
+          "label": "Publisher",
+          "value": "C. Dilly,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-03-26"
+        }
+      ],
+      "description": "3rd and best edition. With two important maps: A New Map of North America, From the Latest Discoveries 1778 (shows the proposed nine numbered territories west of Pennsylvania) and A Plan of Captain Carver's Travels in the interior Parts of North America in 1766 and 1767.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/ws367tg4654%2F0131A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/ws367tg4654%2F0131A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 323
       },
       "sequences": [
         {
+          "@id": "https://purl.stanford.edu/nn245qv4913/iiif/manifest#sequence-1",
           "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
           "canvases": [
             {
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1007~100110/canvas/c1",
+              "@id": "https://purl.stanford.edu/nn245qv4913/iiif/canvas/cocina-fileSet-dw305tx9410-dw305tx9410_1",
               "@type": "sc:Canvas",
-              "label": "Map of the Missouri; of the higher parts of the Mississippi.",
-              "description": "",
-              "metadata": [
+              "label": "A New Map of North America, From the Latest Discoveries. 1778. Engrav'd for\n            Carvers Travels",
+              "height": 4656,
+              "width": 5868,
+              "rendering": [
                 {
-                  "label": "Author",
-                  "value": "Collot, George Henri Victor"
-                },
-                {
-                  "label": "Author",
-                  "value": "Tardieu, P.F."
-                },
-                {
-                  "label": "Date",
-                  "value": "1796"
-                },
-                {
-                  "label": "Short Title",
-                  "value": "Map of the Missouri; of the higher parts of the Mississippi."
-                },
-                {
-                  "label": "Publisher",
-                  "value": "Arthus Bertrand"
-                },
-                {
-                  "label": "Publisher Location",
-                  "value": "Paris"
-                },
-                {
-                  "label": "Type",
-                  "value": "Atlas Map"
-                },
-                {
-                  "label": "Obj Height cm",
-                  "value": "49"
-                },
-                {
-                  "label": "Obj Width cm",
-                  "value": "45"
-                },
-                {
-                  "label": "Scale 1",
-                  "value": "8,500,000"
-                },
-                {
-                  "label": "Note",
-                  "value": "This was the first map to show the results of the expedition of J.B. Trudeau from 1794 to 1796. It is also one of the most important late Eighteenth Century maps showing the Transmississippi West and is highly praised (and illustrated) by Wheat: \"an important intermediate cartographic step between Soulard's highly rudimentary showing of the Missouri Basin, and the excellent charts of the river as far as the Mandan Villages drawn by McKay and Evans.\""
-                },
-                {
-                  "label": "Reference",
-                  "value": "P1214-29; Streeter 1789; Eberstadt 137-132; Buck 48; Sabin 14460; WC 31a:2a; Howes C601; Wheat 236; Karrow 1-1228."
-                },
-                {
-                  "label": "State/Province",
-                  "value": "U.S. West"
-                },
-                {
-                  "label": "Region",
-                  "value": "Northwest U.S."
-                },
-                {
-                  "label": "Full Title",
-                  "value": "Map of the Missouri; of the higher parts of the Mississippi; and of the elevated Plain, where the Waters divide, which run, Eastward into the River St. Lawrence; North East into Hudson's Bay; North North West into the Frozen Sea; and South into the Gulf of Mexico. To which is added Mackenzie's track in 1789. PL. 29."
-                },
-                {
-                  "label": "List No",
-                  "value": "4664.019"
-                },
-                {
-                  "label": "Series No",
-                  "value": "19"
-                },
-                {
-                  "label": "Publication Author",
-                  "value": "Collot, George Henri Victor"
-                },
-                {
-                  "label": "Publication Author",
-                  "value": "Tardieu, P.F."
-                },
-                {
-                  "label": "Pub Date",
-                  "value": "1796"
-                },
-                {
-                  "label": "Pub Title",
-                  "value": "A Journey in North America, containing a Survey of the Countries watered by the Mississippi, Ohio, Missouri, and other Affluing Rivers; with Exact Observations on the Course and Soundings of these Rivers; and on the Towns, Villages, Hamlets, and Farms of that Part of the New World; followed by Philosophical, Political, Military and Commercial Remarks, and by a Projected Line of Frontiers and General Limits. Illustrated by an Atlas of 36 Maps, etc. By Gen. V. Callot, late in the French Service, and Governor of Guadeloupe."
-                },
-                {
-                  "label": "Pub Reference",
-                  "value": "P1214; Streeter 1789; Eberstadt 137-132; Buck 48; Sabin 14460; WC 31a:2a; Howes C601; Wheat 236; Karrow 1-1228."
-                },
-                {
-                  "label": "Pub Note",
-                  "value": "This group of maps appears in Collot's \"Journey in North America...\" They are some of the earliest maps of the Ohio River valley (in great detail) and the Mississippi River valley. Sabin notes: \"This work was printed both in French and English, but not published, at the time of General Collot's death, which happened in 1805. More than twenty years afterwards, the whole impression came into the hands of M. Bertrand...The journey was undertaken in 1796, at the request of Adet...\" The work was published in 1826, but engraved and printed in 1805 based on a journey in 1796. The strange delay in publishing is explained best in Wagner Camp. The atlas and two text volumes are superlatively rare (Howes \"dd\", Eberstadt: \"extraordinarily rare\")."
-                },
-                {
-                  "label": "Pub List No",
-                  "value": "4664.000"
-                },
-                {
-                  "label": "Pub Type",
-                  "value": "National Atlas"
-                },
-                {
-                  "label": "Pub Maps",
-                  "value": "22"
-                },
-                {
-                  "label": "Image No",
-                  "value": "4664019"
-                },
-                {
-                  "label": "Download 1",
-                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0010/4664019.sid target=_blank>Full Image Download in MrSID Format</a>"
-                },
-                {
-                  "label": "Download 2",
-                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
-                },
-                {
-                  "label": "Authors",
-                  "value": "Collot, George Henri Victor ; Tardieu, P.F."
-                },
-                {
-                  "label": "Collection",
-                  "value": "Rumsey Collection"
+                  "@id": "https://stacks.stanford.edu/file/dw305tx9410/0131001.jp2",
+                  "label": "Original source file (4.91 MB)",
+                  "format": "image/jp2"
                 }
               ],
-              "thumbnail": {
-                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~1007~100110/full/!96,96/0/default.jpg",
-                "format": "image/jpeg"
-              },
               "images": [
                 {
+                  "@id": "https://purl.stanford.edu/nn245qv4913/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fdw305tx9410-dw305tx9410_1%2F0131001.jp2",
                   "@type": "oa:Annotation",
                   "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/nn245qv4913/iiif/canvas/cocina-fileSet-dw305tx9410-dw305tx9410_1",
                   "resource": {
-                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~1007~100110/full/!1024,1024/0/default.jpg",
+                    "@id": "https://stacks.stanford.edu/image/iiif/dw305tx9410%2F0131001/full/full/0/default.jpg",
                     "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 4656,
+                    "width": 5868,
                     "service": {
                       "@context": "http://iiif.io/api/image/2/context.json",
-                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~1007~100110",
-                      "profile": "http://iiif.io/api/image/2/level1.json",
-                      "protocol": "http://iiif.io/api/image"
-                    },
-                    "format": "image/jpeg",
-                    "width": 5845,
-                    "height": 6551
-                  },
-                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1007~100110/canvas/c1"
+                      "@id": "https://stacks.stanford.edu/image/iiif/dw305tx9410%2F0131001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
                 }
-              ],
-              "otherContent": [
-                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1007~100110/list/luna"
-              ],
-              "width": 5845,
-              "height": 6551
+              ]
             }
           ]
         }
-      ],
-      "logo": {
-        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
-        "format": "image/png"
-      },
-      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~1007~100110"
+      ]
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
