@@ -1,0 +1,3690 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Beatrice Glow Paging Set",
+  "label": "Beatrice Glow Paging Set",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~284777~90057284/manifest",
+      "label": "Title Page: Part 1. Theatrum geographiae veteris, tomus prior",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~284777~90057284/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~284777~90057284/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Title Page: Part 1. Theatrum geographiae veteris, tomus prior",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Bertius, Petrus, 1565-1629"
+                },
+                {
+                  "label": "Author",
+                  "value": "Mercator, Gerhard, 1512-1594"
+                },
+                {
+                  "label": "Author",
+                  "value": "Ortelius, Abraham"
+                },
+                {
+                  "label": "Author",
+                  "value": "Welser, Marcus"
+                },
+                {
+                  "label": "Date",
+                  "value": "1618"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Title Page: Part 1. Theatrum geographiae veteris, tomus prior"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Isaacus Elzevirius"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Lugduni Batavorum"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Iudoci Hondii"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Lugduni Batavorum"
+                },
+                {
+                  "label": "Type",
+                  "value": "Title Page"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "27"
+                },
+                {
+                  "label": "Note",
+                  "value": "Three parts bound together in a single volume. The first part (tomus prior) includes a decorative colored title page which is filled with geographers with mapping instruments and globes at the top and bottom within an architectural surrounding. Includes 28 maps of Ptolemy, engraved by Gerhard Mercator, with an engraved portrait of Mercator for his edition of Geographia in 1578. The second part contains the engravings of the Peutinger Roman World Map from the plates Ortelius used on four sheets, and an extra 9th map which was made specifically for this atlas and does not occur anywhere else. Finally, in the third part there are 14 historical maps of Europe with accompanying text, 12 of them borrowed from the Parergon maps of Ortelius, a Low Countries map of Kaerius, and an Italy map of Cluverius, both based on Ortelius. Willebrord Snellius of Leiden also belonged to the contributors of this atlas. Maps are outline hand colored with decorative title cartouche, showing geographical features, major cities and towns. Relief shown pictorially. Imprint in the last page of atlas states: Lugduni Batavorum, Excudebat typis suis Isaacus Elzevirius, sumptibus Iudoci Hondii, anno MDCXVIII. Imprint from title page to the last part: \"Amstelodami : Ex officina I. Hondii, 1619.\" Includes tables and index. Bound in leather brown covers with title \"P. Bertii, Theatrum geographiae veteris\" on spine. Petrus Bertius was born at Beveren, Flanders, Nov. 14, 1565. Became professor of mathematics and librarian at University of Leiden. In 1618 became cosmographer and histographer to Louis XIII of France. He was the author of many geographical and theological works. This three part atlas is the most celebrated work of Petrus Bertius (1565-1629). It is based primarily on Ptolemy's Geographia, produced around 150 AD. It includes engraved folding maps, drawn from earlier work by Mercator and Ortelius."
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Part 1: Title Page to) Theatrum geographiae veteris, duobus tomis distinctum, edente Petro Bertio Bevero. Christianissimi Galliarum regis Ludovici XIII. Cosmographo. (decorative title) Theatri geographiae veteris : tomus prior in quo Cl. Ptol. Alexandrini, Geographiae libri viii. Graeca ad codices Palatinos collata aucta et emendata sunt Latina infinitis locis correcta, opera P. Bertii Christianissimi Galliarum regis cosmographi. Lugduni Batavorum, Excudebat typis suis Isaacus Elzevirius, sumptibus Iudoci Hondii, anno MDCXVIII."
+                },
+                {
+                  "label": "List No",
+                  "value": "11296.003"
+                },
+                {
+                  "label": "Series No",
+                  "value": "3"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Bertius, Petrus, 1565-1629"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Mercator, Gerhard, 1512-1594"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ortelius, Abraham"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Welser, Marcus"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1618"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Theatrum geographiae veteris, duobus tomis distinctum, edente Petro Bertio Bevero. Christianissimi Galliarum regis Ludovici XIII. Cosmographo. (decorative title) Theatri geographiae veteris : tomus prior in quo Cl. Ptol. Alexandrini, Geographiae libri viii. Graeca ad codices Palatinos collata aucta et emendata sunt Latina infinitis locis correcta, opera P. Bertii Christianissimi Galliarum regis cosmographi. Lugduni Batavorum, Excudebat typis suis Isaacus Elzevirius, sumptibus Iudoci Hondii, anno MDCXVIII."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Three parts bound together in a single volume. The first part (tomus prior) includes a decorative colored title page which is filled with geographers with mapping instruments and globes at the top and bottom within an architectural surrounding. Includes 28 maps of Ptolemy, engraved by Gerhard Mercator, with an engraved portrait of Mercator for his edition of Geographia in 1578. The second part contains the engravings of the Peutinger Roman World Map from the plates Ortelius used on four sheets, and an extra 9th map which was made specifically for this atlas and does not occur anywhere else. Finally, in the third part there are 14 historical maps of Europe with accompanying text, 12 of them borrowed from the Parergon maps of Ortelius, a Low Countries map of Kaerius, and an Italy map of Cluverius, both based on Ortelius. Willebrord Snellius of Leiden also belonged to the contributors of this atlas. Maps are outline hand colored with decorative title cartouche, showing geographical features, major cities and towns. Relief shown pictorially. Imprint in the last page of atlas states: Lugduni Batavorum, Excudebat typis suis Isaacus Elzevirius, sumptibus Iudoci Hondii, anno MDCXVIII. Imprint from title page to the last part: \"Amstelodami : Ex officina I. Hondii, 1619.\" Includes tables and index. Bound in leather brown covers with title \"P. Bertii, Theatrum geographiae veteris\" on spine. Petrus Bertius was born at Beveren, Flanders, Nov. 14, 1565. Became professor of mathematics and librarian at University of Leiden. In 1618 became cosmographer and histographer to Louis XIII of France. He was the author of many geographical and theological works. This three part atlas is the most celebrated work of Petrus Bertius (1565-1629). It is based primarily on Ptolemy's Geographia, produced around 150 AD. It includes engraved folding maps, drawn from earlier work by Mercator and Ortelius."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11296.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "51"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11296003.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/11296003.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Bertius, Petrus, 1565-1629; Mercator, Gerhard, 1512-1594; Ortelius, Abraham; Welser, Marcus"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~284777~90057284/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~284777~90057284/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~284777~90057284",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 6382,
+                    "height": 8672
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~284777~90057284/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~284777~90057284/list/luna"
+              ],
+              "width": 6382,
+              "height": 8672
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~284777~90057284"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328921~90128585/manifest",
+      "label": "Title: Atlas / Sive / Cosmographicae",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~328921~90128585/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328921~90128585/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Title: Atlas / Sive / Cosmographicae",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Mercator, Gerhard, 1512-1594"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hondius, Jodocus, 1563-1612"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hondius, Hendrik, 1597-1651"
+                },
+                {
+                  "label": "Date",
+                  "value": "1623"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Title: Atlas / Sive / Cosmographicae"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Hendricus Hondius"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "Title Page"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "45"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Title page to) Gerardi Mercatoris / Atlas / sive / Cosmographicae / Meditationes / de / Fabrica Mundi Et / Fabricati Fi-gura. / Denuo auctus / Editio Quinta / Excusum Cane Vigilanti Sumptibus et typis aeneis Henrici Hondij, Amsterodami An. D. 1623."
+                },
+                {
+                  "label": "List No",
+                  "value": "10534.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Mercator, Gerhard, 1512-1594"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hondius, Jodocus, 1563-1612"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hondius, Hendrik, 1597-1651"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1623"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Gerardi Mercatoris / Atlas / sive / Cosmographicae / Meditationes / de / Fabrica Mundi Et / Fabricati Fi-gura. / Denuo auctus / Editio Quinta / Excusum Cane Vigilanti Sumptibus et typis aeneis Henrici Hondij, Amsterodami An. D. 1623."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Koeman Me 27A; van der Krogt 1:105"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"This is the first edition with the name of Henricus Hondius on the title page. The Latin Atlas is enlarged with the same six new maps of French provinces as appeared in the 1619 French edition (1:113): (49) Saintonge, (54) Picardie, (55) Champagne, (56) Beauvais, (60) Bourbonnais, and (62) ~ercy. As in the 1619 French edition the 1585 Mercator map of France (map 46) is replaced by a 'new' one: Jodocus Hondius map of 1600, some copies of the 1623 edition have a later state of this map with the date altered to 1622. Mercator's map of Bohemia (map 106) is replaced by Blaeu's map of the same region.\" (Van der Krogt 1:105). This copy has unusually fine color. It was long held in a collection in Germany."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10534.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "156"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "46"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10534002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/185/10534002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Mercator, Gerhard, 1512-1594; Hondius, Jodocus, 1563-1612; Hondius, Hendrik, 1597-1651"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328921~90128585/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328921~90128585/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328921~90128585",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 5679,
+                    "height": 8335
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328921~90128585/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328921~90128585/list/luna"
+              ],
+              "width": 5679,
+              "height": 8335
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~328921~90128585"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328926~90128580/manifest",
+      "label": "Gerardus Mercator Natus Rupelmundae III ... Iudocus Hondius Natus In Pago Flandriae ...",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~328926~90128580/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328926~90128580/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Gerardus Mercator Natus Rupelmundae III ... Iudocus Hondius Natus In Pago Flandriae ...",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Mercator, Gerhard, 1512-1594"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hondius, Jodocus, 1563-1612"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hondius, Hendrik, 1597-1651"
+                },
+                {
+                  "label": "Date",
+                  "value": "1623"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Gerardus Mercator Natus Rupelmundae III ... Iudocus Hondius Natus In Pago Flandriae ..."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Hendricus Hondius"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "38"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "44"
+                },
+                {
+                  "label": "Note",
+                  "value": "Portraits of Mercator and Hondius."
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Gerardus Mercator Natus Rupelmundae III ... Iudocus Hondius Natus In Pago Flandriae ..."
+                },
+                {
+                  "label": "List No",
+                  "value": "10534.007"
+                },
+                {
+                  "label": "Series No",
+                  "value": "7"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Mercator, Gerhard, 1512-1594"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hondius, Jodocus, 1563-1612"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hondius, Hendrik, 1597-1651"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1623"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Gerardi Mercatoris / Atlas / sive / Cosmographicae / Meditationes / de / Fabrica Mundi Et / Fabricati Fi-gura. / Denuo auctus / Editio Quinta / Excusum Cane Vigilanti Sumptibus et typis aeneis Henrici Hondij, Amsterodami An. D. 1623."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Koeman Me 27A; van der Krogt 1:105"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"This is the first edition with the name of Henricus Hondius on the title page. The Latin Atlas is enlarged with the same six new maps of French provinces as appeared in the 1619 French edition (1:113): (49) Saintonge, (54) Picardie, (55) Champagne, (56) Beauvais, (60) Bourbonnais, and (62) ~ercy. As in the 1619 French edition the 1585 Mercator map of France (map 46) is replaced by a 'new' one: Jodocus Hondius map of 1600, some copies of the 1623 edition have a later state of this map with the date altered to 1622. Mercator's map of Bohemia (map 106) is replaced by Blaeu's map of the same region.\" (Van der Krogt 1:105). This copy has unusually fine color. It was long held in a collection in Germany."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10534.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "156"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "46"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10534007.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/185/10534007.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Mercator, Gerhard, 1512-1594; Hondius, Jodocus, 1563-1612; Hondius, Hendrik, 1597-1651"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328926~90128580/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328926~90128580/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328926~90128580",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 10923,
+                    "height": 8451
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328926~90128580/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328926~90128580/list/luna"
+              ],
+              "width": 10923,
+              "height": 8451
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~328926~90128580"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~344847~90107495/manifest",
+      "label": "Title: L' Appendice / De L' Atlas / De Gerard Mercator et / Iudocus Hondius.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~344847~90107495/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~344847~90107495/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Title: L' Appendice / De L' Atlas / De Gerard Mercator et / Iudocus Hondius.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Mercator, Gerhard, 1512-1594"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hondius, Jodocus, 1563-1612"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hondius, Hendrik, 1597-1651"
+                },
+                {
+                  "label": "Date",
+                  "value": "1633"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Title: L' Appendice / De L' Atlas / De Gerard Mercator et / Iudocus Hondius."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Hendricus Hondius"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "Title Page"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "50"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Title page to) L' Appendice / De L' Atlas / De Gerard Mercator et / Iudocus Hondius: / Contenant diverses nouvelles / tables et descriptions tres amples / de l' Allemaigne, France, Pays-Bas, / Italie, et de l'un et l'autre lnde, / tout mis en son ordre. / Traduit du Latin en Francois / et mis en lumiere / Par / Henry Hondius. / A / Amsterdam / chez Henry Hondius, / demeurant sur le Dam, a / l'enseigne du Chien vigilant. / A D. 1633."
+                },
+                {
+                  "label": "List No",
+                  "value": "10621.003"
+                },
+                {
+                  "label": "Series No",
+                  "value": "3"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Mercator, Gerhard, 1512-1594"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hondius, Jodocus, 1563-1612"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hondius, Hendrik, 1597-1651"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1633"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "L' Appendice / De L' Atlas / De Gerard Mercator et / Iudocus Hondius: / Contenant diverses nouvelles / tables et descriptions tres amples / de l' Allemaigne, France, Pays-Bas, / Italie, et de l'un et l'autre lnde, / tout mis en son ordre. / Traduit du Latin en Francois / et mis en lumiere / Par / Henry Hondius. / A / Amsterdam / chez Henry Hondius, / demeurant sur le Dam, a / l'enseigne du Chien vigilant. / A D. 1633."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Koeman Me 35; van der Krogt 1:312"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Henricus Hondius published a French edition of Mercator's Atlas in 1633. This included over 100 new or updated maps compared to the French edition of 1628 (and our Latin edition of 1623). \"As a service for owners of the last French edition of 1628 (1:114) he published the new maps also separately as L 'Appendice (1:312). For the old maps in the new edition he used the same signatures and page numbers as in the 1628 edition. The new maps have signatures and page numbers which are repeated signatures and numbers of the 1628 edition, to make it easier to insert the new maps in the old edition. For instance, the map of Lothian has to be placed between the second and third map of Scotland, with signatures 2E and 2F and page numbers 109-112 and 113-116 respectively. The new map is given the signature 2E2 and the repeated page numbers 109-112. As a consequence, the new complete edition has odd signatures. The Paris BGen copy is obviously completed this way, having the half.title and preface of the Appendix added in volume 2 and still Mercator's title page of the 1628 edition. .\" (Van der Krogt 1:312)."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10621.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "104"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10621003.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/195/10621003.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Mercator, Gerhard, 1512-1594; Hondius, Jodocus, 1563-1612; Hondius, Hendrik, 1597-1651"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~344847~90107495/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~344847~90107495/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~344847~90107495",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 9224,
+                    "height": 12776
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~344847~90107495/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~344847~90107495/list/luna"
+              ],
+              "width": 9224,
+              "height": 12776
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~344847~90107495"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~344853~90107291/manifest",
+      "label": "Nova Totius Terrarum Orbis Geographica Ac Hydrographica Tabula.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~344853~90107291/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~344853~90107291/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Nova Totius Terrarum Orbis Geographica Ac Hydrographica Tabula.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Mercator, Gerhard, 1512-1594"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hondius, Jodocus, 1563-1612"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hondius, Hendrik, 1597-1651"
+                },
+                {
+                  "label": "Date",
+                  "value": "1630"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Nova Totius Terrarum Orbis Geographica Ac Hydrographica Tabula."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Hendricus Hondius"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "38"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "54"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "50,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Portraits: a. Iulius Caesar. b. Claudius Ptolemaeus Ale. c. Gerardus Mercator Flander. d. Iudocus Hondius Flander."
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Nova Totius Terrarum Orbis Geographica Ac Hydrographica Tabula. Auel: Henr: Hondio. Doclissimis Ornatissimisq; Viris D.D. Davidi Sanclaro, Antonio de Willon, et D. Martinio, ... D. D. Henr. Hondius A 1630. L. S. Varias a varijs ... fruere. Quicquid habet Ganges ... partes."
+                },
+                {
+                  "label": "List No",
+                  "value": "10621.009"
+                },
+                {
+                  "label": "Series No",
+                  "value": "9"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Mercator, Gerhard, 1512-1594"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hondius, Jodocus, 1563-1612"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hondius, Hendrik, 1597-1651"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1633"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "L' Appendice / De L' Atlas / De Gerard Mercator et / Iudocus Hondius: / Contenant diverses nouvelles / tables et descriptions tres amples / de l' Allemaigne, France, Pays-Bas, / Italie, et de l'un et l'autre lnde, / tout mis en son ordre. / Traduit du Latin en Francois / et mis en lumiere / Par / Henry Hondius. / A / Amsterdam / chez Henry Hondius, / demeurant sur le Dam, a / l'enseigne du Chien vigilant. / A D. 1633."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Koeman Me 35; van der Krogt 1:312"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Henricus Hondius published a French edition of Mercator's Atlas in 1633. This included over 100 new or updated maps compared to the French edition of 1628 (and our Latin edition of 1623). \"As a service for owners of the last French edition of 1628 (1:114) he published the new maps also separately as L 'Appendice (1:312). For the old maps in the new edition he used the same signatures and page numbers as in the 1628 edition. The new maps have signatures and page numbers which are repeated signatures and numbers of the 1628 edition, to make it easier to insert the new maps in the old edition. For instance, the map of Lothian has to be placed between the second and third map of Scotland, with signatures 2E and 2F and page numbers 109-112 and 113-116 respectively. The new map is given the signature 2E2 and the repeated page numbers 109-112. As a consequence, the new complete edition has odd signatures. The Paris BGen copy is obviously completed this way, having the half.title and preface of the Appendix added in volume 2 and still Mercator's title page of the 1628 edition. .\" (Van der Krogt 1:312). These 104 maps are the last group of new maps when compared to our 1607 and 1623 editions of the atlas."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10621.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "104"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10621009.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/195/10621009.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Mercator, Gerhard, 1512-1594; Hondius, Jodocus, 1563-1612; Hondius, Hendrik, 1597-1651"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~344853~90107291/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~344853~90107291/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~344853~90107291",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 16828,
+                    "height": 12572
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~344853~90107291/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~344853~90107291/list/luna"
+              ],
+              "width": 16828,
+              "height": 12572
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~344853~90107291"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~358131~90125092/manifest",
+      "label": "Text: (Orbis maritimus ofte Zee Atlas)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~358131~90125092/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~358131~90125092/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Text: (Orbis maritimus ofte Zee Atlas)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Wit, Frederick de (1629-1706)"
+                },
+                {
+                  "label": "Date",
+                  "value": "1690"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Text: (Orbis maritimus ofte Zee Atlas)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Frederic M. DeWit"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "Text Page"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "54"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Text page to) (Orbis maritimus ofte Zee Atlas)"
+                },
+                {
+                  "label": "List No",
+                  "value": "15889.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Wit, Frederick de (1629-1706)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1690"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "(Orbis maritimus ofte Zee Atlas)"
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "George Carhart, Frederick de Wit and the First Concise Reference Atlas, page 169, etc."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"A Handsome, Beautifully Colored Example, Employing A Rarely Seen Grisaille Color Scheme This sea atlas, produced by Frederick de Wit around 1690 in Amsterdam, is a beautiful example of late 17th-century Dutch cartography, comprising 27 double-page engraved maps with unusual and attractive original hand-color. Featuring a double-hemisphere world map (Nova Totius Terrarum Orbis Tabula, ex officina F. de Wit., Shirley 444) and a large folding map of Europe (Totius Europae Littora Novissme edita...), the atlas provides a detailed representation of the world's seas and continents as understood during a pivotal period of exploration and colonization. Frederick de Wit is recognized as one of the foremost map publishers of the second half of the 17th century, with his works prized for their clarity, detail, and aesthetic appeal. This is a rare, separate issue of De Wit's sea atlas, typically encountered as part of his larger atlas compilations. The atlas includes an allegorical engraved frontispiece from Johannes van Keulen's \"Zee-Fakkel\" and is complemented by six leaves of text, possibly added at an early date for a private collector. For this example of the atlas, the colorist employed an unusual artistic coloring style called \"grisaille.\" While geographical features of the map are colored in a traditional scheme of the period, the cartouches are done in the grisaille style, employing blue-greys, and gold hues. Traditionally, the use of grisaille showcased the artists' mastery in tone and texture from the medieval era to the Renaissance. Among the earliest examples of this technique is the work of Giotto di Bondone, who employed grisaille in the lower registers of his frescoes in the Scrovegni Chapel, Padua, around 1304. This technique marked a departure from the flat styles of medieval art and foreshadowed the Italian Renaissance. In the 15th century, Early Dutch painters like Robert Campin and Jan van Eyck used grisaille on the exteriors of triptych wings, as seen in the Ghent Altarpiece, as a means of imitating the appearance of sculpture. Manuscript illuminators such as Jean Pucelle and Matthew Paris also utilized grisaille. Their work in pen and wash manuscripts with limited colors underscored texts and added dramatic depth. The Renaissance period saw Andrea Mantegna and Polidoro da Caravaggio adopting grisaille to mimic classical sculptures and Roman paintings, aligning with the era's classical revival. The style was employed in the 16th and 17th Century by Dutch artists such as Martin Heemskerck, Pieter Brueghel the Elder, Hendrik Goltzius, Adriaen van de Venne, and the circle of Rembrandt and Jan van Goyen. Portions of the Sistine Chapel's ceiling frescoes and Antonio Verrio's work on the great staircase at Hampton Court are notable examples of the use of grisaille in the Baroque period. As a means of highlighting the cartographic features of the map, the overall effect is quite appealing, and a further examination of this rare (if not unique) approach belongs in the annals of Golden Age Dutch map coloring. This convention is sometimes associated with the finer coloring of Andreas Cellarius's Harmonia Macrocosmica, and a less refined version of it is often seen in the Valk & Schenk edition of the same book. Folio. 17th- or 18th-century full-mottled calf, spine divided into compartments by gilt rules. Engraved allegorical title and text from a Van Keulen firm chart book. 27 engraved maps (26 by De Wit and 1 by Nicolas Visscher II) all of which in beautiful original hand-color, cartouches colored in several shades of grisaille, with cities heightened with gold. De Wit (1629 ca.-1706) was a mapmaker and mapseller who was born in Gouda but who worked and died in Amsterdam. He moved to the city in 1648, where he opened a printing operation under the name of The Three Crabs; later, he changed the name of his shop to The White Chart. From the 1660s onward, he published atlases with a variety of maps; he is best known for these atlases and his Dutch town maps. After Frederik’s death in 1706, his wife Maria ran the shop for four years before selling it. Their son, Franciscus, was a stockfish merchant and had no interest in the map shop. At the auction to liquidate the de Wit stock, most of the plates went to Pieter Mortier, whose firm eventually became Covens & Mortier, one of the biggest cartography houses of the eighteenth century."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15889.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Chart Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "27"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "55"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15889002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/15889002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Wit, Frederick de (1629-1706)"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~358131~90125092/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~358131~90125092/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~358131~90125092",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 6692,
+                    "height": 9845
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~358131~90125092/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~358131~90125092/list/luna"
+              ],
+              "width": 6692,
+              "height": 9845
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~358131~90125092"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~373662~90140399/manifest",
+      "label": "Bacon's Pictorial View of the World",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~373662~90140399/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~373662~90140399/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Bacon's Pictorial View of the World",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "G.W. Bacon & Co."
+                },
+                {
+                  "label": "Date",
+                  "value": "1870"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Bacon's Pictorial View of the World"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "G.W. Bacon & Co."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "97"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "72"
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Mountains; Rivers"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Ethnography; Nationality; Race"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Bacon's Pictorial View of the World"
+                },
+                {
+                  "label": "List No",
+                  "value": "16643.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "G.W. Bacon & Co."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1870"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Bacon's Pictorial View of the World"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Multifacited view of the world and its peoples."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16643.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "97"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "72"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16643000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/218/16643000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "G.W. Bacon & Co."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~373662~90140399/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~373662~90140399/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~373662~90140399",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 18090,
+                    "height": 24180
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~373662~90140399/canvas/c1"
+                }
+              ],
+              "width": 18090,
+              "height": 24180
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~373662~90140399"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369910~90137283/manifest",
+      "label": "Title: Toonneel der steden van de vereenighde Nederlanden met hare beschrijvingen (first title). -- Tooneel der steden van de Vereenighde Nederlanden 's konings Nederlanden (second title).",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~369910~90137283/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369910~90137283/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Title: Toonneel der steden van de vereenighde Nederlanden met hare beschrijvingen (first title). -- Tooneel der steden van de Vereenighde Nederlanden 's konings Nederlanden (second title).",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Blaeu, Joan, 1596-1673"
+                },
+                {
+                  "label": "Author",
+                  "value": "Blaeu, Willem Janszoon, 1571-1638"
+                },
+                {
+                  "label": "Date",
+                  "value": "1652"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Title: Toonneel der steden van de vereenighde Nederlanden met hare beschrijvingen (first title). -- Tooneel der steden van de Vereenighde Nederlanden 's konings Nederlanden (second title)."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Joan Blaeu"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "Title Page"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Note",
+                  "value": "Volume Two. Dimensions are sheet size."
+                },
+                {
+                  "label": "Country",
+                  "value": "Belgium"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Title page to) Toonneel der steden van de vereenighde Nederlanden met hare beschrijvingen (first title). -- Tooneel der steden van de Vereenighde Nederlanden 's konings Nederlanden (second title)."
+                },
+                {
+                  "label": "List No",
+                  "value": "16224.335"
+                },
+                {
+                  "label": "Series No",
+                  "value": "335"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Blaeu, Joan, 1596-1673"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Blaeu, Willem Janszoon, 1571-1638"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1652"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Toonneel der steden van de vereenighde Nederlanden met hare beschrijvingen (first title). -- Tooneel der steden van de Vereenighde Nederlanden 's konings Nederlanden (second title)."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Koeman Bl 68B and Bl 69B Full color version volume one https://www.loc.gov/resource/g6004am.gct00129/?st=gallery"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "First edition in Dutch. 2 volumes, 2o (214 x 360 mm). Text in Dutch. Two engraved titles and 223 map, plans, and views. FIRST DUTCH EDITION of Blaeu's townbooks of the Netherlands. The plates conform to those of the first issue of 1649, though with different dating of the privileges. Blaeu's atlas, 'held in the highest esteem in the Netherlands' was in production during the war for independence between the United Provinces of the Netherlands and Spain. The division of the maps between the two volumes reflects the changing status of individual towns and fortifications in the final years of the war and the recognition of Dutch Independence by Spain in 1648. Koeman Bl 68B and Bl 69B. The Atlas by Joan Blaeu, officially titled Toonneel der Steeden van s'Konings Nederlanden, met hare Beschryvingen (\"The Theatre of Cities of the King's Netherlands, with Their Descriptions\"), is a monumental cartographic and topographical work published in the mid-17th century. It is part of Blaeu's larger Atlas Maior, which represents one of the most significant achievements in cartography during the Dutch Golden Age. The atlas focuses on the cities of the Netherlands under Spanish and Habsburg rule during the 17th century. It features meticulously detailed maps, bird's-eye views, and panoramic engravings of towns, fortifications, and significant architectural landmarks. Accompanying the visuals are rich descriptions of the cities, including their history, notable features, governance, economy, and cultural significance. Cultural and Historical Context: Published during the height of Dutch cartographic excellence, the atlas reflects the political and cultural tensions between the Dutch Republic and Spanish-controlled territories. It serves as a showcase of Dutch artistic and technical skill in mapmaking. Artistic and Cartographic Significance: The maps and illustrations are not only accurate but also highly decorative, featuring elaborate cartouches, coats of arms, and artistic embellishments. The atlas represents a blend of functionality as a geographical reference and beauty as a collector's item. Legacy: The Toonneel der Steeden is part of Blaeu’s larger mission to create an exhaustive depiction of the known world, solidifying his reputation as one of history's greatest cartographers. Today, the atlas is a valuable resource for historians, geographers, and art collectors, reflecting the grandeur and ambition of the Dutch Golden Age. The Toonneel der Steeden is a masterpiece that captures the interplay between geography, politics, and art in 17th-century Europe. Its maps and descriptions provide a vivid snapshot of the urban and cultural landscape of the Low Countries during this transformative period."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16224.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "City Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "223"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "57"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "38"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16224335.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/218/16224335.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Blaeu, Joan, 1596-1673; Blaeu, Willem Janszoon, 1571-1638"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369910~90137283/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369910~90137283/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369910~90137283",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 6474,
+                    "height": 9340
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369910~90137283/canvas/c1"
+                }
+              ],
+              "width": 6474,
+              "height": 9340
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~369910~90137283"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~904~70098/manifest",
+      "label": "A Map of the British Empire in America. (Sheet 17).",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~904~70098/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~904~70098/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "A Map of the British Empire in America. (Sheet 17).",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Popple, Henry"
+                },
+                {
+                  "label": "Date",
+                  "value": "1733"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "A Map of the British Empire in America. (Sheet 17)."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Willm. Henry Toms & R.W. Seale."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "46"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "66"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "2,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "First panel of the last column includes part of Central America and the title cartouche. Drawing depicts natives and local flora and fauna. In the background, the British are loading a ship and talking. Uncolored."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Cumming 216; Streeter 676; Lowery 337-8; Cumming & Wallis Introductory Notes to Margary's Popple reprint."
+                },
+                {
+                  "label": "Country",
+                  "value": "Guatemala"
+                },
+                {
+                  "label": "Country",
+                  "value": "Honduras"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "A Map of the British Empire in America with the French and Spanish Settlements adjacent thereto. by Henry Popple. (Sheet 17)."
+                },
+                {
+                  "label": "List No",
+                  "value": "2874.019"
+                },
+                {
+                  "label": "Series No",
+                  "value": "20"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Baron, B."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Lempriere, C."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Toms, W.H."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Popple, Henry"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1733"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "A Map of the British Empire in America with the French and Spanish Settlements adjacent thereto. by Henry Popple. C. Lempriere inv. & del. B Baron Sculp. To the Queen's Most Excellent Majesty This Map is most humbly Inscribed by Your Majesty's most Dutiful, most Obedient, and most Humble Servant Henry Popple. London Engrav'd by Willm. Henry Toms & R.W. Seale, 1733. (index map) ... W.H. Toms Sculp."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Cumming 216; Streeter 676; Lowery 337-8; Cumming & Wallis Introductory Notes to Margary's Popple reprint."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "1st edition, 1st state. King George II copy. Howes P481; Sabin 64140; Schwartz & Ehrenberg 151; Winsor V, p82. The first state of the large map and the index map (see Cumming & Wallis for Margary reprint and Cumming 216) in that the pages are unnumbered, no credits below the neat line on sheet 17 or the title sheet, and Toms & Seale on Sheet 20. The binding is full red morocco with gold tooling at the edges and the coat of arms of King George II in gold on the front and back covers; the spine is stamped with \"Popple's Atlas\" in gilt. This copy was sold to the family I acquired it from by Francis Edwards in 1929/30 - a copy of Edward's 1929 catalogue entry is tipped into the front of the book. Tooley, Mapping America p 316, says \"A copy (of the Popple Map) bound in red morocco for George II sold in 1930...\" Lacks the contents sheets and the half sheet #4 (provided in expert facsimile). The index map is in full color while the map sheets are uncolored. The first large scale map of America and the most accurate at the time. Covens and Mortier published a six sheet edition in 1740 (Lowery). Lowery, Howes and Phillips incorrectly list Seale as \"Searle.\" Howes mentions a later edition by Jefferys, but I can find no record of it."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "2874.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "21"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "53"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "41"
+                },
+                {
+                  "label": "Image No",
+                  "value": "2874019"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0007/2874019.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Popple, Henry"
+                },
+                {
+                  "label": "Collection",
+                  "value": "Rumsey Collection"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~904~70098/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~904~70098/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~904~70098",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 8376,
+                    "height": 5536
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~904~70098/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~904~70098/list/luna"
+              ],
+              "width": 8376,
+              "height": 5536
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~904~70098"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~20485~540083/manifest",
+      "label": "Indes III.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~20485~540083/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~20485~540083/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Indes III.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Bonne, Rigobert, 1727-1794"
+                },
+                {
+                  "label": "Date",
+                  "value": "1771"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Indes III."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Lattre & Delalain"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "10,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Engraved map. Sheet 3 (NE) of 4. Boundaries outlined in hand col. Relief shown pictorially. Shows wind direction, etc. Includes note. Prime meridians: Paris and Ferro. \"XXVI.\""
+                },
+                {
+                  "label": "World Area",
+                  "value": "Asia"
+                },
+                {
+                  "label": "Country",
+                  "value": "Philippines"
+                },
+                {
+                  "label": "Country",
+                  "value": "Vietnam"
+                },
+                {
+                  "label": "Region",
+                  "value": "Southeast Asia"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Carte hydro-geo-graphique des Indes Orientales en deca et au dela du Gange avec leur archipel. Dressee et assujettie aux observations astronomiques, par M. Bonne, Hydrographe du Roi. A Paris, Chez Lattre, Graveur, ord. de M. Le Dauphin, rue S. Jacq. a la Ville de Bordeaux. Avec priv. du Roi. 1771. Indes IIIe feuille."
+                },
+                {
+                  "label": "List No",
+                  "value": "2612.055"
+                },
+                {
+                  "label": "Series No",
+                  "value": "60"
+                },
+                {
+                  "label": "Page No",
+                  "value": "C 26"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Bonne, Rigobert, 1727-1794"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Lattre, Jean"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1791"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlas moderne ou collection de cartes sur toutes les parties du globe terrestre ar plusieurs auteurs. Avec approbation & privilege du Roy. A Paris, Chez Lattre Graveur Ordinaire du Roy, de Mgr. Le Duc d'Orleans et de la Ville Rue St. Jacques No. 20. et Delalain Libraire, rue de la Comedie Francoise. (title page only) Monnet del. 1762. Prevost Sculp."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Cf. Phillips, 664; National Maritime Museum, 215; British Library. World, col. 384-385 (1762-1785 eds.)"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Maps by Bonne, Janvier, & Rizzi Zannoni. Late edition which includes important maps of the United States, British America, and Mexico which do not appear in the earlier editions. Also has an excellent catalogue of Lattre's publications. The first edition of this atlas had 36 maps (see Baskes copy). Maps are with outline hand col. and bound in full brown leather covers embossed with \"Atlas Moderne\" on the spine."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "2612.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "75"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Image No",
+                  "value": "2612055"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0054/2612055.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Bonne, Rigobert, 1727-1794"
+                },
+                {
+                  "label": "Collection",
+                  "value": "Rumsey Collection"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~20485~540083/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~20485~540083/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~20485~540083",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 7840,
+                    "height": 5036
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~20485~540083/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~20485~540083/list/luna"
+              ],
+              "width": 7840,
+              "height": 5036
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~20485~540083"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~252945~5518700/manifest",
+      "label": "Les Isles Phiilippines, Celle de Formose",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~252945~5518700/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~252945~5518700/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Les Isles Phiilippines, Celle de Formose",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Raynal, G.T."
+                },
+                {
+                  "label": "Author",
+                  "value": "Bonne, R."
+                },
+                {
+                  "label": "Date",
+                  "value": "1780"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Les Isles Phiilippines, Celle de Formose"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Jean-Leonard Pellet"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Geneva"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "22"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "32"
+                },
+                {
+                  "label": "Note",
+                  "value": "Uncolored copper engraving map. Covering Thailand, Indo China, Taiwan, Philippines. Relief shown pictorially. Prime meridians are Ferro and Paris."
+                },
+                {
+                  "label": "Reference",
+                  "value": "P5992 (atlas); Sabin 68081(text) and 68082 (atlas)."
+                },
+                {
+                  "label": "Country",
+                  "value": "Thailand"
+                },
+                {
+                  "label": "Country",
+                  "value": "Philippines"
+                },
+                {
+                  "label": "Region",
+                  "value": "Indochina"
+                },
+                {
+                  "label": "Region",
+                  "value": "South East Asia"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Les Isles Philippines, celle de Formose, Le Sud de La Chine, Les Royaumes de Tunkin de Cochinchine, De Camboge, de Slam des Laos; avec partie de ceux de Pegu et d'Ava. Par M. Bonne, Ingenieur, Hdrographe de la Marine. (on upper margin) Liv. V.: No. 23. (to accompany) Histoire Philosophique et Politique Des Establissements et Du Commerce Des Europeens Dans Les Deux Indes. (insets) Isle de Guam ; Isles Marianes."
+                },
+                {
+                  "label": "List No",
+                  "value": "3083.039"
+                },
+                {
+                  "label": "Series No",
+                  "value": "39"
+                },
+                {
+                  "label": "Page No",
+                  "value": "(24)"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Raynal, G.T."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Bonne, Rigobert, 1727-1794."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1780"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Histoire Philosophique et Politique Des Establissements et Du Commerce Des Europeens Dans Les Deux Indes (with) Atlas De Toutes Les Parties Connues Du Globe Terrestre, Dresse Pour L'Histroire Philosophique et Politique des Etablissemens et du Commerce des Europeens dans les Deux Indes."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "P5992 (atlas); Sabin 68081(text) and 68082 (atlas)."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Text is first edition; Atlas is 1820 revised edition. The atlas was first issued in 1780 with maps engraved by Andre, then reissued in 1783-4 (P5995) without Andre or Bonne on the maps, finally reissued in 1820 with the maps reengraved by Dien (Tooley Dictionary)(our copy of atlas). WH has copies of the 1780 and 1783-4 atlases. It is strange that map #2, the World map, in our copy is an earlier map than the first and second editions of the atlas. Sabin shows many reissues of the 1780 edition of the atlas, so there may be more editions and states than these three. The earlier editions of the atlas were accompanied by twenty three tables in the back. Our copy of the text is 12 mo. and was given as a student prize. Maps are uncolored. Atlas bound in quarter leather with \"Raynal. Atlas.\" in gold on spine."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "3083.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "50"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "27"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "22"
+                },
+                {
+                  "label": "Image No",
+                  "value": "3083039"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/3083039.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Raynal, G.T.; Bonne, R."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~252945~5518700/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~252945~5518700/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~252945~5518700",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 8852,
+                    "height": 5358
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~252945~5518700/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~252945~5518700/list/luna"
+              ],
+              "width": 8852,
+              "height": 5358
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~252945~5518700"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~266043~90040446/manifest",
+      "label": "China, Japan &c.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~266043~90040446/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~266043~90040446/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "China, Japan &c.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Bradford, Thomas G."
+                },
+                {
+                  "label": "Date",
+                  "value": "1838"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "China, Japan &c."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "American Stationer's Co."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Boston"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "20"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "26"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "18,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Color map. Shows regions, political boundaries, cities and towns, rivers, etc. Relief shown pictorially. Prime meridians are Washington and London."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Martin/Martin 31."
+                },
+                {
+                  "label": "Country",
+                  "value": "China"
+                },
+                {
+                  "label": "Country",
+                  "value": "Japan"
+                },
+                {
+                  "label": "Region",
+                  "value": "East Asia"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "China, Japan &c. (to accompany) A Comprehensive Atlas, Geographical, Historical & Commercial. By T.G. Bradford. Boston: American Stationers' Company. Entered ... 1835, by Thos. G. Bradford ... Massachusetts."
+                },
+                {
+                  "label": "List No",
+                  "value": "2120.134"
+                },
+                {
+                  "label": "Series No",
+                  "value": "134"
+                },
+                {
+                  "label": "Page No",
+                  "value": "125"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Tisdale, E."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Croome, W."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Andrews, J."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Boynton, G.W. & Co."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Bradford, Thomas G."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1838"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "A Comprehensive Atlas, Geographical, Historical & Commercial. By T.G. Bradford. Boston: American Stationers' Company. Entered ... 1835, by Thos. G. Bradford ... Massachusetts. (title page) Drawn by E. Tisdale, Landscapes by W. Croome. Eng. by J. Andrews."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Martin/Martin 31."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Has Texas as a republic; 3rd edition; full color in the maps. One page of text describes Texas. This edition has same extra maps as the second edition. Florida is enlarged. An additional map has been glued into this copy titled \"The World On Mercator's Projection\" published by Harper & Brothers, New York, and engraved by Charles Copley, New York. Bound in untitled half leather marbled paper covered boards."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "2120.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "74"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "26"
+                },
+                {
+                  "label": "Image No",
+                  "value": "2120134.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/127/2120134.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Bradford, Thomas G."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~266043~90040446/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~266043~90040446/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~266043~90040446",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 5878,
+                    "height": 5458
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~266043~90040446/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~266043~90040446/list/luna"
+              ],
+              "width": 5878,
+              "height": 5458
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~266043~90040446"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~284018~90056291/manifest",
+      "label": "Royaume de la Chine.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~284018~90056291/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~284018~90056291/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Royaume de la Chine.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "du Sauzet, Henri"
+                },
+                {
+                  "label": "Author",
+                  "value": "Sanson, N."
+                },
+                {
+                  "label": "Date",
+                  "value": "1734"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Royaume de la Chine."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Chez Henri du Sauzet"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "20"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "15,000,000"
+                },
+                {
+                  "label": "Country",
+                  "value": "China"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Royaume de la Chine."
+                },
+                {
+                  "label": "List No",
+                  "value": "12062.058"
+                },
+                {
+                  "label": "Series No",
+                  "value": "58"
+                },
+                {
+                  "label": "Page No",
+                  "value": "37"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "d'Winter, A."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "du Sauzet, Henri"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1739"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlas de Poche, a l'Usage des Voyageurs et des Officiers. Avec un Traite de la Sphere, de la Geographie, & de l'Hydrographie. A Amsterdam. Chez Henri du Sauzet, M.DCC.XXXIV. Profiles ou Vues des Principales Villes de l'Europe, &c. A Amsterdam. Chez Henri du Sauzet, M.DCC.XXXIX."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Two books in one volume - both titles listed in Pub Title. Maps and views fold out. Relief shown by sketches."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12062.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "40"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "26"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "11"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12062058.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/12062058.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "du Sauzet, Henri; Sanson, N."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~284018~90056291/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~284018~90056291/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~284018~90056291",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 7944,
+                    "height": 9080
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~284018~90056291/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~284018~90056291/list/luna"
+              ],
+              "width": 7944,
+              "height": 9080
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~284018~90056291"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~287157~90059333/manifest",
+      "label": "Parte Orientale della China",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~287157~90059333/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~287157~90059333/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Parte Orientale della China",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Coronelli, Vincenzo (1650-1718)"
+                },
+                {
+                  "label": "Author",
+                  "value": "Accademia cosmografica degli Argonauti."
+                },
+                {
+                  "label": "Date",
+                  "value": "1697"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Parte Orientale della China"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "A' spese dell'autore"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Venetia"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "45"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "600,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Engraved map on 2 sheets. Covers eastern part of China with part of Korea. With decorative cartouches. Showing administrative divisions, cities, villages, place names, rivers and mountains. Includes notes."
+                },
+                {
+                  "label": "Country",
+                  "value": "China"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Parte Orientale della China. Divisa nelle sue provincie e dedicata al Molto Rev. Padre Antonio Baldigiani della Compagnia di Gesu�� Professore delle matematiche nell' Universita�� Collegio Romano. dal P.M. Coronelli M.C. cosmografo della serma. rep. di Venetia. (to accompany) Isolario descrittione geografico-historica, sacro-profana, antico-moderna ... e in supplimento dei XIV volumi del Bleau. Tomo II dell' Atlante veneto. Opera, e Studio del P. Maestro Vincenzo Coronelli ... A Spese dell Auttore MDCLXXXXVI (1696)."
+                },
+                {
+                  "label": "List No",
+                  "value": "11391.124"
+                },
+                {
+                  "label": "Series No",
+                  "value": "124"
+                },
+                {
+                  "label": "Page No",
+                  "value": "136-137"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Coronelli, Vincenzo (1650-1718)"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Accademia cosmografica degli Argonauti."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1697"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Isolario descrittione geografico-historica, sacro-profana, antico-moderna, politica, naturale, e poetica, mari, golfi, seni, piagge, porti, barche, pesche, promontori, monti, boschi, fiumi, laghi, stagni, bagni, volcani, miniere, gemme, richezze, e monete; iscrittioni, linguaggi, governi, forze, armate, guerre, aleanze, acquisti, perdite, tregue, trattati di pace, religioni claustrali, ed equestri; concili, e missioni; vescovadi, arcivescouadi, e patriarcati; leggi, costumi, habiti, blasoni, accademie, huomini illustri, ed ogni pui esatta notitia di tuttel'isole coll'osservationi degli scogli sirti, scagni, e secche del globo terracqueo. : Aggiuntivi anche i ritratti de dominatori di esse. Ornato di trecento-dieci tavole geografiche, topografiche, corografiche, iconografiche, scenografiche, idrografiche, e potamografiche; a'maggiore dilucidatione, ed uso della Navigatione, e in supplimento dei XIV volumi del Bleau. Tomo II dell' Atlante veneto. Opera, e Studio del P. Maestro Vincenzo Coronelli ... A Spese dell Auttore MDCLXXXXVI (1696). (half title) Isolario dell'Atlante Veneto de P. Coronelli, parte II, In Venetia MDCLXXXXVII (1697)."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Coronelli's Isolario Atlante Veneto, (1691-1692; 1696-98), in 2 volumes in 2 parts. This is the second part of volume 2. The first part of volume 2 covers the Mediterranean, Italy and the Adriatic; the second (this copy), covers Britain and Europe, Africa, Japan and Asia, and the West Indies. Each volume with engraved titles, half-titles, titles of Isolario, engraved architectural frontispieces, portraits, views, charts, text and 24 engraved maps, using the latest geographical information available. Many of the more important maps were engraved on two sheets, to allow greater detail. Coronelli's Isolario is considered to be one of the most decorative atlases of 17th century. Illustrated in Coronelli's unique style, it is a comprehensive survey of the islands of the world as known in his time, along with diagrams of various nautical weather conditions, instruments, fortresses and ship diagrams. Collation of Coronelli's atlases varies greatly; this copy is complete, but we have seen other copies with more maps and globe gores added. Coronelli, an Italian theologian, cartographer and geographer, was author or contributor to over 140 titles and produced several hundred maps, either printed separately or as parts of atlases."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11391.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "29"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "48"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11391124.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/166/11391124.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Coronelli, Vincenzo (1650-1718); Accademia cosmografica degli Argonauti."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~287157~90059333/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~287157~90059333/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~287157~90059333",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11574,
+                    "height": 16476
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~287157~90059333/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~287157~90059333/list/luna"
+              ],
+              "width": 11574,
+              "height": 16476
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~287157~90059333"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~287160~90059330/manifest",
+      "label": "Quantung, e Fokien, prouincie della China",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~287160~90059330/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~287160~90059330/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Quantung, e Fokien, prouincie della China",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Coronelli, Vincenzo (1650-1718)"
+                },
+                {
+                  "label": "Author",
+                  "value": "Accademia cosmografica degli Argonauti."
+                },
+                {
+                  "label": "Date",
+                  "value": "1697"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Quantung, e Fokien, prouincie della China"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "A' spese dell'autore"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Venetia"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "45"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "60"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "3,200,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Engraved map on 2 sheets. With decorative cartouches. Depicts Guangdong province. Showing administrative divisions, cities, villages, place names, rivers and mountains. Includes notes."
+                },
+                {
+                  "label": "Country",
+                  "value": "China"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Quantung, e Fokien, prouincie della China. dedicate al Molto Reuerendo Padre Carlo Trigona, della Compagnia di Gesu��, Teologo di Monsignor Illustriss: Arciuescouo di Palermo etc. (to accompany) Isolario descrittione geografico-historica, sacro-profana, antico-moderna ... e in supplimento dei XIV volumi del Bleau. Tomo II dell' Atlante veneto. Opera, e Studio del P. Maestro Vincenzo Coronelli ... A Spese dell Auttore MDCLXXXXVI (1696)."
+                },
+                {
+                  "label": "List No",
+                  "value": "11391.127"
+                },
+                {
+                  "label": "Series No",
+                  "value": "127"
+                },
+                {
+                  "label": "Page No",
+                  "value": "140-141"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Coronelli, Vincenzo (1650-1718)"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Accademia cosmografica degli Argonauti."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1697"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Isolario descrittione geografico-historica, sacro-profana, antico-moderna, politica, naturale, e poetica, mari, golfi, seni, piagge, porti, barche, pesche, promontori, monti, boschi, fiumi, laghi, stagni, bagni, volcani, miniere, gemme, richezze, e monete; iscrittioni, linguaggi, governi, forze, armate, guerre, aleanze, acquisti, perdite, tregue, trattati di pace, religioni claustrali, ed equestri; concili, e missioni; vescovadi, arcivescouadi, e patriarcati; leggi, costumi, habiti, blasoni, accademie, huomini illustri, ed ogni pui esatta notitia di tuttel'isole coll'osservationi degli scogli sirti, scagni, e secche del globo terracqueo. : Aggiuntivi anche i ritratti de dominatori di esse. Ornato di trecento-dieci tavole geografiche, topografiche, corografiche, iconografiche, scenografiche, idrografiche, e potamografiche; a'maggiore dilucidatione, ed uso della Navigatione, e in supplimento dei XIV volumi del Bleau. Tomo II dell' Atlante veneto. Opera, e Studio del P. Maestro Vincenzo Coronelli ... A Spese dell Auttore MDCLXXXXVI (1696). (half title) Isolario dell'Atlante Veneto de P. Coronelli, parte II, In Venetia MDCLXXXXVII (1697)."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Coronelli's Isolario Atlante Veneto, (1691-1692; 1696-98), in 2 volumes in 2 parts. This is the second part of volume 2. The first part of volume 2 covers the Mediterranean, Italy and the Adriatic; the second (this copy), covers Britain and Europe, Africa, Japan and Asia, and the West Indies. Each volume with engraved titles, half-titles, titles of Isolario, engraved architectural frontispieces, portraits, views, charts, text and 24 engraved maps, using the latest geographical information available. Many of the more important maps were engraved on two sheets, to allow greater detail. Coronelli's Isolario is considered to be one of the most decorative atlases of 17th century. Illustrated in Coronelli's unique style, it is a comprehensive survey of the islands of the world as known in his time, along with diagrams of various nautical weather conditions, instruments, fortresses and ship diagrams. Collation of Coronelli's atlases varies greatly; this copy is complete, but we have seen other copies with more maps and globe gores added. Coronelli, an Italian theologian, cartographer and geographer, was author or contributor to over 140 titles and produced several hundred maps, either printed separately or as parts of atlases."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11391.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "29"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "48"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11391127.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/166/11391127.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Coronelli, Vincenzo (1650-1718); Accademia cosmografica degli Argonauti."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~287160~90059330/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~287160~90059330/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~287160~90059330",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 16190,
+                    "height": 11526
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~287160~90059330/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~287160~90059330/list/luna"
+              ],
+              "width": 16190,
+              "height": 11526
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~287160~90059330"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~295449~90066593/manifest",
+      "label": "Indie Orientali ... Indie IIIo. Foglio",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~295449~90066593/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~295449~90066593/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Indie Orientali ... Indie IIIo. Foglio",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Zatta, Antonio, active 1757-1797"
+                },
+                {
+                  "label": "Author",
+                  "value": "Pitteri, Giovanni Marco"
+                },
+                {
+                  "label": "Date",
+                  "value": "1784"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Indie Orientali ... Indie IIIo. Foglio"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Presso Antonio Zatta, e Figli"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Venice"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "10,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Engraved hand-colored in outline, double-page map of North Vietnam, southern China and Taiwan, with decorative title cartouche. Shows political divisions, cities, towns, rivers and mountains. Relief shown pictorially."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Phillips, 650"
+                },
+                {
+                  "label": "Country",
+                  "value": "India"
+                },
+                {
+                  "label": "Country",
+                  "value": "Vietnam"
+                },
+                {
+                  "label": "Country",
+                  "value": "Taiwan"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Indie Orientali di qua del Gange col Loro Arcipelago. Venezia 178(4). Presso Antonio Zatta, e Figli. G. Pitteri scr. (to accompany) Atlante novissimo ... Tomo IIII. Con privilegio dell Eccelimo Senato. (tomo I-IV)."
+                },
+                {
+                  "label": "List No",
+                  "value": "11598.204"
+                },
+                {
+                  "label": "Series No",
+                  "value": "204"
+                },
+                {
+                  "label": "Page No",
+                  "value": "(8)"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Zatta, Antonio, active 1757-1797"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1788"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlante novissimo, illustrato ed accresciuto sulle osservazioni, e scoperte fatte dai piu celebri e piu recenti geografi. In Venezia MDCCLXXXIV (1784), Presso Antonio Zatta. con privilegio dell Eccelimo Senato. (tomo I-IV)."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Phillips, 650"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Zatta's atlas in 4 volumes, dated MDCCLXXIX - MDCCLXXXIV (1779-1784). The most comprehensive world atlas issued in Italy in the 18th. century, based on observations and discoveries made by the most famous and most recent geographers. Volumes 2-4 have full engraved title pages, including borders with geographical instruments and maps, seaside scenes at bottom with a large globe and several putti engaged in mapmaking and observation and a scene in the center. Vol. I, has decorated engraved title page/frontispiece, dedication text \" a Sua Eccellenza il Signor Carlo Spinola ...\" and index. Bound in half leather marbled covered boards with \"Atlante novissi. Venez, 1788 P.A. Zat.\" stamped in gold on spine. 217 detailed maps, engraved hand colored, double-page, with title cartouches showing vignettes of topographical and historic scenes, dated 1774-1788. Some maps engraved by Giovanni Marco Pitteri, Giuliano Zuliani, and Pietro Antonio Novelli. Shows political and administrative divisions, cities, villages, landmarks, rivers, lakes, and mountains. Relief shown by hachures. Map of Guinea Orientale repeated twice, Guinea Occidentale is inserted, it was missing from volume IV. Maps of the New World and the Pacific reflect the most recent explorations and discoveries in those areas. Zatta includes 12 maps in reference to the United States \"Colonie Uniti\", dated 1778, which he also published in \"Storia Dell' America Settentrionale Del Signor Abate Raynal\" - see our 5007.000"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11598.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "217"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "27"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11598204.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/11598204.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Zatta, Antonio, active 1757-1797; Pitteri, Giovanni Marco"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~295449~90066593/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~295449~90066593/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~295449~90066593",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11486,
+                    "height": 8291
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~295449~90066593/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~295449~90066593/list/luna"
+              ],
+              "width": 11486,
+              "height": 8291
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~295449~90066593"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~339851~90108056/manifest",
+      "label": "Parte Meridionale della Chinapropria.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~339851~90108056/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~339851~90108056/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Parte Meridionale della Chinapropria.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Borghi, Bartolomeo, 1750-1821"
+                },
+                {
+                  "label": "Date",
+                  "value": "1818"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Parte Meridionale della Chinapropria."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Nella Stamperia Granducale"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Florence"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "22"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Note",
+                  "value": "Engraved political map of southern China, with hand-colored outlines delineating boundaries. Title translates to: [Southern part of the Chinese Empire]. Shows political boundaries, topography, drainage, coastlines, islands and routes of travel. Relief shown pictorially. With latitudinal and longitudinal lines, as well as two bar scales. Imprint beneath title. Map is 22 x 30 cm, on sheet 35 x 47 cm. Descriptive text appears on prior plate (127)."
+                },
+                {
+                  "label": "Country",
+                  "value": "China"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Political"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Parte Meridionale della Chinapropria, dell'A. B. Borghi. Firenze 1818."
+                },
+                {
+                  "label": "List No",
+                  "value": "14255.135"
+                },
+                {
+                  "label": "Series No",
+                  "value": "135"
+                },
+                {
+                  "label": "Page No",
+                  "value": "130"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Canacci, Giuseppe"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Borghi, Bartolomeo, 1750-1821"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1819"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlante generale dell'Ab. Bartolomeo Borghi, corredato di prospetti istorici-politici-civili-naturali di ciascheduno stato. Publicato a spese di Rosa Parigi, e del cre. Giulio Cesare Bertolini sotto la ditta Aristide Parigi e compo. e dai medesimi dedicato alla loro patria. Firenze 1819."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Not in Cremonini; Valerio, V. in Library of Congress, Images of the World, pp. 275-76; Valerio, V. “Italian atlases and their makers” in The Map Collector, Issue 45, pp. 11 & 14, atlas no. 25; Phillips 735; Tooley’s Dictionary of Mapmakers, A-D, p. 166; web site: http://www.senato.it/index.htm (search site under ‘borghi’ and click on first item)."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Borghi Bartolomeo’s Atlante generale [= General atlas], published in Florence in 1819. Borghi - Italian writer, mathematician and geographer - was born in 1750 in Monte del Lago, on the shores of Lake Trasimeno. Atlante generale was his main work. The atlas reflects the new geopolitical structure implemented by the Congress of Vienna (1814-1815). Bound in vellum-covered board, with marbled pattern. Abbreviated atlas title is gilded along spine, with authorship, publication place and year, in Roman numerals. Includes a portrait of Borghi engraved by Giuseppe Canacci. Also includes an index preceding maps. Collation: 175 plates. 137 of those plates contain engraved maps with hand-colored outlines. Some maps are composed of multiple plates (such as northern and southern parts), bringing the total number of complete maps to 123. Descriptive text precedes maps and includes tables listing geographical divisions. Maps show political boundaries, topography, drainage, coastlines, islands and routes of travel. Some maps show historical geography, including the ancient world, eras of political dominance such as that of the Ottoman Empire, the 18th century, and the 19th century, up to the time of publication. Maps of the Americas feature territories of indigenous peoples, and also delineate areas unexplored by Europeans. \"a rare and important Italian atlas. The library of the Senato della Repubblica only acquired a copyof this atlas this year (2008); the atlas is described on the library’s web site\nas “one of the rarest specimens complete.” Valerio  described this work as “the most important Florentine atlas…[It] remained an unsurpassed model for many other lesser and larger works.” One of the most important aspects of the atlas is that it incorporatedthe new geo-political contours of Europe decided upon at the Congress of\nVienna held at the end of the Napoleonic Wars. Accordingly, the 12 mapsof Italy and its various parts likewise reflect the new political order. Heldbetween November, 1814 and June, 1815 and chaired by the Austrian statesman, C. W. von Metternich, the Congress sought to re-draw the mapof Europe after the defeat of Napoleonic France in the previous year. Theresulting political changes for Italy were many, among them being the reestablishmentof traditional monarchies in the kingdoms of Sardinia, Sicily and Naples; the rule of the Hapsburg princes being re-established in the duchies of Tuscany and Modena; the restoration and extension of papalauthority in the Papal States; and a number of other changes. Accompanying text in the atlas explains the geo-political changes made inItaly and elsewhere.The atlas also gives close attention to the mapping of North America and is quite up-to-date in this regard. In addition to a single-sheet map of NorthAmerica, there is also a much more detailed four-sheet depiction of North America. One of the sheets has surprisingly good detail for the West,incorporating quite fully Lewis and Clark information. Another of the sheets has a well-detailed inset of the Northwest. Vermiglioli, in his biographical dictionary of Perugian writers, described Bartolomeo Borghi (1750-1821) as “one of the greatest geographers of Europe.” Early in his career, he was involved in the production of severalcartographic works, both his own and those of others, that were primarily of local Italian interest. The present atlas, however, is considered “his mostimportant work.”\"(Martayan Lan (2019)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14255.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "137"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "36"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "48"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14255135.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/195/14255135.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Borghi, Bartolomeo, 1750-1821"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~339851~90108056/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~339851~90108056/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~339851~90108056",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12151,
+                    "height": 9430
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~339851~90108056/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~339851~90108056/list/luna"
+              ],
+              "width": 12151,
+              "height": 9430
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~339851~90108056"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~349786~90117075/manifest",
+      "label": "365/366. KAART van de CHINEESCHE KUST en van FORMOSA volgens Nederlandsche grootendeels handschriftelyke kaarten van de zeventiende eeuw tezamengesteld door Jhr. Ph. Fr. von Siebold, 1849 . .",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~349786~90117075/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~349786~90117075/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "365/366. KAART van de CHINEESCHE KUST en van FORMOSA volgens Nederlandsche grootendeels handschriftelyke kaarten van de zeventiende eeuw tezamengesteld door Jhr. Ph. Fr. von Siebold, 1849 . .",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Siebold, Phillip Franz von"
+                },
+                {
+                  "label": "Date",
+                  "value": "1840"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "365/366. KAART van de CHINEESCHE KUST en van FORMOSA volgens Nederlandsche grootendeels handschriftelyke kaarten van de zeventiende eeuw tezamengesteld door Jhr. Ph. Fr. von Siebold, 1849 . ."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Ernst Wasmuth AG"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Berlin"
+                },
+                {
+                  "label": "Type",
+                  "value": "Book Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "49"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "65"
+                },
+                {
+                  "label": "Country",
+                  "value": "China"
+                },
+                {
+                  "label": "Country",
+                  "value": "Taiwan"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "365/366. KAART van de CHINEESCHE KUST en van FORMOSA volgens Nederlandsche grootendeels handschriftelyke kaarten van de zeventiende eeuw tezamengesteld door Jhr. Ph. Fr. von Siebold, 1849 . ."
+                },
+                {
+                  "label": "List No",
+                  "value": "15438.374"
+                },
+                {
+                  "label": "Series No",
+                  "value": "374"
+                },
+                {
+                  "label": "Page No",
+                  "value": "365/366 Plate"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Siebold, Phillip Franz von"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1930"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "NIPPON. ARCHIV ZUR BESCHREIBUNG VON JAPAN VOLLSTÄNDIGER NEUDRUCK DER URAUSGABE ZUR ERINNERUNG AN PHILIPP FRANZ VON SIEBOLDS ERSTES WIRKEN IN JAPAN 1823-1830 IN ZWEI TEXT- UND ZWEI TAFELBÄNDEN. DAZU EIN NEUER ERGÄNZUNGS- UND INDEXBAND VON DR. F. M. TRAUTZ HERAUSGEGEBEN VOM JAPANINSTITUT BERLIN (JAPAN. ARCHIVE TO DESCRIPTION OF JAPAN COMPLETE REPRINT OF THE FIRST EDITION IN MEMORIAM PHILIPP FRANZ VON SIEBOLDS FIRST WORK IN JAPAN 1823-1830 IN TWO TEXT AND TWO TABLE VOLUMES.  INTO A NEW ONE SUPPLEMENTARY AND INDEX VOLUME BY DR. F. M. TRAUTZ ISSUED BY THE JAPAN INSTITUTE BERLIN)"
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "For a copy of the 2 text volumes (courtesy of International Research Center for Japanese Studies) see https://rumsey3.s3.amazonaws.com/000138867.pdf"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"The cornerstone of geographical and cartographical exploration of pre-modern Japan is Philipp Franz von Siebold's \"Nippon\". The work was originally published over a period of 20 years from 1832 to 1852 with an edition of around 100 copies published by Siebold himself after being 8 years in Japan on duty for the Dutch. These 100 copies allocate to around 80 normal copies (in large quarto) while around 20 deluxe copies were published in imperial folio format with some plates coloured by hand and sold to monarchs like the Russian Czar, Queen Victoria, the Bavarian and Prussian Kings and the Emperor Franz Josef of Austria-Hungary. A nice circle of really important book collectors :-) The work is exceedingly rare and virtually all copies of that edition lack some maps, views, plates or explanatory text. 100 years later, in 1930, it was decided to re-publish the deluxe edition in a numbered edition of 300 copies. The private copy of Emperor Franz Josef of Austria-Hungary was selected as source material but publication met with bad timing (World Economic crisis). It was more than uncertain to publish this edition because in Europe just a few subscriptions (and even less in America) were found to get the project financed. Finally Maruzen - the largest bookseller in Tokyo - ordered around 150 of these 300 copies on his own risk and publication could be started: Two large quarto text volumes, one supplement/index volume of the same size (containing the first ever print of Siebold's groundbreaking Court Journey to Edo) and two imperial folio Atlas volumes containing more than 360 plates and maps. During that time - before US Commodore Perry opened Japan in 1854 - Japan was closed to all Western nations but The Netherlands. It was not only forbidden to bring maps of Japan outside the country but also to draw too accurate maps within Japan. While Siebold visited Edo 1826, he met the Japanese court astronomer Takahashi Kageyasu and the famous geographers Mogami Tokunai and Mamiya Rinzo, who provided Siebold with important cartographic information and a series of highly detailed manuscript maps. Many of these were by Ino Tadataka (1745-1818) who famously conducted the first modern mapping of Japan as well as compiling maps of Korea from the latest sources. That interest in cartography led to the so-called \"Siebold Incident\" which finally expelled him from Japan: In 1829, when officials accidentally discovered the map collection of Siebold, they were upset that a foreigner holds sources with such accurate and detailed geographical intelligence and military information. He was accused of being a Russian spy, brought under house arrest before he was expelled from the country. Surprisingly, the Japanese authorities did not confiscate all of Siebold's maps, allowing him to take them back to Europe. These maps are really impressive: large size, scientifically detailed and perfectly reproduced. They deal not only with heartland Japan, the Ryu-Kyu Kingdom (now Okinawa; then tributary to Japan) and Ezo (now Hokkaido) but also Taiwan, Sakhalin, strictly isolated Korea, The Kuriles and great parts of the East Chinese Sea. The whole Opus Magnum is printed on thick paper by \"Graphische Anstalt Ganymed\" - one of the best fine art printers in continental Europe at this time - and bound in solid half-leather by Wübben & Co. both located in Berlin. The reprint edition of 1930/1931 - so called \"Centenary Edition\" - receives the highest admiration among collectors because its plates are qualified as equal to the original plates when comparing. That's why some incomplete copies of the 1832 edition were completed with plates of the 1930/1931 edition. A lavishly produced edition which is nowadays as rare as the original edition. A work of great importance.\" Martin Nell, 2023) \"Phillip Franz von Siebold (1796-1866) was a German physician, who joined the service of the Dutch East India Company (the VOC). In 1822-23, he traveled to Batavia (modern Jakarta), the capital of the Dutch East Indies. Residing in Japan from 1823, he quickly made contact with the country's leading scholars, as well as many senior political officials, and steadily acquired an unprecedented collection of botanical and ethnographic specimens. Sielbold's intense intellectual curiosity also led him to search for the most advanced cartography of East Asia. Siebold's epic study of Japan and Korea, Nippon. Archiv zur Beschreibung von Japan und dessen Neben- und Schutzländern: jezo mit den südlichen Kurilen, Krafto, Koorai und den Liukiu-Inseln (7 volumes), was printed in Leiden, Netherlands, 1832-1852). Highly detailed and profusely illustrated, it was by far the finest and most important European study of the history, ethnography, geography and flora and fauna of Japan and Korea published to date. More than any other work, it showcased Japan and Korea to western intelligentsia, on the eve of the wholesale opening of these countries to European trade and exchange. Sielbold's intense intellectual curiosity led him to search for the most advanced cartography of Japan and Korea. While on a visit to Edo (modern Tokyo) in 1826, he befriended Takahashi Kageyasu, the Japanese court astronomer, who provided him with a series of sophisticated maps, many of which were by the late Ino Tadataka (1745-1818). Tadataka famously conducted the first modern mapping of Japan, as well as compiling maps of Korea from the latest sources. Curiously, it was Siebold's interest in cartography that led to the so-called \"Siebold Incident\", which resulted in his expulsion from Japan. While the Japanese authorities seemed tolerant, if not a little bemused, by Siebold's endeavors to collect natural specimens, this indulgence had its limitations. In 1829, when officials accidentally discovered Siebold's map collection, they were aghast that a foreigner possessed sources that contained such accurate and detailed geographical intelligence and military information. Accusing him of being a Russian spy, they placed him under house arrest, before expelling him from the country. Surprisingly, the Japanese authorities did not confiscate all of Siebold's maps, allowing him to take them back to Europe. Upon Siebold's return to Europe in 1830, he settled in the Dutch university town of Leiden. He soon opened a magnificent museum for his specimen collection, and set to work on his monumental publication of Nippon, a project that would last 20 years. During this period he carefully prepared finished manuscript maps, in preparation for them to be lithographed.\" (Alexander Johnson and Dasa Pahor, 2018) The Japanese artist who created views for Philipp Franz von Siebold in the 1820s was named Kawahara Keiga. He was a Japanese painter and draughtsman who produced many illustrations and sketches of Japanese flora, fauna, landscapes, and daily life for von Siebold's study and collection. Kawahara Keiga is considered one of the most important artists who documented Japan during the Edo period. His works provide a valuable insight into Japanese culture and society of the time."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15438.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15438374.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/15438374.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Siebold, Phillip Franz von"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~349786~90117075/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~349786~90117075/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~349786~90117075",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 16788,
+                    "height": 13014
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~349786~90117075/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~349786~90117075/list/luna"
+              ],
+              "width": 16788,
+              "height": 13014
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~349786~90117075"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~353254~90120548/manifest",
+      "label": "China.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~353254~90120548/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~353254~90120548/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "China.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Cram, George Franklin, 1841-1928"
+                },
+                {
+                  "label": "Date",
+                  "value": "1899"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "China."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Geo. F. Cram"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Chicago"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "26"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "39"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "9,500,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map of China. Shows political boundaries, cities, railroads, topography, bodies of water, drainage, coastlines and islands. Relief shown with hachures. Includes latitudinal and longitudinal lines, as well as a bar scale given in miles. Provides figures for square milage and population. Map indexed to indicate place names. Inset map: Islands of Japan. Colored lithograph. Map is 26 x 39 cm, on sheet 33 x 45 cm."
+                },
+                {
+                  "label": "Country",
+                  "value": "China"
+                },
+                {
+                  "label": "Country",
+                  "value": "Japan"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Railroad"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "China."
+                },
+                {
+                  "label": "List No",
+                  "value": "14372.339"
+                },
+                {
+                  "label": "Series No",
+                  "value": "339"
+                },
+                {
+                  "label": "Page No",
+                  "value": "579"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Cram, George Franklin, 1841-1928"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Cram, George Franklin, 1841-1928"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1899"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Cram's standard American railway system atlas of the world. Accompanied with a complete and simple index of the United States showing the true location of all railroads, towns, villages and post offices ... Maps of the United States are the largest scale and clearest print of any maps published. Foreign maps are compiled largely from charts of the Royal Geographical Society and are geographically correct. Published by Geo. F. Cram, 89 Fulton Street, New York; 61-63 Plymouth Place, Chicago, 1899."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Cram's standard American railway system atlas of the world, by George F. Cram; published in New York and Chicago, 1899. Bound in dark teal-colored board, which has been reinforced with duct tape. Front cover includes title, advertisement and \"Index to United States, Canada and Mexico maps\". With green floral end papers. Collation: 2° : [1-4], 5-510, 515-608, [1-42] pages. Atlas comprised of 231 maps, with geographic coverage of the United States as a whole and each of its fifty states, as well as Canada, Central America, South America, the West Indies, Europe, the Middle East, Asia, Africa, the East Indies, Australia and New Zealand. Also, with several city maps, including San Francisco, New York, Philadelphia, Detroit, Atlanta, Dallas and Denver. Maps show political boundaries, counties, towns, Indian reservations, mines, railroads, roads, steamship lines, topography, bodies of water, drainage, coastlines, islands and water routes with distances. Some maps provide figures for square mileage and population. Volume includes title page, table of contents, and index pages associated with state maps, as well as 42 (unnumbered) pages with “Special list of attorneys in every banking town in the United States” and “Bank directory containing one or more principal banks and bankers in each city and town in the United States, who make a specialty of collections and general banking business”. According to the title, “Maps of the United States are the largest scale and clearest print of any maps published. Foreign maps are compiled largely from charts of the Royal Geographical Society and are geographically correct.” For the 1901 edition of the atlas, see Pub List No. 2809.000."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14372.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Thematic Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "231"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14372339.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/14372339.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Cram, George Franklin, 1841-1928"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~353254~90120548/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~353254~90120548/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~353254~90120548",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 7140,
+                    "height": 5394
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~353254~90120548/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~353254~90120548/list/luna"
+              ],
+              "width": 7140,
+              "height": 5394
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~353254~90120548"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~3983~490062/manifest",
+      "label": "La Chine.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~3983~490062/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~3983~490062/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "La Chine.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Robert de Vaugondy, Didier, 1723-1786"
+                },
+                {
+                  "label": "Author",
+                  "value": "Robert de Vaugondy, Gilles, 1688-1766"
+                },
+                {
+                  "label": "Date",
+                  "value": "1751"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "La Chine."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Boudet"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Les Auteurs"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "49"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "53"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "6,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Engraved map. Hand col. borders. Relief shown pictorially. Ornamental cartouche."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Pedley. Belle et utile, p. 201 no. 408."
+                },
+                {
+                  "label": "Country",
+                  "value": "China"
+                },
+                {
+                  "label": "Country",
+                  "value": "Korea"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "L'Empire de la Chine, Dresse d'apres les cartes de l'Atlas Chinois. Par le Sr. Robert de Vaugondy, Geographe ordinaire du Roi. Avec Privilege. 1751."
+                },
+                {
+                  "label": "List No",
+                  "value": "3353.094"
+                },
+                {
+                  "label": "Series No",
+                  "value": "99"
+                },
+                {
+                  "label": "Page No",
+                  "value": "no.93"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Robert de Vaugondy, Didier, 1723-1786"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Robert de Vaugondy, Gilles, 1688-1766"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1757"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlas Universel, Par M. Robert Geographe ordinaire du Roy, et Par M. Robert De Vaugondy son fils Geographe ord. du Roy, et de S. M. Polonoise, Duc de Lorraine et de Bar, et Associe de L'Academie Royale des Sciences et belles Lettres de Nancy, Avec Privilege Du Roy, 1757. A Paris, Chez Les Auteurs ,Quay de l'Horloge du Palais, Boudet Libraire Imprimeur du Roi, rue St. Jacques. Grave par Ch. Baquoy. J. Oger Scripsit..."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Phillips, 619 (1757/1758); Pedley. Belle et utile, p. 227; Fordham, Studies in Cartobibligraphy p. 165."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "1st edition, with five postal maps added, as issued. With the list of subscribers and the extra postal maps of England, France, Germany, Italy and Spain. The French postal map is dated 1758. All five were added after the printed list of maps was printed, but are mentioned by Vaugondy in the preface, so they may have been an afterthought. An owner has added their titles to the printed list of maps, in ms. Engraved title page, Advertisement, and Geographical essay giving the sources of the maps. This atlas was reissued until 1799 (Phillips), with later issues having a map of the United States. In original half leather patterned paper covered boards with spine reading \"Nouvel Atlas De Mrs. Robert.\" One of the first atlases based on scientific surveys, in the tradition of D'Anville and De L'Isle. Outline color."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "3353.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "108"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Image No",
+                  "value": "3353094"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0049/3353094.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Robert de Vaugondy, Didier, 1723-1786 ; Robert de Vaugondy, Gilles, 1688-1766"
+                },
+                {
+                  "label": "Collection",
+                  "value": "Rumsey Collection"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~3983~490062/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~3983~490062/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~3983~490062",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11130,
+                    "height": 7120
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~3983~490062/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~3983~490062/list/luna"
+              ],
+              "width": 11130,
+              "height": 7120
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~3983~490062"
+    }
+  ]
+}
