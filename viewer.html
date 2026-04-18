@@ -34,7 +34,7 @@
   </style>
 </head>
 <body class="view-only">
-  <div class="container">
+ <div class="container">
     <div class="left-panel">
       <div class="header">
         <div class="header-top">
@@ -48,54 +48,74 @@
             <a href="#" id="toggleViewer" class="control-link">Hide Viewer</a>
           </div>
         </div>
-      </div>
 
-      <!-- Keep all controls in DOM so script.js can bind to them; CSS hides them in view-only -->
-      <div id="inputPanel" class="input-panel">
-        <!-- Builder controls (hidden in view-only) -->
-        <div class="input-section">
-          <label for="manifestUrl" class="section-label">Add IIIF Manifests</label>
-          <input type="text" id="manifestUrl" placeholder="Enter IIIF Manifest URLs (comma-separated)" />
-          <button id="addManifest">Add Manifest(s)</button>
-        </div>
-        
+    <div class="section-divider"></div>
+   <!-- Keep all controls in DOM so script.js can bind to them; CSS hides them in view-only -->
+         
+        <div id="inputPanel" class="input-panel">
+  <!-- Builder controls (hidden in view-only) -->
+  <!-- Add Manifests Section -->
+  <div class="input-section">
+    <label for="manifestUrl" class="section-label">Add IIIF Manifests</label>
+    <input type="text" id="manifestUrl" placeholder="Enter IIIF Manifest URLs (comma-separated)" />
+    <button id="addManifest">Add Manifest(s)</button>
+  </div>
 
-        <div class="section-divider"></div>
+  <div class="section-divider"></div>
 
-        <div class="input-section">
-          <label class="section-label">Load Gallery</label>
-          <div class="load-option">
-            <label for="uploadManifest" class="file-input-label">Choose File</label>
-            <input type="file" id="uploadManifest" accept=".json" style="display: none;" />
-            <span id="fileName" class="file-name">No file chosen</span>
-          </div>
-          <div class="load-option-divider">OR</div>
-          <div class="load-option">
-            <input type="text" id="galleryUrl" placeholder="Paste gallery JSON URL" />
-          </div>
-          <button id="loadFromUrl">Load from URL</button>
-        </div>
+  <!-- Load Gallery Section -->
+  <div class="input-section">
+    <label class="section-label">Load Gallery</label>
+    
+    <div class="load-option">
+  <label for="uploadManifest" class="file-input-label">Choose File</label>
+  <input type="file" id="uploadManifest" accept=".json" style="display: none;" />
+  <span id="fileName" class="file-name">No file chosen</span>
+</div>
 
-        <div class="section-divider"></div>
+    <div class="load-option-divider">OR</div>
 
-        <div class="input-section">
-          <label for="manifestName" class="section-label">Save Gallery</label>
-          <input type="text" id="manifestName" placeholder="Enter gallery name (optional - auto-generated if empty)" />
-          <button id="saveLocally">💾 Save Locally</button>
-        </div>
-      </div>  <!-- Close inputPanel -->
- </div> <!-- Close header -->
-      <div id="gallery"></div>
-    </div> <!-- Close left-panel -->
+    <div class="load-option">
+      <input type="text" id="galleryUrl" placeholder="Paste gallery JSON URL" />
+    </div>
+    <button id="loadFromUrl">Load from URL</button>
+  </div>
 
-    <!-- Resizable divider and viewer -->
+  <div class="section-divider"></div>
+
+  <!-- Save Gallery Section -->
+<div class="input-section">
+  <label for="manifestName" class="section-label">Save Gallery</label>
+  <input type="text" id="manifestName" placeholder="Enter gallery name">
+
+  <div class="export-buttons-row">
+<button id="saveLocally">💾  Save File</button>
+
+    <button id="exportForViewers" class="export-iiif-btn" title="Export for IIIF Viewers">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" 
+           alt="Export Manifest" 
+           class="iiif-export-icon">
+    </button>
+  </div>
+  </div> <!-- Close input-section -->
+</div> <!-- Close inputPanel -->
+</div> <!-- Close header -->
+
+<div id="gallery"></div>
+   </div> <!-- Close left-panel -->
+  
+    <!-- Resizable divider -->
     <div id="resizer"></div>
-    <div id="viewer"></div>
+    
+    <div id="viewer">
+      <div id="viewerHint">Click any thumbnail to load an image.</div>
+    </div>
+  </div> <!-- Close container -->
+    
 
-    <!-- Include script.js exactly once -->
     <script src="script.js"></script>
-
-    <!-- Page Selector Modal (required so script.js event binding doesn't fail) -->
+    
+    <!-- Page Selector Modal -->
     <div id="pageSelectorModal" class="modal">
       <div class="modal-content">
         <div class="modal-header">
