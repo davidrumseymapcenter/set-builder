@@ -3685,6 +3685,1056 @@
         "format": "image/png"
       },
       "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~3983~490062"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~976~80024/manifest",
+      "label": "North America.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~976~80024/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~976~80024/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "North America.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Darton, William"
+                },
+                {
+                  "label": "Date",
+                  "value": "1814"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "North America."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "William Darton"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Puzzle Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "36,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Very early map puzzle. The map is from Darton's Union Atlas (see our copy, #4767). Map has some color and has obviously faded with some small sections missing from a few pieces."
+                },
+                {
+                  "label": "Reference",
+                  "value": "cf P719."
+                },
+                {
+                  "label": "World Area",
+                  "value": "North America"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "North America, from the Latest Authorities. Engraved by Willm. Darton. No. 58, Holborn Hill. Published Jany. 26, 1814 by Willm. Darton, London."
+                },
+                {
+                  "label": "List No",
+                  "value": "3407.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Darton, William"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1814"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "A New Map of America, Dissected for the Instruction of Youth in Geography. (with) North America, from the Latest Authorities. Engraved by Willm. Darton. No. 58, Holborn Hill. Published Jany. 26, 1814 by Willm. Darton, London."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "cf P719."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "3407.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Puzzle"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "19"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "14"
+                },
+                {
+                  "label": "Image No",
+                  "value": "3407001"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0008/3407001.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Darton, William"
+                },
+                {
+                  "label": "Collection",
+                  "value": "Rumsey Collection"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~976~80024/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~976~80024/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~976~80024",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 3596,
+                    "height": 3112
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~976~80024/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~976~80024/list/luna"
+              ],
+              "width": 3596,
+              "height": 3112
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~976~80024"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/wy040nf4201/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[Playing card maps]",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/wy040nf4201.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/wy040nf4201'>https://purl.stanford.edu/wy040nf4201</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[Playing card maps]"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Pictorial maps."
+        },
+        {
+          "label": "Type",
+          "value": "Puzzles and games."
+        },
+        {
+          "label": "Format",
+          "value": "36 maps on 12 playing cards : engraving, hand colored ; 22 x 15 each"
+        },
+        {
+          "label": "Language",
+          "value": "French"
+        },
+        {
+          "label": "Description",
+          "value": "Game."
+        },
+        {
+          "label": "Description",
+          "value": "12 pictorial hand colored game cards, each mounted on a heavy cardboard, backed with decorative cloth. Each card organized as a set of playing cards, includes 3 geographical maps of the major countries and continents of the world, and a portrait showing the costume of the area covered. Each map showing capitals and major cities. Date estimated."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 11295.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Pictorial maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Playing cards > Maps > 19th century"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale not given."
+        },
+        {
+          "label": "Date",
+          "value": "1842"
+        },
+        {
+          "label": "Date",
+          "value": "1842"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/wy040nf4201"
+        },
+        {
+          "label": "Publisher",
+          "value": "publisher not identified,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-12"
+        }
+      ],
+      "description": "Game.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/bx587xc6367%2F11295001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/bx587xc6367%2F11295001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 278,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/wy040nf4201/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/wy040nf4201/iiif/canvas/cocina-fileSet-yf386wq6372-yf386wq6372_1",
+              "@type": "sc:Canvas",
+              "label": "(Playing card maps). 13-16. Amerique. Etats Unis. Colombie",
+              "height": 7184,
+              "width": 5022,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/yf386wq6372/11295005.jp2",
+                  "label": "Original source file (6.49 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/wy040nf4201/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fyf386wq6372-yf386wq6372_1%2F11295005.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/wy040nf4201/iiif/canvas/cocina-fileSet-yf386wq6372-yf386wq6372_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/yf386wq6372%2F11295005/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7184,
+                    "width": 5022,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/yf386wq6372%2F11295005",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/tb002yw1058/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Le Jeu du Monde dédié à Monsieur, Monsieur le Comte de Vivone, premier gentilhome de chambre du Roy par son très humble et très obéissant serviteur Duval",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/tb002yw1058.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/tb002yw1058'>https://purl.stanford.edu/tb002yw1058</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Le Jeu du Monde dédié à Monsieur, Monsieur le Comte de Vivone, premier gentilhome de chambre du Roy par son très humble et très obéissant serviteur Duval"
+        },
+        {
+          "label": "Contributor",
+          "value": "Duval, Pierre (1618-1683)."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 40 x 50 cm."
+        },
+        {
+          "label": "Description",
+          "value": "Game."
+        },
+        {
+          "label": "Description",
+          "value": "Separate Map."
+        },
+        {
+          "label": "Description",
+          "value": "This is one of the earliest geographical games that we have seen. Only one other copy is known of this game, held by the Bibliothèque nationale de France. The object of the game is to progress from the outer parts of the world in towards the center (France) by rolling dice and moving each player's piece from circle to circle on the board. California is shown as an island in circle 5. Duval also made a similar game of France."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 6728.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Children's Maps > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "World > Maps"
+        },
+        {
+          "label": "Date",
+          "value": "1645"
+        },
+        {
+          "label": "Date",
+          "value": "1645"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/tb002yw1058"
+        },
+        {
+          "label": "Publisher",
+          "value": "Pierre Duval,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-01-06"
+        }
+      ],
+      "description": "Game.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/tb002yw1058%2F6728000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/tb002yw1058%2F6728000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 303
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/tb002yw1058/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/tb002yw1058/iiif/canvas/cocina-fileSet-tb002yw1058-tb002yw1058_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 8442,
+              "width": 11152,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/tb002yw1058/6728000.jp2",
+                  "label": "Original source file (16.9 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/tb002yw1058/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Ftb002yw1058-tb002yw1058_1%2F6728000.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/tb002yw1058/iiif/canvas/cocina-fileSet-tb002yw1058-tb002yw1058_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/tb002yw1058%2F6728000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 8442,
+                    "width": 11152,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/tb002yw1058%2F6728000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~428~80001/manifest",
+      "label": "Terrestrial Globe.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~428~80001/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~428~80001/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Terrestrial Globe.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Geographic Educator"
+                },
+                {
+                  "label": "Date",
+                  "value": "1927"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Terrestrial Globe."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Geographic Educator"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Globe"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "14"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "14"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "80,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Opens up to reveal six sections in layers. The opening portions are like a puzzle, with the various states its pieces. Layers from bottom to top include: 1. Australia. 2. South America. 3. Africa. 4. Asia. 5. North America (with states delineated). 6. Europe. Total height from base to top of the globe is eleven inches. The globe itself is 5.5 inches."
+                },
+                {
+                  "label": "Reference",
+                  "value": "None found."
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Terrestrial Globe - 6\" Dia. - Geographic Educator. New York, U.S.A. Printed in U.S.A. Copyright 1927."
+                },
+                {
+                  "label": "List No",
+                  "value": "0296.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Geographic Educator"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1927"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Terrestrial Globe - 6\" Dia. - Geographic Educator. New York, U.S.A. Printed in U.S.A. Copyright 1927."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "None found."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "0296.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Globe"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "14"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "14"
+                },
+                {
+                  "label": "Image No",
+                  "value": "0296000"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0008/0296000.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Geographic Educator"
+                },
+                {
+                  "label": "Collection",
+                  "value": "Rumsey Collection"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~428~80001/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~428~80001/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~428~80001",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 7677,
+                    "height": 4984
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~428~80001/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~428~80001/list/luna"
+              ],
+              "width": 7677,
+              "height": 4984
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~428~80001"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~20625~580029/manifest",
+      "label": "Plano y vista de las Islas de Chincha.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~20625~580029/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~20625~580029/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Plano y vista de las Islas de Chincha.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Paz Soldan, Mariano Felipe, 1821-1886"
+                },
+                {
+                  "label": "Date",
+                  "value": "1865"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Plano y vista de las Islas de Chincha."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Libreria de Augusto Durand."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "19"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Lithographed map and view. in black and sepia. Relief shown by hachures. View shows ships, buildings, trees, etc."
+                },
+                {
+                  "label": "Country",
+                  "value": "Peru"
+                },
+                {
+                  "label": "Region",
+                  "value": "Chincha Islands (Peru)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Plano de las Islas de Chincha. Vista de las Islas de Chincha. Paz Soldan. Geografia del Peru. Paris 1864, F. Delamare. Imp. H. Jacomme, Calle d'Angouleme, 92, Paris. (Paris, Libreria de Augusto Durand, 1865)"
+                },
+                {
+                  "label": "List No",
+                  "value": "4363.064"
+                },
+                {
+                  "label": "Series No",
+                  "value": "73"
+                },
+                {
+                  "label": "Page No",
+                  "value": "pl. LX"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Delamare, F."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Jacomme, H."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Paz Soldan, Mariano Felipe, 1821-1886"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1865"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlas geografico del Peru, publicado a expensas del Gobierno Peruano, siendo Presidente el Libertador Gran Mariscal Ramon Castilla, por Mariano Felipe Paz Soldan ... Paris, Libreria de Augusto Durand, Calle de Gres-Sorbonne, 7. 1865. Paris. - Imprenta de Ad. Laine y J. Havard, Calle des Saints-Peres, No. 19."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Sabin 59325; cf Phillips 2769 (Paris: Fermin Didot Hermanos), Phillips 5150 (A. Durand, French Edition); The Map Collector 67, pp 14-18, M. Layland; NMM 487; Phillips. Maps of America, p. 696 (Didot ed.); Catalogue of maps of Hispanic America, v. 2, p. 1"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "The first Atlas of Peru, with wonderful maps, plans, thematic maps, views and statistical information. The atlas exudes the optimism of the period. In addition to the forty five maps and plans, there are twenty three views and scenes, including a very large fold out panorama of Paz Soldan's home city of Arequipa. This issue's title page is the same as Sabin's; the title of the copy listed in Phillips does not have the dedication to Castilla and has Fermin Didot Hermanos as the publisher - which is also the case with the copy owned and described by Michael Layman in TM C. Apparently there were two Spanish issues made in the same year in Paris; Durand also published a Paris edition in French in 1865. The contents of our copy and Layland's copy appear to be identical, so perhaps only the title pages were different. Nine of the Department maps in our copy are hand colored, with the rest uncolored (normally the Department maps are uncolored). Paz Soldan published a large six sheet Mapa del Peru in 1864 (see The Map Collector). Atlas is bound in half leather brown marbled paper covered boards with \"Paz Soldan. Atlas Geografico Del Peru\" stamped in gold on the spine."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "4363.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "45"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "54"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Image No",
+                  "value": "4363064"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0058/4363064.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Paz Soldan, Mariano Felipe, 1821-1886"
+                },
+                {
+                  "label": "Collection",
+                  "value": "Rumsey Collection"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~20625~580029/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~20625~580029/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~20625~580029",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 5200,
+                    "height": 6843
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~20625~580029/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~20625~580029/list/luna"
+              ],
+              "width": 5200,
+              "height": 6843
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~20625~580029"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~291869~90063414/manifest",
+      "label": "Composite: Globe Gores 1 - 4. Martin Behaim's Erdapfel, 1492. (Facsimile of Behaim's Globe).",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~291869~90063414/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~291869~90063414/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Composite: Globe Gores 1 - 4. Martin Behaim's Erdapfel, 1492. (Facsimile of Behaim's Globe).",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Behaim, Martin, 1459-1507"
+                },
+                {
+                  "label": "Author",
+                  "value": "Ravenstein, Ernest George, 1834-1913"
+                },
+                {
+                  "label": "Date",
+                  "value": "1492"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Composite: Globe Gores 1 - 4. Martin Behaim's Erdapfel, 1492. (Facsimile of Behaim's Globe)."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "George Philip, Son & Nephew, Ltd."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Globe Gores"
+                },
+                {
+                  "label": "Type",
+                  "value": "Composite Map"
+                },
+                {
+                  "label": "Note",
+                  "value": "Composite of four sheets of globe gores joined. 12 Gores and 2 Polar Calottes, Date of original."
+                },
+                {
+                  "label": "Reference",
+                  "value": "View Globe in Google Earth: http://rumsey3.s3.amazonaws.com/World%201492.kmz"
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Composite of) Globe Gores 1 - 4. Martin Behaim's Erdapfel, 1492. (Facsimile of Behaim's Globe)."
+                },
+                {
+                  "label": "List No",
+                  "value": "12237.020"
+                },
+                {
+                  "label": "Series No",
+                  "value": "20"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Behaim, Martin, 1459-1507"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ravenstein, Ernest George, 1834-1913"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1908"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Martin Behaim, his Life and his Globe. By E.G. Ravenstein, F.R.G.S., First Victoria Gold Medallist of the Royal Geographical Society, with a Facsimile of the Globe Printed in Colours, Eleven Maps and Seventeen Illustrations. London, George Philip, Son & Nephew, Ltd., 45-51, South Castle Street, 1908."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Martin Behaim's Erdapfel (earth apple) is the oldest surviving terrestrial globe. It exists in only one manuscript copy painted by Georg Glockendon, held Nuremberg, Germany. It shows the world according to Ptolemy and other sources, before the discovery of America by Columbus in the same year as the globe was made, 1492. Behaim's globe vividly shows the earth without America and illustrates why Columbus thought he could sail directly west from Europe and land in China and the East Indies. This facsimile of Behaim's globe gores and callots was made by E.G. Ravenstein in 1908 and is generally considered the best available facsimile. It is based on both the original globe and an earlier facsimile made in 1847 by E.F.Jomard, as well as other sources for the notes and place names. While it is by no means a completely faithful copy of the original, it does express the overall intent of Behaim's globe. We have georeferenced the 12 globe gores and 2 polar callots, allowing the reprojection of the 14 separate sections into continuous world maps on several different projections. We have also placed a virtual globe version in Google Earth:"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12237.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Globe Gores"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "11"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12237020.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/12237020.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Behaim, Martin, 1459-1507 ; Ravenstein, Ernest George, 1834-1913"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~291869~90063414/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~291869~90063414/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~291869~90063414",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 38324,
+                    "height": 15544
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~291869~90063414/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~291869~90063414/list/luna"
+              ],
+              "width": 38324,
+              "height": 15544
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~291869~90063414"
     }
   ]
 }
