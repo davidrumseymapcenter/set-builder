@@ -4735,6 +4735,1052 @@
         "format": "image/png"
       },
       "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~291869~90063414"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338308~90106049/manifest",
+      "label": "[View of seafarers].",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~338308~90106049/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338308~90106049/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "[View of seafarers].",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Blaeu, Willem Janszoon, 1571-1638"
+                },
+                {
+                  "label": "Date",
+                  "value": "1620"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "[View of seafarers]."
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "26"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Note",
+                  "value": "View showing a group of men using globes, maps and other tools to chart navigational plans, with a roiling sea in the background, sailed by numerous vessels. Black and white engraving. View is 23 x 27 cm, on sheet 26 x 29 cm. (Title supplied by cataloger.)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "[View of seafarers]."
+                },
+                {
+                  "label": "List No",
+                  "value": "14351.004"
+                },
+                {
+                  "label": "Series No",
+                  "value": "4"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Blaeu, Willem Janszoon, 1571-1638"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1620"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Het Licht der Zee-vaert daerinne claersyck beschreven ende afghebeeldet werdé, alle de Custen end Havenen; vande Westersche, Noordsche, Oostersche ende Middelandsche Zee'n. Dock van vele Landen, Eylanden ende plaetsen van Guinea, Brasilien, Oost ende West-Indien. Wt de alderbeste Zeebeschryvers gheschriften (als Locas Ians z. Waghenaer ende meer andere) eenfdeels vergadert: maer uyt vele ervarene Zeevaerders schriften ende mondtlycke verclaringhen van alle verlopen ghebetert, ende met veel nieuwe beschryvinghen ende Caerten seer vermeerdert. Alles ghedeelt in vier boecken, waer van yders inhoudt voor elck uytghedruckt staet. Hier zyn byghevoeght (beneffens eene onderwysinghe in de conste der Zeevaert) nieuwe tafelen van der zonnen declinatie, gherekent uyt de observation van Tyche Brahe, ende gherecht op de Meridiaen van Amsterdam. Midsgaders nieuwe tafelenende onderwys van't recht ghebruyck der Noordsterre ende andere vaste sterren alle Zeevarende luyden te nut ghedaen. Door Willem Ians Zoon. Tot Amsterdam. Anno 1620."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "https://ota.bodleian.ox.ac.uk/repository/xmlui/bitstream/handle/20.500.12024/A16189/A16189.html?sequence=5&isAllowed=y"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Het Licht der Zee-vaert, by Willem Blaeu; published in Amsterdam, 1620. Title translates to: The light of the sea. This chart atlas was Blaeu's first atlas. Initially published in 1608, this is the fifth Dutch edition with 38 (of 42) maps. Oblong quarto. Engraved title, engraved frontispiece, 38 mostly double-page engraved charts (of 42, lacking 4 maps of Denmark), woodcut illustrations and diagrams within the text, 1 with volvelle (lacking 1), letterpress tables within decorative woodcut borders. Volume comprised of 261 woodcut coastal profiles in the text, illustrations, tables and charts. Recent fine full calf binding with richly gilt spine in compartments. Collation: Engraved title, (2), engraved frontispiece, 54 pp. (A4-F4, G2) lacking 2 pages; (2, title to Eerste Boeck), [1-8], 9-119, (1 blank) pp. (2, title to Tvveede Boeck), 3-130, [131] pp. 38 engraved maps (lacking 4). Probably lacking 1 volvelle in the beginning. Lacking 4 maps of Denmark, numbers 21-22, 24-25. Het Licht der Zee-vaert was the first book produced by the Blaeu publishing house, heralding a golden age of atlas production, and survives in only a few copies. It is one of the most important Dutch pilot-guides. Blaeu's pilot books were divided into chapters, each containing navigational instructions for specific sections of coastline, accompanied by a finely engraved coastal chart for each section. Map titles appeared in Dutch and French, with woodcut profile views illustrating the text. Blaeu included an editorial commentary at the beginning of the volume, condemning the generally held view of mariners that manuscript charts were better and more accurate than printed sea charts. Blaeu questioned the widely held belief of the time that manuscript charts were updated on a daily basis. Maps show the coasts of England, Scotland, Ireland, Norway, Sweden, Russia, Finland, Baltics, Pomerania, Spain, France, Northern Africa, Canaries, Maderia, etc. Richly embellished with decorative cartouches, sailing ships, sea-monsters, compass roses and sometimes with insets. The map \"Carte van de Reede ende Haven van Medenblick\" in the beginning, was not published until the edition 1618, and only published with the Dutch title until 1620 (the cartouche for the French title was, as in this case, blank). In 1618, Blaeu added a third chapter, covering the coastline of the Mediterranean. The first two charts, signed by Blaeu as Willem Jansz, cover the eastern and western Mediterranean. Willem Blaeu's earliest work focused on navigational aids for mariners. His first publication in this field was his Nieuw graetbouck, for which there are no known surviving examples. His next works of importance were two pilot guides, the Het licht der Zee-vaert and Zeespiegel (first edition 1623).  In 1621, Johannes Jansson published a direct copy of Blaeu’s pilot guide Het licht der Zee-vaert, as Blaeu’s copyright had expired. Blaeu, in turn, competed against Jansson and his brother-in-law Henricus Hondius by producing an atlas, which spurred a rivalry lasting for over 50 years.  Blaeu (1571-1638) was a prominent Dutch geographer and publisher. Born the son of a herring merchant, Blaeu became mathematician and astronomer. He studied with the Danish astronomer Tycho Brahe, with whom he honed his instrument and globe making skills. Blaeu set up shop in Amsterdam, where he sold instruments and globes, published maps, and edited the works of intellectuals such as Descartes and Hugo Grotius. In 1630 he issued his first world atlas, Atlas Appendix (see our 12202.000). In 1635, he released his atlas, Theatrum Orbis Terrarum, sive, Atlas novus. Willem died in 1638. He had two sons, Cornelis (1610-1648) and Joan (1596-1673). Joan trained as a lawyer, but joined his father’s business rather than practice law. After his father’s death, the brothers took over their father’s shop and Joan took on his work as hydrographer to the Dutch East India Company. Later in life, Joan would modify and greatly expand his father’s Atlas novus, eventually releasing his own masterpiece, the Atlas maior, between 1662 and 1672 (see our 10017.000)."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14351.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Chart Atlas"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "27"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14351004.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/195/14351004.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Blaeu, Willem Janszoon, 1571-1638"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338308~90106049/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338308~90106049/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338308~90106049",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 7828,
+                    "height": 6822
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338308~90106049/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338308~90106049/list/luna"
+              ],
+              "width": 7828,
+              "height": 6822
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~338308~90106049"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328421~90096932/manifest",
+      "label": "L'Orbe cattolico.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~328421~90096932/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328421~90096932/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "L'Orbe cattolico.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Petri, Girolamo"
+                },
+                {
+                  "label": "Date",
+                  "value": "1858"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "L'Orbe cattolico."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Tipografia della Reverenda Camera Apostolica"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Rome"
+                },
+                {
+                  "label": "Type",
+                  "value": "Covers"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "59"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "82"
+                },
+                {
+                  "label": "Note",
+                  "value": "Covers to Volume I. Bound in board. Front cover includes title and part number; back cover includes imprint; both surrounded by decorative border. Spine title: Petri; L'Orbe cattolico; Pr. I."
+                },
+                {
+                  "label": "Full Title",
+                  "value": "L'Orbe cattolico ossia atlante georgrafico storico ecclesiastico. Parte prima. Roma, Tipografia della Reverenda Camera Apostolica, 1858."
+                },
+                {
+                  "label": "List No",
+                  "value": "14007.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Petri, Girolamo"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1859"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "L'Orbe cattolico ossia atlante georgrafico storico ecclesiastico opera del commendatore Girolamo Petri, officiale minutante nella segreteria di stato."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "For additional descriptive text, see the three volumes published along with the atlases, click here to download: https://rumsey3.s3.amazonaws.com/L_orbe_cattolico_ossia_atlante_geografic_vol_1_2_3.pdf"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Three-volume ecclesiastical atlas from 1859, showing the geographical reach of the Catholic church around the world, in 138 maps featuring ecclesiastical provinces, dioceses and apostolic vicariates. Includes table of contents in each volume. Volume I contains 45 maps; Volume II contains 53 maps; Volume III contains 40 maps, amounting to a total of 138 maps. Short titles for maps and text transcribed from tables of contents; full titles transcribed from map and text pages. Volume III table of contents contains extended titles, which refer to sections in the descriptive text accompanying maps. Four maps of Spain do not appear in atlas, but descriptive text is present: Tav. XLVII, XLVIII, XLIX and L in Volume II."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14007.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Religious Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "138"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "59"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "82"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14007001.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/185/14007001.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Petri, Girolamo"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328421~90096932/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328421~90096932/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328421~90096932",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 24274,
+                    "height": 9079
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328421~90096932/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328421~90096932/list/luna"
+              ],
+              "width": 24274,
+              "height": 9079
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~328421~90096932"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328426~90096929/manifest",
+      "label": "Descrizione del globo in due emisferi.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~328426~90096929/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328426~90096929/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Descrizione del globo in due emisferi.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Petri, Girolamo"
+                },
+                {
+                  "label": "Date",
+                  "value": "1858"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Descrizione del globo in due emisferi."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Tipografia della Reverenda Camera Apostolica"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Rome"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "53"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "75,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Hand-colored, engraved world map represented in eastern and western hemispheres. In Volume I."
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Descrizione del globo in due emisferi, nella quale, sono indicate tutte le scoperte finora fatte."
+                },
+                {
+                  "label": "List No",
+                  "value": "14007.006"
+                },
+                {
+                  "label": "Series No",
+                  "value": "6"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Petri, Girolamo"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1859"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "L'Orbe cattolico ossia atlante georgrafico storico ecclesiastico opera del commendatore Girolamo Petri, officiale minutante nella segreteria di stato."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "For additional descriptive text, see the three volumes published along with the atlases, click here to download: https://rumsey3.s3.amazonaws.com/L_orbe_cattolico_ossia_atlante_geografic_vol_1_2_3.pdf"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Three-volume ecclesiastical atlas from 1859, showing the geographical reach of the Catholic church around the world, in 138 maps featuring ecclesiastical provinces, dioceses and apostolic vicariates. Includes table of contents in each volume. Volume I contains 45 maps; Volume II contains 53 maps; Volume III contains 40 maps, amounting to a total of 138 maps. Short titles for maps and text transcribed from tables of contents; full titles transcribed from map and text pages. Volume III table of contents contains extended titles, which refer to sections in the descriptive text accompanying maps. Four maps of Spain do not appear in atlas, but descriptive text is present: Tav. XLVII, XLVIII, XLIX and L in Volume II."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14007.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Religious Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "138"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "59"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "82"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14007006.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/185/14007006.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Petri, Girolamo"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328426~90096929/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328426~90096929/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328426~90096929",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11516,
+                    "height": 8804
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328426~90096929/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328426~90096929/list/luna"
+              ],
+              "width": 11516,
+              "height": 8804
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~328426~90096929"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~283918~90056553/manifest",
+      "label": "XIII. Cancer... Coelum Stellatum.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~283918~90056553/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~283918~90056553/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "XIII. Cancer... Coelum Stellatum.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Bode, Johann Elert, 1747-1826"
+                },
+                {
+                  "label": "Date",
+                  "value": "1801"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "XIII. Cancer... Coelum Stellatum."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Berolini"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "(Berlin)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Celestial Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "59"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "80"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Celestial"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "XIII. Cancer... (Coelum Stellatum)."
+                },
+                {
+                  "label": "List No",
+                  "value": "12130.019"
+                },
+                {
+                  "label": "Series No",
+                  "value": "19"
+                },
+                {
+                  "label": "Page No",
+                  "value": "13"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Bode, Johann Elert, 1747-1826"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1801"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Joannis Elerti Bode. Uranographia sive Astrorum Descriptio viginti tabulis aeneis incisa ex recentissimis et absolutissimis Astronomorum observationibus. Sumtus commodante Illustrissimo Astronomiae Patrono Generosissimo Equite Megalopolitano Frederico de Hahn Dynaste Remplini ... Berolini, MDCCCI. Apud Autorem."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Star atlases by Bayer and Hevelius showed only the brightest stars. Bode in his Uranographia showed all the stars that could be seen without a telescope - he listed 17,240 in his catalog (see our 12234.000) that accompanies the 20 sheet atlas. Bode also was one of the first to show the boundaries of the constellations. Uranographia was both the most elaborate atlas of stars and constellations published to date and perhaps the last great star atlas. Outline and full color of constellations."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12130.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Celestial Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "20"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "65"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "49"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12130019.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/12130019.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Bode, Johann Elert, 1747-1826"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~283918~90056553/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~283918~90056553/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~283918~90056553",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11793,
+                    "height": 7978
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~283918~90056553/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~283918~90056553/list/luna"
+              ],
+              "width": 11793,
+              "height": 7978
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~283918~90056553"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~303575~90074172/manifest",
+      "label": "Tavola XVIII. Che Ha Sua Superiore La Tavola Ottava. Libro Terzo.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~303575~90074172/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~303575~90074172/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Tavola XVIII. Che Ha Sua Superiore La Tavola Ottava. Libro Terzo.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Monte (Monti), Urbano, 1544-1613"
+                },
+                {
+                  "label": "Date",
+                  "value": "1587"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Tavola XVIII. Che Ha Sua Superiore La Tavola Ottava. Libro Terzo."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Manuscript"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "(Milan, Italy)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "Varies"
+                },
+                {
+                  "label": "Reference",
+                  "value": "Provenance of this copy: Sotheby's, May 12th, 1981, lot 53, sold to N. Israel; H.P. Kraus catalog 165 Cimelia: A Catalogue of Important Illuminated and Textual Manuscripts Published in Commemoration of the Sale of the Ludwig Collection, January, 1983; sold to private party; 2017 sold to David Rumsey Map Collection by Barry Lawrence Ruderman Antique Maps."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Antarctica"
+                },
+                {
+                  "label": "Country",
+                  "value": "Indonesia"
+                },
+                {
+                  "label": "Country",
+                  "value": "Philippines"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Art"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Tavola XVIII. Che Ha Sua Superiore La Tavola Ottava. Libro Terzo."
+                },
+                {
+                  "label": "List No",
+                  "value": "10130.020"
+                },
+                {
+                  "label": "Series No",
+                  "value": "20"
+                },
+                {
+                  "label": "Page No",
+                  "value": "156"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Monte (Monti), Urbano, 1544-1613"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1587"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "(Manuscript Wall Map of the World)"
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Almagia, R. \"Un prezioso cimelio della cartografica Itatiana: il planisfero di Urbano Monti.\" La bibliofilia XLIII, 1943, pp 156-193. [The present map unknown to Almagia.] Goss, J. (map specialist, Sothebys, cataloguer of this map 1981). \"An Unusual Wall Map by Urbano Monti 1954-1613.\" Map Collector, June 1981, pp 18-22. Walter, L., ed. Japan: A Cartographic Vision, 1994, Nos 16a, 16b, and 17. Shirley, Mapping of the World, 1983. 239, 246, 247. D'Ascenzo, Annalisa, Cultura Geografica e Cartografia in Italia fine del Cinquecento: il \"Trattato Universale\" di Urbano Monte, 2012; Tooley, R.V., Dictionary of Mapmakers, pp 272-273. Read \"A Mind at Work: Urbano Monte's 60-Sheet Manuscript World Map\" by Dr. Katherine Parker, 2017, Forward by Barry Ruderman, Introduction by David Rumsey, https://s3.amazonaws.com/rumsey3/Monte/Urbano+Monte+Catalog.pdf"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "“An important and extraordinary manuscript world map drawn up on a north polar projection to form the largest manuscript map of the world at 9 by 9 feet. This map is one of 3 examples extant (2 manuscript, 1 printed) that form the continuum of Urbano Monte's work on his ultimate world map. The other two examples were studied at length by Almagia: manuscript copy S is at the Bibliotheca Seminario Arcivisovale at Venegano near Milan is similar to this example with the map in 60 sheets. A second example, printed copy A, is at the Bibliotheca Ambrosiana in Milan, with the frontispiece dated 1590 and the map divided in 64 sheets making the division lines of the sheets easier to arrange. This printed version was published in 1604 on 64 plates, and is the only printed copy known.. Two other single sheet engraved world maps by Monte in North Polar projection are also known, published in Milan in 1603 and 1604, copies of both to be found in the Ambrosiana; an example of the 1603 is also in the Doria atlas from the Wardington Collection. Whilst unusual, the idea of a North Polar projection does have precedents in cartography, notably the beautiful world map of Postel first published in Paris in 1581, and one to be found engraved in ivory on a table top by Gennaro Picicaro, thought to be Naples, 1597 and probably borrowing from the ideas of Monte. The ideas for the projection can also be seen in the Contarini/Roselli map (Venice: 1506), the Ruysch map (Rome: 1507), and the Fine in Paris in 1531. All were attempts to capture the full extent of the world, in which much was still unknown. Of Monte little is known, except for the examples of his maps that have survived. He contributed to a 4 volume historical diary titled Delle cose piu notabili successe nella citta di Milano, the 4th volume of which describes the visit of the Japanese Embassy to Europe 1582-1590, in particular their stay in Italy. Monte would certainly have met the party when they visited Milan in 1582, and its presumed that the form of Japan depicted in this map stems from information provided by the Embassy. Monte's principal fame rests with his geographical treatise Trattato Universale descrittione et sito de tutta la terra sin qui consociuta descritto da Urbano Monte, which accomaanies the 64 sheet manuscript map in the Ambrosiano and would have been Libri primo and secondo to this volume; probably a separate folio volume of text to describe and relate the history and geography of the world. A particular point of interest is the small roundel portrait drawn under the dedication. Having drawn a nice small roundel portrait of himself in 1587, aged 43, he went back 2 years later to add a pasted-over portrait of himself, aged 45, suggesting that he came back to his work after signing off in 1587 (see sheet 42). The atlas has the feel of a work in progress, particularly because of the marginal annotations by Monte and the variety of papers used in its composition. Also, the make up of the atlas—particularly the non-sequential numbering of the earlier sheets, the wear to sheet 7 before binding, and the 17th century binding and guards—suggests that although in some form of binding from the late 16th century, it was reassembled in the present binding and form in mid or early 17th century. The geography of this map is essentially Mercatorial, using Mercator's world map of 1569 as the style guide. On tavola XXV, Monte claims his sources for the map, citing geographers Piccolomini, Pliny, Ptolemy, Cortes, Fernando Columbus, Juan Gonzalez de Mendoza, Giovanni d'Anania, various Jesuit letters, including Marco Polo, and cartographers Mercator, Gastaldi, Olaus Magnus, Giovio, Lopes and the brothers Zeno. Of great interest is the attempt Monte makes to make his map not just a geographical tool but to show climate, customs, length of day, distances within regions— in other words, to create a universal scientific planisphere. In his dedication on tavola XL he specifies how to arrange the sheets of the mappamondo and makes it explicit that the whole map was to be stuck on a wooden panel 5 and a half brachia square (3.25m) so that it could be revolved around a central pivot or pin through the north pole. Monte's wall map comes at a time when the map mural had been gaining popularity in Italian decoration. Indeed a treatise in 1510 by Paolo Cortese describes the appropriate decoration for a Cardinal's room as \"a learned enjoyment of a picture representing the world.\" Between 1560 and 1580 four of the greatest map murals had been executed: fresco maps in Palazzo Vechia, Florence, two in the Vatican and another in Palazzo Farrnese in Caprarola. Almost certainly Monte had envisioned his opus as gracing the walls of a Ducal Palace in Milan, and the engraving of the 1590 sheets to make a printed wall map indicates that he had planned to distribute his geography to a wider audience. A monumental map, this little known work by Monte can take its place alongside Mercator, Waldseemueller, Gastaldi and other greats of 16th century world mapping.” Bonhams, 2012 (corrected). Digitization and compositing by Brandon Rumsey, 2017"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10130.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "67"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10130020.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/10130020.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Monte (Monti), Urbano, 1544-1613"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~303575~90074172/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~303575~90074172/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~303575~90074172",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12539,
+                    "height": 9251
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~303575~90074172/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~303575~90074172/list/luna"
+              ],
+              "width": 12539,
+              "height": 9251
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~303575~90074172"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~3900~500017/manifest",
+      "label": "Title Page: Atlas universel.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~3900~500017/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~3900~500017/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Title Page: Atlas universel.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Robert de Vaugondy, Gilles, 1688-1766"
+                },
+                {
+                  "label": "Date",
+                  "value": "1757"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Title Page: Atlas universel."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Boudet"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Les Auteurs"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "Title Page"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "49"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Note",
+                  "value": "1st edition, with five postal maps added, as issued. With the list of subscribers and the extra postal maps of England, France, Germany, Italy and Spain. The French postal map is dated 1758. All five were added after the printed list of maps was printed, but are mentioned by Vaugondy in the preface, so they may have been an afterthought. An owner has added their titles to the printed list of maps, in ms. Engraved title page, Advertisement, and Geographical essay giving the sources of the maps. This atlas was reissued until 1799 (Phillips), with later issues having a map of the United States. In original half leather patterned paper covered boards with spine reading \"Nouvel Atlas De Mrs. Robert.\" One of the first atlases based on scientific surveys, in the tradition of D'Anville and De L'Isle. Outline color."
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Title Page to) Atlas Universel, Par M. Robert Geographe ordinaire du Roy, et Par M. Robert De Vaugondy son fils Geographe ord. du Roy, et de S. M. Polonoise, Duc de Lorraine et de Bar, et Associe de L'Academie Royale des Sciences et belles Lettres de Nancy, Avec Privilege Du Roy, 1757. A Paris, Chez Les Auteurs ,Quay de l'Horloge du Palais, Boudet Libraire Imprimeur du Roi, rue St. Jacques. Grave par Ch. Baquoy. J. Oger Scripsit."
+                },
+                {
+                  "label": "List No",
+                  "value": "3353B"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Baquoy, Ch."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Oger, J."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Robert de Vaugondy, Didier, 1723-1786"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Robert de Vaugondy, Gilles, 1688-1766"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1757"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlas Universel, Par M. Robert Geographe ordinaire du Roy, et Par M. Robert De Vaugondy son fils Geographe ord. du Roy, et de S. M. Polonoise, Duc de Lorraine et de Bar, et Associe de L'Academie Royale des Sciences et belles Lettres de Nancy, Avec Privilege Du Roy, 1757. A Paris, Chez Les Auteurs ,Quay de l'Horloge du Palais, Boudet Libraire Imprimeur du Roi, rue St. Jacques. Grave par Ch. Baquoy. J. Oger Scripsit."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Phillips, 619 (1757/1758); Pedley. Belle et utile, p. 227; Fordham, Studies in Cartobibligraphy p. 165."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "3353.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "108"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Image No",
+                  "value": "3353B"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0050/3353B.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Robert de Vaugondy, Gilles, 1688-1766"
+                },
+                {
+                  "label": "Collection",
+                  "value": "Rumsey Collection"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~3900~500017/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~3900~500017/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~3900~500017",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 6080,
+                    "height": 7085
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~3900~500017/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~3900~500017/list/luna"
+              ],
+              "width": 6080,
+              "height": 7085
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~3900~500017"
     }
   ]
 }
