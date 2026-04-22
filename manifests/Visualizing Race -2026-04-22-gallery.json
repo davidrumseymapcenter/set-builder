@@ -1,0 +1,2811 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/iiif-gallery-2026-04-22",
+  "label": "iiif-gallery-2026-04-22",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/xp728mw4893/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "The Negro travelers' green book",
+      "attribution": "Materials may be subject to copyright.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/xp728mw4893.mods",
+        "format": "application/mods+xml"
+      },
+      "viewingHint": "paged",
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/xp728mw4893'>https://purl.stanford.edu/xp728mw4893</a>"
+        },
+        {
+          "label": "Title",
+          "value": "The Negro travelers' green book"
+        },
+        {
+          "label": "Title",
+          "value": "Green book"
+        },
+        {
+          "label": "Title",
+          "value": "Guide for travel & vacations : The Negro travelers' green book : hotels, motels, restaurants, tourist homes, vacation resorts"
+        },
+        {
+          "label": "Title",
+          "value": "Negro motorist green book"
+        },
+        {
+          "label": "Type",
+          "value": "Directory"
+        },
+        {
+          "label": "Type",
+          "value": "Text"
+        },
+        {
+          "label": "Type",
+          "value": "Directories"
+        },
+        {
+          "label": "Format",
+          "value": "84 pages : illustrations ; 18 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "\"Assured protection for the Negro Traveler.\""
+        },
+        {
+          "label": "Description",
+          "value": "\"Alma D. Green, editor and publisher.\""
+        },
+        {
+          "label": "Description",
+          "value": "Earlier editions titled \"The Negro motorist green book.\""
+        },
+        {
+          "label": "Subject",
+          "value": "Automobile travel > United States > Guidebooks"
+        },
+        {
+          "label": "Subject",
+          "value": "Bars (Drinking establishments) > United States > Directories"
+        },
+        {
+          "label": "Subject",
+          "value": "African Americans > Recreation"
+        },
+        {
+          "label": "Subject",
+          "value": "Restaurants > United States > Directories"
+        },
+        {
+          "label": "Subject",
+          "value": "Boardinghouses > United States > Directories"
+        },
+        {
+          "label": "Subject",
+          "value": "Hotels > United States > Directories"
+        },
+        {
+          "label": "Subject",
+          "value": "Bars (Drinking establishments)"
+        },
+        {
+          "label": "Subject",
+          "value": "Boardinghouses"
+        },
+        {
+          "label": "Subject",
+          "value": "Hotels"
+        },
+        {
+          "label": "Subject",
+          "value": "Restaurants"
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Guidebooks"
+        },
+        {
+          "label": "Subject",
+          "value": "United States"
+        },
+        {
+          "label": "Date",
+          "value": "1959"
+        },
+        {
+          "label": "Date",
+          "value": "1959"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/xp728mw4893"
+        },
+        {
+          "label": "Publisher",
+          "value": "Green, Alma D"
+        },
+        {
+          "label": "Publisher",
+          "value": "Victor H. Green & Co."
+        },
+        {
+          "label": "Record published",
+          "value": "2025-08-11"
+        }
+      ],
+      "description": "\"Assured protection for the Negro Traveler.\"",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/xp728mw4893%2Fxp728mw4893_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/xp728mw4893%2Fxp728mw4893_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 294,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/xp728mw4893/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/xp728mw4893/iiif/canvas/cocina-fileSet-xp728mw4893-xp728mw4893_1",
+              "@type": "sc:Canvas",
+              "label": "Page 1",
+              "height": 4540,
+              "width": 3339,
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/xp728mw4893/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fxp728mw4893-xp728mw4893_1%2Fxp728mw4893_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/xp728mw4893/iiif/canvas/cocina-fileSet-xp728mw4893-xp728mw4893_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/xp728mw4893%2Fxp728mw4893_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 4540,
+                    "width": 3339,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/xp728mw4893%2Fxp728mw4893_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~342601~90110851/manifest",
+      "label": "A Nation of Immigrants.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~342601~90110851/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~342601~90110851/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "A Nation of Immigrants.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Passal, Daniela"
+                },
+                {
+                  "label": "Author",
+                  "value": "Kennedy, John F."
+                },
+                {
+                  "label": "Date",
+                  "value": "1959"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "A Nation of Immigrants."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Anti-Defamation League"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Book Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "55"
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Ethnography; Nationality; Race"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "A Nation of Immigrants."
+                },
+                {
+                  "label": "List No",
+                  "value": "15132.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Passal, Daniela"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Kennedy, John F."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1959"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "A Nation of Immigrants"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"\"The immigrants we welcome today and tomorrow will carry on this tradition and help us to retain, reinvigorate and strengthen the American spirit.\" Important vintage pictorial map by Daniela Passal, issued as a companion to John F. Kennedy's A Nation of Immigrants pamphlet in 1959. The map attempts to communicate the diversity of America's population through ethnic caricature: in Missouri, a German man in lederhosen lifts a stein of beer; in California, a Chinese man with a Fu Manchu does the same with a cup of tea; in New York, a rabbi uses a shofar and an Italian man in a tuxedo sings into a microphone. There is an additional series of images intended to reflect the industries of the states: cars in Michigan; cows and beer in Wisconsin; an atom in New Mexico. Strikingly absent from the map is a mention of Africa or Africa slavery; the two figures working cotton fields in the South are both white, and the area is interspersed with mentions of English and French immigration but none of African. A black man is shown playing a trumpet in Alabama. Surrounding the map is a list of ethnicities, Armenians through Portuguese, though again, \"Africans\" is conspicuously absent. The map includes the following explanation of its publication: \"This map is designed as a companion piece to John F. Kennedy's pamphlet, \"A Nation of Immigrants.\" Additional copies of this map may be obtained ( @ 25¢ each ) from the Anti-Defamation League of B'nai B'rith, 515 Madison Avenue, New York 22, N.Y.\" In the lower-left corner is a small explanatory essay: The United States of America is, indeed, a nation of immigrants--a democratic society of more than 170 million individuals composed almost entirely of immigrants or the descendants of immigrants. All told, some forty million immigrants have come to our shores since the beginning of American history... These are some of yesterday's immigrants who have supplied a continuous flow of creative abilities and ideas that have enriched our nation. The immigrants we welcome today and tomorrow will carry on this tradition and help us to retain, reinvigorate and strengthen the American spirit. Rarity Though the map cannot have been especially rare when it was produced, it is not seen often on the market today; this is the first time we have offered the map for sale. OCLC locates a single separate example at the University of Minnesota. It would appear that Harvard University also has an example.\" (Ruderman 2021)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15132.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15132001.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/15132001.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Passal, Daniela ; Kennedy, John F."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~342601~90110851/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~342601~90110851/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~342601~90110851",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 13122,
+                    "height": 10176
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~342601~90110851/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~342601~90110851/list/luna"
+              ],
+              "width": 13122,
+              "height": 10176
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~342601~90110851"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292470~90063875/manifest",
+      "label": "San Francisco.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~292470~90063875/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292470~90063875/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "San Francisco.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Curtis Publishing Company"
+                },
+                {
+                  "label": "Date",
+                  "value": "1932"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "San Francisco."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Curtis Publishing Company"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Philadelphia"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "36"
+                },
+                {
+                  "label": "City",
+                  "value": "San Francisco (Calif.)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "San Francisco."
+                },
+                {
+                  "label": "List No",
+                  "value": "9687.114"
+                },
+                {
+                  "label": "Series No",
+                  "value": "114"
+                },
+                {
+                  "label": "Page No",
+                  "value": "127"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Curtis Publishing Company"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1932"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "City Markets, A Study of Thirty-Five Cities. Advertising Department, The Curtis Publishing Company, Philadelphia, Penna. 1932."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Maps are color keyed to show value of single family homes and corresponding rental rates, as well as the location of \"Foreign or Colored\" residents. Ostensibly for marketing purposes at the time, today the maps show vividly the segregation of 35 American cities by income levels in 1932. Refer to the text pages on how to interpret the maps - 9687.006"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "9687.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "35"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "38"
+                },
+                {
+                  "label": "Image No",
+                  "value": "9687114.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/9687114.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Curtis Publishing Company"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292470~90063875/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292470~90063875/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292470~90063875",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 7510,
+                    "height": 6152
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292470~90063875/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292470~90063875/list/luna"
+              ],
+              "width": 7510,
+              "height": 6152
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~292470~90063875"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347246~90114717/manifest",
+      "label": "Tulare Assembly Center.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~347246~90114717/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347246~90114717/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Tulare Assembly Center.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "United States. Office of War Information"
+                },
+                {
+                  "label": "Date",
+                  "value": "1943"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Tulare Assembly Center."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "United States Government Printing Office"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington, D.C."
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "11"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "16"
+                },
+                {
+                  "label": "Note",
+                  "value": "Photograph featuring the Tulare Assembly Center of Tulare, California. Shows the site with its surrounding buildings, roads, topography, drainage and vegetation. Bird's-eye view in black and white. View is 11 x 16 cm, on sheet 15 x 23 cm. Figure 16-n. Appears in Part V : Assembly center operations, Chapter XIII : Assembly center location, construction and equipment."
+                },
+                {
+                  "label": "City",
+                  "value": "Tulare (Calif.)"
+                },
+                {
+                  "label": "Event",
+                  "value": "World War II"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Military"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Tulare Assembly Center."
+                },
+                {
+                  "label": "List No",
+                  "value": "14375.063"
+                },
+                {
+                  "label": "Series No",
+                  "value": "63"
+                },
+                {
+                  "label": "Page No",
+                  "value": "180"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "United States Government Printing Office"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "United States. Office of War Information"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1943"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Japanese evacuation from the West Coast, 1942 : Final report. United States Government Printing Office, Washington : 1943."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "https://archive.org/details/japaneseevacuati00dewi"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Japanese evacuation from the West Coast, 1942 : Final report by the United States War Office; published by the United States Government Printing Office in Washington, D.C., 1943. First edition. Bound in black board with gilded title on front cover and spine. Collation: xxiii, 618 pages. Comprised of 43 maps (including 3 fold-out), as well as numerous photographic views, plans, charts and historical text. Includes a dedication, foreword, letter of transmittal, table of contents, index to figures, index to tables, statistical summary of tables, pictorial summary of photographs, glossary, appendixes and index. Comprehensive report on the Japanese American internment of World War II, in which the U.S. government forced the relocation and incarceration of Japanese Americans in detention camps in the West, ostensibly in the interests of national security. This work, created at the time of the event itself, offers a propagandist viewpoint on the internment. It attempts to justify the incarceration of Japanese Americans by posing an argument for its “military necessity” and cloaking the injustice with photographs alleging the comfort and happiness of the incarcerated individuals at the camps. In addition to these highly curated images, the volume also presents maps showing an objective picture of the history with locations of “assembly centers” and “relocation centers” [internment camps], as well as the geographic origins of the Japanese Americans held there. These maps feature the vicinity of the camps, including political boundaries, cities, railways, roads, topography, bodies of water and drainage. Some of the maps utilize data visualization to illustrate population density. Bird’s-eye photographic views depict the camps from above. Plans show typical layouts for the camps, including housing blocks, administration and police buildings, hospitals and warehouses. Charts delineate the population of interred individuals, with details on age, sex and nativity demographics. Charts also explain the transfer of individuals, as well as administrative organization and functions. All together, the volume offers a multi-faceted - while politically biased - description of the history of Japanese American internment. The Densho Encyclopedia - which covers key concepts, people, events, and organizations that played a role in the forced removal and incarceration of Japanese Americans during World War II - describes the work as follows, “Report issued under the name of General John L. DeWitt that provided a detailed and highly favorable account of the army's actions in removing Japanese Americans from the West Coast. The report became a key factor in the legal challenges to exclusion and resulted in both intra- and inter-departmental conflicts within the Justice and War Departments. Research in the 1980s revealed that the report had been doctored prior to the court cases, and this revelation was the basis for the reopening of the cases under the writ of error coram nobis .” https://encyclopedia.densho.org/Final_Report,_Japanese_Evacuation_from_the_West_Coast,_1942_(book)/ Provenance: Eugene Worley, as evidenced by his inscription in blue ink on front fly. Worley was a U. S. Representative from Texas who also served as a Lieutenant Commander in the United States Navy from December 1941 to August 1942, while a Member of Congress. (Citation: Between the Covers Rare Books, Inc.) Full documentation of the work can be found at the Internet Archive - see Pub Reference for link."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14375.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Gov't Report Book"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "17"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14375063.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/14375063.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "United States. Office of War Information"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347246~90114717/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347246~90114717/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347246~90114717",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 5007,
+                    "height": 3661
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347246~90114717/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347246~90114717/list/luna"
+              ],
+              "width": 5007,
+              "height": 3661
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~347246~90114717"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238678~5511614/manifest",
+      "label": "Indian Land Cessions.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~238678~5511614/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238678~5511614/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Indian Land Cessions.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Hilliard, Sam B."
+                },
+                {
+                  "label": "Author",
+                  "value": "Irwin, Dan"
+                },
+                {
+                  "label": "Author",
+                  "value": "Southern Illinois University Cartographic Laboratory"
+                },
+                {
+                  "label": "Date",
+                  "value": "1972"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Indian Land Cessions."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Association of American Geographers"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington D.C."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "116"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "86"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map Supplement Number 16, Annals of the Association of American Geographers, Volume 62, Number 2, June 1972."
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Indians"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Indian Land Cessions."
+                },
+                {
+                  "label": "List No",
+                  "value": "6367.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hilliard, Sam B."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Irwin, Dan"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Southern Illinois University Cartographic Laboratory"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1972"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Indian Land Cessions."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See Note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "6367.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "116"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "86"
+                },
+                {
+                  "label": "Image No",
+                  "value": "6367000"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/6367000.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Hilliard, Sam B.; Irwin, Dan; Southern Illinois University Cartographic Laboratory"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~238678~5511614/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~238678~5511614/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~238678~5511614",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 10385,
+                    "height": 13758
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238678~5511614/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238678~5511614/list/luna"
+              ],
+              "width": 10385,
+              "height": 13758
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~238678~5511614"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347225~90114701/manifest",
+      "label": "Assembly center sites.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~347225~90114701/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347225~90114701/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Assembly center sites.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "United States. Office of War Information"
+                },
+                {
+                  "label": "Date",
+                  "value": "1943"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Assembly center sites."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "United States Government Printing Office"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington, D.C."
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "19"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map featuring assembly center sites in the western United States. Shows political boundaries, cities, roads, national parks, bodies of water, drainage and coastline. Includes a table: Maximum Japanese population and dates of occupation of assembly centers. In color. Map is 28 x 19 cm, on double sheet 31 x 23 cm. Figure 15. Appears in Part V : Assembly center operations, Chapter XIII : Assembly center location, construction and equipment."
+                },
+                {
+                  "label": "Region",
+                  "value": "West (U.S.)"
+                },
+                {
+                  "label": "Event",
+                  "value": "World War II"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Military"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Population"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Assembly center sites."
+                },
+                {
+                  "label": "List No",
+                  "value": "14375.042"
+                },
+                {
+                  "label": "Series No",
+                  "value": "42"
+                },
+                {
+                  "label": "Page No",
+                  "value": "158-159"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "United States Government Printing Office"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "United States. Office of War Information"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1943"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Japanese evacuation from the West Coast, 1942 : Final report. United States Government Printing Office, Washington : 1943."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "https://archive.org/details/japaneseevacuati00dewi"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Japanese evacuation from the West Coast, 1942 : Final report by the United States War Office; published by the United States Government Printing Office in Washington, D.C., 1943. First edition. Bound in black board with gilded title on front cover and spine. Collation: xxiii, 618 pages. Comprised of 43 maps (including 3 fold-out), as well as numerous photographic views, plans, charts and historical text. Includes a dedication, foreword, letter of transmittal, table of contents, index to figures, index to tables, statistical summary of tables, pictorial summary of photographs, glossary, appendixes and index. Comprehensive report on the Japanese American internment of World War II, in which the U.S. government forced the relocation and incarceration of Japanese Americans in detention camps in the West, ostensibly in the interests of national security. This work, created at the time of the event itself, offers a propagandist viewpoint on the internment. It attempts to justify the incarceration of Japanese Americans by posing an argument for its “military necessity” and cloaking the injustice with photographs alleging the comfort and happiness of the incarcerated individuals at the camps. In addition to these highly curated images, the volume also presents maps showing an objective picture of the history with locations of “assembly centers” and “relocation centers” [internment camps], as well as the geographic origins of the Japanese Americans held there. These maps feature the vicinity of the camps, including political boundaries, cities, railways, roads, topography, bodies of water and drainage. Some of the maps utilize data visualization to illustrate population density. Bird’s-eye photographic views depict the camps from above. Plans show typical layouts for the camps, including housing blocks, administration and police buildings, hospitals and warehouses. Charts delineate the population of interred individuals, with details on age, sex and nativity demographics. Charts also explain the transfer of individuals, as well as administrative organization and functions. All together, the volume offers a multi-faceted - while politically biased - description of the history of Japanese American internment. The Densho Encyclopedia - which covers key concepts, people, events, and organizations that played a role in the forced removal and incarceration of Japanese Americans during World War II - describes the work as follows, “Report issued under the name of General John L. DeWitt that provided a detailed and highly favorable account of the army's actions in removing Japanese Americans from the West Coast. The report became a key factor in the legal challenges to exclusion and resulted in both intra- and inter-departmental conflicts within the Justice and War Departments. Research in the 1980s revealed that the report had been doctored prior to the court cases, and this revelation was the basis for the reopening of the cases under the writ of error coram nobis .” https://encyclopedia.densho.org/Final_Report,_Japanese_Evacuation_from_the_West_Coast,_1942_(book)/ Provenance: Eugene Worley, as evidenced by his inscription in blue ink on front fly. Worley was a U. S. Representative from Texas who also served as a Lieutenant Commander in the United States Navy from December 1941 to August 1942, while a Member of Congress. (Citation: Between the Covers Rare Books, Inc.) Full documentation of the work can be found at the Internet Archive - see Pub Reference for link."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14375.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Gov't Report Book"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "17"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14375042.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/14375042.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "United States. Office of War Information"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347225~90114701/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347225~90114701/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347225~90114701",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 5052,
+                    "height": 7097
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347225~90114701/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347225~90114701/list/luna"
+              ],
+              "width": 5052,
+              "height": 7097
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~347225~90114701"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~849~60154/manifest",
+      "label": "Mexico, California and Texas.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~849~60154/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~849~60154/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Mexico, California and Texas.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Martin, R.M."
+                },
+                {
+                  "label": "Author",
+                  "value": "Tallis, J. & F."
+                },
+                {
+                  "label": "Date",
+                  "value": "1851"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Mexico, California and Texas."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "J. & F. Tallis"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "26"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "13,305,600"
+                },
+                {
+                  "label": "Note",
+                  "value": "Mexico in outline color by county. New or Upper California and Texas shown in outline color. California's \"newly discovered GOLD districts\" are highlighted in bright yellow following the paths of the R. Sacramento and the Rio San Joaquin. The accompanying illustrations include gold washing, Mexican peasants and the ruins of Uxmal, Yucatan. The decorative border includes vegetation, fruits and vegetables from the region."
+                },
+                {
+                  "label": "Reference",
+                  "value": "P804-71."
+                },
+                {
+                  "label": "Country",
+                  "value": "Mexico"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "Texas"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "U.S. West"
+                },
+                {
+                  "label": "Event",
+                  "value": "California Gold Rush"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Mexico, California and Texas. The Illustrations by H. Warren & Engraved by J. Rogers. The Map Drawn & Engraved by J. Rapkin."
+                },
+                {
+                  "label": "List No",
+                  "value": "0466.072"
+                },
+                {
+                  "label": "Series No",
+                  "value": "75"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Rapkin, J."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Rogers, J."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Warren, H."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Martin, R.M."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Tallis, J. & F."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1851"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The Illustrated Atlas, And Modern History Of The World Geographical, Political, Commercial & Statistical, Edited By R. Montgomery Martin, Esq. ... The Maps Drawn & Engraved By J. Rapkin. H. Warren. J. Rogers. J. & F. Tallis, London & New York."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "P804."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Maps by J. Rapkin. The edition without the town plans. Date estimated. This copy has a few pages of the Index/Gazetteer, as issued, almost as a sample of the later edition with the complete gazetteer. Earlier editions have a second title page dated 1851, a view of the Great Pavilion opposite the ornamental title page, and an index sheet titled \"Directions to Binder - arrangement of maps\" (Huntington Library copy). Maps are hand colored with outline color, and bound in half leather marbled paper covered boards with \"Illustrated Atlas\" stamped in gilt on the spine."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "0466.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "82"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "38"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Image No",
+                  "value": "0466072"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0006/0466072.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Martin, R.M. ; Tallis, J. & F."
+                },
+                {
+                  "label": "Collection",
+                  "value": "Rumsey Collection"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~849~60154/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~849~60154/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~849~60154",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 4700,
+                    "height": 3750
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~849~60154/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~849~60154/list/luna"
+              ],
+              "width": 4700,
+              "height": 3750
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~849~60154"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347209~90114679/manifest",
+      "label": "Geographical distribution : Japanese population, United States : 1940.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~347209~90114679/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347209~90114679/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Geographical distribution : Japanese population, United States : 1940.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "United States. Office of War Information"
+                },
+                {
+                  "label": "Author",
+                  "value": "United States. Army. Western Defense Command"
+                },
+                {
+                  "label": "Author",
+                  "value": "United States. Wartime Civil Control Administration"
+                },
+                {
+                  "label": "Date",
+                  "value": "1940"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Geographical distribution : Japanese population, United States : 1940."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "United States Government Printing Office"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington, D.C."
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map of the United States, featuring the geographical distribution of the Japanese American population in the United States in 1940. Shows political boundaries and the number of Japanese Americans in each state, utilizing data visualization to illustrate population density. Includes explanatory note. In color. Map is 15 x 23 cm. Figure 5-b. Appears in Part IV : Evacuation - its operational technique, Chapter VIII : Development and execution of the evacuation plan. (Page number inferred.)"
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Event",
+                  "value": "World War II"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Military"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Population"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Statistical"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Geographical distribution : Japanese population, United States : 1940. Western Defense Command and Fourth Army, Wartime Civil Control Administration."
+                },
+                {
+                  "label": "List No",
+                  "value": "14375.026"
+                },
+                {
+                  "label": "Series No",
+                  "value": "26"
+                },
+                {
+                  "label": "Page No",
+                  "value": "81"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "United States Government Printing Office"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "United States. Office of War Information"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1943"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Japanese evacuation from the West Coast, 1942 : Final report. United States Government Printing Office, Washington : 1943."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "https://archive.org/details/japaneseevacuati00dewi"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Japanese evacuation from the West Coast, 1942 : Final report by the United States War Office; published by the United States Government Printing Office in Washington, D.C., 1943. First edition. Bound in black board with gilded title on front cover and spine. Collation: xxiii, 618 pages. Comprised of 43 maps (including 3 fold-out), as well as numerous photographic views, plans, charts and historical text. Includes a dedication, foreword, letter of transmittal, table of contents, index to figures, index to tables, statistical summary of tables, pictorial summary of photographs, glossary, appendixes and index. Comprehensive report on the Japanese American internment of World War II, in which the U.S. government forced the relocation and incarceration of Japanese Americans in detention camps in the West, ostensibly in the interests of national security. This work, created at the time of the event itself, offers a propagandist viewpoint on the internment. It attempts to justify the incarceration of Japanese Americans by posing an argument for its “military necessity” and cloaking the injustice with photographs alleging the comfort and happiness of the incarcerated individuals at the camps. In addition to these highly curated images, the volume also presents maps showing an objective picture of the history with locations of “assembly centers” and “relocation centers” [internment camps], as well as the geographic origins of the Japanese Americans held there. These maps feature the vicinity of the camps, including political boundaries, cities, railways, roads, topography, bodies of water and drainage. Some of the maps utilize data visualization to illustrate population density. Bird’s-eye photographic views depict the camps from above. Plans show typical layouts for the camps, including housing blocks, administration and police buildings, hospitals and warehouses. Charts delineate the population of interred individuals, with details on age, sex and nativity demographics. Charts also explain the transfer of individuals, as well as administrative organization and functions. All together, the volume offers a multi-faceted - while politically biased - description of the history of Japanese American internment. The Densho Encyclopedia - which covers key concepts, people, events, and organizations that played a role in the forced removal and incarceration of Japanese Americans during World War II - describes the work as follows, “Report issued under the name of General John L. DeWitt that provided a detailed and highly favorable account of the army's actions in removing Japanese Americans from the West Coast. The report became a key factor in the legal challenges to exclusion and resulted in both intra- and inter-departmental conflicts within the Justice and War Departments. Research in the 1980s revealed that the report had been doctored prior to the court cases, and this revelation was the basis for the reopening of the cases under the writ of error coram nobis .” https://encyclopedia.densho.org/Final_Report,_Japanese_Evacuation_from_the_West_Coast,_1942_(book)/ Provenance: Eugene Worley, as evidenced by his inscription in blue ink on front fly. Worley was a U. S. Representative from Texas who also served as a Lieutenant Commander in the United States Navy from December 1941 to August 1942, while a Member of Congress. (Citation: Between the Covers Rare Books, Inc.) Full documentation of the work can be found at the Internet Archive - see Pub Reference for link."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14375.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Gov't Report Book"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "17"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14375026.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/14375026.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "United States. Office of War Information; United States. Army. Western Defense Command; United States. Wartime Civil Control Administration"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347209~90114679/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347209~90114679/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347209~90114679",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 4988,
+                    "height": 3669
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347209~90114679/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347209~90114679/list/luna"
+              ],
+              "width": 4988,
+              "height": 3669
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~347209~90114679"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248355~5516082/manifest",
+      "label": "Plate 70. Population: Emigration to the United States.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~248355~5516082/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248355~5516082/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Plate 70. Population: Emigration to the United States.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Paullin, Charles O."
+                },
+                {
+                  "label": "Author",
+                  "value": "Wright, John K."
+                },
+                {
+                  "label": "Date",
+                  "value": "1932"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Plate 70. Population: Emigration to the United States."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Carnegie Institution of Washington"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington (D.C.)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "American Geographical Society of New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington (D.C.)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "50"
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Historical"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Plate 70. Population: Emigration to the United States. Colored Population, 1900. Colored Population, 1930. Sources of Emigration to the United States (by decade),"
+                },
+                {
+                  "label": "List No",
+                  "value": "0702.073"
+                },
+                {
+                  "label": "Series No",
+                  "value": "78"
+                },
+                {
+                  "label": "Page No",
+                  "value": "Plate 70"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "A. Hoen & Co."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Paullin, Charles O."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Wright, John K."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1932"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlas of the Historical Geography of the United States. By Charles O. Paullin, Carnegie Institution of Washington. Edited by John K. Wright, Librarian, American Geographical Society of New York. Published Jointly by Carnegie Institution of Washington and the American Geographical Society of New York, 1932."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "This is one of the best historical atlases published in the early 20th century. It combines history and geography, facsimile historical maps and new historical maps, and incorporates time and statistics in imaginative map visualizations. The text and maps are based upon information supplied by prominent authorities on the various subjects. The quality of the contents is also reflected by the authoritative map publishers. Numerous facsimile maps are included."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "0702.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Historical Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "166"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Image No",
+                  "value": "0702073"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/0702073.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Paullin, Charles O.; Wright, John K."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~248355~5516082/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~248355~5516082/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~248355~5516082",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11627,
+                    "height": 7154
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248355~5516082/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248355~5516082/list/luna"
+              ],
+              "width": 11627,
+              "height": 7154
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~248355~5516082"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238758~5524547/manifest",
+      "label": "California.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~238758~5524547/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238758~5524547/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "California.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Mora, Jo (1876-1947)"
+                },
+                {
+                  "label": "Date",
+                  "value": "1945"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "California."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Jo Mora Publications"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Monterey"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "64"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "49"
+                },
+                {
+                  "label": "Note",
+                  "value": "Comic pictorial map with vignettes and text. Mission pictures. Full color. This is the second and smaller California map made by Jo Mora. For more information on Jo Mora's life and works, see http://www.jomoratrust.com"
+                },
+                {
+                  "label": "Reference",
+                  "value": "Grandeau & Shorts Cartes 11; Gilmore M17."
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "County",
+                  "value": "California"
+                },
+                {
+                  "label": "City",
+                  "value": "San Francisco"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "California."
+                },
+                {
+                  "label": "List No",
+                  "value": "6380.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Mora, Jo (1876-1947)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1945"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "California"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See Note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "6380.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "64"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "49"
+                },
+                {
+                  "label": "Image No",
+                  "value": "6380000"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Mora, Jo (1876-1947)"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~238758~5524547/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~238758~5524547/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~238758~5524547",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 9358,
+                    "height": 12241
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238758~5524547/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238758~5524547/list/luna"
+              ],
+              "width": 9358,
+              "height": 12241
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~238758~5524547"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328363~90096862/manifest",
+      "label": "American Indians",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~328363~90096862/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328363~90096862/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "American Indians",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Dicus, Garner Parker , 1921-1999"
+                },
+                {
+                  "label": "Date",
+                  "value": "1952"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "American Indians"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "G.P. Dicus"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Puente, California"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Indians"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "American Indians. (4th. Pub.) Copyright 1952 G. P. Dicus, Punte, Calif."
+                },
+                {
+                  "label": "List No",
+                  "value": "13513.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Dicus, Garner Parker, 1921-1999"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1952"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "American Indians. (4th. Pub.) Copyright 1952 G. P. Dicus, Punte, Calif."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Pictorial map of the United states, an annotated guides to original home of American Indian tribes in the United States. By Garner Parker Dicus. Map borders with name of Indian tribes and surrounded by various tribe names, activities, and weapons. Map shows state boundaries and filed with vignette illustration of American Indians in each states, Includes title cartouche and Notes: at the bottom panel reads “Refer to the map on “American India culture & language” By G.P. Dicus …”, and at the top panel “The Tribes listed here are the major tribes located in their general areas …” Along the left and right outside the map read \"dedicated to the wonderful belief and high moral standards of our wise American Indian tribes\" and “The American Indian lived his religion practiced his belief, and had un-questionable faith in “Great Mystery.\""
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "13513.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Image No",
+                  "value": "13513000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/185/13513000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Dicus, Garner Parker , 1921-1999"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328363~90096862/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328363~90096862/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328363~90096862",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 9520,
+                    "height": 7218
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328363~90096862/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328363~90096862/list/luna"
+              ],
+              "width": 9520,
+              "height": 7218
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~328363~90096862"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348737~90116370/manifest",
+      "label": "Land of Opportunity",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~348737~90116370/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348737~90116370/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Land of Opportunity",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Zheng, Yunxin (Connie)"
+                },
+                {
+                  "label": "Date",
+                  "value": "2022"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Land of Opportunity"
+                },
+                {
+                  "label": "Type",
+                  "value": "Artwork"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "213"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "213"
+                },
+                {
+                  "label": "Note",
+                  "value": "\"Mixed media drawing and collage on cyanotype print. Land of Opportunity is a map that documents forty-three of the most well-documented toxic sites in the Bay Area, alongside local environmental justice protests and both federal and community-based remediation efforts. The tar-like blobs dripping down the paper are places notable for the amount of toxic material that has leaked into the soil and groundwater primarily as a result of high-tech industry, military activities, mercury mining during the gold rush era, and nuclear testing in the South Pacific during World War II. Despite its reputation for being one of the ‘greenest’ places in the United States, the Bay Area also has one of the highest concentrations of Superfund sites in the country, particularly in Silicon Valley, the techno-utopian capital of the United States. The map emphasizes community-based, grassroots organizing efforts, and shows both the kinds of poisons that have contaminated the land as well as the ways in which surrounding communities have protested the presence of these polluters and demanded their right to a clean, healthy environment. Land of Opportunity is a register of the ways in which the Bay Area has been shaped — both figuratively and literally — by dominant settler narratives of the landscape’s potential for wealth and resource extraction. But it is also more than the shadowland of settler, entrepreneurial greed, or the American imperial war machine: it’s also a place constituted and nourished by strong radical politics, care for community, and a trust in the power of local organizing. We live in a place of endless possibility — where the byproducts of greed and warmongering can be sublimated into other forms of power, and politics can be shaped in certain places by the will of the people.\" Connie Zheng, 2022 https://www.conniezheng.com"
+                },
+                {
+                  "label": "Reference",
+                  "value": "This artwork is copyright by Connie Zheng. Please contact the artist for reproduction or exhibit. https://www.conniezheng.com"
+                },
+                {
+                  "label": "City",
+                  "value": "San Francisco (Calif.)"
+                },
+                {
+                  "label": "Region",
+                  "value": "San Francisco Bay (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Art"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Food"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Land of Opportunity"
+                },
+                {
+                  "label": "List No",
+                  "value": "15417.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Zheng, Yunxin (Connie)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "2022"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Land of Opportunity"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15417.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Artwork"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "213"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "213"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15417000.jp2"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Zheng, Yunxin (Connie)"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348737~90116370/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348737~90116370/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348737~90116370",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 25136,
+                    "height": 25159
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348737~90116370/canvas/c1"
+                }
+              ],
+              "width": 25136,
+              "height": 25159
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~348737~90116370"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347272~90114751/manifest",
+      "label": "Japanese evacuation program : Exclusion areas.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~347272~90114751/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347272~90114751/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Japanese evacuation program : Exclusion areas.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "United States. Office of War Information"
+                },
+                {
+                  "label": "Author",
+                  "value": "United States. Army. Western Defense Command"
+                },
+                {
+                  "label": "Author",
+                  "value": "United States. Wartime Civil Control Administration"
+                },
+                {
+                  "label": "Date",
+                  "value": "1942"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Japanese evacuation program : Exclusion areas."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "United States Government Printing Office"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington, D.C."
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "36"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "32"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map of the western United States, featuring the \"exclusion areas\" for Japanese Americans during World War II. Shows political boundaries, assembly and relocation centers, bodies of water, coastline and islands. Includes a legend and explanatory note. With four inset maps: Seattle and vicinity -- Portland and vicinity -- San Francisco and vicinity -- Los Angeles and vicinity -- Sacramento and vicinity. In color. Map is 32 x 32 cm, on fold-out sheet 45 x 36 cm. Figure 27. Appears in Part VI : Relocation of evacuees, Chapter XXII : Transfer of evacuees from assembly to relocation centers."
+                },
+                {
+                  "label": "City",
+                  "value": "Seattle (Wash.)"
+                },
+                {
+                  "label": "City",
+                  "value": "Portland (Or.)"
+                },
+                {
+                  "label": "City",
+                  "value": "San Francisco (Calif.)"
+                },
+                {
+                  "label": "City",
+                  "value": "Los Angeles (Calif.)"
+                },
+                {
+                  "label": "City",
+                  "value": "Sacramento (Calif.)"
+                },
+                {
+                  "label": "Region",
+                  "value": "West (U.S.)"
+                },
+                {
+                  "label": "Region",
+                  "value": "San Francisco Bay Area (Calif.)"
+                },
+                {
+                  "label": "Region",
+                  "value": "Los Angeles Metropolitan Area (Calif.)"
+                },
+                {
+                  "label": "Event",
+                  "value": "World War II"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Military"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Japanese evacuation program : Exclusion areas. Western Defense Command and Fourth Army, Wartime Civil Control Administration, Statistical Division."
+                },
+                {
+                  "label": "List No",
+                  "value": "14375.090"
+                },
+                {
+                  "label": "Series No",
+                  "value": "90"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "United States Government Printing Office"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "United States. Office of War Information"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1943"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Japanese evacuation from the West Coast, 1942 : Final report. United States Government Printing Office, Washington : 1943."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "https://archive.org/details/japaneseevacuati00dewi"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Japanese evacuation from the West Coast, 1942 : Final report by the United States War Office; published by the United States Government Printing Office in Washington, D.C., 1943. First edition. Bound in black board with gilded title on front cover and spine. Collation: xxiii, 618 pages. Comprised of 43 maps (including 3 fold-out), as well as numerous photographic views, plans, charts and historical text. Includes a dedication, foreword, letter of transmittal, table of contents, index to figures, index to tables, statistical summary of tables, pictorial summary of photographs, glossary, appendixes and index. Comprehensive report on the Japanese American internment of World War II, in which the U.S. government forced the relocation and incarceration of Japanese Americans in detention camps in the West, ostensibly in the interests of national security. This work, created at the time of the event itself, offers a propagandist viewpoint on the internment. It attempts to justify the incarceration of Japanese Americans by posing an argument for its “military necessity” and cloaking the injustice with photographs alleging the comfort and happiness of the incarcerated individuals at the camps. In addition to these highly curated images, the volume also presents maps showing an objective picture of the history with locations of “assembly centers” and “relocation centers” [internment camps], as well as the geographic origins of the Japanese Americans held there. These maps feature the vicinity of the camps, including political boundaries, cities, railways, roads, topography, bodies of water and drainage. Some of the maps utilize data visualization to illustrate population density. Bird’s-eye photographic views depict the camps from above. Plans show typical layouts for the camps, including housing blocks, administration and police buildings, hospitals and warehouses. Charts delineate the population of interred individuals, with details on age, sex and nativity demographics. Charts also explain the transfer of individuals, as well as administrative organization and functions. All together, the volume offers a multi-faceted - while politically biased - description of the history of Japanese American internment. The Densho Encyclopedia - which covers key concepts, people, events, and organizations that played a role in the forced removal and incarceration of Japanese Americans during World War II - describes the work as follows, “Report issued under the name of General John L. DeWitt that provided a detailed and highly favorable account of the army's actions in removing Japanese Americans from the West Coast. The report became a key factor in the legal challenges to exclusion and resulted in both intra- and inter-departmental conflicts within the Justice and War Departments. Research in the 1980s revealed that the report had been doctored prior to the court cases, and this revelation was the basis for the reopening of the cases under the writ of error coram nobis .” https://encyclopedia.densho.org/Final_Report,_Japanese_Evacuation_from_the_West_Coast,_1942_(book)/ Provenance: Eugene Worley, as evidenced by his inscription in blue ink on front fly. Worley was a U. S. Representative from Texas who also served as a Lieutenant Commander in the United States Navy from December 1941 to August 1942, while a Member of Congress. (Citation: Between the Covers Rare Books, Inc.) Full documentation of the work can be found at the Internet Archive - see Pub Reference for link."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14375.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Gov't Report Book"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "17"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14375090.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/14375090.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "United States. Office of War Information; United States. Army. Western Defense Command; United States. Wartime Civil Control Administration"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347272~90114751/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347272~90114751/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347272~90114751",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 7704,
+                    "height": 9567
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347272~90114751/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347272~90114751/list/luna"
+              ],
+              "width": 7704,
+              "height": 9567
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~347272~90114751"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292444~90063849/manifest",
+      "label": "Oakland, Berkeley and Alameda.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~292444~90063849/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292444~90063849/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Oakland, Berkeley and Alameda.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Curtis Publishing Company"
+                },
+                {
+                  "label": "Date",
+                  "value": "1932"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Oakland, Berkeley and Alameda."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Curtis Publishing Company"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Philadelphia"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "36"
+                },
+                {
+                  "label": "City",
+                  "value": "Oakland (Calif.)"
+                },
+                {
+                  "label": "City",
+                  "value": "Berkeley (Calif.)"
+                },
+                {
+                  "label": "City",
+                  "value": "Alameda (Calif.)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Oakland, Berkeley and Alameda."
+                },
+                {
+                  "label": "List No",
+                  "value": "9687.088"
+                },
+                {
+                  "label": "Series No",
+                  "value": "88"
+                },
+                {
+                  "label": "Page No",
+                  "value": "101"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Curtis Publishing Company"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1932"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "City Markets, A Study of Thirty-Five Cities. Advertising Department, The Curtis Publishing Company, Philadelphia, Penna. 1932."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Maps are color keyed to show value of single family homes and corresponding rental rates, as well as the location of \"Foreign or Colored\" residents. Ostensibly for marketing purposes at the time, today the maps show vividly the segregation of 35 American cities by income levels in 1932. Refer to the text pages on how to interpret the maps - 9687.006"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "9687.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "35"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "38"
+                },
+                {
+                  "label": "Image No",
+                  "value": "9687088.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/9687088.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Curtis Publishing Company"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292444~90063849/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292444~90063849/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292444~90063849",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 7726,
+                    "height": 6152
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292444~90063849/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292444~90063849/list/luna"
+              ],
+              "width": 7726,
+              "height": 6152
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~292444~90063849"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248352~5516079/manifest",
+      "label": "Plate 67. States and Cities: Population, 1930. Slaves, 1790 - 1840.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~248352~5516079/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248352~5516079/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Plate 67. States and Cities: Population, 1930. Slaves, 1790 - 1840.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Paullin, Charles O."
+                },
+                {
+                  "label": "Author",
+                  "value": "Wright, John K."
+                },
+                {
+                  "label": "Date",
+                  "value": "1932"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Plate 67. States and Cities: Population, 1930. Slaves, 1790 - 1840."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Carnegie Institution of Washington"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington (D.C.)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "American Geographical Society of New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington (D.C.)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Historical"
+                },
+                {
+                  "label": "Subject",
+                  "value": "U.S. Public Survey"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Plate 67. States and Cities: Population. States and Cities, 1930. Slaves, 1790. Slaves, 1800. Slaves, 1810. Slaves, 1820. Slaves, 1830. Slaves, 1840."
+                },
+                {
+                  "label": "List No",
+                  "value": "0702.070"
+                },
+                {
+                  "label": "Series No",
+                  "value": "75"
+                },
+                {
+                  "label": "Page No",
+                  "value": "Plate 67"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "A. Hoen & Co."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Paullin, Charles O."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Wright, John K."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1932"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlas of the Historical Geography of the United States. By Charles O. Paullin, Carnegie Institution of Washington. Edited by John K. Wright, Librarian, American Geographical Society of New York. Published Jointly by Carnegie Institution of Washington and the American Geographical Society of New York, 1932."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "This is one of the best historical atlases published in the early 20th century. It combines history and geography, facsimile historical maps and new historical maps, and incorporates time and statistics in imaginative map visualizations. The text and maps are based upon information supplied by prominent authorities on the various subjects. The quality of the contents is also reflected by the authoritative map publishers. Numerous facsimile maps are included."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "0702.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Historical Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "166"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Image No",
+                  "value": "0702070"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/0702070.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Paullin, Charles O.; Wright, John K."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~248352~5516079/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~248352~5516079/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~248352~5516079",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11646,
+                    "height": 7121
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248352~5516079/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~248352~5516079/list/luna"
+              ],
+              "width": 11646,
+              "height": 7121
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~248352~5516079"
+    }
+  ]
+}
