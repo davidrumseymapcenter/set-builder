@@ -7,6 +7,211 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1788~210001/manifest",
+      "label": "Carte De La Cote De L'Amerique.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~1788~210001/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1788~210001/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Carte De La Cote De L'Amerique.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Duflot de Mofras, Eugene"
+                },
+                {
+                  "label": "Date",
+                  "value": "1844"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Carte De La Cote De L'Amerique."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Arthus Bertrand"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "54"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "89"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "5,555,555"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map in outline color with copious notes throughout California. Mines, ports, Indian settlements, forts, and missions are shown."
+                },
+                {
+                  "label": "Reference",
+                  "value": "P1457; Wheat 474; Harlow 28, 29; Verner 43; Howes D542 (\"c\"); Streeter 3323; Graff 1169; Sabin 21144."
+                },
+                {
+                  "label": "Country",
+                  "value": "Mexico"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "Oregon"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "U.S. West"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "Washington"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Carte De La Cote De L'Amerique Sur L'Ocean Pacifique Septentrional Le Territoire De L'Oregon, Les Californies, La Mer Vermeille, Partie des Territoires de la Compagnie de la Baie d'Hudson, Et De L'Amerique Russe. Dressee par Mr. Duflot de Mofras, Attache a la Legation de France a Mexico; Pour servir a l'intelligence de son Voyage d'exploration Publie Par Ordre Du Roi, sous les Auspices De Mr. Le Marechal Duc De Dalmatie, Mr. Le Ministre Des Affaires Etrangeres. Paris, 1844. Le plan grave par Jacobs. L'ecriture gravee par Hacq. Publie par Arthus Bertrand."
+                },
+                {
+                  "label": "List No",
+                  "value": "4119.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "5"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Hacq."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Jacobs, S."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Duflot de Mofras, Eugene"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1844"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Exploration Du Territoire De L'Oregon, Des Californies Et De La Mer Vermeille, Executee Pendant Les Annees 1840, 1841 Et 1842, Par M. Duflot De Mofras, Attache A La Legation De France A Mexico. Ouvrage Publie Par Ordre Du Roi, Sous Les Auspices De M. Le Marechal Soult, Duc De Dalmatie, President du Conseil, Et De M. Le Ministre Des Affaires Etrangeres. Tome Premier. Paris, Arthus Bertrand, Editeur, Libraire De La Societe De Geographie, Rue Hautefeuille, No. 23. 1844. Paris. - Typographie de Firmin Didot Freres, rue Jacob, 56 ... Tome Second ... Atlas (with map) Carte De La Cote De L'Amerique Sur L'Ocean Pacifique Septentrional comprenant Le Territoire De L'Oregon, Les Californies, La Mer Vermeille ..."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "P1457; Wheat 474; Harlow 28, 29; Verner 43; Howes D542 (\"c\"); Streeter 3323; Graff 1169; Sabin 21144."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Considered to be the best book on California prior to the American occupation. Wheat calls the large map \"a landmark...It made these western regions known in European official circles...his highly original map has much to commend it.\" Wheat neglects to mention the similarities between this map and the John Arrowsmith Map of British North America, 1837 edition. While not a copy of the Arrowsmith, it clearly followed the Arrowsmith map in most areas. The atlas volume contains, in addition to the large map, plans of ports from Acapulco to the Aleutians, including San Diego, Santa Barbara, Monterey, San Francisco, and the mouth of the Columbia. The chart of San Francisco Bay is based on Beechey's chart of 1833, improved by de Mofras' own explorations, particularly in the north bay. This copy belonged to the Prince of Coburg, with a presentation inscription from the author. The large map is hand painted in outline color, all others are without color. Covers of the volumes are half leather dark green cloth covered boards with a crown embossed on the front in gilt. The title \"De Mofras. Mexique. Californie. Oregon. 1\" is stamped in gilt on the spine of volume one, \"... 2\" on volume two, and \"...Atlas\" on the atlas. Rare."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "4119.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "22"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "53"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Image No",
+                  "value": "4119001"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0021/4119001.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Duflot de Mofras, Eugene"
+                },
+                {
+                  "label": "Collection",
+                  "value": "Rumsey Collection"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~1788~210001/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~1788~210001/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~1788~210001",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 7845,
+                    "height": 12553
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1788~210001/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~1788~210001/list/luna"
+              ],
+              "width": 7845,
+              "height": 12553
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~1788~210001"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
       "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~776~60166/manifest",
       "label": "Title Page: Illustrated atlas, and modern history of the World.",
       "attribution": "David Rumsey Historical Map Collection",
@@ -4546,6 +4751,179 @@
         "format": "image/png"
       },
       "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~238678~5511614"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~269806~90045108/manifest",
+      "label": "A \"Bird's-Eye-View\" of the Part of the Planet We Call California.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~269806~90045108/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~269806~90045108/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "A \"Bird's-Eye-View\" of the Part of the Planet We Call California.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Waldmire, Robert"
+                },
+                {
+                  "label": "Date",
+                  "value": "1987"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "A \"Bird's-Eye-View\" of the Part of the Planet We Call California."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "R. Waldmire"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Rochester (Illinois)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Note",
+                  "value": "Very detailed texts and vignettes about mining, wildlife, labor controversies, sports, businesses, landmarks, history, etc. \"Poster of the State of California.\""
+                },
+                {
+                  "label": "Reference",
+                  "value": "For more information on Bob Waldmire or to purchase copies of his maps, see http://bobwaldmire.com"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Historical"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "A \"Bird's-Eye-View\" of the Part of the Planet We Call California."
+                },
+                {
+                  "label": "List No",
+                  "value": "8835.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Frye-Willaimson Press"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Waldmire, Robert"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1987"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "A \"Bird's-Eye-View\" of the Part of the Planet We Call California."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Comes in two double-sided parts - map and legend. Interspersed maps and text. Black and white."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8835.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8835001.jp2"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Waldmire, Robert"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~269806~90045108/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~269806~90045108/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~269806~90045108",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11588,
+                    "height": 15228
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~269806~90045108/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~269806~90045108/list/luna"
+              ],
+              "width": 11588,
+              "height": 15228
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~269806~90045108"
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
