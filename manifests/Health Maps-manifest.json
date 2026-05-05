@@ -1,0 +1,2122 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://example.org/manifest/Health Maps",
+  "label": "Health Maps",
+  "description": "A curated gallery of 13 images created with IIIF Image Gallery Builder",
+  "metadata": [
+    {
+      "label": "Created with",
+      "value": "IIIF Image Gallery Builder"
+    },
+    {
+      "label": "Number of images",
+      "value": "13"
+    },
+    {
+      "label": "Created",
+      "value": "2026-02-20"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "@id": "https://example.org/manifest/Health Maps/sequence/1",
+      "canvases": [
+        {
+          "@id": "https://example.org/manifest/Health Maps/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "Health, disease.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Johnston, Alexander Keith, 1804-1871"
+            },
+            {
+              "label": "Date",
+              "value": "1856"
+            },
+            {
+              "label": "Short Title",
+              "value": "Health, disease."
+            },
+            {
+              "label": "Publisher",
+              "value": "William Blackwood & Sons"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Edinburgh"
+            },
+            {
+              "label": "Type",
+              "value": "Atlas Map"
+            },
+            {
+              "label": "Type",
+              "value": "Statistical Diagram"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "53"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "62"
+            },
+            {
+              "label": "Scale 1",
+              "value": "67,000,000"
+            },
+            {
+              "label": "Note",
+              "value": "Col. lithographed map with inset. Graphs: Consumption: proportion of deaths in the different quarters of the globe -- Rheumatism: proportion of attacks among the troops in the different quarters of the globe -- Comparative value of life in different countries -- Comparative value of life in cities and towns -- Proportionate mortality of European residents in foreign countries. \"Phytology & zoology no. 12.\""
+            },
+            {
+              "label": "World Area",
+              "value": "West Indies"
+            },
+            {
+              "label": "World Area",
+              "value": "World"
+            },
+            {
+              "label": "Country",
+              "value": "United States"
+            },
+            {
+              "label": "Subject",
+              "value": "Statistical"
+            },
+            {
+              "label": "Subject",
+              "value": "Thematic"
+            },
+            {
+              "label": "Subject",
+              "value": "Data Visualization"
+            },
+            {
+              "label": "Full Title",
+              "value": "The geographical distribution of health & disease, in connection chiefly with natural phenomena. (with) Fever districts of United States & W. Indies, on an enlarged scale. By A. Keith Johnston, F.R.S.E. &c. Engraved by W. & A.K. Johnston, Edinburgh. William Blackwood & Sons, Edinburgh & London. (1856)"
+            },
+            {
+              "label": "List No",
+              "value": "0372.036"
+            },
+            {
+              "label": "Page No",
+              "value": "Pl. 35"
+            },
+            {
+              "label": "Series No",
+              "value": "134"
+            },
+            {
+              "label": "Engraver or Printer",
+              "value": "W. & A.K. Johnston Limited"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Johnston, Alexander Keith, 1804-1871"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1856"
+            },
+            {
+              "label": "Pub Title",
+              "value": "The physical atlas of natural phenomena by Alexander Keith Johnston, F.R.S.E., F.R.G.S., F.G.S. ... A new and enlarged edition. William Blackwood and Sons, Edinburgh and London, MDCCCLVI. [The Author reserves the right of translation]"
+            },
+            {
+              "label": "Pub Reference",
+              "value": "Phillips, 229."
+            },
+            {
+              "label": "Pub Note",
+              "value": "2nd ed., enlarged. 1st ed. was 1848. Most of the maps are lithographed in color, but some are still engraved. The 1848 ed. was entirely engraved. Maps have both hand and printed color. Covers are half red leather dark teal cloth covered boards with \"Atlas.\" embossed on the spine in gold ."
+            },
+            {
+              "label": "Pub List No",
+              "value": "0372.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Physical Atlas"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "38"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "59"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "40"
+            },
+            {
+              "label": "Image No",
+              "value": "0372036"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0094/0372036.sid target=_blank>Full Image Download in MrSID Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Johnston, Alexander Keith, 1804-1871"
+            },
+            {
+              "label": "Collection",
+              "value": "Rumsey Collection"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~24722~940061/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~24722~940061/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~24722~940061/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~24722~940061/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~24722~940061",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 12217,
+                "height": 8628
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~24722~940061/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~24722~940061/canvas/c1/annotation/wtw9jg2x9"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~24722~940061/list/luna"
+          ],
+          "width": 12217,
+          "height": 8628
+        },
+        {
+          "@id": "https://example.org/manifest/Health Maps/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "This is Ann ... she drinks blood. Her full name is Anopheles Mosquito",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Geisel, Theodor Seuss"
+            },
+            {
+              "label": "Author",
+              "value": "Army Orientation Course, Special Service Division Army Service Forces"
+            },
+            {
+              "label": "Date",
+              "value": "1943"
+            },
+            {
+              "label": "Short Title",
+              "value": "This is Ann ... she drinks blood. Her full name is Anopheles Mosquito"
+            },
+            {
+              "label": "Publisher",
+              "value": "Army Orientation Courses"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Washington, D.C."
+            },
+            {
+              "label": "Publisher",
+              "value": "Time Inc."
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Washington, D.C."
+            },
+            {
+              "label": "Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "88"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "119"
+            },
+            {
+              "label": "Scale 1",
+              "value": "None shown"
+            },
+            {
+              "label": "Note",
+              "value": "4 maps on 1 sheet, both sides, sheet 88x119. Map of the world printed in red and black, by Theodore Geisel and Munro Leaf; Army Orientation Course, Special Service Division. With color coded reference: \"Malaria found wherever you see red on the map\". One element of the anti-malaria campaign was an effort to educated front-line soldiers and to control the disease through aggressive prevention and public health measures. On verso: Maps: Bougainville : last stop in the Solomons; Crimea is cut off; Atlantic Ocean. Includes text: War fronts: Russia, Italy, Air offensive, Southwest Pacific, Burma. Photographs: Navy's new Hellcat fighter plane brings down a Japanese fighter plane nicknamed \"Emily\" near the Gilbert Islands. \"Prepared from public sources of information.\""
+            },
+            {
+              "label": "World Area",
+              "value": "World"
+            },
+            {
+              "label": "Event",
+              "value": "World War II"
+            },
+            {
+              "label": "Subject",
+              "value": "Pictorial map"
+            },
+            {
+              "label": "Subject",
+              "value": "Data Visualization"
+            },
+            {
+              "label": "Full Title",
+              "value": "This is Ann ... she drinks blood. Her full name is Anopheles Mosquito and she's dying to meet you! ... Prepared and distributed by Army Orientation Course, Special Service Division, Army Service Forces. War Dept., Washington, D.C. Government printing Office, 1943, 538110. (on verso) Newsmap : Monday, November 8, 1943 : week of October 28 to November 4 : 217th week of the war : 99th week of U.S. participation. Volume II, No. 29. Drawn by Richard Edes Harrison, 1940. Time Inc. (Fortune)."
+            },
+            {
+              "label": "List No",
+              "value": "11241.001"
+            },
+            {
+              "label": "Series No",
+              "value": "1"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Harrison, Richard Edes"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Army Orientation Course, Special Service Division Army Service Forces"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Geisel, Theodor Seuss"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1943"
+            },
+            {
+              "label": "Pub Title",
+              "value": "This is Ann ... she drinks blood. Her full name is Anopheles Mosquito and she's dying to meet you! ... Prepared and distributed by Army Orientation Course, Special Service Division, Army Service Forces. War Dept., Washington, D.C. Government printing Office, 1943, 538110. (on verso) Newsmap : Monday, November 8, 1943 : week of October 28 to November 4 : 217th week of the war : 99th week of U.S. participation. Volume II, No. 29. Drawn by Richard Edes Harrison, 1940. Time Inc. (Fortune)."
+            },
+            {
+              "label": "Pub Note",
+              "value": "See note field above."
+            },
+            {
+              "label": "Pub List No",
+              "value": "11241.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "4"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "88"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "119"
+            },
+            {
+              "label": "Image No",
+              "value": "11241001.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/11241001.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Geisel, Theodor Seuss ; Army Orientation Course, Special Service Division Army Service Forces"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288913~90060542/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288913~90060542/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288913~90060542/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288913~90060542/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288913~90060542",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 23690,
+                "height": 17726
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288913~90060542/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288913~90060542/canvas/c1/annotation/xvlpb88y9"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288913~90060542/list/luna"
+          ],
+          "width": 23690,
+          "height": 17726
+        },
+        {
+          "@id": "https://example.org/manifest/Health Maps/canvas/2",
+          "@type": "sc:Canvas",
+          "label": "p. [1]",
+          "images": [
+            {
+              "@id": "https://cdm16003.contentdm.oclc.org/iiif/p15150coll3:9970/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://cdm16003.contentdm.oclc.org/iiif/2/p15150coll3:9970/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://cdm16003.contentdm.oclc.org/iiif/2/p15150coll3:9970",
+                  "width": 8708,
+                  "height": 11608,
+                  "tiles": [
+                    {
+                      "width": 8708,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 8708,
+                "height": 11608
+              },
+              "on": "https://cdm16003.contentdm.oclc.org/iiif/p15150coll3:9970/canvas/c0"
+            }
+          ],
+          "width": 8708,
+          "height": 11608,
+          "metadata": [
+            {
+              "label": "Source Manifest",
+              "value": "https://cdm16003.contentdm.oclc.org/iiif/p15150coll3:10006/manifest.json"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://cdm16003.contentdm.oclc.org/iiif/p15150coll3:9970/canvas/c0"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.org/manifest/Health Maps/canvas/3",
+          "@type": "sc:Canvas",
+          "label": "World Map of the Major Tropical Diseases.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Artzybasheff, Boris"
+            },
+            {
+              "label": "Date",
+              "value": "1944"
+            },
+            {
+              "label": "Short Title",
+              "value": "World Map of the Major Tropical Diseases."
+            },
+            {
+              "label": "Publisher",
+              "value": "Time, Inc."
+            },
+            {
+              "label": "Publisher Location",
+              "value": "New York"
+            },
+            {
+              "label": "Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "36"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "53"
+            },
+            {
+              "label": "Note",
+              "value": "Includes dramatic logos and brief text for each disease. Published in Life Magazine, May 1, 1944."
+            },
+            {
+              "label": "World Area",
+              "value": "World"
+            },
+            {
+              "label": "Subject",
+              "value": "Health; Disease"
+            },
+            {
+              "label": "Full Title",
+              "value": "World Map of the Major Tropical Diseases."
+            },
+            {
+              "label": "List No",
+              "value": "9113.000"
+            },
+            {
+              "label": "Series No",
+              "value": "1"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Artzybasheff, Boris"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1944"
+            },
+            {
+              "label": "Pub Title",
+              "value": "World Map of the Major Tropical Diseases."
+            },
+            {
+              "label": "Pub Note",
+              "value": "From Life Magazine, May 1, 1944."
+            },
+            {
+              "label": "Pub List No",
+              "value": "9113.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "1"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "36"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "53"
+            },
+            {
+              "label": "Image No",
+              "value": "9113000.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/9113000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Artzybasheff, Boris"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290431~90061990/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290431~90061990/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~290431~90061990/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~290431~90061990/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~290431~90061990",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 10508,
+                "height": 7158
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290431~90061990/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290431~90061990/canvas/c1/annotation/5j7qdf7fk"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290431~90061990/list/luna"
+          ],
+          "width": 10508,
+          "height": 7158
+        },
+        {
+          "@id": "https://example.org/manifest/Health Maps/canvas/4",
+          "@type": "sc:Canvas",
+          "label": "Mouvement de la mortalité de 1840-49 à 1857-66 comparé (parecusson de Rappel) à la mortalité absolue en chaque départemens les écussons rappelant la mortalité absolue des deux sexes de 0 à 1 an ...",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Bertillon, Louis-Adolphe, 1821-1883"
+            },
+            {
+              "label": "Date",
+              "value": "1849"
+            },
+            {
+              "label": "Short Title",
+              "value": "Mouvement de la mortalité de 1840-49 à 1857-66 comparé (parecusson de Rappel) à la mortalité absolue en chaque départemens les écussons rappelant la mortalité absolue des deux sexes de 0 à 1 an ..."
+            },
+            {
+              "label": "Publisher",
+              "value": "G. Masson"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Paris"
+            },
+            {
+              "label": "Type",
+              "value": "Atlas Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "22"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "49"
+            },
+            {
+              "label": "Note",
+              "value": "Two comparative statistical maps of France. Maps show childhood mortality rates between birth to age one year (Carte VII, left) and between ages one to five years (Carte VIII, right) during the period of 1840-1849, as compared to the absolute mortality rates. Each map delineates the country according to French departments. Maps indexed, with keys for each in margins. Maps include legends, explanatory notes and descriptive text. Black and white lithograph. Together, maps are 22 x 49 cm, on double-sheet 45 x 57 cm. Maps appear in Section B, 3rd Series."
+            },
+            {
+              "label": "Country",
+              "value": "France"
+            },
+            {
+              "label": "Subject",
+              "value": "Statistical"
+            },
+            {
+              "label": "Subject",
+              "value": "Health; Disease"
+            },
+            {
+              "label": "Subject",
+              "value": "Historical"
+            },
+            {
+              "label": "Subject",
+              "value": "Data Visualization"
+            },
+            {
+              "label": "Full Title",
+              "value": "Mouvement de la mortalité de 1840-49 à 1857-66 comparé (parecusson de Rappel) à la mortalité absolue en chaque départemens les écussons rappelant la mortalité absolue des deux sexes de 0 à 1 an : Carte VII. Par le docteur Bertillon. 1872. -- Carte VIII. Par le docteur Bertillon. 1872."
+            },
+            {
+              "label": "List No",
+              "value": "14345.010"
+            },
+            {
+              "label": "Page No",
+              "value": "VII-VIII"
+            },
+            {
+              "label": "Series No",
+              "value": "10"
+            },
+            {
+              "label": "Engraver or Printer",
+              "value": "Imprimerie Arnous de Rivière"
+            },
+            {
+              "label": "Engraver or Printer",
+              "value": "Chauvin"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Bertillon, Louis-Adolphe, 1821-1883"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1874"
+            },
+            {
+              "label": "Pub Title",
+              "value": "La démographie figurée de la France ou étude statistique de la population française avec tableaux graphiques traduisant les principales conclusions. Mortalité selon l'âge, le sexe, l'état-civil, &, & en chaque département et pour la France entière comparée aux pays étrangers par le docteur Bertillon. Paris : G. Masson, éditeur. Libraire de l'Académie de Médecine. 17, Place de l'École-de-Médecine, 1874."
+            },
+            {
+              "label": "Pub Note",
+              "value": "La démographie figurée de la France, by Louis-Adolphe Bertillon and published in Paris by G. Masson, 1874. Statistical atlas of France. Title translates to: The figurative demography of France or statistical study of the French population with graphic tables reflecting the main conclusions. Mortality by age, sex and marital status, in each department and for the whole of France compared to foreign countries. Bound in board covered with marbled papers, and including gilded spine title. Collation: [1], 4 pages, LVIII plates, [LIX]-LXIV pages. 58 plates comprised of 40 maps and 17 charts. Maps and charts show mortality rates amongst the French population, distinguishing according to sex, age, marital status and location within the country and beyond. Maps indexed, with keys for each in margins. Maps include legends, explanatory notes and descriptive text. Early data visualization represents a dense amount of statistics through simple imagery. Black and white lithographs. Atlas includes an introduction and table of contents, as well as a summary and conclusion following. In addition, a subscription form tucked within the volume provides a letter from the author regarding the work. From the book seller: \"this work in an imposing format, with its 56 x 44 cm plates, is a major milestone in the emergence of modern demographic analysis. Financed by the author, its publication was preceded by a long subscription campaign. An extremely rare subscription form (4 p.) is attached here. The maps and tables deal exclusively with mortality (\"3rd series\"). Louis-Adolphe Bertillon had announced the publication of other volumes concerning births (\"1st series\") and marriages (\"2nd series\"); they never appeared. Map I highlights the excess infant mortality in the rural departments near Paris, which are richer than the rest of the province. Bertillon sees this as a consequence of the nannying of Parisian babies, against which he campaigns.\""
+            },
+            {
+              "label": "Pub List No",
+              "value": "14345.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "National Atlas"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Statistical Atlas"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "40"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "46"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "31"
+            },
+            {
+              "label": "Image No",
+              "value": "14345010.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/195/14345010.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Bertillon, Louis-Adolphe, 1821-1883"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338039~90106023/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338039~90106023/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338039~90106023/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338039~90106023/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338039~90106023",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 15028,
+                "height": 11412
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338039~90106023/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338039~90106023/canvas/c1/annotation/2eh1xhfqb"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338039~90106023/list/luna"
+          ],
+          "width": 15028,
+          "height": 11412
+        },
+        {
+          "@id": "https://example.org/manifest/Health Maps/canvas/5",
+          "@type": "sc:Canvas",
+          "label": "Intestinal diseases deaths US.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "United States. Census Office"
+            },
+            {
+              "label": "Author",
+              "value": "Walker, Francis Amasa, 1840-1897"
+            },
+            {
+              "label": "Date",
+              "value": "1874"
+            },
+            {
+              "label": "Short Title",
+              "value": "Intestinal diseases deaths US."
+            },
+            {
+              "label": "Publisher",
+              "value": "U.S."
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Washington"
+            },
+            {
+              "label": "Type",
+              "value": "Atlas Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "51"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "38"
+            },
+            {
+              "label": "Scale 1",
+              "value": "7,200,000"
+            },
+            {
+              "label": "Note",
+              "value": "Colored lithographed map."
+            },
+            {
+              "label": "Country",
+              "value": "United States"
+            },
+            {
+              "label": "Subject",
+              "value": "Statistical"
+            },
+            {
+              "label": "Full Title",
+              "value": "Map showing the proportion of deaths from intestinal diseases to deaths from all causes. Compiled from the returns of mortality at the ninth census of the United States 1870. By Francis A. Walker. (Julius Bien, Lith., 1874)"
+            },
+            {
+              "label": "List No",
+              "value": "3566.045"
+            },
+            {
+              "label": "Page No",
+              "value": "XLV"
+            },
+            {
+              "label": "Series No",
+              "value": "48"
+            },
+            {
+              "label": "Engraver or Printer",
+              "value": "Bien, Julius"
+            },
+            {
+              "label": "Publication Author",
+              "value": "United States. Census Office"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Walker, Francis Amasa, 1840-1897"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1874"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Statistical atlas of the United States based on the results of the ninth census 1870 with contributions from many eminent men of science and several departments of the government. Compiled under authority of Congress by Francis A. Walker, M.A., Superintendent of the 9th Census, professor of political economy and history, Sheffield Scientific School of Yale College. Julius Bien, Lith., 1874."
+            },
+            {
+              "label": "Pub Reference",
+              "value": "Phillips, 1330; Phillips. Maps of America, p. 919; LeGear. Atlases of the United States, 407."
+            },
+            {
+              "label": "Pub Note",
+              "value": "See note field above."
+            },
+            {
+              "label": "Pub List No",
+              "value": "3566.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Statistical Atlas"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "38"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "56"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "43"
+            },
+            {
+              "label": "Image No",
+              "value": "3566045"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0113/3566045.sid target=_blank>Full Image Download in MrSID Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "United States. Census Office; Walker, Francis Amasa, 1840-1897"
+            },
+            {
+              "label": "Collection",
+              "value": "Rumsey Collection"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~29203~1130263/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~29203~1130263/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~29203~1130263/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~29203~1130263/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~29203~1130263",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 5772,
+                "height": 7170
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~29203~1130263/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~29203~1130263/canvas/c1/annotation/tgnndw68g"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~29203~1130263/list/luna"
+          ],
+          "width": 5772,
+          "height": 7170
+        },
+        {
+          "@id": "https://example.org/manifest/Health Maps/canvas/6",
+          "@type": "sc:Canvas",
+          "label": "101. Consumption NY, NJ, New England.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Attributed Author",
+              "value": "Gannett, Henry, 1846-1914"
+            },
+            {
+              "label": "Attributed Author",
+              "value": "United States. Census Office"
+            },
+            {
+              "label": "Date",
+              "value": "1903"
+            },
+            {
+              "label": "Short Title",
+              "value": "101. Consumption NY, NJ, New England."
+            },
+            {
+              "label": "Publisher",
+              "value": "U.S. Census Office"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Washington"
+            },
+            {
+              "label": "Type",
+              "value": "Atlas Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "25"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "34"
+            },
+            {
+              "label": "Scale 1",
+              "value": "3,000,000"
+            },
+            {
+              "label": "Note",
+              "value": "Color lithographed map. New Jersey shown in inset. Relief shown by contours."
+            },
+            {
+              "label": "State/Province",
+              "value": "U.S. North East"
+            },
+            {
+              "label": "Subject",
+              "value": "Statistical"
+            },
+            {
+              "label": "Subject",
+              "value": "Data Visualization"
+            },
+            {
+              "label": "Full Title",
+              "value": "The death rate due to consumption per 100,000 of population 1900 (New York, New Jersey, New England. Prepared under the supervision of Henry Gannett, Geographer of the Twelfth Census. United States Census Office, 1903). Julius Bien & Co., N.Y."
+            },
+            {
+              "label": "List No",
+              "value": "2152.101"
+            },
+            {
+              "label": "Page No",
+              "value": "Pl. 101"
+            },
+            {
+              "label": "Series No",
+              "value": "113"
+            },
+            {
+              "label": "Engraver or Printer",
+              "value": "Julius Bien & Co."
+            },
+            {
+              "label": "Publication Author",
+              "value": "Gannett, Henry, 1846-1914"
+            },
+            {
+              "label": "Publication Author",
+              "value": "United States. Census Office"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1903"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Twelfth census of the United States, taken in the year 1900. William R. Merriam, Director. Statistical atlas. Prepared under the supervision of Henry Gannett, Geographer of the Twelfth Census. Washington: United States Census Office. 1903."
+            },
+            {
+              "label": "Pub Reference",
+              "value": "P1334; U.S. Atlases L411."
+            },
+            {
+              "label": "Pub Note",
+              "value": "See note field above."
+            },
+            {
+              "label": "Pub List No",
+              "value": "2152.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Statistical Atlas"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "153"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "30"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "25"
+            },
+            {
+              "label": "Image No",
+              "value": "2152101"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0116/2152101.sid target=_blank>Full Image Download in MrSID Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Gannett, Henry, 1846-1914; United States. Census Office"
+            },
+            {
+              "label": "Collection",
+              "value": "Rumsey Collection"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~32154~1151496/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~32154~1151496/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~32154~1151496/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~32154~1151496/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~32154~1151496",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 8547,
+                "height": 5104
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~32154~1151496/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~32154~1151496/canvas/c1/annotation/hg2pmn4nb"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~32154~1151496/list/luna"
+          ],
+          "width": 8547,
+          "height": 5104
+        },
+        {
+          "@id": "https://example.org/manifest/Health Maps/canvas/7",
+          "@type": "sc:Canvas",
+          "label": "Medicinal plant map of the United States of America",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "National Wholesale Druggists' Association"
+            },
+            {
+              "label": "Author",
+              "value": "Newcomb, Edwin"
+            },
+            {
+              "label": "Date",
+              "value": "1932"
+            },
+            {
+              "label": "Short Title",
+              "value": "Medicinal plant map of the United States of America"
+            },
+            {
+              "label": "Publisher",
+              "value": "National Wholesale Druggists' Association"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "New York"
+            },
+            {
+              "label": "Publisher",
+              "value": "Einson-Freeman Co., inc,"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "New York"
+            },
+            {
+              "label": "Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "83"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "138"
+            },
+            {
+              "label": "Scale 1",
+              "value": "4,000,000"
+            },
+            {
+              "label": "Note",
+              "value": "Pictorial map, framed by illustrations of various plants. Shows illustrations and descriptions of medicinal plants native to the United States. Includes texts and notes. Text on verso includes list of chemicals used in medicine, and list of wholesale druggists."
+            },
+            {
+              "label": "Country",
+              "value": "United States"
+            },
+            {
+              "label": "Subject",
+              "value": "Pictorial map"
+            },
+            {
+              "label": "Full Title",
+              "value": "Medicinal plant map of the United States of America. Published by the National Wholesale Druggists' Association ; under the direction of Chairman Geo. Van Gorder ... edited by Dr. Edwin L. Newcomb ... with the assistance of Dr. Heber W. Youngken ... and Willard W. Eggleston ... Bureau of plant Industry, United States Department of Agriculture. September, 1932. Einson-Freeman Co. Inc. L.I. City New York. Litho. in U.S.A. (Text on verso) List of chemicals used in the practice of medicine and pharmacy in America ..."
+            },
+            {
+              "label": "List No",
+              "value": "6764.002"
+            },
+            {
+              "label": "Series No",
+              "value": "2"
+            },
+            {
+              "label": "Publication Author",
+              "value": "National Wholesale Druggists' Association"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Newcomb, Edwin"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1932"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Medicinal plant map of the United States of America. Published by the National Wholesale Druggists' Association ; under the direction of Chairman Geo. Van Gorder ... edited by Dr. Edwin L. Newcomb ... with the assistance of Dr. Heber W. Youngken ... and Willard W. Eggleston ... Bureau of plant Industry, United States Department of Agriculture. September, 1932. Einson-Freeman Co. Inc. L.I. City New York. Litho. in U.S.A. (Text on verso) List of chemicals used in the practice of medicine and pharmacy in America ..."
+            },
+            {
+              "label": "Pub Note",
+              "value": "Pictorial map, framed by illustrations of various plants. Shows illustrations and descriptions of medicinal plants native to the United States. Includes texts and notes. Text on verso includes list of chemicals used in medicine, and list of wholesale druggists."
+            },
+            {
+              "label": "Pub List No",
+              "value": "6764.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "83"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "138"
+            },
+            {
+              "label": "Image No",
+              "value": "6764002"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/6764002.sid target=_blank>Full Image Download in MrSID Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "National Wholesale Druggists' Association; Newcomb, Edwin"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~260602~5522896/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~260602~5522896/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~260602~5522896/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~260602~5522896/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~260602~5522896",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 29078,
+                "height": 19948
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~260602~5522896/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~260602~5522896/canvas/c1/annotation/bnevjrpec"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~260602~5522896/list/luna"
+          ],
+          "width": 29078,
+          "height": 19948
+        },
+        {
+          "@id": "https://example.org/manifest/Health Maps/canvas/8",
+          "@type": "sc:Canvas",
+          "label": "Centenary of the Foundation of the Red Cross. 1863 - 1963.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "La Croix-Rouge"
+            },
+            {
+              "label": "Author",
+              "value": "Boucher, Lucien (1889-1971)"
+            },
+            {
+              "label": "Date",
+              "value": "1962"
+            },
+            {
+              "label": "Short Title",
+              "value": "Centenary of the Foundation of the Red Cross. 1863 - 1963."
+            },
+            {
+              "label": "Publisher",
+              "value": "La Croix-Rouge"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "(Paris)"
+            },
+            {
+              "label": "Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "59"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "93"
+            },
+            {
+              "label": "World Area",
+              "value": "World"
+            },
+            {
+              "label": "Subject",
+              "value": "Pictorial map"
+            },
+            {
+              "label": "Full Title",
+              "value": "Centenaire de la Fondation de la Croix-Rouge. 1863 - 1963. Realisation de la Ligue des Societes de la Croix-Rouge, Geneva. (Centenary of the Foundation of the Red Cross. 1863 - 1963. Realization of the League of the Red Cross, Geneva.)"
+            },
+            {
+              "label": "List No",
+              "value": "8716.000"
+            },
+            {
+              "label": "Series No",
+              "value": "1"
+            },
+            {
+              "label": "Engraver or Printer",
+              "value": "Perceval S.A."
+            },
+            {
+              "label": "Publication Author",
+              "value": "La Croix-Rouge"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Boucher, Lucien (1889-1971)"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1962"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Centenaire de la Fondation de la Croix-Rouge. 1863 - 1963. Realisation de la Ligue des Societes de la Croix-Rouge, Geneva. (Centenary of the Foundation of the Red Cross. 1863 - 1963. Realization of the League of the Red Cross, Geneva.)"
+            },
+            {
+              "label": "Pub Note",
+              "value": "Colorful with flags of society member nations across the top and bottom borders. Numerous vignettes mostly showing medical services."
+            },
+            {
+              "label": "Pub List No",
+              "value": "8716.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Separate Map"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "1"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "59"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "93"
+            },
+            {
+              "label": "Image No",
+              "value": "8716000.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/136/8716000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "La Croix-Rouge; Boucher, Lucien (1889-1971)"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268229~90042521/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268229~90042521/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268229~90042521/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268229~90042521/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268229~90042521",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 19844,
+                "height": 13204
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268229~90042521/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268229~90042521/canvas/c1/annotation/36x9frgtb"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268229~90042521/list/luna"
+          ],
+          "width": 19844,
+          "height": 13204
+        },
+        {
+          "@id": "https://example.org/manifest/Health Maps/canvas/9",
+          "@type": "sc:Canvas",
+          "label": "Opium, Drugs, &c.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Bartholomew, J. G."
+            },
+            {
+              "label": "Date",
+              "value": "1907"
+            },
+            {
+              "label": "Short Title",
+              "value": "Opium, Drugs, &c."
+            },
+            {
+              "label": "Publisher",
+              "value": "George Newnes, Limited"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "London"
+            },
+            {
+              "label": "Type",
+              "value": "Atlas Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "39"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "48"
+            },
+            {
+              "label": "Scale 1",
+              "value": "88,500,000"
+            },
+            {
+              "label": "Reference",
+              "value": "P70."
+            },
+            {
+              "label": "World Area",
+              "value": "World"
+            },
+            {
+              "label": "Subject",
+              "value": "Agriculture"
+            },
+            {
+              "label": "Full Title",
+              "value": "Opium, Drugs, &c. Chinchona. Camphor."
+            },
+            {
+              "label": "List No",
+              "value": "6920.167"
+            },
+            {
+              "label": "Page No",
+              "value": "170-171"
+            },
+            {
+              "label": "Series No",
+              "value": "167"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Bartholomew, J. G."
+            },
+            {
+              "label": "Pub Date",
+              "value": "1907"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Atlas of the World's Commerce, A New Series of Maps with Descriptive Text and Diagrams showing Products, Imports, Exports, Commercial Conditions and Economic Statistics of the Countries of the World, Compiled from the Latest Official returns at the Edinburgh Geographical Institute and Edited by J.G. Bartholomew, F.R.S.E., F.R.G.S., Etc. Victoria Gold Medalist of the Royal Geographical Society. London, George Newnes, Limited, Southampton Street, Strand, W.C."
+            },
+            {
+              "label": "Pub Reference",
+              "value": "P70."
+            },
+            {
+              "label": "Pub Note",
+              "value": "This is a path breaking statistical atlas of world commerce, using imaginatively formatted maps and diagrams to show the immense growth and pattern of international trade at the beginning of the 20th century."
+            },
+            {
+              "label": "Pub List No",
+              "value": "6920.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Statistical Atlas"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "66"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "39"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "26"
+            },
+            {
+              "label": "Image No",
+              "value": "6920167"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/6920167.sid target=_blank>Full Image Download in MrSID Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Bartholomew, J. G."
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~249111~5516479/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~249111~5516479/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~249111~5516479/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~249111~5516479/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~249111~5516479",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 10264,
+                "height": 7744
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~249111~5516479/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~249111~5516479/canvas/c1/annotation/z90r3u741"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~249111~5516479/list/luna"
+          ],
+          "width": 10264,
+          "height": 7744
+        },
+        {
+          "@id": "https://example.org/manifest/Health Maps/canvas/10",
+          "@type": "sc:Canvas",
+          "label": "Diagram of the Causes of Mortality in the Army in the East.",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Martineau, Harriet"
+            },
+            {
+              "label": "Author",
+              "value": "Nightingale, Florence"
+            },
+            {
+              "label": "Date",
+              "value": "1859"
+            },
+            {
+              "label": "Short Title",
+              "value": "Diagram of the Causes of Mortality in the Army in the East."
+            },
+            {
+              "label": "Publisher",
+              "value": "Smith Elder & Co."
+            },
+            {
+              "label": "Publisher Location",
+              "value": "London"
+            },
+            {
+              "label": "Type",
+              "value": "Diagram"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "19"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "35"
+            },
+            {
+              "label": "Note",
+              "value": "Colored."
+            },
+            {
+              "label": "Subject",
+              "value": "Data Visualization"
+            },
+            {
+              "label": "Subject",
+              "value": "Military"
+            },
+            {
+              "label": "Full Title",
+              "value": "Diagram of the Causes of Mortality in the Army in the East."
+            },
+            {
+              "label": "List No",
+              "value": "10563.002"
+            },
+            {
+              "label": "Series No",
+              "value": "2"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Martineau, Harriet"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Nightingale, Florence"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1859"
+            },
+            {
+              "label": "Pub Title",
+              "value": "England and Her Soldiers."
+            },
+            {
+              "label": "Pub Reference",
+              "value": "Nightingale and Martineau collaboration is detailed in \"Florence Nightingale: The Crimean War: Collected Works of Florence Nightingale, Volume 14\" edited by Lynn McDonald, pp. 992-1009. For the full text see https://books.google.com/books?id=sD34ITqWuToC&lpg=PP1&pg=PP1#v=onepage&q&f=false"
+            },
+            {
+              "label": "Pub Note",
+              "value": "\"Florence Nightingale worked closely with medical statistician William Farr to create a series of analytic arguments for better sanitation in the British Army. The most famous graphic from their collaboration is a colorful rose diagram, referred to by Nightingale as “wedges.” It is part of a set of three polar area charts which were originally printed in a confidential 1858 report presented to the Secretary of State for War titled “Notes on the Health of the British Army.” Popular author Harriet Martineau offered to help Nightingale publicize the findings of her report. The product of their collaboration was “England and Her Soldiers,” which includes a set of the diagrams specially printed by Nightingale just for the book.\" (RJ Andrews, 2020). See also RJ Andrews overview of Nightingale's graphics at https://infowetrust.com/project/designhero"
+            },
+            {
+              "label": "Pub List No",
+              "value": "10563.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Geography Book"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "20"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "14"
+            },
+            {
+              "label": "Image No",
+              "value": "10563002.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/185/10563002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Martineau, Harriet; Nightingale, Florence"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~327826~90096398/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~327826~90096398/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~327826~90096398/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~327826~90096398/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~327826~90096398",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 7522,
+                "height": 4309
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~327826~90096398/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~327826~90096398/canvas/c1/annotation/4c0h7gyk0"
+            }
+          ],
+          "otherContent": [
+            "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~327826~90096398/list/luna"
+          ],
+          "width": 7522,
+          "height": 4309
+        },
+        {
+          "@id": "https://example.org/manifest/Health Maps/canvas/11",
+          "@type": "sc:Canvas",
+          "label": "Chislo zaregistrirovannykh bol'nykh sifilisom za 1888-1894 g. na tysyachu zhiteley. Masshtab 40 verst v angl. dyuyme. [i.e. The number of registered patients with syphilis for 1888-1894 per thousand inhabitants. Map in scale 40 versts in English inch]",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Anonymous"
+            },
+            {
+              "label": "Date",
+              "value": "1894"
+            },
+            {
+              "label": "Short Title",
+              "value": "Chislo zaregistrirovannykh bol'nykh sifilisom za 1888-1894 g. na tysyachu zhiteley. Masshtab 40 verst v angl. dyuyme. [i.e. The number of registered patients with syphilis for 1888-1894 per thousand inhabitants. Map in scale 40 versts in English inch]"
+            },
+            {
+              "label": "Publisher",
+              "value": "A. Ilyin Cartographic Establishment"
+            },
+            {
+              "label": "Publisher Location",
+              "value": "St. Petersburg"
+            },
+            {
+              "label": "Type",
+              "value": "Case Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "232"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "192"
+            },
+            {
+              "label": "Note",
+              "value": "Date estimated."
+            },
+            {
+              "label": "Country",
+              "value": "Russia"
+            },
+            {
+              "label": "Subject",
+              "value": "Health; Disease"
+            },
+            {
+              "label": "Full Title",
+              "value": "Chislo zaregistrirovannykh bol'nykh sifilisom za 1888-1894 g. na tysyachu zhiteley. Masshtab 40 verst v angl. dyuyme. [i.e. The number of registered patients with syphilis for 1888-1894 per thousand inhabitants. Map in scale 40 versts in English inch]"
+            },
+            {
+              "label": "List No",
+              "value": "16758.000"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Anonymous"
+            },
+            {
+              "label": "Pub Date",
+              "value": "1894"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Chislo zaregistrirovannykh bol'nykh sifilisom za 1888-1894 g. na tysyachu zhiteley. Masshtab 40 verst v angl. dyuyme. [i.e. The number of registered patients with syphilis for 1888-1894 per thousand inhabitants. Map in scale 40 versts in English inch]"
+            },
+            {
+              "label": "Pub Note",
+              "value": "\"Map, likely done in 1 copy only, that shows the spread of syphilis in different parts of Russia in the late XIXth century – manuscript over print, it’s likely was created for the official use, as this information was not intended for the public. The map that was used for the purpose is the postal wall map of European Russia. The legend indicates the post offices and postal headquarters, as well as the details on the postal trains in operation between the provinces of the empire. The two parts of the map, the upper left corner and the lower right corner were cut out and the supplied parts of the map added – one with the title, which is printed likely from some kind of rubber form, and one with the numbers of registered syphilis patients – starting from 0,2 per X to more than 30 per X. Unfortunately, the map didn’t specify what X is, but one can make a reasonable guess about it (see below). The colouring on the map itself is done by hand as well, the darker areas are the ones with the denser population of the patients, while the lighter indicates the areas closer to 0,2. As the numbers like these were not available to the public, we can presume that the map was done for some kind of medical administration office, or perhaps to showcase the paper or talk for internal use in Ministry of Health around the time. The Asiatic part of Russia is shown in the lower left corner. Syphilis is known in Russia at least from the beginning of XVIIIth century. During the century, ‘the French disease’ was treated in secrecy and sometimes being prosecuted for having it. In 1763, a “secret” hospital for syphilis patients was opened in St. Petersburg with 30 male and 30 female beds, under the management of doctor D. Samoilovich. Patients admitted to it did not give their names and could wear masks. Outsiders were not allowed into the hospital premises. A separate decree described measures for the treatment of women with syphilis; on May 17, 1793, a decree was issued “On the treatment of dissolute women obsessed with Franz Veneria, and on their exile to settlement.” The initiator of the decree was St. Petersburg Governor General A. I. Glebov. In his petition to the Senate, he writes that as of April 26, 1793, of the 671 patients in the St. Petersburg hospital, a significant portion were there because of syphilis infection. The mandatory registration of syphilis patients was introduced in 1843, the same year the ‘yellow ticket’ rule was established for Empire’s sex workers. In 1867, Professor V.M. Tarnovsky spoke about the need to separate syphilology into a separate science. He stated that for a long time, while the treatment of syphilis was limited only to external manifestations, the disease was related to surgery, but in the light of recent advances in science, it became clear that the treatment of syphilis is impossible without understanding the pathological processes occurring in the human body. A new surge in morbidity was observed at the end of the 19th - beginning of the 20th century; due to wars and revolutions, the quality of medical care fell sharply, and the number of patients increased. According to the medical department, in 1904 the incidence of syphilis in the Russian army was 9.76%, in 1905 - 14.74%, in 1906 - 17.85%, in 1907 - 19.79%. Also according to Sexual census of Moscow students, conducted by physician M. A. Chlenov in 1907, 2,7% of students had syphilis in Moscow University. From those numbers one can try to guess what was the 0,2-30 per X in this map. Surprisingly on the map the highest density of the cases is registered not around capitals, but in the South of European Russia, areas close to Lipetsk and Voronezh.\" (Globus, 2025)"
+            },
+            {
+              "label": "Pub List No",
+              "value": "16758.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Case Map"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "232"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "192"
+            },
+            {
+              "label": "Image No",
+              "value": "16758000.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/222/16758000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Anonymous"
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~374661~90141165/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~374661~90141165/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~374661~90141165/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~374661~90141165/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~374661~90141165",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 46551,
+                "height": 55957
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~374661~90141165/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~374661~90141165/canvas/c1/annotation/rdhfc1pc7"
+            }
+          ],
+          "width": 46551,
+          "height": 55957
+        },
+        {
+          "@id": "https://example.org/manifest/Health Maps/canvas/12",
+          "@type": "sc:Canvas",
+          "label": "Planul oraşului Bucureşti = Plan de la ville de Bucarest = The plan of the town of Bucarest : Circumscripţiunile medicale cu toate instituțiunile sanitare și de asistenţa medicala și sociala ...",
+          "description": "",
+          "metadata": [
+            {
+              "label": "Author",
+              "value": "Stoicescu, I.R."
+            },
+            {
+              "label": "Author",
+              "value": "Glicsman, I."
+            },
+            {
+              "label": "Date",
+              "value": "1927"
+            },
+            {
+              "label": "Short Title",
+              "value": "Planul oraşului Bucureşti = Plan de la ville de Bucarest = The plan of the town of Bucarest : Circumscripţiunile medicale cu toate instituțiunile sanitare și de asistenţa medicala și sociala ..."
+            },
+            {
+              "label": "Publisher",
+              "value": "Atelierele Grafice Socec & Co."
+            },
+            {
+              "label": "Publisher Location",
+              "value": "Bucharest"
+            },
+            {
+              "label": "Type",
+              "value": "Atlas Map"
+            },
+            {
+              "label": "Obj Height cm",
+              "value": "39"
+            },
+            {
+              "label": "Obj Width cm",
+              "value": "55"
+            },
+            {
+              "label": "Scale 1",
+              "value": "25,000"
+            },
+            {
+              "label": "Note",
+              "value": "Map representing Bucharest, Romania, showing medical districts with all health and social care institutions. Map also shows political boundaries, roads, bodies of water, and drainage. Includes a compass rose with north oriented toward top of sheet, two legends, and a scale statement. Colored lithograph. Titles appear in parallel Romanian, French, and English. Map is 39 x 55 cm, on double sheet 42 x 61 cm."
+            },
+            {
+              "label": "Country",
+              "value": "Romania"
+            },
+            {
+              "label": "City",
+              "value": "Bucharest (Romania)"
+            },
+            {
+              "label": "Subject",
+              "value": "Health; Disease"
+            },
+            {
+              "label": "Full Title",
+              "value": "Planul oraşului Bucureşti = Plan de la ville de Bucarest = The plan of the town of Bucarest : Circumscripţiunile medicale cu toate instituțiunile sanitare și de asistenţa medicala și sociala = Avec les circonscriptions médicales et toutes les institutions sanitaires et d'assistance medicale et sociale = Showing medical districts, all hospitals and sanitary and public welfare institutions. Socec & Co. S.A. Bucureşti."
+            },
+            {
+              "label": "List No",
+              "value": "14536.038"
+            },
+            {
+              "label": "Series No",
+              "value": "38"
+            },
+            {
+              "label": "Publication Author",
+              "value": "Stoicescu, I.R."
+            },
+            {
+              "label": "Publication Author",
+              "value": "Glicsman, I."
+            },
+            {
+              "label": "Pub Date",
+              "value": "1927"
+            },
+            {
+              "label": "Pub Title",
+              "value": "Album statistic al igienei preventive, asistenţei medicale și al asistentei sociale. România Ministerul sănătăţii şi ocrotirilor sociale. Directiunea statisticii şi propagandei. Dr. I. Glicsman. Directorul serviciului statistic, propagandei şI studiilor la minist. Sănătății și ocrotirilor sociale. I. R. Stoicescu. Desenator-cartograf subdirector la minist. Sănătății și ocrotirilor sociale. Atelierele Grafice Socec & Co., S. A. Bucureşti. 1927."
+            },
+            {
+              "label": "Pub Note",
+              "value": "Album statistic al igienei preventive, asistenţei medicale și al asistentei sociale., by I. Glicsman and I.R. Stoicescu, published by Atelierele Grafice Socec & Co., in Bucharest, 1927. Title translates to, \"Statistical album of preventive hygiene, medical and social assistance.\" Bound in cream-colored paper with gilt title and decorative border on front cover. Text appears with parallel translations in Romanian, French, and English. Volume is 59 pages, including a table of contents, an introduction, 15 maps, 82 views numerous diagrams. The volume provides an extensive overview of the medical and social support systems in Romania in the early 1920s, with detailed maps, photographic views, statistical diagrams, and related descriptive text. The end of the volume includes detailed information on baths, hotels, and resorts."
+            },
+            {
+              "label": "Pub List No",
+              "value": "14536.000"
+            },
+            {
+              "label": "Pub Type",
+              "value": "Statistical Atlas"
+            },
+            {
+              "label": "Pub Maps",
+              "value": "15"
+            },
+            {
+              "label": "Pub Height cm",
+              "value": "42"
+            },
+            {
+              "label": "Pub Width cm",
+              "value": "32"
+            },
+            {
+              "label": "Image No",
+              "value": "14536038.jp2"
+            },
+            {
+              "label": "Download 1",
+              "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/218/14536038.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+            },
+            {
+              "label": "Download 2",
+              "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+            },
+            {
+              "label": "Authors",
+              "value": "Stoicescu, I.R.; Glicsman, I."
+            },
+            {
+              "label": "Source Manifest",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369426~90136676/manifest"
+            },
+            {
+              "label": "Original Canvas ID",
+              "value": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369426~90136676/canvas/c1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369426~90136676/full/!96,96/0/default.jpg",
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369426~90136676/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369426~90136676",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "format": "image/jpeg",
+                "width": 12022,
+                "height": 8166
+              },
+              "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369426~90136676/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369426~90136676/canvas/c1/annotation/f750wsqau"
+            }
+          ],
+          "width": 12022,
+          "height": 8166
+        }
+      ]
+    }
+  ]
+}
