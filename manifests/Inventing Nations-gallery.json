@@ -1,0 +1,1239 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Inventing Nations",
+  "label": "Inventing Nations",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350906~90118373/manifest",
+      "label": "The Austro-Hungarian Empire Including Bosnia & Hertzegovina.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~350906~90118373/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350906~90118373/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "The Austro-Hungarian Empire Including Bosnia & Hertzegovina.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Philip, George, 1870-1937."
+                },
+                {
+                  "label": "Date",
+                  "value": "1910"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "The Austro-Hungarian Empire Including Bosnia & Hertzegovina."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "George Philip & Son Ltd."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "60"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "2,100,000"
+                },
+                {
+                  "label": "Country",
+                  "value": "Austria"
+                },
+                {
+                  "label": "Country",
+                  "value": "Hungary"
+                },
+                {
+                  "label": "Country",
+                  "value": "Bosnia and Herzegovina"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "The Austro-Hungarian Empire Including Bosnia & Hertzegovina."
+                },
+                {
+                  "label": "List No",
+                  "value": "15487.044"
+                },
+                {
+                  "label": "Series No",
+                  "value": "44"
+                },
+                {
+                  "label": "Page No",
+                  "value": "14"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Philip, George, 1870-1937."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1910"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Philips' General Atlas of the World."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "George Philip (1800-1882) was a Scottish geographer and map publisher who established the cartographic firm known as George Philip & Son. The company was based in London and played a significant role in the production and distribution of maps, atlases, and geographical publications during the 19th and early 20th centuries. George Philip's maps were renowned for their accuracy and attention to detail. He was one of the first publishers to use lithography for map production, which allowed for mass production and the inclusion of intricate details. His maps covered various regions of the world, including Europe, the British Isles, and the British Empire. The London Geographical Institute was a part of and successor to George Philip & Son Ltd"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Published at the London Geographical Institute, part of the Philips publishing enterprise."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15487.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "50"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "55"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "38"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15487044.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/15487044.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Philip, George, 1870-1937."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350906~90118373/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350906~90118373/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350906~90118373",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 16377,
+                    "height": 13060
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350906~90118373/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350906~90118373/list/luna"
+              ],
+              "width": 16377,
+              "height": 13060
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~350906~90118373"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~325753~90094675/manifest",
+      "label": "Nouvelle carte generale des provinces asiatiques de L'empire Ottoman",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~325753~90094675/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~325753~90094675/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Nouvelle carte generale des provinces asiatiques de L'empire Ottoman",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Kiepert, Heinrich, 1818-1899"
+                },
+                {
+                  "label": "Author",
+                  "value": "Richard Kiepert, 1846 - 1915"
+                },
+                {
+                  "label": "Date",
+                  "value": "1917"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Nouvelle carte generale des provinces asiatiques de L'empire Ottoman"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Dietrich Reimer"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Berlin"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "100"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "158"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "1,500,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "1917 edition of map of the Ottoman Empire, covers most of Middle East and part of Near East. Colored on sheet 100x158, dissected into 24 sections, backed with linen, folded to 24x26. with sellers label of Simon Schrop & Co. Berlin on verso reading \"\"Kiepert l' Empire Ottoman\". Map shows administrative divisions, cities, villages, roads, rivers and mountains. Relief shown by shading and spot heights. Prime meridian is Greenwich. Includes list of geographic terms in eastern languages and notes on administrative divisions. Includes notes on materials the cartographer used to put together the map."
+                },
+                {
+                  "label": "Country",
+                  "value": "Turkey"
+                },
+                {
+                  "label": "Region",
+                  "value": "Middle East"
+                },
+                {
+                  "label": "Region",
+                  "value": "Ottoman Empire"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Administrative and political divisions"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Ottoman Mapping"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Nouvelle carte generale des provinces asiatiques de L'empire Ottoman : sans L'Arabie. Dressee par Henri Kiepert, Berlin. 1883. Berlin, Dietrich Reimer, Editeur 1884. Chemins de fer d'apres l'eat de 1917."
+                },
+                {
+                  "label": "List No",
+                  "value": "13119.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Kiepert, Heinrich, 1818-1899"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Richard Kiepert, 1846 - 1915"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1917"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Nouvelle carte generale des provinces asiatiques de L'empire Ottoman : sans L'Arabie. Dressee par Henri Kiepert, Berlin. 1883. Berlin, Dietrich Reimer, Editeur 1884. Chemins de fer d'apres l'eat de 1917."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "OCLC: 557756383; British Library: Cartographic Items Maps 46970.(46.); National Library of Australia: 3424623.  Cf. [Re: 1884 edition:] Lothar Zögner, Antike Welten, neue Regionen: Heinrich Kiepert, 1818-1899 (Berlin, 1999), ‘Karten’, no. 476 (p. 126)."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"This is a unique example of the finest general map of the Near East and most of the Middle East available during World War I, being the ultimate edition of Heinrich Kiepert’s gargantuan masterpiece.  The work depicts the heart of the Ottoman Empire, including Turkey, the Levant (modern Syria, Lebanon, Israel and Jordan) and Iraq; plus, adjacent regions, including parts of Persia (Iran), Egypt and the Caucuses.  Considered to be by far and away the era’s most detailed and accurate geographical overview of the region, the first edition was compiled in 1883 by the foremost authority on the cartography of the Ottoman Empire, the German geographer Heinrich Kiepert, and is here significantly updated to 1917, taking into account the partial construction of the famous Bagdadbahn (Istanbul to Baghdad Railway) and the Hejaz Railway, which connected Damascus to Medina (here partially shown).  This edition of the Kiepert map is especially interesting and important, as it was made specifically to be used as a strategic aid by Central Powers commanders during World War I.  The war in the Near and Middle East was heavily determined by geographic variables, and perhaps no other map better showcases these factors, providing a panoptic overview all in one place.  The present example features extensive contemporary markings in red and blue crayon highlighting key garrison towns and potential military targets, likely added by a German or Turkish officer.  We are not aware of another example of the Kiepert map with wartime manuscript markings, making this a rare example of the best regional map of World War I, bearing direct evidence of wartime use. The Ottoman lands are outlined in pink, while to the northwest is Bulgaria, the south-easternmost of the European Central Powers.  To the northeast, are the Caucuses, outlined in green, which are possessions of Russia (soon to become the Soviet Union), an ancient foe of the Ottomans, and a fierce opponent in World War I conflict in Eastern Anatolia.  To the east, is Persia, outlined in yellow, the Turks’ oldest adversary, yet neutral in the ongoing war.  Egypt is shown to be a British Protectorate, and the main Entente base in the region.   The main map is exceedingly detailed, based on the most advanced scientific surveys available.  The names of many geographical features and towns are given in Greek, Turkish, Arabic, and Persian, as explained in the table below the title, indicative of Kiepert’s great love and languages.  All major topographical features are depicted, with mountains expressed through shading.  Innumerable cities and towns are noted in their precise locations, while all major roads and railways (many of which had been completed only recently and were still in the progress of construction) are delineated.  Importantly, Kiepert includes ethnographic information, labelling the local peoples in each area, critical important in such a politically volatile region.  The map features all the information necessary for strategic military planning, here showcased in a far more accurate and clear manner than on any other map. Heinrich Kiepert initially drafted the map in 1883, and the first edition was chromolithographed onto 6 large sheets and published in 1884 by Dietrich Reimer in Berlin.  The map was very highly regarded, and examples were ordered by German industrial concerns and government agencies across Europe.  It was reissued in several updated editions, in 1891, 1898, 1899, 1909, 1910, 1912 and 1917 (the present edition).  Richard Kiepert, Heinrich’s son, oversaw the editions issued after the elder Kiepert’s death in 1899, until his passing in 1915.  Importantly, the editions of the map are often accompanied by a smaller map, Aperçu General de la Division Administrative des Provinces Asiatiques de l'Empire Ottoman, depicting the Ottoman Empire’s internal divisions (not present here).  It is possible, that due to the strategic military purpose of the present example of the map, it may never have been issued with the small map, which would have possessed no military value.  The present example of the map bears the seller’s pastedown stamp of the esteemed Berlin mapmaker and dealer Simon Schropp & Co.   The Manuscript Additions on the Present Map: Direct Evidence of WWI Strategic Use It is remarkable to find an example of the finest World War I general map of the Near and Middle East featuring direct evidence of strategic military use.  The present example of the 1917 Kiepert map is unique, in that it features extensive manuscript markings, in blue and red crayon.  While the purpose of the additions is not explicitly spelled out, it seems that they are meant to highlight important World War I garrison towns (mostly of the Central Powers).  Some of the towns in Palestine are marked in red, surrounded by blue lines, indicative of the locations of key Ottomans posts, enveloped by military cordons.  Indeed, these centres were subject to British-Arab attacks in 1917 and 1918.  In Western Anatolia, some of the blue manuscript additions follow the rail routes, of both the Istanbul-Ankara railway and the only partially completed Bagdadbahn, indicating the lines’ importance to the Central Powers’ war effort.  The fact that the map was issued in Berlin during the height of the war, plus the focus of the manuscript additions, suggests that the was used by Central Powers officers for strategic planning, as opposed to operatives of the Entente side.   World War I: The Fall of the Ottoman Empire & the End of the ‘New’ Great Game The present map showcases the eastern theatre of World War I (1914-8), the dramatic climax of the ‘New’ Great Game, being the Anglo-German rivalry that had dominated Near and Middle Eastern Politics over the last generation.  Since German interests gained control of the Ottoman Empire’s railway networks in 1889, an increasingly ambitious and wealthy German Empire was looking for ways to gain its place under sun, preferably at the expense of Great Britain.  While Germany knew that it could not likely acquire any major conquests in Asia comparable to the British colonies, or Russian holdings, it saw an opening to assume great political and economic power in the Middle East by stealth.  The Ottoman Empire was decaying, lacking the financial and military resources to maintain its immense domain.  The Sublime Porte was eager to shake off the Anglo-French compact that had, in return for financing the empire, demanded extortionate economic and political concessions.  Germany seemed provide the perfect alternative, as they offered to invest vast capital in the Ottoman lands, while promising not to assume political control over any of the territory – they only requested a business stake in their proposed mutual projects (at least for a time).  As presented on the map, prior to World War I, there were two main German geo-strategic plays in the Ottoman Empire, both of which centred around the construction of railways.  The first was to create fixed link from Istanbul to the Persian Gulf.  Not only was the Gulf long-considered a key British zone, but geologists had predicted that the region possessed immense reserves of oil (which would be proven true in 1908). In 1903, German interests sponsored the extension of the existing Anatolian Railway, from Konya (West-Central Turkey) to Baghdad, via Aleppo (Syria).  This would connect Istanbul with Baghdad, and by extension, with Berlin, so promising to create the ‘Berlin-Bagdad Express’.  The so-called Baghdad Railway (German: Bagdadbahn), could be easily extended to Basra, the gateway to the Persian Gulf, and within striking distance of India.  Both the Germans and the Ottomans would then be able to move large numbers of troops thousands of kilometres to the heart of the Middle East in only a few days – much faster than the British or the Russians.  They could transport commercial goods from Asia to Europe far more quickly than through the British-controlled Suez Canal.  The famous contemporary orientalist Morris Jastrow observed: “It was felt in England that if, as Napoleon is said to have remarked, Antwerp in the hands of a great continental power was a pistol levelled at the English coast, Baghdad and the Persian Gulf in the hands of Germany (or any other strong power) would be a 42-centimetre gun pointed at India.”  The other strategic play was for the Germans to control a railway extending deep down into the Red Sea area.  The realization of such a line would threaten Britain’s naval dominance over the sea, and its vital link to India and Southeast and East Asia via the Suez Canal.  The Ottomans had long dreamed of having a rail link from Istanbul to Medina and Mecca, to better facilitate the Hajj, and it seems that this religious imperative perfectly coincided with practical German ambitions.  The line of the Hejaz Railway had been completed from Damascus to Medina by 1908 (but did not extend to Mecca). Meanwhile, Russia and Britain, whose rivalry, the original ‘Great Game’, had overshadowed the Middle East and Central Asia since the 1830s, had both become exhausted, and tired of opposing each other in particular.  Britain had won the Second Boer War (1899-1902) in South Africa, but at an awesome cost.  Russia’s navy was crushed in the Russo-Japanese War (1904-5), and the Czarist regime subsequently faced severe internal unrest.  Moreover, both powers were more than a little spooked by the speed and success of the German operations in the Ottoman Empire.  The dramatic expansion of the German military and a series of provocations had convinced both St. Petersburg and London that Berlin’s aims in the Middle East were far from peaceful.  They saw Germany as being a far greater threat to their mutual fortunes than they were to each other. Accordingly, both empires signed the Anglo-Russian Entente of 1907, whereby Russia agreed to respect Britain’s domination of Afghanistan; Britain agreed to recognize Russia’s conquests in Central Asia; both parties agreed not to make moves on Tibet; and they mutually agreed to divide Persia into respective zones of influence.  The ‘New’ Great Game became the Anglo-Russian design to hinder and contain the German-Ottoman Alliance, the geo-strategic realities of which are perhaps no better illustrated than on the present map.  As it happened, the ‘New’ Great Game was not to last long.  The German-Ottoman designs, and their antagonism towards Britain and Russia, spiked after the 1909 Coup placed the bellicose ‘Young Turk’ regime in charge of the Ottoman Empire.  In 1914, Turkey followed German and Austria-Hungary to war against the Entente Powers.  While World War I in Western Europe was, until 1918, a bloody stalemate, the conflict in the Near and Middle East was fluid and dramatic.  The British notably failed to invade Turkey, losing the showdown at Gallipoli (1915), while the Ottomans failed to take the Suez Canal.  The matter of the railways proved critical to the outcome of the war.  At the start of the conflict only 740 km of the 1,600 kilometres length of the Bagdadbahn had been completed.  As shown on the map, much of the line along the border of Anatolia and Syria was uncompleted, while, more critically, the route across Turkey had two major unfinished gaps, in the Taurus and Nur Mountains.  While German engineers tried their best during the war to close these gaps, this proved impossible.  Consequently, the German-Ottoman side was unable to quickly move troops into Iraq, allowing Britain to gain the upper hand, seizing the region.  Further south, Lawrence of Arabia and his Arab allies severed the Hejaz Railway, leaving the Ottoman Empire’s southern flank vulnerable to the successful British-Arab conquest of Palestine and Syria.  Undoubtedly, the German-Ottoman failure to complete and maintain its rail lines at least severely weekend its cause and was perhaps a decisive factor in allowing Britain to gain ultimate victory.  As is well-known, by the fall of 1918, Germany was vanquished, and the Ottoman Empire disintegrated.  This proved to be largely to Britain’s gain, making her the undisputed master of the Persian Gulf and its oil reserves.  All considered, the present map brilliantly illustrates what was the keystone region of global geo-politics during a crucial juncture in history.   Heinrich Kiepert: Foremost Authority on the Geography the Ottoman Empire Heinrich Kiepert (1818 - 1899) was a German geographer and historian of unusual intellect and diversity of interests.  Born in Berlin, he grew up in an affluent, culturally sophisticated family, mentored by leading academics and travelling widely.  He studied history, geography and philology, with a focus on Greece and the Near East, at the Humboldt University of Berlin under the legendary co-founder of modern geography, Carl Ritter (1779 - 1759).  He showed great talent as a cartographer and worked closely with many commercial mapmakers.  His first major project was assisting Ritter in the production of his Atlas von Hellas und den hellenischen Kolonien (1840).   Between 1841 and 1848 Kiepert made four trips to Ottoman Europe and Asia Minor, and become a world-renowned expert on Turkey.  This led him to produce his own cartographic works concerning the Ottoman Empire, including the Karte des osmanischen Reiches in Asien (1844); the Karte von Klein-Asien (1854); the Specialkarte vom Westlichen Kleinasien (1890-2) and his posthumously-published, monumental Karte von Kleinasien meist nach noch nicht oder in kleinstem Massstabe veroffentlichten Aufnahmen in 24 Blatt (1902-6). Upon his return from the Near East, Kiepert became the head of the Geographisches Institut in Weimar and, in 1854, was appointed a full professor as the University of Berlin.  He maintained a long association with the prominent Berlin map publisher Dietrich Reimer, who was responsible for issuing the present map.  Kiepert was a remarkably adept editor of cartographic material, possessing an uncanny ability to select the best and most accurate information out of a variety of conflicting sources, resulting in maps of amazing authority and precision for their time. Kiepert also produced excellent large-format maps of diverse parts of the world, including of the Russian Empire, Central America, as well as various parts of the Near East, Caucuses and the Mediterranean.  Notably, the present map was one of Kiepert’s most highly regarded works.  He also produced educational tomes, including, Lehrbuch der alten Geographie (1877); Leitfaden der alten Geographie (1879); and his enlarged atlas of the ancient world, Formae orbis antiqui (1894).  Additionally, Kiepert produced many maps for the Baedeker travel guides. Following his death, in 1899, Heinrich Kiepert’s cartographic work was ably continued by his son, Richard Kiepert (1846 - 1915), a professional geographer, who issued revised editions of his father’s maps.  The present 1917 edition of Kiepert’s great Near and Middle East map incudes revisions made by Richard up to his death, and was completed by the editorial team of the publisher, Ernst Vohsen.   A Note on Rarity All editions of the map are rare; the present 1917 wartime edition seems to be especially so, we cannot trace another example as having appeared on the market in the last generation, and we can trace only a handful of institutional examples.  The present example is also unique, bearing extensive manuscript additions, evidence of its strategic wartime use.\" (Alexander Johnston/Dasa Pahor,  2018)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "13119.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "100"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "158"
+                },
+                {
+                  "label": "Image No",
+                  "value": "13119002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/185/13119002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Kiepert, Heinrich, 1818-1899; Richard Kiepert, 1846 - 1915"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~325753~90094675/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~325753~90094675/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~325753~90094675",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 38702,
+                    "height": 23914
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~325753~90094675/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~325753~90094675/list/luna"
+              ],
+              "width": 38702,
+              "height": 23914
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~325753~90094675"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347402~90114873/manifest",
+      "label": "The Literary Digest Liberty Map Of The Western Front of the Great World War.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~347402~90114873/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347402~90114873/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "The Literary Digest Liberty Map Of The Western Front of the Great World War.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Funk & Wagnalls Company."
+                },
+                {
+                  "label": "Date",
+                  "value": "1918"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "The Literary Digest Liberty Map Of The Western Front of the Great World War."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Funk & Wagnalls."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "99"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "123"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "506,880"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Europe"
+                },
+                {
+                  "label": "Event",
+                  "value": "World War I"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Military"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "The Literary Digest Liberty Map Of The Western Front of the Great World War. Showing the Battle Line Of Liberty as it stood May 1st, 1918. Also Showing the Lines of Farthest Advance of the German and the French Offensives. With Complete Index. Copyright, 1819, by Funk & Wagnalls Company, Publishers, New York. Engraved and Printed by the Matthews-Northrup Works, Buffalo, N.Y. ... (inset) Map Of The Complete War Area ... (inset) The Coal And Iron Fields in the Western War Territories. (with index book) Index For The Literary Digest Liberty Map of the Western Front o the Great World War ..."
+                },
+                {
+                  "label": "List No",
+                  "value": "2062.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Funk & Wagnalls Company."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1918"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The Literary Digest Liberty Map Of The Western Front of the Great World War. Showing the Battle Line Of Liberty as it stood May 1st, 1918. Also Showing the Lines of Farthest Advance of the German and the French Offensives. With Complete Index. Copyright, 1819, by Funk & Wagnalls Company, Publishers, New York. Engraved and Printed by the Matthews-Northrup Works, Buffalo, N.Y. ... (inset) Map Of The Complete War Area ... (inset) The Coal And Iron Fields in the Western War Territories. (with index book) Index For The Literary Digest Liberty Map of the Western Front o the Great World War ..."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Phillips WW Maps 414b."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Includes separate Index book 25x15. Map engraved by Matthews-Northrup Works. Full printed color. Map folds into a paper slip case 27.5x18 titled \"The Literary Digest Liberty Map of the Western Front Together with a Complete Area Map of The Great World War Showing the Battle-Line of Liberty At \"The Frontier of Freedom\". Also the Lines of the Farthest Invasions of German and Allied Territory. With Complete Index Of Over 11,000 Names. Copyright, 1918, by Funk & Wagnalls Company, Publishers, New York. Bond Paper Edition - Price, $2.75 Net.\""
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "2062.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "18"
+                },
+                {
+                  "label": "Image No",
+                  "value": "2062002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/2062002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Funk & Wagnalls Company."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347402~90114873/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347402~90114873/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347402~90114873",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 31558,
+                    "height": 25330
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347402~90114873/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347402~90114873/list/luna"
+              ],
+              "width": 31558,
+              "height": 25330
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~347402~90114873"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~352336~90119614/manifest",
+      "label": "Rozsiedlenie ludności Polskiej w Księstwie Cieszyńskim. La reportition de la population Polonaise dans la principaute de Cieszyn. The Polish population in the province of Teschen",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~352336~90119614/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~352336~90119614/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Rozsiedlenie ludności Polskiej w Księstwie Cieszyńskim. La reportition de la population Polonaise dans la principaute de Cieszyn. The Polish population in the province of Teschen",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Sikora, Wincenty (1878-1958)"
+                },
+                {
+                  "label": "Date",
+                  "value": "1919"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Rozsiedlenie ludności Polskiej w Księstwie Cieszyńskim. La reportition de la population Polonaise dans la principaute de Cieszyn. The Polish population in the province of Teschen"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Art Lithografia Fr. Zielinskiego"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Krakow"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "70"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "100"
+                },
+                {
+                  "label": "Country",
+                  "value": "Poland"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Ethnography; Nationality; Race"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Rozsiedlenie ludności Polskiej w Księstwie Cieszyńskim. La reportition de la population Polonaise dans la principaute de Cieszyn. The Polish population in the province of Teschen"
+                },
+                {
+                  "label": "List No",
+                  "value": "15560.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Sikora, Wincenty (1878-1958)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1919"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Rozsiedlenie ludności Polskiej w Księstwie Cieszyńskim. La reportition de la population Polonaise dans la principaute de Cieszyn. The Polish population in the province of Teschen"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"Demographic map of the Polish Czech border. The map of the area around the city of Cieszyn, on the Czech-Polish border, was made in 1919, on the eve of the Spa Conference, that determined the border between the two countries after World War I. Various colours and diagrams showcase the percentage of Polish, Czech and German population in the region. The author Wincenty Sikora (1878-1958) was a Polish educator, author and member of the National League, an organization, that opposed to the activities of national minorities in Poland. In the same year another version of map with the same title, but different results, presenting much lower percentage of Polish inhabitants was published by Franciszek Popiołek (1868 - 1960), a professor of geography and director of high school in Cieszyn. (Link to the map: Rozsiedlenie ludności Polskiej w Księstwie Cieszyńskim = La reportition de la population Polonaise dans la principaute de Cieszyn = The Polish population in the province of Teschen - Digital Repository of Scientific Institutes (rcin.org.pl)) In 1920, Cieszyn was divided into a Polish and Czech part leaving minorities on both sides. Our example has been annotated by the author in the lower part. We could only find institutional examples in Polish institutions. References: OCLC 1199901437, 956514911, 802394748, 1228635636. Andrzej Gawryszewski, Polskie mapy narodowościowe, wyznaniowe i językowe bibliografia (lata 1827-1967), 1969.\" (Alexander Johnson/Dasa Pahor, 2023)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15560.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "70"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "100"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15560000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/15560000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Sikora, Wincenty (1878-1958)"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~352336~90119614/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~352336~90119614/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~352336~90119614",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 23764,
+                    "height": 17062
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~352336~90119614/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~352336~90119614/list/luna"
+              ],
+              "width": 23764,
+              "height": 17062
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~352336~90119614"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~342276~90110493/manifest",
+      "label": "The Illustration of the Graet (sic) European War.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~342276~90110493/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~342276~90110493/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "The Illustration of the Graet (sic) European War.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "[Tanaka, Ryozo]. 田中良三."
+                },
+                {
+                  "label": "Date",
+                  "value": "1914"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "The Illustration of the Graet (sic) European War."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "尚美堂. [Shobido]."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Tokyo"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "55"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Europe"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Asia"
+                },
+                {
+                  "label": "Event",
+                  "value": "World War I"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Satirical"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "The Illustration of the Graet (sic) European War. Ahumoros (sic) Atlas of the World. A humorous map of the world. No. 16 滑稽時局世界地図. 欧州大戦乱画報 (其16)."
+                },
+                {
+                  "label": "List No",
+                  "value": "15072.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "[Tanaka, Ryozo]. 田中良三."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1914"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The Illustration of the Graet (sic) European War. Ahumoros (sic) Atlas of the World. A humorous map of the world. No. 16 滑稽時局世界地図. 欧州大戦乱画報 (其16)."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"Published just after the start of the First World War, on 13 September 1914, and subtitled in English ‘The Illustration of the Graet European War’ [sic], this map was designed and printed by Tanaka Ryōzō (1874-1946), who ran a print shop in central Tokyo and later became well known for producing prints of works by prominent modern woodblock artists. Although it is described as ‘map of the world’, it is really a map of Europe, Asia and part of North Africa. The US is interestingly shown as a man in a top hat looking at Asia through a telescope from a small patch of land that appears to be somewhere in the middle of the Pacific. The rest of North and South America and all of Australia and New Zealand are missing. The colourful and decorative map cleverly depicts each country as an animal, or more rarely as a human figure, giving an intriguing insight into Japanese perceptions of the state of the world (and some Japanese prejudices about neighbouring countries!) at the start of World War 1. Under the terms of its alliance with Britain, Japan had joined the war on the side of the Allies, and its sense of Germany and Turkey as enemies is reflected in the depiction of Turkey as a tiger and of Germany as a wild boar wielding a sabre, which is being pierced by arrows labelled ‘France’, ‘Gritain’ [sic], ‘Japan’ and ‘Russia’. But the other main Central Power, the Austro-Hungarian Empire, is represented by a rather blurry image of dog, suggesting that perhaps the map’s illustrator had little clear impression of the nature of the Hapsburg Empire. Meanwhile France seems to have been subsumed into the German boar, while Britain is a shachihoko – a mythical creature with the body of a carp and the head of a tiger, commonly used as a decoration on the roofs of Japanese buildings. (Ireland is either missing from the map, or is perhaps meant to be represented by one of the shachihoko’s fins). The dominant figures on the map are Russia – depicted as a very large and lethargic bear smoking a pipe – and China – shown as pig which is rather enigmatically staring at a barometer. Both figures suggest powerlessness and inertia. India and Burma are joined together and represented as an elephant, while Arabia is depicted as a horse. The only human images on the map are America, two languid female figures representing Nubia and Tripoli (i.e. Libya), and Japan and Korea. Japan is a large sword-wielding samurai, while Korea (which had been formally colonised by Japan four years earlier) is represented as a tiny unarmed figure sitting in a submissive position in front of the samurai. The map is labelled in both Japanese and English, with some rather charming mis-spellings in the English (‘humoros’ and ‘Japan See’ etc.) \" (Asia Bookroom, 2022)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15072.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "55"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15072000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/15072000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "[Tanaka, Ryozo]. 田中良三. ;"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~342276~90110493/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~342276~90110493/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~342276~90110493",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 13106,
+                    "height": 9596
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~342276~90110493/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~342276~90110493/list/luna"
+              ],
+              "width": 13106,
+              "height": 9596
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~342276~90110493"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~332277~90100758/manifest",
+      "label": "Il Tedesco ha ordito invano la ragnatela criminosa",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~332277~90100758/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~332277~90100758/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Il Tedesco ha ordito invano la ragnatela criminosa",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Gustavo Modiano & Co."
+                },
+                {
+                  "label": "Date",
+                  "value": "1918"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Il Tedesco ha ordito invano la ragnatela criminosa"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Gustavo Modiano & Co."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Milano"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "97"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "69"
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Event",
+                  "value": "World War II"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Military"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Il Tedesco ha ordito invano la ragnatela criminosa. Gustavo Modiano & Co. Milano. Edito dall Istituto Italo-Britannico, Milano."
+                },
+                {
+                  "label": "List No",
+                  "value": "13625.000"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Istituto Italo-Britannico"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Gustavo Modiano & Co."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1918"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Il Tedesco ha ordito invano la ragnatela criminosa. Gustavo Modiano & Co. Milano. Edito dall Istituto Italo-Britannico, Milano."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Italian propaganda poster, map of the world, 49x66 on sheet 95x66. produced in mid 1918 by Gustavo Modiano. Published by the Italian-British institute. Shows how Germany wove a web of crimes which cover the face of the world. Includes text and numbered key beneath the map which describes the effects of the war that resulted from the ambition to conquer the world."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "13625.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "97"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "69"
+                },
+                {
+                  "label": "Image No",
+                  "value": "13625000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/190/13625000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Gustavo Modiano & Co."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~332277~90100758/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~332277~90100758/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~332277~90100758",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 16698,
+                    "height": 23442
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~332277~90100758/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~332277~90100758/list/luna"
+              ],
+              "width": 16698,
+              "height": 23442
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~332277~90100758"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~364857~90132240/manifest",
+      "label": "Europa : Carta politica ...",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~364857~90132240/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~364857~90132240/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Europa : Carta politica ...",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Baratta, Mario, 1868-1935"
+                },
+                {
+                  "label": "Author",
+                  "value": "Visintin, Luigi"
+                },
+                {
+                  "label": "Date",
+                  "value": "1922"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Europa : Carta politica ..."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Istituto geografico De Agostini"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Novara (Italy)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "36"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "45"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "50,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Three maps representing European political geography (in the first map), ethnographic geography (second map), and population density (third map). Maps show political boundaries, topography, bodies of water, drainage, coastlines, and islands. Relief shown with hachures. The first two maps include bar scales given in kilometers. Each map includes a legend, latitudinal and longitudinal lines, as well as a scale statement; scales differ. The maps share descriptive text. Color lithograph. Together, maps are 36 x 45 cm, on double sheet 40 x 53 cm. Maps appear in Volume I."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Europe"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Political"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Europa : Carta politica. -- Europa etnografica. -- Densità di popolazione. Istituto Geografico de Agostini - Novara, di Cesare Rossi e dott. A. Marco Boroli."
+                },
+                {
+                  "label": "List No",
+                  "value": "14510.034"
+                },
+                {
+                  "label": "Series No",
+                  "value": "34"
+                },
+                {
+                  "label": "Page No",
+                  "value": "21-22"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Baratta, Mario, 1868-1935"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Visintin, Luigi"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1922"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Grande atlante geografico : 102 tavole di geografia fisica, politica ed economica con 250 carte e cartine ed indice dei nomi."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Grande atlante geografico : 102 tavole di geografia fisica, politica ed economica con 250 carte e cartine ed indice dei nomi by Mario Baratta and Luigi Visintin. Published by Istituto Geografico de Agostini in Novara, Italy, 1922. Title translates to: Large geographical atlas: 102 tables of physical, political and economic geography with 250 charts and maps and an index of names. In two volumes. The first volume includes a brown paper jacket with the title printed in blue on the cover and spine, with a maroon leather cover and matching fabric overlay and spine, gilt title and spine title. The second volume includes a maroon fabric cover, gilt title and spine title. Each volume include a title page, table of contents, and extensive index. Atlas covers the world and includes 304 maps across both volumes. Maps show political boundaries, cities, railways, roads, deserts, bodies of water, drainage, coastlines, and islands. Founded in Rome in 1901 by Giovanni De Agostini with the name \"Primo Istituto Italiano di Cartografia\", the primary title of the newly founded publishing house was the Atlante De Agostini Calendar. The idea was an immediately success. In 1908 the company moved to Novara, Italy, both because it was closer to Germany, from which De Agostini took his cartography equipment, and because the area had rapid industrial development. In 1919 the company was acquired by Marco Boroli and Cesare Rossi and began its climb to success. In 1922 the Great Geographical Atlas was released - the first great Italian atlas. From 1927, with the installation in Novara of the first rotogravure printing plant in Italy, the De Agostini Institute began to diversify its publishing activities: it inaugurated a series of illustrated books, entered the sector of school textbooks, and published a series of art books. In 1946, the company was taken over entirely by the Boroli family. In the 1950s, the company produced art editions, children's books and large encyclopedia volumes. From 1959 to 1970 sixteen large encyclopedias were produced and accompanied by the adoption of installment sales, an absolute novelty for the time. Starting in 1983, the company began to lead the industry with large, multi-volume works and school textbooks, gaining a leading position at a national level. It then began to acquire publishing houses operating in major European markets. Today, De Agostini Editore is currently one of the most well-known and important Italian publishing houses, operating in over thirty countries around the world in thirteen different languages. Its activities are focused on the promotion and dissemination of knowledge in all its forms. Historical notes courtesy Fondazione Fiera, Milan: https://archiviostorico.fondazionefiera.it/entita/1463-istituto-geografico-de-agostini"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14510.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "304"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "41"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "39"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14510034.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/14510034.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Baratta, Mario, 1868-1935; Visintin, Luigi"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~364857~90132240/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~364857~90132240/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~364857~90132240",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12417,
+                    "height": 8413
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~364857~90132240/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~364857~90132240/list/luna"
+              ],
+              "width": 12417,
+              "height": 8413
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~364857~90132240"
+    }
+  ]
+}
