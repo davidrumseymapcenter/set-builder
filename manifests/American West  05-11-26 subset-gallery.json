@@ -365,6 +365,187 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229397~5508053/manifest",
+      "label": "Pacific Rail Road Route",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~229397~5508053/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229397~5508053/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Pacific Rail Road Route",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Colton, G.W. & C.B."
+                },
+                {
+                  "label": "Date",
+                  "value": "1870"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Pacific Rail Road Route"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "G.W. & C.B. Colton & Co."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "14"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "98"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "3,100,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "This is a strip map extending from the Mississippi River to San Francisco, following the Union Pacific and Central Pacific Railroads. It is derived from Colton's Map of the States and Territories West of the Mississippi River. It is folded accordion style into dark brown cloth covers 9.5x16.5 with \"Colton's Map Of The Pacific Railroad Route From The Mississippi River To The Pacific Ocean. G.W. & C.B. Colton & Co.\" stamped in gilt. The cover title is printed along the long dimension of the covers with the binding along the top edge. It is not mentioned in any Colton catalogs of the period and is probably scarce. Prime meridians are Greenwich and Washington D.C. Relief shown by hachures."
+                },
+                {
+                  "label": "Reference",
+                  "value": "None found."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "U.S. West"
+                },
+                {
+                  "label": "Event",
+                  "value": "Pacific Railroad"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Railroad"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Map Of The Pacific Rail Road Route From The Mississippi River To The Pacific Ocean. Published By G.W. & C.B. Colton & Co. 172 William St. New York."
+                },
+                {
+                  "label": "List No",
+                  "value": "4882.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Colton, G.W. & C.B."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1870"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Map Of The Pacific Rail Road Route From The Mississippi River To The Pacific Ocean. Published By G.W. & C.B. Colton & Co. 172 William St. New York."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "None found."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "4882.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "10"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "17"
+                },
+                {
+                  "label": "Image No",
+                  "value": "4882002"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/4882002.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Colton, G.W. & C.B."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~229397~5508053/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~229397~5508053/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~229397~5508053",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 16018,
+                    "height": 2614
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229397~5508053/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229397~5508053/list/luna"
+              ],
+              "width": 16018,
+              "height": 2614
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~229397~5508053"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
       "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254028~5519109/manifest",
       "label": "Rand McNally & Co.'s sectional map of the Dakota and the Black Hills",
       "attribution": "David Rumsey Historical Map Collection",
@@ -900,6 +1081,175 @@
         "format": "image/png"
       },
       "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~350348~90117829"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290356~90061866/manifest",
+      "label": "The conquest of a continent",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~290356~90061866/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290356~90061866/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "The conquest of a continent",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Kaiser, August"
+                },
+                {
+                  "label": "Date",
+                  "value": "1933"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "The conquest of a continent"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Bureau of Engraving Inc."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Minneapolis, Minn."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "53"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "69"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Color pictorial map of the United States. Bordered by vignettes illustrations of historical events. Shows state boundaries, roads, trails, water ways, and numerous historical notations. Includes decorative compass rose at lower right corner, explanation of symbols: \"By way of explanation\" and text \"Bred on the frontier ... Milestones on the way\"."
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Historical"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "The conquest of a continent : a pictorial representation of the westward progress of the pioneer. Designed and copyrighted by August Kaiser. Historian Clara Searle Painter. Checked for historical accuracy by Agnes Larson ... Sponsored by National Fellowship Appeal Committee, American Association of University Women."
+                },
+                {
+                  "label": "List No",
+                  "value": "11189.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Kaiser, August"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1933"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The conquest of a continent : a pictorial representation of the westward progress of the pioneer. Designed and copyrighted by August Kaiser. Historian Clara Searle Painter. Checked for historical accuracy by Agnes Larson ... Sponsored by National Fellowship Appeal Committee, American Association of University Women."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11189.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "53"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "69"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11189000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/11189000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Kaiser, August"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~290356~90061866/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~290356~90061866/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~290356~90061866",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 17268,
+                    "height": 11220
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290356~90061866/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290356~90061866/list/luna"
+              ],
+              "width": 17268,
+              "height": 11220
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~290356~90061866"
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
