@@ -1,8 +1,8 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Collection",
-  "@id": "https://iiif-gallery-builder.example.org/Medieval and Early Modern Iberian Literatures 2",
-  "label": "Medieval and Early Modern Iberian Literatures 2",
+  "@id": "https://iiif-gallery-builder.example.org/Medieval and Early Modern Iberian Literatures",
+  "label": "Medieval and Early Modern Iberian Literatures",
   "items": [
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
