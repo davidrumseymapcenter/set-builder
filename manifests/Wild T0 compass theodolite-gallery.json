@@ -1,0 +1,2010 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Wild T0 compass theodolite",
+  "label": "Wild T0 compass theodolite",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[ Wild T0 compass theodolite]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hs972qq4176.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hs972qq4176'>https://purl.stanford.edu/hs972qq4176</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[ Wild T0 compass theodolite]"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wild, Heerbrugg"
+        },
+        {
+          "label": "Contributor",
+          "value": "[Heerbrugg, Swtzerland?] (manufacturer)"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Three-dimensional form"
+        },
+        {
+          "label": "Format",
+          "value": "1 Theodolite ; 27.5 cm h x 13.5 cm dia."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Serial number 104484."
+        },
+        {
+          "label": "Description",
+          "value": "27.5 cm h x 13.5 cm diameter at base."
+        },
+        {
+          "label": "Subject",
+          "value": "Surveying > Instruments > 20th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Theodolites > 20th century"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hs972qq4176"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-01-14"
+        }
+      ],
+      "description": "Serial number 104484.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 300,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 11648,
+              "width": 8736,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hs972qq4176/hs972qq4176_0001.jp2",
+                  "label": "Original source file (17.6 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hs972qq4176/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fc1feb7fc-09dd-4353-b32e-83ea532c3507",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11648,
+                    "width": 8736,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[ Wild T0 compass theodolite]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hs972qq4176.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hs972qq4176'>https://purl.stanford.edu/hs972qq4176</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[ Wild T0 compass theodolite]"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wild, Heerbrugg"
+        },
+        {
+          "label": "Contributor",
+          "value": "[Heerbrugg, Swtzerland?] (manufacturer)"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Three-dimensional form"
+        },
+        {
+          "label": "Format",
+          "value": "1 Theodolite ; 27.5 cm h x 13.5 cm dia."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Serial number 104484."
+        },
+        {
+          "label": "Description",
+          "value": "27.5 cm h x 13.5 cm diameter at base."
+        },
+        {
+          "label": "Subject",
+          "value": "Surveying > Instruments > 20th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Theodolites > 20th century"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hs972qq4176"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-01-14"
+        }
+      ],
+      "description": "Serial number 104484.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 300,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_2",
+              "@type": "sc:Canvas",
+              "label": "Image 2",
+              "height": 9954,
+              "width": 7466,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hs972qq4176/hs972qq4176_0002.jp2",
+                  "label": "Original source file (10.5 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hs972qq4176/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F1f97b997-c17f-44a6-a531-e16b27dbb920",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_2",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0002/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 9954,
+                    "width": 7466,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0002",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[ Wild T0 compass theodolite]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hs972qq4176.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hs972qq4176'>https://purl.stanford.edu/hs972qq4176</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[ Wild T0 compass theodolite]"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wild, Heerbrugg"
+        },
+        {
+          "label": "Contributor",
+          "value": "[Heerbrugg, Swtzerland?] (manufacturer)"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Three-dimensional form"
+        },
+        {
+          "label": "Format",
+          "value": "1 Theodolite ; 27.5 cm h x 13.5 cm dia."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Serial number 104484."
+        },
+        {
+          "label": "Description",
+          "value": "27.5 cm h x 13.5 cm diameter at base."
+        },
+        {
+          "label": "Subject",
+          "value": "Surveying > Instruments > 20th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Theodolites > 20th century"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hs972qq4176"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-01-14"
+        }
+      ],
+      "description": "Serial number 104484.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 300,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_3",
+              "@type": "sc:Canvas",
+              "label": "Image 3",
+              "height": 11259,
+              "width": 8444,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hs972qq4176/hs972qq4176_0003.jp2",
+                  "label": "Original source file (13.7 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hs972qq4176/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fe6d4025e-1a9f-486e-8c7d-888aeb260a4d",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_3",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0003/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11259,
+                    "width": 8444,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0003",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[ Wild T0 compass theodolite]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hs972qq4176.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hs972qq4176'>https://purl.stanford.edu/hs972qq4176</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[ Wild T0 compass theodolite]"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wild, Heerbrugg"
+        },
+        {
+          "label": "Contributor",
+          "value": "[Heerbrugg, Swtzerland?] (manufacturer)"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Three-dimensional form"
+        },
+        {
+          "label": "Format",
+          "value": "1 Theodolite ; 27.5 cm h x 13.5 cm dia."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Serial number 104484."
+        },
+        {
+          "label": "Description",
+          "value": "27.5 cm h x 13.5 cm diameter at base."
+        },
+        {
+          "label": "Subject",
+          "value": "Surveying > Instruments > 20th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Theodolites > 20th century"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hs972qq4176"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-01-14"
+        }
+      ],
+      "description": "Serial number 104484.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 300,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_4",
+              "@type": "sc:Canvas",
+              "label": "Image 4",
+              "height": 9954,
+              "width": 7466,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hs972qq4176/hs972qq4176_0004.jp2",
+                  "label": "Original source file (10.6 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hs972qq4176/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Ffe0cfdfc-59e5-4f90-8d3e-a57f198bbdbb",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_4",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0004/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 9954,
+                    "width": 7466,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0004",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[ Wild T0 compass theodolite]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hs972qq4176.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hs972qq4176'>https://purl.stanford.edu/hs972qq4176</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[ Wild T0 compass theodolite]"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wild, Heerbrugg"
+        },
+        {
+          "label": "Contributor",
+          "value": "[Heerbrugg, Swtzerland?] (manufacturer)"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Three-dimensional form"
+        },
+        {
+          "label": "Format",
+          "value": "1 Theodolite ; 27.5 cm h x 13.5 cm dia."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Serial number 104484."
+        },
+        {
+          "label": "Description",
+          "value": "27.5 cm h x 13.5 cm diameter at base."
+        },
+        {
+          "label": "Subject",
+          "value": "Surveying > Instruments > 20th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Theodolites > 20th century"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hs972qq4176"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-01-14"
+        }
+      ],
+      "description": "Serial number 104484.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 300,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_5",
+              "@type": "sc:Canvas",
+              "label": "Image 5",
+              "height": 11004,
+              "width": 8253,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hs972qq4176/hs972qq4176_0005.jp2",
+                  "label": "Original source file (13.6 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hs972qq4176/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F1de061a7-feaa-4df7-bc27-9fd5d486709c",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_5",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0005/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11004,
+                    "width": 8253,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0005",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[ Wild T0 compass theodolite]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hs972qq4176.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hs972qq4176'>https://purl.stanford.edu/hs972qq4176</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[ Wild T0 compass theodolite]"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wild, Heerbrugg"
+        },
+        {
+          "label": "Contributor",
+          "value": "[Heerbrugg, Swtzerland?] (manufacturer)"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Three-dimensional form"
+        },
+        {
+          "label": "Format",
+          "value": "1 Theodolite ; 27.5 cm h x 13.5 cm dia."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Serial number 104484."
+        },
+        {
+          "label": "Description",
+          "value": "27.5 cm h x 13.5 cm diameter at base."
+        },
+        {
+          "label": "Subject",
+          "value": "Surveying > Instruments > 20th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Theodolites > 20th century"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hs972qq4176"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-01-14"
+        }
+      ],
+      "description": "Serial number 104484.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 300,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_6",
+              "@type": "sc:Canvas",
+              "label": "Image 6",
+              "height": 11648,
+              "width": 8736,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hs972qq4176/hs972qq4176_0006.jp2",
+                  "label": "Original source file (12.9 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hs972qq4176/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F497f35b4-0e3d-46dc-941e-61d937f9d984",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_6",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0006/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11648,
+                    "width": 8736,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0006",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[ Wild T0 compass theodolite]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hs972qq4176.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hs972qq4176'>https://purl.stanford.edu/hs972qq4176</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[ Wild T0 compass theodolite]"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wild, Heerbrugg"
+        },
+        {
+          "label": "Contributor",
+          "value": "[Heerbrugg, Swtzerland?] (manufacturer)"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Three-dimensional form"
+        },
+        {
+          "label": "Format",
+          "value": "1 Theodolite ; 27.5 cm h x 13.5 cm dia."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Serial number 104484."
+        },
+        {
+          "label": "Description",
+          "value": "27.5 cm h x 13.5 cm diameter at base."
+        },
+        {
+          "label": "Subject",
+          "value": "Surveying > Instruments > 20th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Theodolites > 20th century"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hs972qq4176"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-01-14"
+        }
+      ],
+      "description": "Serial number 104484.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 300,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_7",
+              "@type": "sc:Canvas",
+              "label": "Image 7",
+              "height": 11648,
+              "width": 8736,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hs972qq4176/hs972qq4176_0007.jp2",
+                  "label": "Original source file (13.1 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hs972qq4176/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F89d10060-b577-412f-bf2a-7ec18fb9c72b",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_7",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0007/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11648,
+                    "width": 8736,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0007",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[ Wild T0 compass theodolite]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hs972qq4176.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hs972qq4176'>https://purl.stanford.edu/hs972qq4176</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[ Wild T0 compass theodolite]"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wild, Heerbrugg"
+        },
+        {
+          "label": "Contributor",
+          "value": "[Heerbrugg, Swtzerland?] (manufacturer)"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Three-dimensional form"
+        },
+        {
+          "label": "Format",
+          "value": "1 Theodolite ; 27.5 cm h x 13.5 cm dia."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Serial number 104484."
+        },
+        {
+          "label": "Description",
+          "value": "27.5 cm h x 13.5 cm diameter at base."
+        },
+        {
+          "label": "Subject",
+          "value": "Surveying > Instruments > 20th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Theodolites > 20th century"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hs972qq4176"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-01-14"
+        }
+      ],
+      "description": "Serial number 104484.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 300,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_8",
+              "@type": "sc:Canvas",
+              "label": "Image 8",
+              "height": 11648,
+              "width": 8736,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hs972qq4176/hs972qq4176_0008.jp2",
+                  "label": "Original source file (14 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hs972qq4176/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fb36c02fc-7b92-4a5b-9476-2c894f6ca9ee",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_8",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0008/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11648,
+                    "width": 8736,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0008",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[ Wild T0 compass theodolite]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hs972qq4176.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hs972qq4176'>https://purl.stanford.edu/hs972qq4176</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[ Wild T0 compass theodolite]"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wild, Heerbrugg"
+        },
+        {
+          "label": "Contributor",
+          "value": "[Heerbrugg, Swtzerland?] (manufacturer)"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Three-dimensional form"
+        },
+        {
+          "label": "Format",
+          "value": "1 Theodolite ; 27.5 cm h x 13.5 cm dia."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Serial number 104484."
+        },
+        {
+          "label": "Description",
+          "value": "27.5 cm h x 13.5 cm diameter at base."
+        },
+        {
+          "label": "Subject",
+          "value": "Surveying > Instruments > 20th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Theodolites > 20th century"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hs972qq4176"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-01-14"
+        }
+      ],
+      "description": "Serial number 104484.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 300,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_9",
+              "@type": "sc:Canvas",
+              "label": "Image 9",
+              "height": 11648,
+              "width": 8736,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hs972qq4176/hs972qq4176_0009.jp2",
+                  "label": "Original source file (15.6 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hs972qq4176/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fd0f85a5c-ed37-415a-9bc0-1344a9027c39",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_9",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0009/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11648,
+                    "width": 8736,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0009",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[ Wild T0 compass theodolite]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hs972qq4176.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hs972qq4176'>https://purl.stanford.edu/hs972qq4176</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[ Wild T0 compass theodolite]"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wild, Heerbrugg"
+        },
+        {
+          "label": "Contributor",
+          "value": "[Heerbrugg, Swtzerland?] (manufacturer)"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Three-dimensional form"
+        },
+        {
+          "label": "Format",
+          "value": "1 Theodolite ; 27.5 cm h x 13.5 cm dia."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Serial number 104484."
+        },
+        {
+          "label": "Description",
+          "value": "27.5 cm h x 13.5 cm diameter at base."
+        },
+        {
+          "label": "Subject",
+          "value": "Surveying > Instruments > 20th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Theodolites > 20th century"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hs972qq4176"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-01-14"
+        }
+      ],
+      "description": "Serial number 104484.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 300,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_10",
+              "@type": "sc:Canvas",
+              "label": "Image 10",
+              "height": 11648,
+              "width": 8736,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hs972qq4176/hs972qq4176_0010.jp2",
+                  "label": "Original source file (16.7 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hs972qq4176/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F20dc1240-0825-438e-8fe8-a7970b4c29b4",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_10",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0010/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11648,
+                    "width": 8736,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0010",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[ Wild T0 compass theodolite]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hs972qq4176.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hs972qq4176'>https://purl.stanford.edu/hs972qq4176</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[ Wild T0 compass theodolite]"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wild, Heerbrugg"
+        },
+        {
+          "label": "Contributor",
+          "value": "[Heerbrugg, Swtzerland?] (manufacturer)"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Three-dimensional form"
+        },
+        {
+          "label": "Format",
+          "value": "1 Theodolite ; 27.5 cm h x 13.5 cm dia."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Serial number 104484."
+        },
+        {
+          "label": "Description",
+          "value": "27.5 cm h x 13.5 cm diameter at base."
+        },
+        {
+          "label": "Subject",
+          "value": "Surveying > Instruments > 20th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Theodolites > 20th century"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hs972qq4176"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-01-14"
+        }
+      ],
+      "description": "Serial number 104484.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 300,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_11",
+              "@type": "sc:Canvas",
+              "label": "Image 11",
+              "height": 11567,
+              "width": 8676,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hs972qq4176/hs972qq4176_0011.jp2",
+                  "label": "Original source file (17.8 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hs972qq4176/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fa3c75be4-8d67-4c49-8454-152c5fce6d8a",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_11",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0011/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11567,
+                    "width": 8676,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0011",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[ Wild T0 compass theodolite]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hs972qq4176.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hs972qq4176'>https://purl.stanford.edu/hs972qq4176</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[ Wild T0 compass theodolite]"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wild, Heerbrugg"
+        },
+        {
+          "label": "Contributor",
+          "value": "[Heerbrugg, Swtzerland?] (manufacturer)"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Three-dimensional form"
+        },
+        {
+          "label": "Format",
+          "value": "1 Theodolite ; 27.5 cm h x 13.5 cm dia."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Serial number 104484."
+        },
+        {
+          "label": "Description",
+          "value": "27.5 cm h x 13.5 cm diameter at base."
+        },
+        {
+          "label": "Subject",
+          "value": "Surveying > Instruments > 20th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Theodolites > 20th century"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hs972qq4176"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-01-14"
+        }
+      ],
+      "description": "Serial number 104484.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 300,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_12",
+              "@type": "sc:Canvas",
+              "label": "Image 12",
+              "height": 11145,
+              "width": 8358,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hs972qq4176/hs972qq4176_0012.jp2",
+                  "label": "Original source file (22 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hs972qq4176/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F85a2109b-fb62-4b76-a04c-5cfa5d587f89",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_12",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0012/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11145,
+                    "width": 8358,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0012",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[ Wild T0 compass theodolite]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hs972qq4176.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hs972qq4176'>https://purl.stanford.edu/hs972qq4176</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[ Wild T0 compass theodolite]"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wild, Heerbrugg"
+        },
+        {
+          "label": "Contributor",
+          "value": "[Heerbrugg, Swtzerland?] (manufacturer)"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Three-dimensional form"
+        },
+        {
+          "label": "Format",
+          "value": "1 Theodolite ; 27.5 cm h x 13.5 cm dia."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Serial number 104484."
+        },
+        {
+          "label": "Description",
+          "value": "27.5 cm h x 13.5 cm diameter at base."
+        },
+        {
+          "label": "Subject",
+          "value": "Surveying > Instruments > 20th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Theodolites > 20th century"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hs972qq4176"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-01-14"
+        }
+      ],
+      "description": "Serial number 104484.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 300,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_13",
+              "@type": "sc:Canvas",
+              "label": "Image 13",
+              "height": 11195,
+              "width": 8396,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hs972qq4176/hs972qq4176_0013.jp2",
+                  "label": "Original source file (16.9 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hs972qq4176/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Feffe77ac-be59-4fc8-8ef6-4d14729f2739",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_13",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0013/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11195,
+                    "width": 8396,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0013",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[ Wild T0 compass theodolite]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hs972qq4176.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hs972qq4176'>https://purl.stanford.edu/hs972qq4176</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[ Wild T0 compass theodolite]"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wild, Heerbrugg"
+        },
+        {
+          "label": "Contributor",
+          "value": "[Heerbrugg, Swtzerland?] (manufacturer)"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Three-dimensional form"
+        },
+        {
+          "label": "Format",
+          "value": "1 Theodolite ; 27.5 cm h x 13.5 cm dia."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Serial number 104484."
+        },
+        {
+          "label": "Description",
+          "value": "27.5 cm h x 13.5 cm diameter at base."
+        },
+        {
+          "label": "Subject",
+          "value": "Surveying > Instruments > 20th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Theodolites > 20th century"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Date",
+          "value": "1932 - 1956"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hs972qq4176"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-01-14"
+        }
+      ],
+      "description": "Serial number 104484.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 300,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hs972qq4176/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_14",
+              "@type": "sc:Canvas",
+              "label": "Image 14",
+              "height": 11195,
+              "width": 8396,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hs972qq4176/hs972qq4176_0014.jp2",
+                  "label": "Original source file (16.1 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hs972qq4176/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F7695d6e2-30f2-4b3c-9220-38e3569fdda5",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hs972qq4176/iiif/canvas/cocina-fileSet-hs972qq4176-hs972qq4176_14",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0014/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11195,
+                    "width": 8396,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hs972qq4176%2Fhs972qq4176_0014",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
