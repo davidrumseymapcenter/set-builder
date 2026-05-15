@@ -1236,180 +1236,170 @@
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/nm595xv6478/iiif/manifest",
       "@type": "sc:Manifest",
-      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~324093~90093144/manifest",
-      "label": "Portugalliae que olim Lusitania, novissima et exactis-sima descriptio. Auctore Vernando Alvaro Secco, et de integro emen-data, anno. 1600. Baptista Doetecomius sculp. DEDICATION to Guido Ascanius Sfortia.",
-      "attribution": "David Rumsey Historical Map Collection",
-      "service": {
-        "@context": "http://iiif.io/api/search/1/context.json",
-        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~324093~90093144/search",
-        "profile": "http://iiif.io/api/search/1/search"
+      "label": "[world]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/nm595xv6478.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/nm595xv6478'>https://purl.stanford.edu/nm595xv6478</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[world]"
+        },
+        {
+          "label": "Creator",
+          "value": "García de Céspedes, Andrés, d. 1611"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 map: 13.8 x 28 cm; 17.4 x 28.8 cm including border."
+        },
+        {
+          "label": "Description",
+          "value": "Simple untitled world map consisting of twelve globe gores. California is not shown as an island, and the entire west coast of South America is remarkably accurate for the time."
+        },
+        {
+          "label": "Description",
+          "value": "Crude printing with some location names printed upside down."
+        },
+        {
+          "label": "Description",
+          "value": "A, B, C, D printed in corners (inside borders) clockwise from upper left."
+        },
+        {
+          "label": "Publications",
+          "value": "Issued in his: Regimiento de navegacion mando haser el re nuestro senor por orden de su conseio real de las Indias...-- Madrid: J. de la Cuesta, 1606."
+        },
+        {
+          "label": "References",
+          "value": "Shirley 256 (plate 202), Tooley p.109"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "[Andreas Cespedes]."
+        },
+        {
+          "label": "Subject",
+          "value": "World > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "[ca. 1:190,000,000]."
+        },
+        {
+          "label": "Coverage",
+          "value": "180°00′00″W -- 180°00′00″E / 85°00′00″N -- 85°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1606"
+        },
+        {
+          "label": "Date",
+          "value": "1606"
+        },
+        {
+          "label": "Identifier",
+          "value": "Post publication map number: 5000"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/nm595xv6478"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2022-08-16"
+        }
+      ],
+      "description": "Simple untitled world map consisting of twelve globe gores. California is not shown as an island, and the entire west coast of South America is remarkably accurate for the time.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/nm595xv6478%2Fnm595xv6478_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/nm595xv6478%2Fnm595xv6478_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 247
       },
       "sequences": [
         {
+          "@id": "https://purl.stanford.edu/nm595xv6478/iiif/manifest#sequence-1",
           "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
           "canvases": [
             {
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~324093~90093144/canvas/c1",
+              "@id": "https://purl.stanford.edu/nm595xv6478/iiif/canvas/cocina-fileSet-nm595xv6478-nm595xv6478_1",
               "@type": "sc:Canvas",
-              "label": "Portugalliae que olim Lusitania, novissima et exactis-sima descriptio. Auctore Vernando Alvaro Secco, et de integro emen-data, anno. 1600. Baptista Doetecomius sculp. DEDICATION to Guido Ascanius Sfortia.",
-              "description": "",
-              "metadata": [
+              "label": "0001",
+              "height": 4293,
+              "width": 6959,
+              "rendering": [
                 {
-                  "label": "Author",
-                  "value": "Mercator, Gerhard, 1512-1594"
-                },
-                {
-                  "label": "Author",
-                  "value": "Hondius, Jodocus, 1563-1612"
-                },
-                {
-                  "label": "Date",
-                  "value": "1607"
-                },
-                {
-                  "label": "Short Title",
-                  "value": "Portugalliae que olim Lusitania, novissima et exactis-sima descriptio. Auctore Vernando Alvaro Secco, et de integro emen-data, anno. 1600. Baptista Doetecomius sculp. DEDICATION to Guido Ascanius Sfortia."
-                },
-                {
-                  "label": "Publisher",
-                  "value": "Cornelis Claes"
-                },
-                {
-                  "label": "Publisher Location",
-                  "value": "Amsterdam"
-                },
-                {
-                  "label": "Type",
-                  "value": "Atlas Map"
-                },
-                {
-                  "label": "Obj Height cm",
-                  "value": "34"
-                },
-                {
-                  "label": "Obj Width cm",
-                  "value": "49"
-                },
-                {
-                  "label": "Scale 1",
-                  "value": "1,200,000"
-                },
-                {
-                  "label": "Country",
-                  "value": "Portugal"
-                },
-                {
-                  "label": "Full Title",
-                  "value": "Portugalliae que olim Lusitania, novissima et exactis-sima descriptio. Auctore Vernando Alvaro Secco, et de integro emen-data, anno. 1600. Baptista Doetecomius sculp. DEDICATION to Guido Ascanius Sfortia."
-                },
-                {
-                  "label": "List No",
-                  "value": "10501.161"
-                },
-                {
-                  "label": "Series No",
-                  "value": "161"
-                },
-                {
-                  "label": "Publication Author",
-                  "value": "Mercator, Gerhard, 1512-1594"
-                },
-                {
-                  "label": "Publication Author",
-                  "value": "Hondius, Jodocus, 1563-1612"
-                },
-                {
-                  "label": "Pub Date",
-                  "value": "1607"
-                },
-                {
-                  "label": "Pub Title",
-                  "value": "Gerardi Mercatoris / Atlas / Sive / Cosmographicae / Meditationes /De/ Fabrica Mundi Et/ Fabricati Figura. lam tandem ad finem perductus, quamplurimis aeneis tabulis Hispaniae, Africae, Asiae et Americae auctus ac illustratus a Iudoco Hondio. Quibus etiam additae (praeter Mercatoris) dilucidae et accuratae omnium tabularum descriptiones novae, studio et opera Pet. Montani. Editio Secunda qua et ampliores descriptiones et novae Tabulae Geographicae accesserunt. Excusum ... Cornelij Nicolai Amstelreodami, 1607."
-                },
-                {
-                  "label": "Pub Reference",
-                  "value": "Koeman Me 16; van der Krogt 1:102"
-                },
-                {
-                  "label": "Pub Note",
-                  "value": "This is the second Mercator Hondius edition, after the first in 1606; editions of the Mercator Hondius atlas continued to 1641. Mercator published his edition of Ptolemy in 1578 (see our Bertius edition 11296.000), the first part of his atlas in 1585, and his son Rumold issued the first complete atlas in 1595, the year after Mercator's death. \"The earliest biography on Mercator was already published in 1595, as part of the text in the Atlas. It was written by Walter Ghim, Lord Major of Duisburg, the place where Mercator spent half his lifetime. The following is mainly borrowed from Ghim, supplemented with information obtained from the many excellent articles published in Special Volume no. 6 of the Duisburger Forschungen, 1962... Gerard (Gerhard) Mercator was born on 5 March 1512 at Rupelmonde, Flanders, where his parents, both living in the county of Gillich (Jiilich), happened to be. He spent his childhood in Gillich and went to the University of Leuven where he was registered as 'a student without means' on 29 August 1530. He obtained a 'magisterii gradum' in 1532 but stayed at Leuven where he then devoted himself to the study of philosophy. The problems of the creation of the Universe and the Earth interested him in particular; this is reflected by his works, written in later years. As his personal opinions did not agree with the scholastic philosophy as lectured at Leuven, he left the city for Antwerp; where he could contemplate without being influenced. Convinced of the importance of exact sciences, for the study of the true configuration of the world, he returned to Leuven, ca. 1535, where he took courses in mathematics, both theoretical and practical, under the guidance of Gemma Frisius. Soon he was recognised as an expert on the construction of mathematical instruments, as a land-surveyor and, after 1537, as a cartographer. He drew his income from these activities after his marriage on 3 August 1536. He also qualified himself as a copper-engraver; he was the first in history to introduce the italic handwriting to this trade. A booklet on italic handwriting was written and published by him in 1540. The first maps, drawn and engraved by Gerard Mercator are: Map of Palestine, 1537; Map of the world in double heart-shaped projection, 1538; and Map of Flanders, 1540. One of the main sources of his income was derived from the construction and sale of globes. He must have learned the technique of globe-making in Leuven, i.a., from Gemma Frisius, whom he assisted with revisions of his globe in 1535 or 1536. The first copies of Mercator's terrestrial globe appeared in 1541. His celestial globe appeared in 1551; both had a diametre of 41 cm. Suddenly, in 1544, Mercator came into great danger: during a stay in Rupelmonde he was arrested on the accusation of heresy and put into jail. It seems that only his departure from Leuven had made him suspect. Thanks to intervention of the University of Leuven, he was released after four months. He returned to Leuven where he continued his work on the construction of geometrical instruments and globes until 1552, when he departed and moved with his family into the city of Duisburg; however, he kept into touch with authorities and friends in Belgium. His moving into Germany may have been influenced by the high degree of religious freedom which prevailed there. It is also likely that he was motivated by his knowledge of the plans of Duke William of Jiilich-Cleve-Berge to found a University in Duisburg. In 1560, Mercator became cosmographer in service of the Duke and in 1563 he became lecturer at the Grammar School. During the first ten years of his stay at Duisburg he was also often employed as a land-surveyor. The cartographical work of the Duisburg period comprises: the wall-map of Europe, 1554; the wall-map of Loraine, 1563-1564; the wall-map of the British Isles, 1564; and the famous map of the world with increasing latitudes, 1569. Although nowadays it is his best known work, this map on the projection named after Mercator got its recognition only after the publication of Edw. Wright's Certaine Errors in Navigation, 1599. In the same year 1569 his book Chronologica appeared, which was listed in the Index of forbidden works. About this time, Mercator was also working on the project for a complete description of the Creation, the Heavens, Earth, and Sea and a world history. Out of this resulted his Atlas, sive cosmographicae meditationes de fabrica mundi et fabricati .figura. The drawings of the maps, the cutting of the plates, and the writing of the text asked more of his time then he himself could afford. First of all he had to make a living from his practical work as an instrumentand globe-maker. In the preface to his Chronologia, he had already announced a work on geography consisting of the ancient maps of Ptolemy and of modern maps. This edition of Ptolemy's Geographia appeared in 1578; the first part of his book with modern maps (France, Germany and the Netherlands) appeared in 1585. Contrary to the maps in Abraham Ortelius's Theatrum orbis terrarum, Antwerp 1570, Mercator's maps are original. Abraham Ortelius did what most of the atlas-makers of our time are engaged in: the reduction and generalisation of already existing maps. Gerard Mercator, with his sense of scientific work (which should be original and new) checked the current knowledge of the configuration of the earth's topography against its fundamental sources and drew new maps in his original conception. This method of map-making took more time than it would have by mere copying. But he had not the intention to compete with Ortelius's best-selling atlas. As he grew older, engraving became more and more of an eye strain; it eventually led to an infection of his eyes, from which he fortunately recovered. Still working under the stress of a huge task (to be fulfilled before his powers should weaken), he lost his wife in 1586, after a marriage of fifty years. A few months afterwards he married the widow of the burgomaster Moer of Duisburg. Shortly after the publication of the second part of his map-book (not yet called Atlas) with the maps of Italy, i.a., in 1589, he had a stroke which brought an end to his extremely great productivity. The great man passed away on 2 December 1594, leaving the responsibility of finishing the map-book to his son Rumold. The final part of it appeared in 1595. Its title is Pars Altera and it constitutes an essential part of what was then called Mercator's Atlas. Two of Gerard Mercator's sons died before him: Arnold (1537-1587) and Bartholomeus (1540-1563). Apart from three daughters, he had another son, Rumold, who had assisted him in cartographical business. Rumold first went into the book-trade. He was an apprentice of Birckmann Heirs first in London, afterwards in Antwerp. The map of Europe and the world map in the Atlas are by Rumold's hand. He also made a wall-map of Germany, published in 1590. After Rumold's death in 1599, the Atlas was reissued once more in 1602. By the sale of the plates for the maps, both of the Ptolemy edition and the Atlas, to Jodocus Hondius of Amsterdam, Mercator's work won its proper fame. This sale took place in 1604; in the following year Hondius managed to bring out Ptolemy's Geographia. In the following year, 1606, the first Amsterdam edition of the Mercator Atlas appeared. From then to 1638, the Atlas saw many enlarged editions in various languages.\" (Koeman, Atlantes Neerlandici, vol II, p 281-282)"
-                },
-                {
-                  "label": "Pub List No",
-                  "value": "10501.000"
-                },
-                {
-                  "label": "Pub Type",
-                  "value": "World Atlas"
-                },
-                {
-                  "label": "Pub Maps",
-                  "value": "146"
-                },
-                {
-                  "label": "Pub Height cm",
-                  "value": "50"
-                },
-                {
-                  "label": "Pub Width cm",
-                  "value": "33"
-                },
-                {
-                  "label": "Image No",
-                  "value": "10501161.jp2"
-                },
-                {
-                  "label": "Download 1",
-                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/185/10501161.jp2 target=_blank>Full Image Download in JP2 Format</a>"
-                },
-                {
-                  "label": "Download 2",
-                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
-                },
-                {
-                  "label": "Authors",
-                  "value": "Mercator, Gerhard, 1512-1594; Hondius, Jodocus, 1563-1612"
+                  "@id": "https://stacks.stanford.edu/file/nm595xv6478/nm595xv6478_05_0001.jp2",
+                  "label": "Original source file (5.38 MB)",
+                  "format": "image/jp2"
                 }
               ],
-              "thumbnail": {
-                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~324093~90093144/full/!96,96/0/default.jpg",
-                "format": "image/jpeg"
-              },
               "images": [
                 {
+                  "@id": "https://purl.stanford.edu/nm595xv6478/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fnm595xv6478-nm595xv6478_1%2Fnm595xv6478_05_0001.jp2",
                   "@type": "oa:Annotation",
                   "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/nm595xv6478/iiif/canvas/cocina-fileSet-nm595xv6478-nm595xv6478_1",
                   "resource": {
-                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~324093~90093144/full/!1024,1024/0/default.jpg",
+                    "@id": "https://stacks.stanford.edu/image/iiif/nm595xv6478%2Fnm595xv6478_05_0001/full/full/0/default.jpg",
                     "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 4293,
+                    "width": 6959,
                     "service": {
                       "@context": "http://iiif.io/api/image/2/context.json",
-                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~324093~90093144",
-                      "profile": "http://iiif.io/api/image/2/level1.json",
-                      "protocol": "http://iiif.io/api/image"
-                    },
-                    "format": "image/jpeg",
-                    "width": 13560,
-                    "height": 11808
-                  },
-                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~324093~90093144/canvas/c1"
+                      "@id": "https://stacks.stanford.edu/image/iiif/nm595xv6478%2Fnm595xv6478_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
                 }
-              ],
-              "otherContent": [
-                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~324093~90093144/list/luna"
-              ],
-              "width": 13560,
-              "height": 11808
+              ]
             }
           ]
         }
-      ],
-      "logo": {
-        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
-        "format": "image/png"
-      },
-      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~324093~90093144"
+      ]
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1589,6 +1579,366 @@
           ]
         }
       ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/sy409bk9698/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "The North part of America conteyning Newfoundland, New England, Virginia, Florida, New Spaine and Nova Francia, with ye riche Iles of Hispaniola, Cuba, Jamaica, and Porto Rieco, on the south, and upon ye west the large and goodly island of California",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/sy409bk9698.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/sy409bk9698'>https://purl.stanford.edu/sy409bk9698</a>"
+        },
+        {
+          "label": "Title",
+          "value": "The North part of America conteyning Newfoundland, New England, Virginia, Florida, New Spaine and Nova Francia, with ye riche Iles of Hispaniola, Cuba, Jamaica, and Porto Rieco, on the south, and upon ye west the large and goodly island of California"
+        },
+        {
+          "label": "Contributor",
+          "value": "Briggs, Henry, 1561-1630"
+        },
+        {
+          "label": "Contributor",
+          "value": "Elstracke, Renold, active 1590-1630"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : engraved ; 27 x 34 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "R. Elstracke Sculpsit."
+        },
+        {
+          "label": "Description",
+          "value": "The first printed map in English to show California as an island, with flat northern coast."
+        },
+        {
+          "label": "Description",
+          "value": "Cities, etc. ; shoals; pictorial symbols; notes."
+        },
+        {
+          "label": "Description",
+          "value": "Watermark."
+        },
+        {
+          "label": "Description",
+          "value": "Notes on map refer to California, Sr. Thomas Button and Mr. Baffin."
+        },
+        {
+          "label": "Description",
+          "value": "Projection: simple conical."
+        },
+        {
+          "label": "Description",
+          "value": "\"852\" & \"853\" inside neat line in top left & right corners of map."
+        },
+        {
+          "label": "Description",
+          "value": "Engraved by: R. Elstrake Sculpsit (lower right)."
+        },
+        {
+          "label": "Description",
+          "value": "On the map are two notes, one stating\"California sometymes supposed to be a part of ye westerne continent, but scince by a Spanish Charte taken by ye Hollanders it is found to be a goodly Ilande: the length of the west shoare beeing about 500 leagues...\""
+        },
+        {
+          "label": "Description",
+          "value": "Issued in: Hakluytus Posthumus or Purchas His Pilgrimes, III, 852-3. London, 1625, to accompany an article by H. Briggs on the Northwest Passage."
+        },
+        {
+          "label": "Subject",
+          "value": "North America > Early works to 1800"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:23,500,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "W 255°--W 345°/N 65°--N 10°"
+        },
+        {
+          "label": "Date",
+          "value": "1625"
+        },
+        {
+          "label": "Date",
+          "value": "1625"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/sy409bk9698"
+        },
+        {
+          "label": "Publisher",
+          "value": "William Stansby for Henrie Fetherstone"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2022-08-16"
+        }
+      ],
+      "description": "The first printed map in English to show California as an island, with flat northern coast.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 350
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/sy409bk9698/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 10874,
+              "width": 12412,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/sy409bk9698/sy409bk9698_05_0001.jp2",
+                  "label": "Original source file (24.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/sy409bk9698/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fsy409bk9698-sy409bk9698_1%2Fsy409bk9698_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10874,
+                    "width": 12412,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~324093~90093144/manifest",
+      "label": "Portugalliae que olim Lusitania, novissima et exactis-sima descriptio. Auctore Vernando Alvaro Secco, et de integro emen-data, anno. 1600. Baptista Doetecomius sculp. DEDICATION to Guido Ascanius Sfortia.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~324093~90093144/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~324093~90093144/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Portugalliae que olim Lusitania, novissima et exactis-sima descriptio. Auctore Vernando Alvaro Secco, et de integro emen-data, anno. 1600. Baptista Doetecomius sculp. DEDICATION to Guido Ascanius Sfortia.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Mercator, Gerhard, 1512-1594"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hondius, Jodocus, 1563-1612"
+                },
+                {
+                  "label": "Date",
+                  "value": "1607"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Portugalliae que olim Lusitania, novissima et exactis-sima descriptio. Auctore Vernando Alvaro Secco, et de integro emen-data, anno. 1600. Baptista Doetecomius sculp. DEDICATION to Guido Ascanius Sfortia."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Cornelis Claes"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "49"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "1,200,000"
+                },
+                {
+                  "label": "Country",
+                  "value": "Portugal"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Portugalliae que olim Lusitania, novissima et exactis-sima descriptio. Auctore Vernando Alvaro Secco, et de integro emen-data, anno. 1600. Baptista Doetecomius sculp. DEDICATION to Guido Ascanius Sfortia."
+                },
+                {
+                  "label": "List No",
+                  "value": "10501.161"
+                },
+                {
+                  "label": "Series No",
+                  "value": "161"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Mercator, Gerhard, 1512-1594"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hondius, Jodocus, 1563-1612"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1607"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Gerardi Mercatoris / Atlas / Sive / Cosmographicae / Meditationes /De/ Fabrica Mundi Et/ Fabricati Figura. lam tandem ad finem perductus, quamplurimis aeneis tabulis Hispaniae, Africae, Asiae et Americae auctus ac illustratus a Iudoco Hondio. Quibus etiam additae (praeter Mercatoris) dilucidae et accuratae omnium tabularum descriptiones novae, studio et opera Pet. Montani. Editio Secunda qua et ampliores descriptiones et novae Tabulae Geographicae accesserunt. Excusum ... Cornelij Nicolai Amstelreodami, 1607."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Koeman Me 16; van der Krogt 1:102"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "This is the second Mercator Hondius edition, after the first in 1606; editions of the Mercator Hondius atlas continued to 1641. Mercator published his edition of Ptolemy in 1578 (see our Bertius edition 11296.000), the first part of his atlas in 1585, and his son Rumold issued the first complete atlas in 1595, the year after Mercator's death. \"The earliest biography on Mercator was already published in 1595, as part of the text in the Atlas. It was written by Walter Ghim, Lord Major of Duisburg, the place where Mercator spent half his lifetime. The following is mainly borrowed from Ghim, supplemented with information obtained from the many excellent articles published in Special Volume no. 6 of the Duisburger Forschungen, 1962... Gerard (Gerhard) Mercator was born on 5 March 1512 at Rupelmonde, Flanders, where his parents, both living in the county of Gillich (Jiilich), happened to be. He spent his childhood in Gillich and went to the University of Leuven where he was registered as 'a student without means' on 29 August 1530. He obtained a 'magisterii gradum' in 1532 but stayed at Leuven where he then devoted himself to the study of philosophy. The problems of the creation of the Universe and the Earth interested him in particular; this is reflected by his works, written in later years. As his personal opinions did not agree with the scholastic philosophy as lectured at Leuven, he left the city for Antwerp; where he could contemplate without being influenced. Convinced of the importance of exact sciences, for the study of the true configuration of the world, he returned to Leuven, ca. 1535, where he took courses in mathematics, both theoretical and practical, under the guidance of Gemma Frisius. Soon he was recognised as an expert on the construction of mathematical instruments, as a land-surveyor and, after 1537, as a cartographer. He drew his income from these activities after his marriage on 3 August 1536. He also qualified himself as a copper-engraver; he was the first in history to introduce the italic handwriting to this trade. A booklet on italic handwriting was written and published by him in 1540. The first maps, drawn and engraved by Gerard Mercator are: Map of Palestine, 1537; Map of the world in double heart-shaped projection, 1538; and Map of Flanders, 1540. One of the main sources of his income was derived from the construction and sale of globes. He must have learned the technique of globe-making in Leuven, i.a., from Gemma Frisius, whom he assisted with revisions of his globe in 1535 or 1536. The first copies of Mercator's terrestrial globe appeared in 1541. His celestial globe appeared in 1551; both had a diametre of 41 cm. Suddenly, in 1544, Mercator came into great danger: during a stay in Rupelmonde he was arrested on the accusation of heresy and put into jail. It seems that only his departure from Leuven had made him suspect. Thanks to intervention of the University of Leuven, he was released after four months. He returned to Leuven where he continued his work on the construction of geometrical instruments and globes until 1552, when he departed and moved with his family into the city of Duisburg; however, he kept into touch with authorities and friends in Belgium. His moving into Germany may have been influenced by the high degree of religious freedom which prevailed there. It is also likely that he was motivated by his knowledge of the plans of Duke William of Jiilich-Cleve-Berge to found a University in Duisburg. In 1560, Mercator became cosmographer in service of the Duke and in 1563 he became lecturer at the Grammar School. During the first ten years of his stay at Duisburg he was also often employed as a land-surveyor. The cartographical work of the Duisburg period comprises: the wall-map of Europe, 1554; the wall-map of Loraine, 1563-1564; the wall-map of the British Isles, 1564; and the famous map of the world with increasing latitudes, 1569. Although nowadays it is his best known work, this map on the projection named after Mercator got its recognition only after the publication of Edw. Wright's Certaine Errors in Navigation, 1599. In the same year 1569 his book Chronologica appeared, which was listed in the Index of forbidden works. About this time, Mercator was also working on the project for a complete description of the Creation, the Heavens, Earth, and Sea and a world history. Out of this resulted his Atlas, sive cosmographicae meditationes de fabrica mundi et fabricati .figura. The drawings of the maps, the cutting of the plates, and the writing of the text asked more of his time then he himself could afford. First of all he had to make a living from his practical work as an instrumentand globe-maker. In the preface to his Chronologia, he had already announced a work on geography consisting of the ancient maps of Ptolemy and of modern maps. This edition of Ptolemy's Geographia appeared in 1578; the first part of his book with modern maps (France, Germany and the Netherlands) appeared in 1585. Contrary to the maps in Abraham Ortelius's Theatrum orbis terrarum, Antwerp 1570, Mercator's maps are original. Abraham Ortelius did what most of the atlas-makers of our time are engaged in: the reduction and generalisation of already existing maps. Gerard Mercator, with his sense of scientific work (which should be original and new) checked the current knowledge of the configuration of the earth's topography against its fundamental sources and drew new maps in his original conception. This method of map-making took more time than it would have by mere copying. But he had not the intention to compete with Ortelius's best-selling atlas. As he grew older, engraving became more and more of an eye strain; it eventually led to an infection of his eyes, from which he fortunately recovered. Still working under the stress of a huge task (to be fulfilled before his powers should weaken), he lost his wife in 1586, after a marriage of fifty years. A few months afterwards he married the widow of the burgomaster Moer of Duisburg. Shortly after the publication of the second part of his map-book (not yet called Atlas) with the maps of Italy, i.a., in 1589, he had a stroke which brought an end to his extremely great productivity. The great man passed away on 2 December 1594, leaving the responsibility of finishing the map-book to his son Rumold. The final part of it appeared in 1595. Its title is Pars Altera and it constitutes an essential part of what was then called Mercator's Atlas. Two of Gerard Mercator's sons died before him: Arnold (1537-1587) and Bartholomeus (1540-1563). Apart from three daughters, he had another son, Rumold, who had assisted him in cartographical business. Rumold first went into the book-trade. He was an apprentice of Birckmann Heirs first in London, afterwards in Antwerp. The map of Europe and the world map in the Atlas are by Rumold's hand. He also made a wall-map of Germany, published in 1590. After Rumold's death in 1599, the Atlas was reissued once more in 1602. By the sale of the plates for the maps, both of the Ptolemy edition and the Atlas, to Jodocus Hondius of Amsterdam, Mercator's work won its proper fame. This sale took place in 1604; in the following year Hondius managed to bring out Ptolemy's Geographia. In the following year, 1606, the first Amsterdam edition of the Mercator Atlas appeared. From then to 1638, the Atlas saw many enlarged editions in various languages.\" (Koeman, Atlantes Neerlandici, vol II, p 281-282)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10501.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "146"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "50"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10501161.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/185/10501161.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Mercator, Gerhard, 1512-1594; Hondius, Jodocus, 1563-1612"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~324093~90093144/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~324093~90093144/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~324093~90093144",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 13560,
+                    "height": 11808
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~324093~90093144/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~324093~90093144/list/luna"
+              ],
+              "width": 13560,
+              "height": 11808
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~324093~90093144"
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
