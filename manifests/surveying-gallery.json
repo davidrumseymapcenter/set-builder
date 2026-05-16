@@ -4524,6 +4524,1396 @@
         "format": "image/png"
       },
       "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~352180~90119368"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/3/context.json",
+      "behavior": [
+        "paged"
+      ],
+      "homepage": [
+        {
+          "format": "text/html",
+          "id": "https://archive.org/details/planetable1865100harr",
+          "label": {
+            "en": [
+              "Item Page on Internet Archive"
+            ]
+          },
+          "type": "Text"
+        }
+      ],
+      "id": "https://iiif.archive.org/iiif/planetable1865100harr/manifest.json",
+      "items": [
+        {
+          "annotations": [
+            {
+              "id": "https://iiif.archive.org/iiif/3/annotations/planetable1865100harr/planetable1865100harr_djvu.xml/9.json",
+              "type": "AnnotationPage"
+            }
+          ],
+          "height": 6887,
+          "id": "https://iiif.archive.org/iiif/planetable1865100harr$8/canvas",
+          "items": [
+            {
+              "id": "https://iiif.archive.org/iiif/planetable1865100harr/annotationPage/8",
+              "items": [
+                {
+                  "body": {
+                    "format": "image/jpeg",
+                    "id": "https://iiif.archive.org/image/iiif/3/planetable1865100harr%2Fplanetable1865100harr_jp2.zip%2Fplanetable1865100harr_jp2%2Fplanetable1865100harr_0009.jp2/full/max/0/default.jpg",
+                    "service": [
+                      {
+                        "id": "https://iiif.archive.org/image/iiif/3/planetable1865100harr%2Fplanetable1865100harr_jp2.zip%2Fplanetable1865100harr_jp2%2Fplanetable1865100harr_0009.jp2",
+                        "profile": "level2",
+                        "type": "ImageService3"
+                      }
+                    ],
+                    "type": "Image"
+                  },
+                  "id": "https://iiif.archive.org/iiif/planetable1865100harr/annotation/8",
+                  "motivation": "painting",
+                  "target": "https://iiif.archive.org/iiif/planetable1865100harr$8/canvas",
+                  "type": "Annotation"
+                }
+              ],
+              "type": "AnnotationPage"
+            }
+          ],
+          "label": {
+            "none": [
+              "9"
+            ]
+          },
+          "type": "Canvas",
+          "width": 5170
+        }
+      ],
+      "label": {
+        "none": [
+          "The plane table 1865-1869"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "none": [
+              "identifier"
+            ]
+          },
+          "value": {
+            "none": [
+              "planetable1865100harr"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "abstract"
+            ]
+          },
+          "value": {
+            "none": [
+              "The bulk of the manuscript is a handwritten, illustrated treatise dated 1865 on the plane table and its use in surveying. At the end of the volume there are various printed excerpts bound in, including 'A treatise on the plane table, and its use in topographical surveying ... abridged from the original mss., 1867', apparently a proof copy for a reprint of the article that was published as appendix no. 22 in the Report of the superintendent of the Coast Survey (1865, no. 30); an excerpt from the Providence journal ('The metrical system of France', by A.M. Harrison, dated Nov. 30, 1869); projection tables from the 1853 Coast Survey report; the article, 'Telescopic measurement in surveying', by Benjamin Smith Lyman (12 p.); and handwritten tables of triangulation."
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "call_number"
+            ]
+          },
+          "value": {
+            "none": [
+              "39088007769722"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "call-number"
+            ]
+          },
+          "value": {
+            "none": [
+              "39088007769722"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "contributor"
+            ]
+          },
+          "value": {
+            "none": [
+              "Smithsonian Libraries and Archives"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "creator"
+            ]
+          },
+          "value": {
+            "none": [
+              "Harrison, A. M. (Alexander Medina), 1829-1881"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "date"
+            ]
+          },
+          "value": {
+            "none": [
+              "1865"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "identifier-bib"
+            ]
+          },
+          "value": {
+            "none": [
+              "39088007769722"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "language"
+            ]
+          },
+          "value": {
+            "none": [
+              "eng"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "mediatype"
+            ]
+          },
+          "value": {
+            "none": [
+              "texts"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "possible-copyright-status"
+            ]
+          },
+          "value": {
+            "none": [
+              "Public domain. The Library considers that this work is no longer under copyright protection"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "sponsor"
+            ]
+          },
+          "value": {
+            "none": [
+              "Biodiversity Heritage Library"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "title"
+            ]
+          },
+          "value": {
+            "none": [
+              "The plane table 1865-1869"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "year"
+            ]
+          },
+          "value": {
+            "none": [
+              "1865"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "collection"
+            ]
+          },
+          "value": {
+            "none": [
+              "smithsonian"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "subject"
+            ]
+          },
+          "value": {
+            "none": [
+              "Plane-table",
+              "Topographical surveying"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "addeddate"
+            ]
+          },
+          "value": {
+            "none": [
+              "2025-07-10 03:52:24"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "oclc-id"
+            ]
+          },
+          "value": {
+            "none": [
+              "33081904"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "associated-names"
+            ]
+          },
+          "value": {
+            "none": [
+              "Lyman, Benjamin Smith, 1835-1920. Telescopic measurement in surveying; United States Coast Survey. Report of the superintendent of the Coast Survey .."
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ppi"
+            ]
+          },
+          "value": {
+            "none": [
+              "300"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "foldoutcount"
+            ]
+          },
+          "value": {
+            "none": [
+              "0"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "identifier-access"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://archive.org/details/planetable1865100harr"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "identifier-ark"
+            ]
+          },
+          "value": {
+            "none": [
+              "ark:/13960/s2vwj7ds13f"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ocr"
+            ]
+          },
+          "value": {
+            "none": [
+              "tesseract 5.3.0-6-g76ae"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ocr_parameters"
+            ]
+          },
+          "value": {
+            "none": [
+              "-l eng"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ocr_module_version"
+            ]
+          },
+          "value": {
+            "none": [
+              "0.0.21"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ocr_detected_script"
+            ]
+          },
+          "value": {
+            "none": [
+              "Latin"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ocr_detected_script_conf"
+            ]
+          },
+          "value": {
+            "none": [
+              "0.6472"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ocr_detected_lang"
+            ]
+          },
+          "value": {
+            "none": [
+              "en"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ocr_detected_lang_conf"
+            ]
+          },
+          "value": {
+            "none": [
+              "1.0000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "page_number_confidence"
+            ]
+          },
+          "value": {
+            "none": [
+              "0"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "page_number_module_version"
+            ]
+          },
+          "value": {
+            "none": [
+              "1.0.5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "pdf_degraded"
+            ]
+          },
+          "value": {
+            "none": [
+              "invalid-jp2-headers"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "pdf_module_version"
+            ]
+          },
+          "value": {
+            "none": [
+              "0.0.25"
+            ]
+          }
+        }
+      ],
+      "partOf": [
+        {
+          "id": "https://iiif.archive.org/iiif/smithsonian/collection.json",
+          "type": "Collection"
+        }
+      ],
+      "provider": [
+        {
+          "homepage": [
+            {
+              "format": "text/html",
+              "id": "https://archive.org",
+              "label": {
+                "en": [
+                  "Internet Archive Homepage"
+                ]
+              },
+              "type": "Text"
+            }
+          ],
+          "id": "https://archive.org",
+          "label": {
+            "en": [
+              "The Internet Archive"
+            ]
+          },
+          "logo": [
+            {
+              "format": "image/png",
+              "height": 79,
+              "id": "https://archive.org/images/glogo.png",
+              "type": "Image",
+              "width": 79
+            }
+          ],
+          "type": "Agent"
+        }
+      ],
+      "rendering": [
+        {
+          "format": "application/pdf",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr.pdf",
+          "label": {
+            "en": [
+              "Text PDF"
+            ]
+          },
+          "type": "Text"
+        },
+        {
+          "format": "application/x-bittorrent",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_archive.torrent",
+          "label": {
+            "en": [
+              "Archive BitTorrent"
+            ]
+          },
+          "type": "Dataset"
+        },
+        {
+          "format": "application/gzip",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_chocr.html.gz",
+          "label": {
+            "en": [
+              "chOCR"
+            ]
+          },
+          "type": "Text"
+        },
+        {
+          "format": "text/plain",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_djvu.txt",
+          "label": {
+            "en": [
+              "DjVuTXT"
+            ]
+          },
+          "type": "Text"
+        },
+        {
+          "format": "application/xml",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_djvu.xml",
+          "label": {
+            "en": [
+              "Djvu XML"
+            ]
+          },
+          "type": "Dataset"
+        },
+        {
+          "format": "text/html",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_hocr.html",
+          "label": {
+            "en": [
+              "hOCR"
+            ]
+          },
+          "type": "Text"
+        },
+        {
+          "format": "application/gzip",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_hocr_searchtext.txt.gz",
+          "label": {
+            "en": [
+              "OCR Search Text"
+            ]
+          },
+          "type": "Text"
+        },
+        {
+          "format": "application/zip",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_jp2.zip",
+          "label": {
+            "en": [
+              "Single Page Processed JP2 ZIP"
+            ]
+          },
+          "type": "Image"
+        }
+      ],
+      "seeAlso": [
+        {
+          "format": "application/json",
+          "id": "https://archive.org/metadata/planetable1865100harr",
+          "label": {
+            "en": [
+              "Item Metadata"
+            ]
+          },
+          "type": "Metadata"
+        },
+        {
+          "format": "application/xml",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_dc.xml",
+          "label": {
+            "en": [
+              "Dublin Core"
+            ]
+          },
+          "type": "Dataset"
+        },
+        {
+          "format": "application/json",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_hocr_pageindex.json.gz",
+          "label": {
+            "en": [
+              "OCR Page Index"
+            ]
+          },
+          "type": "Dataset"
+        },
+        {
+          "format": "application/xml",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_marc.xml",
+          "label": {
+            "en": [
+              "MARC"
+            ]
+          },
+          "type": "Dataset"
+        },
+        {
+          "format": "application/json",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_page_numbers.json",
+          "label": {
+            "en": [
+              "Page Numbers JSON"
+            ]
+          },
+          "type": "Dataset"
+        },
+        {
+          "format": "application/xml",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_scandata.xml",
+          "label": {
+            "en": [
+              "Scandata"
+            ]
+          },
+          "type": "Dataset"
+        }
+      ],
+      "service": [
+        {
+          "@id": "https://iiif.archive.org/iiif/search/planetable1865100harr",
+          "@type": "SearchService1",
+          "profile": "http://iiif.io/api/search/1/search"
+        }
+      ],
+      "summary": {
+        "none": [
+          "1 v. (ca. 513 leaves) : 26 cm",
+          "The bulk of the manuscript is a handwritten, illustrated treatise dated 1865 on the plane table and its use in surveying. At the end of the volume there are various printed excerpts bound in, including \"A treatise on the plane table, and its use in topographical surveying ... abridged from the original mss., 1867\", apparently a proof copy for a reprint of the article that was published as appendix no. 22 in the Report of the superintendent of the Coast Survey (1865, no. 30); an excerpt from the Providence journal (\"The metrical system of France\", by A.M. Harrison, dated Nov. 30, 1869); projection tables from the 1853 Coast Survey report; the article, \"Telescopic measurement in surveying\", by Benjamin Smith Lyman (12 p.); and handwritten tables of triangulation",
+          "Holograph ms. in pencil and ink on lined sheets of paper, accompanied by sketched and printed diagrams and illustrations (some on folded plates), and printed excerpts of articles",
+          "Binder's title: Treatise on the plain [i.e. plane] table"
+        ]
+      },
+      "thumbnail": [
+        {
+          "format": "image/jpeg",
+          "height": 215,
+          "id": "https://iiif.archive.org/image/iiif/2/planetable1865100harr%2f__ia_thumb.jpg/full/180,/0/default.jpg",
+          "service": [
+            {
+              "@id": "https://iiif.archive.org/image/iiif/2/planetable1865100harr%2F__ia_thumb.jpg",
+              "@type": "ImageService2",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }
+          ],
+          "type": "Image",
+          "width": 180
+        }
+      ],
+      "type": "Manifest",
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/3/context.json",
+      "behavior": [
+        "paged"
+      ],
+      "homepage": [
+        {
+          "format": "text/html",
+          "id": "https://archive.org/details/planetable1865100harr",
+          "label": {
+            "en": [
+              "Item Page on Internet Archive"
+            ]
+          },
+          "type": "Text"
+        }
+      ],
+      "id": "https://iiif.archive.org/iiif/planetable1865100harr/manifest.json",
+      "items": [
+        {
+          "annotations": [
+            {
+              "id": "https://iiif.archive.org/iiif/3/annotations/planetable1865100harr/planetable1865100harr_djvu.xml/11.json",
+              "type": "AnnotationPage"
+            }
+          ],
+          "height": 6887,
+          "id": "https://iiif.archive.org/iiif/planetable1865100harr$10/canvas",
+          "items": [
+            {
+              "id": "https://iiif.archive.org/iiif/planetable1865100harr/annotationPage/10",
+              "items": [
+                {
+                  "body": {
+                    "format": "image/jpeg",
+                    "id": "https://iiif.archive.org/image/iiif/3/planetable1865100harr%2Fplanetable1865100harr_jp2.zip%2Fplanetable1865100harr_jp2%2Fplanetable1865100harr_0011.jp2/full/max/0/default.jpg",
+                    "service": [
+                      {
+                        "id": "https://iiif.archive.org/image/iiif/3/planetable1865100harr%2Fplanetable1865100harr_jp2.zip%2Fplanetable1865100harr_jp2%2Fplanetable1865100harr_0011.jp2",
+                        "profile": "level2",
+                        "type": "ImageService3"
+                      }
+                    ],
+                    "type": "Image"
+                  },
+                  "id": "https://iiif.archive.org/iiif/planetable1865100harr/annotation/10",
+                  "motivation": "painting",
+                  "target": "https://iiif.archive.org/iiif/planetable1865100harr$10/canvas",
+                  "type": "Annotation"
+                }
+              ],
+              "type": "AnnotationPage"
+            }
+          ],
+          "label": {
+            "none": [
+              "11"
+            ]
+          },
+          "type": "Canvas",
+          "width": 5170
+        }
+      ],
+      "label": {
+        "none": [
+          "The plane table 1865-1869"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "none": [
+              "identifier"
+            ]
+          },
+          "value": {
+            "none": [
+              "planetable1865100harr"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "abstract"
+            ]
+          },
+          "value": {
+            "none": [
+              "The bulk of the manuscript is a handwritten, illustrated treatise dated 1865 on the plane table and its use in surveying. At the end of the volume there are various printed excerpts bound in, including 'A treatise on the plane table, and its use in topographical surveying ... abridged from the original mss., 1867', apparently a proof copy for a reprint of the article that was published as appendix no. 22 in the Report of the superintendent of the Coast Survey (1865, no. 30); an excerpt from the Providence journal ('The metrical system of France', by A.M. Harrison, dated Nov. 30, 1869); projection tables from the 1853 Coast Survey report; the article, 'Telescopic measurement in surveying', by Benjamin Smith Lyman (12 p.); and handwritten tables of triangulation."
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "call_number"
+            ]
+          },
+          "value": {
+            "none": [
+              "39088007769722"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "call-number"
+            ]
+          },
+          "value": {
+            "none": [
+              "39088007769722"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "contributor"
+            ]
+          },
+          "value": {
+            "none": [
+              "Smithsonian Libraries and Archives"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "creator"
+            ]
+          },
+          "value": {
+            "none": [
+              "Harrison, A. M. (Alexander Medina), 1829-1881"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "date"
+            ]
+          },
+          "value": {
+            "none": [
+              "1865"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "identifier-bib"
+            ]
+          },
+          "value": {
+            "none": [
+              "39088007769722"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "language"
+            ]
+          },
+          "value": {
+            "none": [
+              "eng"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "mediatype"
+            ]
+          },
+          "value": {
+            "none": [
+              "texts"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "possible-copyright-status"
+            ]
+          },
+          "value": {
+            "none": [
+              "Public domain. The Library considers that this work is no longer under copyright protection"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "sponsor"
+            ]
+          },
+          "value": {
+            "none": [
+              "Biodiversity Heritage Library"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "title"
+            ]
+          },
+          "value": {
+            "none": [
+              "The plane table 1865-1869"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "year"
+            ]
+          },
+          "value": {
+            "none": [
+              "1865"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "collection"
+            ]
+          },
+          "value": {
+            "none": [
+              "smithsonian"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "subject"
+            ]
+          },
+          "value": {
+            "none": [
+              "Plane-table",
+              "Topographical surveying"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "addeddate"
+            ]
+          },
+          "value": {
+            "none": [
+              "2025-07-10 03:52:24"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "oclc-id"
+            ]
+          },
+          "value": {
+            "none": [
+              "33081904"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "associated-names"
+            ]
+          },
+          "value": {
+            "none": [
+              "Lyman, Benjamin Smith, 1835-1920. Telescopic measurement in surveying; United States Coast Survey. Report of the superintendent of the Coast Survey .."
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ppi"
+            ]
+          },
+          "value": {
+            "none": [
+              "300"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "foldoutcount"
+            ]
+          },
+          "value": {
+            "none": [
+              "0"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "identifier-access"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://archive.org/details/planetable1865100harr"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "identifier-ark"
+            ]
+          },
+          "value": {
+            "none": [
+              "ark:/13960/s2vwj7ds13f"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ocr"
+            ]
+          },
+          "value": {
+            "none": [
+              "tesseract 5.3.0-6-g76ae"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ocr_parameters"
+            ]
+          },
+          "value": {
+            "none": [
+              "-l eng"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ocr_module_version"
+            ]
+          },
+          "value": {
+            "none": [
+              "0.0.21"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ocr_detected_script"
+            ]
+          },
+          "value": {
+            "none": [
+              "Latin"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ocr_detected_script_conf"
+            ]
+          },
+          "value": {
+            "none": [
+              "0.6472"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ocr_detected_lang"
+            ]
+          },
+          "value": {
+            "none": [
+              "en"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ocr_detected_lang_conf"
+            ]
+          },
+          "value": {
+            "none": [
+              "1.0000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "page_number_confidence"
+            ]
+          },
+          "value": {
+            "none": [
+              "0"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "page_number_module_version"
+            ]
+          },
+          "value": {
+            "none": [
+              "1.0.5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "pdf_degraded"
+            ]
+          },
+          "value": {
+            "none": [
+              "invalid-jp2-headers"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "pdf_module_version"
+            ]
+          },
+          "value": {
+            "none": [
+              "0.0.25"
+            ]
+          }
+        }
+      ],
+      "partOf": [
+        {
+          "id": "https://iiif.archive.org/iiif/smithsonian/collection.json",
+          "type": "Collection"
+        }
+      ],
+      "provider": [
+        {
+          "homepage": [
+            {
+              "format": "text/html",
+              "id": "https://archive.org",
+              "label": {
+                "en": [
+                  "Internet Archive Homepage"
+                ]
+              },
+              "type": "Text"
+            }
+          ],
+          "id": "https://archive.org",
+          "label": {
+            "en": [
+              "The Internet Archive"
+            ]
+          },
+          "logo": [
+            {
+              "format": "image/png",
+              "height": 79,
+              "id": "https://archive.org/images/glogo.png",
+              "type": "Image",
+              "width": 79
+            }
+          ],
+          "type": "Agent"
+        }
+      ],
+      "rendering": [
+        {
+          "format": "application/pdf",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr.pdf",
+          "label": {
+            "en": [
+              "Text PDF"
+            ]
+          },
+          "type": "Text"
+        },
+        {
+          "format": "application/x-bittorrent",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_archive.torrent",
+          "label": {
+            "en": [
+              "Archive BitTorrent"
+            ]
+          },
+          "type": "Dataset"
+        },
+        {
+          "format": "application/gzip",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_chocr.html.gz",
+          "label": {
+            "en": [
+              "chOCR"
+            ]
+          },
+          "type": "Text"
+        },
+        {
+          "format": "text/plain",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_djvu.txt",
+          "label": {
+            "en": [
+              "DjVuTXT"
+            ]
+          },
+          "type": "Text"
+        },
+        {
+          "format": "application/xml",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_djvu.xml",
+          "label": {
+            "en": [
+              "Djvu XML"
+            ]
+          },
+          "type": "Dataset"
+        },
+        {
+          "format": "text/html",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_hocr.html",
+          "label": {
+            "en": [
+              "hOCR"
+            ]
+          },
+          "type": "Text"
+        },
+        {
+          "format": "application/gzip",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_hocr_searchtext.txt.gz",
+          "label": {
+            "en": [
+              "OCR Search Text"
+            ]
+          },
+          "type": "Text"
+        },
+        {
+          "format": "application/zip",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_jp2.zip",
+          "label": {
+            "en": [
+              "Single Page Processed JP2 ZIP"
+            ]
+          },
+          "type": "Image"
+        }
+      ],
+      "seeAlso": [
+        {
+          "format": "application/json",
+          "id": "https://archive.org/metadata/planetable1865100harr",
+          "label": {
+            "en": [
+              "Item Metadata"
+            ]
+          },
+          "type": "Metadata"
+        },
+        {
+          "format": "application/xml",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_dc.xml",
+          "label": {
+            "en": [
+              "Dublin Core"
+            ]
+          },
+          "type": "Dataset"
+        },
+        {
+          "format": "application/json",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_hocr_pageindex.json.gz",
+          "label": {
+            "en": [
+              "OCR Page Index"
+            ]
+          },
+          "type": "Dataset"
+        },
+        {
+          "format": "application/xml",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_marc.xml",
+          "label": {
+            "en": [
+              "MARC"
+            ]
+          },
+          "type": "Dataset"
+        },
+        {
+          "format": "application/json",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_page_numbers.json",
+          "label": {
+            "en": [
+              "Page Numbers JSON"
+            ]
+          },
+          "type": "Dataset"
+        },
+        {
+          "format": "application/xml",
+          "id": "https://archive.org/download/planetable1865100harr/planetable1865100harr_scandata.xml",
+          "label": {
+            "en": [
+              "Scandata"
+            ]
+          },
+          "type": "Dataset"
+        }
+      ],
+      "service": [
+        {
+          "@id": "https://iiif.archive.org/iiif/search/planetable1865100harr",
+          "@type": "SearchService1",
+          "profile": "http://iiif.io/api/search/1/search"
+        }
+      ],
+      "summary": {
+        "none": [
+          "1 v. (ca. 513 leaves) : 26 cm",
+          "The bulk of the manuscript is a handwritten, illustrated treatise dated 1865 on the plane table and its use in surveying. At the end of the volume there are various printed excerpts bound in, including \"A treatise on the plane table, and its use in topographical surveying ... abridged from the original mss., 1867\", apparently a proof copy for a reprint of the article that was published as appendix no. 22 in the Report of the superintendent of the Coast Survey (1865, no. 30); an excerpt from the Providence journal (\"The metrical system of France\", by A.M. Harrison, dated Nov. 30, 1869); projection tables from the 1853 Coast Survey report; the article, \"Telescopic measurement in surveying\", by Benjamin Smith Lyman (12 p.); and handwritten tables of triangulation",
+          "Holograph ms. in pencil and ink on lined sheets of paper, accompanied by sketched and printed diagrams and illustrations (some on folded plates), and printed excerpts of articles",
+          "Binder's title: Treatise on the plain [i.e. plane] table"
+        ]
+      },
+      "thumbnail": [
+        {
+          "format": "image/jpeg",
+          "height": 215,
+          "id": "https://iiif.archive.org/image/iiif/2/planetable1865100harr%2f__ia_thumb.jpg/full/180,/0/default.jpg",
+          "service": [
+            {
+              "@id": "https://iiif.archive.org/image/iiif/2/planetable1865100harr%2F__ia_thumb.jpg",
+              "@type": "ImageService2",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }
+          ],
+          "type": "Image",
+          "width": 180
+        }
+      ],
+      "type": "Manifest",
+      "viewingDirection": "left-to-right"
     }
   ]
 }
