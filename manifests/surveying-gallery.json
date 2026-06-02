@@ -5914,6 +5914,460 @@
       ],
       "type": "Manifest",
       "viewingDirection": "left-to-right"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~33373~1170798/manifest",
+      "label": "San Francisco-San Diego.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~33373~1170798/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~33373~1170798/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "San Francisco-San Diego.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Bache, A. D."
+                },
+                {
+                  "label": "Date",
+                  "value": "1853"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "San Francisco-San Diego."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "U.S."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "Chart Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "59"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "58"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "1,200,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Engraved nautical chart. Relief shown by hachures; soundings in fathoms. Includes descriptive notes. Insets: View of the entrance to San Francisco Bay ... -- View Pt. Piedras ... -- View Pt. Ano Nuevo ... -- View of Pt. Pinos ... -- View of Pt. Sur ... -- View of Piedras Blancas ... -- View of Moro Rock, Esteros Bay ... -- View of Pt. Sal ... -- View Pt. Arguila ... -- View Pt. Concepcion bearing W. by S. ... -- View of Pt. Concepcion bearing S.E. by E. ... -- View Pt. Duma ... -- View of the town and mission of Santa Barbara -- View of San Pedro, Pt. Fermin ... -- View showing initial point of boundary between the United States and Mexico -- View of Catalina Harbor -- View Pt. Loma ... In upper margin \"Presented under authority of an act of Congress of the United States of June 3d 1844 by direction of the Treasury Department, A.D. Bache Superintendent Coast Survey.\""
+                },
+                {
+                  "label": "Reference",
+                  "value": "Guthorn p. (200-201); Rowell, J.C. List of printed maps of California, p. 33; Vogdes p. 258."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "City",
+                  "value": "Santa Barbara (Calif.)"
+                },
+                {
+                  "label": "Region",
+                  "value": "San Francisco Bay Area (Calif.)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Reconnaissance of the Western Coast of the United States from San Francisco to San Diego by the hydrographic party under the command of Lieut. James Alden, U.S.N., assistant. U.S. Coast Survey. A.D. Bache, Superintendent. Drawn by W.B. McMurtrie; reduction for engraving by W.M.C. Fairfax. Outlines & topography engraved by G. McCoy; views by G. McCoy & S.V. Hunt; lettering by W. Smith. Electrotype copy no. 6 by G. Mathiot, U.S.C.S. (with logo) U.S. Coast Survey Office."
+                },
+                {
+                  "label": "List No",
+                  "value": "2470.046"
+                },
+                {
+                  "label": "Series No",
+                  "value": "50"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Alden, James"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Fairfax, W. M. C."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Hunt, S. V."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Mathiot, G."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "McCoy, G."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "McMurtrie, W. B."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Smith, W., engraver"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Bache, A. D."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "United States Coast Survey"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1854"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "(Covers to) Maps and charts of the United States Coast Survey. A.D. Bache, Superintendent. To July, 1854."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "P1269; U.S. Atlases L 167."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "2470.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Chart Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "57"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Image No",
+                  "value": "2470046"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0117/2470046.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Bache, A. D."
+                },
+                {
+                  "label": "Collection",
+                  "value": "Rumsey Collection"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~33373~1170798/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~33373~1170798/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~33373~1170798",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 9280,
+                    "height": 9424
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~33373~1170798/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~33373~1170798/list/luna"
+              ],
+              "width": 9280,
+              "height": 9424
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~33373~1170798"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~220729~5505134/manifest",
+      "label": "Western Coast Of The United States",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~220729~5505134/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~220729~5505134/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Western Coast Of The United States",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "U.S. Coast Survey"
+                },
+                {
+                  "label": "Date",
+                  "value": "1869"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Western Coast Of The United States"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "U.S. Coast Survey"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington"
+                },
+                {
+                  "label": "Type",
+                  "value": "Chart Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "64"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "1,200,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Without color. Middle sheet. Issued as a separate. 1st edition 1854. Latest edition in the annual reports is 1864. Map has 12 beautiful view of the Pacific coastline. Includes text and tables. Relief shown by hachures. Soundings in fathoms."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Vogdes p258."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "Oregon"
+                },
+                {
+                  "label": "City",
+                  "value": "San Francisco"
+                },
+                {
+                  "label": "Region",
+                  "value": "Pacific States"
+                },
+                {
+                  "label": "Region",
+                  "value": "Umpquah River"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Nautical Charts"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "U.S. Coast Survey A.D. Bache, Superintendent Reconnaissance Of The Western Coast Of The United States, Middle Sheet, From San Francisco To Umpquah River. By the Hydrographic Party under the command of Lieut. James Alden U.S.N. Assist. Geographical Positions by G. Davidson Assistant. 1854. Corrected to 1869. Drawn by W.B. McMurtrie; Reduction for engraving by A. Lindenkohl. Engd. by G. McCoy, J. Knight, J.L Hazzard & G.B. Metzeroth. No. 602. Electrotype Copy No. 6 by G. Mathiot U.S.C.S."
+                },
+                {
+                  "label": "List No",
+                  "value": "1043.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Davidson, G."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "McMurtrie, W.B."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Metzeroth, G.B."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Alden, James"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Hazzard, J.L."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Knight, J."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Lindenkohl, A."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Mathiot, G."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "McCoy, G."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "U.S. Coast Survey"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1869"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "U.S. Coast Survey A.D. Bache, Superintendent Reconnaissance Of The Western Coast Of The United States, Middle Sheet, From San Francisco To Umpquah River. By the Hydrographic Party under the command of Lieut. James Alden U.S.N. Assist. Geographical Positions by G. Davidson Assistant. 1854. Corrected to 1869. Drawn by W.B. McMurtrie; Reduction for engraving by A. Lindenkohl. Engd. by G. McCoy, J. Knight, J.L Hazzard & G.B. Metzeroth. No. 602. Electrotype Copy No. 6 by G. Mathiot U.S.C.S."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Vogdes p258."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Issued as a separate. 1st edition 1854. Latest edition in the annual reports is 1864. Map has 12 beautiful view of the Pacific coastline."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "1043.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Chart Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "64"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Image No",
+                  "value": "1043000"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/1043000.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "U.S. Coast Survey"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~220729~5505134/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~220729~5505134/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~220729~5505134",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 7536,
+                    "height": 8139
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~220729~5505134/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~220729~5505134/list/luna"
+              ],
+              "width": 7536,
+              "height": 8139
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~220729~5505134"
     }
   ]
 }
