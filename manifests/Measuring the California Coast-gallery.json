@@ -1,0 +1,2082 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Measuring the California Coast",
+  "label": "Measuring the California Coast",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/rd452fj0161/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "(\"Voyage of discovery to the North Pacific Ocean and round the world; in which the coast of north-west America has been carefully examined and accurately surveyed ... Atlas.\")",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/rd452fj0161.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/rd452fj0161'>https://purl.stanford.edu/rd452fj0161</a>"
+        },
+        {
+          "label": "Title",
+          "value": "(\"Voyage of discovery to the North Pacific Ocean and round the world; in which the coast of north-west America has been carefully examined and accurately surveyed ... Atlas.\")"
+        },
+        {
+          "label": "Contributor",
+          "value": "Vancouver, George, 1757-1798."
+        },
+        {
+          "label": "Contributor",
+          "value": "Alexander, W."
+        },
+        {
+          "label": "Contributor",
+          "value": "Baker, B."
+        },
+        {
+          "label": "Contributor",
+          "value": "Edwards, J."
+        },
+        {
+          "label": "Contributor",
+          "value": "Fittler, J."
+        },
+        {
+          "label": "Contributor",
+          "value": "Foot, T."
+        },
+        {
+          "label": "Contributor",
+          "value": "Heddington, T."
+        },
+        {
+          "label": "Contributor",
+          "value": "Humphreys, H."
+        },
+        {
+          "label": "Contributor",
+          "value": "Neele, S.J."
+        },
+        {
+          "label": "Contributor",
+          "value": "Pouncy, B.T."
+        },
+        {
+          "label": "Contributor",
+          "value": "Roberts, Edwd."
+        },
+        {
+          "label": "Contributor",
+          "value": "Sykes, J."
+        },
+        {
+          "label": "Contributor",
+          "value": "Warner, J."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps."
+        },
+        {
+          "label": "Type",
+          "value": "Nautical charts."
+        },
+        {
+          "label": "Type",
+          "value": "Aerial views"
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 16 maps ; 53 x 43 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Atlas only , without title, as issued. Contains ten charts and six sheets of views (profiles of parts of the coastlines). Compare the English charts to the French issues in the French Neptune of 1820. Vancouver's charts were the most accurate of the area for many years into the 19th century. In addition to the eight Northwest Coast charts, there is a \"Chart shewing part of the S.W. Coast of New Holland\" (with inset charts of New Zealand) and \"A Chart of the Sandwich Islands.\" Maps are without color and bound into half leather burgandy cloth covered boards with \"Atlas To Vancouvers Voyage\" stamped in gilt on a red leather label on the spine."
+        },
+        {
+          "label": "Description",
+          "value": "Chart Atlas."
+        },
+        {
+          "label": "Description",
+          "value": "References: P197; Wagner 853-860."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 3354.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > Northwest, Pacific > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Nautical charts > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Northwest, Pacific > Discovery and exploration > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Pacific Ocean > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "North Pacific Ocean > Discovery and exploration > Maps > Early works to 1800"
+        },
+        {
+          "label": "Date",
+          "value": "1798"
+        },
+        {
+          "label": "Date",
+          "value": "1798"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/rd452fj0161"
+        },
+        {
+          "label": "Publisher",
+          "value": "G.G. & J. Robinson,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2020-02-07"
+        }
+      ],
+      "description": "Atlas only , without title, as issued. Contains ten charts and six sheets of views (profiles of parts of the coastlines). Compare the English charts to the French issues in the French Neptune of 1820. Vancouver's charts were the most accurate of the area for many years into the 19th century. In addition to the eight Northwest Coast charts, there is a \"Chart shewing part of the S.W. Coast of New Holland\" (with inset charts of New Zealand) and \"A Chart of the Sandwich Islands.\" Maps are without color and bound into half leather burgandy cloth covered boards with \"Atlas To Vancouvers Voyage\" stamped in gilt on a red leather label on the spine.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/sx081ff0144%2F3354A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/sx081ff0144%2F3354A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 227
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/rd452fj0161/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/rd452fj0161/iiif/canvas/cocina-fileSet-gq775wn8848-gq775wn8848_1",
+              "@type": "sc:Canvas",
+              "label": "A Chart shewing part of the Coast of N.W. America, With the Tracks of His\n            Majesty's Sloop Discovery and Armed Tender Chatham; Commanded by George Vancouver\n            Esqr. and prepared under his immediate inspection by Lieut. Joseph Baker, in which the\n            Continental Shore has been traced and determined from Lat. 30?00'N. and Long\n            244?32' E. to Lat. 38?30'N and Long 237?13'E. Engraved by T. Foot, Weston\n            Place, Battle Bridge. No. 8. (with) Entrance of Port Sn. Francisco. (and) Port Sn.\n            Diego. London: Published May 1st 1798, by J. Edwards Pall Mall & G. Robinson\n            Paternoster Row.",
+              "height": 10048,
+              "width": 7963,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/gq775wn8848/3354008.jp2",
+                  "label": "Original source file (14.4 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/rd452fj0161/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fgq775wn8848-gq775wn8848_1%2F3354008.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/rd452fj0161/iiif/canvas/cocina-fileSet-gq775wn8848-gq775wn8848_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/gq775wn8848%2F3354008/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10048,
+                    "width": 7963,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/gq775wn8848%2F3354008",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/dk768yz0902/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Plan of the Port of St. Francisco in California. Point de Reyes in 37 degrees\n            59 minutes of Latitude North & 124 degrees, 54 minutes Longitude - West. Published\n            as the Act directs Novr. 1st 1798, by G.G. & J. Robinson, Paternoster Row, London.\n            Neele, sculpt., Strand. No. 33",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/dk768yz0902.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/dk768yz0902'>https://purl.stanford.edu/dk768yz0902</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Plan of the Port of St. Francisco in California. Point de Reyes in 37 degrees\n            59 minutes of Latitude North & 124 degrees, 54 minutes Longitude - West. Published\n            as the Act directs Novr. 1st 1798, by G.G. & J. Robinson, Paternoster Row, London.\n            Neele, sculpt., Strand. No. 33"
+        },
+        {
+          "label": "Title",
+          "value": "Port of San Francisco"
+        },
+        {
+          "label": "Creator",
+          "value": "La Perouse, Jean-Francois de Galaup, comte de, 1741-1788"
+        },
+        {
+          "label": "Contributor",
+          "value": "Neele, sculp. (contributor)"
+        },
+        {
+          "label": "Type",
+          "value": "Chart Map"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 38 x 25 cm"
+        },
+        {
+          "label": "Description",
+          "value": "Engraved. Legend keyed by letter to 21 features on map. Soundings in Spanish\n            fathoms."
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "P693."
+        },
+        {
+          "label": "Subject",
+          "value": null
+        },
+        {
+          "label": "Subject",
+          "value": null
+        },
+        {
+          "label": "Subject",
+          "value": null
+        },
+        {
+          "label": "Coverage",
+          "value": "1:360,000"
+        },
+        {
+          "label": "Coverage",
+          "value": "123°17′40″W -- 121°44′15″W / 38°15′20″N -- 37°24′13″N"
+        },
+        {
+          "label": "Date",
+          "value": "1799"
+        },
+        {
+          "label": "Identifier",
+          "value": "List number: 0414.033"
+        },
+        {
+          "label": "Identifier",
+          "value": "Image number: 0414033"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/dk768yz0902"
+        },
+        {
+          "label": "Publisher",
+          "value": "G.G. & J. Robinson."
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2018-05-22"
+        }
+      ],
+      "description": "Engraved. Legend keyed by letter to 21 features on map. Soundings in Spanish\n            fathoms.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/dk768yz0902%2F0414033/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/dk768yz0902%2F0414033",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 293,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/dk768yz0902/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/dk768yz0902/iiif/canvas/cocina-fileSet-dk768yz0902-dk768yz0902_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 7350,
+              "width": 5375,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/dk768yz0902/0414033.jp2",
+                  "label": "Original source file (7.11 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/dk768yz0902/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fdk768yz0902-dk768yz0902_1%2F0414033.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/dk768yz0902/iiif/canvas/cocina-fileSet-dk768yz0902-dk768yz0902_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/dk768yz0902%2F0414033/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7350,
+                    "width": 5375,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/dk768yz0902%2F0414033",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/gs191zw9403/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Nouvelle Californie. Amer. Sep. no. 46. (with profile) Includes profile: Tableau physique de la pente Occidentale du Plateau de la nouvelle Espagne. Chemin de Mexico a Acapulco, d'apres A. de Humboldt. Dressee et dessinee par Ph. Vandermaelen. Desee. sur pierre et Lith. par H. Ode, juillet 1825",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/gs191zw9403.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/gs191zw9403'>https://purl.stanford.edu/gs191zw9403</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Nouvelle Californie. Amer. Sep. no. 46. (with profile) Includes profile: Tableau physique de la pente Occidentale du Plateau de la nouvelle Espagne. Chemin de Mexico a Acapulco, d'apres A. de Humboldt. Dressee et dessinee par Ph. Vandermaelen. Desee. sur pierre et Lith. par H. Ode, juillet 1825"
+        },
+        {
+          "label": "Contributor",
+          "value": "Vandermaelen, Philippe, 1795-1869."
+        },
+        {
+          "label": "Contributor",
+          "value": "Hassel, S. G. H., 1779-1829."
+        },
+        {
+          "label": "Contributor",
+          "value": "Ode, Henri."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 47 x 52 cm."
+        },
+        {
+          "label": "Description",
+          "value": "References: Phillips, 749; Koeman Vdm 1; National Maritime Museum, 179; Wellens-De Donder, L. Philippe Vandermaelen 1795-1869, 4-5."
+        },
+        {
+          "label": "Description",
+          "value": "Separate Map."
+        },
+        {
+          "label": "Description",
+          "value": "This is a variant edition - see our 2212.251. Hand col. lithographed map. Relief shown by hachures. Shows Indian tribes, Vancouver's route, etc. Covers parts of southern Nevada, Southern California, Arizona, Baja California Norte and Sonora. Includes text: Vielle Californie."
+        },
+        {
+          "label": "Local note",
+          "value": "David Rumsey Map Center copy 1: Pub list no. 10068.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Arizona > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "California > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Mexico > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Nevada > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Sonora (Mexico : State) > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:1,641,836."
+        },
+        {
+          "label": "Date",
+          "value": "1825"
+        },
+        {
+          "label": "Date",
+          "value": "1825"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/gs191zw9403"
+        },
+        {
+          "label": "Publisher",
+          "value": "Ph. Vandermaelen,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2018-05-17"
+        }
+      ],
+      "description": "References: Phillips, 749; Koeman Vdm 1; National Maritime Museum, 179; Wellens-De Donder, L. Philippe Vandermaelen 1795-1869, 4-5.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/gs191zw9403%2F10068000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/gs191zw9403%2F10068000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 307
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/gs191zw9403/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/gs191zw9403/iiif/canvas/cocina-fileSet-gs191zw9403-gs191zw9403_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 12596,
+              "width": 16430,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/gs191zw9403/10068000.jp2",
+                  "label": "Original source file (37.2 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/gs191zw9403/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fgs191zw9403-gs191zw9403_1%2F10068000.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/gs191zw9403/iiif/canvas/cocina-fileSet-gs191zw9403-gs191zw9403_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/gs191zw9403%2F10068000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 12596,
+                    "width": 16430,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/gs191zw9403%2F10068000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/yc146nj9848/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Chart of the North Pacific Ocean, Exhibiting the Eastern Shores of Asia and the Western Coast of North America from the Equator to Behring's Strait with Plans, on an Enlarged Scale, of the Principal Islands and Harbours. Compiled from the most Recent Surveys made by order of the British, French, and United States Governments. London. Published by James Imray. Chart and Nautical Bookseller, 102 Minores, 1849. (insets) Sandwich Islands (Hawaii); Philippine Islands; Harbor of San Francisco; Victoria Harbor; Mouth of the Columbia River; Marian or Ladrone Islands; Awatska Harbor in Kamchatka",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/yc146nj9848.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/yc146nj9848'>https://purl.stanford.edu/yc146nj9848</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Chart of the North Pacific Ocean, Exhibiting the Eastern Shores of Asia and the Western Coast of North America from the Equator to Behring's Strait with Plans, on an Enlarged Scale, of the Principal Islands and Harbours. Compiled from the most Recent Surveys made by order of the British, French, and United States Governments. London. Published by James Imray. Chart and Nautical Bookseller, 102 Minores, 1849. (insets) Sandwich Islands (Hawaii); Philippine Islands; Harbor of San Francisco; Victoria Harbor; Mouth of the Columbia River; Marian or Ladrone Islands; Awatska Harbor in Kamchatka"
+        },
+        {
+          "label": "Contributor",
+          "value": "Imray, James."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 1 maps ; 96 x 190 cm."
+        },
+        {
+          "label": "Description",
+          "value": "Chart Map."
+        },
+        {
+          "label": "Description",
+          "value": "Shows area 0-69 degrees North. The chart shows much detail around San Francisco Bay at the start of the California Gold Rush. This chart was evidently aboard the ship, Northern Light. Handwritten on the chart are the ship's locations on a round trip from San Francisco - Acapulco (March-April,1852) and thence toward Boston in May 1852. According to Wikipedia: The Northern Light was an American clipper ship. In 1853 she sailed from San Francisco, California to Boston, Massachusetts via Cape Horn with Captain Freeman Hatch at the helm in a record-setting 76 days, 6 hours. The record still stands for a single hull vessel. Launched September 25, 1851, the ship was abandoned at sea, January 2, 1862 after colliding with the French brig Nouveau St. Jacques. on a transatlantic voyage. A blueback chartp. Relief shown by hachures. Mercator projection. An unusual canvas tube that held the rolled chart."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 7806.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Nautical Charts > Maps"
+        },
+        {
+          "label": "Date",
+          "value": "1849"
+        },
+        {
+          "label": "Date",
+          "value": "1849"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/yc146nj9848"
+        },
+        {
+          "label": "Publisher",
+          "value": "James Imray,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-06-20"
+        }
+      ],
+      "description": "Chart Map.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/zz740pv5999%2F7806001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/zz740pv5999%2F7806001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 119
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/yc146nj9848/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/yc146nj9848/iiif/canvas/cocina-fileSet-vc135gg9369-vc135gg9369_1",
+              "@type": "sc:Canvas",
+              "label": "Chart of the North Pacific Ocean, Exhibiting the Eastern Shores of Asia and the\n            Western Coast of North America from the Equator to Behring's Strait with Plans, on\n            an Enlarged Scale, of the Principal Islands and Harbours. Compiled from the most Recent\n            Surveys made by order of the British, French, and United States Governments. London\n            Published by James Imray. Chart and Nautical Bookseller, 102 Minores, 1849. (insets)\n            Sandwich Islands (Hawaii); Philippine Islands; Harbor of San Francisco; Victoria Harbor;\n            Mouth of the Columbia River; Marian or Ladrone Islands; Awatska Harbor in\n            Kamchatka.",
+              "height": 18959,
+              "width": 36445,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/vc135gg9369/7806003.jp2",
+                  "label": "Original source file (124 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/yc146nj9848/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fvc135gg9369-vc135gg9369_1%2F7806003.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/yc146nj9848/iiif/canvas/cocina-fileSet-vc135gg9369-vc135gg9369_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/vc135gg9369%2F7806003/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 18959,
+                    "width": 36445,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/vc135gg9369%2F7806003",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/yc146nj9848/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Chart of the North Pacific Ocean, Exhibiting the Eastern Shores of Asia and the Western Coast of North America from the Equator to Behring's Strait with Plans, on an Enlarged Scale, of the Principal Islands and Harbours. Compiled from the most Recent Surveys made by order of the British, French, and United States Governments. London. Published by James Imray. Chart and Nautical Bookseller, 102 Minores, 1849. (insets) Sandwich Islands (Hawaii); Philippine Islands; Harbor of San Francisco; Victoria Harbor; Mouth of the Columbia River; Marian or Ladrone Islands; Awatska Harbor in Kamchatka",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/yc146nj9848.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/yc146nj9848'>https://purl.stanford.edu/yc146nj9848</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Chart of the North Pacific Ocean, Exhibiting the Eastern Shores of Asia and the Western Coast of North America from the Equator to Behring's Strait with Plans, on an Enlarged Scale, of the Principal Islands and Harbours. Compiled from the most Recent Surveys made by order of the British, French, and United States Governments. London. Published by James Imray. Chart and Nautical Bookseller, 102 Minores, 1849. (insets) Sandwich Islands (Hawaii); Philippine Islands; Harbor of San Francisco; Victoria Harbor; Mouth of the Columbia River; Marian or Ladrone Islands; Awatska Harbor in Kamchatka"
+        },
+        {
+          "label": "Contributor",
+          "value": "Imray, James."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 1 maps ; 96 x 190 cm."
+        },
+        {
+          "label": "Description",
+          "value": "Chart Map."
+        },
+        {
+          "label": "Description",
+          "value": "Shows area 0-69 degrees North. The chart shows much detail around San Francisco Bay at the start of the California Gold Rush. This chart was evidently aboard the ship, Northern Light. Handwritten on the chart are the ship's locations on a round trip from San Francisco - Acapulco (March-April,1852) and thence toward Boston in May 1852. According to Wikipedia: The Northern Light was an American clipper ship. In 1853 she sailed from San Francisco, California to Boston, Massachusetts via Cape Horn with Captain Freeman Hatch at the helm in a record-setting 76 days, 6 hours. The record still stands for a single hull vessel. Launched September 25, 1851, the ship was abandoned at sea, January 2, 1862 after colliding with the French brig Nouveau St. Jacques. on a transatlantic voyage. A blueback chartp. Relief shown by hachures. Mercator projection. An unusual canvas tube that held the rolled chart."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 7806.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Nautical Charts > Maps"
+        },
+        {
+          "label": "Date",
+          "value": "1849"
+        },
+        {
+          "label": "Date",
+          "value": "1849"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/yc146nj9848"
+        },
+        {
+          "label": "Publisher",
+          "value": "James Imray,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-06-20"
+        }
+      ],
+      "description": "Chart Map.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/zz740pv5999%2F7806001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/zz740pv5999%2F7806001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 119
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/yc146nj9848/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/yc146nj9848/iiif/canvas/cocina-fileSet-zz740pv5999-zz740pv5999_1",
+              "@type": "sc:Canvas",
+              "label": "(Covers to) (Fabric Tube or Quiver for Rolled Chart) Chart of the North Pacific\n            Ocean, Exhibiting the Eastern Shores of Asia and the Western Coast of North America from\n            the Equator to Behring's Strait with Plans, on an Enlarged Scale, of the Principal\n            Islands and Harbours. Compiled from the most Recent Surveys made by order of the\n            British, French, and United States Governments. London. Published by James Imray. Chart\n            and Nautical Bookseller, 102 Minores, 1849. (insets) Sandwich Islands (Hawaii)\n            Philippine Islands; Harbor of San Francisco; Victoria Harbor; Mouth of the Columbia\n            River; Marian or Ladrone Islands; Awatska Harbor in Kamchatka.",
+              "height": 5352,
+              "width": 18022,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/zz740pv5999/7806001.jp2",
+                  "label": "Original source file (17.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/yc146nj9848/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fzz740pv5999-zz740pv5999_1%2F7806001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/yc146nj9848/iiif/canvas/cocina-fileSet-zz740pv5999-zz740pv5999_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/zz740pv5999%2F7806001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 5352,
+                    "width": 18022,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/zz740pv5999%2F7806001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/ft570tj7542/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Maps and Charts of the United States Coast Survey. A.D. Bache, Superintendent. To July, 1854",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/ft570tj7542.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/ft570tj7542'>https://purl.stanford.edu/ft570tj7542</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Maps and Charts of the United States Coast Survey. A.D. Bache, Superintendent. To July, 1854"
+        },
+        {
+          "label": "Contributor",
+          "value": "Bache, A. D."
+        },
+        {
+          "label": "Contributor",
+          "value": "Barker, John R."
+        },
+        {
+          "label": "Contributor",
+          "value": "Boutelle, C.O."
+        },
+        {
+          "label": "Contributor",
+          "value": "Cram, T.J."
+        },
+        {
+          "label": "Contributor",
+          "value": "Eakin, C.M."
+        },
+        {
+          "label": "Contributor",
+          "value": "Lambert, J."
+        },
+        {
+          "label": "Contributor",
+          "value": "Longfellow, A.W."
+        },
+        {
+          "label": "Contributor",
+          "value": "Siebert, S."
+        },
+        {
+          "label": "Contributor",
+          "value": "Smith, W."
+        },
+        {
+          "label": "Contributor",
+          "value": "Stull, S.E."
+        },
+        {
+          "label": "Contributor",
+          "value": "Throop, J.V.N."
+        },
+        {
+          "label": "Contributor",
+          "value": "United States Coast Survey."
+        },
+        {
+          "label": "Contributor",
+          "value": "Whiting, H.L."
+        },
+        {
+          "label": "Contributor",
+          "value": "Woodward, E.F."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Nautical charts."
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 57 maps ; 31 x 28 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Chart."
+        },
+        {
+          "label": "Description",
+          "value": "Not an Annual Report! Unique edition-all engraved. A set of most of the Coast Survey maps published to July 1854, and all are engraved instead of lithographed as were the maps in the annual reports. Each map has the unique inscription at the top reading \"Presented under Authority of an Act of Congress of the United States of June 3d 1844 by direction of the Treasury Department A.D. Bache Superintendent Coast Survey.\" U.S. Atlases lists another edition (L3666) of 1856. Laid in is a broadside published by the Survey: \"Coast Survey Charts Published, Sketches and Preliminary Charts, The Following Sketches will be Gratuitously Distributed:, Agents for Sale of Maps:, Coast Survey Office, Washington, March 15, 1853\" (our no. 5754). Bound with half leather and marble paper covered boards with title in gilt on spine."
+        },
+        {
+          "label": "Description",
+          "value": "References: P1269; U.S. Atlases L 167."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 2470.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > United States > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Nautical charts > United States > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1854"
+        },
+        {
+          "label": "Date",
+          "value": "1854"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/ft570tj7542"
+        },
+        {
+          "label": "Publisher",
+          "value": "U.S,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-06"
+        }
+      ],
+      "description": "Chart.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hb430cf2631%2F2470a/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hb430cf2631%2F2470a",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 223
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/ft570tj7542/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/ft570tj7542/iiif/canvas/cocina-fileSet-mb194nh7697-mb194nh7697_1",
+              "@type": "sc:Canvas",
+              "label": "Reconnaissance of the Western Coast of the United States from San Francisco to San\n   Diego by the hydrographic party under the command of Lieut. James Alden, U.S.N., assistant. U.S\n   Coast Survey. A.D. Bache, Superintendent. Drawn by W.B. McMurtrie; reduction for engraving by\n   W.M.C. Fairfax. Outlines & topography engraved by G. McCoy; views by G. McCoy & S.V.\n   Hunt; lettering by W. Smith. Electrotype copy no. 6 by G. Mathiot, U.S.C.S. (with logo) U.S.\n   Coast Survey Office.",
+              "height": 9424,
+              "width": 9280,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/mb194nh7697/2470046.jp2",
+                  "label": "Original source file (15.7 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/ft570tj7542/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fmb194nh7697-mb194nh7697_1%2F2470046.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/ft570tj7542/iiif/canvas/cocina-fileSet-mb194nh7697-mb194nh7697_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/mb194nh7697%2F2470046/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 9424,
+                    "width": 9280,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/mb194nh7697%2F2470046",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/ft570tj7542/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Maps and Charts of the United States Coast Survey. A.D. Bache, Superintendent. To July, 1854",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/ft570tj7542.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/ft570tj7542'>https://purl.stanford.edu/ft570tj7542</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Maps and Charts of the United States Coast Survey. A.D. Bache, Superintendent. To July, 1854"
+        },
+        {
+          "label": "Contributor",
+          "value": "Bache, A. D."
+        },
+        {
+          "label": "Contributor",
+          "value": "Barker, John R."
+        },
+        {
+          "label": "Contributor",
+          "value": "Boutelle, C.O."
+        },
+        {
+          "label": "Contributor",
+          "value": "Cram, T.J."
+        },
+        {
+          "label": "Contributor",
+          "value": "Eakin, C.M."
+        },
+        {
+          "label": "Contributor",
+          "value": "Lambert, J."
+        },
+        {
+          "label": "Contributor",
+          "value": "Longfellow, A.W."
+        },
+        {
+          "label": "Contributor",
+          "value": "Siebert, S."
+        },
+        {
+          "label": "Contributor",
+          "value": "Smith, W."
+        },
+        {
+          "label": "Contributor",
+          "value": "Stull, S.E."
+        },
+        {
+          "label": "Contributor",
+          "value": "Throop, J.V.N."
+        },
+        {
+          "label": "Contributor",
+          "value": "United States Coast Survey."
+        },
+        {
+          "label": "Contributor",
+          "value": "Whiting, H.L."
+        },
+        {
+          "label": "Contributor",
+          "value": "Woodward, E.F."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Nautical charts."
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 57 maps ; 31 x 28 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Chart."
+        },
+        {
+          "label": "Description",
+          "value": "Not an Annual Report! Unique edition-all engraved. A set of most of the Coast Survey maps published to July 1854, and all are engraved instead of lithographed as were the maps in the annual reports. Each map has the unique inscription at the top reading \"Presented under Authority of an Act of Congress of the United States of June 3d 1844 by direction of the Treasury Department A.D. Bache Superintendent Coast Survey.\" U.S. Atlases lists another edition (L3666) of 1856. Laid in is a broadside published by the Survey: \"Coast Survey Charts Published, Sketches and Preliminary Charts, The Following Sketches will be Gratuitously Distributed:, Agents for Sale of Maps:, Coast Survey Office, Washington, March 15, 1853\" (our no. 5754). Bound with half leather and marble paper covered boards with title in gilt on spine."
+        },
+        {
+          "label": "Description",
+          "value": "References: P1269; U.S. Atlases L 167."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 2470.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > United States > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Nautical charts > United States > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1854"
+        },
+        {
+          "label": "Date",
+          "value": "1854"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/ft570tj7542"
+        },
+        {
+          "label": "Publisher",
+          "value": "U.S,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-06"
+        }
+      ],
+      "description": "Chart.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hb430cf2631%2F2470a/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hb430cf2631%2F2470a",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 223
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/ft570tj7542/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/ft570tj7542/iiif/canvas/cocina-fileSet-wb374rw0044-wb374rw0044_1",
+              "@type": "sc:Canvas",
+              "label": "Mare Island Straits, California. U.S. Coast Survey, A.D. Bache, Superintendent\n   Triangulation by J.S. Williams and R.D. Cutts, assts., U.S.C.S. and Lt. S.F. Blunt, U.S.N., Joint\n   Commn. Army & Navy officers. Topography by R.D. Cutts, asst., U.S.C.S. Hydrography by the\n   party under the command of W.P. McArthur, Lieut U.S.N. and asst. U.S.C.S. 1851.",
+              "height": 3496,
+              "width": 5051,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/wb374rw0044/2470054.jp2",
+                  "label": "Original source file (3.18 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/ft570tj7542/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fwb374rw0044-wb374rw0044_1%2F2470054.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/ft570tj7542/iiif/canvas/cocina-fileSet-wb374rw0044-wb374rw0044_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/wb374rw0044%2F2470054/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 3496,
+                    "width": 5051,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/wb374rw0044%2F2470054",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/ft570tj7542/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Maps and Charts of the United States Coast Survey. A.D. Bache, Superintendent. To July, 1854",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/ft570tj7542.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/ft570tj7542'>https://purl.stanford.edu/ft570tj7542</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Maps and Charts of the United States Coast Survey. A.D. Bache, Superintendent. To July, 1854"
+        },
+        {
+          "label": "Contributor",
+          "value": "Bache, A. D."
+        },
+        {
+          "label": "Contributor",
+          "value": "Barker, John R."
+        },
+        {
+          "label": "Contributor",
+          "value": "Boutelle, C.O."
+        },
+        {
+          "label": "Contributor",
+          "value": "Cram, T.J."
+        },
+        {
+          "label": "Contributor",
+          "value": "Eakin, C.M."
+        },
+        {
+          "label": "Contributor",
+          "value": "Lambert, J."
+        },
+        {
+          "label": "Contributor",
+          "value": "Longfellow, A.W."
+        },
+        {
+          "label": "Contributor",
+          "value": "Siebert, S."
+        },
+        {
+          "label": "Contributor",
+          "value": "Smith, W."
+        },
+        {
+          "label": "Contributor",
+          "value": "Stull, S.E."
+        },
+        {
+          "label": "Contributor",
+          "value": "Throop, J.V.N."
+        },
+        {
+          "label": "Contributor",
+          "value": "United States Coast Survey."
+        },
+        {
+          "label": "Contributor",
+          "value": "Whiting, H.L."
+        },
+        {
+          "label": "Contributor",
+          "value": "Woodward, E.F."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Nautical charts."
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 57 maps ; 31 x 28 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Chart."
+        },
+        {
+          "label": "Description",
+          "value": "Not an Annual Report! Unique edition-all engraved. A set of most of the Coast Survey maps published to July 1854, and all are engraved instead of lithographed as were the maps in the annual reports. Each map has the unique inscription at the top reading \"Presented under Authority of an Act of Congress of the United States of June 3d 1844 by direction of the Treasury Department A.D. Bache Superintendent Coast Survey.\" U.S. Atlases lists another edition (L3666) of 1856. Laid in is a broadside published by the Survey: \"Coast Survey Charts Published, Sketches and Preliminary Charts, The Following Sketches will be Gratuitously Distributed:, Agents for Sale of Maps:, Coast Survey Office, Washington, March 15, 1853\" (our no. 5754). Bound with half leather and marble paper covered boards with title in gilt on spine."
+        },
+        {
+          "label": "Description",
+          "value": "References: P1269; U.S. Atlases L 167."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 2470.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > United States > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Nautical charts > United States > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1854"
+        },
+        {
+          "label": "Date",
+          "value": "1854"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/ft570tj7542"
+        },
+        {
+          "label": "Publisher",
+          "value": "U.S,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-06"
+        }
+      ],
+      "description": "Chart.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hb430cf2631%2F2470a/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hb430cf2631%2F2470a",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 223
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/ft570tj7542/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/ft570tj7542/iiif/canvas/cocina-fileSet-gs589qq2282-gs589qq2282_1",
+              "@type": "sc:Canvas",
+              "label": "U.S. Coast Survey A.D. Bache, Superintendent, city of San Francisco and its vicinity\n   California. From a trigonometrical survey by R.D. Cutts, assistant. Topography by A.F. Rodgers\n   sub-assistant. Hydrography by the party under the command of Lieut. James Alden U.S.N. Asst.\n   1853. U.S. Coast Survey Office. Verified I.I. Stevens ... Outlines and Topography engraved by\n   Max. F.O. Strobel; Lettering by E.F. Woodward. Electrotype copy no. 1 by G. Mathiot,\n   U.S.C.S.",
+              "height": 9832,
+              "width": 7096,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/gs589qq2282/2470053.jp2",
+                  "label": "Original source file (12.5 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/ft570tj7542/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fgs589qq2282-gs589qq2282_1%2F2470053.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/ft570tj7542/iiif/canvas/cocina-fileSet-gs589qq2282-gs589qq2282_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/gs589qq2282%2F2470053/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 9832,
+                    "width": 7096,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/gs589qq2282%2F2470053",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~2212~180003/manifest",
+      "label": "City Of San Francisco And Its Vicinity, California.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~2212~180003/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~2212~180003/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "City Of San Francisco And Its Vicinity, California.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "United States Coast Survey"
+                },
+                {
+                  "label": "Date",
+                  "value": "1859"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "City Of San Francisco And Its Vicinity, California."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "U.S. Coast Survey"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington"
+                },
+                {
+                  "label": "Type",
+                  "value": "Chart Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "89"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "10,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Heavy paper chart; uses contours. First issued in 1857, with another edition issued later in 1857 that differs from the earlier 1857 edition and is apparently the same as this 1859 edition (Vogdes). Without color. Map is bordered in blue silk, dissected into 8 sections, and folds into a new mauve cloth folding case with \"U.S. Coast Survey San Francisco 1859\" stamped in gilt on the spine."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Vogdes p. 254."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "City",
+                  "value": "San Francisco (Calif.)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "U.S. Coast Survey A.D. Bache, Superintendent. City Of San Francisco And Its Vicinity California. Topography by A.F. Rodgers, Sub-assistant. Hydrography by the Party under the command of Lieut. R.M. Cuyler N.S.N. Assistant. Published in 1859. U.S. Coast Survey Office. Price 40 cents. Verified W.R. Palmer Capt. Topl. Engrs. Asst. C.S. In charge of Office. Lith. of J. Bien 60 Fulton St. N.Y."
+                },
+                {
+                  "label": "List No",
+                  "value": "1030.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Bien, Julius"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Cuyler, R.M."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Rodgers, A.F."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "United States Coast Survey"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1859"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "U.S. Coast Survey A.D. Bache, Superintendent. City Of San Francisco And Its Vicinity California. Topography by A.F. Rodgers, Sub-assistant. Hydrography by the Party under the command of Lieut. R.M. Cuyler N.S.N. Assistant. Published in 1859. U.S. Coast Survey Office. Price 40 cents. Verified W.R. Palmer Capt. Topl. Engrs. Asst. C.S. In charge of Office. Lith. of J. Bien 60 Fulton St. N.Y."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Vogdes p. 254."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "1030.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Chart Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "89"
+                },
+                {
+                  "label": "Image No",
+                  "value": "1030000"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0018/1030000.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "United States Coast Survey"
+                },
+                {
+                  "label": "Collection",
+                  "value": "Rumsey Collection"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~2212~180003/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~2212~180003/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~2212~180003",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11144,
+                    "height": 7808
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~2212~180003/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~2212~180003/list/luna"
+              ],
+              "width": 11144,
+              "height": 7808
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~2212~180003"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/fb605mg5610/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "N. America West Coast. San Francisco Harbour Surveyed by Lieut. James Alden U.S. Navy 1856. London. Published at the Admiralty 20th. Oct. 1860, under the Superintendence of Captn. Washington, R.N., FR.S. Hydrographer. Corrections to Augt. 63 ... Engraved by J. & C. Walker. (with 4 profile views)",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/fb605mg5610.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/fb605mg5610'>https://purl.stanford.edu/fb605mg5610</a>"
+        },
+        {
+          "label": "Title",
+          "value": "N. America West Coast. San Francisco Harbour Surveyed by Lieut. James Alden U.S. Navy 1856. London. Published at the Admiralty 20th. Oct. 1860, under the Superintendence of Captn. Washington, R.N., FR.S. Hydrographer. Corrections to Augt. 63 ... Engraved by J. & C. Walker. (with 4 profile views)"
+        },
+        {
+          "label": "Contributor",
+          "value": "British Admiralty."
+        },
+        {
+          "label": "Contributor",
+          "value": "Alden, James."
+        },
+        {
+          "label": "Contributor",
+          "value": "Walker, J. & C."
+        },
+        {
+          "label": "Contributor",
+          "value": "Washington, R.N."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "Nautical charts."
+        },
+        {
+          "label": "Type",
+          "value": "Military maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 64 x 99 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Chart Map."
+        },
+        {
+          "label": "Description",
+          "value": "Large format British Admiralty chart of West Coast of the United States. Showing San Francisco Bay, extending to Drake Bay, Vallejo, Petaluma Creek, and Oakland, as surveyed by James Alden of the U.S. Coast Survey and the British shortly after the discovery of Gold in California. Shows inland detail identifying roads, landings, buildings, and detailed street grid in major cities. Includes topographic features. Relief shown by hachures and spot heights in feet. Depth shown by soundings in Fathoms. Includes text, notes, and 3 rhumb lines pointing to the north."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 6860.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Nautical charts > California > San Francisco Bay > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Military maps > California > San Francisco Bay > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "California > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "San Francisco (Calif.) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "San Francisco Bay Area (Calif.) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "San Francisco Bay (Calif.) > Maps > 19th century"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:81,000."
+        },
+        {
+          "label": "Date",
+          "value": "1863"
+        },
+        {
+          "label": "Date",
+          "value": "1863"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/fb605mg5610"
+        },
+        {
+          "label": "Publisher",
+          "value": "British Admiralty,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-01-06"
+        }
+      ],
+      "description": "Chart Map.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/fb605mg5610%2F6860000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/fb605mg5610%2F6860000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 275
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/fb605mg5610/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/fb605mg5610/iiif/canvas/cocina-fileSet-fb605mg5610-fb605mg5610_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 16420,
+              "width": 23868,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/fb605mg5610/6860000.jp2",
+                  "label": "Original source file (70.4 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/fb605mg5610/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Ffb605mg5610-fb605mg5610_1%2F6860000.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/fb605mg5610/iiif/canvas/cocina-fileSet-fb605mg5610-fb605mg5610_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/fb605mg5610%2F6860000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 16420,
+                    "width": 23868,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/fb605mg5610%2F6860000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~373693~90140436/manifest",
+      "label": "Modified sextant with spirit-level horizon.. Sextant with Spirit-Level Horizon, with Associated Dipleidoscope",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~373693~90140436/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~373693~90140436/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Modified sextant with spirit-level horizon.. Sextant with Spirit-Level Horizon, with Associated Dipleidoscope",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Davidson, George (1825-1911)"
+                },
+                {
+                  "label": "Author",
+                  "value": "Troughton & Simms"
+                },
+                {
+                  "label": "Date",
+                  "value": "1867"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Modified sextant with spirit-level horizon.. Sextant with Spirit-Level Horizon, with Associated Dipleidoscope"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Troughton & Simms"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Survey Instrument"
+                },
+                {
+                  "label": "Note",
+                  "value": "Close-up of sextant instrument itself. Modified sextant with spirit-level horizon. A standard brass and steel sextant, modified by George Davidson to include a spirit-level horizon for inland observations where no sea horizon was available. Likely made by Troughton & Simms, London, c. 1865."
+                },
+                {
+                  "label": "Subject",
+                  "value": "Survey"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Modified sextant with spirit-level horizon.. Sextant with Spirit-Level Horizon, with Associated Dipleidoscope"
+                },
+                {
+                  "label": "List No",
+                  "value": "16641.004"
+                },
+                {
+                  "label": "Series No",
+                  "value": "4"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Davidson, George (1825-1911)"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Troughton & Simms"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1867"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Sextant with Spirit-Level Horizon, with Associated Dipleidoscope"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Sextant with Spirit-Level Horizon, with Associated Dipleidoscope Owner/Exhibitor: George Davidson (1825–1911), U.S. Coast Survey Maker: Sextant likely Troughton & Simms, London (frame style, c. 1860s) Modification: Spirit-level horizon attachment devised by Davidson (Journal of the Franklin Institute, 1866) Associated Instrument: Dipleidoscope by Elliott Bros., London, in fitted leather case Provenance: Exhibited at the Exposition Universelle, Paris, 1867 (Group 2, Class 12, No. 63) Description Sextant: Precision arc instrument, with telescope and mirrors, modified by Davidson to carry a spirit-level horizon for use where no sea horizon was visible. Engraved nameplate: “George Davidson, Philadelphia.” Original wooden case with painted inscription recording its entry in the Paris Exposition of 1867. Dipleidoscope: Compact brass instrument with multiple glass prisms and attached telescope, inscribed “Elliott Bros., 449 West Strand, London.” Contained in original velvet-lined morocco leather case. Historical Context The Exposition Universelle in Paris (April–November 1867) drew international exhibits of scientific and industrial progress. Group 2, Class 12 covered “instruments of precision.” Davidson entered his modified sextant on behalf of the U.S. Coast Survey; official reports list “Davidson, G., Washington; sextant.” Jury accounts record that the instrument earned honorable mention. The sextant illustrates U.S. Coast Survey field adaptations of standard British instruments for rugged inland and coastal survey work. The accompanying dipleidoscope reflects Davidson’s broader toolkit: a portable device for determining true noon by merging solar images, allowing accurate chronometer checks without a full observatory transit. Subsequent History Case markings show later shipment: “From T. D. Davidson, 1721 Washington St., S.F., Cal. — To Hon. F. D. Roosevelt, Naval Observatory, Washington D.C.” Roosevelt, Assistant Secretary of the Navy (1913–1920), oversaw Naval Observatory instruments. The valuation was listed as $100. Significance Demonstrates Davidson’s role as both surveyor and instrument innovator. Connects the instrument to the Paris Exposition of 1867, a major stage for scientific and industrial display. Association with Franklin D. Roosevelt in his Navy Department role adds a later layer of provenance. The inclusion of the dipleidoscope reveals Davidson’s combined use of angular and temporal instruments to replicate observatory precision in the field. Exhibition History Paris Exposition, 1867, Group 2, Class 12, No. 63 (scientific instruments). Provenance Timeline c. 1865 — Sextant manufactured; Davidson modifies with spirit-level horizon. 1866 — Davidson publishes description in Journal of the Franklin Institute. 1867 — Exhibited in Paris, Exposition Universelle. 1867–1880s — Active Coast Survey use in western U.S. and Alaska. Early 20th century — Shipped by Davidson to Franklin D. Roosevelt at the Naval Observatory, Washington D.C. Later — Preserved with original sextant case and associated dipleidoscope. Bibliography Davidson, George. “Sextant with Attached Spirit-Level Horizon.” Journal of the Franklin Institute, 1866. Paris Universal Exposition, 1867. Reports of the United States Commissioners (Washington, 1869). Catalogue général, Exposition universelle de 1867, Paris, Group 2, Class 12. Jury Reports, Group II, Instruments of Precision (noting honorable mention)."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16641.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Survey Instrument"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16641004.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/218/16641004.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Davidson, George (1825-1911); Troughton & Simms"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~373693~90140436/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~373693~90140436/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~373693~90140436",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 3808,
+                    "height": 3148
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~373693~90140436/canvas/c1"
+                }
+              ],
+              "width": 3808,
+              "height": 3148
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~373693~90140436"
+    }
+  ]
+}
