@@ -1024,6 +1024,408 @@
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~240858~5512421/manifest",
+      "label": "General Chart, Embracing Surveys of the Bays of San Francisco and San Pablo.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~240858~5512421/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~240858~5512421/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "General Chart, Embracing Surveys of the Bays of San Francisco and San Pablo.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Ringgold, Cadwalader."
+                },
+                {
+                  "label": "Date",
+                  "value": "1851"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "General Chart, Embracing Surveys of the Bays of San Francisco and San Pablo."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Jno. T. Towers"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington"
+                },
+                {
+                  "label": "Type",
+                  "value": "Chart Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "76"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "246,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Shows specific locations and general layouts of Vallejo, Benicia, Martinez, New York (Antioch, California), Sacramento, Boston (California), Stockton, Stanislaus City, and San Joaquin. River distances shown in small table."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Cowen p533; cf Howes R303."
+                },
+                {
+                  "label": "Region",
+                  "value": "Sacramento-San Joaquin Delta"
+                },
+                {
+                  "label": "Region",
+                  "value": "Farallon Islands"
+                },
+                {
+                  "label": "Region",
+                  "value": "San Francisco Bay"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "General Chart, Embracing Surveys of the Bays of San Francisco and San Pablo, Straits of Carquines and Suisun Bay, and the Sacramento and San Joaquin Rivers to the Cities of Sacramento and San Joaquin, California, by Cadwalader Ringgold, Commmander, U.S. Navy, 1850. Constructed, Projected and Drawn by Fred D. Stuart, Hydrographer, late of the U.S. Ex Ex, Assisted by Chas Everett Jr., Draughtman. Executed at the request of the undersigned citizens of California ... and Inscribed to William H. Aspiwall Esq., City of New Your."
+                },
+                {
+                  "label": "List No",
+                  "value": "2590.005"
+                },
+                {
+                  "label": "Series No",
+                  "value": "5"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Stuart, Fred D."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Everett, Chas. Jr."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ringgold, Cadwalader."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1851"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "A Series of Charts, With Sailing Directions, Embracing Surveys of the Farallones, Entrance to the Bay of San Francisco ... State of California. By Cadwalader Ringgold, Commander, U.S. Navy. Washington: Printed by Jno. T. Towers, 1851. (on verso) Entered ... 1851, by Cadwalader Ringgold ... District of Columbia."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Cowen p533; cf Howes R303."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "1st edition, Cowen gives precedence. Issued before the larger edition of 1851 (see our 4658.000) , this is in the form of a pocket map with only the uncolored general chart of the bay, but with the 48 pages of text printed on pages small enough to fit into the pocket map covers. No views, as issued."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "2590.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Chart Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "9"
+                },
+                {
+                  "label": "Image No",
+                  "value": "2590005"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/2590005.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Ringgold, Cadwalader."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~240858~5512421/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~240858~5512421/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~240858~5512421",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 15101,
+                    "height": 10224
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~240858~5512421/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~240858~5512421/list/luna"
+              ],
+              "width": 15101,
+              "height": 10224
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~240858~5512421"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~24346~890037/manifest",
+      "label": "San Pablo Bay, Carquines Straits.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~24346~890037/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~24346~890037/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "San Pablo Bay, Carquines Straits.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Ringgold, Cadwalader, 1802-1867"
+                },
+                {
+                  "label": "Author",
+                  "value": "Stuart, F. D. (Fred. D.)"
+                },
+                {
+                  "label": "Date",
+                  "value": "1852"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "San Pablo Bay, Carquines Straits."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Jno. T. Towers"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington"
+                },
+                {
+                  "label": "Type",
+                  "value": "Chart Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "77"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "50"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "455,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Inset views: Mark for invincible buoy, north extreme of Marin Is. on with clump of trees north of San Rafael -- Mark for invincible buoy, Point Smith, east end of Angel I. on with Signal Hill. Col. version appears in this book facing p. 31."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Howes R303; Cowen p533."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "Region",
+                  "value": "San Francisco Bay (Calif.)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Chart of the Bay of San Pablo Straits Of Carquines and part of the Bay of San Francisco California By Cadwalader Ringgold Commander, U.S. Navy. Assisted by Simon F. Blunt, Lieut. U.S.N. 1850. Projected, Constructed & Drawn by Fred. D. Stuart, Hydrographer, late of the U.S. Ex.Ex. Assisted by A.H. Campbell, Civil Engineer. Entered ... 1851, by Cadwalader Ringgold ... District of Columbia. C.B. Graham, Lithr. Washington, D.C."
+                },
+                {
+                  "label": "List No",
+                  "value": "4658.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "13"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Blunt, Simon F."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Campbell, A. H. (Albert H.)"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Graham, C. B. (Curtis B.)"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ringgold, Cadwalader, 1802-1867"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1852"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "A Series of charts, with sailing directions, embracing surveys of the Farallones, entrance to the Bay of San Francisco ... State of California... Third edition, with additions."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Howes R303; Cowen p533; Dougal, W.H. Off for California."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "The third edition, with Ringgold's inscription: \"To, Mr. Geo. Harrington... with the respects of the author.\" We cannot find any changes between this and the fourth edition. Cover title: Memoir and maps of California, Ringgold, U.S. Navy, 1851."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "4658.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Chart Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "6"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "20"
+                },
+                {
+                  "label": "Image No",
+                  "value": "4658001"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0089/4658001.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Ringgold, Cadwalader, 1802-1867; Stuart, F. D. (Fred. D.)"
+                },
+                {
+                  "label": "Collection",
+                  "value": "Rumsey Collection"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~24346~890037/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~24346~890037/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~24346~890037",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 6630,
+                    "height": 9948
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~24346~890037/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~24346~890037/list/luna"
+              ],
+              "width": 6630,
+              "height": 9948
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~24346~890037"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
       "@id": "https://purl.stanford.edu/ft570tj7542/iiif/manifest",
       "@type": "sc:Manifest",
       "label": "Maps and Charts of the United States Coast Survey. A.D. Bache, Superintendent. To July, 1854",
