@@ -583,6 +583,161 @@
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/rj574dv3194/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "The Harbour of San Francisco, Nueva California. The Entrance to San Francisco Harbour. By Captn. F.W. Beechy ... 1827 & 8",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/rj574dv3194.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/rj574dv3194'>https://purl.stanford.edu/rj574dv3194</a>"
+        },
+        {
+          "label": "Title",
+          "value": "The Harbour of San Francisco, Nueva California. The Entrance to San Francisco Harbour. By Captn. F.W. Beechy ... 1827 & 8"
+        },
+        {
+          "label": "Contributor",
+          "value": "Beechey, Frederick William."
+        },
+        {
+          "label": "Contributor",
+          "value": "J. & C. Walker."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 1 maps ; 32 x 40 cm."
+        },
+        {
+          "label": "Description",
+          "value": "Chart Map."
+        },
+        {
+          "label": "Description",
+          "value": "Engraved charts and several views on one sheet. Chart No. 591. From the Warren Heckrotte Auction catalog: \"Very rare and important chart of San Francisco Bay, the result of the first scientific mapping of the Bay. Neil Harlow states that the chart \"had a wide influence upon later maps of the area. The chart, with copies and adaptations of it, served to the end of the Mexican period and formed the substantial basis of the earliest ones produced under the American regime. It was deficient only in the region beyond Carquinez Strait...\" Harlow notes the chart of the entrance contains \"additional hydrographic data pertinent to entering the port and reaching the chief places of anchorage. Accompanying the chart are elevation views depicting the approaches to the bay and the hazards to navigation.\" No copies are listed in OCLC/WorldCat..\""
+        },
+        {
+          "label": "Description",
+          "value": "References: Harlow, Maps of S.F. Bay, 20 & 21, ( Rep ). TMC, 12/83 & 3/84, ( Rep ) - two articles on Admiralty charts. Orozco y Berra, 1433."
+        },
+        {
+          "label": "Local note",
+          "value": "David Rumsey Map Center copy 1: Pub list no. 12217.000."
+        },
+        {
+          "label": "Subject",
+          "value": "San Francisco (Calif.) > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "San Francisco Bay (Calif.) > Maps"
+        },
+        {
+          "label": "Date",
+          "value": "1833"
+        },
+        {
+          "label": "Date",
+          "value": "1833"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/rj574dv3194"
+        },
+        {
+          "label": "Publisher",
+          "value": "Hydrographical Office of the Admiralty,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-04-14"
+        }
+      ],
+      "description": "Chart Map.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/rj574dv3194%2F12217000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/rj574dv3194%2F12217000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 282
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/rj574dv3194/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/rj574dv3194/iiif/canvas/cocina-fileSet-rj574dv3194-rj574dv3194_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 9354,
+              "width": 13286,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/rj574dv3194/12217000.jp2",
+                  "label": "Original source file (22.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/rj574dv3194/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Frj574dv3194-rj574dv3194_1%2F12217000.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/rj574dv3194/iiif/canvas/cocina-fileSet-rj574dv3194-rj574dv3194_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/rj574dv3194%2F12217000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 9354,
+                    "width": 13286,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/rj574dv3194%2F12217000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
       "@id": "https://purl.stanford.edu/yc146nj9848/iiif/manifest",
       "@type": "sc:Manifest",
       "label": "Chart of the North Pacific Ocean, Exhibiting the Eastern Shores of Asia and the Western Coast of North America from the Equator to Behring's Strait with Plans, on an Enlarged Scale, of the Principal Islands and Harbours. Compiled from the most Recent Surveys made by order of the British, French, and United States Governments. London. Published by James Imray. Chart and Nautical Bookseller, 102 Minores, 1849. (insets) Sandwich Islands (Hawaii); Philippine Islands; Harbor of San Francisco; Victoria Harbor; Mouth of the Columbia River; Marian or Ladrone Islands; Awatska Harbor in Kamchatka",
@@ -1539,6 +1694,156 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~373693~90140436/manifest",
+      "label": "Modified sextant with spirit-level horizon.. Sextant with Spirit-Level Horizon, with Associated Dipleidoscope",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~373693~90140436/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~373693~90140436/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Modified sextant with spirit-level horizon.. Sextant with Spirit-Level Horizon, with Associated Dipleidoscope",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Davidson, George (1825-1911)"
+                },
+                {
+                  "label": "Author",
+                  "value": "Troughton & Simms"
+                },
+                {
+                  "label": "Date",
+                  "value": "1867"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Modified sextant with spirit-level horizon.. Sextant with Spirit-Level Horizon, with Associated Dipleidoscope"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Troughton & Simms"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Survey Instrument"
+                },
+                {
+                  "label": "Note",
+                  "value": "Close-up of sextant instrument itself. Modified sextant with spirit-level horizon. A standard brass and steel sextant, modified by George Davidson to include a spirit-level horizon for inland observations where no sea horizon was available. Likely made by Troughton & Simms, London, c. 1865."
+                },
+                {
+                  "label": "Subject",
+                  "value": "Survey"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Modified sextant with spirit-level horizon.. Sextant with Spirit-Level Horizon, with Associated Dipleidoscope"
+                },
+                {
+                  "label": "List No",
+                  "value": "16641.004"
+                },
+                {
+                  "label": "Series No",
+                  "value": "4"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Davidson, George (1825-1911)"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Troughton & Simms"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1867"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Sextant with Spirit-Level Horizon, with Associated Dipleidoscope"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Sextant with Spirit-Level Horizon, with Associated Dipleidoscope Owner/Exhibitor: George Davidson (1825–1911), U.S. Coast Survey Maker: Sextant likely Troughton & Simms, London (frame style, c. 1860s) Modification: Spirit-level horizon attachment devised by Davidson (Journal of the Franklin Institute, 1866) Associated Instrument: Dipleidoscope by Elliott Bros., London, in fitted leather case Provenance: Exhibited at the Exposition Universelle, Paris, 1867 (Group 2, Class 12, No. 63) Description Sextant: Precision arc instrument, with telescope and mirrors, modified by Davidson to carry a spirit-level horizon for use where no sea horizon was visible. Engraved nameplate: “George Davidson, Philadelphia.” Original wooden case with painted inscription recording its entry in the Paris Exposition of 1867. Dipleidoscope: Compact brass instrument with multiple glass prisms and attached telescope, inscribed “Elliott Bros., 449 West Strand, London.” Contained in original velvet-lined morocco leather case. Historical Context The Exposition Universelle in Paris (April–November 1867) drew international exhibits of scientific and industrial progress. Group 2, Class 12 covered “instruments of precision.” Davidson entered his modified sextant on behalf of the U.S. Coast Survey; official reports list “Davidson, G., Washington; sextant.” Jury accounts record that the instrument earned honorable mention. The sextant illustrates U.S. Coast Survey field adaptations of standard British instruments for rugged inland and coastal survey work. The accompanying dipleidoscope reflects Davidson’s broader toolkit: a portable device for determining true noon by merging solar images, allowing accurate chronometer checks without a full observatory transit. Subsequent History Case markings show later shipment: “From T. D. Davidson, 1721 Washington St., S.F., Cal. — To Hon. F. D. Roosevelt, Naval Observatory, Washington D.C.” Roosevelt, Assistant Secretary of the Navy (1913–1920), oversaw Naval Observatory instruments. The valuation was listed as $100. Significance Demonstrates Davidson’s role as both surveyor and instrument innovator. Connects the instrument to the Paris Exposition of 1867, a major stage for scientific and industrial display. Association with Franklin D. Roosevelt in his Navy Department role adds a later layer of provenance. The inclusion of the dipleidoscope reveals Davidson’s combined use of angular and temporal instruments to replicate observatory precision in the field. Exhibition History Paris Exposition, 1867, Group 2, Class 12, No. 63 (scientific instruments). Provenance Timeline c. 1865 — Sextant manufactured; Davidson modifies with spirit-level horizon. 1866 — Davidson publishes description in Journal of the Franklin Institute. 1867 — Exhibited in Paris, Exposition Universelle. 1867–1880s — Active Coast Survey use in western U.S. and Alaska. Early 20th century — Shipped by Davidson to Franklin D. Roosevelt at the Naval Observatory, Washington D.C. Later — Preserved with original sextant case and associated dipleidoscope. Bibliography Davidson, George. “Sextant with Attached Spirit-Level Horizon.” Journal of the Franklin Institute, 1866. Paris Universal Exposition, 1867. Reports of the United States Commissioners (Washington, 1869). Catalogue général, Exposition universelle de 1867, Paris, Group 2, Class 12. Jury Reports, Group II, Instruments of Precision (noting honorable mention)."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16641.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Survey Instrument"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16641004.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/218/16641004.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Davidson, George (1825-1911); Troughton & Simms"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~373693~90140436/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~373693~90140436/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~373693~90140436",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 3808,
+                    "height": 3148
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~373693~90140436/canvas/c1"
+                }
+              ],
+              "width": 3808,
+              "height": 3148
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~373693~90140436"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
       "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~2212~180003/manifest",
       "label": "City Of San Francisco And Its Vicinity, California.",
       "attribution": "David Rumsey Historical Map Collection",
@@ -1930,13 +2235,228 @@
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/kj039vw8000/iiif/manifest",
       "@type": "sc:Manifest",
-      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~373693~90140436/manifest",
-      "label": "Modified sextant with spirit-level horizon.. Sextant with Spirit-Level Horizon, with Associated Dipleidoscope",
+      "label": "Tomales Bay California. From a Trigonometrical Survey under the direction of A.D. Bache Superintendent of the Survey Of The Coast Of The United States. Triangulation by G.A. Fairfield and G. Davidson Assts. Coast Survey. Topography by A.F. Rodgers Asst. and J.S. Lawson Sub-Asst. Hydrography by the Party under the command of J. Alden and B.F. Sands Comdrs. U.S.N. Asst. Coast Survey ... Issued in May 1878 C.P. Patterson Superintendent. Verified J.E. Hilgard ... (Tomales Bay) U.S.C. & G.S. No. 5618 Price 25 Cents. Plate No. 1152. Electrotype Copy No. 2 by G. Mathiot U.S.C.S",
+      "attribution": "Property rights reside with the repository, Copyright © Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/kj039vw8000.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/kj039vw8000'>https://purl.stanford.edu/kj039vw8000</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Tomales Bay California. From a Trigonometrical Survey under the direction of A.D. Bache Superintendent of the Survey Of The Coast Of The United States. Triangulation by G.A. Fairfield and G. Davidson Assts. Coast Survey. Topography by A.F. Rodgers Asst. and J.S. Lawson Sub-Asst. Hydrography by the Party under the command of J. Alden and B.F. Sands Comdrs. U.S.N. Asst. Coast Survey ... Issued in May 1878 C.P. Patterson Superintendent. Verified J.E. Hilgard ... (Tomales Bay) U.S.C. & G.S. No. 5618 Price 25 Cents. Plate No. 1152. Electrotype Copy No. 2 by G. Mathiot U.S.C.S"
+        },
+        {
+          "label": "Contributor",
+          "value": "U.S. Coast Survey."
+        },
+        {
+          "label": "Contributor",
+          "value": "Alden, J."
+        },
+        {
+          "label": "Contributor",
+          "value": "Davidson, G."
+        },
+        {
+          "label": "Contributor",
+          "value": "Fairfield, G.A."
+        },
+        {
+          "label": "Contributor",
+          "value": "Hilgard, J.E."
+        },
+        {
+          "label": "Contributor",
+          "value": "Lawson, J.S."
+        },
+        {
+          "label": "Contributor",
+          "value": "Mathiot, G."
+        },
+        {
+          "label": "Contributor",
+          "value": "Patterson, C.P."
+        },
+        {
+          "label": "Contributor",
+          "value": "Rodgers, A.F."
+        },
+        {
+          "label": "Contributor",
+          "value": "Sands, B.F."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "Nautical charts."
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 39 x 61 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Chart Map."
+        },
+        {
+          "label": "Description",
+          "value": "References: Vogdes p. 257."
+        },
+        {
+          "label": "Description",
+          "value": "With manuscript notes dated June 19, 1906, by George Davidson, regarding the earthquake of January 9, 1857 which caused the release of huge amounts of subterranean gas in the bay, killing large numbers of fish. Chart is without color."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 3582.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Coasts > California > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "California > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Marin County (Calif.) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Tomales Bay (Calif.) > Nautical charts > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Pacific Ocean > Nautical charts > 19th century"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:30,000."
+        },
+        {
+          "label": "Date",
+          "value": "1878"
+        },
+        {
+          "label": "Date",
+          "value": "1878"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/kj039vw8000"
+        },
+        {
+          "label": "Publisher",
+          "value": "U.S. Coast Survey,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-03-09"
+        }
+      ],
+      "description": "Chart Map.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/kj039vw8000%2F3582000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/kj039vw8000%2F3582000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 244
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/kj039vw8000/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/kj039vw8000/iiif/canvas/cocina-fileSet-kj039vw8000-kj039vw8000_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 5637,
+              "width": 9249,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/kj039vw8000/3582000.jp2",
+                  "label": "Original source file (9.38 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/kj039vw8000/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fkj039vw8000-kj039vw8000_1%2F3582000.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/kj039vw8000/iiif/canvas/cocina-fileSet-kj039vw8000-kj039vw8000_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/kj039vw8000%2F3582000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 5637,
+                    "width": 9249,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/kj039vw8000%2F3582000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~239951~5512086/manifest",
+      "label": "San Francisco entrance, California : 1884",
       "attribution": "David Rumsey Historical Map Collection",
       "service": {
         "@context": "http://iiif.io/api/search/1/context.json",
-        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~373693~90140436/search",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~239951~5512086/search",
         "profile": "http://iiif.io/api/search/1/search"
       },
       "sequences": [
@@ -1944,106 +2464,150 @@
           "@type": "sc:Sequence",
           "canvases": [
             {
-              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~373693~90140436/canvas/c1",
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~239951~5512086/canvas/c1",
               "@type": "sc:Canvas",
-              "label": "Modified sextant with spirit-level horizon.. Sextant with Spirit-Level Horizon, with Associated Dipleidoscope",
+              "label": "San Francisco entrance, California : 1884",
               "description": "",
               "metadata": [
                 {
                   "label": "Author",
-                  "value": "Davidson, George (1825-1911)"
-                },
-                {
-                  "label": "Author",
-                  "value": "Troughton & Simms"
+                  "value": "United States Coast Survey"
                 },
                 {
                   "label": "Date",
-                  "value": "1867"
+                  "value": "1884"
                 },
                 {
                   "label": "Short Title",
-                  "value": "Modified sextant with spirit-level horizon.. Sextant with Spirit-Level Horizon, with Associated Dipleidoscope"
+                  "value": "San Francisco entrance, California : 1884"
                 },
                 {
                   "label": "Publisher",
-                  "value": "Troughton & Simms"
+                  "value": "U.S. Coast Survey"
                 },
                 {
                   "label": "Publisher Location",
-                  "value": "London"
+                  "value": "Washington, D.C."
                 },
                 {
                   "label": "Type",
-                  "value": "Survey Instrument"
+                  "value": "Chart Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "80"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "105"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "40,000"
                 },
                 {
                   "label": "Note",
-                  "value": "Close-up of sextant instrument itself. Modified sextant with spirit-level horizon. A standard brass and steel sextant, modified by George Davidson to include a spirit-level horizon for inland observations where no sea horizon was available. Likely made by Troughton & Simms, London, c. 1865."
+                  "value": "Nautical chart of San Francisco Bay entrance, Printed without color. Relief shown by contours and spot heights. Depths shown by soundings. Includes text, tide chart, and chart of lighthouses and signal stations. \"No. 621a., Electrotype copy no. 1 by U.S.C.& G.S.\" Plate No. 1829."
                 },
                 {
-                  "label": "Subject",
-                  "value": "Survey"
+                  "label": "City",
+                  "value": "San Francisco (Calif.)"
+                },
+                {
+                  "label": "Region",
+                  "value": "San Francisco Bay"
                 },
                 {
                   "label": "Full Title",
-                  "value": "Modified sextant with spirit-level horizon.. Sextant with Spirit-Level Horizon, with Associated Dipleidoscope"
+                  "value": "San Francisco entrance, California : 1884. Issued Aug. 1884, J.E. Hilgard, Superintendent, Verified: C.O. Boutelle, Assiatant in charge of office. Price 50 cents. Redd. Drng. by A. Lindenkohl, C. Junken, E. Molkow and E.J. Sommer. Engd. by J. Enthoffer, E. A. Maedel, J.J. Young, W. Thompson, H.M. Knight, A. Petersen and J.G. Thompson. Triangulation by R.D. Cutts, A.F. Rodgers ... ; topography by R.D. Cutts, A.F. Rogers, A.M. Harrison ... ; hydrography by J. Alden, R,M. Cuyler ..."
                 },
                 {
                   "label": "List No",
-                  "value": "16641.004"
+                  "value": "6726.000"
                 },
                 {
                   "label": "Series No",
-                  "value": "4"
+                  "value": "1"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Boutelle, C.O."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Cutts, R.D."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Chester, C.M."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Hilgard, J.E."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Alden, J."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Cuyler, R.M."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Rodgers, A.F."
                 },
                 {
                   "label": "Publication Author",
-                  "value": "Davidson, George (1825-1911)"
-                },
-                {
-                  "label": "Publication Author",
-                  "value": "Troughton & Simms"
+                  "value": "United States Coast Survey"
                 },
                 {
                   "label": "Pub Date",
-                  "value": "1867"
+                  "value": "1884"
                 },
                 {
                   "label": "Pub Title",
-                  "value": "Sextant with Spirit-Level Horizon, with Associated Dipleidoscope"
+                  "value": "San Francisco entrance, California : 1884. Issued Aug. 1884, J.E. Hilgard, Superintendent, Verified: C.O. Boutelle, Assiatant in charge of office. Price 50 cents. Redd. Drng. by A. Lindenkohl, C. Junken, E. Molkow and E.J. Sommer. Engd. by J. Enthoffer, E. A. Maedel, J.J. Young, W. Thompson, H.M. Knight, A. Petersen and J.G. Thompson. Triangulation by R.D. Cutts, A.F. Rodgers ... ; topography by R.D. Cutts, A.F. Rogers, A.M. Harrison ... ; hydrography by J. Alden, R,M. Cuyler ..."
                 },
                 {
                   "label": "Pub Note",
-                  "value": "Sextant with Spirit-Level Horizon, with Associated Dipleidoscope Owner/Exhibitor: George Davidson (1825–1911), U.S. Coast Survey Maker: Sextant likely Troughton & Simms, London (frame style, c. 1860s) Modification: Spirit-level horizon attachment devised by Davidson (Journal of the Franklin Institute, 1866) Associated Instrument: Dipleidoscope by Elliott Bros., London, in fitted leather case Provenance: Exhibited at the Exposition Universelle, Paris, 1867 (Group 2, Class 12, No. 63) Description Sextant: Precision arc instrument, with telescope and mirrors, modified by Davidson to carry a spirit-level horizon for use where no sea horizon was visible. Engraved nameplate: “George Davidson, Philadelphia.” Original wooden case with painted inscription recording its entry in the Paris Exposition of 1867. Dipleidoscope: Compact brass instrument with multiple glass prisms and attached telescope, inscribed “Elliott Bros., 449 West Strand, London.” Contained in original velvet-lined morocco leather case. Historical Context The Exposition Universelle in Paris (April–November 1867) drew international exhibits of scientific and industrial progress. Group 2, Class 12 covered “instruments of precision.” Davidson entered his modified sextant on behalf of the U.S. Coast Survey; official reports list “Davidson, G., Washington; sextant.” Jury accounts record that the instrument earned honorable mention. The sextant illustrates U.S. Coast Survey field adaptations of standard British instruments for rugged inland and coastal survey work. The accompanying dipleidoscope reflects Davidson’s broader toolkit: a portable device for determining true noon by merging solar images, allowing accurate chronometer checks without a full observatory transit. Subsequent History Case markings show later shipment: “From T. D. Davidson, 1721 Washington St., S.F., Cal. — To Hon. F. D. Roosevelt, Naval Observatory, Washington D.C.” Roosevelt, Assistant Secretary of the Navy (1913–1920), oversaw Naval Observatory instruments. The valuation was listed as $100. Significance Demonstrates Davidson’s role as both surveyor and instrument innovator. Connects the instrument to the Paris Exposition of 1867, a major stage for scientific and industrial display. Association with Franklin D. Roosevelt in his Navy Department role adds a later layer of provenance. The inclusion of the dipleidoscope reveals Davidson’s combined use of angular and temporal instruments to replicate observatory precision in the field. Exhibition History Paris Exposition, 1867, Group 2, Class 12, No. 63 (scientific instruments). Provenance Timeline c. 1865 — Sextant manufactured; Davidson modifies with spirit-level horizon. 1866 — Davidson publishes description in Journal of the Franklin Institute. 1867 — Exhibited in Paris, Exposition Universelle. 1867–1880s — Active Coast Survey use in western U.S. and Alaska. Early 20th century — Shipped by Davidson to Franklin D. Roosevelt at the Naval Observatory, Washington D.C. Later — Preserved with original sextant case and associated dipleidoscope. Bibliography Davidson, George. “Sextant with Attached Spirit-Level Horizon.” Journal of the Franklin Institute, 1866. Paris Universal Exposition, 1867. Reports of the United States Commissioners (Washington, 1869). Catalogue général, Exposition universelle de 1867, Paris, Group 2, Class 12. Jury Reports, Group II, Instruments of Precision (noting honorable mention)."
+                  "value": "See note field above."
                 },
                 {
                   "label": "Pub List No",
-                  "value": "16641.000"
+                  "value": "6726.000"
                 },
                 {
                   "label": "Pub Type",
-                  "value": "Survey Instrument"
+                  "value": "Chart Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "80"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "105"
                 },
                 {
                   "label": "Image No",
-                  "value": "16641004.jp2"
+                  "value": "6726000"
                 },
                 {
                   "label": "Download 1",
-                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/218/16641004.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/6726000.sid target=_blank>Full Image Download in MrSID Format</a>"
                 },
                 {
                   "label": "Download 2",
-                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
                 },
                 {
                   "label": "Authors",
-                  "value": "Davidson, George (1825-1911); Troughton & Simms"
+                  "value": "United States Coast Survey"
                 }
               ],
               "thumbnail": {
-                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~373693~90140436/full/!96,96/0/default.jpg",
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~239951~5512086/full/!96,96/0/default.jpg",
                 "format": "image/jpeg"
               },
               "images": [
@@ -2051,23 +2615,26 @@
                   "@type": "oa:Annotation",
                   "motivation": "sc:painting",
                   "resource": {
-                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~373693~90140436/full/!1024,1024/0/default.jpg",
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~239951~5512086/full/!1024,1024/0/default.jpg",
                     "@type": "dctypes:Image",
                     "service": {
                       "@context": "http://iiif.io/api/image/2/context.json",
-                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~373693~90140436",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~239951~5512086",
                       "profile": "http://iiif.io/api/image/2/level1.json",
                       "protocol": "http://iiif.io/api/image"
                     },
                     "format": "image/jpeg",
-                    "width": 3808,
-                    "height": 3148
+                    "width": 13383,
+                    "height": 10919
                   },
-                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~373693~90140436/canvas/c1"
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~239951~5512086/canvas/c1"
                 }
               ],
-              "width": 3808,
-              "height": 3148
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~239951~5512086/list/luna"
+              ],
+              "width": 13383,
+              "height": 10919
             }
           ]
         }
@@ -2076,7 +2643,7 @@
         "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
         "format": "image/png"
       },
-      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~373693~90140436"
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~239951~5512086"
     }
   ]
 }
