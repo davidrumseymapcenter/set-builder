@@ -1,0 +1,2867 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Medieval and Early Modern Iberian Literatures",
+  "label": "Medieval and Early Modern Iberian Literatures",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286738~90059233/manifest",
+      "label": "Vol I (1) Lisbona (with) Cascale.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~286738~90059233/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286738~90059233/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Vol I (1) Lisbona (with) Cascale.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Braun, Georg, 1541-1622"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hogenberg, Franz, 1539-1590"
+                },
+                {
+                  "label": "Date",
+                  "value": "1575"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Vol I (1) Lisbona (with) Cascale."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Peter von Brachel"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Cologne"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "49"
+                },
+                {
+                  "label": "Note",
+                  "value": "In this last edition of Volume I, van der Krogt 41:1.1 (1640), the preliminary section is reduced to Braun's forward and the Hittorp letter. The London map/view is not present and instead is found at the beginning of Volume V."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Van der Krogt Vol IV-2: 2412"
+                },
+                {
+                  "label": "Country",
+                  "value": "Portugal"
+                },
+                {
+                  "label": "City",
+                  "value": "Lisbon (Portugal)"
+                },
+                {
+                  "label": "City",
+                  "value": "Cascais (Portugal)"
+                },
+                {
+                  "label": "City",
+                  "value": "Belem (Portugal)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "VoI I (1) Lisbona. Olisipo, Sive ut Pervetustae Lapidum Inscriptiones Habent, Ulysippo, Vulgo Lisbona Florentis Simum Portugalliae Emporiu(m). (with) Cascale Lusitaniae opp."
+                },
+                {
+                  "label": "List No",
+                  "value": "12126.006"
+                },
+                {
+                  "label": "Series No",
+                  "value": "6"
+                },
+                {
+                  "label": "Page No",
+                  "value": "(1)"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Novellanus, Simon, d. 1590"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Hoefnagel, Joris, 1542-1600"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Braun, Georg, 1541-1622"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hogenberg, Franz, 1539-1590"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1640"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Civitates Orbis Terrarum."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Koeman B&H 1-6; van der Krogt 41:1.1 (1640). This is van der Krogt's XVIII edition, c. 1640, the last edition of six volumes. Van der Krogt dates the individual volumes as 1 (c. 1640, 11th ed.), 2 (c. 1640, 9th ed.), 3 (c. 1623, 7th ed.), 4 (c. 1635, 7th ed.), 5 (c. 1640, 5th ed.), 6 (c. 1635, 3rd ed.). All six volumes are printed by Peter von Brachel between 1823 and 1640, with the texts reset by him and the plates used generally from first or second editions. We date the volumes, texts and plates separately, using Van der Krogt's listings. There are 546 plans/views of cities on 363 plates. The title for the series of six volumes is taken from the first volume which is general practice. The other five volumes are titled individually. The original publication dates are vol I, 1572; vol II, 1575; vol III, 1581; vol IV, c.1588; vol V, c.1598; vol VI, 1617."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "The Civitates Orbis Terrarum was the first atlas of world cities and one of the most important books published in the late 16th century. Although led by Braun and Hogenberg, the books were created by a large team of writers, engravers, and artists. R.V. Tooley writes: \"The Civitates is one of the great books of the World... it was the first serious attempt to give graphic representations of the main cities of the World, with a wealth of factual detail. In the main, the buildings in each view are shown in elevation, and while the ordinary buildings are stylized, the principal buildings are reproduced from actual drawings on the spot, and these, and the main streets, can be recognized today. Further, the editors gave additional factual information as a deliberately planned policy, such as the heraldic arms of the city, and the nature of the surrounding countryside, whether wooded or arable, grazing land, vineyards, or gardens. The importance of waterways is stressed by the careful delineation of stone bridges, wooden pontoons, flat-bottomed ferries, moles, wharves and jetties; the ports with ocean-going craft, the inland waters with river traffic. Varieties of land travel are depicted, pedestrians, horsemen, wagons, coaches, and palanquins. Small vignettes illustrate the trade, occupations and habits of the locality, agriculture, paper-making and textiles. The law is represented by various forms of punishment, gibbets, wheels, floggings etc. A distinctive feature of the plates is the insertion of large figures in the foreground to illustrate local costume. Those figures are out of proportion necessarily. The general multiplication of detail slightly offends certain commentators who fail to appreciate the purpose of the editors. Their primary aim was not to produce well-balanced landscapes, but to give as much information as possible in a pleasing visual form, in reality a kind of super guide book. This was done so magnificently that the result was an art as decorative as it was informative. The whole forms a wonderful compendium of life in Europe in the sixteenth century. And as city growth in early times, with a few obvious exceptions, was more or less static, even further it gives a visual printed record of mediaeval Europe, and is one of the most valuable sources remaining to the student and historian of these periods.\" (R.V. Tooley, preface to the reproduction edition of Civitates Orbis Terrarum, World Publishing, 1966)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12126.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "City Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "363"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12126006.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/166/12126006.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Braun, Georg, 1541-1622; Hogenberg, Franz, 1539-1590"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~286738~90059233/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~286738~90059233/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~286738~90059233",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 10787,
+                    "height": 7444
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286738~90059233/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286738~90059233/list/luna"
+              ],
+              "width": 10787,
+              "height": 7444
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~286738~90059233"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286740~90059235/manifest",
+      "label": "Vol I (2) Hispalis, Sevilla Taraphae, celebre et pervetus tum in Hispania...; Cadiz, olim Gades... ; Malaga, Masace maritimum Hispaniae Boeticae oppidum",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~286740~90059235/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286740~90059235/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Vol I (2) Hispalis, Sevilla Taraphae, celebre et pervetus tum in Hispania...; Cadiz, olim Gades... ; Malaga, Masace maritimum Hispaniae Boeticae oppidum",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Braun, Georg, 1541-1622"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hogenberg, Franz, 1539-1590"
+                },
+                {
+                  "label": "Date",
+                  "value": "1575"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Vol I (2) Hispalis, Sevilla Taraphae, celebre et pervetus tum in Hispania...; Cadiz, olim Gades... ; Malaga, Masace maritimum Hispaniae Boeticae oppidum"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Peter von Brachel"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Cologne"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Note",
+                  "value": "In this last edition of Volume I, van der Krogt 41:1.1 (1640), the preliminary section is reduced to Braun's forward and the Hittorp letter. The London map/view is not present and instead is found at the beginning of Volume V."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Van der Krogt Vol IV - 2: 3973, st. 2"
+                },
+                {
+                  "label": "City",
+                  "value": "Seville, Spain"
+                },
+                {
+                  "label": "City",
+                  "value": "Cadiz (Spain)"
+                },
+                {
+                  "label": "City",
+                  "value": "Malaga (Spain)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Vol I (2) Hispalis, Sevilla Taraphae, celebre et pervetus tum in Hispania...; Cadiz, olim Gades... ; Malaga, Masace maritimum Hispaniae Boeticae oppidum"
+                },
+                {
+                  "label": "List No",
+                  "value": "12126.008"
+                },
+                {
+                  "label": "Series No",
+                  "value": "8"
+                },
+                {
+                  "label": "Page No",
+                  "value": "(2)"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Novellanus, Simon, d. 1590"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Hoefnagel, Joris, 1542-1600"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Braun, Georg, 1541-1622"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hogenberg, Franz, 1539-1590"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1640"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Civitates Orbis Terrarum."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Koeman B&H 1-6; van der Krogt 41:1.1 (1640). This is van der Krogt's XVIII edition, c. 1640, the last edition of six volumes. Van der Krogt dates the individual volumes as 1 (c. 1640, 11th ed.), 2 (c. 1640, 9th ed.), 3 (c. 1623, 7th ed.), 4 (c. 1635, 7th ed.), 5 (c. 1640, 5th ed.), 6 (c. 1635, 3rd ed.). All six volumes are printed by Peter von Brachel between 1823 and 1640, with the texts reset by him and the plates used generally from first or second editions. We date the volumes, texts and plates separately, using Van der Krogt's listings. There are 546 plans/views of cities on 363 plates. The title for the series of six volumes is taken from the first volume which is general practice. The other five volumes are titled individually. The original publication dates are vol I, 1572; vol II, 1575; vol III, 1581; vol IV, c.1588; vol V, c.1598; vol VI, 1617."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "The Civitates Orbis Terrarum was the first atlas of world cities and one of the most important books published in the late 16th century. Although led by Braun and Hogenberg, the books were created by a large team of writers, engravers, and artists. R.V. Tooley writes: \"The Civitates is one of the great books of the World... it was the first serious attempt to give graphic representations of the main cities of the World, with a wealth of factual detail. In the main, the buildings in each view are shown in elevation, and while the ordinary buildings are stylized, the principal buildings are reproduced from actual drawings on the spot, and these, and the main streets, can be recognized today. Further, the editors gave additional factual information as a deliberately planned policy, such as the heraldic arms of the city, and the nature of the surrounding countryside, whether wooded or arable, grazing land, vineyards, or gardens. The importance of waterways is stressed by the careful delineation of stone bridges, wooden pontoons, flat-bottomed ferries, moles, wharves and jetties; the ports with ocean-going craft, the inland waters with river traffic. Varieties of land travel are depicted, pedestrians, horsemen, wagons, coaches, and palanquins. Small vignettes illustrate the trade, occupations and habits of the locality, agriculture, paper-making and textiles. The law is represented by various forms of punishment, gibbets, wheels, floggings etc. A distinctive feature of the plates is the insertion of large figures in the foreground to illustrate local costume. Those figures are out of proportion necessarily. The general multiplication of detail slightly offends certain commentators who fail to appreciate the purpose of the editors. Their primary aim was not to produce well-balanced landscapes, but to give as much information as possible in a pleasing visual form, in reality a kind of super guide book. This was done so magnificently that the result was an art as decorative as it was informative. The whole forms a wonderful compendium of life in Europe in the sixteenth century. And as city growth in early times, with a few obvious exceptions, was more or less static, even further it gives a visual printed record of mediaeval Europe, and is one of the most valuable sources remaining to the student and historian of these periods.\" (R.V. Tooley, preface to the reproduction edition of Civitates Orbis Terrarum, World Publishing, 1966)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12126.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "City Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "363"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12126008.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/166/12126008.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Braun, Georg, 1541-1622; Hogenberg, Franz, 1539-1590"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~286740~90059235/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~286740~90059235/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~286740~90059235",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 10787,
+                    "height": 7444
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286740~90059235/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286740~90059235/list/luna"
+              ],
+              "width": 10787,
+              "height": 7444
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~286740~90059235"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286744~90059239/manifest",
+      "label": "Vol I (4) Granada. 1563.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~286744~90059239/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286744~90059239/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Vol I (4) Granada. 1563.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Braun, Georg, 1541-1622"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hogenberg, Franz, 1539-1590"
+                },
+                {
+                  "label": "Date",
+                  "value": "1623"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Vol I (4) Granada. 1563."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Peter von Brachel"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Cologne"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Note",
+                  "value": "In this last edition of Volume I, van der Krogt 41:1.1 (1640), the preliminary section is reduced to Braun's forward and the Hittorp letter. The London map/view is not present and instead is found at the beginning of Volume V."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Van der Krogt Vol IV-2: 1596"
+                },
+                {
+                  "label": "City",
+                  "value": "Granada (Spain)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Vol I (4) Granada. 1563."
+                },
+                {
+                  "label": "List No",
+                  "value": "12126.012"
+                },
+                {
+                  "label": "Series No",
+                  "value": "12"
+                },
+                {
+                  "label": "Page No",
+                  "value": "(4)"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Novellanus, Simon, d. 1590"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Hoefnagel, Joris, 1542-1600"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Braun, Georg, 1541-1622"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hogenberg, Franz, 1539-1590"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1640"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Civitates Orbis Terrarum."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Koeman B&H 1-6; van der Krogt 41:1.1 (1640). This is van der Krogt's XVIII edition, c. 1640, the last edition of six volumes. Van der Krogt dates the individual volumes as 1 (c. 1640, 11th ed.), 2 (c. 1640, 9th ed.), 3 (c. 1623, 7th ed.), 4 (c. 1635, 7th ed.), 5 (c. 1640, 5th ed.), 6 (c. 1635, 3rd ed.). All six volumes are printed by Peter von Brachel between 1823 and 1640, with the texts reset by him and the plates used generally from first or second editions. We date the volumes, texts and plates separately, using Van der Krogt's listings. There are 546 plans/views of cities on 363 plates. The title for the series of six volumes is taken from the first volume which is general practice. The other five volumes are titled individually. The original publication dates are vol I, 1572; vol II, 1575; vol III, 1581; vol IV, c.1588; vol V, c.1598; vol VI, 1617."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "The Civitates Orbis Terrarum was the first atlas of world cities and one of the most important books published in the late 16th century. Although led by Braun and Hogenberg, the books were created by a large team of writers, engravers, and artists. R.V. Tooley writes: \"The Civitates is one of the great books of the World... it was the first serious attempt to give graphic representations of the main cities of the World, with a wealth of factual detail. In the main, the buildings in each view are shown in elevation, and while the ordinary buildings are stylized, the principal buildings are reproduced from actual drawings on the spot, and these, and the main streets, can be recognized today. Further, the editors gave additional factual information as a deliberately planned policy, such as the heraldic arms of the city, and the nature of the surrounding countryside, whether wooded or arable, grazing land, vineyards, or gardens. The importance of waterways is stressed by the careful delineation of stone bridges, wooden pontoons, flat-bottomed ferries, moles, wharves and jetties; the ports with ocean-going craft, the inland waters with river traffic. Varieties of land travel are depicted, pedestrians, horsemen, wagons, coaches, and palanquins. Small vignettes illustrate the trade, occupations and habits of the locality, agriculture, paper-making and textiles. The law is represented by various forms of punishment, gibbets, wheels, floggings etc. A distinctive feature of the plates is the insertion of large figures in the foreground to illustrate local costume. Those figures are out of proportion necessarily. The general multiplication of detail slightly offends certain commentators who fail to appreciate the purpose of the editors. Their primary aim was not to produce well-balanced landscapes, but to give as much information as possible in a pleasing visual form, in reality a kind of super guide book. This was done so magnificently that the result was an art as decorative as it was informative. The whole forms a wonderful compendium of life in Europe in the sixteenth century. And as city growth in early times, with a few obvious exceptions, was more or less static, even further it gives a visual printed record of mediaeval Europe, and is one of the most valuable sources remaining to the student and historian of these periods.\" (R.V. Tooley, preface to the reproduction edition of Civitates Orbis Terrarum, World Publishing, 1966)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12126.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "City Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "363"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12126012.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/166/12126012.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Braun, Georg, 1541-1622; Hogenberg, Franz, 1539-1590"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~286744~90059239/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~286744~90059239/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~286744~90059239",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 10819,
+                    "height": 7444
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286744~90059239/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286744~90059239/list/luna"
+              ],
+              "width": 10819,
+              "height": 7444
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~286744~90059239"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286746~90059241/manifest",
+      "label": "Vol I (5) Barcelona. Eciia.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~286746~90059241/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286746~90059241/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Vol I (5) Barcelona. Eciia.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Braun, Georg, 1541-1622"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hogenberg, Franz, 1539-1590"
+                },
+                {
+                  "label": "Date",
+                  "value": "1575"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Vol I (5) Barcelona. Eciia."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Peter von Brachel"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Cologne"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Note",
+                  "value": "In this last edition of Volume I, van der Krogt 41:1.1 (1640), the preliminary section is reduced to Braun's forward and the Hittorp letter. The London map/view is not present and instead is found at the beginning of Volume V."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Van der Krogt Vol IV-2: 380, st. 4"
+                },
+                {
+                  "label": "City",
+                  "value": "Barcelona (Spain)"
+                },
+                {
+                  "label": "City",
+                  "value": "Seville, Spain"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Vol I (5) Barcelona. Eciia."
+                },
+                {
+                  "label": "List No",
+                  "value": "12126.014"
+                },
+                {
+                  "label": "Series No",
+                  "value": "14"
+                },
+                {
+                  "label": "Page No",
+                  "value": "(5)"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Novellanus, Simon, d. 1590"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Hoefnagel, Joris, 1542-1600"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Braun, Georg, 1541-1622"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hogenberg, Franz, 1539-1590"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1640"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Civitates Orbis Terrarum."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Koeman B&H 1-6; van der Krogt 41:1.1 (1640). This is van der Krogt's XVIII edition, c. 1640, the last edition of six volumes. Van der Krogt dates the individual volumes as 1 (c. 1640, 11th ed.), 2 (c. 1640, 9th ed.), 3 (c. 1623, 7th ed.), 4 (c. 1635, 7th ed.), 5 (c. 1640, 5th ed.), 6 (c. 1635, 3rd ed.). All six volumes are printed by Peter von Brachel between 1823 and 1640, with the texts reset by him and the plates used generally from first or second editions. We date the volumes, texts and plates separately, using Van der Krogt's listings. There are 546 plans/views of cities on 363 plates. The title for the series of six volumes is taken from the first volume which is general practice. The other five volumes are titled individually. The original publication dates are vol I, 1572; vol II, 1575; vol III, 1581; vol IV, c.1588; vol V, c.1598; vol VI, 1617."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "The Civitates Orbis Terrarum was the first atlas of world cities and one of the most important books published in the late 16th century. Although led by Braun and Hogenberg, the books were created by a large team of writers, engravers, and artists. R.V. Tooley writes: \"The Civitates is one of the great books of the World... it was the first serious attempt to give graphic representations of the main cities of the World, with a wealth of factual detail. In the main, the buildings in each view are shown in elevation, and while the ordinary buildings are stylized, the principal buildings are reproduced from actual drawings on the spot, and these, and the main streets, can be recognized today. Further, the editors gave additional factual information as a deliberately planned policy, such as the heraldic arms of the city, and the nature of the surrounding countryside, whether wooded or arable, grazing land, vineyards, or gardens. The importance of waterways is stressed by the careful delineation of stone bridges, wooden pontoons, flat-bottomed ferries, moles, wharves and jetties; the ports with ocean-going craft, the inland waters with river traffic. Varieties of land travel are depicted, pedestrians, horsemen, wagons, coaches, and palanquins. Small vignettes illustrate the trade, occupations and habits of the locality, agriculture, paper-making and textiles. The law is represented by various forms of punishment, gibbets, wheels, floggings etc. A distinctive feature of the plates is the insertion of large figures in the foreground to illustrate local costume. Those figures are out of proportion necessarily. The general multiplication of detail slightly offends certain commentators who fail to appreciate the purpose of the editors. Their primary aim was not to produce well-balanced landscapes, but to give as much information as possible in a pleasing visual form, in reality a kind of super guide book. This was done so magnificently that the result was an art as decorative as it was informative. The whole forms a wonderful compendium of life in Europe in the sixteenth century. And as city growth in early times, with a few obvious exceptions, was more or less static, even further it gives a visual printed record of mediaeval Europe, and is one of the most valuable sources remaining to the student and historian of these periods.\" (R.V. Tooley, preface to the reproduction edition of Civitates Orbis Terrarum, World Publishing, 1966)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12126.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "City Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "363"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12126014.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/166/12126014.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Braun, Georg, 1541-1622; Hogenberg, Franz, 1539-1590"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~286746~90059241/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~286746~90059241/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~286746~90059241",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 10803,
+                    "height": 7444
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286746~90059241/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286746~90059241/list/luna"
+              ],
+              "width": 10803,
+              "height": 7444
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~286746~90059241"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~300782~90071978/manifest",
+      "label": "Vol IV (2) Sevilla (Seville).",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~300782~90071978/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~300782~90071978/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Vol IV (2) Sevilla (Seville).",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Braun, Georg, 1541-1622"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hogenberg, Franz, 1539-1590"
+                },
+                {
+                  "label": "Date",
+                  "value": "1588"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Vol IV (2) Sevilla (Seville)."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Peter von Brachel"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Cologne"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "36"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "48"
+                },
+                {
+                  "label": "Note",
+                  "value": "In this last edition of Volume IV, van der Krogt 41:1.4 (1635), the preliminary matter after the title page is dropped."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Van der Krogt Vol IV-2: 3965"
+                },
+                {
+                  "label": "City",
+                  "value": "Seville (Spain)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Vol IV (2) Sevilla (Seville)."
+                },
+                {
+                  "label": "List No",
+                  "value": "12126.370"
+                },
+                {
+                  "label": "Series No",
+                  "value": "370"
+                },
+                {
+                  "label": "Page No",
+                  "value": "(2)"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Novellanus, Simon, d. 1590"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Hoefnagel, Joris, 1542-1600"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Braun, Georg, 1541-1622"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hogenberg, Franz, 1539-1590"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1640"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Civitates Orbis Terrarum."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Koeman B&H 1-6; van der Krogt 41:1.1 (1640). This is van der Krogt's XVIII edition, c. 1640, the last edition of six volumes. Van der Krogt dates the individual volumes as 1 (c. 1640, 11th ed.), 2 (c. 1640, 9th ed.), 3 (c. 1623, 7th ed.), 4 (c. 1635, 7th ed.), 5 (c. 1640, 5th ed.), 6 (c. 1635, 3rd ed.). All six volumes are printed by Peter von Brachel between 1823 and 1640, with the texts reset by him and the plates used generally from first or second editions. We date the volumes, texts and plates separately, using Van der Krogt's listings. There are 546 plans/views of cities on 363 plates. The title for the series of six volumes is taken from the first volume which is general practice. The other five volumes are titled individually. The original publication dates are vol I, 1572; vol II, 1575; vol III, 1581; vol IV, c.1588; vol V, c.1598; vol VI, 1617."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "The Civitates Orbis Terrarum was the first atlas of world cities and one of the most important books published in the late 16th century. Although led by Braun and Hogenberg, the books were created by a large team of writers, engravers, and artists. R.V. Tooley writes: \"The Civitates is one of the great books of the World... it was the first serious attempt to give graphic representations of the main cities of the World, with a wealth of factual detail. In the main, the buildings in each view are shown in elevation, and while the ordinary buildings are stylized, the principal buildings are reproduced from actual drawings on the spot, and these, and the main streets, can be recognized today. Further, the editors gave additional factual information as a deliberately planned policy, such as the heraldic arms of the city, and the nature of the surrounding countryside, whether wooded or arable, grazing land, vineyards, or gardens. The importance of waterways is stressed by the careful delineation of stone bridges, wooden pontoons, flat-bottomed ferries, moles, wharves and jetties; the ports with ocean-going craft, the inland waters with river traffic. Varieties of land travel are depicted, pedestrians, horsemen, wagons, coaches, and palanquins. Small vignettes illustrate the trade, occupations and habits of the locality, agriculture, paper-making and textiles. The law is represented by various forms of punishment, gibbets, wheels, floggings etc. A distinctive feature of the plates is the insertion of large figures in the foreground to illustrate local costume. Those figures are out of proportion necessarily. The general multiplication of detail slightly offends certain commentators who fail to appreciate the purpose of the editors. Their primary aim was not to produce well-balanced landscapes, but to give as much information as possible in a pleasing visual form, in reality a kind of super guide book. This was done so magnificently that the result was an art as decorative as it was informative. The whole forms a wonderful compendium of life in Europe in the sixteenth century. And as city growth in early times, with a few obvious exceptions, was more or less static, even further it gives a visual printed record of mediaeval Europe, and is one of the most valuable sources remaining to the student and historian of these periods.\" (R.V. Tooley, preface to the reproduction edition of Civitates Orbis Terrarum, World Publishing, 1966)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12126.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "City Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "363"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12126370.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/12126370.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Braun, Georg, 1541-1622; Hogenberg, Franz, 1539-1590"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~300782~90071978/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~300782~90071978/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~300782~90071978",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11294,
+                    "height": 7546
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~300782~90071978/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~300782~90071978/list/luna"
+              ],
+              "width": 11294,
+              "height": 7546
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~300782~90071978"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~301430~90072605/manifest",
+      "label": "Vol V (2) Olissipo (Lisbon).",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~301430~90072605/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~301430~90072605/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Vol V (2) Olissipo (Lisbon).",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Braun, Georg, 1541-1622"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hogenberg, Franz, 1539-1590"
+                },
+                {
+                  "label": "Date",
+                  "value": "1600"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Vol V (2) Olissipo (Lisbon)."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Peter von Brachel"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Cologne"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "48"
+                },
+                {
+                  "label": "Note",
+                  "value": "In this last edition of Volume V, van der Krogt 41:1.5 (1640), the preliminary matter after the title page is dropped."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Van der Krogt Vol IV-2: 2399, st. 2"
+                },
+                {
+                  "label": "City",
+                  "value": "Lisbon (Portugal)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Vol V (2) Olissipo (Lisbon)."
+                },
+                {
+                  "label": "List No",
+                  "value": "12126.493"
+                },
+                {
+                  "label": "Series No",
+                  "value": "493"
+                },
+                {
+                  "label": "Page No",
+                  "value": "(2)"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Novellanus, Simon, d. 1590"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Hoefnagel, Joris, 1542-1600"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Braun, Georg, 1541-1622"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hogenberg, Franz, 1539-1590"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1640"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Civitates Orbis Terrarum."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Koeman B&H 1-6; van der Krogt 41:1.1 (1640). This is van der Krogt's XVIII edition, c. 1640, the last edition of six volumes. Van der Krogt dates the individual volumes as 1 (c. 1640, 11th ed.), 2 (c. 1640, 9th ed.), 3 (c. 1623, 7th ed.), 4 (c. 1635, 7th ed.), 5 (c. 1640, 5th ed.), 6 (c. 1635, 3rd ed.). All six volumes are printed by Peter von Brachel between 1823 and 1640, with the texts reset by him and the plates used generally from first or second editions. We date the volumes, texts and plates separately, using Van der Krogt's listings. There are 546 plans/views of cities on 363 plates. The title for the series of six volumes is taken from the first volume which is general practice. The other five volumes are titled individually. The original publication dates are vol I, 1572; vol II, 1575; vol III, 1581; vol IV, c.1588; vol V, c.1598; vol VI, 1617."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "The Civitates Orbis Terrarum was the first atlas of world cities and one of the most important books published in the late 16th century. Although led by Braun and Hogenberg, the books were created by a large team of writers, engravers, and artists. R.V. Tooley writes: \"The Civitates is one of the great books of the World... it was the first serious attempt to give graphic representations of the main cities of the World, with a wealth of factual detail. In the main, the buildings in each view are shown in elevation, and while the ordinary buildings are stylized, the principal buildings are reproduced from actual drawings on the spot, and these, and the main streets, can be recognized today. Further, the editors gave additional factual information as a deliberately planned policy, such as the heraldic arms of the city, and the nature of the surrounding countryside, whether wooded or arable, grazing land, vineyards, or gardens. The importance of waterways is stressed by the careful delineation of stone bridges, wooden pontoons, flat-bottomed ferries, moles, wharves and jetties; the ports with ocean-going craft, the inland waters with river traffic. Varieties of land travel are depicted, pedestrians, horsemen, wagons, coaches, and palanquins. Small vignettes illustrate the trade, occupations and habits of the locality, agriculture, paper-making and textiles. The law is represented by various forms of punishment, gibbets, wheels, floggings etc. A distinctive feature of the plates is the insertion of large figures in the foreground to illustrate local costume. Those figures are out of proportion necessarily. The general multiplication of detail slightly offends certain commentators who fail to appreciate the purpose of the editors. Their primary aim was not to produce well-balanced landscapes, but to give as much information as possible in a pleasing visual form, in reality a kind of super guide book. This was done so magnificently that the result was an art as decorative as it was informative. The whole forms a wonderful compendium of life in Europe in the sixteenth century. And as city growth in early times, with a few obvious exceptions, was more or less static, even further it gives a visual printed record of mediaeval Europe, and is one of the most valuable sources remaining to the student and historian of these periods.\" (R.V. Tooley, preface to the reproduction edition of Civitates Orbis Terrarum, World Publishing, 1966)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12126.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "City Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "363"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12126493.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/12126493.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Braun, Georg, 1541-1622; Hogenberg, Franz, 1539-1590"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~301430~90072605/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~301430~90072605/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~301430~90072605",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 10797,
+                    "height": 7546
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~301430~90072605/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~301430~90072605/list/luna"
+              ],
+              "width": 10797,
+              "height": 7546
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~301430~90072605"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/nm595xv6478/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[world]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/nm595xv6478.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/nm595xv6478'>https://purl.stanford.edu/nm595xv6478</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[world]"
+        },
+        {
+          "label": "Creator",
+          "value": "García de Céspedes, Andrés, d. 1611"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 map: 13.8 x 28 cm; 17.4 x 28.8 cm including border."
+        },
+        {
+          "label": "Description",
+          "value": "Simple untitled world map consisting of twelve globe gores. California is not shown as an island, and the entire west coast of South America is remarkably accurate for the time."
+        },
+        {
+          "label": "Description",
+          "value": "Crude printing with some location names printed upside down."
+        },
+        {
+          "label": "Description",
+          "value": "A, B, C, D printed in corners (inside borders) clockwise from upper left."
+        },
+        {
+          "label": "Publications",
+          "value": "Issued in his: Regimiento de navegacion mando haser el re nuestro senor por orden de su conseio real de las Indias...-- Madrid: J. de la Cuesta, 1606."
+        },
+        {
+          "label": "References",
+          "value": "Shirley 256 (plate 202), Tooley p.109"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "[Andreas Cespedes]."
+        },
+        {
+          "label": "Subject",
+          "value": "World > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "[ca. 1:190,000,000]."
+        },
+        {
+          "label": "Coverage",
+          "value": "180°00′00″W -- 180°00′00″E / 85°00′00″N -- 85°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1606"
+        },
+        {
+          "label": "Date",
+          "value": "1606"
+        },
+        {
+          "label": "Identifier",
+          "value": "Post publication map number: 5000"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/nm595xv6478"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2022-08-16"
+        }
+      ],
+      "description": "Simple untitled world map consisting of twelve globe gores. California is not shown as an island, and the entire west coast of South America is remarkably accurate for the time.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/nm595xv6478%2Fnm595xv6478_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/nm595xv6478%2Fnm595xv6478_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 247
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/nm595xv6478/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/nm595xv6478/iiif/canvas/cocina-fileSet-nm595xv6478-nm595xv6478_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 4293,
+              "width": 6959,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/nm595xv6478/nm595xv6478_05_0001.jp2",
+                  "label": "Original source file (5.38 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/nm595xv6478/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fnm595xv6478-nm595xv6478_1%2Fnm595xv6478_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/nm595xv6478/iiif/canvas/cocina-fileSet-nm595xv6478-nm595xv6478_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/nm595xv6478%2Fnm595xv6478_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 4293,
+                    "width": 6959,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/nm595xv6478%2Fnm595xv6478_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hf530hv9225/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "DESCRIPTIO INDIÆ OCCIDENTALIS Per Antonium de Herrera Regium Indiarum et Castellæ Historiographum",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hf530hv9225.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hf530hv9225'>https://purl.stanford.edu/hf530hv9225</a>"
+        },
+        {
+          "label": "Title",
+          "value": "DESCRIPTIO INDIÆ OCCIDENTALIS Per Antonium de Herrera Regium Indiarum et Castellæ Historiographum"
+        },
+        {
+          "label": "Creator",
+          "value": "Herrera y Tordesillas, Antonio de, -1625"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Format",
+          "value": "28.3 x 19 cm., with map 10.5 x 14.5 cm. including scrollwork border."
+        },
+        {
+          "label": "Publications",
+          "value": "Map on 2nd title page of: Descriptio Indiae Occidentalis / per Antonium de Herrera Regium Indiarum et Castellæ Historiographum. Issued with Dutch first title page of: Nievve vverelt, anders ghenaempt vvest-Indien / By Michiel Colijn. -- t’Amsterdam, anno 1622. Issued with French first title page of: Description des Indes Occidentales, qu’on appelle aujourdhuy le novveav monde / Par Antoine de Herrera. -- A Amsterdam : Chez Emanvel Colin ... et ... à Paris Chez Michel Soly ..., anno M.D.C.XXII [1622]."
+        },
+        {
+          "label": "State 1",
+          "value": "In French, without text on verso."
+        },
+        {
+          "label": "State 2",
+          "value": "In Latin, with text on verso: Extraict dv privilege de Messieurs les Estats Generaux des Provinces Unies..."
+        },
+        {
+          "label": "State 3",
+          "value": "1623, in German, with a slightly slimmer California and several changes to title page: figure of Magellanus and medallion of Christophorvs Colvmbvs to left of map, and figure of Franciscus Pisardu and medallion of Americvs Vespvtivs to right of map; top center crest is reduced in size and surrounded by more decorative artwork; center contains much text within border; no text on verso; and no oak-leaf border on title page. 29.1 x 19.1 cm."
+        },
+        {
+          "label": "State 4",
+          "value": "[1624], with oak-leaf border, otherwise identical with 1622 issue. Text on verso: Svmma privilegii... 28.3 x 19.1 cm. including border."
+        },
+        {
+          "label": "State 5",
+          "value": "1624, in Latin, figure of Magellanus and medallion of Christophorvs Colvmbvs to left of map, and figure of Franciscus Pisardu and medallion of Americvs Vespvtivs to right of map; top center crest is reduced in size and surrounded by more decorative artwork; center contains much text within border; no text on verso; and no oak-leaf border on title page. 29.1 x 19.1 cm."
+        },
+        {
+          "label": "References",
+          "value": "Wagner 291; Wagner/Sp. SW 12a; Tooley/107 (Plate 15); Leighly 1; Nordenskiöld 3,970 and 971; Burden 195 (Plate 195) and 200 (Plate 200); Church 173 and 199."
+        },
+        {
+          "label": "Description",
+          "value": "The earliest representation of California as a large island on map of Western Hemisphere on bottom half of title page. No place names.Title center page with crest above and 8 illustrations of native gods, figures and structures on sides. Map following [page]2 shows California as a peninsula."
+        },
+        {
+          "label": "Subject",
+          "value": "America > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "California as an island > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "[ca. 1:120,000,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "160°00′00″W -- 20°00′00″E / 90°00′00″N -- 90°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1622"
+        },
+        {
+          "label": "Identifier",
+          "value": "Original McLaughlin Book Number (1995 edition): TP1"
+        },
+        {
+          "label": "Identifier",
+          "value": "Original McLaughlin book number (1995 edition) with latest state information: TP1-02"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hf530hv9225"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2022-08-16"
+        }
+      ],
+      "description": "The earliest representation of California as a large island on map of Western Hemisphere on bottom half of title page. No place names.Title center page with crest above and 8 illustrations of native gods, figures and structures on sides. Map following [page]2 shows California as a peninsula.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hf530hv9225%2Fhf530hv9225_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hf530hv9225%2Fhf530hv9225_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 253,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hf530hv9225/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hf530hv9225/iiif/canvas/cocina-fileSet-hf530hv9225-hf530hv9225_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 4787,
+              "width": 3025,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hf530hv9225/hf530hv9225_05_0001.jp2",
+                  "label": "Original source file (2.62 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hf530hv9225/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fhf530hv9225-hf530hv9225_1%2Fhf530hv9225_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hf530hv9225/iiif/canvas/cocina-fileSet-hf530hv9225-hf530hv9225_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hf530hv9225%2Fhf530hv9225_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 4787,
+                    "width": 3025,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hf530hv9225%2Fhf530hv9225_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/sy409bk9698/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "The North part of America conteyning Newfoundland, New England, Virginia, Florida, New Spaine and Nova Francia, with ye riche Iles of Hispaniola, Cuba, Jamaica, and Porto Rieco, on the south, and upon ye west the large and goodly island of California",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/sy409bk9698.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/sy409bk9698'>https://purl.stanford.edu/sy409bk9698</a>"
+        },
+        {
+          "label": "Title",
+          "value": "The North part of America conteyning Newfoundland, New England, Virginia, Florida, New Spaine and Nova Francia, with ye riche Iles of Hispaniola, Cuba, Jamaica, and Porto Rieco, on the south, and upon ye west the large and goodly island of California"
+        },
+        {
+          "label": "Contributor",
+          "value": "Briggs, Henry, 1561-1630"
+        },
+        {
+          "label": "Contributor",
+          "value": "Elstracke, Renold, active 1590-1630"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : engraved ; 27 x 34 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "R. Elstracke Sculpsit."
+        },
+        {
+          "label": "Description",
+          "value": "The first printed map in English to show California as an island, with flat northern coast."
+        },
+        {
+          "label": "Description",
+          "value": "Cities, etc. ; shoals; pictorial symbols; notes."
+        },
+        {
+          "label": "Description",
+          "value": "Watermark."
+        },
+        {
+          "label": "Description",
+          "value": "Notes on map refer to California, Sr. Thomas Button and Mr. Baffin."
+        },
+        {
+          "label": "Description",
+          "value": "Projection: simple conical."
+        },
+        {
+          "label": "Description",
+          "value": "\"852\" & \"853\" inside neat line in top left & right corners of map."
+        },
+        {
+          "label": "Description",
+          "value": "Engraved by: R. Elstrake Sculpsit (lower right)."
+        },
+        {
+          "label": "Description",
+          "value": "On the map are two notes, one stating\"California sometymes supposed to be a part of ye westerne continent, but scince by a Spanish Charte taken by ye Hollanders it is found to be a goodly Ilande: the length of the west shoare beeing about 500 leagues...\""
+        },
+        {
+          "label": "Description",
+          "value": "Issued in: Hakluytus Posthumus or Purchas His Pilgrimes, III, 852-3. London, 1625, to accompany an article by H. Briggs on the Northwest Passage."
+        },
+        {
+          "label": "Subject",
+          "value": "North America > Early works to 1800"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:23,500,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "W 255°--W 345°/N 65°--N 10°"
+        },
+        {
+          "label": "Date",
+          "value": "1625"
+        },
+        {
+          "label": "Date",
+          "value": "1625"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/sy409bk9698"
+        },
+        {
+          "label": "Publisher",
+          "value": "William Stansby for Henrie Fetherstone"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2022-08-16"
+        }
+      ],
+      "description": "The first printed map in English to show California as an island, with flat northern coast.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 350
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/sy409bk9698/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 10874,
+              "width": 12412,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/sy409bk9698/sy409bk9698_05_0001.jp2",
+                  "label": "Original source file (24.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/sy409bk9698/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fsy409bk9698-sy409bk9698_1%2Fsy409bk9698_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10874,
+                    "width": 12412,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~324093~90093144/manifest",
+      "label": "Portugalliae que olim Lusitania, novissima et exactis-sima descriptio. Auctore Vernando Alvaro Secco, et de integro emen-data, anno. 1600. Baptista Doetecomius sculp. DEDICATION to Guido Ascanius Sfortia.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~324093~90093144/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~324093~90093144/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Portugalliae que olim Lusitania, novissima et exactis-sima descriptio. Auctore Vernando Alvaro Secco, et de integro emen-data, anno. 1600. Baptista Doetecomius sculp. DEDICATION to Guido Ascanius Sfortia.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Mercator, Gerhard, 1512-1594"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hondius, Jodocus, 1563-1612"
+                },
+                {
+                  "label": "Date",
+                  "value": "1607"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Portugalliae que olim Lusitania, novissima et exactis-sima descriptio. Auctore Vernando Alvaro Secco, et de integro emen-data, anno. 1600. Baptista Doetecomius sculp. DEDICATION to Guido Ascanius Sfortia."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Cornelis Claes"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "49"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "1,200,000"
+                },
+                {
+                  "label": "Country",
+                  "value": "Portugal"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Portugalliae que olim Lusitania, novissima et exactis-sima descriptio. Auctore Vernando Alvaro Secco, et de integro emen-data, anno. 1600. Baptista Doetecomius sculp. DEDICATION to Guido Ascanius Sfortia."
+                },
+                {
+                  "label": "List No",
+                  "value": "10501.161"
+                },
+                {
+                  "label": "Series No",
+                  "value": "161"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Mercator, Gerhard, 1512-1594"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hondius, Jodocus, 1563-1612"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1607"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Gerardi Mercatoris / Atlas / Sive / Cosmographicae / Meditationes /De/ Fabrica Mundi Et/ Fabricati Figura. lam tandem ad finem perductus, quamplurimis aeneis tabulis Hispaniae, Africae, Asiae et Americae auctus ac illustratus a Iudoco Hondio. Quibus etiam additae (praeter Mercatoris) dilucidae et accuratae omnium tabularum descriptiones novae, studio et opera Pet. Montani. Editio Secunda qua et ampliores descriptiones et novae Tabulae Geographicae accesserunt. Excusum ... Cornelij Nicolai Amstelreodami, 1607."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Koeman Me 16; van der Krogt 1:102"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "This is the second Mercator Hondius edition, after the first in 1606; editions of the Mercator Hondius atlas continued to 1641. Mercator published his edition of Ptolemy in 1578 (see our Bertius edition 11296.000), the first part of his atlas in 1585, and his son Rumold issued the first complete atlas in 1595, the year after Mercator's death. \"The earliest biography on Mercator was already published in 1595, as part of the text in the Atlas. It was written by Walter Ghim, Lord Major of Duisburg, the place where Mercator spent half his lifetime. The following is mainly borrowed from Ghim, supplemented with information obtained from the many excellent articles published in Special Volume no. 6 of the Duisburger Forschungen, 1962... Gerard (Gerhard) Mercator was born on 5 March 1512 at Rupelmonde, Flanders, where his parents, both living in the county of Gillich (Jiilich), happened to be. He spent his childhood in Gillich and went to the University of Leuven where he was registered as 'a student without means' on 29 August 1530. He obtained a 'magisterii gradum' in 1532 but stayed at Leuven where he then devoted himself to the study of philosophy. The problems of the creation of the Universe and the Earth interested him in particular; this is reflected by his works, written in later years. As his personal opinions did not agree with the scholastic philosophy as lectured at Leuven, he left the city for Antwerp; where he could contemplate without being influenced. Convinced of the importance of exact sciences, for the study of the true configuration of the world, he returned to Leuven, ca. 1535, where he took courses in mathematics, both theoretical and practical, under the guidance of Gemma Frisius. Soon he was recognised as an expert on the construction of mathematical instruments, as a land-surveyor and, after 1537, as a cartographer. He drew his income from these activities after his marriage on 3 August 1536. He also qualified himself as a copper-engraver; he was the first in history to introduce the italic handwriting to this trade. A booklet on italic handwriting was written and published by him in 1540. The first maps, drawn and engraved by Gerard Mercator are: Map of Palestine, 1537; Map of the world in double heart-shaped projection, 1538; and Map of Flanders, 1540. One of the main sources of his income was derived from the construction and sale of globes. He must have learned the technique of globe-making in Leuven, i.a., from Gemma Frisius, whom he assisted with revisions of his globe in 1535 or 1536. The first copies of Mercator's terrestrial globe appeared in 1541. His celestial globe appeared in 1551; both had a diametre of 41 cm. Suddenly, in 1544, Mercator came into great danger: during a stay in Rupelmonde he was arrested on the accusation of heresy and put into jail. It seems that only his departure from Leuven had made him suspect. Thanks to intervention of the University of Leuven, he was released after four months. He returned to Leuven where he continued his work on the construction of geometrical instruments and globes until 1552, when he departed and moved with his family into the city of Duisburg; however, he kept into touch with authorities and friends in Belgium. His moving into Germany may have been influenced by the high degree of religious freedom which prevailed there. It is also likely that he was motivated by his knowledge of the plans of Duke William of Jiilich-Cleve-Berge to found a University in Duisburg. In 1560, Mercator became cosmographer in service of the Duke and in 1563 he became lecturer at the Grammar School. During the first ten years of his stay at Duisburg he was also often employed as a land-surveyor. The cartographical work of the Duisburg period comprises: the wall-map of Europe, 1554; the wall-map of Loraine, 1563-1564; the wall-map of the British Isles, 1564; and the famous map of the world with increasing latitudes, 1569. Although nowadays it is his best known work, this map on the projection named after Mercator got its recognition only after the publication of Edw. Wright's Certaine Errors in Navigation, 1599. In the same year 1569 his book Chronologica appeared, which was listed in the Index of forbidden works. About this time, Mercator was also working on the project for a complete description of the Creation, the Heavens, Earth, and Sea and a world history. Out of this resulted his Atlas, sive cosmographicae meditationes de fabrica mundi et fabricati .figura. The drawings of the maps, the cutting of the plates, and the writing of the text asked more of his time then he himself could afford. First of all he had to make a living from his practical work as an instrumentand globe-maker. In the preface to his Chronologia, he had already announced a work on geography consisting of the ancient maps of Ptolemy and of modern maps. This edition of Ptolemy's Geographia appeared in 1578; the first part of his book with modern maps (France, Germany and the Netherlands) appeared in 1585. Contrary to the maps in Abraham Ortelius's Theatrum orbis terrarum, Antwerp 1570, Mercator's maps are original. Abraham Ortelius did what most of the atlas-makers of our time are engaged in: the reduction and generalisation of already existing maps. Gerard Mercator, with his sense of scientific work (which should be original and new) checked the current knowledge of the configuration of the earth's topography against its fundamental sources and drew new maps in his original conception. This method of map-making took more time than it would have by mere copying. But he had not the intention to compete with Ortelius's best-selling atlas. As he grew older, engraving became more and more of an eye strain; it eventually led to an infection of his eyes, from which he fortunately recovered. Still working under the stress of a huge task (to be fulfilled before his powers should weaken), he lost his wife in 1586, after a marriage of fifty years. A few months afterwards he married the widow of the burgomaster Moer of Duisburg. Shortly after the publication of the second part of his map-book (not yet called Atlas) with the maps of Italy, i.a., in 1589, he had a stroke which brought an end to his extremely great productivity. The great man passed away on 2 December 1594, leaving the responsibility of finishing the map-book to his son Rumold. The final part of it appeared in 1595. Its title is Pars Altera and it constitutes an essential part of what was then called Mercator's Atlas. Two of Gerard Mercator's sons died before him: Arnold (1537-1587) and Bartholomeus (1540-1563). Apart from three daughters, he had another son, Rumold, who had assisted him in cartographical business. Rumold first went into the book-trade. He was an apprentice of Birckmann Heirs first in London, afterwards in Antwerp. The map of Europe and the world map in the Atlas are by Rumold's hand. He also made a wall-map of Germany, published in 1590. After Rumold's death in 1599, the Atlas was reissued once more in 1602. By the sale of the plates for the maps, both of the Ptolemy edition and the Atlas, to Jodocus Hondius of Amsterdam, Mercator's work won its proper fame. This sale took place in 1604; in the following year Hondius managed to bring out Ptolemy's Geographia. In the following year, 1606, the first Amsterdam edition of the Mercator Atlas appeared. From then to 1638, the Atlas saw many enlarged editions in various languages.\" (Koeman, Atlantes Neerlandici, vol II, p 281-282)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10501.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "146"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "50"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10501161.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/185/10501161.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Mercator, Gerhard, 1512-1594; Hondius, Jodocus, 1563-1612"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~324093~90093144/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~324093~90093144/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~324093~90093144",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 13560,
+                    "height": 11808
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~324093~90093144/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~324093~90093144/list/luna"
+              ],
+              "width": 13560,
+              "height": 11808
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~324093~90093144"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~285372~90058045/manifest",
+      "label": "Spaine.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~285372~90058045/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~285372~90058045/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Spaine.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Speed, John, 1542-1629"
+                },
+                {
+                  "label": "Date",
+                  "value": "1626"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Spaine."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Thomas Bassett and Richard Chiswell"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "55"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "2,700,000"
+                },
+                {
+                  "label": "Country",
+                  "value": "Spain"
+                },
+                {
+                  "label": "Country",
+                  "value": "Portugal"
+                },
+                {
+                  "label": "Region",
+                  "value": "Iberian Peninsula"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Spaine."
+                },
+                {
+                  "label": "List No",
+                  "value": "12058.191"
+                },
+                {
+                  "label": "Series No",
+                  "value": "191"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "R. White"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Speed, John, 1542-1629"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1676"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The Theatre of the Empire of Great Britaine. Presenting An Exact Geography of the Kingdomes of England, Scotland, and Ireland and the Isles adjoyning with the Shires Hundreds Citys and the Shire townes within the Kingdome of England devided and described. As also A Prospect of the most famous Parts of the World. By John Speed ... London. Printed for Thomas Bassett and Richard Chiswell. 1676."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "This book contains two of John Speed's most important atlases, \"The Theatre of the Empire of Great Britaine,\" and \"A Prospect of the Most Famous Parts of the World.\" Published by Bassett & Chiswell in 1676, it is a late edition of both works which were originally published in 1612 for the Theatre and 1627 for the Prospect. This edition of the Prospect expands the maps from the original 21 maps in the 1627 edition to 28 maps, including new maps of British possessions in North America. These two Speed atlases are considered the most important English language atlases of the 17th century. They both went through many editions - The Theatre published by John Sudbury and George Humble, 1612 and 1616; George Humble 1623, 1627, 1631/1632; William Humble 1646, 1650,1654; Roger Rea 1662, 1665; Bassett & Chiswell 1676; Christopher Browne ca. 1690, 1695; John & Henry Overton 1710, 1743; Dicey & Co ca. 1770. The Prospect published by George Humble 1627, 1631/1632; William Humble 1646,1650, 1654; Roger Rea in 1662, 1665; Bassett & Chiswell 1676. Relief shown by sketches."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12058.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "101"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "45"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12058191.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/12058191.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Speed, John, 1542-1629"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~285372~90058045/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~285372~90058045/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~285372~90058045",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12224,
+                    "height": 8367
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~285372~90058045/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~285372~90058045/list/luna"
+              ],
+              "width": 12224,
+              "height": 8367
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~285372~90058045"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/wh501vr2559/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Pascaarte van alle de Zècusten van Evropa : Men vintse te coop tot Amsterdam, o't Water inde vergulde Sonnewisser",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/wh501vr2559.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/wh501vr2559'>https://purl.stanford.edu/wh501vr2559</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Pascaarte van alle de Zècusten van Evropa : Men vintse te coop tot Amsterdam, o't Water inde vergulde Sonnewisser"
+        },
+        {
+          "label": "Title",
+          "value": "Europe"
+        },
+        {
+          "label": "Contributor",
+          "value": "Blaeu, Willem Janszoon, 1571-1638"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Portolan charts"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 chart :  copperplate engraving on vellum ; 68.5 x 87 cm"
+        },
+        {
+          "label": "Language",
+          "value": "Dutch"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "nieulycx beschreven door Willem Ians Blauw"
+        },
+        {
+          "label": "Description",
+          "value": "Coordinates approximate and based on Greenwich meridian"
+        },
+        {
+          "label": "Description",
+          "value": "Latitude scale in mid-ocean, 22°N - 80°N"
+        },
+        {
+          "label": "Description",
+          "value": "Bar scales on map in German, Spanish, English, and French miles"
+        },
+        {
+          "label": "Description",
+          "value": "Map oriented with west at the top"
+        },
+        {
+          "label": "Description",
+          "value": "Compass roses: map includes one primary compass rose situated above Cornwall, U.K. and sixteen secondary compass roses. Of the secondary compass roses, 3 are fully drawn and 3 are half-circles"
+        },
+        {
+          "label": "Description",
+          "value": "Detailed coats of arms overlay their respective countries: \"Hispan\", \"Vrancriick\", \"Duytschland\", \"Noorwegen\", \"Sweden\", and \"Barbaria\""
+        },
+        {
+          "label": "Description",
+          "value": "Eastern Mediterranean is inset to the coast of Morocco"
+        },
+        {
+          "label": "Description",
+          "value": "Animals on map: pairs of bears, goats, and elephants, and a single fish. A ship drifts off the western coast of Morocco. Two Indigenous peoples with a canoe stand on the coast of Greenland"
+        },
+        {
+          "label": "Description",
+          "value": "Four cartouches decorate each corner, each containing scale bars"
+        },
+        {
+          "label": "Description",
+          "value": "Decorative cartouche at bottom center has 2 figures on either side of an astrolabe globe, with the words \"INDEFESSUS AGENDO\" below"
+        },
+        {
+          "label": "Description",
+          "value": "Collector's note: \"The first edition Willem Blaeu's exceedingly rare, separately issued and large-format sea chart of Europe. This large and sumptuously decorative chart is one of the rarest and most historically important monuments of Dutch Baroque cartography, and a milestone in the career of the celebrated mapmaker Willem Jansz Blaeu. It is also exceedingly rare in the first edition, with no examples recorded in British or American institutional collections. Blaeu's chart captures the entire coastlines of Europe and the shores of the Mediterranean Sea. The coverage of the main part of the chart commences in the northeast at Novaya Zemlya, then follows the intricate European coastline past Norway, into the Baltic Sea, then down through the North Sea and the Atlantic littoral, through the Pillars of Hercules to take all of the Mediterranean Sea west of Corfu, along with the adjacent coastlines of North Africa. It also extends deep into the North Atlantic to feature Iceland, Greenland, Spitsbergen and the Azores. The latter is important as the location of the Prime Meridian of Longitude (before it was changed later in the century to 'Pico' in Tenerife, and then to Greenwich in the 19th Century), and an important marker for ships sailing to the West Indies and South America. A beautiful inset in the lower left of the chart details the shorelines of the Eastern Mediterranean. The chart is oriented with the west towards the top and assumes a Portolan-style appearance, with sparing geographic detail in the interior, but neat and tightly clustered place names along the littoral, while the seas are traversed by rhumblines, emanating from compass roses. The interior areas are adorned with the elaborate national coats of arms of various nations, including those of Russia, Sweden, Denmark-Norway, the Holy Roman Empire, England, France, Spain and the Ottoman Empire. Four scale cartouches adorn the corners, while a magnificent title cartouche, topped by Blaeu's symbol of an armillary sphere and with his motto \"Indefessus Agendo\" ('Act Steadily') graces the lower-center of the chart. The seas are further embellished with sailing ships and seals, while on the land roam Inuit hunters, goats, bears and elephants. Importantly, the chart is one of the earliest maps to include details of the waters around Greenland and the Davis Strait, on the west coast of the island, after the 1612 map of Hessel Gerritsz, a cartographer closely associated with Blaeu. Blaeu also makes a step forward in omitting the mythical island of 'Friesland', which was still included on many contemporary charts. While most of the coastlines of Europe are well charted and fully familiar to the modern eye, the Russian Arctic coastline, in the lower right of the chart, remains partially undefined. The chart presents the most advanced knowledge of the region, largely based on the recent charting done by Dutch explorers. In particular, Blaeu shows the western coasts of Novaya Zemlya, discovered by Willem Barentsz in the 1590s, although he is cautiously silent on whether or not the landform is an island. Blaeu based much of the cartography of the present chart on a chart he made in 1606, although the Pascaarte van alle de Zecusten van Europa is much larger and more detailed. Blaeu devised the chart to take advantage of major events that were occurring with respect to the Dutch Republic's growing global ambitions. In 1621, the year that this chart was produced, the Dutch West India Company (the WIC) was formed in an effort to acquire commercial colonies in the Americas. The Company's mariners vitally needed such an omnibus chart that would guide their ships in approaching and clearing European inland waters, while being able to sail down between the Canaries and Azores to take advantage of the trade winds, and so to sail down towards the West Indies. In a short matter of time, the WIC founded New Amsterdam (1624, modern New York), conquered much of Northern Brazil (starting in 1630), and acquired Caribbean Islands such as Curaçao and part of Saint Martin (1630). To further assist the WIC, Blaeu published his West Indische Paskaert later the same year. Another major interest was the Noordsche Compagnie (the Northern Company), established in 1614, which held a monopoly on all Dutch trade in the Arctic, which was primarily centered on whaling and fishing. The chart's progressive delineation of Arctic Russia and Scandinavia, Spitsbergen, Iceland and Greenland would have been most useful. As the finest general sea chart of Europe made during its era, Blaeu's chart also had important military strategic value. In 1621, the Twelve Years' Truce in the Eighty Years' War (1568-1648) expired and the Dutch Republic and Spain renewed their epic conflict. Leading officials of the government of the Dutch Stadhouder, Prince Maurits of Orange-Nassau, as well as senior naval commanders, would certainly have consulted copies of the chart when planning their missions. Indeed, over the coming years the Dutch Navy came into combat with the Armada Real in wide variety of places, from the Mediterranean to the North Sea, so an accurate panoptic view of the continent would have been most beneficial. Blaeu's magnificent chart thus acted as a 'calling card' for the WIC, the Noordische Company and the Dutch Navy, which ensured Blaeu a tremendous amount of business for the rest of his days. Blaeu's chart proved to be highly influential and was copied many times over the next three generations, including editions by Anthonie Jacobsz, Pieter Goos, Justus Danckerts, as well as by Blaeu's own grandchildren Willem II, Pieter and Joan. Frederick De Wit also made a version of the chart, which cut off the region that included Greenland, which was copied by Renard and Ottens. Perhaps most notably and fittingly, Blaeu's Pascaarte van alle de Zecusten van Europa was used by the great painter Vermeer as the backdrop to his painting 'The Geographer' (1669), which today resides in the Städel Museum in Frankfurt. Willem Jansz Blaeu (1571-1638) was the most important mapmaker of the 17th Century, and was responsible, more than any other figure, for the ascension of Dutch cartography to a globally dominant position. Blaeu, originally from Alkmaar, north of Amsterdam, apprenticed from 1594 to 1596 under the legendary Danish astronomer Tycho Brahe at his observatory on Ven Island, near Copenhagen. Upon his return to the Netherlands, Blaeu started a business making charts, globes and nautical instruments. His timing was impeccable, as the Dutch economy, based on maritime trade, was booming and there was an insatiable demand for high quality sea charts and nautical kits. Notably, in 1596, the Dutch made their first voyage to the East Indies, which soon led to the establishment of the Dutch East India Company (1602). The VOC would be one of Blaeu's anchor clients and, in 1633, he would be appointed to be the Company's official hydrographer. Blaeu's sea atlas of European waters, Het Licht der Zee-vaert (1608) was revolutionary, being the first broadly accurate maritime atlas. He went on to create magnificent wall maps, large-format charts and eventually terrestrial atlases, all decorated with the finest Dutch Baroque artistry. In particular, the Pascaarte van alle de Zecusten van Europa helped to establish Blaeu's supremacy in the highly competitive Dutch cartography market. Towards the end of his life, Blaeu published the Atlas Novus (1635), a grand production that was later expanded by his son, Joan Blaeu (1598-1673), who grew the Blaeu business into the largest geographic publishing house in history. The Pascaarte van alle de Zecusten van Europa was during its time a practical working sea chart. The map tended to be heavily used aboard ship, accounting for its low survival rate. It was printed on both paper and on vellum (as with the present example). Both types are exceedingly rare, with only 8 institutional examples known (6 on vellum and only 2 printed on paper). Gunther Schilder notes that of these examples none resides in American or British collections. The institutions which record examples are: Universiteitsbibliotheek Amsterdam; Stadsarchief Antwerpen; Staatsbibliothek zu Berlin; Nationalbibliothek Budapest; Hessesche Landesbibliothek, Darmstadt; Badische Landesbibliothek, Karlsruhe; Bibliotheque Nationale de France; Herzogin Anna Amalia-Bibliothek, Weimar; and the Stopp Collection.\" (Ruderman, 2021)"
+        },
+        {
+          "label": "Subject",
+          "value": "Europe > Early works to 1800"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale approximately [1:2682240]"
+        },
+        {
+          "label": "Coverage",
+          "value": "57°33′00″W -- 48°36′00″E / 76°09′00″N -- 23°17′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1625"
+        },
+        {
+          "label": "Date",
+          "value": "1625"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/wh501vr2559"
+        },
+        {
+          "label": "Publisher",
+          "value": "Willem Janszoon Blaeu"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-03-13"
+        }
+      ],
+      "description": "Coordinates approximate and based on Greenwich meridian",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wh501vr2559%2F10798000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wh501vr2559%2F10798000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 316
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/wh501vr2559/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/wh501vr2559/iiif/canvas/cocina-fileSet-wh501vr2559-wh501vr2559_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 14486,
+              "width": 18330,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/wh501vr2559/10798000.jp2",
+                  "label": "Original source file (343 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/wh501vr2559/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F15e8e8f7-7209-41ac-945b-d2ce7f229af8",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/wh501vr2559/iiif/canvas/cocina-fileSet-wh501vr2559-wh501vr2559_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/wh501vr2559%2F10798000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 14486,
+                    "width": 18330,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/wh501vr2559%2F10798000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292227~90064379/manifest",
+      "label": "Composite: Topographia de la villa de Madrid",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~292227~90064379/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292227~90064379/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Composite: Topographia de la villa de Madrid",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Texeira, Pedro"
+                },
+                {
+                  "label": "Author",
+                  "value": "Saury, Salomon"
+                },
+                {
+                  "label": "Date",
+                  "value": "1656"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Composite: Topographia de la villa de Madrid"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Artes Graficas Municipales"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Madrid"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Ayuntamiento de Madrid"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Madrid"
+                },
+                {
+                  "label": "Type",
+                  "value": "Composite Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "118"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "290"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "1,600"
+                },
+                {
+                  "label": "Note",
+                  "value": "Facsimile reprint edition of topographic plan of Madrid in 20 sheets, 188x290, which together form an impressive mural, published in 1943 by Geographical and Cadastral Institue. Originally published 1656 by Pedro Teixeira Albernaz ( Lisbon ,1595- Madrid , 1662), Portuguese cartographer who worked commissioned by Philip IV. Representing 18 churches, 55 convents and 14 hospitals and religious schools. Dedicated to \"Philippo IV, Regi Catholico ...\" Issued in decorated hard cover portfolio, with the shield of the Villa de Madrid. Including title cartouche decorated with the shield of Spain, dedication sheet, imprint page and index. On verso of title page: Edicion de quinientos ejemplares numerados, de los cuales se destinan a la venta doscientos cincuenta. Numeros del 101 al 350. Ejemplar numero 130.- D. Enrique Pfitz Lopez, Arquiteco.\" only 500 copies of which only 250 were offered to the sale ... Maps printed in black ink on white paper, showing streets, houses, major buildings, parishes, convents, hospitals, with number of floors, doors and windows, and details such as facades and roofs, also distribution of the plants. Relief shown pictorially. Includes \" Original imprint: Antuerpiae [Antwerp] : Cura et solesitudine Ioannis et Iacobi van Veerle, 1656. \"Salomon Saurij Fecit\"--Lower right corner. Scales showing \"Pitipié de Quinientas Varas Castellanas\", \"Pitipié de Mil Pies de Atercia de vara\", and \"Pitipié de Quinientos Pacos de Ados Pies y Medio.\" Includes index of parishes, convents, hospitals, fountains, ponds, etc. and numerical keyed to map."
+                },
+                {
+                  "label": "Country",
+                  "value": "Spain"
+                },
+                {
+                  "label": "City",
+                  "value": "Madrid (Spain)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Composite map) Topographia de la villa de Madrid descrita por Don Pedro Texeira Ano 1656. Madrid 1943 (MCMXLIII). (map title) Mantua Carpetanorvm, sive Matritvni vrbs regia. educion hecha por el Instituto Geographico y Catastral, por Victor Garcia, Caligrafo, y por Artes Graficas Municipales ..."
+                },
+                {
+                  "label": "List No",
+                  "value": "11229.026"
+                },
+                {
+                  "label": "Series No",
+                  "value": "26"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Garcia, Victor"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Instituto Geografico y Catastral (Spain)"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Texeira, Pedro"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Saury, Salomon"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1943"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Topographia de la villa de Madrid descrita por Don Pedro Texeira Ano 1656. Madrid 1943 (MCMXLIII). (map title) Mantua Carpetanorvm, sive Matritvni vrbs regia. educion hecha por el Instituto Geographico y Catastral, por Victor Garcia, Caligrafo, y por Artes Graficas Municipales ..."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Facsimile reprint edition of topographic plan of Madrid in 20 sheets, 188x290, which together form an impressive mural, published in 1943 by Geographical and Cadastral Institute. Originally published 1656 by Pedro Teixeira Albernaz ( Lisbon ,1595- Madrid , 1662), Portuguese cartographer who worked commissioned by Philip IV. Representing 18 churches, 55 convents and 14 hospitals and religious schools. Dedicated to \"Philippo IV, Regi Catholico ...\" Issued in decorated hard cover portfolio, with the shield of the Villa de Madrid. Including title cartouche decorated with the shield of Spain, dedication sheet, imprint page and index. On verso of title page: Edicion de quinientos ejemplares numerados, de los cuales se destinan a la venta doscientos cincuenta. Numeros del 101 al 350. Ejemplar numero 130.- D. Enrique Pfitz Lopez, Arquiteco.\" Only 500 copies printed of which only 250 were offered to the sale ... Maps printed in black ink on white paper, showing streets, houses, major buildings, parishes, convents, hospitals, with number of floors, doors and windows, and details such as facades and roofs, also distribution of the plants. Relief shown pictorially. Includes \" Original imprint: Antuerpiae [Antwerp] : Cura et solesitudine Ioannis et Iacobi van Veerle, 1656. \"Salomon Saurij Fecit\"--Lower right corner. Scales showing \"Pitipié de Quinientas Varas Castellanas\", \"Pitipié de Mil Pies de Atercia de vara\", and \"Pitipié de Quinientos Pacos de Ados Pies y Medio.\" Includes index of parishes, convents, hospitals, fountains, ponds, etc. and numerical keyed to map."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11229.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "City Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "20"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "58"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11229026.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/11229026.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Texeira, Pedro; Saury, Salomon"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292227~90064379/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292227~90064379/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292227~90064379",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 40407,
+                    "height": 25638
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292227~90064379/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292227~90064379/list/luna"
+              ],
+              "width": 40407,
+              "height": 25638
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~292227~90064379"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~282831~90054338/manifest",
+      "label": "Navarra Regnvm",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~282831~90054338/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~282831~90054338/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Navarra Regnvm",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Blaeu, Joan, 1596-1673"
+                },
+                {
+                  "label": "Date",
+                  "value": "1665"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Navarra Regnvm"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Joan Blaeu"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "50"
+                },
+                {
+                  "label": "Note",
+                  "value": "5 Milliaria Hispanica = 6.9 cm"
+                },
+                {
+                  "label": "Reference",
+                  "value": "van der Krogt 2:601 [-3].9 (26)"
+                },
+                {
+                  "label": "Country",
+                  "value": "Spain"
+                },
+                {
+                  "label": "Region",
+                  "value": "Navarre Region (Spain)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Navarra Regnvm"
+                },
+                {
+                  "label": "List No",
+                  "value": "10017.590"
+                },
+                {
+                  "label": "Series No",
+                  "value": "590"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Blaeu, Joan, 1596-1673"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1665"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlas Maior Sive Cosmographia Blaviana, Qua Solvm, Salvm, Coelvm, Accvratissime Describvntvr."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Koeman B1 56; van der Krogt 2:601-3 (first volume dated 1665, all others dated 1662)."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Blaeu's 11 volume Atlas Maior is considered by many to be the greatest atlas ever published, both in its own time and even today. It excels in comprehensiveness, engraving, color, and overall production. Each vol. has title page. with general title: Geographiæ Blavianæ volumen primum.... Each vol. has engraved special title page, hand colored. The first Latin edition was published in 1662. Subsequently published in French, Dutch, German, and Spanish; the Latin version was also sold with v. 1 dated 1665 and v. 2-11 dated 1662 (this copy). Bound as issued in vellum stamped in gilt with Blaeu device. Issued in 11 volumes. Contents: v. 1. Arctica --Europa, liber 1-2:. Norvegia. Dania. Sleswic -- v. 2. Europa, liber 3-7: Suecia. Russia. Polonia. Regiones orientales ultra Germaniam circa Danubium. Graecia -- v. 3. Europa, liber 8: Germania - -v. 4. Europa, liber 9-10: Belgica regia -- v. 5. Europa, liber 11: Anglia -- v. 6. Europa, liber 12-13: Scotia. Hibernia -- v. 7. Europa, liber 14-15: Gallia. Helvetia -- v. 8. Europa, liber 16: Italia -- v. 9. Europa, liber 17: Hispania. Africa -- v. 10. Asia -- v. 11. America. This copy is from the National Library of Scotland and we are grateful to them for providing scanned images of the atlas as part of a joint project under the guidance of Christopher Fleet, Senior Map Curator at the NLS. For more information on Joan Blaeu and the Atlas Maior, see the National Library of Scotland website, http://maps.nls.uk/pont/bio/blaeu.html"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10017.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "593"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "54"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Image No",
+                  "value": "108521055.1.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/108521055.1.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Blaeu, Joan, 1596-1673"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~282831~90054338/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~282831~90054338/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~282831~90054338",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 9066,
+                    "height": 6705
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~282831~90054338/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~282831~90054338/list/luna"
+              ],
+              "width": 9066,
+              "height": 6705
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~282831~90054338"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315643~90084418/manifest",
+      "label": "Mapa del puerto de Gibraltar",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~315643~90084418/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315643~90084418/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Mapa del puerto de Gibraltar",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Juarez, Manual Angel"
+                },
+                {
+                  "label": "Date",
+                  "value": "1716"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Mapa del puerto de Gibraltar"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Manuel Angel Juarez"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Seville"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "38"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "46"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Woodcut map with decorative border. Publisher: En Sevilla en casa de Manuel Angel Juarez, Mercader de libros junto a la Real Academia. Shows landmarks, buildings and battleships. Relief shown pictorially. It represents the Franco-Spanish siege of Gibraltar from 1704-1705. Includes title cartouche, arms of Philip V, the Bourbon King of Spain, compass rose in the center, legend in the lower left and text at the foot of map. Principal buildings and other points of interest represented pictorially and numbered, corresponding with the legend in the lower left corner. The title is contained within a banderole, flanked by the arms of Philip V, the Bourbon King of Spain, and the town of Gibraltar. This is a broadsheet plan of the unsuccessful Franco-Spanish siege of Gibraltar from 1704-1705, which followed the capture of Gibraltar by an Anglo-Dutch fleet during the War of Spanish Succession. The map shows the first and second lines of trenches established by the Marquis of Villadarias, who was replaced in  February 1705 by the French Marshal de Tessé, and Worldcat suggests a date of 1705. However, the history of Gibraltar at the foot of map concludes with the Anglo-Dutch capture in August 1704, and notes that it has been in the hands of the English and others for two years; Gibraltar was technically captured on behalf of Archduke Charles, the Bourbon claimant of the Spanish throne. Scarce. Worldcat locates a single example in the Biblioteca Nacional de España, Madrid, which appears to have been bound into a composite ‘Atlas de mapas realizados por cartógrafos franceses’. OCLC 894642244."
+                },
+                {
+                  "label": "Region",
+                  "value": "Gibraltar"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Military"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Mapa del puerto de Gibraltar."
+                },
+                {
+                  "label": "List No",
+                  "value": "13196.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Juarez, Manual Angel"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1706"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Mapa del puerto de Gibraltar."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "13196.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "38"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "46"
+                },
+                {
+                  "label": "Image No",
+                  "value": "13196000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/13196000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Juarez, Manual Angel"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~315643~90084418/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~315643~90084418/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~315643~90084418",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11242,
+                    "height": 9278
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315643~90084418/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315643~90084418/list/luna"
+              ],
+              "width": 11242,
+              "height": 9278
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~315643~90084418"
+    }
+  ]
+}

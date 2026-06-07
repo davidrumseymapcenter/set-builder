@@ -1,0 +1,3179 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Inventing Nations",
+  "label": "Inventing Nations",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~271958~90045809/manifest",
+      "label": "La guerre est l'industrie nationale de la Prusse. (War is the National Industry of Prussia).",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~271958~90045809/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~271958~90045809/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "La guerre est l'industrie nationale de la Prusse. (War is the National Industry of Prussia).",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Neumont, Maurice"
+                },
+                {
+                  "label": "Author",
+                  "value": "Mirabeau, vicomte de"
+                },
+                {
+                  "label": "Author",
+                  "value": "Petain, Philippe"
+                },
+                {
+                  "label": "Date",
+                  "value": "1917"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "La guerre est l'industrie nationale de la Prusse. (War is the National Industry of Prussia)."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "60"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "78"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Europe"
+                },
+                {
+                  "label": "Event",
+                  "value": "World War I"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Military"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Satirical"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "La guerre est l'industrie nationale de la Prusse. (War is the National Industry of Prussia)."
+                },
+                {
+                  "label": "List No",
+                  "value": "8865.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Neumont, Maurice"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Mirabeau, vicomte de"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Petain, Philippe"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1917"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "La guerre est l'industrie nationale de la Prusse. (War is the National Industry of Prussia)."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Produced for the village conference against enemy propaganda in France. French propaganda poster illustrating the aggressive and warlike tendencies of Prussia. Imperial Germany shown as an octopus. Map shows Prussia's territorial expansion since 1871. Color."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8865.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "60"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "78"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8865000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/153/8865000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Neumont, Maurice; Mirabeau, vicomte de; Petain, Philippe"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~271958~90045809/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~271958~90045809/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~271958~90045809",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 15884,
+                    "height": 11900
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~271958~90045809/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~271958~90045809/list/luna"
+              ],
+              "width": 15884,
+              "height": 11900
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~271958~90045809"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347402~90114873/manifest",
+      "label": "The Literary Digest Liberty Map Of The Western Front of the Great World War.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~347402~90114873/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347402~90114873/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "The Literary Digest Liberty Map Of The Western Front of the Great World War.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Funk & Wagnalls Company."
+                },
+                {
+                  "label": "Date",
+                  "value": "1918"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "The Literary Digest Liberty Map Of The Western Front of the Great World War."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Funk & Wagnalls."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "99"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "123"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "506,880"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Europe"
+                },
+                {
+                  "label": "Event",
+                  "value": "World War I"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Military"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "The Literary Digest Liberty Map Of The Western Front of the Great World War. Showing the Battle Line Of Liberty as it stood May 1st, 1918. Also Showing the Lines of Farthest Advance of the German and the French Offensives. With Complete Index. Copyright, 1819, by Funk & Wagnalls Company, Publishers, New York. Engraved and Printed by the Matthews-Northrup Works, Buffalo, N.Y. ... (inset) Map Of The Complete War Area ... (inset) The Coal And Iron Fields in the Western War Territories. (with index book) Index For The Literary Digest Liberty Map of the Western Front o the Great World War ..."
+                },
+                {
+                  "label": "List No",
+                  "value": "2062.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Funk & Wagnalls Company."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1918"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The Literary Digest Liberty Map Of The Western Front of the Great World War. Showing the Battle Line Of Liberty as it stood May 1st, 1918. Also Showing the Lines of Farthest Advance of the German and the French Offensives. With Complete Index. Copyright, 1819, by Funk & Wagnalls Company, Publishers, New York. Engraved and Printed by the Matthews-Northrup Works, Buffalo, N.Y. ... (inset) Map Of The Complete War Area ... (inset) The Coal And Iron Fields in the Western War Territories. (with index book) Index For The Literary Digest Liberty Map of the Western Front o the Great World War ..."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Phillips WW Maps 414b."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Includes separate Index book 25x15. Map engraved by Matthews-Northrup Works. Full printed color. Map folds into a paper slip case 27.5x18 titled \"The Literary Digest Liberty Map of the Western Front Together with a Complete Area Map of The Great World War Showing the Battle-Line of Liberty At \"The Frontier of Freedom\". Also the Lines of the Farthest Invasions of German and Allied Territory. With Complete Index Of Over 11,000 Names. Copyright, 1918, by Funk & Wagnalls Company, Publishers, New York. Bond Paper Edition - Price, $2.75 Net.\""
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "2062.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "18"
+                },
+                {
+                  "label": "Image No",
+                  "value": "2062002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/2062002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Funk & Wagnalls Company."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347402~90114873/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347402~90114873/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347402~90114873",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 31558,
+                    "height": 25330
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347402~90114873/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347402~90114873/list/luna"
+              ],
+              "width": 31558,
+              "height": 25330
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~347402~90114873"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~370884~90138389/manifest",
+      "label": "Composite: 1-12 Magyarország néprajzi térképe település és lélekszám szerint | Ethnographical Map of Hungary",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~370884~90138389/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~370884~90138389/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Composite: 1-12 Magyarország néprajzi térképe település és lélekszám szerint | Ethnographical Map of Hungary",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Bátky, Zsigmond"
+                },
+                {
+                  "label": "Author",
+                  "value": "Kogutowicz, Károly"
+                },
+                {
+                  "label": "Date",
+                  "value": "1919"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Composite: 1-12 Magyarország néprajzi térképe település és lélekszám szerint | Ethnographical Map of Hungary"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Magyar Földrajzi Intézet"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Budapest"
+                },
+                {
+                  "label": "Type",
+                  "value": "Composite Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "197"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "272"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "300,000"
+                },
+                {
+                  "label": "Country",
+                  "value": "Hungary"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Ethnography; Nationality; Race"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Composite map of) 1-12 Magyarország néprajzi térképe település és lélekszám szerint | Ethnographical Map of Hungary"
+                },
+                {
+                  "label": "List No",
+                  "value": "16400.013"
+                },
+                {
+                  "label": "Series No",
+                  "value": "13"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Bátky, Zsigmond"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Kogutowicz, Károly"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1919"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Magyarország néprajzi térképe település és lélekszám szerint | Ethnographical Map of Hungary"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"One of the Most Important Ethnographic Maps Ever Produced and a Masterpiece of Persuasive Cartography. Rare 12-Sheet Map Prepared to Advocate Hungary’s Position at the End of WWI. Fantastic ethnographic map of Hungary prepared as part of an official effort to advocate for maintaining the country’s pre-WWI borders in the face of post-war peace treaties. Everything on this map is carefully crafted to bolster Hungary’s negotiating position that it should be allowed to continue occupying the whole of Carpathian Europe. The boldest color on the map – red – is reserved for ethnic Hungarians, and immediately stands out among the other colors. The map also eschews traditional ethnographic representations, where the dominant population in each area is colored, and opts to show each 100, 500, or 1,000 people of each ethnicity with a single, proportionally sized circle. This choice is not by accident – with ethnic Hungarians concentrated in cities, the traditional representation would reduce the amount of red on the map. The authors justified this choice as follows: The geographical, economic, etnohgraphical [sic] and cultural significance and importance of tis mode of constructing the map seems to be obvious, and it need only be said that in this way the large uninhabited spaces in the wooded highlands automatically remain empty, while the spacious plains wich [sic] if another mode of designing the map is employed seem uninhabited are thikly [sic] sprinkled with populous habitations. This is one of two great maps made by the Hungarian Geographical Society as part of this post-war effort. In the other of the two maps, made by the future Hungarian prime minister Pal Teleki (see our 10678.000), the map is colored in like a traditional ethnographic map, but with the area represented by each color on the map proportional to the total population of each ethnic group (see our 10993.000 for the 1940 edition of this map). This meant that regions with high populations, such as Budapest, would get a \"fair representation,\" spilling into neighboring regions, while underpopulated areas would be left blank or encroached upon. Again, on that map, red was chosen to represent Hungarians, giving that map the eponym the “Red Map.” Together, the two maps worked in concert – Teleki’s map was a quick and small representation that could be reproduced easily and distributed widely to make its point, while this larger map could be used for working committees and academics to precisely locate the distribution of the relevant ethnic populations and locate precise areas where boundaries favorable to Hungary could be drawn. This map was designed by Zsigmond Bátky and Károly Kogutowicz, two of the most prominent Hungarian cartographers of their day. Bátky was librarian at the Hungarian National Museum, while Kogutowicz was head of the Hungarian Geographical Institute. The map shows twelve different ethnicities, which they call: Magyars, Germans, Slovaks, Poles, Ruthenians, Bohemians, Serviens Croatians, Slovenians, Others, Roumanians, and Boulgarians. Data comes from the 1910 Austro-Hungarian census. The map’s design is decidedly Art Deco, reflecting design tendencies in Europe at the time. The work relies not only on the central map to make its point. Over a dozen inset maps, text boxes, and graphical charts further the Hungarian cause, highlighting various features including the rapid growth of the Hungarian population compared to other ethnicities, the predominance of the Hungarian language, and the concentration of Hungarians in towns and cities. Along with the aforementioned “red map,” this map was a key source for over twenty years. Despite the failure of Hungarians to successfully advocate for maintaining the borders of the Kingdom of Hungary, irredentists continued to press for a return to pre-WWII borders. The information on this map was reproduced on many other maps throughout the 1920s, and the map saw a revival in the late 1930s with the rise of Hungarian nationalism and the so-called “map wars” fought between Romania and Hungary. These were partially resolved by the “Vienna Awards,” where Nazi Germany almost unilaterally returned pre-war lands to Hungary, who demanded all lands with a pre-war population that was at least half Hungarian be returned. The map continued to be used until it was superseded by a 1940 census and updated maps. A report from the Ball State University Library notes that a copy of this map bears marks indicating that it was used at Versailles: The maps were of the Hungarian portion of the Austrian-Hungarian Empire dated 1919. One of the maps had specific notations indicating it had been used at the Peace Conference in Versailles, France following World War I. Stout remembers reading “American Commission to Negotiate Peace” stamped on the map. (The Treaty of Trianon was organized as part of the Peace Conference at Versailles in order to determine the borders of Hungary and was signed in June of 1920, so the American delegation may have used these maps as a resource for the peace negotiations). Rarity We locate seven examples of the map through WorldCat at the BnF, Sorbonne, National Library of Scotland, Hungarian Academy of Sciences, Syracuse University, University of Wisconsin, Milwaukee, and Ball State University. We also trace an incomplete set at the National Archives of Hungary and note that the RGS received a set from the Hungarian Geographical Society in 1921. We find reference to a copy in the LOC from 1983 but were unable to locate that copy in cataloging. We locate only a single example of the map that has traded. A joined copy of the map sold at Központi Antikvárium (Auction 143, Lot 90) in 2017 for 1,725,000 HUF, or approximately $6,380 at the time. The Treaty of Trianon The Treaty of Trianon is sometimes called the most traumatic event in Hungarian history over the past century by Magyar nationalists (curiously ignoring the atrocities of WWII and the Soviet occupation). Negotiated as part of the Paris Peace Talks, the treaty set the terms of surrender for the Kingdom of Hungary and was named after the Grand Trianon Palace at Versailles. While the Treaty of Trianon is frequently overshadowed by the more famous Treaty of Versailles, signed between the Allies and the Kingdom of Germany, it would become a defining factor in interwar Central European politics. The terms of the treaty were effectively dictated by the victorious powers. Though not as harsh as those imposed on Germany, the treaty still had profound consequences for Hungary. Among its many provisions, the Hungarian military was reduced to just 35,000 soldiers, and the Hungarian navy was disbanded. However, the most painful aspect for Hungarians was the loss of territory. The treaty led to a dramatic reduction in Hungary's land, causing the country's population to shrink by 64% and relegating many ethnic Hungarians to minority status in neighboring countries. Even more contentious was the fact that these decisions were made following only a single plebiscite, which was limited to resolving a small border dispute with Austria. This violated the principle of self-determination, which the victorious powers had strongly advocated. As a result, many Hungarians were left enraged by the enormous loss of territory, which severely diminished Hungary's influence on the European stage after the war and set the stage for Hungary joining the Axis in the Second World War. Károly Kogutowicz Károly Kogutowicz was born on February 14, 1886, in Budapest, to Manó Kogutowicz, the founder of a Hungarian mapmaking company and the first director of the Hungarian Geographical Institute. After his father’s death, Károly took over the leadership of his company and the Institute, modernizing both. During World War I, he served as an aerial photo interpreter, but after the war, he lost his stake in the company his father had founded. Despite this setback, Károly continued his academic career, eventually becoming a professor at the University of Szeged and holding various significant positions, including rector. Kogutowicz is best known for his contributions to Hungarian ethnography, particularly in the creation of detailed ethnographic and geographical maps. As with Bátky, this map represents a high point in his career, being one of the most detailed and influential maps of its kind. Kogutowicz also published a notable geographical map in 1927 and continued playing a key role in the development of ethnographic cartography later in his life. His work also extended beyond mapping and he contributed to academic research on landscape, population, and settlement geography, and advised on practical agricultural methods. Zsigmond Bátky Zsigmond Bátky was a prominent Hungarian ethnographer, geographer, and folk culture expert. He completed his education in Budapest, earning a doctorate in geography in 1900. From 1896, Bátky worked at the Hungarian National Museum’s ethnographic department and library, becoming its director in 1920, a position he held for 15 years. Bátky was involved in significant ethnographic research, particularly in folk architecture, Hungarian peasant houses, and heating systems. His studies are remembered for contributuing greatly to the development of Hungarian ethnography.\" (Ruderman, 2025)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16400.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "90"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16400013.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/218/16400013.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Bátky, Zsigmond ; Kogutowicz, Károly"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~370884~90138389/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~370884~90138389/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~370884~90138389",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 46392,
+                    "height": 33000
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~370884~90138389/canvas/c1"
+                }
+              ],
+              "width": 46392,
+              "height": 33000
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~370884~90138389"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~364825~90132407/manifest",
+      "label": "Covers: Grande atlante geografico ... (2)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~364825~90132407/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~364825~90132407/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Covers: Grande atlante geografico ... (2)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Baratta, Mario, 1868-1935"
+                },
+                {
+                  "label": "Author",
+                  "value": "Visintin, Luigi"
+                },
+                {
+                  "label": "Date",
+                  "value": "1922"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Covers: Grande atlante geografico ... (2)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Istituto geografico De Agostini"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Novara (Italy)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Covers"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "41"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Note",
+                  "value": "Covers to Grande atlante geografico, Volume I. Maroon leather cover with matching fabric overlay and spine, gilt title and spine title."
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Covers to) Grande atlante geografico : 102 tavole di geografia fisica, politica ed economica con 250 carte e cartine ed indice dei nomi. (2)"
+                },
+                {
+                  "label": "List No",
+                  "value": "14510.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Baratta, Mario, 1868-1935"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Visintin, Luigi"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1922"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Grande atlante geografico : 102 tavole di geografia fisica, politica ed economica con 250 carte e cartine ed indice dei nomi."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Grande atlante geografico : 102 tavole di geografia fisica, politica ed economica con 250 carte e cartine ed indice dei nomi by Mario Baratta and Luigi Visintin. Published by Istituto Geografico de Agostini in Novara, Italy, 1922. Title translates to: Large geographical atlas: 102 tables of physical, political and economic geography with 250 charts and maps and an index of names. In two volumes. The first volume includes a brown paper jacket with the title printed in blue on the cover and spine, with a maroon leather cover and matching fabric overlay and spine, gilt title and spine title. The second volume includes a maroon fabric cover, gilt title and spine title. Each volume include a title page, table of contents, and extensive index. Atlas covers the world and includes 304 maps across both volumes. Maps show political boundaries, cities, railways, roads, deserts, bodies of water, drainage, coastlines, and islands. Founded in Rome in 1901 by Giovanni De Agostini with the name \"Primo Istituto Italiano di Cartografia\", the primary title of the newly founded publishing house was the Atlante De Agostini Calendar. The idea was an immediately success. In 1908 the company moved to Novara, Italy, both because it was closer to Germany, from which De Agostini took his cartography equipment, and because the area had rapid industrial development. In 1919 the company was acquired by Marco Boroli and Cesare Rossi and began its climb to success. In 1922 the Great Geographical Atlas was released - the first great Italian atlas. From 1927, with the installation in Novara of the first rotogravure printing plant in Italy, the De Agostini Institute began to diversify its publishing activities: it inaugurated a series of illustrated books, entered the sector of school textbooks, and published a series of art books. In 1946, the company was taken over entirely by the Boroli family. In the 1950s, the company produced art editions, children's books and large encyclopedia volumes. From 1959 to 1970 sixteen large encyclopedias were produced and accompanied by the adoption of installment sales, an absolute novelty for the time. Starting in 1983, the company began to lead the industry with large, multi-volume works and school textbooks, gaining a leading position at a national level. It then began to acquire publishing houses operating in major European markets. Today, De Agostini Editore is currently one of the most well-known and important Italian publishing houses, operating in over thirty countries around the world in thirteen different languages. Its activities are focused on the promotion and dissemination of knowledge in all its forms. Historical notes courtesy Fondazione Fiera, Milan: https://archiviostorico.fondazionefiera.it/entita/1463-istituto-geografico-de-agostini"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14510.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "304"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "41"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "39"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14510002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/14510002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Baratta, Mario, 1868-1935; Visintin, Luigi"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~364825~90132407/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~364825~90132407/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~364825~90132407",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 13519,
+                    "height": 8447
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~364825~90132407/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~364825~90132407/list/luna"
+              ],
+              "width": 13519,
+              "height": 8447
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~364825~90132407"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~364857~90132240/manifest",
+      "label": "Europa : Carta politica ...",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~364857~90132240/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~364857~90132240/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Europa : Carta politica ...",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Baratta, Mario, 1868-1935"
+                },
+                {
+                  "label": "Author",
+                  "value": "Visintin, Luigi"
+                },
+                {
+                  "label": "Date",
+                  "value": "1922"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Europa : Carta politica ..."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Istituto geografico De Agostini"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Novara (Italy)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "36"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "45"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "50,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Three maps representing European political geography (in the first map), ethnographic geography (second map), and population density (third map). Maps show political boundaries, topography, bodies of water, drainage, coastlines, and islands. Relief shown with hachures. The first two maps include bar scales given in kilometers. Each map includes a legend, latitudinal and longitudinal lines, as well as a scale statement; scales differ. The maps share descriptive text. Color lithograph. Together, maps are 36 x 45 cm, on double sheet 40 x 53 cm. Maps appear in Volume I."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Europe"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Political"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Europa : Carta politica. -- Europa etnografica. -- Densità di popolazione. Istituto Geografico de Agostini - Novara, di Cesare Rossi e dott. A. Marco Boroli."
+                },
+                {
+                  "label": "List No",
+                  "value": "14510.034"
+                },
+                {
+                  "label": "Series No",
+                  "value": "34"
+                },
+                {
+                  "label": "Page No",
+                  "value": "21-22"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Baratta, Mario, 1868-1935"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Visintin, Luigi"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1922"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Grande atlante geografico : 102 tavole di geografia fisica, politica ed economica con 250 carte e cartine ed indice dei nomi."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Grande atlante geografico : 102 tavole di geografia fisica, politica ed economica con 250 carte e cartine ed indice dei nomi by Mario Baratta and Luigi Visintin. Published by Istituto Geografico de Agostini in Novara, Italy, 1922. Title translates to: Large geographical atlas: 102 tables of physical, political and economic geography with 250 charts and maps and an index of names. In two volumes. The first volume includes a brown paper jacket with the title printed in blue on the cover and spine, with a maroon leather cover and matching fabric overlay and spine, gilt title and spine title. The second volume includes a maroon fabric cover, gilt title and spine title. Each volume include a title page, table of contents, and extensive index. Atlas covers the world and includes 304 maps across both volumes. Maps show political boundaries, cities, railways, roads, deserts, bodies of water, drainage, coastlines, and islands. Founded in Rome in 1901 by Giovanni De Agostini with the name \"Primo Istituto Italiano di Cartografia\", the primary title of the newly founded publishing house was the Atlante De Agostini Calendar. The idea was an immediately success. In 1908 the company moved to Novara, Italy, both because it was closer to Germany, from which De Agostini took his cartography equipment, and because the area had rapid industrial development. In 1919 the company was acquired by Marco Boroli and Cesare Rossi and began its climb to success. In 1922 the Great Geographical Atlas was released - the first great Italian atlas. From 1927, with the installation in Novara of the first rotogravure printing plant in Italy, the De Agostini Institute began to diversify its publishing activities: it inaugurated a series of illustrated books, entered the sector of school textbooks, and published a series of art books. In 1946, the company was taken over entirely by the Boroli family. In the 1950s, the company produced art editions, children's books and large encyclopedia volumes. From 1959 to 1970 sixteen large encyclopedias were produced and accompanied by the adoption of installment sales, an absolute novelty for the time. Starting in 1983, the company began to lead the industry with large, multi-volume works and school textbooks, gaining a leading position at a national level. It then began to acquire publishing houses operating in major European markets. Today, De Agostini Editore is currently one of the most well-known and important Italian publishing houses, operating in over thirty countries around the world in thirteen different languages. Its activities are focused on the promotion and dissemination of knowledge in all its forms. Historical notes courtesy Fondazione Fiera, Milan: https://archiviostorico.fondazionefiera.it/entita/1463-istituto-geografico-de-agostini"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14510.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "304"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "41"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "39"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14510034.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/14510034.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Baratta, Mario, 1868-1935; Visintin, Luigi"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~364857~90132240/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~364857~90132240/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~364857~90132240",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12417,
+                    "height": 8413
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~364857~90132240/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~364857~90132240/list/luna"
+              ],
+              "width": 12417,
+              "height": 8413
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~364857~90132240"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~365011~90132386/manifest",
+      "label": "Regione Danubiana - Carpatica; Balcania Sett. (Austria, Ungheria, Romania; Jugoslavia, Bulgaria).",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~365011~90132386/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~365011~90132386/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Regione Danubiana - Carpatica; Balcania Sett. (Austria, Ungheria, Romania; Jugoslavia, Bulgaria).",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Baratta, Mario, 1868-1935"
+                },
+                {
+                  "label": "Author",
+                  "value": "Visintin, Luigi"
+                },
+                {
+                  "label": "Date",
+                  "value": "1922"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Regione Danubiana - Carpatica; Balcania Sett. (Austria, Ungheria, Romania; Jugoslavia, Bulgaria)."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Istituto geografico De Agostini"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Novara (Italy)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "36"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "58"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "2,500,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map representing the Carpathian Mountains and the northern part of the Balkan Peninsula, with current-day Bulgaria, Kosovo, Montenegro, Serbia, Romania, Bosnia and Herzegovina, Croatia, Slovenia, Hungary, Slovakia, and Austria. Shows political boundaries, topography, cities, roads, bodies of water, drainage, coastlines, islands, and water depths. Relief shown with hachures and color coding. Includes a legend, latitudinal and longitudinal lines, an index of place names, a bar scale given in kilometers, as well as a scale statement: 1:2,500,000. Color lithograph. Map is 36 x 58 cm, on fold-out sheet 40 x 64 cm. Appears in Volume II."
+                },
+                {
+                  "label": "Country",
+                  "value": "Bulgaria"
+                },
+                {
+                  "label": "Country",
+                  "value": "Kosovo"
+                },
+                {
+                  "label": "Country",
+                  "value": "Montenegro"
+                },
+                {
+                  "label": "Country",
+                  "value": "Serbia"
+                },
+                {
+                  "label": "Country",
+                  "value": "Romania"
+                },
+                {
+                  "label": "Region",
+                  "value": "Balkan Peninsula"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Regione Danubiana - Carpatica; Balcania Sett. (Austria, Ungheria, Romania; Jugoslavia, Bulgaria). Istituto Geografico de Agostini - Novara, di Cesare Rossi e dott. A. Marco Boroli."
+                },
+                {
+                  "label": "List No",
+                  "value": "14510.179"
+                },
+                {
+                  "label": "Series No",
+                  "value": "179"
+                },
+                {
+                  "label": "Page No",
+                  "value": "63-64"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Baratta, Mario, 1868-1935"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Visintin, Luigi"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1922"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Grande atlante geografico : 102 tavole di geografia fisica, politica ed economica con 250 carte e cartine ed indice dei nomi."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Grande atlante geografico : 102 tavole di geografia fisica, politica ed economica con 250 carte e cartine ed indice dei nomi by Mario Baratta and Luigi Visintin. Published by Istituto Geografico de Agostini in Novara, Italy, 1922. Title translates to: Large geographical atlas: 102 tables of physical, political and economic geography with 250 charts and maps and an index of names. In two volumes. The first volume includes a brown paper jacket with the title printed in blue on the cover and spine, with a maroon leather cover and matching fabric overlay and spine, gilt title and spine title. The second volume includes a maroon fabric cover, gilt title and spine title. Each volume include a title page, table of contents, and extensive index. Atlas covers the world and includes 304 maps across both volumes. Maps show political boundaries, cities, railways, roads, deserts, bodies of water, drainage, coastlines, and islands. Founded in Rome in 1901 by Giovanni De Agostini with the name \"Primo Istituto Italiano di Cartografia\", the primary title of the newly founded publishing house was the Atlante De Agostini Calendar. The idea was an immediately success. In 1908 the company moved to Novara, Italy, both because it was closer to Germany, from which De Agostini took his cartography equipment, and because the area had rapid industrial development. In 1919 the company was acquired by Marco Boroli and Cesare Rossi and began its climb to success. In 1922 the Great Geographical Atlas was released - the first great Italian atlas. From 1927, with the installation in Novara of the first rotogravure printing plant in Italy, the De Agostini Institute began to diversify its publishing activities: it inaugurated a series of illustrated books, entered the sector of school textbooks, and published a series of art books. In 1946, the company was taken over entirely by the Boroli family. In the 1950s, the company produced art editions, children's books and large encyclopedia volumes. From 1959 to 1970 sixteen large encyclopedias were produced and accompanied by the adoption of installment sales, an absolute novelty for the time. Starting in 1983, the company began to lead the industry with large, multi-volume works and school textbooks, gaining a leading position at a national level. It then began to acquire publishing houses operating in major European markets. Today, De Agostini Editore is currently one of the most well-known and important Italian publishing houses, operating in over thirty countries around the world in thirteen different languages. Its activities are focused on the promotion and dissemination of knowledge in all its forms. Historical notes courtesy Fondazione Fiera, Milan: https://archiviostorico.fondazionefiera.it/entita/1463-istituto-geografico-de-agostini"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14510.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "304"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "41"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "39"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14510179.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/14510179.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Baratta, Mario, 1868-1935; Visintin, Luigi"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~365011~90132386/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~365011~90132386/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~365011~90132386",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 13410,
+                    "height": 8365
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~365011~90132386/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~365011~90132386/list/luna"
+              ],
+              "width": 13410,
+              "height": 8365
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~365011~90132386"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~339565~90107704/manifest",
+      "label": "Polska W Trzech Zaborach W Granicach Przedrozbiorowych W 1770 R. Oraz W Innych Wazniejszych Okresach Historycznych",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~339565~90107704/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~339565~90107704/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Polska W Trzech Zaborach W Granicach Przedrozbiorowych W 1770 R. Oraz W Innych Wazniejszych Okresach Historycznych",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Bazewicz, Józef Michal"
+                },
+                {
+                  "label": "Date",
+                  "value": "1922"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Polska W Trzech Zaborach W Granicach Przedrozbiorowych W 1770 R. Oraz W Innych Wazniejszych Okresach Historycznych"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Józef Michal Bazewicz"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Warsaw"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "64"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "90"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "1,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Date estimated"
+                },
+                {
+                  "label": "Country",
+                  "value": "Poland"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Historical"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Polska W Trzech Zaborach W Granicach Przedrozbiorowych W 1770 R. Oraz W Innych Wazniejszych Okresach Historycznych"
+                },
+                {
+                  "label": "List No",
+                  "value": "10915.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Bazewicz, Józef Michal"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1922"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Polska W Trzech Zaborach W Granicach Przedrozbiorowych W 1770 R. Oraz W Innych Wazniejszych Okresach Historycznych"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"Iconic 20th Century Map of the History of Poland Celebrating The Rebirth of Polish Independence After World War I Remarkably early 20th Century map of Poland, showing the cartographic evolution of the former Polish Kingdom from its formation in the 9th Century until 1770 (on the eve of the First Partition of Poland). Published in Warsaw, the map is the work of Józef Michał Bazewicz, a respected bookseller and cartographer, as both a celebration of Poland's history and rebirth as an independent state following the conclusion of World War I. The map extends from the Gulf of Riga, in the north, down to the shores of the Black Sea in the south, and from Magdeburg, Germany, in the west, over to Tula, Russia, in the east. The evolution of Poland's history is overlayed on a modern topographical map of the region. The map provides an overlay of historical and contemporary information. The traditional Polish historical voivodships are shown, as well as areas colored to show the regions controlled by various foreign powers up until the end of World War I. The map illustrates the far reaching boundaries of the Kingdom of Poland, extending to all or part of 11 modern nations: Poland, Czech Republic, Slovakia, Germany, Romania, Moldova, Ukraine, Belarus, Russia, Latvia and Lithuania, and at one time extended from the shores of the Baltic to the Black Sea. Dotted lines show the various historical territories and labels the dates under which the regions were controlled by the Kingdom of Poland. The map is embellished with the coats of arms of the traditional Polish voivodships and military institutions. Four inserts give further details as to Poland's territorial evolution. The map celebreates the rebirth of the Polish Republic, an event anticipated and fought for by Poles for nearly 150 years. The map is celebrated as one of the graphic icons of Poland's rebirth. The mapmaker, Józef Michał Bazewicz (1867 - 1929) was a prominent Warsaw cartographer, writer and bookseller, and a leading figure on the cultural scene in the Polish capital during the first quarter of the 20th Century. While the present map is his most famous work, he issued many publications, including a historical atlas of Poland, Atlas historyczny Polski (Warsaw, 1916) and a popular patriotic tract, Prawdy historyczne, konieczności dziejowe i zadania Polski, z mapą Europy na przełomie wieków XIV i XV (Warsaw, 1921). (Alexander Johnson and Dasa Pahor, 2021)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10915.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "64"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "90"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10915000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/195/10915000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Bazewicz, Józef Michal"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~339565~90107704/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~339565~90107704/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~339565~90107704",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 24800,
+                    "height": 17536
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~339565~90107704/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~339565~90107704/list/luna"
+              ],
+              "width": 24800,
+              "height": 17536
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~339565~90107704"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362349~90129707/manifest",
+      "label": "Cram's Political Map of Europe. Superior Series.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~362349~90129707/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362349~90129707/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Cram's Political Map of Europe. Superior Series.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Cram, George Franklin, 1841-1928"
+                },
+                {
+                  "label": "Date",
+                  "value": "1925"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Cram's Political Map of Europe. Superior Series."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Cram Atlas Company"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Indianapolis"
+                },
+                {
+                  "label": "Type",
+                  "value": "Wall Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "105"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "124"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "4,750,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Date estimated."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Europe"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Cram's Political Map of Europe. Superior Series."
+                },
+                {
+                  "label": "List No",
+                  "value": "16075.007"
+                },
+                {
+                  "label": "Series No",
+                  "value": "7"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Cram, George Franklin, 1841-1928"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1925"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Cram's \"Portable. Washable\" Map And Atlas Outfit"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "On the inside of the case top are printed directions for use: \"DIRECTIONS FOR USING CRAM'S \"PORTABLE. WASHABLE\" MAP AND ATLAS OUTFIT Consisting of Cram's Unrivaled World Atlas and nine large maps for wall use — State, United States, North America, South America, Europe, Asia, Africa, Mercator World and Hemisphere World The Cram Company has manufactured this set of school maps to eliminate much trouble and inconvenience resulting from using maps attached to spring rollers and mounted in wall-cases; also to avoid the unnecessary expense of buying expensive fixtures. By having each map a separate individual part of the complete set so mounted it can be easily unfolded and hung on hooks or nails, the teacher is able to show one or all the maps at the same time, thus giving a better idea of comparison. The eyelets for hanging are all an equal distance apart. Each map in the set has been hand mounted on cloth and especially treated with cellulose so as to make it a Washable Map. Cram's special cellulose surface is a thin, flexible celluloid pigment applied to the surface of the map. The teacher can mark or color the map with ink, water colors, paints, soft lead pencil or crayon. The ink or water colors can be erased with a damp cloth or sponge; the pencil or crayon markings with art gum. Thus the teacher can use these maps to record current events, show changes and illustrate historical and political happenings without injuring the map. When the maps become soiled by use clean them with a damp cloth or sponge. The Unrivaled Atlas has been prepared as a reference work of the entire world to be used along with the wall maps. The atlas gives every detail which is not possible to show on the wall maps and still make them clear and readable at a distance. Cram's Maps, Atlases and Globes are guaranteed to satisfy. THE GEORGE F. CRAM COMPANY, Indianapolis, Ind.\" The Unrivaled Atlas of the World was not present in this set but we will be adding it shortly. The inclusion of the Kansas maps indicates that this set was put together for a school in Kansas."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16075.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Wall Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "10"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "48"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16075007.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/16075007.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Cram, George Franklin, 1841-1928"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~362349~90129707/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~362349~90129707/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~362349~90129707",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 19941,
+                    "height": 17881
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362349~90129707/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~362349~90129707/list/luna"
+              ],
+              "width": 19941,
+              "height": 17881
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~362349~90129707"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369389~90136693/manifest",
+      "label": "Cover: Album statistic al igienei preventive, asistenţei medicale și al asistentei sociale.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~369389~90136693/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369389~90136693/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Cover: Album statistic al igienei preventive, asistenţei medicale și al asistentei sociale.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Stoicescu, I.R."
+                },
+                {
+                  "label": "Author",
+                  "value": "Glicsman, I."
+                },
+                {
+                  "label": "Date",
+                  "value": "1927"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Cover: Album statistic al igienei preventive, asistenţei medicale și al asistentei sociale."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Atelierele Grafice Socec & Co."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Bucharest"
+                },
+                {
+                  "label": "Type",
+                  "value": "Covers"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "32"
+                },
+                {
+                  "label": "Note",
+                  "value": "Covers to Album statistic al igienei preventive, asistenţei medicale și al asistentei sociale. Title translates to, \"Statistical album of preventive hygiene, medical and social assistance.\" Text appears in Romanian. Bound in cream-colored paper with gilt title and decorative border on front cover."
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Covers to) Album statistic al igienei preventive, asistenţei medicale și al asistentei sociale. România Ministerul sănătăţii şi ocrotirilor sociale. Directiunea statisticii şi propagandei. Or an gupant introductiv de Prof. Dr I.Lupas, Ministerul Sănătăţii şi Ocrotirilor Sociale."
+                },
+                {
+                  "label": "List No",
+                  "value": "14536.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Stoicescu, I.R."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Glicsman, I."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1927"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Album statistic al igienei preventive, asistenţei medicale și al asistentei sociale. România Ministerul sănătăţii şi ocrotirilor sociale. Directiunea statisticii şi propagandei. Dr. I. Glicsman. Directorul serviciului statistic, propagandei şI studiilor la minist. Sănătății și ocrotirilor sociale. I. R. Stoicescu. Desenator-cartograf subdirector la minist. Sănătății și ocrotirilor sociale. Atelierele Grafice Socec & Co., S. A. Bucureşti. 1927."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Album statistic al igienei preventive, asistenţei medicale și al asistentei sociale., by I. Glicsman and I.R. Stoicescu, published by Atelierele Grafice Socec & Co., in Bucharest, 1927. Title translates to, \"Statistical album of preventive hygiene, medical and social assistance.\" Bound in cream-colored paper with gilt title and decorative border on front cover. Text appears with parallel translations in Romanian, French, and English. Volume is 59 pages, including a table of contents, an introduction, 15 maps, 82 views numerous diagrams. The volume provides an extensive overview of the medical and social support systems in Romania in the early 1920s, with detailed maps, photographic views, statistical diagrams, and related descriptive text. The end of the volume includes detailed information on baths, hotels, and resorts."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14536.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Statistical Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "15"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "32"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14536001.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/218/14536001.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Stoicescu, I.R.; Glicsman, I."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369389~90136693/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369389~90136693/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369389~90136693",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12663,
+                    "height": 8185
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369389~90136693/canvas/c1"
+                }
+              ],
+              "width": 12663,
+              "height": 8185
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~369389~90136693"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369402~90136701/manifest",
+      "label": "Romania = (Roumanie) = Romania : Harta medicilor igienişti («medici sanitari») și a subdiviziunilor administrative sanitare ...",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~369402~90136701/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369402~90136701/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Romania = (Roumanie) = Romania : Harta medicilor igienişti («medici sanitari») și a subdiviziunilor administrative sanitare ...",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Stoicescu, I.R."
+                },
+                {
+                  "label": "Author",
+                  "value": "Glicsman, I."
+                },
+                {
+                  "label": "Date",
+                  "value": "1927"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Romania = (Roumanie) = Romania : Harta medicilor igienişti («medici sanitari») și a subdiviziunilor administrative sanitare ..."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Atelierele Grafice Socec & Co."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Bucharest"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "39"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "54"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map representing current-day Romania, Moldova, and part of Ukraine, showing sanitary physicians and sanitary administrative subdivisions. Map also shows political boundaries, cities, bodies of water, drainage, and coastlines. Includes two legends. Colored lithograph. Titles appear in parallel Romanian, French, and English. Map is 39 x 54 cm, on double sheet 42 x 61 cm."
+                },
+                {
+                  "label": "Country",
+                  "value": "Romania"
+                },
+                {
+                  "label": "Country",
+                  "value": "Moldova"
+                },
+                {
+                  "label": "Country",
+                  "value": "Ukraine"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Health; Disease"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Administrative and political divisions"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Romania = (Roumanie) = Romania : Harta medicilor igienişti («medici sanitari») și a subdiviziunilor administrative sanitare = Carte des résidences des medecins hygienistes (medecins sanitaires») et des subdivisions administratives sanitaires = Map of sanitary physicians and of the sanitary administrative subdivisions. Cartea Românească S.A."
+                },
+                {
+                  "label": "List No",
+                  "value": "14536.014"
+                },
+                {
+                  "label": "Series No",
+                  "value": "14"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Stoicescu, I.R."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Glicsman, I."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1927"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Album statistic al igienei preventive, asistenţei medicale și al asistentei sociale. România Ministerul sănătăţii şi ocrotirilor sociale. Directiunea statisticii şi propagandei. Dr. I. Glicsman. Directorul serviciului statistic, propagandei şI studiilor la minist. Sănătății și ocrotirilor sociale. I. R. Stoicescu. Desenator-cartograf subdirector la minist. Sănătății și ocrotirilor sociale. Atelierele Grafice Socec & Co., S. A. Bucureşti. 1927."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Album statistic al igienei preventive, asistenţei medicale și al asistentei sociale., by I. Glicsman and I.R. Stoicescu, published by Atelierele Grafice Socec & Co., in Bucharest, 1927. Title translates to, \"Statistical album of preventive hygiene, medical and social assistance.\" Bound in cream-colored paper with gilt title and decorative border on front cover. Text appears with parallel translations in Romanian, French, and English. Volume is 59 pages, including a table of contents, an introduction, 15 maps, 82 views numerous diagrams. The volume provides an extensive overview of the medical and social support systems in Romania in the early 1920s, with detailed maps, photographic views, statistical diagrams, and related descriptive text. The end of the volume includes detailed information on baths, hotels, and resorts."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14536.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Statistical Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "15"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "32"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14536014.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/218/14536014.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Stoicescu, I.R.; Glicsman, I."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369402~90136701/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369402~90136701/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369402~90136701",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11710,
+                    "height": 8111
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369402~90136701/canvas/c1"
+                }
+              ],
+              "width": 11710,
+              "height": 8111
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~369402~90136701"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357646~90124590/manifest",
+      "label": "Covers: Mala vlastiveda [The Little Civics Reader]",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~357646~90124590/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357646~90124590/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Covers: Mala vlastiveda [The Little Civics Reader]",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Sutnar, Ladislav"
+                },
+                {
+                  "label": "Author",
+                  "value": "Tschinkel, Augustin"
+                },
+                {
+                  "label": "Date",
+                  "value": "1935"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Covers: Mala vlastiveda [The Little Civics Reader]"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Statni nakladatelstvi v praze,"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Prague"
+                },
+                {
+                  "label": "Type",
+                  "value": "Covers"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Country",
+                  "value": "Czech Republic"
+                },
+                {
+                  "label": "Subject",
+                  "value": "School"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Covers to) Mala vlastiveda [The Little Civics Reader]"
+                },
+                {
+                  "label": "List No",
+                  "value": "15867.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Sutnar, Ladislav"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Tschinkel, Augustin"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1935"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Mala vlastiveda [The Little Civics Reader]"
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "See Benjamin Benus \"Modernist Graphics, New Typography, and the Design of Identity in the First Czechoslovak Republic\" https://www.taylorfrancis.com/chapters/edit/10.4324/9781003096146-21/modernist-graphics-new-typography-design-identity-first-czechoslovak-republic-benjamin-benus"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"An early isotype book with typography by Ladislav Sutnar. A fine copy of this rare incunable of the Isotype Movement incorporating Sutnar’s constructivist typography with the isotypes of Augustin Tschinkel who had previously worked with Arntz and Neurath at the Gesellschafts-und Wirtschaftsmuseum in Vienna. Since this was created as a textbook for students of an independent Czechoslovakia, copies were probably destroyed by the Nazis after they took over. OCLC lists only one copy in the U.S., at Northwestern, and 2 in Europe.\" (Ursus Books, 2023)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15867.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "School Atlas"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15867001.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/15867001.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Sutnar, Ladislav; Tschinkel, Augustin"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~357646~90124590/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~357646~90124590/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~357646~90124590",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 14675,
+                    "height": 5285
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357646~90124590/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357646~90124590/list/luna"
+              ],
+              "width": 14675,
+              "height": 5285
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~357646~90124590"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357653~90124583/manifest",
+      "label": "Riše Karlova (Karlova's Empire) (with) Rakousko-Uhersko (Austria Hungary)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~357653~90124583/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357653~90124583/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Riše Karlova (Karlova's Empire) (with) Rakousko-Uhersko (Austria Hungary)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Sutnar, Ladislav"
+                },
+                {
+                  "label": "Author",
+                  "value": "Tschinkel, Augustin"
+                },
+                {
+                  "label": "Date",
+                  "value": "1935"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Riše Karlova (Karlova's Empire) (with) Rakousko-Uhersko (Austria Hungary)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Statni nakladatelstvi v praze,"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Prague"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "60"
+                },
+                {
+                  "label": "Country",
+                  "value": "Czech Republic"
+                },
+                {
+                  "label": "Subject",
+                  "value": "School"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Riše Karlova (Karlova's Empire) (with) Rakousko-Uhersko (Austria Hungary)"
+                },
+                {
+                  "label": "List No",
+                  "value": "15867.008"
+                },
+                {
+                  "label": "Series No",
+                  "value": "8"
+                },
+                {
+                  "label": "Page No",
+                  "value": "12-13"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Sutnar, Ladislav"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Tschinkel, Augustin"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1935"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Mala vlastiveda [The Little Civics Reader]"
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "See Benjamin Benus \"Modernist Graphics, New Typography, and the Design of Identity in the First Czechoslovak Republic\" https://www.taylorfrancis.com/chapters/edit/10.4324/9781003096146-21/modernist-graphics-new-typography-design-identity-first-czechoslovak-republic-benjamin-benus"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"An early isotype book with typography by Ladislav Sutnar. A fine copy of this rare incunable of the Isotype Movement incorporating Sutnar’s constructivist typography with the isotypes of Augustin Tschinkel who had previously worked with Arntz and Neurath at the Gesellschafts-und Wirtschaftsmuseum in Vienna. Since this was created as a textbook for students of an independent Czechoslovakia, copies were probably destroyed by the Nazis after they took over. OCLC lists only one copy in the U.S., at Northwestern, and 2 in Europe.\" (Ursus Books, 2023)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15867.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "School Atlas"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15867008.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/15867008.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Sutnar, Ladislav; Tschinkel, Augustin"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~357653~90124583/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~357653~90124583/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~357653~90124583",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 14372,
+                    "height": 5279
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357653~90124583/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357653~90124583/list/luna"
+              ],
+              "width": 14372,
+              "height": 5279
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~357653~90124583"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357654~90124582/manifest",
+      "label": "Boj za svobodu (The Fight for Freedom) (with) Vznik Československé republiky (Emergence of the Czechoslovak Republic)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~357654~90124582/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357654~90124582/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Boj za svobodu (The Fight for Freedom) (with) Vznik Československé republiky (Emergence of the Czechoslovak Republic)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Sutnar, Ladislav"
+                },
+                {
+                  "label": "Author",
+                  "value": "Tschinkel, Augustin"
+                },
+                {
+                  "label": "Date",
+                  "value": "1935"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Boj za svobodu (The Fight for Freedom) (with) Vznik Československé republiky (Emergence of the Czechoslovak Republic)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Statni nakladatelstvi v praze,"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Prague"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "60"
+                },
+                {
+                  "label": "Country",
+                  "value": "Czech Republic"
+                },
+                {
+                  "label": "Subject",
+                  "value": "School"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Boj za svobodu (The Fight for Freedom) (with) Vznik Československé republiky (Emergence of the Czechoslovak Republic)"
+                },
+                {
+                  "label": "List No",
+                  "value": "15867.009"
+                },
+                {
+                  "label": "Series No",
+                  "value": "9"
+                },
+                {
+                  "label": "Page No",
+                  "value": "14-15"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Sutnar, Ladislav"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Tschinkel, Augustin"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1935"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Mala vlastiveda [The Little Civics Reader]"
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "See Benjamin Benus \"Modernist Graphics, New Typography, and the Design of Identity in the First Czechoslovak Republic\" https://www.taylorfrancis.com/chapters/edit/10.4324/9781003096146-21/modernist-graphics-new-typography-design-identity-first-czechoslovak-republic-benjamin-benus"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"An early isotype book with typography by Ladislav Sutnar. A fine copy of this rare incunable of the Isotype Movement incorporating Sutnar’s constructivist typography with the isotypes of Augustin Tschinkel who had previously worked with Arntz and Neurath at the Gesellschafts-und Wirtschaftsmuseum in Vienna. Since this was created as a textbook for students of an independent Czechoslovakia, copies were probably destroyed by the Nazis after they took over. OCLC lists only one copy in the U.S., at Northwestern, and 2 in Europe.\" (Ursus Books, 2023)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15867.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "School Atlas"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15867009.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/15867009.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Sutnar, Ladislav; Tschinkel, Augustin"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~357654~90124582/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~357654~90124582/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~357654~90124582",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 14328,
+                    "height": 5293
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357654~90124582/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357654~90124582/list/luna"
+              ],
+              "width": 14328,
+              "height": 5293
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~357654~90124582"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316960~90085627/manifest",
+      "label": "Covers and Index: Die Karte spricht",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~316960~90085627/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316960~90085627/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Covers and Index: Die Karte spricht",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Vogel, Joseph"
+                },
+                {
+                  "label": "Date",
+                  "value": "1935"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Covers and Index: Die Karte spricht"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Heinrich Handel"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Breslau"
+                },
+                {
+                  "label": "Type",
+                  "value": "Covers"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Covers and Index to) Die Karte spricht : 30 bunte Bildkarten zur Erdkunde unseres Vaterlandes. Von Jos. Vogel. 3. Auflage. Heinrich Handels Verlag Breslau."
+                },
+                {
+                  "label": "List No",
+                  "value": "13140.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Vogel, Joseph"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1935"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Die Karte spricht : 30 bunte Bildkarten zur Erdkunde unseres Vaterlandes. Von Jos. Vogel. 3. Auflage. Heinrich Handels Verlag Breslau."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Third edition atlas, with 30 hand colored maps, made in Wroclaw (Breslau), today Poland, but in 1930s, a part of Germany and beside Berlin second largest city in East Germany. The atlas was prepared by Joseph Vogel and was offset printing in Breslau by Heinrich Handel and was sold as a manual for school children. Title from cover. 30 numbered geographical, historical, economical, political, ethnographical and other maps, with illustrated covers, printed on thick paper, green linen spine and table of contents on back cover. Show the tendencies towards the so called Greater Germany and its situation after the Treaty of Versailles."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "13140.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "School Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "30"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Image No",
+                  "value": "13140001.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/13140001.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Vogel, Joseph"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~316960~90085627/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~316960~90085627/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~316960~90085627",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11451,
+                    "height": 4135
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316960~90085627/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316960~90085627/list/luna"
+              ],
+              "width": 11451,
+              "height": 4135
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~316960~90085627"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316962~90085625/manifest",
+      "label": "Deutschland Bruder im Grenzland",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~316962~90085625/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316962~90085625/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Deutschland Bruder im Grenzland",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Vogel, Joseph"
+                },
+                {
+                  "label": "Date",
+                  "value": "1935"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Deutschland Bruder im Grenzland"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Heinrich Handel"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Breslau"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "12"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Hand colored map. Showing international boundaries, State of Germany in Europe and its battlefields, facts about German geopolitics and nationalities. Includes text."
+                },
+                {
+                  "label": "Country",
+                  "value": "Germany"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Deutschland Bruder im Grenzland. (to accompany) Die Karte spricht ... Von Jos. Vogel. 3. Auflage. Heinrich Handels Verlag Breslau."
+                },
+                {
+                  "label": "List No",
+                  "value": "13140.003"
+                },
+                {
+                  "label": "Series No",
+                  "value": "3"
+                },
+                {
+                  "label": "Page No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Vogel, Joseph"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1935"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Die Karte spricht : 30 bunte Bildkarten zur Erdkunde unseres Vaterlandes. Von Jos. Vogel. 3. Auflage. Heinrich Handels Verlag Breslau."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Third edition atlas, with 30 hand colored maps, made in Wroclaw (Breslau), today Poland, but in 1930s, a part of Germany and beside Berlin second largest city in East Germany. The atlas was prepared by Joseph Vogel and was offset printing in Breslau by Heinrich Handel and was sold as a manual for school children. Title from cover. 30 numbered geographical, historical, economical, political, ethnographical and other maps, with illustrated covers, printed on thick paper, green linen spine and table of contents on back cover. Show the tendencies towards the so called Greater Germany and its situation after the Treaty of Versailles."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "13140.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "School Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "30"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Image No",
+                  "value": "13140003.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/13140003.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Vogel, Joseph"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~316962~90085625/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~316962~90085625/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~316962~90085625",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 5072,
+                    "height": 3394
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316962~90085625/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~316962~90085625/list/luna"
+              ],
+              "width": 5072,
+              "height": 3394
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~316962~90085625"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~330385~90098911/manifest",
+      "label": "Poland",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~330385~90098911/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~330385~90098911/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Poland",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Atelier \"Mewa\""
+                },
+                {
+                  "label": "Date",
+                  "value": "1935"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Poland"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Drukarnia Naradows"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Krakow"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "58"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Note",
+                  "value": "Date estimated. Publisher active in 1930's."
+                },
+                {
+                  "label": "Country",
+                  "value": "Poland"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Poland"
+                },
+                {
+                  "label": "List No",
+                  "value": "10671.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Atelier \"Mewa\""
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1935"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Poland"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10671.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10671002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/190/10671002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Atelier \"Mewa\""
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~330385~90098911/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~330385~90098911/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~330385~90098911",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11318,
+                    "height": 14488
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~330385~90098911/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~330385~90098911/list/luna"
+              ],
+              "width": 11318,
+              "height": 14488
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~330385~90098911"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369772~90137139/manifest",
+      "label": "Covers: Burgenland.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~369772~90137139/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369772~90137139/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Covers: Burgenland.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Hassinger, Hugo"
+                },
+                {
+                  "label": "Author",
+                  "value": "Bodo, Fritz"
+                },
+                {
+                  "label": "Date",
+                  "value": "1941"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Covers: Burgenland."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Osterreichischer Landesverlag"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Vienna"
+                },
+                {
+                  "label": "Type",
+                  "value": "Covers"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "38"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Note",
+                  "value": "Covers to Burgenland (1921-1938). Bound in board with pasted-on maroon fabric and spine over red paper. With gilt title on front cover and spine. Spine includes hand-painted symbols in black over a yellow painted rectangle."
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Covers to) Burgenland."
+                },
+                {
+                  "label": "List No",
+                  "value": "14534.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hassinger, Hugo"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Bodo, Fritz"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1941"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Burgenland (1921-1938) : Ein deutsches Grenzland im Südosten. Eine Gemeinschaftsarbeit zahlreicher Fachmänner unter Leitung und mit einem Vorwort von Dr. Hugo Hassinger Profeffor an der Univerfifal in Wien. Herausgegeben von Friz Bodo Studienral in Wiener Neustadt. A.-0.-Landeslehrer Bibliotheksvervult Landesschulrat für Nied.-Ost. Wien VIII., Josefsgasse 12. Gedruckt mit Unterstüßung der Deutschen Forichungsgemeinschaft in Berlin, sowie der Landesregierungen des Burgenlandes (1938), von Niederdonau und Steiermark. Osterreichischer Landesverlag, Kommissionsverlag, Wien, 1941."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Burgenland (1921-1938) : Ein deutsches Grenzland im Südosten., by Hugo Hassinger and Fritz Bodo, published by Osterreichischer Landesverlag, in Vienna, 1941. Title translates to: Burgenland (1921-1938) : A German border region in the southeast. Bound in board with pasted-on maroon fabric and spine over red paper. With gilt title and spine title. Spine includes hand-painted symbols in black over a yellow painted rectangle. Volume is 128 pages, including a foreword by Hassinger, table of contents, 429 maps with nine diagrams and one view, as well as an individually bound 54-page text supplement at the rear of the volume. The atlas provides a description of the region with a range of topics such as topography, population, industry, and folk customs. Petra Svatek, of the Austrian Academy of Sciences, gives background to the work: “A multidisciplinary project of the \"South-east German Research Association\" with over 50 contributors. The work mainly involved scientists of the Vienna University, but also officials of the provincial government of Burgenland, teachers and amateur local historians. Moreover, it is quite evident that the evaluation of statistical data had been immensely stepped up for the production of this atlas if compared to earlier atlas projects; likewise, the methods used to implement the project had become much more complex than in the years before 1930. Publication before the National Socialist takeover failed on the one hand due to financial problems caused by the economic depression and on the other hand due to political differences. In fact, the atlas project was greeted with some apprehension, as it established links with National Socialist Germany and several project collaborators were NSDAP members. In autumn 1940, Hugo Hassinger and Fritz Bodo started to prepare a ‘Gau Atlas of Lower Danube’. Like the Burgenland Atlas, the cartographic work on the \"Gau Atlas\", too, was deliberately organised in a multidisciplinary fashion by involving numerous scientists from many different institutions and disciplines. The completed atlas was to be composed of approx. 120 maps; however, its publication was not possible during the National Socialist regime. Only a few sketches of this work have remained. But it is possible that a few preparatory efforts were integrated into the Atlas of Lower Austria.” Historical notes courtesy Petra Svatek, last accessed January 4th, 2025: https://www.researchgate.net/publication/299194112_Fritz_Bodo_-_Atlas_Cartography_in_the_1930s_and_early_1940s"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14534.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Statistical Atlas"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "38"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14534001.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/218/14534001.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Hassinger, Hugo; Bodo, Fritz"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369772~90137139/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369772~90137139/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369772~90137139",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 13110,
+                    "height": 7431
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369772~90137139/canvas/c1"
+                }
+              ],
+              "width": 13110,
+              "height": 7431
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~369772~90137139"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369820~90137181/manifest",
+      "label": "Änderung des Bevölkerungsstandes 1869–1934 : 1. Bevölkerungsstand 1869. Absolut Gemeindeweise, Einwohner je km² nach Wirtschaftslandschaften ...",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~369820~90137181/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369820~90137181/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Änderung des Bevölkerungsstandes 1869–1934 : 1. Bevölkerungsstand 1869. Absolut Gemeindeweise, Einwohner je km² nach Wirtschaftslandschaften ...",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Bodo, Fritz"
+                },
+                {
+                  "label": "Author",
+                  "value": "Breit, Alfred"
+                },
+                {
+                  "label": "Date",
+                  "value": "1934"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Änderung des Bevölkerungsstandes 1869–1934 : 1. Bevölkerungsstand 1869. Absolut Gemeindeweise, Einwohner je km² nach Wirtschaftslandschaften ..."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Osterreichischer Landesverlag"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Vienna"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "Statistical Table"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "54"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "1,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Eleven maps and one table representing Burgenland, featuring an overview of changes in population from 1869 to 1934. The individual titles translate to: \"1. Population status 1869. Absolute by municipality, inhabitants per km² according to economic regions. -- 2. Change in population status 1869-1880. -- 3. Change in population status 1880-1890. -- 4. Change in population status 1890-1900. -- 5. Change in population status 1900-1910. -- 6. Change in population status 1910-1920. -- 7. Change in population status 1920-1923. -- 8. Change in population status 1923-1934. -- 9. Population in 1934. Absolutely by municipality, inhabitants per km² according to economic regions. -- 10. Changes in population 1869-1934. -- 11. Inhabitants per km² in 1934 (for Hungary 1930). -- 12. Overview of all percentage changes in population from 1869 to 1934.\" Maps also show political boundaries, cities, roads, bodies of water, and drainage. Each map includes latitudinal and longitudinal lines, a shared legend, and scale statements; scales differ. Color lithograph. Together, maps are 34 x 54 cm, on double sheet 37 x 58 cm."
+                },
+                {
+                  "label": "Region",
+                  "value": "Burgenland (Austria)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Population"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Änderung des bevölkerungsstandes 1869–1934 : 1. Bevölkerungsstand 1869. Absolut gemeindeweise, Einwohner je km² nach Wirtschaftslandschaften. -- 2. Änderung des Bevölkerungsstandes 1869-1880. -- 3. Änderung des Bevölkerungsstandes 1880-1890. -- 4. Änderung des Bevölkerungsstandes 1890-1900. -- 5. Änderung des Bevölkerungsstandes 1900-1910. -- 6. Änderung des Bevölkerungsstandes 1910-1920. -- 7. Änderung des Bevölkerungsstandes 1920-1923. -- 8. Änderung des Bevölkerungsstandes 1923-1934. -- 9. Bevölkerungsstand 1934. Absolut gemeindeweise, Einwohner je km² nach Wirtschaftslandschaften. -- 10. Änderung des Bevölkerungsstandes 1869-1934. -- 11. Einwohner je km² 1934 (für Ungarn 1930). -- 12. Übersicht aller %-Änderungen des Bevölkerungsstandes 1869 bis 1934. Dr. Alfred Breit. Kommissionsverlag Österreichischer Bundesverlag, Wien. Steindruck von Rudolf Hausstein, Wiener Neustadt."
+                },
+                {
+                  "label": "List No",
+                  "value": "14534.049"
+                },
+                {
+                  "label": "Series No",
+                  "value": "48"
+                },
+                {
+                  "label": "Page No",
+                  "value": "75-76"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Hausstein, Rudolf"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hassinger, Hugo"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Bodo, Fritz"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1941"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Burgenland (1921-1938) : Ein deutsches Grenzland im Südosten. Eine Gemeinschaftsarbeit zahlreicher Fachmänner unter Leitung und mit einem Vorwort von Dr. Hugo Hassinger Profeffor an der Univerfifal in Wien. Herausgegeben von Friz Bodo Studienral in Wiener Neustadt. A.-0.-Landeslehrer Bibliotheksvervult Landesschulrat für Nied.-Ost. Wien VIII., Josefsgasse 12. Gedruckt mit Unterstüßung der Deutschen Forichungsgemeinschaft in Berlin, sowie der Landesregierungen des Burgenlandes (1938), von Niederdonau und Steiermark. Osterreichischer Landesverlag, Kommissionsverlag, Wien, 1941."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Burgenland (1921-1938) : Ein deutsches Grenzland im Südosten., by Hugo Hassinger and Fritz Bodo, published by Osterreichischer Landesverlag, in Vienna, 1941. Title translates to: Burgenland (1921-1938) : A German border region in the southeast. Bound in board with pasted-on maroon fabric and spine over red paper. With gilt title and spine title. Spine includes hand-painted symbols in black over a yellow painted rectangle. Volume is 128 pages, including a foreword by Hassinger, table of contents, 429 maps with nine diagrams and one view, as well as an individually bound 54-page text supplement at the rear of the volume. The atlas provides a description of the region with a range of topics such as topography, population, industry, and folk customs. Petra Svatek, of the Austrian Academy of Sciences, gives background to the work: “A multidisciplinary project of the \"South-east German Research Association\" with over 50 contributors. The work mainly involved scientists of the Vienna University, but also officials of the provincial government of Burgenland, teachers and amateur local historians. Moreover, it is quite evident that the evaluation of statistical data had been immensely stepped up for the production of this atlas if compared to earlier atlas projects; likewise, the methods used to implement the project had become much more complex than in the years before 1930. Publication before the National Socialist takeover failed on the one hand due to financial problems caused by the economic depression and on the other hand due to political differences. In fact, the atlas project was greeted with some apprehension, as it established links with National Socialist Germany and several project collaborators were NSDAP members. In autumn 1940, Hugo Hassinger and Fritz Bodo started to prepare a ‘Gau Atlas of Lower Danube’. Like the Burgenland Atlas, the cartographic work on the \"Gau Atlas\", too, was deliberately organised in a multidisciplinary fashion by involving numerous scientists from many different institutions and disciplines. The completed atlas was to be composed of approx. 120 maps; however, its publication was not possible during the National Socialist regime. Only a few sketches of this work have remained. But it is possible that a few preparatory efforts were integrated into the Atlas of Lower Austria.” Historical notes courtesy Petra Svatek, last accessed January 4th, 2025: https://www.researchgate.net/publication/299194112_Fritz_Bodo_-_Atlas_Cartography_in_the_1930s_and_early_1940s"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14534.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Statistical Atlas"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "38"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14534049.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/218/14534049.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Bodo, Fritz; Breit, Alfred"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369820~90137181/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369820~90137181/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369820~90137181",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12113,
+                    "height": 7301
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369820~90137181/canvas/c1"
+                }
+              ],
+              "width": 12113,
+              "height": 7301
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~369820~90137181"
+    }
+  ]
+}

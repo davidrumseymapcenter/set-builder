@@ -1,0 +1,2128 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/American West  05-11-26 subset",
+  "label": "American West  05-11-26 subset",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315671~90084471/manifest",
+      "label": "Map Of An Exploring Expedition To The Rocky Mountains.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~315671~90084471/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315671~90084471/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Map Of An Exploring Expedition To The Rocky Mountains.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Fremont, J.C."
+                },
+                {
+                  "label": "Date",
+                  "value": "1845"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Map Of An Exploring Expedition To The Rocky Mountains."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Blair and Rives"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington"
+                },
+                {
+                  "label": "Type",
+                  "value": "Book Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "77"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "131"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "1,950,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Senate Issue; map in case. See our 1833.001 for the House issue map which appears to be identical. Text has the astronomical observations that are not in the House issue. The large map of the west is one of the most interesting and beautiful government maps of the 1840's. It filled in many of the gaps in cartographic knowledge of the west. Charles Preuss was the cartographer. Map is without color except for a light blue for water areas."
+                },
+                {
+                  "label": "Reference",
+                  "value": "WC 115:2; Wheat 497; Howes F370."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "Oregon"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "U.S. West"
+                },
+                {
+                  "label": "Region",
+                  "value": "Rocky Mountains"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Map Of An Exploring Expedition To The Rocky Mountains in the Year 1842, Oregon & North California In The Years 1843-44. By Brevet Capt. J. C. Fremont Of The Corps Of Topographical Engineers Under the orders of Col. J.J. Abert, Chief Of The Topographical Bureau. Lith. by E. Weber & Co. Baltimore, Md."
+                },
+                {
+                  "label": "List No",
+                  "value": "10280.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Weber, E. & Co."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Fremont, J.C."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1845"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Report of The Exploring Expedition to The Rocky Mountains in the Year 1842, and to Oregon and North California in the Years 1843-'44. (with map) Map Of An Exploring Expedition To The Rocky Mountains in the Year 1842, Oregon & North California In The Years 1843-44. By Brevet Capt. J. C. Fremont Of The Corps Of Topographical Engineers Under the orders of Col. J.J. Abert, Chief Of The Topographical Bureau. Lith. by E. Weber & Co. Baltimore, Md."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "WC 115:2; Wheat 497; Howes F370."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "13406.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "16"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10280000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/10280000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Fremont, J.C."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~315671~90084471/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~315671~90084471/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~315671~90084471",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 33284,
+                    "height": 20098
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315671~90084471/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315671~90084471/list/luna"
+              ],
+              "width": 33284,
+              "height": 20098
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~315671~90084471"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~237580~5511212/manifest",
+      "label": "A New Map of the Great West",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~237580~5511212/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~237580~5511212/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "A New Map of the Great West",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Ferris, Jacob"
+                },
+                {
+                  "label": "Date",
+                  "value": "1856"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "A New Map of the Great West"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Miller, Orton, and Mulligan"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Auburn, N.Y."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Book Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "63"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "7,603,200"
+                },
+                {
+                  "label": "Note",
+                  "value": "Has \"A New Map of the Great West,\" E.F. Beadle, Buffalo, with dimensions of 37x62. The outline color map is an interesting depiction of the railroad and settlement growth up to the western edges of Iowa, Missouri and Minnesota. Book bound with paper covers and title on spine."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Soliday II-417."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "U.S. Mid West"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "The States and Territories of The Great West; including Ohio, Indiana, Illinois, Missouri, Michigan, Wisconsin, Iowa, Minesota (sic), Kansas, and Nebraska ... Giving a Table of Distances ... with a Map and Numerous Illustrations. By Jacob Ferris. New York and Auburn: Miller, Orton, and Mulligan. Buffalo: E.F. Beadle. 1856. (on verso) Entered ... 1856, By E.F. Beadle ... New York."
+                },
+                {
+                  "label": "List No",
+                  "value": "3219.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ferris, Jacob"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1856"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The States and Territories of The Great West; including Ohio, Indiana, Illinois, Missouri, Michigan, Wisconsin, Iowa, Minesota (sic), Kansas, and Nebraska ... Giving a Table of Distances ... with a Map and Numerous Illustrations. By Jacob Ferris. New York and Auburn: Miller, Orton, and Mulligan. Buffalo: E.F. Beadle. 1856. (on verso) Entered ... 1856, By E.F. Beadle ... New York."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "3219.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "20"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Image No",
+                  "value": "3219002"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/3219002.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Ferris, Jacob"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~237580~5511212/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~237580~5511212/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~237580~5511212",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 13170,
+                    "height": 8023
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~237580~5511212/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~237580~5511212/list/luna"
+              ],
+              "width": 13170,
+              "height": 8023
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~237580~5511212"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229397~5508053/manifest",
+      "label": "Pacific Rail Road Route",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~229397~5508053/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229397~5508053/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Pacific Rail Road Route",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Colton, G.W. & C.B."
+                },
+                {
+                  "label": "Date",
+                  "value": "1870"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Pacific Rail Road Route"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "G.W. & C.B. Colton & Co."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "14"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "98"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "3,100,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "This is a strip map extending from the Mississippi River to San Francisco, following the Union Pacific and Central Pacific Railroads. It is derived from Colton's Map of the States and Territories West of the Mississippi River. It is folded accordion style into dark brown cloth covers 9.5x16.5 with \"Colton's Map Of The Pacific Railroad Route From The Mississippi River To The Pacific Ocean. G.W. & C.B. Colton & Co.\" stamped in gilt. The cover title is printed along the long dimension of the covers with the binding along the top edge. It is not mentioned in any Colton catalogs of the period and is probably scarce. Prime meridians are Greenwich and Washington D.C. Relief shown by hachures."
+                },
+                {
+                  "label": "Reference",
+                  "value": "None found."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "U.S. West"
+                },
+                {
+                  "label": "Event",
+                  "value": "Pacific Railroad"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Railroad"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Map Of The Pacific Rail Road Route From The Mississippi River To The Pacific Ocean. Published By G.W. & C.B. Colton & Co. 172 William St. New York."
+                },
+                {
+                  "label": "List No",
+                  "value": "4882.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Colton, G.W. & C.B."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1870"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Map Of The Pacific Rail Road Route From The Mississippi River To The Pacific Ocean. Published By G.W. & C.B. Colton & Co. 172 William St. New York."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "None found."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "4882.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "10"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "17"
+                },
+                {
+                  "label": "Image No",
+                  "value": "4882002"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/4882002.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Colton, G.W. & C.B."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~229397~5508053/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~229397~5508053/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~229397~5508053",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 16018,
+                    "height": 2614
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229397~5508053/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229397~5508053/list/luna"
+              ],
+              "width": 16018,
+              "height": 2614
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~229397~5508053"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254028~5519109/manifest",
+      "label": "Rand McNally & Co.'s sectional map of the Dakota and the Black Hills",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~254028~5519109/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254028~5519109/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Rand McNally & Co.'s sectional map of the Dakota and the Black Hills",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Rand McNally & Co."
+                },
+                {
+                  "label": "Date",
+                  "value": "1873"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Rand McNally & Co.'s sectional map of the Dakota and the Black Hills"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Rand McNally & Co."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Chicago"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "52"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "70"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "2,500,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "This is one of the earliest Rand McNally maps that we have seen. The date of 1873 is determined from the only date on the map, in the inset map of Cincinnati. Uncolored sectional map with 8 insets: New mining map of Utah, St. Louis, Railroads around Baltimore and Washington, Philadelphia, New York and vicinity, Chicago, Railroad around Cincinnati, 1872-3, Denver. Showing boundaries of township, counties, states and territories, and detail diagram of township numbering system. Includes references, illustrations and advertisements. Relief shown by hachures. Prime meridian is Greenwich."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "North Dakota"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "South Dakota"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Rand McNally & Co.'s sectional map of the Dakota and the Black Hills. Printed expressly for J. Bride & Co.'s Great American 25 Cent package, 767 and 769 Broadway, New York City. A.W. Barber, Del. Rand McNally & Co. Printers, engravers and electrotypers, 79 Madison Street, Chicago. (with 8 insets). (on verso) Rand McNally & Co.'s new railway guide map."
+                },
+                {
+                  "label": "List No",
+                  "value": "6878.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Rand McNally & Co."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1873"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Rand McNally & Co.'s sectional map of the Dakota and the Black Hills. Printed expressly for J. Bride & Co.'s Great American 25 Cent package, 767 and 769 Broadway, New York City. A.W. Barber, Del. Rand McNally & Co. Printers, engravers and electrotypers, 79 Madison Street, Chicago. (with 8 insets). (on verso) Rand McNally & Co.'s new railway guide map ... (with 2 insets)."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "2 maps printed both side on sheet 54x71. Showing Eastern and Central states. Insets: New mining map of Utah, St. Louis, Railroads around Baltimore and Washington, Philadelphia, New York and vicinity, Chicago, Railroad around Cincinnati, 1872-3, Denver. On verso: Vicinity of Boston, Map of the Territories and Pacific Coast. Includes illustrations and advertisements. Relief shown by hachures. Prime meridian is Greenwich."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "6878.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "2"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "54"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Image No",
+                  "value": "6878001"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/6878001.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Rand McNally & Co."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~254028~5519109/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~254028~5519109/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~254028~5519109",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12828,
+                    "height": 9772
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254028~5519109/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254028~5519109/list/luna"
+              ],
+              "width": 12828,
+              "height": 9772
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~254028~5519109"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299496~90070568/manifest",
+      "label": "Map of Bradley & Co's ditch property near Alta Station after the slide. E.C. Uren.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~299496~90070568/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299496~90070568/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Map of Bradley & Co's ditch property near Alta Station after the slide. E.C. Uren.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Uren, Charles Edward"
+                },
+                {
+                  "label": "Author",
+                  "value": "Bradley & Co."
+                },
+                {
+                  "label": "Date",
+                  "value": "1880"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Map of Bradley & Co's ditch property near Alta Station after the slide. E.C. Uren."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Bradley & Co."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Calif."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "Manuscript Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "68"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "74"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "316,800"
+                },
+                {
+                  "label": "Note",
+                  "value": "Hand colored manuscript map of two heavy slides of earth that obstructed the tracks of the Central Pacific Railway near Alta California. From historical records it appears that the map may detail two slides that occurred along the railroad. The largest slide occurred in the Spring of 1866 during construction of the railroad and is shown in the center of the map with damages and repairs to the various ditches that ran through the area. The April 21, 1866 edition of the Dutch Flat Enquirer mentions \"LAND SLIDE.—A huge land slide occurred a few days since near Buckley's ranch, just above this place, on the line of the C. P. Railroad, damaging the ditches of the Dutch Flat Water Company to the amount of several thousand dollars, and rendering a change of the railroad bed necessary, which will also cost an immense sum. Nearly a quarter section, extending along a heavy fill of the railroad several hundred yards, suddenly gave way and moved off in a solid body, taking with it ditches, flumes and everything else that obstructed its course, and making a change from the original survey of the railroad at that point imperative. The material that gave way, it seems, was of a soapy or pipe clay formation, and the pressure from the railroad fill is assigned as the cause.\" We estimate the map was drawn by Uren in 1880, looking back at that 1866 slide and also showing the recent 1880 slide that blocked the tracks in the upper left part of the map. The 1880 slide was recorded in the Scientific American issue Volume 42, noting that hydraulic mining techniques were used to blast away the debris covering the tracks. The map is unusual in showing illustrations of two Chinese Camps near the railroad line. With decorative compass rose, oriented with the north to upper left margin. Map showing railroad, steam engine, two views of Chinese camps, slide areas and views of Flume and water ditches. Date estimated. Uren writes his name on the map as E.C. Uren while we believe he is Charles Edward Uren."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Geology"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Railroad"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Map of Bradley & Co's ditch property near Alta Station after the slide. E.C. Uren."
+                },
+                {
+                  "label": "List No",
+                  "value": "11715.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Uren, Charles Edward"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Bradley & Co."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1880"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Map of Bradley & Co's ditch property near Alta Station after the slide. E.C. Uren."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11715.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Manuscript Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "68"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "74"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11715000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/11715000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Uren, Charles Edward; Bradley & Co."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~299496~90070568/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~299496~90070568/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~299496~90070568",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 19114,
+                    "height": 17710
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299496~90070568/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299496~90070568/list/luna"
+              ],
+              "width": 19114,
+              "height": 17710
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~299496~90070568"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350348~90117829/manifest",
+      "label": "Map Illustrating the Extermination of the American Bison. Prepared by W.T. Hornaday.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~350348~90117829/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350348~90117829/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Map Illustrating the Extermination of the American Bison. Prepared by W.T. Hornaday.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Hornaday, William T."
+                },
+                {
+                  "label": "Date",
+                  "value": "1889"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Map Illustrating the Extermination of the American Bison. Prepared by W.T. Hornaday."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Smithsonian Institution"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington, D.C"
+                },
+                {
+                  "label": "Type",
+                  "value": "Book Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "57"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "44"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "15,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "For the full text of this book see https://archive.org/details/exterminationofa00horn/page/n5/mode/2up"
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Region",
+                  "value": "Western North America"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Zoological"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Map Illustrating the Extermination of the American Bison. Prepared by W.T. Hornaday."
+                },
+                {
+                  "label": "List No",
+                  "value": "15536.003"
+                },
+                {
+                  "label": "Series No",
+                  "value": "3"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hornaday, William T."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1889"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The Extermination of the American Bison."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "OCLC 4177745 et al, listing numerous institutional holdings. The map is described in Persuasive Maps: PJ Mode Collection, #1102."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"A seminal work on the extermination of the American bison, compiled in the 1880s by Smithsonian taxidermist and pioneering conservationist William Temple Hornaday (1854-1937). With the important thematic map illustrating the shrinking range of the bison. It is well known that millions of bison once roamed North America, though less well known that their range extended from east of the Appalachians to northwestern Canada, central Nevada and even northeastern Mexico. After the arrival of Europeans, “desultory” (Hornaday’s term) hunting for food and hides gradually restricted their range to the Great Plains, though their huge herds remained more or less intact. Beginning in the 1870s, however, “wholesale slaughter by systematic methods” (Hornaday) ensued. This was catalyzed by rapid settlement of the West, the needs of the American people for food and American industry for raw materials, and a more-or-less explicit attempt to destroy the way of life of the Plains Indians. It was abetted by the advance of the railroad, modern weaponry, and, per Hornaday, “the phenomenal stupidity of the animals themselves, and their indifference to man”. A native of Indiana, in 1882 Hornaday took a position as Chief Taxidermist at the United States National Museum, part of the Smithsonian. By then the bison were on the edge of extinction, but a new conservationist mindset was beginning to emerge in the country, as evidenced for example by the creation in 1875 of Yellowstone, the first National Park; the founding in 1876 of the Appalachian Mountain Club; and the activities and writing of figures as different as John Muir and, before him, Henry David Thoreau. “After reviewing the Museum’s collection and conducting a written survey, [Hornaday] recognized the rapid decline in the population of American Bison. He went west to collect specimens for the Museum in anticipation of the Bison’s extinction, and was shocked at what he saw and learned: “Just as a carefree and joyous swimmer for pleasure suddenly is drawn into a whirlpool—in which he can swim but from which he cannot escape – so in 1886 was I drawn into the maelstrom.”[1] Hornaday prepared a massive report for the Smithsonian on the extermination of the bison, filled with important observations and data.” (Mode) Hornaday’s intent in producing the report was not merely descriptive but persuasive: “It is hoped that the following historical account of the discovery, partial utilization, and almost complete extermination of the great American bison may serve to cause the public to fully realize the folly of allowing all our most valuable and interesting American mammals to be wantonly destroyed in the same manner. The wild buffalo is practically gone forever, and in a few more years, when the whitened bones of the last bleaching skeleton shall have been picked up and shipped East for commercial uses, nothing will remain of him save his old, well-worn trails along the water-courses, a few museum specimens, and regret for his fate. If his untimely end fails even to point a moral that shall benefit the surviving species of mammals which are now being slaughtered in like manner, it will be sad indeed.” (Report, p. 371) The report is accompanied by a brilliant thematic map, which efficiently uses color coding and concentric lines to convey a compelling narrative nearing a tragic conclusion. “But this map tells the story on a single page. The dark red circle on the map shows “the area once inhabited by the American Bison,” and the dates in red tells the date of extinction in each locale. We learn there were bison in Indiana and Kentucky until 1810, and in Iowa and Missouri until 1825. The blue circles show the range of the herds in 1870, and the much smaller concentric green circles show the same just 10 years later. Hornaday returned to Washington a changed man. He spent the rest of his life as perhaps the first effective voice for the preservation of species. He played a major role in the survival not only of the American Bison, but the Alaskan fur seal, the snowy egret and others (Ibid). (Mode) In all, an important early conservationist work, illustrated by a compelling persuasive map.\" (Michael Buehler, 2023)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15536.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15536003.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/15536003.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Hornaday, William T."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350348~90117829/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350348~90117829/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350348~90117829",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11391,
+                    "height": 14719
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350348~90117829/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350348~90117829/list/luna"
+              ],
+              "width": 11391,
+              "height": 14719
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~350348~90117829"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290356~90061866/manifest",
+      "label": "The conquest of a continent",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~290356~90061866/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290356~90061866/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "The conquest of a continent",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Kaiser, August"
+                },
+                {
+                  "label": "Date",
+                  "value": "1933"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "The conquest of a continent"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Bureau of Engraving Inc."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Minneapolis, Minn."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "53"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "69"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Color pictorial map of the United States. Bordered by vignettes illustrations of historical events. Shows state boundaries, roads, trails, water ways, and numerous historical notations. Includes decorative compass rose at lower right corner, explanation of symbols: \"By way of explanation\" and text \"Bred on the frontier ... Milestones on the way\"."
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Historical"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "The conquest of a continent : a pictorial representation of the westward progress of the pioneer. Designed and copyrighted by August Kaiser. Historian Clara Searle Painter. Checked for historical accuracy by Agnes Larson ... Sponsored by National Fellowship Appeal Committee, American Association of University Women."
+                },
+                {
+                  "label": "List No",
+                  "value": "11189.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Kaiser, August"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1933"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The conquest of a continent : a pictorial representation of the westward progress of the pioneer. Designed and copyrighted by August Kaiser. Historian Clara Searle Painter. Checked for historical accuracy by Agnes Larson ... Sponsored by National Fellowship Appeal Committee, American Association of University Women."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11189.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "53"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "69"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11189000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/11189000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Kaiser, August"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~290356~90061866/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~290356~90061866/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~290356~90061866",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 17268,
+                    "height": 11220
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290356~90061866/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290356~90061866/list/luna"
+              ],
+              "width": 17268,
+              "height": 11220
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~290356~90061866"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347225~90114701/manifest",
+      "label": "Assembly center sites.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~347225~90114701/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347225~90114701/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Assembly center sites.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "United States. Office of War Information"
+                },
+                {
+                  "label": "Date",
+                  "value": "1943"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Assembly center sites."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "United States Government Printing Office"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington, D.C."
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "19"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map featuring assembly center sites in the western United States. Shows political boundaries, cities, roads, national parks, bodies of water, drainage and coastline. Includes a table: Maximum Japanese population and dates of occupation of assembly centers. In color. Map is 28 x 19 cm, on double sheet 31 x 23 cm. Figure 15. Appears in Part V : Assembly center operations, Chapter XIII : Assembly center location, construction and equipment."
+                },
+                {
+                  "label": "Region",
+                  "value": "West (U.S.)"
+                },
+                {
+                  "label": "Event",
+                  "value": "World War II"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Military"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Population"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Assembly center sites."
+                },
+                {
+                  "label": "List No",
+                  "value": "14375.042"
+                },
+                {
+                  "label": "Series No",
+                  "value": "42"
+                },
+                {
+                  "label": "Page No",
+                  "value": "158-159"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "United States Government Printing Office"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "United States. Office of War Information"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1943"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Japanese evacuation from the West Coast, 1942 : Final report. United States Government Printing Office, Washington : 1943."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "https://archive.org/details/japaneseevacuati00dewi"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Japanese evacuation from the West Coast, 1942 : Final report by the United States War Office; published by the United States Government Printing Office in Washington, D.C., 1943. First edition. Bound in black board with gilded title on front cover and spine. Collation: xxiii, 618 pages. Comprised of 43 maps (including 3 fold-out), as well as numerous photographic views, plans, charts and historical text. Includes a dedication, foreword, letter of transmittal, table of contents, index to figures, index to tables, statistical summary of tables, pictorial summary of photographs, glossary, appendixes and index. Comprehensive report on the Japanese American internment of World War II, in which the U.S. government forced the relocation and incarceration of Japanese Americans in detention camps in the West, ostensibly in the interests of national security. This work, created at the time of the event itself, offers a propagandist viewpoint on the internment. It attempts to justify the incarceration of Japanese Americans by posing an argument for its “military necessity” and cloaking the injustice with photographs alleging the comfort and happiness of the incarcerated individuals at the camps. In addition to these highly curated images, the volume also presents maps showing an objective picture of the history with locations of “assembly centers” and “relocation centers” [internment camps], as well as the geographic origins of the Japanese Americans held there. These maps feature the vicinity of the camps, including political boundaries, cities, railways, roads, topography, bodies of water and drainage. Some of the maps utilize data visualization to illustrate population density. Bird’s-eye photographic views depict the camps from above. Plans show typical layouts for the camps, including housing blocks, administration and police buildings, hospitals and warehouses. Charts delineate the population of interred individuals, with details on age, sex and nativity demographics. Charts also explain the transfer of individuals, as well as administrative organization and functions. All together, the volume offers a multi-faceted - while politically biased - description of the history of Japanese American internment. The Densho Encyclopedia - which covers key concepts, people, events, and organizations that played a role in the forced removal and incarceration of Japanese Americans during World War II - describes the work as follows, “Report issued under the name of General John L. DeWitt that provided a detailed and highly favorable account of the army's actions in removing Japanese Americans from the West Coast. The report became a key factor in the legal challenges to exclusion and resulted in both intra- and inter-departmental conflicts within the Justice and War Departments. Research in the 1980s revealed that the report had been doctored prior to the court cases, and this revelation was the basis for the reopening of the cases under the writ of error coram nobis .” https://encyclopedia.densho.org/Final_Report,_Japanese_Evacuation_from_the_West_Coast,_1942_(book)/ Provenance: Eugene Worley, as evidenced by his inscription in blue ink on front fly. Worley was a U. S. Representative from Texas who also served as a Lieutenant Commander in the United States Navy from December 1941 to August 1942, while a Member of Congress. (Citation: Between the Covers Rare Books, Inc.) Full documentation of the work can be found at the Internet Archive - see Pub Reference for link."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14375.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Gov't Report Book"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "17"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14375042.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/14375042.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "United States. Office of War Information"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347225~90114701/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347225~90114701/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347225~90114701",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 5052,
+                    "height": 7097
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347225~90114701/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347225~90114701/list/luna"
+              ],
+              "width": 5052,
+              "height": 7097
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~347225~90114701"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~267156~90041647/manifest",
+      "label": "American folklore & Legends : By John Dukes McKee",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~267156~90041647/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~267156~90041647/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "American folklore & Legends : By John Dukes McKee",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "McKee, John Dukes"
+                },
+                {
+                  "label": "Date",
+                  "value": "1950"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "American folklore & Legends : By John Dukes McKee"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Scott, Foresman and Co."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Chicago"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "79"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Colorful pictorial map. Date estimated. Drawings throughout represent the genre scenes depicting the diversity of that folklore."
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "American folklore & Legends : By John Dukes McKee. From Living in our America, (copyright) Scott, Foresman and Company."
+                },
+                {
+                  "label": "List No",
+                  "value": "8114.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "McKee, John Dukes"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1950"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "American folklore & Legends : By John Dukes McKee. From Living in our America, (copyright) Scott, Foresman and Company."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8114.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "79"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8114000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/136/8114000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "McKee, John Dukes"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~267156~90041647/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~267156~90041647/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~267156~90041647",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 17996,
+                    "height": 12648
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~267156~90041647/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~267156~90041647/list/luna"
+              ],
+              "width": 17996,
+              "height": 12648
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~267156~90041647"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~302631~90073414/manifest",
+      "label": "The Virginian",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~302631~90073414/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~302631~90073414/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "The Virginian",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Henry, Edward Everett"
+                },
+                {
+                  "label": "Date",
+                  "value": "1960"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "The Virginian"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Cleveland, Ohio : Harris-Intertype Corp."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Pictorial map. With illustration's showing scenes from the novel set ca. 1880. Wyoming, 1874-1890. Everett Henry highlighted important scenes from Owen Wister's classic western novel, including the card game with Trampas during which the Virginian delivers his famous line \"When you call me that, smile\", landmarks, landscape features, notations, etc. An inset map highlights Wyoming, the state in which Wister centered the events of his novel. Relief shown pictorially."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "Wyoming"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "The Virginian: From America's First \"Western\" Novel Written by Owen Wister.portrait map by Everett Henry. Litho in U. S. A. On a Harris offset Press. Copyright 1960, Harris, Intertype Corporation, Cleveland, Ohio."
+                },
+                {
+                  "label": "List No",
+                  "value": "11751.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Henry, Edward Everett"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Harris-Seybold Company"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1960"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The Virginian: From America's First \"Western\" Novel Written by Owen Wister.portrait map by Everett Henry. Litho in U. S. A. On a Harris offset Press. Copyright 1960, Harris, Intertype Corporation, Cleveland, Ohio."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11751.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11751000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/11751000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Henry, Edward Everett"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~302631~90073414/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~302631~90073414/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~302631~90073414",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12744,
+                    "height": 9316
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~302631~90073414/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~302631~90073414/list/luna"
+              ],
+              "width": 12744,
+              "height": 9316
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~302631~90073414"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238762~5511632/manifest",
+      "label": "California Water Resources Development.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~238762~5511632/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238762~5511632/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "California Water Resources Development.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Irrigation Districts Association of California"
+                },
+                {
+                  "label": "Date",
+                  "value": "1963"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "California Water Resources Development."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Irrigation Districts Association of California"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "San Francisco"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "69"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "99"
+                },
+                {
+                  "label": "Note",
+                  "value": "Oblique view with shaded relief. Text description of water development features. Color."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Water"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "California Water Resources Development, including Development of the Bureau of Reclamation, U.S. Army Corps of Engineers, Major Features of the California Water Plan together with Various Projects of Districts and Municipalities. Issued by Irrigation Districts Association of California, Water News and Information Program."
+                },
+                {
+                  "label": "List No",
+                  "value": "6381.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Irrigation Districts Association of California"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1963"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "California Water Resources Development, including Development of the Bureau of Reclamation, U.S. Army Corps of Engineers, Major Features of the California Water Plan together with Various Projects of Districts and Municipalities. Issued by Irrigation Districts Association of California, Water News and Information Program."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See Note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "6381.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "69"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "99"
+                },
+                {
+                  "label": "Image No",
+                  "value": "6381000"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/6381000.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Irrigation Districts Association of California"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~238762~5511632/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~238762~5511632/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~238762~5511632",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 13887,
+                    "height": 9751
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238762~5511632/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238762~5511632/list/luna"
+              ],
+              "width": 13887,
+              "height": 9751
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~238762~5511632"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238678~5511614/manifest",
+      "label": "Indian Land Cessions.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~238678~5511614/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238678~5511614/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Indian Land Cessions.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Hilliard, Sam B."
+                },
+                {
+                  "label": "Author",
+                  "value": "Irwin, Dan"
+                },
+                {
+                  "label": "Author",
+                  "value": "Southern Illinois University Cartographic Laboratory"
+                },
+                {
+                  "label": "Date",
+                  "value": "1972"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Indian Land Cessions."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Association of American Geographers"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington D.C."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "116"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "86"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map Supplement Number 16, Annals of the Association of American Geographers, Volume 62, Number 2, June 1972."
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Indians"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Indian Land Cessions."
+                },
+                {
+                  "label": "List No",
+                  "value": "6367.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hilliard, Sam B."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Irwin, Dan"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Southern Illinois University Cartographic Laboratory"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1972"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Indian Land Cessions."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See Note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "6367.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "116"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "86"
+                },
+                {
+                  "label": "Image No",
+                  "value": "6367000"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/6367000.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Hilliard, Sam B.; Irwin, Dan; Southern Illinois University Cartographic Laboratory"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~238678~5511614/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~238678~5511614/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~238678~5511614",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 10385,
+                    "height": 13758
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238678~5511614/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~238678~5511614/list/luna"
+              ],
+              "width": 10385,
+              "height": 13758
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~238678~5511614"
+    }
+  ]
+}
