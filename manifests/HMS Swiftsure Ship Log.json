@@ -1,8 +1,8 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Collection",
-  "@id": "https://iiif-gallery-builder.example.org/iiif-gallery-2026-06-09",
-  "label": "iiif-gallery-2026-06-09",
+  "@id": "https://iiif-gallery-builder.example.org/HMS Swiftsure Ship Log",
+  "label": "HMS Swiftsure Ship Log",
   "items": [
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
