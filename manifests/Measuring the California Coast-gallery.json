@@ -3046,6 +3046,384 @@
         "format": "image/png"
       },
       "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~239951~5512086"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~230309~5508668/manifest",
+      "label": "Title Page: Log Of H.M.S. \"Swiftsure\".",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~230309~5508668/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~230309~5508668/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Title Page: Log Of H.M.S. \"Swiftsure\".",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Mainwaring, C."
+                },
+                {
+                  "label": "Author",
+                  "value": "Henderson, C.F."
+                },
+                {
+                  "label": "Date",
+                  "value": "1884"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Title Page: Log Of H.M.S. \"Swiftsure\"."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "N.P: Manuscript"
+                },
+                {
+                  "label": "Type",
+                  "value": "Title Page"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "20"
+                },
+                {
+                  "label": "Note",
+                  "value": "Illustrated with flags and anchors. Color."
+                },
+                {
+                  "label": "Subject",
+                  "value": "Oceans; Seas"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Navigation"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Title Page) Log Of H.M.S. \"Swiftsure\" Bearing the (flag of) Rear Admiral H.M.L. Lyons commanded by Captain C. Mainwaring. C.F. Henderson."
+                },
+                {
+                  "label": "List No",
+                  "value": "5124.004"
+                },
+                {
+                  "label": "Series No",
+                  "value": "4"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Mainwaring, C."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Henderson, C.F."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1884"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Log Of H.M.S. \"Swiftsure\" Bearing the (flag of) Rear Admiral H.M.L. Lyons commanded by Captain C. Mainwaring. C.F. Henderson."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "http://en.wikipedia.org/wiki/HMS_Swiftsure_(1870) is a short illustrated article in Wikipedia on the Swiftsure."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "This is a manuscript ship's log that begins to record a journey midway from Honolulu to Esquimalt in British Columbia, then down the west coast of the United States and the west coast of South America, around Cape Horn, and back to England. It begins in July, 1884 and ends in November, 1885. 16 beautifully drawn charts record the track of the steam and sail powered ship, showing stops in San Francisco, Mazatlan, San Blas, Valparaiso and Rio de Janeiro and other ports. Many drawings illustrate aspects of the ship and its equipment. The log itself records the weather and daily ship operations. An unusual highly illustrated document. Swiftsure is the name assigned to ten successive ships of the Royal (British) Navy, the first launched in 1573 and the most recent in 1971. This one was commissioned in 1871 and was the lead ship of the Swiftsure class battleships built in the late Victorian era. It operated under steam and sail and was ironclad. It was very fast for its time, 13.75 knots. It served as the Pacific Station flagship from 1882-1885 and 1888-1890. Renamed \"Orontes\" in 1901, she was scrapped in 1908."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "5124.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Chart Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "16"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Image No",
+                  "value": "5124004"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/5124004.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Mainwaring, C.; Henderson, C.F."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~230309~5508668/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~230309~5508668/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~230309~5508668",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 4510,
+                    "height": 6694
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~230309~5508668/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~230309~5508668/list/luna"
+              ],
+              "width": 4510,
+              "height": 6694
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~230309~5508668"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~230357~5508707/manifest",
+      "label": "San Francisco.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~230357~5508707/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~230357~5508707/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "San Francisco.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Henderson, C.F."
+                },
+                {
+                  "label": "Author",
+                  "value": "Brand, T.S."
+                },
+                {
+                  "label": "Date",
+                  "value": "1884"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "San Francisco."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "N.P: Manuscript"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map tipped in as smaller sheet than pages."
+                },
+                {
+                  "label": "County",
+                  "value": "San Francisco (Calif.)"
+                },
+                {
+                  "label": "City",
+                  "value": "San Francisco (Calif.)"
+                },
+                {
+                  "label": "Region",
+                  "value": "San Francisco Bay"
+                },
+                {
+                  "label": "Region",
+                  "value": "Golden Gate"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Navigation"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Oceans; Seas"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "San Francisco."
+                },
+                {
+                  "label": "List No",
+                  "value": "5124.043"
+                },
+                {
+                  "label": "Series No",
+                  "value": "43"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Mainwaring, C."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Henderson, C.F."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1884"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Log Of H.M.S. \"Swiftsure\" Bearing the (flag of) Rear Admiral H.M.L. Lyons commanded by Captain C. Mainwaring. C.F. Henderson."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "http://en.wikipedia.org/wiki/HMS_Swiftsure_(1870) is a short illustrated article in Wikipedia on the Swiftsure."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "This is a manuscript ship's log that begins to record a journey midway from Honolulu to Esquimalt in British Columbia, then down the west coast of the United States and the west coast of South America, around Cape Horn, and back to England. It begins in July, 1884 and ends in November, 1885. 16 beautifully drawn charts record the track of the steam and sail powered ship, showing stops in San Francisco, Mazatlan, San Blas, Valparaiso and Rio de Janeiro and other ports. Many drawings illustrate aspects of the ship and its equipment. The log itself records the weather and daily ship operations. An unusual highly illustrated document. Swiftsure is the name assigned to ten successive ships of the Royal (British) Navy, the first launched in 1573 and the most recent in 1971. This one was commissioned in 1871 and was the lead ship of the Swiftsure class battleships built in the late Victorian era. It operated under steam and sail and was ironclad. It was very fast for its time, 13.75 knots. It served as the Pacific Station flagship from 1882-1885 and 1888-1890. Renamed \"Orontes\" in 1901, she was scrapped in 1908."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "5124.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Chart Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "16"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Image No",
+                  "value": "5124043"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/5124043.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Brand, T.S.; Henderson, C.F."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~230357~5508707/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~230357~5508707/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~230357~5508707",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 6694,
+                    "height": 4336
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~230357~5508707/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~230357~5508707/list/luna"
+              ],
+              "width": 6694,
+              "height": 4336
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~230357~5508707"
     }
   ]
 }
