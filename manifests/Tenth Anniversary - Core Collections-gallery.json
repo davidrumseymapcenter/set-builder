@@ -1,0 +1,3832 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Tenth Anniversary - Core Collections",
+  "label": "Tenth Anniversary - Core Collections",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/mv556fd9168/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[Italia di Tolomeo]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/mv556fd9168.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/mv556fd9168'>https://purl.stanford.edu/mv556fd9168</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[Italia di Tolomeo]"
+        },
+        {
+          "label": "Title",
+          "value": "Map of Italy from Ptolemy's Cosmographia (Ulm, 1482)"
+        },
+        {
+          "label": "Title",
+          "value": "Cosmographia"
+        },
+        {
+          "label": "Title",
+          "value": "Geografia (Tolomeo)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Ptolemy, active 2nd century"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image-cri"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : woodcut, hand color ; 35 x 54 cm"
+        },
+        {
+          "label": "Language",
+          "value": "Latin"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "Claudio Tolomeo."
+        },
+        {
+          "label": "Description",
+          "value": "From Ulm Ptolemy, p. 38."
+        },
+        {
+          "label": "Description",
+          "value": "The woodcuts in the Ulm Ptolemy are generally credited to Johannes 'Schnitzer' (\"the woodblock-cutter\") from Armsheim. One characteristic of his work is that he tended to reverse his capital 'N's when cutting the letter. Of the Italian editions of Ptolemy only one, that of Bernard Sylvanus, published in Venice in 1511, used woodcuts. All the others used copper engravings."
+        },
+        {
+          "label": "Subject",
+          "value": "Cartography > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Geography, Ancient > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Italy > Maps > Early works to 1800"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale indeterminable."
+        },
+        {
+          "label": "Date",
+          "value": "1482 - 1530"
+        },
+        {
+          "label": "Date",
+          "value": "1482 - 1530"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/mv556fd9168"
+        },
+        {
+          "label": "Publisher",
+          "value": "Johannes Schnitzer,"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-08-11"
+        }
+      ],
+      "description": "From Ulm Ptolemy, p. 38.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/mv556fd9168%2Fmv556fd9168_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/mv556fd9168%2Fmv556fd9168_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 299
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/mv556fd9168/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/mv556fd9168/iiif/canvas/cocina-fileSet-mv556fd9168-mv556fd9168_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 10463,
+              "width": 14008,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/mv556fd9168/mv556fd9168_00_0001.jp2",
+                  "label": "Original source file (26.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/mv556fd9168/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fmv556fd9168-mv556fd9168_1%2Fmv556fd9168_00_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/mv556fd9168/iiif/canvas/cocina-fileSet-mv556fd9168-mv556fd9168_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/mv556fd9168%2Fmv556fd9168_00_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10463,
+                    "width": 14008,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/mv556fd9168%2Fmv556fd9168_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/sy409bk9698/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "The North part of America conteyning Newfoundland, New England, Virginia, Florida, New Spaine and Nova Francia, with ye riche Iles of Hispaniola, Cuba, Jamaica, and Porto Rieco, on the south, and upon ye west the large and goodly island of California",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/sy409bk9698.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/sy409bk9698'>https://purl.stanford.edu/sy409bk9698</a>"
+        },
+        {
+          "label": "Title",
+          "value": "The North part of America conteyning Newfoundland, New England, Virginia, Florida, New Spaine and Nova Francia, with ye riche Iles of Hispaniola, Cuba, Jamaica, and Porto Rieco, on the south, and upon ye west the large and goodly island of California"
+        },
+        {
+          "label": "Contributor",
+          "value": "Briggs, Henry, 1561-1630"
+        },
+        {
+          "label": "Contributor",
+          "value": "Elstracke, Renold, active 1590-1630"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : engraved ; 27 x 34 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "R. Elstracke Sculpsit."
+        },
+        {
+          "label": "Description",
+          "value": "The first printed map in English to show California as an island, with flat northern coast."
+        },
+        {
+          "label": "Description",
+          "value": "Cities, etc. ; shoals; pictorial symbols; notes."
+        },
+        {
+          "label": "Description",
+          "value": "Watermark."
+        },
+        {
+          "label": "Description",
+          "value": "Notes on map refer to California, Sr. Thomas Button and Mr. Baffin."
+        },
+        {
+          "label": "Description",
+          "value": "Projection: simple conical."
+        },
+        {
+          "label": "Description",
+          "value": "\"852\" & \"853\" inside neat line in top left & right corners of map."
+        },
+        {
+          "label": "Description",
+          "value": "Engraved by: R. Elstrake Sculpsit (lower right)."
+        },
+        {
+          "label": "Description",
+          "value": "On the map are two notes, one stating\"California sometymes supposed to be a part of ye westerne continent, but scince by a Spanish Charte taken by ye Hollanders it is found to be a goodly Ilande: the length of the west shoare beeing about 500 leagues...\""
+        },
+        {
+          "label": "Description",
+          "value": "Issued in: Hakluytus Posthumus or Purchas His Pilgrimes, III, 852-3. London, 1625, to accompany an article by H. Briggs on the Northwest Passage."
+        },
+        {
+          "label": "Subject",
+          "value": "North America > Early works to 1800"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:23,500,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "W 255°--W 345°/N 65°--N 10°"
+        },
+        {
+          "label": "Date",
+          "value": "1625"
+        },
+        {
+          "label": "Date",
+          "value": "1625"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/sy409bk9698"
+        },
+        {
+          "label": "Publisher",
+          "value": "William Stansby for Henrie Fetherstone"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2022-08-16"
+        }
+      ],
+      "description": "The first printed map in English to show California as an island, with flat northern coast.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 350
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/sy409bk9698/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 10874,
+              "width": 12412,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/sy409bk9698/sy409bk9698_05_0001.jp2",
+                  "label": "Original source file (24.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/sy409bk9698/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fsy409bk9698-sy409bk9698_1%2Fsy409bk9698_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10874,
+                    "width": 12412,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~331991~90100432/manifest",
+      "label": "Composite: 48 Globe Gores, 2 Polar Calottes, Celestial Globe",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~331991~90100432/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~331991~90100432/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Composite: 48 Globe Gores, 2 Polar Calottes, Celestial Globe",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Coronelli, Vincenzo (1650-1718)"
+                },
+                {
+                  "label": "Date",
+                  "value": "1698"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Composite: 48 Globe Gores, 2 Polar Calottes, Celestial Globe"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Coronelli"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Venice"
+                },
+                {
+                  "label": "Type",
+                  "value": "Globe Gores"
+                },
+                {
+                  "label": "Type",
+                  "value": "Composite Map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Celestial"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Composite) 48 Globe Gores, 2 Polar Calottes, Celestial Globe)"
+                },
+                {
+                  "label": "List No",
+                  "value": "10714.079"
+                },
+                {
+                  "label": "Series No",
+                  "value": "79"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Coronelli, Vincenzo (1650-1718)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1698"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "[Complete set of counterproof plates of globe gores and calottes for a 3.5-foot diameter celestial globe]"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"Exceedingly rare complete set of the counter-proof version of the engraved gores for Coronelli’s 3.5-foot celestial globe. This issue is before the addition of the engraved captions and figures; it was intended to show the heavens as they would appear to an observer on earth, as opposed to the conventional celestial globe that represents the stars as seen on an imaginary sphere from the outside. This copy is in exceptional original condition: a set of untrimmed sheets in their original binding, exactly as they would be received by a globe maker. On 7 December 1692 Sr Carlo Malavista, in a lecture on the development of astronomy at the Accademia Fisico-Matematica in Rome, described Coronelli’s globes as the most perfect yet produced. He ends his peroration with remarks on the difficulty of using a celestial globe. “Both these globes give to the eye the appearance of being equal, but they are not equally useful to the eyes of the mind, that is, the intelligence, because to express the earth on a globe can be very well done, because the earth is in the shape of a ball on which we walk. The sky on the other hand is the opposite of this. As we stand on the earth the sky is above us, and we observe it as concave and not convex.” It was the accepted convention, as Malavista pointed out, to depict the heavens on a celestial globe as they would appear to an observer beyond the heavens. Malavista continued: “To make it easier to understand, the illustrious Giovanni Ciampini, Director of the Academy, has thought fit to have the celestial globe of Coronelli divided into two halves in concave form, so that the stars are seen in their proper location, agreeing with the way we look at them in the sky...” This is the first record in print of Coronelli’s concave globes. When Coronelli issued in 1693 a new edition of the celestial globe with fewer names of constellations, he put the proposed innovation into practice by producing the globe in two versions, convex and concave. In Coronelli’s account of his travels of 1696-97, Viaggi d’Italia in Inghilterra (1697), a ‘Notice to the Public on the globes of Father Coronelli’ is appended to vol. II (pp. 204-5). This reports that the celestial globes have been printed, some in convex forms, some in concave form, and that they have been made in this way, not through the mistake of the author, as some so knowledgeable people thought, but for their greater usefulness. The Accademia degli Argonauti made the same point in 1704: “critics construed as a mistake” what was done with the greatest erudition and for the use of our astronomers, namely that our Cosmographer engraved the celestial globe in concave and convex...” A mounted example of the gores for the “concave” globe is recorded in the Bayerisches Nationalmuseum’ (Helen Wallis, preface to the facsimile edition of the Libro dei globi Venice 1693 (1701), Amsterdam 1(1969) p. ix.  which omits 2 of the plates missing from the BL example reproduced here) This ‘concave’ version, as distinct from the more standard ‘convex version,’ was produced by counter-proofing the original plates, not by re-engraving them: A strongly inked impression of the ‘convex version’ would be made on a sheet of impermeable paper, and then a second impression immediately made from that sheet while the ink was still wet, so that the plate image is reversed. The final two plates in our copy are not part of the Libro dei globi but are added and appear to be pattern plates for globe makers. Father Vincenzo Coronelli (1650-1718) was a Minorite friar who was an exceptional cartographer and globe maker. His first pair of globes were made for the Duke of Parma, and this led to his being commissioned to create a pair of globes for Louis XIV. They were completed after two years’ work in 1683, and were the largest globes ever made until the 1920s; they were 3.87-meters in diameter and each weighed two tons (they are now in the Bibliothèque nationale in Paris). Upon his return to Venice in 1684 he founded Europe’s first geographical society, the Accademia Cosmografica degli Argonauti. He was appointed Cosmographer of Venice, and produced a series of globes, atlases, and maps notable for their accuracy and detail.\" (Martayan Lan, W.P. Watson, 2020). Georeferencing of globe gores done by Cartography Associates in 2021. Gores georeferenced in Polyconic projection, then converted to Geographic, and other projections.  \"Mostly celestial globes show the starry sky as it would appear to an observer from space. The constellations can then all be seen in mirror image, so that orientation is difficult for the viewer. Vincenzo Coronelli, on the other hand, reproduces the constellations on this globe as they appear from the earth and therefore in the perspective we are familiar with.\" (catalog Bayerisches Nationalmuseum). Interestingly, gore 42 is not reversed - the counter-proof gore was never made, yet the gore does not have any text applied and it is a very dark impression so we must assume that it was ready to make the counter-proof but for some reason it was not done. For our digital version we have reversed the plate image to create our own digital counter-proof."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10714.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Globe Gores"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "26"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10714079.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/190/10714079.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Coronelli, Vincenzo (1650-1718)"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~331991~90100432/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~331991~90100432/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~331991~90100432",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 92982,
+                    "height": 34264
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~331991~90100432/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~331991~90100432/list/luna"
+              ],
+              "width": 92982,
+              "height": 34264
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~331991~90100432"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/wf145bs8790/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "A  New map of North America with the West India Islands : divided according to the preliminary articles of peace, signed at Versailles, 20. Jan. 1783, wherein are particularly distinguished the United States and the several provinces, governments & ca which compose the British Dominions : laid down according to the latest surveys, and corrected from the original materials, of Goverr. Pownall, Membr. of Parliamt",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/wf145bs8790.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/wf145bs8790'>https://purl.stanford.edu/wf145bs8790</a>"
+        },
+        {
+          "label": "Title",
+          "value": "A  New map of North America with the West India Islands : divided according to the preliminary articles of peace, signed at Versailles, 20. Jan. 1783, wherein are particularly distinguished the United States and the several provinces, governments & ca which compose the British Dominions : laid down according to the latest surveys, and corrected from the original materials, of Goverr. Pownall, Membr. of Parliamt"
+        },
+        {
+          "label": "Contributor",
+          "value": "Laurie & Whittle"
+        },
+        {
+          "label": "Contributor",
+          "value": "Kitchin, Thomas, 1719-1784"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Early works"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : hand-colored ; 97.9 x 114 cm , on sheet 105.6 x 118.6 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Relief shown pictorially."
+        },
+        {
+          "label": "Description",
+          "value": "Prime meridian: Ferro and London."
+        },
+        {
+          "label": "Description",
+          "value": "Coordinates approximate and based on Greenwich meridian."
+        },
+        {
+          "label": "Description",
+          "value": "Bar scales on map: \"Geometrical Miles 60 to a Degree\", \"British Statute Miles 69 1/2 to a Degree\", \"French Common Land Leagues 25 to a Degree\", \"Spanish Leagues 26 3/9 to a Degree\", \"British & French Marine Leagues 20 to a Degree\", \"Dutch miles, 15 to a Degree\", \"Leagues for Measuring a Voyage on the Map\"."
+        },
+        {
+          "label": "Description",
+          "value": "Includes Articles."
+        },
+        {
+          "label": "Description",
+          "value": "Includes decorated cartouche and descriptive notes."
+        },
+        {
+          "label": "Description",
+          "value": "Inset maps: A particular map of Baffin and Hudson's Bay. Scale [ca. 1:14,000,000] -- The passage by land to California : discovered by Father Eusebius Francis Kino, a Jesuit between the years 1698 and 1701 ... Scale [ca. 1:5,000,000]."
+        },
+        {
+          "label": "Description",
+          "value": "Shows settlements, roads, Indigenous peoples, rivers, etc."
+        },
+        {
+          "label": "Table of contents",
+          "value": "Inset maps : [1] A particular map of Baffin and Hudson's Bay -- [2] The passage by land to California, discovered by Father Eusebius Francis Kino a Jesuit: between the Years of 1698 and 1701, before which, and for a considerable time since California has always been described in all Charts & Maps as an Island"
+        },
+        {
+          "label": "Subject",
+          "value": "British > America > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "British"
+        },
+        {
+          "label": "Subject",
+          "value": "North America > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Southwest, New > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Mexico, North > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "America"
+        },
+        {
+          "label": "Subject",
+          "value": "North Mexico"
+        },
+        {
+          "label": "Subject",
+          "value": "North America"
+        },
+        {
+          "label": "Subject",
+          "value": "New Southwest"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale not determined"
+        },
+        {
+          "label": "Coverage",
+          "value": "112°56′00″W -- 48°24′00″W / 55°00′00″N -- 5°51′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1794"
+        },
+        {
+          "label": "Date",
+          "value": "1794"
+        },
+        {
+          "label": "Identifier",
+          "value": "OCLC: ocn123905579"
+        },
+        {
+          "label": "Identifier",
+          "value": "OCLC: 123905579"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/wf145bs8790"
+        },
+        {
+          "label": "Publisher",
+          "value": "Laurie & Whittle"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-08-11"
+        }
+      ],
+      "description": "Relief shown pictorially.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wf145bs8790%2Fwf145bs8790_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wf145bs8790%2Fwf145bs8790_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 356
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/wf145bs8790/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/wf145bs8790/iiif/canvas/cocina-fileSet-wf145bs8790-wf145bs8790_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 25778,
+              "width": 28966,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/wf145bs8790/wf145bs8790_0001.jp2",
+                  "label": "Original source file (401 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/wf145bs8790/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fcd7dc009-8815-4dd4-b017-d53468a2d8d1",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/wf145bs8790/iiif/canvas/cocina-fileSet-wf145bs8790-wf145bs8790_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/wf145bs8790%2Fwf145bs8790_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 25778,
+                    "width": 28966,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/wf145bs8790%2Fwf145bs8790_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~340644~90108896/manifest",
+      "label": "Haikou Quantu 海口全圖 [Complete Map of Sea Ports].",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~340644~90108896/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~340644~90108896/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Haikou Quantu 海口全圖 [Complete Map of Sea Ports].",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Anonymous"
+                },
+                {
+                  "label": "Date",
+                  "value": "1800"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Haikou Quantu 海口全圖 [Complete Map of Sea Ports]."
+                },
+                {
+                  "label": "Type",
+                  "value": "Manuscript Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "665"
+                },
+                {
+                  "label": "Country",
+                  "value": "China"
+                },
+                {
+                  "label": "Country",
+                  "value": "Taiwan"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Military"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Nautical Charts"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Navigation"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Haikou Quantu 海口全圖 [Complete Map of Sea Ports]. Wanguo tu & Wukou Yanhai Shuilu Quantu 萬國圖 & 五口沿海水路全圖 [Map of 10,000 Countries & Complete Map of the Five Coastal Estuaries]."
+                },
+                {
+                  "label": "List No",
+                  "value": "15039.003"
+                },
+                {
+                  "label": "Series No",
+                  "value": "3"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Anonymous"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1800"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Haikou Quantu 海口全圖 [Complete Map of Sea Ports]. Wanguo tu & Wukou Yanhai Shuilu Quantu 萬國圖 & 五口沿海水路全圖 [Map of 10,000 Countries & Complete Map of the Five Coastal Estuaries]."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"A fine hand-coloured manuscript map painted on paper with numerous annotations in Chinese. Map measuring 665x30cm, mounted on paper as a handscroll, empty pink mica-flecked frontispiece (detached), housed in a 20th century wooden box. Occasional light creasing, a few very minor marginal tears, but otherwise in very good condition. Some English annotation written in pencil. Three red seals of the map production supervisor (新三益號監製) along the upper edge. N.p., n.d. [but early 19th century]. This rare manuscript military map follows the pattern established during the 18th century: It opens with a map of the eastern hemisphere, showing Europe incl. Germany (Huangqi 黄祁), Denmark (Linyin吝因 - the stingy one!), Holland (Helan 荷兰), France (Folangxi 佛兰西), England (Yingjili 英机黎) & Portugal (Putaoya 葡萄牙), Africa, Arabia, India, Russia, China, Japan, and South East Asia. Further south is Australia (Dashishan 大石山, Great Stone Mountain) with a note on the left stating that “on the northern shore of this place ‘Great Stone Mountain’ you can anchor boats” (此處大 石山向北塢內可泊船) and to its right is another un-named continent (“no traces of humans can be found” 人迹不到處). Of the Arctic Ocean, it is said: “For six months in the year this sea is without water and for six months the day has no evening.”. The concept of an eastern hemisphere is clearly based on Western cartography, however, the map as such is based on a Chinese Geography entitled Hai guo wen jian lu (海國聞見錄) by Chen Lunjiong (?-1751, Admiral of the Guangdong Navy) first published in 1744. Throughout the 18th century Chen was instrumental in stepping up the construction of fortifications in strategically important locations along the coast and this map documents his lasting influence. The Eastern Hemisphere is followed by a long continuous coastal chart stretching from the Manchu capital Mukden (now Shenyang) down to Vietnam: It provides details of geographical features like mountains, islands, reefs, sandbanks, and harbours. It indicates the location of coastal towns and villages, defensive structures and numerous military garrisons (identified with a little red flag). The scroll takes you from Shengjing to Tianjin, across Shandong Peninsula with the capital Peking at the top, down the Yellow River estuary, the Yangtze River estuary, the Qiantang estuary, Ningbo (Zhejiang), Fujian, Taiwan, Guangdong, Macau, Hainan, Dongsha, Xisha, and Vietnam. Macao is given special prominence with three walls guarding the Portuguese settlement. At the very end of the scroll the following comment is written in the top right corner: “Siam is an ancient red land, during the Ming dynasty Siam and the Lavo kingdom united as a dynasty and were given tribute status.” (暹羅國即古坴明姑 合暹與羅斛為一本朝因之受封朝貢). It is interesting to note that during the Qing dynasty Chinese Costal charts were not drawn to a specific scale. The further you move away from the capital the smaller the scale, i.e. the distance from Macao to Taiwan appears to be relatively longer than from Peking to Taiwan. Furthermore, the map does not follow a standardised grid system but simply follows the coastline regardless of whether it goes from North to South, or East to West. All the features and topographical details are rendered with precision and the characters are written in regular kaishu script used by official scribes. The outer green silk brocade was used for documents relating to naval defence during the Qing dynasty and thus the purpose of the map is of a military nature. This coastal chart is undated but due to the fact that character for “ning” (寧 part of the personal name of the Daoguang Emperor) is not a taboo, leads us to assume that the map was made during the Jiaqing period, i.e. before 1820. No mention is made of the English presence in Hong Kong.\" (Maggs Bros., 2022)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15039.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Manuscript Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "9"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15039003.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/195/15039003.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Anonymous"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~340644~90108896/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~340644~90108896/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~340644~90108896",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 148124,
+                    "height": 6535
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~340644~90108896/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~340644~90108896/list/luna"
+              ],
+              "width": 148124,
+              "height": 6535
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~340644~90108896"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/jb809dr2186/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Atlas universel de géographie physique, politique, statistique et minéralogique, sur l'echelle de 1/164836 ou d'une ligne par 1900 toises",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/jb809dr2186.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/jb809dr2186'>https://purl.stanford.edu/jb809dr2186</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Atlas universel de géographie physique, politique, statistique et minéralogique, sur l'echelle de 1/164836 ou d'une ligne par 1900 toises"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 map  ; 53.7 cm on sheet"
+        },
+        {
+          "label": "Language",
+          "value": null
+        },
+        {
+          "label": "Description",
+          "value": "Appears in note."
+        },
+        {
+          "label": "Description",
+          "value": "Collector's note."
+        },
+        {
+          "label": "Description",
+          "value": "Coordinates approximate and based on Greenwich meridian."
+        },
+        {
+          "label": "Description",
+          "value": "Decorative cartouche note."
+        },
+        {
+          "label": "Description",
+          "value": "Descriptive text."
+        },
+        {
+          "label": "Description",
+          "value": "Includes note."
+        },
+        {
+          "label": "Description",
+          "value": "Relief shown note."
+        },
+        {
+          "label": "Description",
+          "value": "Scale note."
+        },
+        {
+          "label": "Description",
+          "value": "Shows note."
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale not determined"
+        },
+        {
+          "label": "Date",
+          "value": "1827"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/jb809dr2186"
+        },
+        {
+          "label": "Publisher",
+          "value": "Vandermaelen, Ph."
+        },
+        {
+          "label": "Record published",
+          "value": "2025-08-11"
+        }
+      ],
+      "description": "Appears in note.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/jb809dr2186%2Fjb809dr2186_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/jb809dr2186%2Fjb809dr2186_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 310
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/jb809dr2186/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/jb809dr2186/iiif/canvas/cocina-fileSet-jb809dr2186-jb809dr2186_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 13054,
+              "width": 16828,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/jb809dr2186/jb809dr2186_0001.jp2",
+                  "label": "Original source file (102 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/jb809dr2186/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F4d939d24-5f92-4671-857d-b4dd9e51b4e1",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/jb809dr2186/iiif/canvas/cocina-fileSet-jb809dr2186-jb809dr2186_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/jb809dr2186%2Fjb809dr2186_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 13054,
+                    "width": 16828,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/jb809dr2186%2Fjb809dr2186_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~352155~90119343/manifest",
+      "label": "Text: Alphabets, No.1",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~352155~90119343/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~352155~90119343/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Text: Alphabets, No.1",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Wilme, Benjamin P."
+                },
+                {
+                  "label": "Date",
+                  "value": "1846"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Text: Alphabets, No.1"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "John Weale"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Text Page"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "27"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "20"
+                },
+                {
+                  "label": "Note",
+                  "value": "Circular examples of plain and ornamental drawing alphabets and numbers."
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Text Page to) Alphabets, No. 1. Designed & written by B. P. Wilme. (to accompany) A Hand book for plain and ornamental mapping, and engineering drawing ... London, Published by John Weale, Martin Taylor … 1841. A hand-book for mapping, engineering, and architectural drawing. By B. P. Wilme … London : Published for the author, by John Weale, 1846."
+                },
+                {
+                  "label": "List No",
+                  "value": "13138.020"
+                },
+                {
+                  "label": "Series No",
+                  "value": "20"
+                },
+                {
+                  "label": "Page No",
+                  "value": "(14)"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Wilme, Benjamin P."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1841"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "A Hand book for plain and ornamental mapping, and engineering drawing : consisting of every style of embellishment and writing used by surveyors and civil & mechanical engineers ; containing many original designs and sketches for hills, trees, cliffs, rocks, north-points, scrolls, borders, & titles for estate & parish maps, railway plans, and sections, and every description of ornament required in the above professions. By Benjamin P. Wilme, Civil –Engineer & Surveyor. London, Published by John Weale, Martin Taylor … 1841. Gardner, Zincographer, 19, Giltspur St."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Handbook, with descriptive text, 2 engraved title pages and plates, sketches, charts, maps, some folded and colored. Showing designs and sketches for hills, trees, cliffs, rocks, north-points, scrolls, borders, railway plans, sections and titles for estate & parish maps. With additional, engraved, title-page with title \"A hand-book for mapping, engineering, and architectural drawing ... engraving, lithographing, and zincographing. By B. P. Wilme … London : Published for the author, by John Weale, 1846.\" Bound in brown worn marbled paper-covered boards, half leather bound with title \"Wilme's Mapping\" in gilt on spine."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "13138.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "School Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Book Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "22"
+                },
+                {
+                  "label": "Image No",
+                  "value": "13138020.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/13138020.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Wilme, Benjamin P."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~352155~90119343/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~352155~90119343/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~352155~90119343",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 4953,
+                    "height": 5891
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~352155~90119343/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~352155~90119343/list/luna"
+              ],
+              "width": 4953,
+              "height": 5891
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~352155~90119343"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~359308~90126091/manifest",
+      "label": "Карта си︠е︡веро западного берега Америки от ширины 39° до 44°исправленнаи︠а︡ Колониальными мореходцами [Map of the northwest coast of America from latitude 39° to 44° corrected by Colonial mariners.]",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~359308~90126091/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~359308~90126091/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Карта си︠е︡веро западного берега Америки от ширины 39° до 44°исправленнаи︠а︡ Колониальными мореходцами [Map of the northwest coast of America from latitude 39° to 44° corrected by Colonial mariners.]",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Tebenkov, Mikhail Dmitriyevich"
+                },
+                {
+                  "label": "Date",
+                  "value": "1848"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Карта си︠е︡веро западного берега Америки от ширины 39° до 44°исправленнаи︠а︡ Колониальными мореходцами [Map of the northwest coast of America from latitude 39° to 44° corrected by Colonial mariners.]"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "54"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "1,180,000"
+                },
+                {
+                  "label": "Region",
+                  "value": "Pacific Northwest (United States and Canada)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Карта си︠е︡веро западного берега Америки от ширины 39° до 44°исправленнаи︠а︡ Колониальными мореходцами [Map of the northwest coast of America from latitude 39° to 44° corrected by Colonial mariners.]"
+                },
+                {
+                  "label": "List No",
+                  "value": "15931.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Tebenkov, Mikhail Dmitriyevich"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1848"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Карта си︠е︡веро западного берега Америки от ширины 39° до 44°исправленнаи︠а︡ Колониальными мореходцами [Map of the northwest coast of America from latitude 39° to 44° corrected by Colonial mariners.]"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"The Best Russian Mapping of Northern California. Prepared at Sitka in 1848. This chart, created in 1848 by Mikhail Dmitrievich Tebenkov in Novo Arkhangel'sk (present-day Sitka, Alaska), delineates the coast of northern California and southern Oregon from Heceta Head in the north to roughly Fort Bragg in the south. The chart includes three coastal views alongside a detailed inset of Humboldt Bay. This example is from the collection of Warren Heckrotte and bears a pencil inscription by him highlighting it as \"A well known chart, & historically significant, because of inset map of Humboldt Bay.\" During the mid-19th century, Russian presence in North America, particularly along the Pacific Northwest, was marked by extensive exploration and the establishment of trading posts and settlements, namely under the auspices of the Russian-American Company. The creation of this chart by Tebenkov, a notable figure in Russian maritime exploration, underscores the era's Russian efforts in charting and understanding these territories, reflecting the broader imperial ambitions and the scientific curiosity of the period. Tebenkov's work, especially his detailed attention to the coastal geography, contributed significantly to the navigational knowledge and the strategic understanding of this remote part of the world. This example's lack of folds, as compared to the atlas version published in Tebenkov's Atlas sieverozapadnykh beregov Ameriki in 1852, suggests that this chart may have been separately issued. Based on the working navigational and mathematical annotations on the map and in the margins, it appears that this example was used by a Russian vessel off the North American coast in the mid-19th century. Rarity OCLC identifies several copies of the atlas but finds just a single separate map at the University of California Berkeley, highlighting its lack of a plate number unlike the atlas versions. \" (Ruderman, 2024)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15931.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "54"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15931000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/15931000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Tebenkov, Mikhail Dmitriyevich"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~359308~90126091/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~359308~90126091/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~359308~90126091",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12493,
+                    "height": 15660
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~359308~90126091/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~359308~90126091/list/luna"
+              ],
+              "width": 12493,
+              "height": 15660
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~359308~90126091"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/gh822ms4734/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Central Pacific Railroad : proposed alignment",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted and used for editorial, non-commercial and commercial use. No fees will be charged for either use.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/gh822ms4734.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/gh822ms4734'>https://purl.stanford.edu/gh822ms4734</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Central Pacific Railroad : proposed alignment"
+        },
+        {
+          "label": "Contributor",
+          "value": "Judah, Theodore D. (Theodore Dehone), 1826-1863 (engineer)"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "Manuscript maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 manuscript map in 4 sections on 1 rolled sheet : ink on linen ; 77 x 2,017 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Manuscript map created in preparation to construct the railroad across the Sierra Nevada mountain range in California."
+        },
+        {
+          "label": "Description",
+          "value": "Each section includes table of alignments and Judah's proposed route, part of which were not built on this alignment."
+        },
+        {
+          "label": "Table of contents",
+          "value": "[1] From Barmore Station to Clipper Gap -- [2] From Rattlesnake Bluffs to summit of Sierra Nevada -- [3] From summit of Sierra Nevada to Truckee River -- [4] From Dutch Flat to Rattlesnake Bluffs"
+        },
+        {
+          "label": "Subject",
+          "value": "Railroads > California > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "California > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Sierra Nevada (Calif. and Nev.) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Nevada County (Calif.) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Placer County (Calif.) > Maps > 19th century"
+        },
+        {
+          "label": "Coverage",
+          "value": "\"1 in. = 400 ft.\""
+        },
+        {
+          "label": "Date",
+          "value": "1861"
+        },
+        {
+          "label": "Date",
+          "value": "1861"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/gh822ms4734"
+        },
+        {
+          "label": "Publisher",
+          "value": "[Office of the Secretary of State]"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-08-11"
+        }
+      ],
+      "description": "Manuscript map created in preparation to construct the railroad across the Sierra Nevada mountain range in California.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/gh822ms4734%2Fgh822ms4734_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/gh822ms4734%2Fgh822ms4734_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 16
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/gh822ms4734/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/gh822ms4734/iiif/canvas/cocina-fileSet-gh822ms4734-gh822ms4734_8",
+              "@type": "sc:Canvas",
+              "label": "600 PPI map in full",
+              "height": 19669,
+              "width": 481107,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/gh822ms4734/gh822ms4734_0008.jp2",
+                  "label": "Original source file (1.65 GB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/gh822ms4734/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fgh822ms4734-gh822ms4734_8%2Fgh822ms4734_0008.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/gh822ms4734/iiif/canvas/cocina-fileSet-gh822ms4734-gh822ms4734_8",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/gh822ms4734%2Fgh822ms4734_0008/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 19669,
+                    "width": 481107,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/gh822ms4734%2Fgh822ms4734_0008",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~373693~90140436/manifest",
+      "label": "Modified sextant with spirit-level horizon.. Sextant with Spirit-Level Horizon, with Associated Dipleidoscope",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~373693~90140436/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~373693~90140436/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Modified sextant with spirit-level horizon.. Sextant with Spirit-Level Horizon, with Associated Dipleidoscope",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Davidson, George (1825-1911)"
+                },
+                {
+                  "label": "Author",
+                  "value": "Troughton & Simms"
+                },
+                {
+                  "label": "Date",
+                  "value": "1867"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Modified sextant with spirit-level horizon.. Sextant with Spirit-Level Horizon, with Associated Dipleidoscope"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Troughton & Simms"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Survey Instrument"
+                },
+                {
+                  "label": "Note",
+                  "value": "Close-up of sextant instrument itself. Modified sextant with spirit-level horizon. A standard brass and steel sextant, modified by George Davidson to include a spirit-level horizon for inland observations where no sea horizon was available. Likely made by Troughton & Simms, London, c. 1865."
+                },
+                {
+                  "label": "Subject",
+                  "value": "Survey"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Modified sextant with spirit-level horizon.. Sextant with Spirit-Level Horizon, with Associated Dipleidoscope"
+                },
+                {
+                  "label": "List No",
+                  "value": "16641.004"
+                },
+                {
+                  "label": "Series No",
+                  "value": "4"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Davidson, George (1825-1911)"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Troughton & Simms"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1867"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Sextant with Spirit-Level Horizon, with Associated Dipleidoscope"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Sextant with Spirit-Level Horizon, with Associated Dipleidoscope Owner/Exhibitor: George Davidson (1825–1911), U.S. Coast Survey Maker: Sextant likely Troughton & Simms, London (frame style, c. 1860s) Modification: Spirit-level horizon attachment devised by Davidson (Journal of the Franklin Institute, 1866) Associated Instrument: Dipleidoscope by Elliott Bros., London, in fitted leather case Provenance: Exhibited at the Exposition Universelle, Paris, 1867 (Group 2, Class 12, No. 63) Description Sextant: Precision arc instrument, with telescope and mirrors, modified by Davidson to carry a spirit-level horizon for use where no sea horizon was visible. Engraved nameplate: “George Davidson, Philadelphia.” Original wooden case with painted inscription recording its entry in the Paris Exposition of 1867. Dipleidoscope: Compact brass instrument with multiple glass prisms and attached telescope, inscribed “Elliott Bros., 449 West Strand, London.” Contained in original velvet-lined morocco leather case. Historical Context The Exposition Universelle in Paris (April–November 1867) drew international exhibits of scientific and industrial progress. Group 2, Class 12 covered “instruments of precision.” Davidson entered his modified sextant on behalf of the U.S. Coast Survey; official reports list “Davidson, G., Washington; sextant.” Jury accounts record that the instrument earned honorable mention. The sextant illustrates U.S. Coast Survey field adaptations of standard British instruments for rugged inland and coastal survey work. The accompanying dipleidoscope reflects Davidson’s broader toolkit: a portable device for determining true noon by merging solar images, allowing accurate chronometer checks without a full observatory transit. Subsequent History Case markings show later shipment: “From T. D. Davidson, 1721 Washington St., S.F., Cal. — To Hon. F. D. Roosevelt, Naval Observatory, Washington D.C.” Roosevelt, Assistant Secretary of the Navy (1913–1920), oversaw Naval Observatory instruments. The valuation was listed as $100. Significance Demonstrates Davidson’s role as both surveyor and instrument innovator. Connects the instrument to the Paris Exposition of 1867, a major stage for scientific and industrial display. Association with Franklin D. Roosevelt in his Navy Department role adds a later layer of provenance. The inclusion of the dipleidoscope reveals Davidson’s combined use of angular and temporal instruments to replicate observatory precision in the field. Exhibition History Paris Exposition, 1867, Group 2, Class 12, No. 63 (scientific instruments). Provenance Timeline c. 1865 — Sextant manufactured; Davidson modifies with spirit-level horizon. 1866 — Davidson publishes description in Journal of the Franklin Institute. 1867 — Exhibited in Paris, Exposition Universelle. 1867–1880s — Active Coast Survey use in western U.S. and Alaska. Early 20th century — Shipped by Davidson to Franklin D. Roosevelt at the Naval Observatory, Washington D.C. Later — Preserved with original sextant case and associated dipleidoscope. Bibliography Davidson, George. “Sextant with Attached Spirit-Level Horizon.” Journal of the Franklin Institute, 1866. Paris Universal Exposition, 1867. Reports of the United States Commissioners (Washington, 1869). Catalogue général, Exposition universelle de 1867, Paris, Group 2, Class 12. Jury Reports, Group II, Instruments of Precision (noting honorable mention)."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16641.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Survey Instrument"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16641004.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/218/16641004.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Davidson, George (1825-1911); Troughton & Simms"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~373693~90140436/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~373693~90140436/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~373693~90140436",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 3808,
+                    "height": 3148
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~373693~90140436/canvas/c1"
+                }
+              ],
+              "width": 3808,
+              "height": 3148
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~373693~90140436"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348413~90115984/manifest",
+      "label": "Panorama vom Pizzo Centrale od. Tritton Sanct Gothard.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~348413~90115984/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348413~90115984/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Panorama vom Pizzo Centrale od. Tritton Sanct Gothard.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Heim, Albert"
+                },
+                {
+                  "label": "Date",
+                  "value": "1868"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Panorama vom Pizzo Centrale od. Tritton Sanct Gothard."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Vuchdr. von Zürcher & Furrer"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Zurich"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "18"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "255"
+                },
+                {
+                  "label": "Country",
+                  "value": "Switzerland"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Panorama vom Pizzo Centrale od. Tritton Sanct Gothard. (Blauberg der Dufourkarte), 3002 Meter über Meer . Im Sommer 1868 aufgenommen u. auf Steingezeichnet von Albert Heim."
+                },
+                {
+                  "label": "List No",
+                  "value": "15400.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Heim, Albert"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1868"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Panorama vom Pizzo Centrale od. Tritton Sanct Gothard. (Blauberg der Dufourkarte), 3002 Meter über Meer . Im Sommer 1868 aufgenommen u. auf Steingezeichnet von Albert Heim."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"\"This is a very fine view-point, and the panorama from it has been published by Prof. Albert Heim (Zürich, 1867)\" W.A.B. Coolidge, a great mountaineering pioneer, has written about Pizzo Centrale (in his guide \"The Adula Alps\" of 1893), which he had reached on July 29th, 1892, together with Christian Almer jun. It is the highest peak of the Gotthard range. Until the seventies it was a threethousander, measured at 3001 m. Due to a rock slide it lost parts of the summit and with them the triangular point. The new point was measured at 2999 m. Despite the lower altitude the summit has not lost its importance for tourists. Hikers enjoy a 360° view from the mountain: including three valleys, a small lake to the south of the summit, a formerly vast glacier on the north side and to numerous mountain ranges in the distance.\" (Swiss Alpine Club, 2022)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15400.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "12"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "18"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15400002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/15400002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Heim, Albert"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348413~90115984/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348413~90115984/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348413~90115984",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 62338,
+                    "height": 4658
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348413~90115984/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348413~90115984/list/luna"
+              ],
+              "width": 62338,
+              "height": 4658
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~348413~90115984"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350501~90117926/manifest",
+      "label": "Flight of the Balloon over London, (at Night), 2nd Oct. 1865.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~350501~90117926/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350501~90117926/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Flight of the Balloon over London, (at Night), 2nd Oct. 1865.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Glaisher, James"
+                },
+                {
+                  "label": "Author",
+                  "value": "Flammarion, Camille"
+                },
+                {
+                  "label": "Author",
+                  "value": "De Fonvielle, W."
+                },
+                {
+                  "label": "Author",
+                  "value": "Tissandier, Gaston"
+                },
+                {
+                  "label": "Date",
+                  "value": "1871"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Flight of the Balloon over London, (at Night), 2nd Oct. 1865."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Edward Bentley & Son"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Type",
+                  "value": "Diagram"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "25"
+                },
+                {
+                  "label": "City",
+                  "value": "London (England)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Flight of the Balloon over London, (at Night), 2nd Oct. 1865."
+                },
+                {
+                  "label": "List No",
+                  "value": "15541.015"
+                },
+                {
+                  "label": "Series No",
+                  "value": "15"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Glaisher, James"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Flammarion, Camille"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "De Fonvielle, W."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Tissandier, Gaston"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1871"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Travels in the Air. Second and Revised Edition."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "For the full text and all illustrations, see https://archive.org/details/Travelsair00Glai/page/ii/mode/2up"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "A selection of images, diagrams, and maps from this important book on ballooning in Europe."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15541.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "27"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "18"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15541015.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/15541015.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Glaisher, James; Flammarion, Camille; De Fonvielle, W.; Tissandier, Gaston"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350501~90117926/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350501~90117926/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350501~90117926",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 5880,
+                    "height": 3777
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350501~90117926/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350501~90117926/list/luna"
+              ],
+              "width": 5880,
+              "height": 3777
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~350501~90117926"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/kf257mt7051/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Log Of H.M.S. \"Swiftshure\" Bearing the (flag of) Rear Admiral H.M.L. Lyons commanded by Captain C. Mainwaring, C.F. Henderson (with) Log of H.M.S. \"Swiftshure\" Bearing the (flag) of Rear Admiral J.K.E. Baird commanded by Captain the Honble T.S. Brand kept by C.F. Henderson",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/kf257mt7051.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/kf257mt7051'>https://purl.stanford.edu/kf257mt7051</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Log Of H.M.S. \"Swiftshure\" Bearing the (flag of) Rear Admiral H.M.L. Lyons commanded by Captain C. Mainwaring, C.F. Henderson (with) Log of H.M.S. \"Swiftshure\" Bearing the (flag) of Rear Admiral J.K.E. Baird commanded by Captain the Honble T.S. Brand kept by C.F. Henderson"
+        },
+        {
+          "label": "Contributor",
+          "value": "Henderson, C.F."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Nautical charts."
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 16 maps ; 33 x 21 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Chart."
+        },
+        {
+          "label": "Description",
+          "value": "This is a ship's log that begins to record a journey midway from Honolulu to Esquimalt in British Columbia, then down the west coast of the United States and the west coast of South America, around Cape Horn, and back to England. It begins in July, 1884 and ends in November, 1885. 16 beautifully drawn charts record the track of the steam and sail powered ship, showing stops in San Francisco, Mazatlan, San Blas, Valparaiso and Rio de Janeiro and other ports. Many drawings illustrate aspects of the ship and its equipment. The log itself records the weather and daily ship operations. An unusual highly illustrated document."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 5124.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Nautical charts > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Atlantic Ocean > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Pacific Ocean > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1884"
+        },
+        {
+          "label": "Date",
+          "value": "1884"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/kf257mt7051"
+        },
+        {
+          "label": "Publisher",
+          "value": "Manuscript,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-05-13"
+        }
+      ],
+      "description": "Chart.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/mb887nz6043%2F5124001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/mb887nz6043%2F5124001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 298
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/kf257mt7051/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/kf257mt7051/iiif/canvas/cocina-fileSet-fk816vb2046-fk816vb2046_1",
+              "@type": "sc:Canvas",
+              "label": "H.M.S. \"Swiftsure\" San Francisco to Magdalena Bay, Dec 1885 (should\n            be 1884)",
+              "height": 6694,
+              "width": 4342,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/fk816vb2046/5124046.jp2",
+                  "label": "Original source file (5.23 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/kf257mt7051/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Ffk816vb2046-fk816vb2046_1%2F5124046.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/kf257mt7051/iiif/canvas/cocina-fileSet-fk816vb2046-fk816vb2046_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/fk816vb2046%2F5124046/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 6694,
+                    "width": 4342,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/fk816vb2046%2F5124046",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/kf257mt7051/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Log Of H.M.S. \"Swiftshure\" Bearing the (flag of) Rear Admiral H.M.L. Lyons commanded by Captain C. Mainwaring, C.F. Henderson (with) Log of H.M.S. \"Swiftshure\" Bearing the (flag) of Rear Admiral J.K.E. Baird commanded by Captain the Honble T.S. Brand kept by C.F. Henderson",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/kf257mt7051.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/kf257mt7051'>https://purl.stanford.edu/kf257mt7051</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Log Of H.M.S. \"Swiftshure\" Bearing the (flag of) Rear Admiral H.M.L. Lyons commanded by Captain C. Mainwaring, C.F. Henderson (with) Log of H.M.S. \"Swiftshure\" Bearing the (flag) of Rear Admiral J.K.E. Baird commanded by Captain the Honble T.S. Brand kept by C.F. Henderson"
+        },
+        {
+          "label": "Contributor",
+          "value": "Henderson, C.F."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Nautical charts."
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 16 maps ; 33 x 21 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Chart."
+        },
+        {
+          "label": "Description",
+          "value": "This is a ship's log that begins to record a journey midway from Honolulu to Esquimalt in British Columbia, then down the west coast of the United States and the west coast of South America, around Cape Horn, and back to England. It begins in July, 1884 and ends in November, 1885. 16 beautifully drawn charts record the track of the steam and sail powered ship, showing stops in San Francisco, Mazatlan, San Blas, Valparaiso and Rio de Janeiro and other ports. Many drawings illustrate aspects of the ship and its equipment. The log itself records the weather and daily ship operations. An unusual highly illustrated document."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 5124.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Nautical charts > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Atlantic Ocean > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Pacific Ocean > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1884"
+        },
+        {
+          "label": "Date",
+          "value": "1884"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/kf257mt7051"
+        },
+        {
+          "label": "Publisher",
+          "value": "Manuscript,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-05-13"
+        }
+      ],
+      "description": "Chart.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/mb887nz6043%2F5124001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/mb887nz6043%2F5124001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 298
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/kf257mt7051/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/kf257mt7051/iiif/canvas/cocina-fileSet-sd379fn8555-sd379fn8555_1",
+              "@type": "sc:Canvas",
+              "label": "(View) (H.M.S. Swiftsure, Small landscape watercolor - unlabeled but next to\n            San Blas map)",
+              "height": 1444,
+              "width": 3176,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/sd379fn8555/5124055.jp2",
+                  "label": "Original source file (858 KB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/kf257mt7051/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fsd379fn8555-sd379fn8555_1%2F5124055.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/kf257mt7051/iiif/canvas/cocina-fileSet-sd379fn8555-sd379fn8555_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/sd379fn8555%2F5124055/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 1444,
+                    "width": 3176,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/sd379fn8555%2F5124055",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/cp808jv3694/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Yaggy's Geographical Portfolio",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/cp808jv3694.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/cp808jv3694'>https://purl.stanford.edu/cp808jv3694</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Yaggy's Geographical Portfolio"
+        },
+        {
+          "label": "Contributor",
+          "value": "Yaggy, Levi Walter."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Type",
+          "value": "Geological maps."
+        },
+        {
+          "label": "Type",
+          "value": "Topographic maps."
+        },
+        {
+          "label": "Type",
+          "value": "Aerial views"
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 10 maps ; 56 x 86 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Yaggy's large geographical charts are among the most beautiful and impressive educational charts published in the 19th century. Using chromolithography, Yaggy created stunning colors and contrasts in his images of the world, its regions, and peoples. The ten charts in this set were originally housed in a large wooden portfolio that also served as a display mechanism, allowing the charts to be tilted up for classroom use. In the portfolio were also two elaborate charts of the universe with moving parts and tinted gels. In 1887 Yaggy published a set of charts with a similar theme, \"Geographical Study: Comprising Physical, Political, Geological and Astronomical Geography,\" although it did not include any of the chromolithographic charts in our 1893 set. Rather it had more conventional maps of the world and nations. Yaggy intended his charts to be used in classrooms by students, and issued a teacher’s handbook to assist with instruction. Yaggy published other educational works: Museum of Antiquity; A Description of Ancient Life… (1880); The Royal Path of Life; Or, Aims and Aids to Success and Happiness (1881); The Standard History of All Nations and Races… (1899); and How to Do a Consulting Library for Every Want (1902); Yaggy’s Anatomical Study; Presenting the Skeleton, Muscles, Arteries, Veins and Nerves, also Four Life-Size Manikins of the Body, the Head, the Eye and the Ear (Chicago, ca. 1884-1885), which featured life-size illustrations and cutaways of the human body."
+        },
+        {
+          "label": "Description",
+          "value": "Physical Atlas."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Topographic maps > United States > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Physical geography > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Human geography > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Bird's-eye views > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Charts, diagrams, etc > Mountains > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Climate > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Biogeography > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Geology > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Arctic regions > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Tropics > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1893"
+        },
+        {
+          "label": "Date",
+          "value": "1893"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/cp808jv3694"
+        },
+        {
+          "label": "Publisher",
+          "value": "C.F. Rassweiler & Co."
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2021-02-17"
+        }
+      ],
+      "description": "Yaggy's large geographical charts are among the most beautiful and impressive educational charts published in the 19th century. Using chromolithography, Yaggy created stunning colors and contrasts in his images of the world, its regions, and peoples. The ten charts in this set were originally housed in a large wooden portfolio that also served as a display mechanism, allowing the charts to be tilted up for classroom use. In the portfolio were also two elaborate charts of the universe with moving parts and tinted gels. In 1887 Yaggy published a set of charts with a similar theme, \"Geographical Study: Comprising Physical, Political, Geological and Astronomical Geography,\" although it did not include any of the chromolithographic charts in our 1893 set. Rather it had more conventional maps of the world and nations. Yaggy intended his charts to be used in classrooms by students, and issued a teacher’s handbook to assist with instruction. Yaggy published other educational works: Museum of Antiquity; A Description of Ancient Life… (1880); The Royal Path of Life; Or, Aims and Aids to Success and Happiness (1881); The Standard History of All Nations and Races… (1899); and How to Do a Consulting Library for Every Want (1902); Yaggy’s Anatomical Study; Presenting the Skeleton, Muscles, Arteries, Veins and Nerves, also Four Life-Size Manikins of the Body, the Head, the Eye and the Ear (Chicago, ca. 1884-1885), which featured life-size illustrations and cutaways of the human body.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/cv368hj6220%2F10096001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/cv368hj6220%2F10096001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 277
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/cp808jv3694/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/cp808jv3694/iiif/canvas/cocina-fileSet-mq481sj1214-mq481sj1214_1",
+              "@type": "sc:Canvas",
+              "label": "Nature in Descending Regions",
+              "height": 12356,
+              "width": 18146,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/mq481sj1214/10096007.jp2",
+                  "label": "Original source file (40.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/cp808jv3694/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fmq481sj1214-mq481sj1214_1%2F10096007.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/cp808jv3694/iiif/canvas/cocina-fileSet-mq481sj1214-mq481sj1214_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/mq481sj1214%2F10096007/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 12356,
+                    "width": 18146,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/mq481sj1214%2F10096007",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~239902~5512082/manifest",
+      "label": "Panoramic View of the Crater Lake National Park.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~239902~5512082/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~239902~5512082/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Panoramic View of the Crater Lake National Park.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "USGS (U.S. Geological Survey)"
+                },
+                {
+                  "label": "Author",
+                  "value": "Renshawe, John H."
+                },
+                {
+                  "label": "Date",
+                  "value": "1915"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Panoramic View of the Crater Lake National Park."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "USGS (U.S. Geological Survey)"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington D.C."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "49"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "62,500"
+                },
+                {
+                  "label": "Note",
+                  "value": "Date estimated. Shaded relief without contours. Full color artistic rendering of the park. Part of a series for the national parks."
+                },
+                {
+                  "label": "Region",
+                  "value": "Crater Lake National Park"
+                },
+                {
+                  "label": "Subject",
+                  "value": "National Parks"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Panoramic View of the Crater Lake National Park."
+                },
+                {
+                  "label": "List No",
+                  "value": "6087.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "USGS (U.S. Geological Survey)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1915"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Panoramic View of the Crater Lake National Park."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See Note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "6087.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "49"
+                },
+                {
+                  "label": "Image No",
+                  "value": "6087000"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/6087000.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "USGS (U.S. Geological Survey); Renshaw, John H."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~239902~5512082/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~239902~5512082/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~239902~5512082",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 7877,
+                    "height": 9057
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~239902~5512082/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~239902~5512082/list/luna"
+              ],
+              "width": 7877,
+              "height": 9057
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~239902~5512082"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347149~90114626/manifest",
+      "label": "Industria delle conserve alimentari : Esportazione di conserve di pomodoro (ql) ...",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~347149~90114626/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347149~90114626/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Industria delle conserve alimentari : Esportazione di conserve di pomodoro (ql) ...",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Confederazione generale dell'industria italiana"
+                },
+                {
+                  "label": "Author",
+                  "value": "Associzaione fra le società italiane per azioni"
+                },
+                {
+                  "label": "Date",
+                  "value": "1928"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Industria delle conserve alimentari : Esportazione di conserve di pomodoro (ql) ..."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Confederazione generale dell'industria italiana"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Rome"
+                },
+                {
+                  "label": "Type",
+                  "value": "Diagram"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Note",
+                  "value": "Two charts showing the export of canned tomatoes and salted, smoked meat within the food canning industry in Italy, from 1876 to 1928. Includes descriptive text. Colored lithograph, on sheet 21 x 29 cm."
+                },
+                {
+                  "label": "Subject",
+                  "value": "Industry"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Commerce; Economics"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Historical"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Industria delle conserve alimentari : Esportazione di conserve di pomodoro (ql) -- Esportazione di carni salate affumicate in altro modo preparate (escluso il lardo) (ql)."
+                },
+                {
+                  "label": "List No",
+                  "value": "14403.080"
+                },
+                {
+                  "label": "Series No",
+                  "value": "80"
+                },
+                {
+                  "label": "Page No",
+                  "value": "LXXIV"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Litografia del Genio Civile"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Confederazione generale dell'industria italiana"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Associzaione fra le società italiane per azioni"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1929"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Lo sviluppo dell'industria italiana"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Lo sviluppo dell'industria italiana, by the Confederazione generale dell'industria italiana; published in Rome, 1929. National and thematic atlas of Italy, featuring the development of Italian industry. Bound in gray paper covers tied with maroon cord. Front cover includes title and imprint. Collation: [10] pages, LXXXIII plates. Volume includes a title page, table of contents and 3 maps and 109 charts on 83 plates. Maps show the industrial activity in the different regions of Italy. Charts represent various Italian industries - such as energy, manufacturing and agriculture - as well as their growth over time, from 1876 to 1928. \"An absolutely delightful book, which is essentially an Italian take on the isotype, with the book having been largely composed of charts and diagrams, composed in the same manner as isotypes, but with a distinctly Italian twist. A rare book with OCLC listing no copies in the US and 2 in Europe.\" (Ursus, 2022)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14403.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Thematic Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "3"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "22"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "32"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14403080.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/14403080.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Confederazione generale dell'industria italiana; Associzaione fra le società italiane per azioni"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347149~90114626/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347149~90114626/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347149~90114626",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 8021,
+                    "height": 5613
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347149~90114626/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347149~90114626/list/luna"
+              ],
+              "width": 8021,
+              "height": 5613
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~347149~90114626"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~345852~90113315/manifest",
+      "label": "Aкcoнoмeтpичecкoe изoбpaжeниe yпpoщeнныx oбъeмoв coopyжeний в кoнcтpyктивнo cпaяннoм peшeнии.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~345852~90113315/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~345852~90113315/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Aкcoнoмeтpичecкoe изoбpaжeниe yпpoщeнныx oбъeмoв coopyжeний в кoнcтpyктивнo cпaяннoм peшeнии.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Chernikhov, I︠A︡kov Georgievich"
+                },
+                {
+                  "label": "Author",
+                  "value": "Kopanit︠s︡yn, D."
+                },
+                {
+                  "label": "Author",
+                  "value": "Pavlova, E."
+                },
+                {
+                  "label": "Date",
+                  "value": "1933"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Aкcoнoмeтpичecкoe изoбpaжeниe yпpoщeнныx oбъeмoв coopyжeний в кoнcтpyктивнo cпaяннoм peшeнии."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Meshdunarodnaja Kniga"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Leningrad"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "17"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "12"
+                },
+                {
+                  "label": "Note",
+                  "value": "View of \"architectural fiction\" - an axonometric depiction of simplified volumes for welded structures. Colored lithograph. View is 17 x 12 cm, on sheet 31 x 21 cm. With descriptive text."
+                },
+                {
+                  "label": "Subject",
+                  "value": "Architecture"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Aкcoнoмeтpичecкoe изoбpaжeниe yпpoщeнныx oбъeмoв coopyжeний в кoнcтpyктивнo cпaяннoм peшeнии."
+                },
+                {
+                  "label": "List No",
+                  "value": "14398.069"
+                },
+                {
+                  "label": "Series No",
+                  "value": "69"
+                },
+                {
+                  "label": "Page No",
+                  "value": "54"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Chernikhov, I︠A︡kov Georgievich"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Kopanit︠s︡yn, D."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Pavlova, E."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1933"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "APXИTEKTУPHЫIE ФAHTAЗИИ. 101 KOMПOЗИЦИЯ B KPACKAX, 101 APXИTEKTУPHAЯ MИHИATЮPA. И CПOЛHEHЫ ПPИ УЧACTИИ Д. KOПAHИЦЫHA И E. ПABЛOBOЙ. ЯKOB ЧEPHИXOB. ЛEHИHГPAД, 1933. ИЗДAHИE ЛEHИHГPAДCKOГO OБЛACTHOГO OTДEЛEHИЯ BCECOЮ З HOГO OБъEДИHEHИЯ \"MEЖДУHAPOДHAЯ KHИГA\"."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Senkevitch, Soviet architecture, 1917-1967 (Charlottesville, 1974), 205. Centre Pompidou, Paris-Moscou, 1900-1930 (Paris, 1979), 567. Andel, 301-302."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "APXИTEKTУPHЫIE ФAHTAЗИИ, by Chernikhov, published in Leningrad by Meshdunarodnaja Kniga, 1933. Title translates to: Architectural fictions. Bound in board, covered in original blue cloth. Title debossed on both front cover and spine. Collation: [1-13], 14-102, 101 leaves of plates. Volume includes four parallel title pages, beginning with Russian and followed by translations in German, French and English, as well as a colophon in Russian. Table of contents for text lists section titles with associated page numbers. Section titles translate to: I. Types of architectural design -- II. Technical processes -- III. Imaging methods -- IV. Composite processes -- V. Techniques and display types -- VI. Methods for detecting architectural designs -- VII. Basic principles of building architectural fictions. Table of contents for plates lists titles of illustrations with associated plate numbers. Text illustrated by miniature images of architecture in black and white. Plates feature views of architectural fictions, in color and accompanied by descriptive text. Besides title page translations, all other text appears in Russian. “First edition of the landmark work of Soviet architectural fantasies, lavishly illustrated with dramatic designs of possible cities, factories and monumental buildings. This is the best and most important publication by Chernykov, and one of the most exciting books on architecture issued in the twentieth century. Published in collaboration with D. Kopanitzin and E. Pavlova, this first edition was limited to 3,000 copies.” - Ursus Books & Gallery, New York."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14398.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "101"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14398069.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/14398069.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Chernikhov, I︠A︡kov Georgievich; Kopanit︠s︡yn, D.; Pavlova, E."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~345852~90113315/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~345852~90113315/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~345852~90113315",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 5286,
+                    "height": 7612
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~345852~90113315/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~345852~90113315/list/luna"
+              ],
+              "width": 5286,
+              "height": 7612
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~345852~90113315"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357187~90124059/manifest",
+      "label": "CXEMA ПPOБИBкИ HOBЫX И PEHOHCTPУKЦИИ CTAPЫX MAГИCTPAЛEЙ ЦEHTPAЛЬHOЙ ЧACTИ ГOPOДA MOCKBЫ.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~357187~90124059/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357187~90124059/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "CXEMA ПPOБИBкИ HOBЫX И PEHOHCTPУKЦИИ CTAPЫX MAГИCTPAЛEЙ ЦEHTPAЛЬHOЙ ЧACTИ ГOPOДA MOCKBЫ.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Vsesoi︠u︡znyĭ nauchno-izdatelʹskiĭ institut izobrazitelʹnoĭ statistiki (Soviet Union)"
+                },
+                {
+                  "label": "Date",
+                  "value": "1936"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "CXEMA ПPOБИBкИ HOBЫX И PEHOHCTPУKЦИИ CTAPЫX MAГИCTPAЛEЙ ЦEHTPAЛЬHOЙ ЧACTИ ГOPOДA MOCKBЫ."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "ИHCTИTУT ИЗOCTAT"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Moscow"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "64"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map representing the central part of Moscow, Russia, featuring road reconstruction, in 1936. Shows roads, vegetation, bodies of water and drainage. Includes a legend. Colored lithograph. Map is 64 x 61 cm, on fold-out sheet 68 x 68 cm."
+                },
+                {
+                  "label": "City",
+                  "value": "Moscow (Russia)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Land Development"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "CXEMA ПPOБИBкИ HOBЫX И PEHOHCTPУKЦИИ CTAPЫX MAГИCTPAЛEЙ ЦEHTPAЛЬHOЙ ЧACTИ ГOPOДA MOCKBЫ."
+                },
+                {
+                  "label": "List No",
+                  "value": "14399.033"
+                },
+                {
+                  "label": "Series No",
+                  "value": "33"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Vsesoi︠u︡znyĭ nauchno-izdatelʹskiĭ institut izobrazitelʹnoĭ statistiki (Soviet Union)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1938"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "MOCKBA PEKOHCTPУИPУETCЯ : AЛЬБOМ ДИAГPAMM, TOПOCXEM И ФOTOГPAФИЙ ПO PEKOHCTPУKЦИИ ГOP. MOCKBЫ. MOCKBA 1938 г."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "MOCKBA PEKOHCTPУИPУETCЯ : AЛЬБOМ ДИAГPAMM, TOПOCXEM И ФOTOГPAФИЙ ПO PEKOHCTPУKЦИИ ГOP, by Vsesoi︠u︡znyĭ nauchno-izdatelʹskiĭ institut izobrazitelʹnoĭ statistiki (Soviet Union) [= All-union Institute of Pictorial Statistics of Soviet Construction and Economy]. Published by the ИHCTИTУT ИЗOCTAT [= INTITUTE IZOSTAT) in Moscow, 1938. Title translates to: Moscow under reconstruction. Bound in board covered in blue cloth. Front cover has title debossed and an embossed vignette of a city scene. Back cover has text: ИHCTИTУT ИЗOCTAT [= INTITUTE IZOSTAT). Endpapers offer a view of the city skyline along the waterfront. Volume is 260 pages and contains 73 maps, 37 illustrations, 110 photographs, 41 diagrams and 3 portraits, including of Stalin. Through this variety of imagery, the atlas depicts Moscow’s reconstruction during the 1930s. Many images show scenes of Moscow both before and after reconstruction, illustrating the projected development over time. Some projections imagine as far ahead as 1945, with estimated growth of entities such as schools, canals and power plants. In addition to featured themes, maps also show city limits, railways, roads, metro-lines, bus-lines, canals, bodies of water, drainage, topography, vegetation and the outskirts of the city. Volume includes a title page, colophon, foreword and acknowledgments. Title page features the slogan, \"ПPOЛETAPИИ BCEX CTPAH, COEДИHЯЙTECЬ!\" [= Workers of the world, unite!], a rallying cry from The communist manifesto by Karl Marx and Friedrich Engels."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14399.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "City Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "73"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14399033.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/14399033.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Vsesoi︠u︡znyĭ nauchno-izdatelʹskiĭ institut izobrazitelʹnoĭ statistiki (Soviet Union)"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~357187~90124059/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~357187~90124059/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~357187~90124059",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 8983,
+                    "height": 8670
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357187~90124059/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357187~90124059/list/luna"
+              ],
+              "width": 8983,
+              "height": 8670
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~357187~90124059"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/vs699fz6413/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "The United States as viewed by California (Very unofficial), distorted and drawn by Ernest Dudley Chase, Winchester, Mass. Copyright 1940, Ernest Dudley Chase",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/vs699fz6413.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/vs699fz6413'>https://purl.stanford.edu/vs699fz6413</a>"
+        },
+        {
+          "label": "Title",
+          "value": "The United States as viewed by California (Very unofficial), distorted and drawn by Ernest Dudley Chase, Winchester, Mass. Copyright 1940, Ernest Dudley Chase"
+        },
+        {
+          "label": "Contributor",
+          "value": "Chase, Ernest Dudley, 1878-1966."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 58 x 44 cm."
+        },
+        {
+          "label": "Description",
+          "value": "Separate Map."
+        },
+        {
+          "label": "Description",
+          "value": "Uncolored pictorial map (as issued, see our hand colored copy, presumably colored by an owner). Showing the United States from the point of view of Californian, with the Sun smiling on a disproportionately large California while the rest of the country is compressed into a largely undifferentiated spider’s web beneath dark rain clouds. Throughout the state, California is also depicted as a cornucopia of plenty, teaming with industry, agriculture, recreational activity, wild life and natural wonders. Shows landmarks such as Spanish Colonial missions, the Rose Bowl, the Bakersfield oil wells and the state capital building. An airplane in the sky bearing the slogan “we’ll soon be there!” approaches the state line along with a train, a bus and cars, while railroad cars carrying California produce head east. Chase created this highly distorted view of the United States as perceived by Californians. One-third the size of the rest of the country, the state is perpetually drenched by the sun. Relief shown pictorially. Signed lower left in pencil: Ernest Dudley Chase."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 10006.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Pictorial map > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "California > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale not given."
+        },
+        {
+          "label": "Date",
+          "value": "1940"
+        },
+        {
+          "label": "Date",
+          "value": "1940"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/vs699fz6413"
+        },
+        {
+          "label": "Publisher",
+          "value": "Ernest Dudley Chase,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-01-06"
+        }
+      ],
+      "description": "Separate Map.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/vs699fz6413%2F10006000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/vs699fz6413%2F10006000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 305,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/vs699fz6413/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/vs699fz6413/iiif/canvas/cocina-fileSet-vs699fz6413-vs699fz6413_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 400,
+              "width": 305,
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/vs699fz6413/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fvs699fz6413-vs699fz6413_1%2F10006000.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/vs699fz6413/iiif/canvas/cocina-fileSet-vs699fz6413-vs699fz6413_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/vs699fz6413%2F10006000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 400,
+                    "width": 305,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/vs699fz6413%2F10006000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292130~90063941/manifest",
+      "label": "California.1968 David Schiller",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~292130~90063941/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292130~90063941/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "California.1968 David Schiller",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Schliller, David"
+                },
+                {
+                  "label": "Date",
+                  "value": "1968"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "California.1968 David Schiller"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Sparta Graphics"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "San Jose, Calif."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "95"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Pictorial 3-D map of the state of California by artist David Schiller, with engraved decorative borders. Includes many 1960s famous venues, bars and popular places. Shows buildings, bridges, roads, rivers, lakes, forests and numerous landmarks, some landmarks are noted. John F. Johnson's signature printed in the lower right and Jefferson Airplane, created by Schiller originally for the band and rendered on many Fillmore Posters and for album cover flying over. Relief shown pictorially. Includes compass rose oriented with the north to upper left margin. David Schiller was one of the kings of rock art, producing album covers and posters for many 1960's bands and creating many incredible Fillmore posters for most of the great psychedelic rock bands of the 1960's."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "California. 1968 David Schiller. San Jose, California. Sparta Graphics."
+                },
+                {
+                  "label": "List No",
+                  "value": "11437.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Schliller, David"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1968"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "California. 1968 David Schiller. San Jose, California. Sparta Graphics."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11437.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "95"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11437000.jp2"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Schliller, David"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292130~90063941/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292130~90063941/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292130~90063941",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 14686,
+                    "height": 19436
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292130~90063941/canvas/c1"
+                }
+              ],
+              "width": 14686,
+              "height": 19436
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~292130~90063941"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369647~90137022/manifest",
+      "label": "First Maps of the Internet",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~369647~90137022/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369647~90137022/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "First Maps of the Internet",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Peacock Maps, Inc."
+                },
+                {
+                  "label": "Author",
+                  "value": "Staple, Gregory C."
+                },
+                {
+                  "label": "Author",
+                  "value": "Dodge, Marin"
+                },
+                {
+                  "label": "Author",
+                  "value": "Slage, Irena"
+                },
+                {
+                  "label": "Date",
+                  "value": "2001"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "First Maps of the Internet"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Peacock Maps, Inc."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington, D.C."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "69"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "96"
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Communications"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Internet"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Oceans; Seas"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "First Maps of the Internet"
+                },
+                {
+                  "label": "List No",
+                  "value": "16295.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Peacock Maps, Inc."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Staple, Gregory C."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Dodge, Marin"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Slage, Irena"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "2001"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "First Maps of the Internet"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Gregory Staple coined the term “telegeography” in 1990 to describe the unprecedented new reach and impact of the world’s electronic communications networks. Rather than presaging the \"death of distance\", telegeography held that the rise of digital networks reflected an explosion of place (e.g., myriad new dialing codes, URLs, email addresses) that was dividing traditional social groups and splintering physical geographies of space and time .\n\nIn 1993, Staple founded TeleGeography, Inc. (TGI) to research and compile reliable country-by-country statistics on the flow of international telephone and data traffic. TGI also began to map the physical infrastructure underlying these communications streams (subsea cables, landing stations, communication satellites, tele-houses). \n\nBuilding on work published by London’s International Institute of Communications (IIC), where Staple worked in the late 1980’s, TGI issued annual statistical reports with commentary detailing the volume of cross-border telecommunications traffic and network links between over 50 countries - see the reports archive at https://www2.telegeography.com/telegeography-report-archive\n\nIn 1996, TGI began to publish an annual poster-size map  of the world’s submarine telecommunication cables and landing stations - https://www.davidrumsey.com/luna/servlet/s/i6v93f \n \nSome maps also included the footprints of major satellite networks. TGI's 2025 global communications map covers the approximately 600 international subsea cable systems that make up the Internet’s principal electronic backbone - https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~369655~90137030:Submarine-Cable-Map-2025?qvq=q:telegeography;lc:RUMSEY~8~1&mi=37&trs=39  \n\nThis 2014 Medium post recounts the history of TGI’s first 25 years - https://gregstaple.medium.com/mapping-tomorrow-c340d7dcc03f\n\nMap and image are copyright by Telegeography, Inc. www.telegeography.com  For copies of TeleGeography maps that are still in print, see https://shop.telegeography.com/collections/telecom-maps"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16295.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "69"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "96"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16295000.jp2"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Peacock Maps, Inc.; Staple, Gregory C.; Dodge, Marin; Slage, Irena"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369647~90137022/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369647~90137022/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369647~90137022",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 22830,
+                    "height": 16486
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369647~90137022/canvas/c1"
+                }
+              ],
+              "width": 22830,
+              "height": 16486
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~369647~90137022"
+    }
+  ]
+}
