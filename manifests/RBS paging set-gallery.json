@@ -1,0 +1,2115 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/RBS paging set",
+  "label": "RBS paging set",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~296501~90067882/manifest",
+      "label": "Typus Orbis Universalis",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~296501~90067882/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~296501~90067882/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Typus Orbis Universalis",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Munster, Sebastian, 1488-1552"
+                },
+                {
+                  "label": "Author",
+                  "value": "Ptolemy, Claudius"
+                },
+                {
+                  "label": "Author",
+                  "value": "Pirckheimer, Willibald, 1470-1530"
+                },
+                {
+                  "label": "Date",
+                  "value": "1540"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Typus Orbis Universalis"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Henrichum Petrum"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Basel"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "26"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "120,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Woodcut uncolored map of the world. The first map to name the pacific Ocean “Mare Pacificum”. Shows windheads around the map sea monsters, rivers and mountains. Relief shown pictorially."
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Antarctica"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Classical"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Typus Orbis Universalis. (to accompany) Geographia universalis, vetus et nova, complectens Claudii Ptolemaei Alexandrini enarrationis libros VIII ... Basileae apud Henricum Petrum Mense Martio anno M.D. XL (1540)."
+                },
+                {
+                  "label": "List No",
+                  "value": "11623.009"
+                },
+                {
+                  "label": "Series No",
+                  "value": "9"
+                },
+                {
+                  "label": "Page No",
+                  "value": "1 map"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Munster, Sebastian, 1488-1552"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ptolemy, Claudius"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Pirckheimer, Willibald, 1470-1530"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1540"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Geographia universalis, vetus et nova, complectens Claudii Ptolemaei Alexandrini enarrationis libros VIII : quorum primus nova translatione Pirckheimheri et accessione commentarioli illustrior quam hactenus fuerit redditus est ... Succedunt tabulae ptolemaicae, opera Sebastiani Munsteri novo paratae modo ... Basileae apud Henricum Petrum Mense Martio anno M.D. XL (1540)."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "First edition of Sebastian Munster’s Geographia Universalis, published in 1540. A new and important edition of Ptolemy, with redesigned maps and the text revised by Sebastian Munster, based on the Willibald Pirckheimer Latin translation, with corrections of 1535 by Servetus. A reprint was made in 1542 and two re-editions, adding maps, in 1545 and 1552. The atlas consists of Letterpress title, Liber I-VIII, plus text printed in two columns, including 7 woodcut diagrams in the text, tables, errata, index and one full-page printer’s woodcut device on verso of colophon leaf. Also includes 48 double-page woodcut maps, 27 maps of the ancient world, 21 of the modern world, each within a woodcut border, and with descriptive text on reverse of each map, printed within ornamental woodcut borders, designed in the Holbein style. Includes the first separate maps of the four continents, and the earliest maps of Western Hemisphere and Africa, also the first separately printed map of England, and the oldest obtainable woodcut of Scandinavia. The map Novarum insularum is one of the earliest available separate maps depicting the Americas in a recognizable form. Maps are uncolored, showing settlements, landmarks, roads, rivers and mountains. Bound in reddish brown full calf embossed binding, with title \"Ptolemaei Geographia Universalis\" stamped on spine. Sebastian Munster,1448-1552, was a mathematician, geographer and professor at Basel University. He also compiled a highly influential encyclopedic work entitled Cosmographia Universalis, which first appeared in 1544 and contained forty-eight woodcut maps. He was among the first editors of a published geographical text to quote or acknowledge his sources and authorities."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11623.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "48"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "32"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11623009.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/11623009.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Munster, Sebastian, 1488–1552; Ptolemy, Claudius; Pirckheimer, Willibald, 1470-1530"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~296501~90067882/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~296501~90067882/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~296501~90067882",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 9160,
+                    "height": 6535
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~296501~90067882/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~296501~90067882/list/luna"
+              ],
+              "width": 9160,
+              "height": 6535
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~296501~90067882"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/np593hr6132/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Theatrum Orbis Terrarum. (Colophon) Auctoris aere & cura impressum absolutumque apud Aegid. Coppenium Diest, Antverpiae M.D.LXX",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/np593hr6132.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/np593hr6132'>https://purl.stanford.edu/np593hr6132</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Theatrum Orbis Terrarum. (Colophon) Auctoris aere & cura impressum absolutumque apud Aegid. Coppenium Diest, Antverpiae M.D.LXX"
+        },
+        {
+          "label": "Contributor",
+          "value": "Ortelius, Abraham, 1527-1598."
+        },
+        {
+          "label": "Contributor",
+          "value": "Hogenberg, Frans."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 53 maps ; 42 x 30 cm."
+        },
+        {
+          "label": "Language",
+          "value": "Latin"
+        },
+        {
+          "label": "Description",
+          "value": "First edition of the first atlas of the world. From Koeman: \"The unique position held by Ortelius' Theatrum in the history of cartography is to be attributed primarily to its qualification as 'the world's first regularly produced atlas.' Its great commercial success 'enabled it to make so great a contribution to geographical culture throughout Europe in the later 16th century.' (Skelton). Shape and contents set the standards for later atlases, when the centre of the map-trade moved from Antwerp to Amsterdam. The characteristic feature of the Theatrum is, that it consists of two elements, forming a unitary whole: text and maps. This concept for a \"Theatre of the world\" was followed through the 17th century. Before Ortelius, no one and done this and thus, the chorus of praise which arose as a result of this - and the excellent text - was far from slight... Another important aspect of the Theatrum is that it was the first undertaking of its kind to reduce the best available maps to a uniform format. To that end, maps of various formats and styles had to be generalized just like the modern atlas-publisher of today would do. In selecting maps for his compilation, Ortelius was guided by his critical spirit and his encyclopaedic knowledge of maps. But Ortelius did more that the atlas-makers of today: he mentioned the names of the authors of the original maps and added a great many names of other cartographers and geographers to it... Abraham Ortelius drew all his maps in manuscript before passing them to the engravers... Ortelius stated that nearly all the plates were cut by Frans Hogenberg and his assistants.\" The Theatrum went through many editions in Latin, German, French, Dutch, Spanish, English, and Italian. Van der Krogt lists 37 editions, with the last edition published in 1641, long after Ortelius' death in 1598. Uncolored. Text in Latin."
+        },
+        {
+          "label": "Description",
+          "value": "References: Koeman Ort 1B; Van der Krogt 31:001B (with colophon 31:001C). See Dr. Marcel van den Broecke web site for excellent listing of all Ortelius maps http://orteliusmaps.com/ortindexnumber.html"
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 10000.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > Early works to 1800"
+        },
+        {
+          "label": "Date",
+          "value": "1570"
+        },
+        {
+          "label": "Date",
+          "value": "1570"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/np593hr6132"
+        },
+        {
+          "label": "Publisher",
+          "value": "Gielis Coppens van Diest,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-12"
+        }
+      ],
+      "description": "First edition of the first atlas of the world. From Koeman: \"The unique position held by Ortelius' Theatrum in the history of cartography is to be attributed primarily to its qualification as 'the world's first regularly produced atlas.' Its great commercial success 'enabled it to make so great a contribution to geographical culture throughout Europe in the later 16th century.' (Skelton). Shape and contents set the standards for later atlases, when the centre of the map-trade moved from Antwerp to Amsterdam. The characteristic feature of the Theatrum is, that it consists of two elements, forming a unitary whole: text and maps. This concept for a \"Theatre of the world\" was followed through the 17th century. Before Ortelius, no one and done this and thus, the chorus of praise which arose as a result of this - and the excellent text - was far from slight... Another important aspect of the Theatrum is that it was the first undertaking of its kind to reduce the best available maps to a uniform format. To that end, maps of various formats and styles had to be generalized just like the modern atlas-publisher of today would do. In selecting maps for his compilation, Ortelius was guided by his critical spirit and his encyclopaedic knowledge of maps. But Ortelius did more that the atlas-makers of today: he mentioned the names of the authors of the original maps and added a great many names of other cartographers and geographers to it... Abraham Ortelius drew all his maps in manuscript before passing them to the engravers... Ortelius stated that nearly all the plates were cut by Frans Hogenberg and his assistants.\" The Theatrum went through many editions in Latin, German, French, Dutch, Spanish, English, and Italian. Van der Krogt lists 37 editions, with the last edition published in 1641, long after Ortelius' death in 1598. Uncolored. Text in Latin.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/dq403qd7316%2F10000001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/dq403qd7316%2F10000001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 277
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/np593hr6132/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/np593hr6132/iiif/canvas/cocina-fileSet-ph571kd5951-ph571kd5951_1",
+              "@type": "sc:Canvas",
+              "label": "Africam Graeci Libyam App. Africae Tabula Nova. Edita Antverpiae 1570 Cum\n   Privilegio",
+              "height": 7106,
+              "width": 10166,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/ph571kd5951/10000017.jp2",
+                  "label": "Original source file (13 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/np593hr6132/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fph571kd5951-ph571kd5951_1%2F10000017.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/np593hr6132/iiif/canvas/cocina-fileSet-ph571kd5951-ph571kd5951_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/ph571kd5951%2F10000017/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7106,
+                    "width": 10166,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/ph571kd5951%2F10000017",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~284787~90057294/manifest",
+      "label": "Vniversalis tabvla ivxta Pteolemaeum",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~284787~90057294/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~284787~90057294/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Vniversalis tabvla ivxta Pteolemaeum",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Bertius, Petrus, 1565-1629"
+                },
+                {
+                  "label": "Author",
+                  "value": "Mercator, Gerhard, 1512-1594"
+                },
+                {
+                  "label": "Author",
+                  "value": "Ptolemy, Claudius"
+                },
+                {
+                  "label": "Date",
+                  "value": "1618"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Vniversalis tabvla ivxta Pteolemaeum"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Isaacus Elzevirius"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Lugduni Batavorum"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Iudoci Hondii"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Lugduni Batavorum"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "48"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Hand colored map of the world. Relief shown pictorially."
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Classical"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Vniversalis tabvla ivxta Pteolemaeum. Tabvlarvm Ptolemaicarvm delineatio ... Ex Clavdii Ptolemaei geogrophicis libris octo orbem totum habitabilem Agathodaemon Alexandrinus mechanicus delineauit. Has vero tabulas descripsit Gerardvs Mercator ... Recensuit varie, correxit, auxitq Petrvs Bertivs ... (to accompany) Theatrum geographiae veteris, duobus tomis distinctum, edente Petro Bertio Bevero."
+                },
+                {
+                  "label": "List No",
+                  "value": "11296.013"
+                },
+                {
+                  "label": "Series No",
+                  "value": "13"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Bertius, Petrus, 1565-1629"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Mercator, Gerhard, 1512-1594"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ortelius, Abraham"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Welser, Marcus"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ptolemy, Claudius"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1618"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Theatrum geographiae veteris, duobus tomis distinctum, edente Petro Bertio Bevero. Christianissimi Galliarum regis Ludovici XIII. Cosmographo. (decorative title) Theatri geographiae veteris : tomus prior in quo Cl. Ptol. Alexandrini, Geographiae libri viii. Graeca ad codices Palatinos collata aucta et emendata sunt Latina infinitis locis correcta, opera P. Bertii Christianissimi Galliarum regis cosmographi. Lugduni Batavorum, Excudebat typis suis Isaacus Elzevirius, sumptibus Iudoci Hondii, anno MDCXVIII."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Three parts bound together in a single volume. The first part (tomus prior) includes a decorative colored title page which is filled with geographers with mapping instruments and globes at the top and bottom within an architectural surrounding. Includes 28 maps of Ptolemy, engraved by Gerhard Mercator, with an engraved portrait of Mercator for his edition of Geographia in 1578. The second part contains the engravings of the Peutinger Roman World Map from the plates Ortelius used on four sheets, and an extra 9th map which was made specifically for this atlas and does not occur anywhere else. Finally, in the third part there are 14 historical maps of Europe with accompanying text, 12 of them borrowed from the Parergon maps of Ortelius, a Low Countries map of Kaerius, and an Italy map of Cluverius, both based on Ortelius. Willebrord Snellius of Leiden also belonged to the contributors of this atlas. Maps are outline hand colored with decorative title cartouche, showing geographical features, major cities and towns. Relief shown pictorially. Imprint in the last page of atlas states: Lugduni Batavorum, Excudebat typis suis Isaacus Elzevirius, sumptibus Iudoci Hondii, anno MDCXVIII. Imprint from title page to the last part: \"Amstelodami : Ex officina I. Hondii, 1619.\" Includes tables and index. Bound in leather brown covers with title \"P. Bertii, Theatrum geographiae veteris\" on spine. Petrus Bertius was born at Beveren, Flanders, Nov. 14, 1565. Became professor of mathematics and librarian at University of Leiden. In 1618 became cosmographer and histographer to Louis XIII of France. He was the author of many geographical and theological works. This three part atlas is the most celebrated work of Petrus Bertius (1565-1629). It is based primarily on Ptolemy's Geographia, produced around 150 AD. It includes engraved folding maps, drawn from earlier work by Mercator and Ortelius."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11296.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "51"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11296013.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/11296013.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Bertius, Petrus, 1565-1629; Mercator, Gerhard, 1512-1594; Ptolemy, C."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~284787~90057294/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~284787~90057294/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~284787~90057294",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12212,
+                    "height": 8672
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~284787~90057294/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~284787~90057294/list/luna"
+              ],
+              "width": 12212,
+              "height": 8672
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~284787~90057294"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338078~90110894/manifest",
+      "label": "Caarte vande Zuyder-Zee ... = Description de la Zuyder-Zee ...",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~338078~90110894/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338078~90110894/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Caarte vande Zuyder-Zee ... = Description de la Zuyder-Zee ...",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Blaeu, Willem Janszoon, 1571-1638"
+                },
+                {
+                  "label": "Date",
+                  "value": "1619"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Caarte vande Zuyder-Zee ... = Description de la Zuyder-Zee ..."
+                },
+                {
+                  "label": "Type",
+                  "value": "Chart Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "55"
+                },
+                {
+                  "label": "Note",
+                  "value": "Nautical chart showing the Zuiderzee [IJssel Lake], a shallow bay of the North Sea in the northwest of the Netherlands. Parallel titles appears in Dutch and French, translating (loosely) to: Description of the Zuyder-Zee, and of the rivers of Texel and Vlie, showing all sands, banks, droughts and other inconveniences on the said rivers, and by what means they can be avoided. Features cities, roads, ports, topography, coastlines, shoals, islands, anchorage, soundings and ships. Relief shown pictorially. Includes three bar scales, rhumb lines and compass roses, with north oriented toward upper left. Decorative cartouche. Black and white engraving. Chart is 25 x 55 cm, on double sheet 26 x 58 cm. (Plate number inferred.) Appears in \"Eerste boeck\" of atlas."
+                },
+                {
+                  "label": "Country",
+                  "value": "Netherlands"
+                },
+                {
+                  "label": "Region",
+                  "value": "IJssel Lake (Netherlands)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Nautical Charts"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Caarte vande Zuyder-Zee, en van de vermaerde Stro­men ende Gaten van't Vlie ende Texel, wat zan­den, platen, drooghten, diepten, ende ondiepten dae­in gheleghen zÿn, ende hoemen die zoo in't op als afzeylen schouwen ende mÿden zal. = Description de la Zuyder-Zee, et des tresrenommez fleuves du Texel et Vlie, monstrant tous sables, bancqs, secheresses et autres inconveniens sur lesdictes fleuves, et par quel moyen on les peult eviter."
+                },
+                {
+                  "label": "List No",
+                  "value": "14351.038"
+                },
+                {
+                  "label": "Series No",
+                  "value": "38"
+                },
+                {
+                  "label": "Page No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Blaeu, Willem Janszoon, 1571-1638"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1620"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Het Licht der Zee-vaert daerinne claersyck beschreven ende afghebeeldet werdé, alle de Custen end Havenen; vande Westersche, Noordsche, Oostersche ende Middelandsche Zee'n. Dock van vele Landen, Eylanden ende plaetsen van Guinea, Brasilien, Oost ende West-Indien. Wt de alderbeste Zeebeschryvers gheschriften (als Locas Ians z. Waghenaer ende meer andere) eenfdeels vergadert: maer uyt vele ervarene Zeevaerders schriften ende mondtlycke verclaringhen van alle verlopen ghebetert, ende met veel nieuwe beschryvinghen ende Caerten seer vermeerdert. Alles ghedeelt in vier boecken, waer van yders inhoudt voor elck uytghedruckt staet. Hier zyn byghevoeght (beneffens eene onderwysinghe in de conste der Zeevaert) nieuwe tafelen van der zonnen declinatie, gherekent uyt de observation van Tyche Brahe, ende gherecht op de Meridiaen van Amsterdam. Midsgaders nieuwe tafelenende onderwys van't recht ghebruyck der Noordsterre ende andere vaste sterren alle Zeevarende luyden te nut ghedaen. Door Willem Ians Zoon. Tot Amsterdam. Anno 1620."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "https://ota.bodleian.ox.ac.uk/repository/xmlui/bitstream/handle/20.500.12024/A16189/A16189.html?sequence=5&isAllowed=y"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Het Licht der Zee-vaert, by Willem Blaeu; published in Amsterdam, 1620. Title translates to: The light of the sea. This chart atlas was Blaeu's first atlas. Initially published in 1608, this is the fifth Dutch edition with 38 (of 42) maps. Oblong quarto. Engraved title, engraved frontispiece, 38 mostly double-page engraved charts (of 42, lacking 4 maps of Denmark), woodcut illustrations and diagrams within the text, 1 with volvelle (lacking 1), letterpress tables within decorative woodcut borders. Volume comprised of 261 woodcut coastal profiles in the text, illustrations, tables and charts. Recent fine full calf binding with richly gilt spine in compartments. Collation: Engraved title, (2), engraved frontispiece, 54 pp. (A4-F4, G2) lacking 2 pages; (2, title to Eerste Boeck), [1-8], 9-119, (1 blank) pp. (2, title to Tvveede Boeck), 3-130, [131] pp. 38 engraved maps (lacking 4). Probably lacking 1 volvelle in the beginning. Lacking 4 maps of Denmark, numbers 21-22, 24-25. Het Licht der Zee-vaert was the first book produced by the Blaeu publishing house, heralding a golden age of atlas production, and survives in only a few copies. It is one of the most important Dutch pilot-guides. Blaeu's pilot books were divided into chapters, each containing navigational instructions for specific sections of coastline, accompanied by a finely engraved coastal chart for each section. Map titles appeared in Dutch and French, with woodcut profile views illustrating the text. Blaeu included an editorial commentary at the beginning of the volume, condemning the generally held view of mariners that manuscript charts were better and more accurate than printed sea charts. Blaeu questioned the widely held belief of the time that manuscript charts were updated on a daily basis. Maps show the coasts of England, Scotland, Ireland, Norway, Sweden, Russia, Finland, Baltics, Pomerania, Spain, France, Northern Africa, Canaries, Maderia, etc. Richly embellished with decorative cartouches, sailing ships, sea-monsters, compass roses and sometimes with insets. The map \"Carte van de Reede ende Haven van Medenblick\" in the beginning, was not published until the edition 1618, and only published with the Dutch title until 1620 (the cartouche for the French title was, as in this case, blank). In 1618, Blaeu added a third chapter, covering the coastline of the Mediterranean. The first two charts, signed by Blaeu as Willem Jansz, cover the eastern and western Mediterranean. Willem Blaeu's earliest work focused on navigational aids for mariners. His first publication in this field was his Nieuw graetbouck, for which there are no known surviving examples. His next works of importance were two pilot guides, the Het licht der Zee-vaert and Zeespiegel (first edition 1623).  In 1621, Johannes Jansson published a direct copy of Blaeu’s pilot guide Het licht der Zee-vaert, as Blaeu’s copyright had expired. Blaeu, in turn, competed against Jansson and his brother-in-law Henricus Hondius by producing an atlas, which spurred a rivalry lasting for over 50 years.  Blaeu (1571-1638) was a prominent Dutch geographer and publisher. Born the son of a herring merchant, Blaeu became mathematician and astronomer. He studied with the Danish astronomer Tycho Brahe, with whom he honed his instrument and globe making skills. Blaeu set up shop in Amsterdam, where he sold instruments and globes, published maps, and edited the works of intellectuals such as Descartes and Hugo Grotius. In 1630 he issued his first world atlas, Atlas Appendix (see our 12202.000). In 1635, he released his atlas, Theatrum Orbis Terrarum, sive, Atlas novus. Willem died in 1638. He had two sons, Cornelis (1610-1648) and Joan (1596-1673). Joan trained as a lawyer, but joined his father’s business rather than practice law. After his father’s death, the brothers took over their father’s shop and Joan took on his work as hydrographer to the Dutch East India Company. Later in life, Joan would modify and greatly expand his father’s Atlas novus, eventually releasing his own masterpiece, the Atlas maior, between 1662 and 1672 (see our 10017.000)."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14351.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Chart Atlas"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "27"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14351038.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/14351038.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Blaeu, Willem Janszoon, 1571-1638"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338078~90110894/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338078~90110894/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~338078~90110894",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 15286,
+                    "height": 6820
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338078~90110894/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~338078~90110894/list/luna"
+              ],
+              "width": 15286,
+              "height": 6820
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~338078~90110894"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/ft916zs9649/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Carte de France. Levée par ordre du Roy. (1750-1815)",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/ft916zs9649.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/ft916zs9649'>https://purl.stanford.edu/ft916zs9649</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Carte de France. Levée par ordre du Roy. (1750-1815)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Cassini family."
+        },
+        {
+          "label": "Contributor",
+          "value": "Aldring, C."
+        },
+        {
+          "label": "Contributor",
+          "value": "Aveline, J. A."
+        },
+        {
+          "label": "Contributor",
+          "value": "Beauvais, Charles de."
+        },
+        {
+          "label": "Contributor",
+          "value": "Brunet, R."
+        },
+        {
+          "label": "Contributor",
+          "value": "Cassini, Cesar-Francois, 1714-1784."
+        },
+        {
+          "label": "Contributor",
+          "value": "Chalmandrier, N."
+        },
+        {
+          "label": "Contributor",
+          "value": "Chambon, Gobert-Denis."
+        },
+        {
+          "label": "Contributor",
+          "value": "Desfontaines, Bellery."
+        },
+        {
+          "label": "Contributor",
+          "value": "Dupain Triel."
+        },
+        {
+          "label": "Contributor",
+          "value": "Durand."
+        },
+        {
+          "label": "Contributor",
+          "value": "Seguin, Jean-Dominique."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas (2 vol.): 182 maps ; 66 x 53 cm."
+        },
+        {
+          "label": "Language",
+          "value": "French"
+        },
+        {
+          "label": "Description",
+          "value": "182 maps on sheets 64 x 95 cm. or smaller + index map \"Tableau de la carte generale de la France.\" Also called \"Carte geometrique de la France,\" \"Carte generale de la France,\" and \"Carte de Cassini.\" Relief shown by hachures. \"Gravé par C. Aldring ... J. A. Aveline ... R. Brunet ... N. Chalmandrier ... B. Desfontaines ... Dupain ... Durand ... Foin ... Le Roy le jeune ... J. Seguin (and others).\" David Rumsey Collection copy bound in 2 v., quarter brown leather with marbled boards. Spine title, \"Atlas des ca(rtes) de Cassini\", Tom, I, II. Index map affixed inside front cover of v. 1."
+        },
+        {
+          "label": "Description",
+          "value": "National Atlas."
+        },
+        {
+          "label": "Description",
+          "value": "References: Konvitz, J. Cartography in France 1660-1848, p. 21-31; Pelletier, M. Les cartes des Cassini; Pelletier, M. Le carte de Cassini."
+        },
+        {
+          "label": "Description",
+          "value": "Separate Map."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 5694.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > France > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "France > Maps > Early works to 1800"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 86,400."
+        },
+        {
+          "label": "Date",
+          "value": "1750"
+        },
+        {
+          "label": "Date",
+          "value": "1750"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/ft916zs9649"
+        },
+        {
+          "label": "Publisher",
+          "value": "Carte de la France Directeures],"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-12"
+        }
+      ],
+      "description": "182 maps on sheets 64 x 95 cm. or smaller + index map \"Tableau de la carte generale de la France.\" Also called \"Carte geometrique de la France,\" \"Carte generale de la France,\" and \"Carte de Cassini.\" Relief shown by hachures. \"Gravé par C. Aldring ... J. A. Aveline ... R. Brunet ... N. Chalmandrier ... B. Desfontaines ... Dupain ... Durand ... Foin ... Le Roy le jeune ... J. Seguin (and others).\" David Rumsey Collection copy bound in 2 v., quarter brown leather with marbled boards. Spine title, \"Atlas des ca(rtes) de Cassini\", Tom, I, II. Index map affixed inside front cover of v. 1.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/qm063pt2679%2F5694201/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/qm063pt2679%2F5694201",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 256
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/ft916zs9649/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/ft916zs9649/iiif/canvas/cocina-fileSet-pn168kj5450-pn168kj5450_1",
+              "@type": "sc:Canvas",
+              "label": "Nouvelle carte qui comprend les principaux triangles qui servent de fondement a\n            la description geometrique de la France. Levee par ordre du Roy. Par Messrs. Maraldi et\n            Cassini de Thury, de l'Academie Royale des Sciences. Annee 1744. Trace d'apres\n            les mesures, et grave par Dheulland. Aubin scripsit. A Paris",
+              "height": 7600,
+              "width": 12350,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/pn168kj5450/5694200.jp2",
+                  "label": "Original source file (16.9 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/ft916zs9649/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fpn168kj5450-pn168kj5450_1%2F5694200.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/ft916zs9649/iiif/canvas/cocina-fileSet-pn168kj5450-pn168kj5450_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/pn168kj5450%2F5694200/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7600,
+                    "width": 12350,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/pn168kj5450%2F5694200",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/qq993pm8421/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Geographie Mathematique, Physique et Politique de Toutes les Parties du Monde, Publiee par Edme Mentille, de l'Institute national, Malte Brun, Geographe Danois. Atlas. Compose de 45 Cartes, gravees par J.-B.-P. Tardieu aine, sur les dessins de J.-B. Poirson, ingenieur-geographe, revues et corrigees d'apres les meilliurs autorite, par Edme Mentelle ... Paris, Chez Henry Tardieum Imprimeur-Libraire ... (Chez) Laporte. An XIII. 1804",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/qq993pm8421.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/qq993pm8421'>https://purl.stanford.edu/qq993pm8421</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Geographie Mathematique, Physique et Politique de Toutes les Parties du Monde, Publiee par Edme Mentille, de l'Institute national, Malte Brun, Geographe Danois. Atlas. Compose de 45 Cartes, gravees par J.-B.-P. Tardieu aine, sur les dessins de J.-B. Poirson, ingenieur-geographe, revues et corrigees d'apres les meilliurs autorite, par Edme Mentelle ... Paris, Chez Henry Tardieum Imprimeur-Libraire ... (Chez) Laporte. An XIII. 1804"
+        },
+        {
+          "label": "Contributor",
+          "value": "Mentelle, Edme, 1730-1815."
+        },
+        {
+          "label": "Contributor",
+          "value": "J.B.P. Tardieu."
+        },
+        {
+          "label": "Contributor",
+          "value": "Malte-Brun, Conrad, 1775-1826."
+        },
+        {
+          "label": "Contributor",
+          "value": "Poirson, J.B."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Type",
+          "value": "Celestial charts."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 75 maps ; 47 x 32 cm."
+        },
+        {
+          "label": "Language",
+          "value": "French"
+        },
+        {
+          "label": "Description",
+          "value": "An atlas of 45 maps with numerous unusual additional maps from various sources and dates bound in. Additional maps have pages numbers labeled \"... bis ...\". Most have outline color. 1804 assigned to any undated sheet. Relief shown by sketches."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 12100.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Astronomy > Observations > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Mathematical geography > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Physical geography > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Political geography > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Solar System > Maps > Early works to 1800"
+        },
+        {
+          "label": "Date",
+          "value": "1804"
+        },
+        {
+          "label": "Date",
+          "value": "1804"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/qq993pm8421"
+        },
+        {
+          "label": "Publisher",
+          "value": "Edme Mentelle and Malte Brun,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-09-15"
+        }
+      ],
+      "description": "An atlas of 45 maps with numerous unusual additional maps from various sources and dates bound in. Additional maps have pages numbers labeled \"... bis ...\". Most have outline color. 1804 assigned to any undated sheet. Relief shown by sketches.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/fs900dj9383%2F12100001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/fs900dj9383%2F12100001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 290
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/qq993pm8421/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/qq993pm8421/iiif/canvas/cocina-fileSet-tt567pm0299-tt567pm0299_1",
+              "@type": "sc:Canvas",
+              "label": "Carte des Partages de la Pologne en 1772, 1793, et 1795",
+              "height": 6571,
+              "width": 8671,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/tt567pm0299/12100028.jp2",
+                  "label": "Original source file (10.2 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/qq993pm8421/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Ftt567pm0299-tt567pm0299_1%2F12100028.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/qq993pm8421/iiif/canvas/cocina-fileSet-tt567pm0299-tt567pm0299_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/tt567pm0299%2F12100028/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 6571,
+                    "width": 8671,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/tt567pm0299%2F12100028",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/jr954pf2146/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Atlas Geographique Et Physique Du Royaume De La Nouvelle-Espagne, Fonde Sur Des Observations Astronomiques, Des Mesures Trigonometriques Et Des Nivellemens Barometriques. Par Al. De Humboldt. Paris, Chez F. Schoell, Rue Des Fosses-Saint-Germain-L'Auxerrois, No. 29. 1811. De L'Imprimerie De J.H. Stone",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/jr954pf2146.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/jr954pf2146'>https://purl.stanford.edu/jr954pf2146</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Atlas Geographique Et Physique Du Royaume De La Nouvelle-Espagne, Fonde Sur Des Observations Astronomiques, Des Mesures Trigonometriques Et Des Nivellemens Barometriques. Par Al. De Humboldt. Paris, Chez F. Schoell, Rue Des Fosses-Saint-Germain-L'Auxerrois, No. 29. 1811. De L'Imprimerie De J.H. Stone"
+        },
+        {
+          "label": "Contributor",
+          "value": "Humboldt, Alexander von."
+        },
+        {
+          "label": "Contributor",
+          "value": "Aubert, L."
+        },
+        {
+          "label": "Contributor",
+          "value": "Barriere."
+        },
+        {
+          "label": "Contributor",
+          "value": "Bauza, F."
+        },
+        {
+          "label": "Contributor",
+          "value": "Bouquet."
+        },
+        {
+          "label": "Contributor",
+          "value": "Castera, Don Ignacio."
+        },
+        {
+          "label": "Contributor",
+          "value": "Friesen, Oltmanns et Thuilier."
+        },
+        {
+          "label": "Contributor",
+          "value": "Grossmann, G."
+        },
+        {
+          "label": "Contributor",
+          "value": "Langlois."
+        },
+        {
+          "label": "Contributor",
+          "value": "Martin, Don Luis."
+        },
+        {
+          "label": "Contributor",
+          "value": "Poirson, J.B."
+        },
+        {
+          "label": "Contributor",
+          "value": "Stone, J.H."
+        },
+        {
+          "label": "Contributor",
+          "value": "Wittich, F."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 16 maps ; 57 x 42 cm."
+        },
+        {
+          "label": "Language",
+          "value": "French"
+        },
+        {
+          "label": "Description",
+          "value": "First French edition (although some copies have 1808 on the title page). Stamp of Russian Imperial Library at Tsarkoe Selo. This atlas has the important \"Carte Generale du Royaume de la Nouvelle Espagne\" on two large folio sheets, originally drawn by Humboldt in 1803-4. Arrowsmith and Pike used this map as a base for their maps of Mexico and the southwest. Maps are without color and bound in full brown leather covered boards with \"Voyage De Humboldt Et Bonplan. Atlas Geographique Et Physique Du Royaume De La Nouvelle-Espagne.\" stamped on the spine in black ink."
+        },
+        {
+          "label": "Description",
+          "value": "National Atlas."
+        },
+        {
+          "label": "Description",
+          "value": "References: Wheat 272-5; WC 7a:3a:1; Streeter Texas 1042n."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 0328.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > Mexico > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Physical geography > Mexico > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Mexico > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Southwestern States > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1811"
+        },
+        {
+          "label": "Date",
+          "value": "1811"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/jr954pf2146"
+        },
+        {
+          "label": "Publisher",
+          "value": "F. Schoell,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-11-29"
+        }
+      ],
+      "description": "First French edition (although some copies have 1808 on the title page). Stamp of Russian Imperial Library at Tsarkoe Selo. This atlas has the important \"Carte Generale du Royaume de la Nouvelle Espagne\" on two large folio sheets, originally drawn by Humboldt in 1803-4. Arrowsmith and Pike used this map as a base for their maps of Mexico and the southwest. Maps are without color and bound in full brown leather covered boards with \"Voyage De Humboldt Et Bonplan. Atlas Geographique Et Physique Du Royaume De La Nouvelle-Espagne.\" stamped on the spine in black ink.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hq359qn3538%2F0328A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hq359qn3538%2F0328A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 266
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/jr954pf2146/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/jr954pf2146/iiif/canvas/cocina-fileSet-hc604fg3689-hc604fg3689_1",
+              "@type": "sc:Canvas",
+              "label": "(Composite Map of) Carte Generale Du Royaume De La Nouvelle Espagne depuis le\n   Parallele de 16? jusqu'au Parallele de 38? (Latitude Nord). Dressee Sur des Observations\n   Astronomiques et sur l'ensemble des Materiaux qui existoient a Mexico, au commencement de\n   l'annee 1804. Par Alexandre de Humboldt. Ls. Aubert pere Scripsit. 1. and 1(bis). Dessine a\n   Mexico par l'Auteur en 1804, perfectionne par le meme, par M.M. Friesen, Oltmanns, et\n   Thuilier 1809. Grave par Barriere - et l'Ecriture par L. Aubert pere, a Paris",
+              "height": 12680,
+              "width": 9040,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hc604fg3689/0328003.jp2",
+                  "label": "Original source file (20.6 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/jr954pf2146/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fhc604fg3689-hc604fg3689_1%2F0328003.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/jr954pf2146/iiif/canvas/cocina-fileSet-hc604fg3689-hc604fg3689_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hc604fg3689%2F0328003/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 12680,
+                    "width": 9040,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hc604fg3689%2F0328003",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/ty866gx5559/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "History Of The Expedition Under The Command Of Captains Lewis And Clark, To The Sources Of The Missouri, Thence Across The Rocky Mountains And Down The River Columbia To The Pacific Ocean. Performed During The Years 1804-5-6. By order of the Government Of The United States. Prepared For The Press By Paul Allen, Esquire. In Two Volumes. Vol. I. Philadelphia: Published By Bradford And Inskeep, New York. J. Maxwell, Printer. 1814 ... Vol. II",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/ty866gx5559.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/ty866gx5559'>https://purl.stanford.edu/ty866gx5559</a>"
+        },
+        {
+          "label": "Title",
+          "value": "History Of The Expedition Under The Command Of Captains Lewis And Clark, To The Sources Of The Missouri, Thence Across The Rocky Mountains And Down The River Columbia To The Pacific Ocean. Performed During The Years 1804-5-6. By order of the Government Of The United States. Prepared For The Press By Paul Allen, Esquire. In Two Volumes. Vol. I. Philadelphia: Published By Bradford And Inskeep, New York. J. Maxwell, Printer. 1814 ... Vol. II"
+        },
+        {
+          "label": "Contributor",
+          "value": "Allen, Paul."
+        },
+        {
+          "label": "Contributor",
+          "value": "Biddle, Nicholas."
+        },
+        {
+          "label": "Contributor",
+          "value": "Clark, William."
+        },
+        {
+          "label": "Contributor",
+          "value": "Harrison, Saml."
+        },
+        {
+          "label": "Contributor",
+          "value": "Lewis, Meriwether."
+        },
+        {
+          "label": "Contributor",
+          "value": "Lewis, Samuel."
+        },
+        {
+          "label": "Contributor",
+          "value": "Maxwell, J."
+        },
+        {
+          "label": "Type",
+          "value": "Text"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 volume : 6 maps ; 23 x 14 (book); 30 x 70 (map) cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "1st edition. Notwithstanding the title, Nicholas Biddle completed the text after Lewis's suicide. The map and the written account of the expedition changed American mapping of the northwest by giving the first accurate depiction of the relationship of the sources of the Missouri, the sources of the Columbia, and the Rocky Mountains. The map was copied by Samuel Lewis from William Clark's original drawing, and was engraved by Samuel Harrison. The title of the map is \"A Map of Lewis and Clark's Track, Across the Western Portion of North America From the Mississippi to the Pacific Ocean ...\" Maps are without color. In 2 volumes newly bound in full leather with the title \"Lewis & Clark's Expedition ...\" stamped in gilt on the spine."
+        },
+        {
+          "label": "Description",
+          "value": "Exploration Book."
+        },
+        {
+          "label": "Description",
+          "value": "References: Howes L317; Sabin 40828; WC 13; Wheat 316."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 3493.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > United States > West > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "West (U.S.) > Discovery and exploration > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Lewis and Clark National Historic Trail > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Rocky Mountains > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Missouri River > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Columbia River > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1814"
+        },
+        {
+          "label": "Date",
+          "value": "1814"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/ty866gx5559"
+        },
+        {
+          "label": "Publisher",
+          "value": "Bradford and Inskeep,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-03-26"
+        }
+      ],
+      "description": "1st edition. Notwithstanding the title, Nicholas Biddle completed the text after Lewis's suicide. The map and the written account of the expedition changed American mapping of the northwest by giving the first accurate depiction of the relationship of the sources of the Missouri, the sources of the Columbia, and the Rocky Mountains. The map was copied by Samuel Lewis from William Clark's original drawing, and was engraved by Samuel Harrison. The title of the map is \"A Map of Lewis and Clark's Track, Across the Western Portion of North America From the Mississippi to the Pacific Ocean ...\" Maps are without color. In 2 volumes newly bound in full leather with the title \"Lewis & Clark's Expedition ...\" stamped in gilt on the spine.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hw220my2285%2F3493A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hw220my2285%2F3493A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 319
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/ty866gx5559/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/ty866gx5559/iiif/canvas/cocina-fileSet-br999hw4440-br999hw4440_1",
+              "@type": "sc:Canvas",
+              "label": "A Map of Lewis and Clark's Track, Across the Western Portion of North\n            America From the Mississippi to the Pacific Ocean; By Order of the Executive of the\n            United States, in 1804, 5 & 6. Copied by Samuel Lewis from the Original Drawing of\n            Wm. Clark. Smal. Harrison fct",
+              "height": 3856,
+              "width": 8248,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/br999hw4440/3493001.jp2",
+                  "label": "Original source file (5.71 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/ty866gx5559/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fbr999hw4440-br999hw4440_1%2F3493001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/ty866gx5559/iiif/canvas/cocina-fileSet-br999hw4440-br999hw4440_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/br999hw4440%2F3493001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 3856,
+                    "width": 8248,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/br999hw4440%2F3493001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/gk727mm8766/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Atlas of the united states, Printed for the use of the blind, at the expense of John C. Cray; under the direction of S. G. Howe. at the N. E. Institution for the education of the blind. Boston 1837",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/gk727mm8766.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/gk727mm8766'>https://purl.stanford.edu/gk727mm8766</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Atlas of the united states, Printed for the use of the blind, at the expense of John C. Cray; under the direction of S. G. Howe. at the N. E. Institution for the education of the blind. Boston 1837"
+        },
+        {
+          "label": "Contributor",
+          "value": "Howe, Samuel Gridley."
+        },
+        {
+          "label": "Contributor",
+          "value": "Ruggles, Samuel P."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Maps for the blind."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas ; 29 x 24 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Quarter bound with brown leather and marbled paper-covered boards. Spine has worn illegible embossed text."
+        },
+        {
+          "label": "Description",
+          "value": "According to Rick Brown, editor-in-chief of HistoryBuff.com, \"The New England Institution for the Education of the Blind (Boston), under the direction of Samuel Gridley Howe, obtained their first printing press in 1835. From this press they began publishing several works in the tactile (raised letter) format. By 1842, they had produced the New Testament, the complete text of the Bible, a Universal History, as well as geography, grammar, and spelling books.\" This institution was the pioneering American concern for publishing for the blind and this was one of their first books and apparently the second version of the geography atlas with embossed maps and specially designed text. Twenty-four states mapped. Reputedly 50 copies printed, 4 extant. This copy lacks maps of Indiana and Virginia and the text leaves for Ohio and Virginia; these missing parts are provided in the online version with images from a copy owned by Michael Zinman. Atlas was actually prepared by Samuel P. Ruggles. In raised symbology, the atlas shows the outline of each state, rivers and other water bodies, cities, longitudes, latitudes, and mountains. Accompanying embossed text describes the map features in some detail, and the state's area, population, climate, commerce, etc. The atlas was the first intended to be used by the blind without the assistance of a sighted person. Page condition excellent and very clean."
+        },
+        {
+          "label": "Description",
+          "value": "National Atlas."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 5956.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > United States > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Maps for the blind > United States > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1837"
+        },
+        {
+          "label": "Date",
+          "value": "1837"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/gk727mm8766"
+        },
+        {
+          "label": "Publisher",
+          "value": "New England Institution for the Education of the Blind,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-12"
+        }
+      ],
+      "description": "Quarter bound with brown leather and marbled paper-covered boards. Spine has worn illegible embossed text.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/vn692wk2396%2F5956001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/vn692wk2396%2F5956001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 234
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/gk727mm8766/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/gk727mm8766/iiif/canvas/cocina-fileSet-fy606nv0221-fy606nv0221_1",
+              "@type": "sc:Canvas",
+              "label": "(Maine)",
+              "height": 4690,
+              "width": 7806,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/fy606nv0221/5956005.jp2",
+                  "label": "Original source file (6.59 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/gk727mm8766/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Ffy606nv0221-fy606nv0221_1%2F5956005.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/gk727mm8766/iiif/canvas/cocina-fileSet-fy606nv0221-fy606nv0221_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/fy606nv0221%2F5956005/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 4690,
+                    "width": 7806,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/fy606nv0221%2F5956005",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/js726vh2687/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "A New Map of Texas Oregon and California With The Regions Adjoining. Compiled from the most recent authorities. Philadelphia Published by S. Augustus Mitchell N.E. Corner Of Market & Seventh Streets. 1846. Entered ... 1845 by H.N. Burroughs ... Pennsylvania",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/js726vh2687.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/js726vh2687'>https://purl.stanford.edu/js726vh2687</a>"
+        },
+        {
+          "label": "Title",
+          "value": "A New Map of Texas Oregon and California With The Regions Adjoining. Compiled from the most recent authorities. Philadelphia Published by S. Augustus Mitchell N.E. Corner Of Market & Seventh Streets. 1846. Entered ... 1845 by H.N. Burroughs ... Pennsylvania"
+        },
+        {
+          "label": "Contributor",
+          "value": "Mitchell, Samuel Augustus."
+        },
+        {
+          "label": "Contributor",
+          "value": "Burroughs, H. N."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 56.5 x 52 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Pocket Map."
+        },
+        {
+          "label": "Description",
+          "value": "References: Howes M685; Wheat 520; Wheat Gold 29; Streeter 2511; WC 122b; Graff 2841."
+        },
+        {
+          "label": "Description",
+          "value": "With 46 page \"Accompaniment to Mitchell's New Map Of Texas, Oregon, and California With The Regions Adjoining;\" the full color map is folded into stamped black leather covers 13.5x8 with \"Texas, Oregon And California\" in gilt. This was one of Mitchell's most popular and important pocket maps. Later editions were published in 1849, 1851, and 1852, as pocket maps and as insets to the large Reference and Distance Map of the United States. It was also issued separately as a wall map. This issue has Texas colored green; some copies have Texas colored brown (has the green changed over time?). The text has a catalogue for Mitchell's publications. Mitchell first issued this map as an inset to his Reference and Distance Map of the United States in the 1846 edition (see our copy)."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 0534.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Mexican/U.S. War > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "California > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Oregon > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Texas > Maps > 19th century"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:6,652,800."
+        },
+        {
+          "label": "Date",
+          "value": "1846"
+        },
+        {
+          "label": "Date",
+          "value": "1846"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/js726vh2687"
+        },
+        {
+          "label": "Publisher",
+          "value": "S. Augustus Mitchell,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-03-26"
+        }
+      ],
+      "description": "Pocket Map.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/sx217jk4070%2F0534A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/sx217jk4070%2F0534A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 268,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/js726vh2687/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/js726vh2687/iiif/canvas/cocina-fileSet-xb477qt1592-xb477qt1592_1",
+              "@type": "sc:Canvas",
+              "label": "A New Map of Texas Oregon and California With The Regions Adjoining. Compiled\n            from the most recent authorities. Philadelphia Published by S. Augustus Mitchell N.E\n            Corner Of Market & Seventh Streets. 1846. Entered ... 1845 by H.N. Burroughs ...\n            Pennsylvania.",
+              "height": 6368,
+              "width": 5888,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/xb477qt1592/0534001.jp2",
+                  "label": "Original source file (6.73 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/js726vh2687/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fxb477qt1592-xb477qt1592_1%2F0534001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/js726vh2687/iiif/canvas/cocina-fileSet-xb477qt1592-xb477qt1592_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/xb477qt1592%2F0534001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 6368,
+                    "width": 5888,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/xb477qt1592%2F0534001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/qf485cq3676/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Atlas Pintoresco E Historico De Los Estados Unidos Mexicanos Por Antonio Garcia Cubas ... Publicado Por Debray Sucesores Mexico 1885",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/qf485cq3676.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/qf485cq3676'>https://purl.stanford.edu/qf485cq3676</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Atlas Pintoresco E Historico De Los Estados Unidos Mexicanos Por Antonio Garcia Cubas ... Publicado Por Debray Sucesores Mexico 1885"
+        },
+        {
+          "label": "Contributor",
+          "value": "Garcia Cubas, Antonio, 1832-1912."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Pictorial maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 15 maps ; 62 x 41 cm."
+        },
+        {
+          "label": "Language",
+          "value": "Spanish"
+        },
+        {
+          "label": "Description",
+          "value": "National Atlas."
+        },
+        {
+          "label": "Description",
+          "value": "References: P2686."
+        },
+        {
+          "label": "Description",
+          "value": "The maps and illustrations bordering them are superb. Garcia Cubas was the preeminent Mexican cartographer of the 19th century. Full color. Bound into quarter leather tan cloth covered boards with \"Atlas Pintoresco E Historico De Los E. U. Mexicanos Por Antonio Garcia Cubas\" stamped on the front cover."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 2693.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > Mexico > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Pictorial maps > Mexico > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Historical geography > Mexico > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Mexico > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1885"
+        },
+        {
+          "label": "Date",
+          "value": "1885"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/qf485cq3676"
+        },
+        {
+          "label": "Publisher",
+          "value": "Debray Sucesores,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-06"
+        }
+      ],
+      "description": "National Atlas.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/vp666nk3888%2F2693A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/vp666nk3888%2F2693A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 302
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/qf485cq3676/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/qf485cq3676/iiif/canvas/cocina-fileSet-zb031tf7933-zb031tf7933_1",
+              "@type": "sc:Canvas",
+              "label": "Carta Etnografica. II. A. Garcia Cubas. Propiedad De Los Editores. Publicado por\n   Debray Sucesores - Mexico",
+              "height": 6160,
+              "width": 7825,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/zb031tf7933/2693002.jp2",
+                  "label": "Original source file (8.66 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/qf485cq3676/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fzb031tf7933-zb031tf7933_1%2F2693002.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/qf485cq3676/iiif/canvas/cocina-fileSet-zb031tf7933-zb031tf7933_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/zb031tf7933%2F2693002/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 6160,
+                    "width": 7825,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/zb031tf7933%2F2693002",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

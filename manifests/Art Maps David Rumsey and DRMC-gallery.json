@@ -1,0 +1,1793 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Art Maps David Rumsey and DRMC",
+  "label": "Art Maps David Rumsey and DRMC",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~374477~90140988/manifest",
+      "label": "The River Of Time",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~374477~90140988/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~374477~90140988/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "The River Of Time",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Gitai, Ben Ori"
+                },
+                {
+                  "label": "Date",
+                  "value": "2025"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "The River Of Time"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Habitat Research Centre - EPFL"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "Video"
+                },
+                {
+                  "label": "Type",
+                  "value": "Artwork"
+                },
+                {
+                  "label": "City",
+                  "value": "Paris (France)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "The River Of Time"
+                },
+                {
+                  "label": "List No",
+                  "value": "16742.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Gitai, Ben Ori"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "2025"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The River Of Time"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"The River of Time\" follows the Seine River from east to west across Paris, filming and capturing from early morning to dawn. This moving map acts as a guide through the City of Light, revealing how it has shaped Paris's development over time. Shot through a drone campaign over several days along the Seine River and surrounding areas, the moving map visualizes the interconnectedness of landscape as a medium that exists between the physical world and how we experience it. Rather than treating the city as a collection of separate elements, it examines how time, space, and environment interact and influence each other.\nCredits :\nAutor/ Director : Ben Gitai (Habitat Research Centre – EPFL, Lausanne, Switzerland)\nD.O.P: Ben Gitai (Habitat Research Centre – EPFL, Lausanne, Switzerland)\nDrone Footage: Jeremy Law-Lone and Dominique Poulard, Division of Works and Environment, Technical Service of Municipal Automotive Transport, City of Paris\nInstitutional Affiliation: Habitat Research Centre - EPFL, Lausanne, Switzerland\nProduction by:\n·\tPrefecture of the Ile-de-France Region (DRIEAT)\n·\tCity of Paris\n·\tHabitat Research Centre-EPFL"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16742.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Video"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Artwork"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16742000.jp2"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Gitai, Ben Ori"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~374477~90140988/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~374477~90140988/full/!0,0/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~374477~90140988",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 1536,
+                    "height": 739
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~374477~90140988/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~374477~90140988/list/luna"
+              ],
+              "width": 0,
+              "height": 0
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~374477~90140988"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~355397~90122311/manifest",
+      "label": "[Map of Russia].",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~355397~90122311/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~355397~90122311/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "[Map of Russia].",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Lissitzky, El, 1890-1941"
+                },
+                {
+                  "label": "Date",
+                  "value": "1935"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "[Map of Russia]."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Izogiz"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Moscow"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "45"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "12,500,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map of Russia. Includes imagery of a variety of transportation methods - trains, planes and automobiles - in transit toward Moscow. Map presented in sepia tones. Map is 30 x 45 cm, on double sheet 36 x 48 cm. Map appears in first volume, HOBOE ЛИЦO CCCP."
+                },
+                {
+                  "label": "Country",
+                  "value": "Russia"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Transportation"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "[Map of Russia]."
+                },
+                {
+                  "label": "List No",
+                  "value": "14402.009"
+                },
+                {
+                  "label": "Series No",
+                  "value": "9"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Lissitzky, El, 1890-1941"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1935"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "ИHДУCTPИЯ COЦИAЛИЗMA. TЯЖEЛAЯ ПPOMЫШЛEHHOCTЬ K VII BCECOЮ3HOMУ CЪE3ДУ COBETOB. CTPOИM '3A ИHДУCTPИAЛИ3AЦИЮ' 1935 И3OГИ3."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "https://www.theartstory.org/artist/lissitzky-el/"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "ИHДУCTPИЯ COЦИAЛИЗMA, by Russian avant-garde artist El Lissitzky (1890-1941); published by IzoGiz (State Publishing House of Fine Art) in Moscow, 1935. Title translates to: The Industry of Socialism. Artist book in seven volumes, housed inside a gray slipcase decorated with a silver-embossed photomontage of two comrades. The work is comprised of propaganda pamphlets in Constructivist design with views presented as photogravures and photomontages in varying colors, as well as drawings, paintings, portraits and maps - created with much graphic experimentation - all intended to impress the rest of the world with the enormous industrial progress the Soviet Union made in its first 20 years. The silver embossed wrappers and the rivets on the slipcase further carry out the industrial theme. Each volume presents a theme, with volume titles translating to: 1. The new face of the USSR — 2. The Bolsheviks awaken the natural wealth of the country — 3. Machinery - the key of reconstruction — 4. Go and above! — 5. Man - on the tractor, Soviet Union - on the car — 6. These are living people, this is us and you — 7. Heavy Industry USSR : Maps. First six volumes include descriptive text throughout, as well as quotations from Joseph Stalin, Vladimir Lenin, Kliment Voroshilov and Sergo Ordzhonikidze. Seventh volume contains two maps of the Soviet Union, divided into the European and Asian areas. Maps feature the enterprises of the USSR NKTP, operating and under construction, as of January 1, 1935. Enterprises include railways, oil pipelines, canals, mines and the electrical network. Maps accompanied by an index booklet listing industrial enterprises with their geographic locations. Maps are the Edition of the All-Union Cartographic Trust Newspapers for Industrialization. Maps compiled and designed by the 2nd Cartographic Factory of the VKT, 1934; printed by Moscow Lithography of Kartotrust, 1934."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14402.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Artist Book"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Thematic Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "3"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14402009.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/14402009.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Lissitzky, El, 1890-1941"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~355397~90122311/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~355397~90122311/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~355397~90122311",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 10276,
+                    "height": 7479
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~355397~90122311/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~355397~90122311/list/luna"
+              ],
+              "width": 10276,
+              "height": 7479
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~355397~90122311"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~345241~90112750/manifest",
+      "label": "ЛEHИHГPAДCKAЯ OБЛACТь (Пpилoжeниe k kapte Eвpoпeйckoй чactи C.C.C.P.) (2)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~345241~90112750/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~345241~90112750/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "ЛEHИHГPAДCKAЯ OБЛACТь (Пpилoжeниe k kapte Eвpoпeйckoй чactи C.C.C.P.) (2)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Central Executive Committee of the U.S.S.R."
+                },
+                {
+                  "label": "Date",
+                  "value": "1928"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "ЛEHИHГPAДCKAЯ OБЛACТь (Пpилoжeниe k kapte Eвpoпeйckoй чactи C.C.C.P.) (2)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Ckлaд Издaния"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Moscow"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "26"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "7,500,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map of the Leningrad Region (present-day Saint Petersburg, Russia) within the Union of Soviet Socialist Republics. Shows political boundaries and city locations. Legend precedes all maps. With note. Printed in red on a transparent sheet to overlay upon previous map, COЮЗ C. C. P. : Eвpoпeйckaя чacть. Colored lithograph. Map is 26 x 35 cm, on insert sheet. Associated descriptive text follows map on pages 11-24. (Here sheet overlaid upon previous map.)"
+                },
+                {
+                  "label": "City",
+                  "value": "Saint Petersburg (Russia)"
+                },
+                {
+                  "label": "Region",
+                  "value": "Leningrad Region (Russia)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "ЛEHИHГPAДCKAЯ OБЛACТь (Пpилoжeниe k kapte Eвpoпeйckoй чactи C.C.C.P.) (2)"
+                },
+                {
+                  "label": "List No",
+                  "value": "14384.017"
+                },
+                {
+                  "label": "Series No",
+                  "value": "17"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Map Publishing House of the People’s Commissary of Internal Affairs of the RSFSR"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Department of Production of State Signs “Goznak”"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Central Executive Committee of the U.S.S.R."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1928"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "ATЛAC COЮ3A COBETCKИX COЦИAЛИCTИЧECKИX PECПУБЛИK. Ckлaд Издaния : Mockвa, Илъинkа 21-а, KAPTOИЗДATEЛБCTBO HKBД."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "ATЛAC COЮ3A COBETCKИX COЦИAЛИCTИЧECKИX PECПУБЛИK [= Atlas of the Union of Soviet Socialist Republics], edited by the Central Executive Committee of the U.S.S.R.; published by Ckлaд Издaния in Moscow, 1928. Printed by Department of Production of State Signs “Goznak”, the Map Publishing House of the People’s Commissary of Internal Affairs of the RSFSR. Bound in board covered in tan linen, with title on front cover in darker brown lettering. Imprint on back cover: Ckлaд Издaния : Mockвa, Илъинkа 21-а, KAPTOИЗДATEЛБCTBO HKBД. \"Цeна 12 pуб.\" [= Price 12 rubles.] Volume is 28 x 36 cm. End papers with print illustrating different angles of the globe. Collation: [6], II, 108 pages, [38] leaves of plates. Includes a title page, colophon, two tables of contents (one listing the maps in order of appearance, the other alphabetically), a foreword and introductory text. In addition, extended title pages provide translations of the title, imprint, and slogan \"Workers of the world, unite!\" into Ukranian, Belarusian, Georgian, Armenian, Arabic, German, French and English. All text appears in Russian, except for the translated title pages. Atlas comprised of 37 maps of areas within the Union of Soviet Socialist Republics (U.S.S.R.), as well as the entire U.S.S.R. and of the world. Maps show political boundaries, cities, railways, roads, steamship routes, topography, bodies of water, drainage, coastlines and islands. Maps accompanied by extensive descriptive text, which follows plates, on separate pages. A legend pertaining to all maps precedes the maps. Maps and legend are in the form of colored lithographs. Atlas provides a holistic cartographic picture of the U.S.S.R., first placing it within its global context with a world map, then showing the entirety of the Soviet Union, and finally featuring the individual regions in detail. Historically significant work, due to the temporal nature of the U.S.S.R., a country that spanned much of Eurasia from 1922 until 1991, and has since experienced dissolution into separate nations. The geographic footprint of those nations appears here in the form of regions within the former U.S.S.R."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14384.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "37"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "36"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14384017.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/14384017.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Central Executive Committee of the U.S.S.R."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~345241~90112750/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~345241~90112750/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~345241~90112750",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 6931,
+                    "height": 5125
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~345241~90112750/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~345241~90112750/list/luna"
+              ],
+              "width": 6931,
+              "height": 5125
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~345241~90112750"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~374067~90140685/manifest",
+      "label": "(1) Bringing Thich Nhat Hanh To Cape Breton",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~374067~90140685/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~374067~90140685/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "(1) Bringing Thich Nhat Hanh To Cape Breton",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Farooq, Sameer"
+                },
+                {
+                  "label": "Date",
+                  "value": "2025"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "(1) Bringing Thich Nhat Hanh To Cape Breton"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Outdoor School"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Toronto"
+                },
+                {
+                  "label": "Type",
+                  "value": "Artwork"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "76"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "50"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "Nova Scotia (Canada)"
+                },
+                {
+                  "label": "City",
+                  "value": "MacKinnons Brook (Canada)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Art"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(1) Bringing Thich Nhat Hanh To Cape Breton"
+                },
+                {
+                  "label": "List No",
+                  "value": "16702.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Farooq, Sameer"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "2025"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Bringing Thich Nhat Hanh To Cape Breton"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"Bringing Thích Nhất Hạnh to Cape Breton (2025) is a poster project by Sameer Farooq, made as an artist in residence at MacKinnon’s Brook. Produced by Outdoor School, a collaborative platform for contemporary environmental art by Diane Borsato and Amish Morrell. Photography, text, and graphic design by Sameer Farooq. Supported by the Canada Council for the Arts and David Rumsey and Abby Smith Rumsey. Distributed in partnership with the Art Gallery of Nova Scotia (AGNS) and Eltuek Arts Centre in Sydney, NS.\" (Sameer Farooq, 2025)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16702.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Artwork"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "76"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "50"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16702001.jp2"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Farooq, Sameer"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~374067~90140685/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~374067~90140685/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~374067~90140685",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12252,
+                    "height": 18264
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~374067~90140685/canvas/c1"
+                }
+              ],
+              "width": 12252,
+              "height": 18264
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~374067~90140685"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~355401~90122316/manifest",
+      "label": "[PEAЛЬHOCTЬ HAШEЙ ПPOГPAM ... ]..",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~355401~90122316/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~355401~90122316/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "[PEAЛЬHOCTЬ HAШEЙ ПPOГPAM ... ]..",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Lissitzky, El, 1890-1941"
+                },
+                {
+                  "label": "Date",
+                  "value": "1935"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "[PEAЛЬHOCTЬ HAШEЙ ПPOГPAM ... ].."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Izogiz"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Moscow"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "36"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "48"
+                },
+                {
+                  "label": "Note",
+                  "value": "View representing the Soviet Union. With text on political banners within image, inclucing: PEAЛЬHOCTЬ HAШEЙ ПPOГPAM ... [= The reality of our programs, we are living people ... ]. Views presented in black and white tones. View is 36 x 48 cm, on double sheet 36 x 48 cm. View appears in first volume, HOBOE ЛИЦO CCCP."
+                },
+                {
+                  "label": "Country",
+                  "value": "Russia"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Political"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "[PEAЛЬHOCTЬ HAШEЙ ПPOГPAM ... ].."
+                },
+                {
+                  "label": "List No",
+                  "value": "14402.013"
+                },
+                {
+                  "label": "Series No",
+                  "value": "13"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Lissitzky, El, 1890-1941"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1935"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "ИHДУCTPИЯ COЦИAЛИЗMA. TЯЖEЛAЯ ПPOMЫШЛEHHOCTЬ K VII BCECOЮ3HOMУ CЪE3ДУ COBETOB. CTPOИM '3A ИHДУCTPИAЛИ3AЦИЮ' 1935 И3OГИ3."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "https://www.theartstory.org/artist/lissitzky-el/"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "ИHДУCTPИЯ COЦИAЛИЗMA, by Russian avant-garde artist El Lissitzky (1890-1941); published by IzoGiz (State Publishing House of Fine Art) in Moscow, 1935. Title translates to: The Industry of Socialism. Artist book in seven volumes, housed inside a gray slipcase decorated with a silver-embossed photomontage of two comrades. The work is comprised of propaganda pamphlets in Constructivist design with views presented as photogravures and photomontages in varying colors, as well as drawings, paintings, portraits and maps - created with much graphic experimentation - all intended to impress the rest of the world with the enormous industrial progress the Soviet Union made in its first 20 years. The silver embossed wrappers and the rivets on the slipcase further carry out the industrial theme. Each volume presents a theme, with volume titles translating to: 1. The new face of the USSR — 2. The Bolsheviks awaken the natural wealth of the country — 3. Machinery - the key of reconstruction — 4. Go and above! — 5. Man - on the tractor, Soviet Union - on the car — 6. These are living people, this is us and you — 7. Heavy Industry USSR : Maps. First six volumes include descriptive text throughout, as well as quotations from Joseph Stalin, Vladimir Lenin, Kliment Voroshilov and Sergo Ordzhonikidze. Seventh volume contains two maps of the Soviet Union, divided into the European and Asian areas. Maps feature the enterprises of the USSR NKTP, operating and under construction, as of January 1, 1935. Enterprises include railways, oil pipelines, canals, mines and the electrical network. Maps accompanied by an index booklet listing industrial enterprises with their geographic locations. Maps are the Edition of the All-Union Cartographic Trust Newspapers for Industrialization. Maps compiled and designed by the 2nd Cartographic Factory of the VKT, 1934; printed by Moscow Lithography of Kartotrust, 1934."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14402.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Artist Book"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Thematic Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "3"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14402013.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/14402013.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Lissitzky, El, 1890-1941"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~355401~90122316/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~355401~90122316/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~355401~90122316",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 10203,
+                    "height": 7432
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~355401~90122316/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~355401~90122316/list/luna"
+              ],
+              "width": 10203,
+              "height": 7432
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~355401~90122316"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~374209~90140801/manifest",
+      "label": "San Francisco",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~374209~90140801/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~374209~90140801/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "San Francisco",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Nishino, Sohei"
+                },
+                {
+                  "label": "Date",
+                  "value": "2016"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "San Francisco"
+                },
+                {
+                  "label": "Type",
+                  "value": "Artwork"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "170"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "256"
+                },
+                {
+                  "label": "Reference",
+                  "value": "https://soheinishino.net/dioramamap-sanfrancisco"
+                },
+                {
+                  "label": "City",
+                  "value": "San Francisco (Calif,)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "San Francisco"
+                },
+                {
+                  "label": "List No",
+                  "value": "16705.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Nishino, Sohei"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "2016"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "San Francisco"
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Image copyright by Sohei Nishino."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Initially developed and conceptualized during his undergraduate studies at the Osaka University of the Arts in Japan, Sohei Nishino's project, Diorama Maps, provides an uncanny reimagining of various twenty-first century cities. Produced in 2016, Diorama Map: San Francisco is a stunning example of Nishino's novel approach. While wandering around a city of prominence, Nishino produces a plethora of images, frequently composed from a high-angle perspective. These pictures capture quintessential landmarks, atmospheric elements, and at times, residents on the street. After the image-making phase, he meticulously constructs massive collages using bits and pieces from over 4,000 prints. Once satisfied with his handiwork and layout, Nishino photographs the final collage – resulting in a kaleidoscopic image, sometimes up to seven feet wide. The impressive scale invites the viewer to inspect various details of the scene closely. Importantly, Nishino's maps aren't necessarily geographically accurate, a purposeful choice as the artist desires to convey the sensory and experiential aspects of a place:  \n“... a trace of the way in which I walked through it, an embodiment of my awareness, a microcosm of the life and energy that comprises the city.”\n—Sohei Nishino"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16705.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Artwork"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "170"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "256"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16705000.jp2"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Nishino, Sohei"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~374209~90140801/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~374209~90140801/full/!0,0/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~374209~90140801",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 1536,
+                    "height": 1011
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~374209~90140801/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~374209~90140801/list/luna"
+              ],
+              "width": 0,
+              "height": 0
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~374209~90140801"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~365657~90132916/manifest",
+      "label": "8568 Every Building On The Sunset Strip",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~365657~90132916/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~365657~90132916/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "8568 Every Building On The Sunset Strip",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Ruscha, Edward"
+                },
+                {
+                  "label": "Date",
+                  "value": "1966"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "8568 Every Building On The Sunset Strip"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Type",
+                  "value": "Artwork"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "19"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Note",
+                  "value": "Copyright 1966 by Edward Ruscha, Los Angeles, California."
+                },
+                {
+                  "label": "City",
+                  "value": "Los Angeles (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Art"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "8568 Every Building On The Sunset Strip"
+                },
+                {
+                  "label": "List No",
+                  "value": "16172.017"
+                },
+                {
+                  "label": "Series No",
+                  "value": "17"
+                },
+                {
+                  "label": "Page No",
+                  "value": "14"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ruscha, Edward"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1966"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Every Building On The Sunset Strip"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16172.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Artwork"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "19"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16172017.jp2"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Ruscha, Edward"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~365657~90132916/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~365657~90132916/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~365657~90132916",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 7471,
+                    "height": 4751
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~365657~90132916/canvas/c1"
+                }
+              ],
+              "width": 7471,
+              "height": 4751
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~365657~90132916"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328175~90096694/manifest",
+      "label": "Composite: Pages 1-56 The Way To The Mountains Starts Here.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~328175~90096694/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328175~90096694/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Composite: Pages 1-56 The Way To The Mountains Starts Here.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Fulton, Hamish"
+                },
+                {
+                  "label": "Date",
+                  "value": "2001"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Composite: Pages 1-56 The Way To The Mountains Starts Here."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Hopefulmonster Editore"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Torino"
+                },
+                {
+                  "label": "Type",
+                  "value": "Composite Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "Artwork"
+                },
+                {
+                  "label": "Note",
+                  "value": "All images copyright by Hamish Fulton."
+                },
+                {
+                  "label": "Region",
+                  "value": "Porto Region (Portugal)"
+                },
+                {
+                  "label": "Region",
+                  "value": "Catalonia Region (Spain)"
+                },
+                {
+                  "label": "Region",
+                  "value": "Basque Region (France)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Art"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Composite map of) Pages 1-56 The Way To The Mountains Starts Here."
+                },
+                {
+                  "label": "List No",
+                  "value": "10587.062"
+                },
+                {
+                  "label": "Series No",
+                  "value": "62"
+                },
+                {
+                  "label": "Page No",
+                  "value": "1-62"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Fotolito FB"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Garabello Artegrafica"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Adrian Ensor"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Fulton, Hamish"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "2001"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The Way To The Mountains Starts Here."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"This book was published on the occasion of an exhibition by Hamish Fulton O caminho para as montanhas comeca aqui held at the Museu de Arte Contemporanea de SerraIves, Porto from October 26, 2001 to January 6, 2002 The photographs present only the views facing forwards on the walking journey. The original black and white photographs were printed in London by Adrian Ensor. Design: Hamish Fulton. Photolithography: Fotolito FB, Torino. Printing: Garabello Artegrafica, San Mauro Torinese (To). Published by hopefulmonster editore, Torino via Santa Chiara 30 10122 Torino Italy tel. 0039-011-4~67197 fax 0039-011-4369025.\" (From page 62)."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10587.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Artist Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "60"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "17"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10587062.jp2"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Fulton, Hamish"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328175~90096694/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328175~90096694/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~328175~90096694",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 47087,
+                    "height": 32518
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328175~90096694/canvas/c1"
+                }
+              ],
+              "width": 47087,
+              "height": 32518
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~328175~90096694"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~377337~90143450/manifest",
+      "label": "Bird's Eye, 2013",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~377337~90143450/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~377337~90143450/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Bird's Eye, 2013",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Qiu Zhijie"
+                },
+                {
+                  "label": "Date",
+                  "value": "2013"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Bird's Eye, 2013"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Hanart TZ Gallery"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Hong Kong"
+                },
+                {
+                  "label": "Type",
+                  "value": "Artwork"
+                },
+                {
+                  "label": "Type",
+                  "value": "Artist Book"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "626"
+                },
+                {
+                  "label": "Reference",
+                  "value": "To purchase copies of this book see https://www.hanart.com/"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Bird's Eye, 2013"
+                },
+                {
+                  "label": "List No",
+                  "value": "16953.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Qiu Zhijie"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "2013"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Bird's Eye, 2013"
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "All images and book copyright by Qiu Zhijie and Hanart TZ Gallery"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Qiu Zhijie’s all-seeing maps are transformative experiences that unsettle viewers’ sense of self and world. Unlike his earlier Mapping series, this group of 26 works integrates traditional Chinese brush-and-ink techniques, asking how calligraphy and painting can depict contemporary realities—dense cities, industrial zones, and shifting landscapes—while retaining their spontaneous vitality. Qiu seeks a form of “cartographic calligraphy” that blends realism with expressive freedom and reconciles the organic variability of nature with the geometric structures of modern life. Rooted in Chinese artistic tradition yet open to global diversity, his approach echoes Confucian ideas of relational harmony: through “family likenesses,” different cultures coexist without being flattened into a universal sameness. Qiu’s bird’s-eye views challenge Enlightenment cartography by redistributing knowledge and blurring boundaries between private and collective worlds. Acting as a mythmaker, he enlarges overlooked details into expansive narratives, transforming fragments of history into imaginative cosmologies. Drawing on the spirit of shan shui landscape painting—where cultural meaning outweighs strict topography—his maps question the neutrality of observation and recall the political dimensions of imperial mapping. Ultimately, Qiu’s cartography reimagines history, culture, and global relationships through poetic, critical vision. (Derived from \"Viewed Through the Eye of A Bird: On Qiu Zhijie's Cartography\" by Chang Tsong-Zung, translated by Don J. Cohn)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16953.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Artwork"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Artist Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "26"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16953000.jp2"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Qiu Zhijie"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~377337~90143450/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~377337~90143450/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~377337~90143450",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 155927,
+                    "height": 8926
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~377337~90143450/canvas/c1"
+                }
+              ],
+              "width": 155927,
+              "height": 8926
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~377337~90143450"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~377584~90144015/manifest",
+      "label": "(4) Nippon. 日本. [Japan. The Nation in Panorama.]",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~377584~90144015/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~377584~90144015/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "(4) Nippon. 日本. [Japan. The Nation in Panorama.]",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Kokusai Bunka Shinkokai (The Society for International Cultural Relations)"
+                },
+                {
+                  "label": "Date",
+                  "value": "1937"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "(4) Nippon. 日本. [Japan. The Nation in Panorama.]"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Kokusai Bunka Shinkokai (The Society for International Cultural Relations)"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Tokyo"
+                },
+                {
+                  "label": "Type",
+                  "value": "Artwork"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "27"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Note",
+                  "value": "Date estimated."
+                },
+                {
+                  "label": "Country",
+                  "value": "Japan"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(4) Nippon. 日本. [Japan. The Nation in Panorama.]"
+                },
+                {
+                  "label": "List No",
+                  "value": "16990.006"
+                },
+                {
+                  "label": "Series No",
+                  "value": "6"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Kokusai Bunka Shinkokai (The Society for International Cultural Relations)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1937"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Nippon. 日本. [Japan. The Nation in Panorama.]"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"An extraordinary object that combines state-sponsored cultural propaganda with Japanese modernist book design.  Published in 1937, Nippon stands as one of the most ambitious and conceptually sophisticated Japanese photobooks of the interwar period, and is widely regarded as a pinnacle of both Japanese modernist book design and state-sponsored cultural propaganda as noted by Martin Parr and Gerry Badger in The Photobook: A History. The book comprises 32 double-page black-and-white photomontages (64 pages total), arranged as an accordion fold-out that deliberately reinterprets the traditional Japanese makura-no-sōshi (pillow book) for a modern, international audience. Captions are printed in English, French, and German, underscoring the work’s explicit outward-facing, diplomatic function. The photographers and their significance The contributors - among them Ken Domon, Masao Horino, Ihei Kimura, and Yoshio Watanabe - were central figures in the emergence of modern Japanese photography. Many were affiliated with the influential magazine Nippon and the Nihon Kōbō collective, which embraced avant-garde strategies such as radical cropping, extreme perspectives, dynamic sequencing, and photomontage. Domon would later become synonymous with postwar photographic realism, but here demonstrates a striking command of modernist visual rhetoric. Horino, deeply influenced by European New Vision photography, contributes images marked by abstraction and spatial dynamism. Kimura, later celebrated for his humanist street photography, brings an acute sensitivity to everyday life and social texture. Together, these photographers deploy photography not as neutral documentation but as a persuasive visual language - simultaneously modern, disciplined, and culturally specific. Intention and geopolitical context The overriding intention of Nippon is the projection of Japan as a technologically advanced, culturally rich, and internally harmonious nation confidently “on the march” toward a new future. Virtually every domain of Japanese life is represented - industry, agriculture, religion, architecture, craftsmanship, urban modernity, and rural tradition - woven into a seamless visual narrative of progress and continuity. Strikingly, only two photomontages depict military subjects (one army, one navy), a deliberate understatement when compared with contemporary propaganda publications from Fascist Italy or Nazi Germany. This restraint reflects Japan’s distinct strategy of cultural diplomacy: rather than foregrounding militarism, Nippon emphasizes civilization, order, and aesthetic refinement, even as Japan had already embarked upon imperial expansion in East Asia. International visual culture and cartographic parallels In this respect, Nippon can be meaningfully compared to contemporaneous efforts in geographic and cartographic self-representation. Like many interwar maps and atlases produced for international circulation, Nippon functions as a form of visual nation-branding: selectively framing territory, people, and cultural production to construct a coherent and attractive image of the state. Just as maps abstract and aestheticize geography to assert authority and modernity, the photomontages in Nippon compress social, economic, and cultural realities into a legible and compelling visual system. The book thus occupies a liminal space between art, propaganda, and design - an object intended less for commercial sale than for diplomatic gifting to foreign elites. Often compared to a cinematic spectacle - “the Japanese photobook equivalent of a Leni Riefenstahl film” - Nippon achieves extraordinary visual force through its sequencing, spatial illusion, and cumulative rhythm. The result is a masterfully orchestrated vision of Japan as both ancient and ultramodern, peaceful yet powerful, rooted yet progressive. Scarce and institutionally rare (with known copies at the British Museum and the Library of Congress), Nippon remains a key artifact for understanding how photography, design, and national identity converged in prewar Japan at a moment of profound global tension.   Bound in Publisher's silver paper covered boards as orihon: printed in double-page plates on leaves mounted back to back, forming a continuous panorama extending on both recto and verso. Complete with title page and all 32 double-page photographic plates. The sensitive silver-paper coverings exhibit rubbing only, somewhat more pronounced along the extremities as is customary with this delicate material. The folding plates remain crisp and firm, their folds clean and well-preserved - an uncommon survival, as such plates are very often found weakened or split along the folds. Unfortunately, it is extremely fragile, and very few copies seem to have survived since it was not for sale but only distributed as a diplomatic gift. An exceptional piece of historical importance and book design on behalf of visual propaganda.\" (Martin Nell, 2026)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16990.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "27"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16990006.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/222/16990006.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Kokusai Bunka Shinkokai (The Society for International Cultural Relations)"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~377584~90144015/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~377584~90144015/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~377584~90144015",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 14929,
+                    "height": 7002
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~377584~90144015/canvas/c1"
+                }
+              ],
+              "width": 14929,
+              "height": 7002
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~377584~90144015"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348737~90116370/manifest",
+      "label": "Land of Opportunity",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~348737~90116370/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348737~90116370/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Land of Opportunity",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Zheng, Yunxin (Connie)"
+                },
+                {
+                  "label": "Date",
+                  "value": "2022"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Land of Opportunity"
+                },
+                {
+                  "label": "Type",
+                  "value": "Artwork"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "213"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "213"
+                },
+                {
+                  "label": "Note",
+                  "value": "\"Mixed media drawing and collage on cyanotype print. Land of Opportunity is a map that documents forty-three of the most well-documented toxic sites in the Bay Area, alongside local environmental justice protests and both federal and community-based remediation efforts. The tar-like blobs dripping down the paper are places notable for the amount of toxic material that has leaked into the soil and groundwater primarily as a result of high-tech industry, military activities, mercury mining during the gold rush era, and nuclear testing in the South Pacific during World War II. Despite its reputation for being one of the ‘greenest’ places in the United States, the Bay Area also has one of the highest concentrations of Superfund sites in the country, particularly in Silicon Valley, the techno-utopian capital of the United States. The map emphasizes community-based, grassroots organizing efforts, and shows both the kinds of poisons that have contaminated the land as well as the ways in which surrounding communities have protested the presence of these polluters and demanded their right to a clean, healthy environment. Land of Opportunity is a register of the ways in which the Bay Area has been shaped — both figuratively and literally — by dominant settler narratives of the landscape’s potential for wealth and resource extraction. But it is also more than the shadowland of settler, entrepreneurial greed, or the American imperial war machine: it’s also a place constituted and nourished by strong radical politics, care for community, and a trust in the power of local organizing. We live in a place of endless possibility — where the byproducts of greed and warmongering can be sublimated into other forms of power, and politics can be shaped in certain places by the will of the people.\" Connie Zheng, 2022 https://www.conniezheng.com"
+                },
+                {
+                  "label": "Reference",
+                  "value": "This artwork is copyright by Connie Zheng. Please contact the artist for reproduction or exhibit. https://www.conniezheng.com"
+                },
+                {
+                  "label": "City",
+                  "value": "San Francisco (Calif.)"
+                },
+                {
+                  "label": "Region",
+                  "value": "San Francisco Bay (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Art"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Food"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Land of Opportunity"
+                },
+                {
+                  "label": "List No",
+                  "value": "15417.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Zheng, Yunxin (Connie)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "2022"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Land of Opportunity"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15417.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Artwork"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "213"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "213"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15417000.jp2"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Zheng, Yunxin (Connie)"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348737~90116370/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348737~90116370/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348737~90116370",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 25136,
+                    "height": 25159
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348737~90116370/canvas/c1"
+                }
+              ],
+              "width": 25136,
+              "height": 25159
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~348737~90116370"
+    }
+  ]
+}
