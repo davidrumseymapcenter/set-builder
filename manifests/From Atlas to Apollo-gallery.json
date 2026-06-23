@@ -1,0 +1,1265 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/From Atlas to Apollo",
+  "label": "From Atlas to Apollo",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/xd664sw6180/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Americæ nova Tabula",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/xd664sw6180.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/xd664sw6180'>https://purl.stanford.edu/xd664sw6180</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Americæ nova Tabula"
+        },
+        {
+          "label": "Title",
+          "value": "Americae nova tabula"
+        },
+        {
+          "label": "Contributor",
+          "value": "Blaeu, Willem Janszoon, 1571-1638"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : copperplate engraving ; 36 x 45 cm"
+        },
+        {
+          "label": "Language",
+          "value": "Dutch"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "Auct: Guilielmo Blaeuw"
+        },
+        {
+          "label": "Description",
+          "value": "Relief shown pictorially"
+        },
+        {
+          "label": "Description",
+          "value": "Coordinates approximate and based on Greenwich meridian"
+        },
+        {
+          "label": "Description",
+          "value": "Includes illustrations of indigenous peoples of the western hemisphere: \"Groenlandt\", \"Virginiani\", \"Rex et Regina Floridæ\", \"Novæ Albionis Rex\", \"Mexicani\", \"Peruviani\", \"Brasiliani\", \"Brasiliani milites\", \"Insulani de la Moche in Chili\", \"Freti Magellanici accolæ\""
+        },
+        {
+          "label": "Description",
+          "value": "\"Cum privilegio decem annorum.\""
+        },
+        {
+          "label": "Description",
+          "value": "Date provided by collector"
+        },
+        {
+          "label": "Description",
+          "value": "Inset map: [1] [Groenlan]"
+        },
+        {
+          "label": "Description",
+          "value": "Includes 9 views: [1] Havana -- [2] St. Domingo -- [3] Cartagena -- [4] Mexico -- [5] Cusco -- [6] Potosi -- [7] I. la Mocha in Chili -- [8] Rio Ianeiro -- [9] Olinda in Pharnambuco"
+        },
+        {
+          "label": "Subject",
+          "value": "Western Hemisphere > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "North America > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "South America > Maps > Early works to 1800"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale not given"
+        },
+        {
+          "label": "Coverage",
+          "value": "169°06′00″W -- 10°53′00″W / 83°54′00″N -- 57°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1621"
+        },
+        {
+          "label": "Date",
+          "value": "1621"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/xd664sw6180"
+        },
+        {
+          "label": "Publisher",
+          "value": " [s.n.]"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-08-11"
+        }
+      ],
+      "description": "Relief shown pictorially",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/xd664sw6180%2Fxd664sw6180_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/xd664sw6180%2Fxd664sw6180_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 299
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/xd664sw6180/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/xd664sw6180/iiif/canvas/cocina-fileSet-xd664sw6180-xd664sw6180_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 10029,
+              "width": 13436,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/xd664sw6180/xd664sw6180_0001.jp2",
+                  "label": "Original source file (86.4 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/xd664sw6180/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F0a7aa018-6388-41b6-ac6e-58e260c2cb38",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/xd664sw6180/iiif/canvas/cocina-fileSet-xd664sw6180-xd664sw6180_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/xd664sw6180%2Fxd664sw6180_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10029,
+                    "width": 13436,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/xd664sw6180%2Fxd664sw6180_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/wh501vr2559/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Pascaarte van alle de Zècusten van Evropa : Men vintse te coop tot Amsterdam, o't Water inde vergulde Sonnewisser",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/wh501vr2559.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/wh501vr2559'>https://purl.stanford.edu/wh501vr2559</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Pascaarte van alle de Zècusten van Evropa : Men vintse te coop tot Amsterdam, o't Water inde vergulde Sonnewisser"
+        },
+        {
+          "label": "Title",
+          "value": "Europe"
+        },
+        {
+          "label": "Contributor",
+          "value": "Blaeu, Willem Janszoon, 1571-1638"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Government publication"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Portolan charts"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 chart :  copperplate engraving on vellum ; 68.5 x 87 cm"
+        },
+        {
+          "label": "Language",
+          "value": "Dutch"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "nieulycx beschreven door Willem Ians Blauw"
+        },
+        {
+          "label": "Description",
+          "value": "Coordinates approximate and based on Greenwich meridian"
+        },
+        {
+          "label": "Description",
+          "value": "Latitude scale in mid-ocean, 22°N - 80°N"
+        },
+        {
+          "label": "Description",
+          "value": "Bar scales on map in German, Spanish, English, and French miles"
+        },
+        {
+          "label": "Description",
+          "value": "Map oriented with west at the top"
+        },
+        {
+          "label": "Description",
+          "value": "Compass roses: map includes one primary compass rose situated above Cornwall, U.K. and sixteen secondary compass roses. Of the secondary compass roses, 3 are fully drawn and 3 are half-circles"
+        },
+        {
+          "label": "Description",
+          "value": "Detailed coats of arms overlay their respective countries: \"Hispan\", \"Vrancriick\", \"Duytschland\", \"Noorwegen\", \"Sweden\", and \"Barbaria\""
+        },
+        {
+          "label": "Description",
+          "value": "Eastern Mediterranean is inset to the coast of Morocco"
+        },
+        {
+          "label": "Description",
+          "value": "Animals on map: pairs of bears, goats, and elephants, and a single fish. A ship drifts off the western coast of Morocco. Two Indigenous peoples with a canoe stand on the coast of Greenland"
+        },
+        {
+          "label": "Description",
+          "value": "Four cartouches decorate each corner, each containing scale bars"
+        },
+        {
+          "label": "Description",
+          "value": "Decorative cartouche at bottom center has 2 figures on either side of an astrolabe globe, with the words \"INDEFESSUS AGENDO\" below"
+        },
+        {
+          "label": "Description",
+          "value": "Collector's note: \"The first edition Willem Blaeu's exceedingly rare, separately issued and large-format sea chart of Europe. This large and sumptuously decorative chart is one of the rarest and most historically important monuments of Dutch Baroque cartography, and a milestone in the career of the celebrated mapmaker Willem Jansz Blaeu. It is also exceedingly rare in the first edition, with no examples recorded in British or American institutional collections. Blaeu's chart captures the entire coastlines of Europe and the shores of the Mediterranean Sea. The coverage of the main part of the chart commences in the northeast at Novaya Zemlya, then follows the intricate European coastline past Norway, into the Baltic Sea, then down through the North Sea and the Atlantic littoral, through the Pillars of Hercules to take all of the Mediterranean Sea west of Corfu, along with the adjacent coastlines of North Africa. It also extends deep into the North Atlantic to feature Iceland, Greenland, Spitsbergen and the Azores. The latter is important as the location of the Prime Meridian of Longitude (before it was changed later in the century to 'Pico' in Tenerife, and then to Greenwich in the 19th Century), and an important marker for ships sailing to the West Indies and South America. A beautiful inset in the lower left of the chart details the shorelines of the Eastern Mediterranean. The chart is oriented with the west towards the top and assumes a Portolan-style appearance, with sparing geographic detail in the interior, but neat and tightly clustered place names along the littoral, while the seas are traversed by rhumblines, emanating from compass roses. The interior areas are adorned with the elaborate national coats of arms of various nations, including those of Russia, Sweden, Denmark-Norway, the Holy Roman Empire, England, France, Spain and the Ottoman Empire. Four scale cartouches adorn the corners, while a magnificent title cartouche, topped by Blaeu's symbol of an armillary sphere and with his motto \"Indefessus Agendo\" ('Act Steadily') graces the lower-center of the chart. The seas are further embellished with sailing ships and seals, while on the land roam Inuit hunters, goats, bears and elephants. Importantly, the chart is one of the earliest maps to include details of the waters around Greenland and the Davis Strait, on the west coast of the island, after the 1612 map of Hessel Gerritsz, a cartographer closely associated with Blaeu. Blaeu also makes a step forward in omitting the mythical island of 'Friesland', which was still included on many contemporary charts. While most of the coastlines of Europe are well charted and fully familiar to the modern eye, the Russian Arctic coastline, in the lower right of the chart, remains partially undefined. The chart presents the most advanced knowledge of the region, largely based on the recent charting done by Dutch explorers. In particular, Blaeu shows the western coasts of Novaya Zemlya, discovered by Willem Barentsz in the 1590s, although he is cautiously silent on whether or not the landform is an island. Blaeu based much of the cartography of the present chart on a chart he made in 1606, although the Pascaarte van alle de Zecusten van Europa is much larger and more detailed. Blaeu devised the chart to take advantage of major events that were occurring with respect to the Dutch Republic's growing global ambitions. In 1621, the year that this chart was produced, the Dutch West India Company (the WIC) was formed in an effort to acquire commercial colonies in the Americas. The Company's mariners vitally needed such an omnibus chart that would guide their ships in approaching and clearing European inland waters, while being able to sail down between the Canaries and Azores to take advantage of the trade winds, and so to sail down towards the West Indies. In a short matter of time, the WIC founded New Amsterdam (1624, modern New York), conquered much of Northern Brazil (starting in 1630), and acquired Caribbean Islands such as Curaçao and part of Saint Martin (1630). To further assist the WIC, Blaeu published his West Indische Paskaert later the same year. Another major interest was the Noordsche Compagnie (the Northern Company), established in 1614, which held a monopoly on all Dutch trade in the Arctic, which was primarily centered on whaling and fishing. The chart's progressive delineation of Arctic Russia and Scandinavia, Spitsbergen, Iceland and Greenland would have been most useful. As the finest general sea chart of Europe made during its era, Blaeu's chart also had important military strategic value. In 1621, the Twelve Years' Truce in the Eighty Years' War (1568-1648) expired and the Dutch Republic and Spain renewed their epic conflict. Leading officials of the government of the Dutch Stadhouder, Prince Maurits of Orange-Nassau, as well as senior naval commanders, would certainly have consulted copies of the chart when planning their missions. Indeed, over the coming years the Dutch Navy came into combat with the Armada Real in wide variety of places, from the Mediterranean to the North Sea, so an accurate panoptic view of the continent would have been most beneficial. Blaeu's magnificent chart thus acted as a 'calling card' for the WIC, the Noordische Company and the Dutch Navy, which ensured Blaeu a tremendous amount of business for the rest of his days. Blaeu's chart proved to be highly influential and was copied many times over the next three generations, including editions by Anthonie Jacobsz, Pieter Goos, Justus Danckerts, as well as by Blaeu's own grandchildren Willem II, Pieter and Joan. Frederick De Wit also made a version of the chart, which cut off the region that included Greenland, which was copied by Renard and Ottens. Perhaps most notably and fittingly, Blaeu's Pascaarte van alle de Zecusten van Europa was used by the great painter Vermeer as the backdrop to his painting 'The Geographer' (1669), which today resides in the Städel Museum in Frankfurt. Willem Jansz Blaeu (1571-1638) was the most important mapmaker of the 17th Century, and was responsible, more than any other figure, for the ascension of Dutch cartography to a globally dominant position. Blaeu, originally from Alkmaar, north of Amsterdam, apprenticed from 1594 to 1596 under the legendary Danish astronomer Tycho Brahe at his observatory on Ven Island, near Copenhagen. Upon his return to the Netherlands, Blaeu started a business making charts, globes and nautical instruments. His timing was impeccable, as the Dutch economy, based on maritime trade, was booming and there was an insatiable demand for high quality sea charts and nautical kits. Notably, in 1596, the Dutch made their first voyage to the East Indies, which soon led to the establishment of the Dutch East India Company (1602). The VOC would be one of Blaeu's anchor clients and, in 1633, he would be appointed to be the Company's official hydrographer. Blaeu's sea atlas of European waters, Het Licht der Zee-vaert (1608) was revolutionary, being the first broadly accurate maritime atlas. He went on to create magnificent wall maps, large-format charts and eventually terrestrial atlases, all decorated with the finest Dutch Baroque artistry. In particular, the Pascaarte van alle de Zecusten van Europa helped to establish Blaeu's supremacy in the highly competitive Dutch cartography market. Towards the end of his life, Blaeu published the Atlas Novus (1635), a grand production that was later expanded by his son, Joan Blaeu (1598-1673), who grew the Blaeu business into the largest geographic publishing house in history. The Pascaarte van alle de Zecusten van Europa was during its time a practical working sea chart. The map tended to be heavily used aboard ship, accounting for its low survival rate. It was printed on both paper and on vellum (as with the present example). Both types are exceedingly rare, with only 8 institutional examples known (6 on vellum and only 2 printed on paper). Gunther Schilder notes that of these examples none resides in American or British collections. The institutions which record examples are: Universiteitsbibliotheek Amsterdam; Stadsarchief Antwerpen; Staatsbibliothek zu Berlin; Nationalbibliothek Budapest; Hessesche Landesbibliothek, Darmstadt; Badische Landesbibliothek, Karlsruhe; Bibliotheque Nationale de France; Herzogin Anna Amalia-Bibliothek, Weimar; and the Stopp Collection.\" (Ruderman, 2021)"
+        },
+        {
+          "label": "Subject",
+          "value": "Europe > Early works to 1800"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale approximately [1:2682240]"
+        },
+        {
+          "label": "Coverage",
+          "value": "57°33′00″W -- 48°36′00″E / 76°09′00″N -- 23°17′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1625"
+        },
+        {
+          "label": "Date",
+          "value": "1625"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/wh501vr2559"
+        },
+        {
+          "label": "Publisher",
+          "value": "Willem Janszoon Blaeu"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-03-13"
+        }
+      ],
+      "description": "Coordinates approximate and based on Greenwich meridian",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wh501vr2559%2F10798000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wh501vr2559%2F10798000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 316
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/wh501vr2559/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/wh501vr2559/iiif/canvas/cocina-fileSet-wh501vr2559-wh501vr2559_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 14486,
+              "width": 18330,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/wh501vr2559/10798000.jp2",
+                  "label": "Original source file (343 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/wh501vr2559/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F15e8e8f7-7209-41ac-945b-d2ce7f229af8",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/wh501vr2559/iiif/canvas/cocina-fileSet-wh501vr2559-wh501vr2559_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/wh501vr2559%2F10798000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 14486,
+                    "width": 18330,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/wh501vr2559%2F10798000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/cb303zr7917/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "CARTE VNIVERSELLE du MONDE Avec de nouvelles Observations : AMERIQUE SEPTEMTRIONALE",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/cb303zr7917.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/cb303zr7917'>https://purl.stanford.edu/cb303zr7917</a>"
+        },
+        {
+          "label": "Title",
+          "value": "CARTE VNIVERSELLE du MONDE Avec de nouvelles Observations : AMERIQUE SEPTEMTRIONALE"
+        },
+        {
+          "label": "Contributor",
+          "value": "Duval, P. (Pierre), 1619-1682"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : hand col.; 40.6 x 56.8 cm.; 41.4 x 57.6 cm. including border."
+        },
+        {
+          "label": "State 1",
+          "value": "Dated 1677."
+        },
+        {
+          "label": "State 2",
+          "value": "With longer title: Carte universelle du Monde vulgairement dite la Mappemonde avec de nouvelles observations touchant les navigations de long cours, dated 1684 but issued in: Cartes de geographie les plus nouvelles et les plus fideles ... , 1679."
+        },
+        {
+          "label": "References",
+          "value": "Wagner 424b; Leighly 78; BN Duval II E(11)."
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "Par P. Du-Val Geographe Ordinaire du Roy."
+        },
+        {
+          "label": "Description",
+          "value": "California as an island with indented northern coast and narrow center. California place names: C. Blanc, C. Mendocino, Pa. de los Reiez, Pa. de Monterei, P. de Francois Drac, I. Gigante, I.S. Clement, I. de Para, B. des Vierges, I. Ceintas, B.S. Christophie, C.S. Lucas. Destroit de Vriez, Terre de Iesso ou Eso, Terre de la Compagnie and Destroit d'Anien to northwest. Title cartouche (top left) with four festively-dressed figures holding draped cloth on which title appears. 2nd title is within simple cartouche flanked by two native men (bottom center)."
+        },
+        {
+          "label": "Subject",
+          "value": "California as an island > Maps > 1677"
+        },
+        {
+          "label": "Subject",
+          "value": "North America > Maps > To 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "North America > Maps > 1677"
+        },
+        {
+          "label": "Coverage",
+          "value": "[ca.1:35,000,000 at equator]"
+        },
+        {
+          "label": "Coverage",
+          "value": "173°00′00″W -- 10°00′00″W / 84°00′00″N -- 7°10′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1677"
+        },
+        {
+          "label": "Identifier",
+          "value": "Original McLaughlin Book Number (1995 edition): 64"
+        },
+        {
+          "label": "Identifier",
+          "value": "Original McLaughlin book number (1995 edition) with latest state information: 64-01"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/cb303zr7917"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2022-08-16"
+        }
+      ],
+      "description": "California as an island with indented northern coast and narrow center. California place names: C. Blanc, C. Mendocino, Pa. de los Reiez, Pa. de Monterei, P. de Francois Drac, I. Gigante, I.S. Clement, I. de Para, B. des Vierges, I. Ceintas, B.S. Christophie, C.S. Lucas. Destroit de Vriez, Terre de Iesso ou Eso, Terre de la Compagnie and Destroit d'Anien to northwest. Title cartouche (top left) with four festively-dressed figures holding draped cloth on which title appears. 2nd title is within simple cartouche flanked by two native men (bottom center).",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/cb303zr7917%2Fcb303zr7917_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/cb303zr7917%2Fcb303zr7917_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 305
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/cb303zr7917/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/cb303zr7917/iiif/canvas/cocina-fileSet-cb303zr7917-0001",
+              "@type": "sc:Canvas",
+              "label": "image",
+              "height": 11090,
+              "width": 14556,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/cb303zr7917/cb303zr7917_00_0001.jp2",
+                  "label": "Original source file (29 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/cb303zr7917/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fcb303zr7917-0001%2Fcb303zr7917_00_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/cb303zr7917/iiif/canvas/cocina-fileSet-cb303zr7917-0001",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/cb303zr7917%2Fcb303zr7917_00_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11090,
+                    "width": 14556,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/cb303zr7917%2Fcb303zr7917_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/zj628hm0547/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Atlas Francois, Contenant les Cartes Geographiques dans lesquelles sont tres exactement remarquez Les Empires, Monarchies, Royaumes et Estats de Europe, de l'Asie, de l'Afrique et de l'Amerique. 1695",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/zj628hm0547.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/zj628hm0547'>https://purl.stanford.edu/zj628hm0547</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Atlas Francois, Contenant les Cartes Geographiques dans lesquelles sont tres exactement remarquez Les Empires, Monarchies, Royaumes et Estats de Europe, de l'Asie, de l'Afrique et de l'Amerique. 1695"
+        },
+        {
+          "label": "Contributor",
+          "value": "Jaillot, Alexis Hubert, 1632?-1712."
+        },
+        {
+          "label": "Contributor",
+          "value": "Sanson, Nicolas (1600-1667)."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 108 maps ; 56 x 45 cm."
+        },
+        {
+          "label": "Language",
+          "value": "French"
+        },
+        {
+          "label": "Description",
+          "value": "Outline color. Rellef shown by sketches. Pub Date based on title page, however map sheets vary, including newer dates. Date as on map sheet or, if absent, 1695."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 12044.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Political geography > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Boundaries > Maps > Early works to 1800"
+        },
+        {
+          "label": "Date",
+          "value": "1695"
+        },
+        {
+          "label": "Date",
+          "value": "1695"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/zj628hm0547"
+        },
+        {
+          "label": "Publisher",
+          "value": "Chez le Sr. Hubert Jaillot,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-09-15"
+        }
+      ],
+      "description": "Outline color. Rellef shown by sketches. Pub Date based on title page, however map sheets vary, including newer dates. Date as on map sheet or, if absent, 1695.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/sm683kr3637%2F12044001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/sm683kr3637%2F12044001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 252
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/zj628hm0547/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/zj628hm0547/iiif/canvas/cocina-fileSet-cw258wx0773-cw258wx0773_1",
+              "@type": "sc:Canvas",
+              "label": "L'Asie",
+              "height": 7205,
+              "width": 11615,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/cw258wx0773/12044011.jp2",
+                  "label": "Original source file (15 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/zj628hm0547/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fcw258wx0773-cw258wx0773_1%2F12044011.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/zj628hm0547/iiif/canvas/cocina-fileSet-cw258wx0773-cw258wx0773_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/cw258wx0773%2F12044011/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7205,
+                    "width": 11615,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/cw258wx0773%2F12044011",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/zj628hm0547/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Atlas Francois, Contenant les Cartes Geographiques dans lesquelles sont tres exactement remarquez Les Empires, Monarchies, Royaumes et Estats de Europe, de l'Asie, de l'Afrique et de l'Amerique. 1695",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/zj628hm0547.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/zj628hm0547'>https://purl.stanford.edu/zj628hm0547</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Atlas Francois, Contenant les Cartes Geographiques dans lesquelles sont tres exactement remarquez Les Empires, Monarchies, Royaumes et Estats de Europe, de l'Asie, de l'Afrique et de l'Amerique. 1695"
+        },
+        {
+          "label": "Contributor",
+          "value": "Jaillot, Alexis Hubert, 1632?-1712."
+        },
+        {
+          "label": "Contributor",
+          "value": "Sanson, Nicolas (1600-1667)."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 108 maps ; 56 x 45 cm."
+        },
+        {
+          "label": "Language",
+          "value": "French"
+        },
+        {
+          "label": "Description",
+          "value": "Outline color. Rellef shown by sketches. Pub Date based on title page, however map sheets vary, including newer dates. Date as on map sheet or, if absent, 1695."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 12044.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Political geography > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Boundaries > Maps > Early works to 1800"
+        },
+        {
+          "label": "Date",
+          "value": "1695"
+        },
+        {
+          "label": "Date",
+          "value": "1695"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/zj628hm0547"
+        },
+        {
+          "label": "Publisher",
+          "value": "Chez le Sr. Hubert Jaillot,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-09-15"
+        }
+      ],
+      "description": "Outline color. Rellef shown by sketches. Pub Date based on title page, however map sheets vary, including newer dates. Date as on map sheet or, if absent, 1695.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/sm683kr3637%2F12044001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/sm683kr3637%2F12044001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 252
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/zj628hm0547/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/zj628hm0547/iiif/canvas/cocina-fileSet-rc883dw8914-rc883dw8914_1",
+              "@type": "sc:Canvas",
+              "label": "Partie de la Nouvelle France",
+              "height": 7205,
+              "width": 11647,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/rc883dw8914/12044016.jp2",
+                  "label": "Original source file (15.1 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/zj628hm0547/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Frc883dw8914-rc883dw8914_1%2F12044016.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/zj628hm0547/iiif/canvas/cocina-fileSet-rc883dw8914-rc883dw8914_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/rc883dw8914%2F12044016/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7205,
+                    "width": 11647,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/rc883dw8914%2F12044016",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/kr227cw4505/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[World]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/kr227cw4505.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/kr227cw4505'>https://purl.stanford.edu/kr227cw4505</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[World]"
+        },
+        {
+          "label": "Creator",
+          "value": "[Don Francisco de Afferden]."
+        },
+        {
+          "label": "Contributor",
+          "value": "Afferden, Don Francisco De"
+        },
+        {
+          "label": "Contributor",
+          "value": "Afferden, Don Francisco de"
+        },
+        {
+          "label": "Contributor",
+          "value": "Cause, Henri"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Book Map"
+        },
+        {
+          "label": "Format",
+          "value": "12.6 x 25.4; 17.9 x 28.9 to the border."
+        },
+        {
+          "label": "Description",
+          "value": "California with two bays in the north and a large bay to the northeast.  Mare Rubrum north of the island and south of Anian.  A large lion sits between the two hemispheres with a paw on each one.  Above the lion’s head is the sun’s orbit between the Zodiac signs Cancer and Libra.  Below the map is a banner reading, “Nominis Austriaci Culmen fideique Columna iste leo gemini, Carolvs, orbis amor.”Henricus Cause’ Sculpsit (lower right).Issued in his: El Atlas Abreviado ..., 1696.Issued in his: El Atlas Abreviado, O Compendiosa Geographia del Mundo Antigvo, Y Nuevo ... Segunda Edicion. / Don Francisco de Aefferden. --  En Amberes [Antwerp] : Por Juan Duren. Ano 1697."
+        },
+        {
+          "label": "Description",
+          "value": "Shirley 577 (Plate 400); Koeman Aff. 1."
+        },
+        {
+          "label": "Subject",
+          "value": "California as an island > Maps > 1697"
+        },
+        {
+          "label": "Subject",
+          "value": "World > Maps > 1697"
+        },
+        {
+          "label": "Subject",
+          "value": "World > Maps > To 1700I."
+        },
+        {
+          "label": "Coverage",
+          "value": "[1:200,000,000]."
+        },
+        {
+          "label": "Coverage",
+          "value": "180°00′00″W -- 180°00′00″E / 85°00′00″N -- 85°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1696"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/kr227cw4505"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2022-08-16"
+        }
+      ],
+      "description": "California with two bays in the north and a large bay to the northeast.  Mare Rubrum north of the island and south of Anian.  A large lion sits between the two hemispheres with a paw on each one.  Above the lion’s head is the sun’s orbit between the Zodiac signs Cancer and Libra.  Below the map is a banner reading, “Nominis Austriaci Culmen fideique Columna iste leo gemini, Carolvs, orbis amor.”Henricus Cause’ Sculpsit (lower right).Issued in his: El Atlas Abreviado ..., 1696.Issued in his: El Atlas Abreviado, O Compendiosa Geographia del Mundo Antigvo, Y Nuevo ... Segunda Edicion. / Don Francisco de Aefferden. --  En Amberes [Antwerp] : Por Juan Duren. Ano 1697.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/kr227cw4505%2Fkr227cw4505_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/kr227cw4505%2Fkr227cw4505_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 268
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/kr227cw4505/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/kr227cw4505/iiif/canvas/cocina-fileSet-kr227cw4505-kr227cw4505_1",
+              "@type": "sc:Canvas",
+              "label": "mclaughlin_kr227cw4505",
+              "height": 5120,
+              "width": 7631,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/kr227cw4505/kr227cw4505_05_0001.jp2",
+                  "label": "Original source file (7.01 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/kr227cw4505/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fkr227cw4505-kr227cw4505_1%2Fkr227cw4505_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/kr227cw4505/iiif/canvas/cocina-fileSet-kr227cw4505-kr227cw4505_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/kr227cw4505%2Fkr227cw4505_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 5120,
+                    "width": 7631,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/kr227cw4505%2Fkr227cw4505_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/nt777zw7678/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[World]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/nt777zw7678.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/nt777zw7678'>https://purl.stanford.edu/nt777zw7678</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[World]"
+        },
+        {
+          "label": "Creator",
+          "value": "İbrahim Müteferrika, 1674?-1745"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Separate Map"
+        },
+        {
+          "label": "Format",
+          "value": "15.6 x 30.5 cm., 18.6 x 30.7 to the border."
+        },
+        {
+          "label": "State 1",
+          "value": "Without seven astronomical charts surrounding the map. Issued in his: Tarih-i Hind-i garbi (A History of the India of the West). -- Istanbul, 1730. Published with the double hemisphere map of the world (Entry 1006). The first Ottoman Turkish book illustrated with woodcuts, and the fourth printed in the Arabic alphabet in the Ottoman empire. This book relates the discoveries in the New World, and synthesizes Islamic geographical and cosmographical writings. Edited by Mehmed Su’udî."
+        },
+        {
+          "label": "State 2",
+          "value": "With seven astronomical charts surrounding the map. Longitude and latitude lines marked along the equator and the center latitude line, respectively. Issued in Cihanüma (Mirror of the World) / Kâtib Çelebi. -- Istanbul : Ibrahim Müteferrika, 1732."
+        },
+        {
+          "label": "Description",
+          "value": "Square title cartouche above the map."
+        },
+        {
+          "label": "Description",
+          "value": "World on an oval projection."
+        },
+        {
+          "label": "Description",
+          "value": "In Ottoman Turkish."
+        },
+        {
+          "label": "Description",
+          "value": "Map derived from the Mercator-Hondius Atlas Minor."
+        },
+        {
+          "label": "Description",
+          "value": "California with a rounded coast and labeled."
+        },
+        {
+          "label": "References",
+          "value": "Goodrich (Figure 19, Map #18); Koeman II, p. 549."
+        },
+        {
+          "label": "Subject",
+          "value": "California as an island > Maps > 1730"
+        },
+        {
+          "label": "Subject",
+          "value": "World Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "[ca. 1:140,000,000]."
+        },
+        {
+          "label": "Coverage",
+          "value": "180°00′00″W -- 180°00′00″E / 85°00′00″N -- 85°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1730"
+        },
+        {
+          "label": "Identifier",
+          "value": "Post publication map number: 1005"
+        },
+        {
+          "label": "Identifier",
+          "value": "Post publication map number with latest state information: 1005-01"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/nt777zw7678"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2022-08-16"
+        }
+      ],
+      "description": "Square title cartouche above the map.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/nt777zw7678%2Fnt777zw7678_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/nt777zw7678%2Fnt777zw7678_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 255
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/nt777zw7678/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/nt777zw7678/iiif/canvas/cocina-fileSet-nt777zw7678-nt777zw7678_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 5418,
+              "width": 8503,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/nt777zw7678/nt777zw7678_05_0001.jp2",
+                  "label": "Original source file (8.26 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/nt777zw7678/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fnt777zw7678-nt777zw7678_1%2Fnt777zw7678_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/nt777zw7678/iiif/canvas/cocina-fileSet-nt777zw7678-nt777zw7678_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/nt777zw7678%2Fnt777zw7678_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 5418,
+                    "width": 8503,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/nt777zw7678%2Fnt777zw7678_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
