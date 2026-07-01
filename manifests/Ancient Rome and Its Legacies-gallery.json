@@ -1,0 +1,4279 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Ancient Rome and Its Legacies",
+  "label": "Ancient Rome and Its Legacies",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~284866~90121493/manifest",
+      "label": "Composite: Tabulae Peutingerianae segmentum I - VIII",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~284866~90121493/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~284866~90121493/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Composite: Tabulae Peutingerianae segmentum I - VIII",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Bertius, Petrus, 1565-1629"
+                },
+                {
+                  "label": "Author",
+                  "value": "Antoninus Augustus"
+                },
+                {
+                  "label": "Author",
+                  "value": "Welser, Marcus"
+                },
+                {
+                  "label": "Author",
+                  "value": "Peutinger, Conrad"
+                },
+                {
+                  "label": "Date",
+                  "value": "1619"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Composite: Tabulae Peutingerianae segmentum I - VIII"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Isaacus Elzevirius"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Lugduni Batavorum,Amsterdam"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Iudoci Hondii"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Lugduni Batavorum,Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "Composite Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "200"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Composite of Peutinger 1 to 8 segments. Double page 2 engraved color maps, part of a series of manuscript road maps, showing the Roman view of the world at around the third century. The original ... came into the hands of Konrad Peutinger (1465-1547) and later went to his relative Mark Welser. Welser was the first to publish a copy of it in 1591 ... Ortelius found this copy inadequate. Therefore, in 1598 new manuscript copies were made at his request by Welser. The present set of eight plates on four sheets were engraved following these copies ... Bertius included these prints in his Theatrum geographiae veteris without text, but with geographical indication per strip in 1619\"--Broecke, M.P.R. van den, Ortelius atlas maps."
+                },
+                {
+                  "label": "Subject",
+                  "value": "Classical"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Roads"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Composite of) Tabulae Peutingerianae segmentum I - VIII. Tabula Itineraria ex Illustri Peutingerorum Bibliotheca Quae Augustae Vindel. Est. Beneficio Marci Velseri ... in lucem edita ; ... Ioannes Moretus typographus Antverp. S.P.D. ... Antuerpiae e�� Typographieio nostro. Kal. Decemb. M.D. XCVIII. (At upper margin) Tabvlae Pevtingerianae segmentvm primvm. Theatri geographiae veteris : tomus posterior ... Amstelodami : ex officina J. Hondii, Anno 1619. (to accompany) Theatrum geographiae veteris, duobus tomis distinctum, edente Petro Bertio Bevero."
+                },
+                {
+                  "label": "List No",
+                  "value": "11296.092"
+                },
+                {
+                  "label": "Series No",
+                  "value": "92"
+                },
+                {
+                  "label": "Page No",
+                  "value": "1-8"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Bertius, Petrus, 1565-1629"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Antoninus Augustus"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Welser, Marcus"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Peutinger, Conrad"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1618"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Theatrum geographiae veteris, duobus tomis distinctum, edente Petro Bertio Bevero. Christianissimi Galliarum regis Ludovici XIII. Cosmographo. (decorative title) Theatri geographiae veteris : tomus prior in quo Cl. Ptol. Alexandrini, Geographiae libri viii. Graeca ad codices Palatinos collata aucta et emendata sunt Latina infinitis locis correcta, opera P. Bertii Christianissimi Galliarum regis cosmographi. Lugduni Batavorum, Excudebat typis suis Isaacus Elzevirius, sumptibus Iudoci Hondii, anno MDCXVIII."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Three parts bound together in a single volume. The first part (tomus prior) includes a decorative colored title page which is filled with geographers with mapping instruments and globes at the top and bottom within an architectural surrounding. Includes 28 maps of Ptolemy, engraved by Gerhard Mercator, with an engraved portrait of Mercator for his edition of Geographia in 1578. The second part contains the engravings of the Peutinger Roman World Map from the plates Ortelius used on four sheets, and an extra 9th map which was made specifically for this atlas and does not occur anywhere else. Finally, in the third part there are 14 historical maps of Europe with accompanying text, 12 of them borrowed from the Parergon maps of Ortelius, a Low Countries map of Kaerius, and an Italy map of Cluverius, both based on Ortelius. Willebrord Snellius of Leiden also belonged to the contributors of this atlas. Maps are outline hand colored with decorative title cartouche, showing geographical features, major cities and towns. Relief shown pictorially. Imprint in the last page of atlas states: Lugduni Batavorum, Excudebat typis suis Isaacus Elzevirius, sumptibus Iudoci Hondii, anno MDCXVIII. Imprint from title page to the last part: \"Amstelodami : Ex officina I. Hondii, 1619.\" Includes tables and index. Bound in leather brown covers with title \"P. Bertii, Theatrum geographiae veteris\" on spine. Petrus Bertius was born at Beveren, Flanders, Nov. 14, 1565. Became professor of mathematics and librarian at University of Leiden. In 1618 became cosmographer and histographer to Louis XIII of France. He was the author of many geographical and theological works. This three part atlas is the most celebrated work of Petrus Bertius (1565-1629). It is based primarily on Ptolemy's Geographia, produced around 150 AD. It includes engraved folding maps, drawn from earlier work by Mercator and Ortelius."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11296.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "51"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11296092.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/11296092.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Bertius, Petrus, 1565-1629; Antoninus Augustus; Welser, Marcus; Peutinger, Conrad"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~284866~90121493/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~284866~90121493/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~284866~90121493",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 82281,
+                    "height": 4272
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~284866~90121493/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~284866~90121493/list/luna"
+              ],
+              "width": 82281,
+              "height": 4272
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~284866~90121493"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~307078~90077012/manifest",
+      "label": "BART system map",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~307078~90077012/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~307078~90077012/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "BART system map",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "San Francisco Bay Area Rapid Transit District (Calif.)"
+                },
+                {
+                  "label": "Author",
+                  "value": "Richardson, Art"
+                },
+                {
+                  "label": "Date",
+                  "value": "1989"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "BART system map"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "BART"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Oakland, Calif."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "77"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Color map of the San Francisco Bay Area Rapid Transit System. Includes system information, color chart of the routes, the stations, distances from place to place, and planned MUNI Merto Turnaround and extension. Showing major cities, buildings, bridges and San Francisco International airport. Relief shown pictorially."
+                },
+                {
+                  "label": "Region",
+                  "value": "San Francisco Bay Area (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Subway"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "BART system map. Art Richardson. Documentation Div. 83. BART (Bay Area Rapid Transit) : March 1, 1989."
+                },
+                {
+                  "label": "List No",
+                  "value": "11842.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "San Francisco Bay Area Rapid Transit District (Calif.)"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Richardson, Art"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1989"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "BART system map. Art Richardson. Documentation Div. 83. BART (Bay Area Rapid Transit) : March 1, 1989."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11842.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "77"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11842000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/11842000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "San Francisco Bay Area Rapid Transit District (Calif.); Richardson, Art"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~307078~90077012/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~307078~90077012/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~307078~90077012",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 16354,
+                    "height": 12238
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~307078~90077012/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~307078~90077012/list/luna"
+              ],
+              "width": 16354,
+              "height": 12238
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~307078~90077012"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/dq992yj6920/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "A new map of the terraqueous globe according to the ancient discoveries and most general divisions of it into continents and oceans",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/dq992yj6920.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/dq992yj6920'>https://purl.stanford.edu/dq992yj6920</a>"
+        },
+        {
+          "label": "Title",
+          "value": "A new map of the terraqueous globe according to the ancient discoveries and most general divisions of it into continents and oceans"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wells, Edward, 1667-1727"
+        },
+        {
+          "label": "Contributor",
+          "value": "Burghers, M"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Early maps"
+        },
+        {
+          "label": "Type",
+          "value": "Digital maps"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : hand col. ; 2 hemispheres each 24.5 cm. in diam., on sheet 38.5 x 52 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "Delin. M. Burghers sculp. Univ. Oxon."
+        },
+        {
+          "label": "Description",
+          "value": "California shown as an unlabeled island with an indented northern coast."
+        },
+        {
+          "label": "Description",
+          "value": "Two types of coastline hatching are used to show parts of the world known and unkown in ancient times."
+        },
+        {
+          "label": "Description",
+          "value": "Dedicated to William, Duke of Gloucester, shown with his tutor. Includes engraving of the Radcliffe Camera at Oxford."
+        },
+        {
+          "label": "Description",
+          "value": "From Wells' A New sett of maps ... London [1700] map no. 1. Also issued in 1726 and 1738."
+        },
+        {
+          "label": "Description",
+          "value": "\"Delin. M. Burghers sculp. Univ. Oxon.\""
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > 1700"
+        },
+        {
+          "label": "Subject",
+          "value": "Great Britain > England > London"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:110,000,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "180°00′00″W -- 180°00′00″E / 90°00′00″N -- 90°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1726"
+        },
+        {
+          "label": "Date",
+          "value": "1726"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/dq992yj6920"
+        },
+        {
+          "label": "Publisher",
+          "value": "Oxford University"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2021-03-24"
+        }
+      ],
+      "description": "California shown as an unlabeled island with an indented northern coast.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/dq992yj6920%2Fdq992yj6920_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/dq992yj6920%2Fdq992yj6920_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 310
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/dq992yj6920/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/dq992yj6920/iiif/canvas/cocina-fileSet-dq992yj6920-dq992yj6920_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 9690,
+              "width": 12509,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/dq992yj6920/dq992yj6920_00_0001.jp2",
+                  "label": "Original source file (21.8 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/dq992yj6920/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fdq992yj6920-dq992yj6920_1%2Fdq992yj6920_00_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/dq992yj6920/iiif/canvas/cocina-fileSet-dq992yj6920-dq992yj6920_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/dq992yj6920%2Fdq992yj6920_00_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 9690,
+                    "width": 12509,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/dq992yj6920%2Fdq992yj6920_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/dk805fc9276/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Carta automobilistica d'Italia al 500.000. Foglio 1",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/dk805fc9276.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/dk805fc9276'>https://purl.stanford.edu/dk805fc9276</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Carta automobilistica d'Italia al 500.000. Foglio 1"
+        },
+        {
+          "label": "Contributor",
+          "value": "Reale Automobile club d'Italia"
+        },
+        {
+          "label": "Contributor",
+          "value": "Istituto geografico De Agostini"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image-cri"
+        },
+        {
+          "label": "Type",
+          "value": "Physical maps."
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 map : color ; 124 x 53 cm, folded to 28 x 13 cm"
+        },
+        {
+          "label": "Language",
+          "value": "Italian"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "costruzione, disegno e stampa Istituto Geografica de Agostini, Novara, Italia ; RACI."
+        },
+        {
+          "label": "Description",
+          "value": "Relief shown by contours, shading, and hachures."
+        },
+        {
+          "label": "Description",
+          "value": "Index to sheets and legend on covers."
+        },
+        {
+          "label": "Description",
+          "value": "Shows roads, railroads, highways, and state borders."
+        },
+        {
+          "label": "Description",
+          "value": "Advertisments with text and illustrations on back cover."
+        },
+        {
+          "label": "Description",
+          "value": "\"Luglio 1938-XVI\" --inner back cover."
+        },
+        {
+          "label": "Subject",
+          "value": "Roads > Italy > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Italy, Northern > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:500,000"
+        },
+        {
+          "label": "Coverage",
+          "value": "6°41′00″E -- 14°32′00″E / 47°01′00″N -- 44°45′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1938"
+        },
+        {
+          "label": "Date",
+          "value": "1938"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/dk805fc9276"
+        },
+        {
+          "label": "Publisher",
+          "value": "Istituto Geografico de Agostini,"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-08-11"
+        }
+      ],
+      "description": "Relief shown by contours, shading, and hachures.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/dk805fc9276%2Fdk805fc9276_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/dk805fc9276%2Fdk805fc9276_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 148
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/dk805fc9276/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/dk805fc9276/iiif/canvas/cocina-fileSet-dk805fc9276-dk805fc9276_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 13568,
+              "width": 36576,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/dk805fc9276/dk805fc9276_00_0001.jp2",
+                  "label": "Original source file (89.2 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/dk805fc9276/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fdk805fc9276-dk805fc9276_1%2Fdk805fc9276_00_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/dk805fc9276/iiif/canvas/cocina-fileSet-dk805fc9276-dk805fc9276_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/dk805fc9276%2Fdk805fc9276_00_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 13568,
+                    "width": 36576,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/dk805fc9276%2Fdk805fc9276_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/dk805fc9276/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Carta automobilistica d'Italia al 500.000. Foglio 1",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/dk805fc9276.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/dk805fc9276'>https://purl.stanford.edu/dk805fc9276</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Carta automobilistica d'Italia al 500.000. Foglio 1"
+        },
+        {
+          "label": "Contributor",
+          "value": "Reale Automobile club d'Italia"
+        },
+        {
+          "label": "Contributor",
+          "value": "Istituto geografico De Agostini"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image-cri"
+        },
+        {
+          "label": "Type",
+          "value": "Physical maps."
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 map : color ; 124 x 53 cm, folded to 28 x 13 cm"
+        },
+        {
+          "label": "Language",
+          "value": "Italian"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "costruzione, disegno e stampa Istituto Geografica de Agostini, Novara, Italia ; RACI."
+        },
+        {
+          "label": "Description",
+          "value": "Relief shown by contours, shading, and hachures."
+        },
+        {
+          "label": "Description",
+          "value": "Index to sheets and legend on covers."
+        },
+        {
+          "label": "Description",
+          "value": "Shows roads, railroads, highways, and state borders."
+        },
+        {
+          "label": "Description",
+          "value": "Advertisments with text and illustrations on back cover."
+        },
+        {
+          "label": "Description",
+          "value": "\"Luglio 1938-XVI\" --inner back cover."
+        },
+        {
+          "label": "Subject",
+          "value": "Roads > Italy > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Italy, Northern > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:500,000"
+        },
+        {
+          "label": "Coverage",
+          "value": "6°41′00″E -- 14°32′00″E / 47°01′00″N -- 44°45′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1938"
+        },
+        {
+          "label": "Date",
+          "value": "1938"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/dk805fc9276"
+        },
+        {
+          "label": "Publisher",
+          "value": "Istituto Geografico de Agostini,"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-08-11"
+        }
+      ],
+      "description": "Relief shown by contours, shading, and hachures.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/dk805fc9276%2Fdk805fc9276_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/dk805fc9276%2Fdk805fc9276_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 148
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/dk805fc9276/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/dk805fc9276/iiif/canvas/cocina-fileSet-dk805fc9276-dk805fc9276_2",
+              "@type": "sc:Canvas",
+              "label": "Image 2",
+              "height": 6962,
+              "width": 6358,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/dk805fc9276/dk805fc9276_00_0002.jp2",
+                  "label": "Original source file (7.96 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/dk805fc9276/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fdk805fc9276-dk805fc9276_2%2Fdk805fc9276_00_0002.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/dk805fc9276/iiif/canvas/cocina-fileSet-dk805fc9276-dk805fc9276_2",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/dk805fc9276%2Fdk805fc9276_00_0002/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 6962,
+                    "width": 6358,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/dk805fc9276%2Fdk805fc9276_00_0002",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/mv556fd9168/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[Italia di Tolomeo]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/mv556fd9168.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/mv556fd9168'>https://purl.stanford.edu/mv556fd9168</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[Italia di Tolomeo]"
+        },
+        {
+          "label": "Title",
+          "value": "Map of Italy from Ptolemy's Cosmographia (Ulm, 1482)"
+        },
+        {
+          "label": "Title",
+          "value": "Cosmographia"
+        },
+        {
+          "label": "Title",
+          "value": "Geografia (Tolomeo)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Ptolemy, active 2nd century"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image-cri"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : woodcut, hand color ; 35 x 54 cm"
+        },
+        {
+          "label": "Language",
+          "value": "Latin"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "Claudio Tolomeo."
+        },
+        {
+          "label": "Description",
+          "value": "From Ulm Ptolemy, p. 38."
+        },
+        {
+          "label": "Description",
+          "value": "The woodcuts in the Ulm Ptolemy are generally credited to Johannes 'Schnitzer' (\"the woodblock-cutter\") from Armsheim. One characteristic of his work is that he tended to reverse his capital 'N's when cutting the letter. Of the Italian editions of Ptolemy only one, that of Bernard Sylvanus, published in Venice in 1511, used woodcuts. All the others used copper engravings."
+        },
+        {
+          "label": "Subject",
+          "value": "Cartography > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Geography, Ancient > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Italy > Maps > Early works to 1800"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale indeterminable."
+        },
+        {
+          "label": "Date",
+          "value": "1482 - 1530"
+        },
+        {
+          "label": "Date",
+          "value": "1482 - 1530"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/mv556fd9168"
+        },
+        {
+          "label": "Publisher",
+          "value": "Johannes Schnitzer,"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-08-11"
+        }
+      ],
+      "description": "From Ulm Ptolemy, p. 38.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/mv556fd9168%2Fmv556fd9168_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/mv556fd9168%2Fmv556fd9168_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 299
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/mv556fd9168/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/mv556fd9168/iiif/canvas/cocina-fileSet-mv556fd9168-mv556fd9168_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 10463,
+              "width": 14008,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/mv556fd9168/mv556fd9168_00_0001.jp2",
+                  "label": "Original source file (26.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/mv556fd9168/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fmv556fd9168-mv556fd9168_1%2Fmv556fd9168_00_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/mv556fd9168/iiif/canvas/cocina-fileSet-mv556fd9168-mv556fd9168_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/mv556fd9168%2Fmv556fd9168_00_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10463,
+                    "width": 14008,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/mv556fd9168%2Fmv556fd9168_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229420~5509073/manifest",
+      "label": "Covers: (California Highway Map) and (Birds-Eye View of California)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~229420~5509073/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229420~5509073/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Covers: (California Highway Map) and (Birds-Eye View of California)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "All-Year Club of Southern California"
+                },
+                {
+                  "label": "Author",
+                  "value": "Californians Inc."
+                },
+                {
+                  "label": "Author",
+                  "value": "Owens, Charles H."
+                },
+                {
+                  "label": "Date",
+                  "value": "1936"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Covers: (California Highway Map) and (Birds-Eye View of California)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "All-Year Club"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Los Angeles"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "97"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "1,700,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "2 maps on 1 sheet : back-to-back. With bird's-eye view picture of California on the back. Includes numbered key and text on principal points of tourist interest, and roads. Map belongs to Glen Bachmann."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Covers to) (California Highway Map) and (Birds-Eye View of California)"
+                },
+                {
+                  "label": "List No",
+                  "value": "5866.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "All-Year Club of Southern California"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Californians Inc."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Owens, Charles H."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1936"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "California official tourist picture map. California. Drawing by Charles H. Owens. Copyrighted in 1936 by The All-Year Club of Southern California, Ltd. and Californians Inc. Printed in U.S.A. (with two inset maps) San Francisco Bay Area, and Los Angeles and vicinity."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "5866.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "11"
+                },
+                {
+                  "label": "Image No",
+                  "value": "5866001"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/5866001.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "All-Year Club of Southern California; Californians Inc.; Owens, Charles H."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~229420~5509073/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~229420~5509073/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~229420~5509073",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 2632,
+                    "height": 2959
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229420~5509073/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229420~5509073/list/luna"
+              ],
+              "width": 2632,
+              "height": 2959
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~229420~5509073"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229430~5509074/manifest",
+      "label": "(California Highway Map)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~229430~5509074/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229430~5509074/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "(California Highway Map)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "All-Year Club of Southern California"
+                },
+                {
+                  "label": "Author",
+                  "value": "Californians Inc."
+                },
+                {
+                  "label": "Author",
+                  "value": "Owens, Charles H."
+                },
+                {
+                  "label": "Date",
+                  "value": "1936"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "(California Highway Map)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "All-Year Club"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Los Angeles"
+                },
+                {
+                  "label": "Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "97"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "1,700,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "2 maps on 1 sheet : back-to-back. With bird's-eye view picture of California on the back. Includes numbered key and text on principal points of tourist interest, and roads. Map belongs to Glen Bachmann."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(California Highway Map)"
+                },
+                {
+                  "label": "List No",
+                  "value": "5866.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "All-Year Club of Southern California"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Californians Inc."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Owens, Charles H."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1936"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "California official tourist picture map. California. Drawing by Charles H. Owens. Copyrighted in 1936 by The All-Year Club of Southern California, Ltd. and Californians Inc. Printed in U.S.A. (with two inset maps) San Francisco Bay Area, and Los Angeles and vicinity."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "5866.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "11"
+                },
+                {
+                  "label": "Image No",
+                  "value": "5866002"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/5866002.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "All-Year Club of Southern California; Californians Inc.; Owens, Charles H."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~229430~5509074/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~229430~5509074/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~229430~5509074",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 5217,
+                    "height": 11600
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229430~5509074/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229430~5509074/list/luna"
+              ],
+              "width": 5217,
+              "height": 11600
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~229430~5509074"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229431~5509075/manifest",
+      "label": "(Birds-Eye View of California)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~229431~5509075/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229431~5509075/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "(Birds-Eye View of California)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "All-Year Club of Southern California"
+                },
+                {
+                  "label": "Author",
+                  "value": "Californians Inc."
+                },
+                {
+                  "label": "Author",
+                  "value": "Owens, Charles H."
+                },
+                {
+                  "label": "Date",
+                  "value": "1936"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "(Birds-Eye View of California)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "All-Year Club"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Los Angeles"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "97"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "1,700,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "2 maps on 1 sheet : back-to-back. With bird's-eye view picture of California on the back. Includes numbered key and text on principal points of tourist interest, and roads. Map belongs to Glen Bachmann."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Birds-Eye View of California)"
+                },
+                {
+                  "label": "List No",
+                  "value": "5866.003"
+                },
+                {
+                  "label": "Series No",
+                  "value": "3"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "All-Year Club of Southern California"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Californians Inc."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Owens, Charles H."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1936"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "California official tourist picture map. California. Drawing by Charles H. Owens. Copyrighted in 1936 by The All-Year Club of Southern California, Ltd. and Californians Inc. Printed in U.S.A. (with two inset maps) San Francisco Bay Area, and Los Angeles and vicinity."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "5866.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "11"
+                },
+                {
+                  "label": "Image No",
+                  "value": "5866003"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/5866003.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "All-Year Club of Southern California; Californians Inc.; Owens, Charles H."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~229431~5509075/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~229431~5509075/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~229431~5509075",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11599,
+                    "height": 5190
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229431~5509075/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~229431~5509075/list/luna"
+              ],
+              "width": 11599,
+              "height": 5190
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~229431~5509075"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290688~90062396/manifest",
+      "label": "Italy hopes war will bring new Roman Empire",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~290688~90062396/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290688~90062396/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Italy hopes war will bring new Roman Empire",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Burke, Howard"
+                },
+                {
+                  "label": "Author",
+                  "value": "San Francisco Examiner"
+                },
+                {
+                  "label": "Date",
+                  "value": "1940"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Italy hopes war will bring new Roman Empire"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "San Francisco Examiner"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "San Francisco"
+                },
+                {
+                  "label": "Type",
+                  "value": "Newspaper Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Color map. Shows Italian possessions, naval bases, air bases, forts, battle ships, etc. Relief shown pictorially. Includes dated and statistical notes, compass rose on lower left oriented with the north to upper left. Includes text inset: \"What Italy wants?\" and legend."
+                },
+                {
+                  "label": "Country",
+                  "value": "Italy"
+                },
+                {
+                  "label": "Region",
+                  "value": "Europe, Eastern"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Italy hopes war will bring new Roman Empire. Neutral role nears end as Mussolini moves to win by arms what first world conflict failed to attain. Map copyright 1940, by Los Angeles Examiner. Howard Burke. (inset) Black areas indicate Italy and Italian possessions. (Published in) San Francisco Examiner, Sunday Jume 2, 1940 : March of events, screen and drama."
+                },
+                {
+                  "label": "List No",
+                  "value": "8355.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Burke, Howard"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "San Francisco Examiner"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1940"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Italy hopes war will bring new Roman Empire. Neutral role nears end as Mussolini moves to win by arms what first world conflict failed to attain. Map copyright 1940, by Los Angeles Examiner. Howard Burke. (inset) Black areas indicate Italy and Italian possessions. (Published in) San Francisco Examiner, Sunday Jume 2, 1940 : March of events, screen and drama."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8355.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8355000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/8355000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Burke, Howard; San Francisco Examiner"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~290688~90062396/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~290688~90062396/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~290688~90062396",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11036,
+                    "height": 8748
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290688~90062396/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~290688~90062396/list/luna"
+              ],
+              "width": 11036,
+              "height": 8748
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~290688~90062396"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/gc834by8292/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "The Tourist, Or Pocket Manual For Travellers On The Hudson River, The Western Canal, And Stage Road ... New-York: Printed By J. & J. Harper, No. 82 Cliff-street. 1830. (with map) An Improved Map of the Hudson River, with the Post Roads between N. York & Albany. Published by S. Mahon & Co. Drawn & Engraved Expressly For The Tourist. 1830. W. Chapin Sc",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/gc834by8292.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/gc834by8292'>https://purl.stanford.edu/gc834by8292</a>"
+        },
+        {
+          "label": "Title",
+          "value": "The Tourist, Or Pocket Manual For Travellers On The Hudson River, The Western Canal, And Stage Road ... New-York: Printed By J. & J. Harper, No. 82 Cliff-street. 1830. (with map) An Improved Map of the Hudson River, with the Post Roads between N. York & Albany. Published by S. Mahon & Co. Drawn & Engraved Expressly For The Tourist. 1830. W. Chapin Sc"
+        },
+        {
+          "label": "Contributor",
+          "value": "Vandewater, Robert J."
+        },
+        {
+          "label": "Contributor",
+          "value": "Chapin, W."
+        },
+        {
+          "label": "Type",
+          "value": "Text"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Tourist maps"
+        },
+        {
+          "label": "Type",
+          "value": "Road maps."
+        },
+        {
+          "label": "Type",
+          "value": "Strip maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 volume : 1 maps ; 130 x 13 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Excellent 59 page guide to Erie Canal towns. First edition. Covers are a tan card board 15x10 printed with \"The Tourist, Or Pocket Manual For Travellers On The Hudson River, THe Western Canal, And Stage Road ... With An Improved Map Of The Hudson River.\" Map is without color."
+        },
+        {
+          "label": "Description",
+          "value": "Guide Book."
+        },
+        {
+          "label": "Description",
+          "value": "References: Howes V28."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 1120.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Tourist maps > Hudson River (N.Y. and N.J.) > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Canals > New York (state) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Roads > New York (state) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Stagecoaches > New York (state) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Postal service > New York (state) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Hudson River (N.Y. and N.J.) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "New York (state) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "New York (N.Y.) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Albany (N.Y.) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Lebanon Springs (N.Y.) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Ballston (N.Y.) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Saratoga Springs (N.Y.) > Maps > 19th century"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:285,000."
+        },
+        {
+          "label": "Date",
+          "value": "1830"
+        },
+        {
+          "label": "Date",
+          "value": "1830"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/gc834by8292"
+        },
+        {
+          "label": "Publisher",
+          "value": "J. & J. Harper,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-05"
+        }
+      ],
+      "description": "Excellent 59 page guide to Erie Canal towns. First edition. Covers are a tan card board 15x10 printed with \"The Tourist, Or Pocket Manual For Travellers On The Hudson River, THe Western Canal, And Stage Road ... With An Improved Map Of The Hudson River.\" Map is without color.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/fk259ss1323%2F1120001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/fk259ss1323%2F1120001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 254,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/gc834by8292/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/gc834by8292/iiif/canvas/cocina-fileSet-fw740rd4960-fw740rd4960_1",
+              "@type": "sc:Canvas",
+              "label": "An Improved Map of the Hudson River, with the Post Roads between N. York &\n   Albany. Published by S. Mahon & Co. Drawn & Engraved Expressly For The Tourist. 1830. W\n   Chapin Sc. (with) The Tourist, Or Pocket Manual For Travellers On The Hudson River, The Western\n   Canal, And Stage Road ... New-York: Printed By J. & J. Harper, No. 82 Cliff-street. 1830.",
+              "height": 20422,
+              "width": 3204,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/fw740rd4960/1120002.jp2",
+                  "label": "Original source file (11.8 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/gc834by8292/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Ffw740rd4960-fw740rd4960_1%2F1120002.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/gc834by8292/iiif/canvas/cocina-fileSet-fw740rd4960-fw740rd4960_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/fw740rd4960%2F1120002/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 20422,
+                    "width": 3204,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/fw740rd4960%2F1120002",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/gk585tb8931/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Atlas, To Accompany A System Of Universal History; Containing, I. A Chronological Picture of Nations, Or Perspective Sketch of the Course of Empire. II. The Progressive Geography of the World, In A Series of Maps, Adapted to the Different Epochas of The History. By Emma Willard, Principal Of Troy Female Seminary, And Author Of Other Geographical And Historical Works. Hartford: Published By F.J. Huntington. MDCCCXXXVI. Entered ... 1835, by F.J. Huntington ... Connecticut",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/gk585tb8931.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/gk585tb8931'>https://purl.stanford.edu/gk585tb8931</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Atlas, To Accompany A System Of Universal History; Containing, I. A Chronological Picture of Nations, Or Perspective Sketch of the Course of Empire. II. The Progressive Geography of the World, In A Series of Maps, Adapted to the Different Epochas of The History. By Emma Willard, Principal Of Troy Female Seminary, And Author Of Other Geographical And Historical Works. Hartford: Published By F.J. Huntington. MDCCCXXXVI. Entered ... 1835, by F.J. Huntington ... Connecticut"
+        },
+        {
+          "label": "Contributor",
+          "value": "Willard, Emma."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 10 maps ; 29 x 24 cm."
+        },
+        {
+          "label": "Description",
+          "value": "Historical Atlas."
+        },
+        {
+          "label": "Description",
+          "value": "References: Not in Phillips."
+        },
+        {
+          "label": "Description",
+          "value": "Scarce atlas with full color maps on the design of Quin's Historical Atlas of 1830 - the maps have clouds that gradually pull back to reveal the whole earth as the maps progress from the earliest to the modern period. Heavy blue paper covers with title as above."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 4545.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "World history > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Historical geography > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Power (Social sciences) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Sovereignty > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Boundaries > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1836"
+        },
+        {
+          "label": "Date",
+          "value": "1836"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/gk585tb8931"
+        },
+        {
+          "label": "Publisher",
+          "value": "F.J. Huntington,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-11"
+        }
+      ],
+      "description": "Historical Atlas.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/jp780cr9445%2F4545a/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/jp780cr9445%2F4545a",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 245
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/gk585tb8931/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/gk585tb8931/iiif/canvas/cocina-fileSet-fb153qx8288-fb153qx8288_1",
+              "@type": "sc:Canvas",
+              "label": "Picture of nations or perspective sketch of the course of empire. To accompany\n   Willard's Universal history in perspective. Entered ... 1835, by F.J. Huntington\n   Connecticut. (1836)",
+              "height": 5002,
+              "width": 7923,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/fb153qx8288/4545001.jp2",
+                  "label": "Original source file (7.13 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/gk585tb8931/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Ffb153qx8288-fb153qx8288_1%2F4545001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/gk585tb8931/iiif/canvas/cocina-fileSet-fb153qx8288-fb153qx8288_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/fb153qx8288%2F4545001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 5002,
+                    "width": 7923,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/fb153qx8288%2F4545001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/gk585tb8931/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Atlas, To Accompany A System Of Universal History; Containing, I. A Chronological Picture of Nations, Or Perspective Sketch of the Course of Empire. II. The Progressive Geography of the World, In A Series of Maps, Adapted to the Different Epochas of The History. By Emma Willard, Principal Of Troy Female Seminary, And Author Of Other Geographical And Historical Works. Hartford: Published By F.J. Huntington. MDCCCXXXVI. Entered ... 1835, by F.J. Huntington ... Connecticut",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/gk585tb8931.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/gk585tb8931'>https://purl.stanford.edu/gk585tb8931</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Atlas, To Accompany A System Of Universal History; Containing, I. A Chronological Picture of Nations, Or Perspective Sketch of the Course of Empire. II. The Progressive Geography of the World, In A Series of Maps, Adapted to the Different Epochas of The History. By Emma Willard, Principal Of Troy Female Seminary, And Author Of Other Geographical And Historical Works. Hartford: Published By F.J. Huntington. MDCCCXXXVI. Entered ... 1835, by F.J. Huntington ... Connecticut"
+        },
+        {
+          "label": "Contributor",
+          "value": "Willard, Emma."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 10 maps ; 29 x 24 cm."
+        },
+        {
+          "label": "Description",
+          "value": "Historical Atlas."
+        },
+        {
+          "label": "Description",
+          "value": "References: Not in Phillips."
+        },
+        {
+          "label": "Description",
+          "value": "Scarce atlas with full color maps on the design of Quin's Historical Atlas of 1830 - the maps have clouds that gradually pull back to reveal the whole earth as the maps progress from the earliest to the modern period. Heavy blue paper covers with title as above."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 4545.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "World history > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Historical geography > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Power (Social sciences) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Sovereignty > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Boundaries > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1836"
+        },
+        {
+          "label": "Date",
+          "value": "1836"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/gk585tb8931"
+        },
+        {
+          "label": "Publisher",
+          "value": "F.J. Huntington,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-11"
+        }
+      ],
+      "description": "Historical Atlas.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/jp780cr9445%2F4545a/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/jp780cr9445%2F4545a",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 245
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/gk585tb8931/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/gk585tb8931/iiif/canvas/cocina-fileSet-kn595jf5059-kn595jf5059_1",
+              "@type": "sc:Canvas",
+              "label": "B.C. 1921. B.C. 1491. B.C. 980. B.C. 752. B.C. 323. Christian era. Entered ... 1835\n   by F.J. Huntington ... Connecticut. (1836)",
+              "height": 5002,
+              "width": 7923,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/kn595jf5059/4545002.jp2",
+                  "label": "Original source file (7.13 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/gk585tb8931/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fkn595jf5059-kn595jf5059_1%2F4545002.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/gk585tb8931/iiif/canvas/cocina-fileSet-kn595jf5059-kn595jf5059_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/kn595jf5059%2F4545002/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 5002,
+                    "width": 7923,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/kn595jf5059%2F4545002",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/gk585tb8931/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Atlas, To Accompany A System Of Universal History; Containing, I. A Chronological Picture of Nations, Or Perspective Sketch of the Course of Empire. II. The Progressive Geography of the World, In A Series of Maps, Adapted to the Different Epochas of The History. By Emma Willard, Principal Of Troy Female Seminary, And Author Of Other Geographical And Historical Works. Hartford: Published By F.J. Huntington. MDCCCXXXVI. Entered ... 1835, by F.J. Huntington ... Connecticut",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/gk585tb8931.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/gk585tb8931'>https://purl.stanford.edu/gk585tb8931</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Atlas, To Accompany A System Of Universal History; Containing, I. A Chronological Picture of Nations, Or Perspective Sketch of the Course of Empire. II. The Progressive Geography of the World, In A Series of Maps, Adapted to the Different Epochas of The History. By Emma Willard, Principal Of Troy Female Seminary, And Author Of Other Geographical And Historical Works. Hartford: Published By F.J. Huntington. MDCCCXXXVI. Entered ... 1835, by F.J. Huntington ... Connecticut"
+        },
+        {
+          "label": "Contributor",
+          "value": "Willard, Emma."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 10 maps ; 29 x 24 cm."
+        },
+        {
+          "label": "Description",
+          "value": "Historical Atlas."
+        },
+        {
+          "label": "Description",
+          "value": "References: Not in Phillips."
+        },
+        {
+          "label": "Description",
+          "value": "Scarce atlas with full color maps on the design of Quin's Historical Atlas of 1830 - the maps have clouds that gradually pull back to reveal the whole earth as the maps progress from the earliest to the modern period. Heavy blue paper covers with title as above."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 4545.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "World history > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Historical geography > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Power (Social sciences) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Sovereignty > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Boundaries > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1836"
+        },
+        {
+          "label": "Date",
+          "value": "1836"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/gk585tb8931"
+        },
+        {
+          "label": "Publisher",
+          "value": "F.J. Huntington,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-11"
+        }
+      ],
+      "description": "Historical Atlas.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/jp780cr9445%2F4545a/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/jp780cr9445%2F4545a",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 245
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/gk585tb8931/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/gk585tb8931/iiif/canvas/cocina-fileSet-nf878gf2166-nf878gf2166_1",
+              "@type": "sc:Canvas",
+              "label": "A.D. 395. A.D. 1100. A.D. 1492. Entered ... 1835, by F.J. Huntington ... Connecticut\n   (1836)",
+              "height": 5002,
+              "width": 7923,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/nf878gf2166/4545003.jp2",
+                  "label": "Original source file (7.13 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/gk585tb8931/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fnf878gf2166-nf878gf2166_1%2F4545003.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/gk585tb8931/iiif/canvas/cocina-fileSet-nf878gf2166-nf878gf2166_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/nf878gf2166%2F4545003/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 5002,
+                    "width": 7923,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/nf878gf2166%2F4545003",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/gk585tb8931/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Atlas, To Accompany A System Of Universal History; Containing, I. A Chronological Picture of Nations, Or Perspective Sketch of the Course of Empire. II. The Progressive Geography of the World, In A Series of Maps, Adapted to the Different Epochas of The History. By Emma Willard, Principal Of Troy Female Seminary, And Author Of Other Geographical And Historical Works. Hartford: Published By F.J. Huntington. MDCCCXXXVI. Entered ... 1835, by F.J. Huntington ... Connecticut",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/gk585tb8931.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/gk585tb8931'>https://purl.stanford.edu/gk585tb8931</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Atlas, To Accompany A System Of Universal History; Containing, I. A Chronological Picture of Nations, Or Perspective Sketch of the Course of Empire. II. The Progressive Geography of the World, In A Series of Maps, Adapted to the Different Epochas of The History. By Emma Willard, Principal Of Troy Female Seminary, And Author Of Other Geographical And Historical Works. Hartford: Published By F.J. Huntington. MDCCCXXXVI. Entered ... 1835, by F.J. Huntington ... Connecticut"
+        },
+        {
+          "label": "Contributor",
+          "value": "Willard, Emma."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 10 maps ; 29 x 24 cm."
+        },
+        {
+          "label": "Description",
+          "value": "Historical Atlas."
+        },
+        {
+          "label": "Description",
+          "value": "References: Not in Phillips."
+        },
+        {
+          "label": "Description",
+          "value": "Scarce atlas with full color maps on the design of Quin's Historical Atlas of 1830 - the maps have clouds that gradually pull back to reveal the whole earth as the maps progress from the earliest to the modern period. Heavy blue paper covers with title as above."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 4545.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "World history > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Historical geography > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Power (Social sciences) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Sovereignty > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Boundaries > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1836"
+        },
+        {
+          "label": "Date",
+          "value": "1836"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/gk585tb8931"
+        },
+        {
+          "label": "Publisher",
+          "value": "F.J. Huntington,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-11"
+        }
+      ],
+      "description": "Historical Atlas.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/jp780cr9445%2F4545a/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/jp780cr9445%2F4545a",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 245
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/gk585tb8931/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/gk585tb8931/iiif/canvas/cocina-fileSet-kz130gm3874-kz130gm3874_1",
+              "@type": "sc:Canvas",
+              "label": "(The World). Entered ... 1835, by F.J. Huntington ... Connecticut\n   (1836)",
+              "height": 5002,
+              "width": 7923,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/kz130gm3874/4545004.jp2",
+                  "label": "Original source file (7.13 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/gk585tb8931/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fkz130gm3874-kz130gm3874_1%2F4545004.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/gk585tb8931/iiif/canvas/cocina-fileSet-kz130gm3874-kz130gm3874_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/kz130gm3874%2F4545004/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 5002,
+                    "width": 7923,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/kz130gm3874%2F4545004",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219116~5504530/manifest",
+      "label": "Map No. I. Countries Known To The Ancients",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~219116~5504530/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219116~5504530/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Map No. I. Countries Known To The Ancients",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Willard, Emma"
+                },
+                {
+                  "label": "Date",
+                  "value": "1827"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Map No. I. Countries Known To The Ancients"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Belknap and Hamersley"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Hartford"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Maps are bound in heavy yellow paper covers printed with \"Ancient Atlas, To Accompany The Universal Geography. By William C. Woodbridge, And Emma Willard ... Maps By Emma Willard, Principal Of The Female Seminary At Troy. Hartford: Belknap And Hamersley...\" Full color."
+                },
+                {
+                  "label": "Reference",
+                  "value": "None found."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Europe"
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Region",
+                  "value": "Mediterranean Region"
+                },
+                {
+                  "label": "Region",
+                  "value": "Middle East"
+                },
+                {
+                  "label": "Subject",
+                  "value": "School"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Map No. 1. Countries Known To The Ancients. So Arranged as to Show by the Characters & Colours Used during Which of the Six Epocha's into Which Ancient Time is Divided, Each Century Become Known. Entered according to act of Congress 5th. Day of September 1827 by Oliver D. Cooke & Co. of the State of Connecticut."
+                },
+                {
+                  "label": "List No",
+                  "value": "3023.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Cooke, Oliver D. & Co."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Willard, Emma"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1827"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Ancient Atlas, To Accompany The Universal Geography. By William C. Woodbridge, And Emma Willard ... By Emma Willard, Principal Of The Female Seminary At Troy. Hartford: Belknap And Hamersley. District Of Connecticut, ss. Be It Remembered, that on the thirtieth day of August, in the fifty-second year of the Independence of the United States of America, Oliver D. Cooke & Co. ... deposited in this office the title of a book ... Chas. A. Ingersoll, Clerk of the District of Connecticut."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "None found."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "To accompany Woodbridge's Modern Atlas. Scarce first edition, the earliest copy of Woodbridge's Modern Atlas in our collection is 1831, although Phillips lists an 1824. Willard's Ancient Atlas is different from but related to her Atlas to Accompany a System of Universal History, published in 1835, which used the \"cloud\" format of Quin. Full color. Maps are bound in heavy yellow paper covers printed with the above title and the table of contents."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "3023.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "School Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "6"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Image No",
+                  "value": "3023002"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/3023002.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Willard, Emma"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~219116~5504530/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~219116~5504530/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~219116~5504530",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 6161,
+                    "height": 4894
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219116~5504530/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219116~5504530/list/luna"
+              ],
+              "width": 6161,
+              "height": 4894
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~219116~5504530"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219122~5504531/manifest",
+      "label": "Map No. II. The World As Known To The Ancients",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~219122~5504531/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219122~5504531/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Map No. II. The World As Known To The Ancients",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Willard, Emma"
+                },
+                {
+                  "label": "Date",
+                  "value": "1827"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Map No. II. The World As Known To The Ancients"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Belknap and Hamersley"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Hartford"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "45"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Maps are bound in heavy yellow paper covers printed with \"Ancient Atlas, To Accompany The Universal Geography. By William C. Woodbridge, And Emma Willard ... Maps By Emma Willard, Principal Of The Female Seminary At Troy. Hartford: Belknap And Hamersley...\" Full color."
+                },
+                {
+                  "label": "Reference",
+                  "value": "None found."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Europe"
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Country",
+                  "value": "England"
+                },
+                {
+                  "label": "Region",
+                  "value": "Mediterranean Region"
+                },
+                {
+                  "label": "Region",
+                  "value": "Middle East"
+                },
+                {
+                  "label": "Subject",
+                  "value": "School"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Map No. II. The World As Known To The Ancients. The Modern Name of Places Inserted on this Map... Placed under the Ancient names... Entered according to act of Congress 5th. Day of September 1827 by Oliver D. Cooke & Co. of the State of Connecticut."
+                },
+                {
+                  "label": "List No",
+                  "value": "3023.003"
+                },
+                {
+                  "label": "Series No",
+                  "value": "3"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Cooke, Oliver D. & Co."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Willard, Emma"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1827"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Ancient Atlas, To Accompany The Universal Geography. By William C. Woodbridge, And Emma Willard ... By Emma Willard, Principal Of The Female Seminary At Troy. Hartford: Belknap And Hamersley. District Of Connecticut, ss. Be It Remembered, that on the thirtieth day of August, in the fifty-second year of the Independence of the United States of America, Oliver D. Cooke & Co. ... deposited in this office the title of a book ... Chas. A. Ingersoll, Clerk of the District of Connecticut."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "None found."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "To accompany Woodbridge's Modern Atlas. Scarce first edition, the earliest copy of Woodbridge's Modern Atlas in our collection is 1831, although Phillips lists an 1824. Willard's Ancient Atlas is different from but related to her Atlas to Accompany a System of Universal History, published in 1835, which used the \"cloud\" format of Quin. Full color. Maps are bound in heavy yellow paper covers printed with the above title and the table of contents."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "3023.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "School Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "6"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Image No",
+                  "value": "3023003"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/3023003 .sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Willard, Emma"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~219122~5504531/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~219122~5504531/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~219122~5504531",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 9427,
+                    "height": 6151
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219122~5504531/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219122~5504531/list/luna"
+              ],
+              "width": 9427,
+              "height": 6151
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~219122~5504531"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219124~5504532/manifest",
+      "label": "Map No. III. Italy, Greece, Asia Minor, Syria",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~219124~5504532/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219124~5504532/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Map No. III. Italy, Greece, Asia Minor, Syria",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Willard, Emma"
+                },
+                {
+                  "label": "Date",
+                  "value": "1827"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Map No. III. Italy, Greece, Asia Minor, Syria"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Belknap and Hamersley"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Hartford"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "46"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Maps are bound in heavy yellow paper covers printed with \"Ancient Atlas, To Accompany The Universal Geography. By William C. Woodbridge, And Emma Willard ... Maps By Emma Willard, Principal Of The Female Seminary At Troy. Hartford: Belknap And Hamersley...\" Full color."
+                },
+                {
+                  "label": "Reference",
+                  "value": "None found."
+                },
+                {
+                  "label": "Country",
+                  "value": "Greece"
+                },
+                {
+                  "label": "Country",
+                  "value": "Italy"
+                },
+                {
+                  "label": "Region",
+                  "value": "Mediterranean Region"
+                },
+                {
+                  "label": "Region",
+                  "value": "Middle East"
+                },
+                {
+                  "label": "Subject",
+                  "value": "School"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Map No. III. Italy, Greece, Asia Minor, Syria. The Modern Name of Places Inserted on this Map... Placed under the Ancient names... Entered according to act of Congress 5th. Day of September 1827 by Oliver D. Cooke & Co. of the State of Connecticut."
+                },
+                {
+                  "label": "List No",
+                  "value": "3023.004"
+                },
+                {
+                  "label": "Series No",
+                  "value": "4"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Cooke, Oliver D. & Co."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Willard, Emma"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1827"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Ancient Atlas, To Accompany The Universal Geography. By William C. Woodbridge, And Emma Willard ... By Emma Willard, Principal Of The Female Seminary At Troy. Hartford: Belknap And Hamersley. District Of Connecticut, ss. Be It Remembered, that on the thirtieth day of August, in the fifty-second year of the Independence of the United States of America, Oliver D. Cooke & Co. ... deposited in this office the title of a book ... Chas. A. Ingersoll, Clerk of the District of Connecticut."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "None found."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "To accompany Woodbridge's Modern Atlas. Scarce first edition, the earliest copy of Woodbridge's Modern Atlas in our collection is 1831, although Phillips lists an 1824. Willard's Ancient Atlas is different from but related to her Atlas to Accompany a System of Universal History, published in 1835, which used the \"cloud\" format of Quin. Full color. Maps are bound in heavy yellow paper covers printed with the above title and the table of contents."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "3023.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "School Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "6"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Image No",
+                  "value": "3023004"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/3023004.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Willard, Emma"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~219124~5504532/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~219124~5504532/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~219124~5504532",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 9396,
+                    "height": 6139
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219124~5504532/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219124~5504532/list/luna"
+              ],
+              "width": 9396,
+              "height": 6139
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~219124~5504532"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219127~5504533/manifest",
+      "label": "Map No. IV. Craecia Antiqua",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~219127~5504533/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219127~5504533/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Map No. IV. Craecia Antiqua",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Willard, Emma"
+                },
+                {
+                  "label": "Date",
+                  "value": "1827"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Map No. IV. Craecia Antiqua"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Belknap and Hamersley"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Hartford"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "22"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "2,500,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Maps are bound in heavy yellow paper covers printed with \"Ancient Atlas, To Accompany The Universal Geography. By William C. Woodbridge, And Emma Willard ... Maps By Emma Willard, Principal Of The Female Seminary At Troy. Hartford: Belknap And Hamersley...\" Full color. Relief shown by hachures."
+                },
+                {
+                  "label": "Reference",
+                  "value": "None found."
+                },
+                {
+                  "label": "Country",
+                  "value": "Greece"
+                },
+                {
+                  "label": "Subject",
+                  "value": "School"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Craecia Antiqua. Map No. IV. The Modern Name of Places Inserted on this Map... Placed under the Ancient names... Entered according to act of Congress 5th. Day of September 1827 by Oliver D. Cooke & Co. of the State of Connecticut. (inset map) Creta."
+                },
+                {
+                  "label": "List No",
+                  "value": "3023.005"
+                },
+                {
+                  "label": "Series No",
+                  "value": "5"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Cooke, Oliver D. & Co."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Willard, Emma"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1827"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Ancient Atlas, To Accompany The Universal Geography. By William C. Woodbridge, And Emma Willard ... By Emma Willard, Principal Of The Female Seminary At Troy. Hartford: Belknap And Hamersley. District Of Connecticut, ss. Be It Remembered, that on the thirtieth day of August, in the fifty-second year of the Independence of the United States of America, Oliver D. Cooke & Co. ... deposited in this office the title of a book ... Chas. A. Ingersoll, Clerk of the District of Connecticut."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "None found."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "To accompany Woodbridge's Modern Atlas. Scarce first edition, the earliest copy of Woodbridge's Modern Atlas in our collection is 1831, although Phillips lists an 1824. Willard's Ancient Atlas is different from but related to her Atlas to Accompany a System of Universal History, published in 1835, which used the \"cloud\" format of Quin. Full color. Maps are bound in heavy yellow paper covers printed with the above title and the table of contents."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "3023.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "School Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "6"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Image No",
+                  "value": "3023005"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/3023005.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Willard, Emma"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~219127~5504533/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~219127~5504533/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~219127~5504533",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 4976,
+                    "height": 6140
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219127~5504533/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219127~5504533/list/luna"
+              ],
+              "width": 4976,
+              "height": 6140
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~219127~5504533"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219128~5504534/manifest",
+      "label": "Map No. V. Mesopotamia Assyria, Babylonia Chaldea",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~219128~5504534/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219128~5504534/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Map No. V. Mesopotamia Assyria, Babylonia Chaldea",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Willard, Emma"
+                },
+                {
+                  "label": "Date",
+                  "value": "1827"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Map No. V. Mesopotamia Assyria, Babylonia Chaldea"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Belknap and Hamersley"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Hartford"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Maps are bound in heavy yellow paper covers printed with \"Ancient Atlas, To Accompany The Universal Geography. By William C. Woodbridge, And Emma Willard ... Maps By Emma Willard, Principal Of The Female Seminary At Troy. Hartford: Belknap And Hamersley...\" Full color. Relief shown by hachures."
+                },
+                {
+                  "label": "Reference",
+                  "value": "None found."
+                },
+                {
+                  "label": "Country",
+                  "value": "Palestine"
+                },
+                {
+                  "label": "Region",
+                  "value": "Middle East"
+                },
+                {
+                  "label": "Subject",
+                  "value": "School"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Mesopotamia Assyria, Babylonia Chaldea. Map No. V. Entered according to act of Congress 5th. Day of September 1827 by Oliver D. Cooke & Co. of the State of Connecticut. (inset map) Palestine."
+                },
+                {
+                  "label": "List No",
+                  "value": "3023.006"
+                },
+                {
+                  "label": "Series No",
+                  "value": "6"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Cooke, Oliver D. & Co."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Willard, Emma"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1827"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Ancient Atlas, To Accompany The Universal Geography. By William C. Woodbridge, And Emma Willard ... By Emma Willard, Principal Of The Female Seminary At Troy. Hartford: Belknap And Hamersley. District Of Connecticut, ss. Be It Remembered, that on the thirtieth day of August, in the fifty-second year of the Independence of the United States of America, Oliver D. Cooke & Co. ... deposited in this office the title of a book ... Chas. A. Ingersoll, Clerk of the District of Connecticut."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "None found."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "To accompany Woodbridge's Modern Atlas. Scarce first edition, the earliest copy of Woodbridge's Modern Atlas in our collection is 1831, although Phillips lists an 1824. Willard's Ancient Atlas is different from but related to her Atlas to Accompany a System of Universal History, published in 1835, which used the \"cloud\" format of Quin. Full color. Maps are bound in heavy yellow paper covers printed with the above title and the table of contents."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "3023.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "School Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "6"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Image No",
+                  "value": "3023006"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/3023006.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Willard, Emma"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~219128~5504534/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~219128~5504534/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~219128~5504534",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 6125,
+                    "height": 4846
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219128~5504534/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219128~5504534/list/luna"
+              ],
+              "width": 6125,
+              "height": 4846
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~219128~5504534"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219130~5504535/manifest",
+      "label": "Map No. VI. Migrations, Settlements &C Of Barbarous Tribes",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~219130~5504535/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219130~5504535/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Map No. VI. Migrations, Settlements &C Of Barbarous Tribes",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Willard, Emma"
+                },
+                {
+                  "label": "Date",
+                  "value": "1827"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Map No. VI. Migrations, Settlements &C Of Barbarous Tribes"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Belknap and Hamersley"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Hartford"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Maps are bound in heavy yellow paper covers printed with \"Ancient Atlas, To Accompany The Universal Geography. By William C. Woodbridge, And Emma Willard ... Maps By Emma Willard, Principal Of The Female Seminary At Troy. Hartford: Belknap And Hamersley...\" Full color."
+                },
+                {
+                  "label": "Reference",
+                  "value": "None found."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Europe"
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Region",
+                  "value": "Mediterranean Region"
+                },
+                {
+                  "label": "Region",
+                  "value": "Middle East"
+                },
+                {
+                  "label": "Subject",
+                  "value": "School"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Map No. VI. Migrations, Settlements &c Of Barbarous Tribes. Illustrating the Account which is given to Them in Willard's Ancient Geography. (arrow on the map) Shows the direction of the Wondering Tribes. Entered according to act of Congress 5th. Day of September 1827 by Oliver D. Cooke & Co. of the State of Connecticut."
+                },
+                {
+                  "label": "List No",
+                  "value": "3023.007"
+                },
+                {
+                  "label": "Series No",
+                  "value": "7"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Cooke, Oliver D. & Co."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Willard, Emma"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1827"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Ancient Atlas, To Accompany The Universal Geography. By William C. Woodbridge, And Emma Willard ... By Emma Willard, Principal Of The Female Seminary At Troy. Hartford: Belknap And Hamersley. District Of Connecticut, ss. Be It Remembered, that on the thirtieth day of August, in the fifty-second year of the Independence of the United States of America, Oliver D. Cooke & Co. ... deposited in this office the title of a book ... Chas. A. Ingersoll, Clerk of the District of Connecticut."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "None found."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "To accompany Woodbridge's Modern Atlas. Scarce first edition, the earliest copy of Woodbridge's Modern Atlas in our collection is 1831, although Phillips lists an 1824. Willard's Ancient Atlas is different from but related to her Atlas to Accompany a System of Universal History, published in 1835, which used the \"cloud\" format of Quin. Full color. Maps are bound in heavy yellow paper covers printed with the above title and the table of contents."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "3023.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "School Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "6"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Image No",
+                  "value": "3023007"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/3023007.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Willard, Emma"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~219130~5504535/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~219130~5504535/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~219130~5504535",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 6149,
+                    "height": 4870
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219130~5504535/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~219130~5504535/list/luna"
+              ],
+              "width": 6149,
+              "height": 4870
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~219130~5504535"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288937~90060518/manifest",
+      "label": "Dated events map of world conquests",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~288937~90060518/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288937~90060518/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Dated events map of world conquests",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Turner, Stanley"
+                },
+                {
+                  "label": "Author",
+                  "value": "Petersen, C.C."
+                },
+                {
+                  "label": "Date",
+                  "value": "1945"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Dated events map of world conquests"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "C. C. Petersen, Publishing and Advertising"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Toronton, Ont."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "International Circulation Co. Inc."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Toronton, Ont."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "44"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "99"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "Variable"
+                },
+                {
+                  "label": "Note",
+                  "value": "Ninth edition, color map of Eastern Hemisphere, on sheet 44x99, folded into pictorial envelope 25x22. Designed by Stanley Turner. Shows events of the Second World War in the Eastern Hemisphere, including Axis countries & countries they conquered; countries re-conquered by the U.N.; naval bases; battles; notes on invasions etc. Includes legend, small pictographs and compass rose. Map annotated with text boxes detailing significant events. Relief shown pictorially. Mercator projection."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Eastern Hemisphere"
+                },
+                {
+                  "label": "Event",
+                  "value": "World War II"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Military"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Dated events map of world conquests : showing the Axis attempt at world conquest compared with the conquerors of the past and their empires. Stanley Turner. Ninth edition. Copyright, Canada, U.S.A., 1945, C. C. Petersen, Publishing and Advertising, Toronto, Ont. Printed in U.S.A. International Circulation Co. Inc., New York. (insets) South Africa. (with) Persian Empire C. 500 B.C. (with) Empire of Alexander the Great. (with) Roman Empire. (with) The Conquest of Islam. (with) Europe under Napoleon 1810 . (with) Asia under the Mongols. (Cover title) Dated events war map, Ninth edition : Map of World War II, Europe. Asia. Near East. Orient. Pacific."
+                },
+                {
+                  "label": "List No",
+                  "value": "11264.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Turner, Stanley"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Petersen, C.C."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1945"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Dated events map of world conquests : showing the Axis attempt at world conquest compared with the conquerors of the past and their empires. Stanley Turner. Ninth edition. Copyright, Canada, U.S.A., 1945, C. C. Petersen, Publishing and Advertising, Toronto, Ont. Printed in U.S.A. International Circulation Co. Inc., New York. (insets) South Africa. (with) Persian Empire C. 500 B.C. (with) Empire of Alexander the Great. (with) Roman Empire. (with) The Conquest of Islam. (with) Europe under Napoleon 1810 . (with) Asia under the Mongols. (Cover title) Dated events war map, Ninth edition : Map of World War II, Europe. Asia. Near East. Orient. Pacific."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11264.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "22"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11264002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/11264002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Turner, Stanley; Petersen, C.C."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288937~90060518/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288937~90060518/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288937~90060518",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 19676,
+                    "height": 8852
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288937~90060518/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288937~90060518/list/luna"
+              ],
+              "width": 19676,
+              "height": 8852
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~288937~90060518"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/dh599gb1610/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Gotthard-Bahn, Laghi di Como-Lugano & Maggiore, 1904. Gotthardbahn, Ferrovia del Gotthard. Stab. d'Arti Gradiche Chiattone; Milano",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/dh599gb1610.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/dh599gb1610'>https://purl.stanford.edu/dh599gb1610</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Gotthard-Bahn, Laghi di Como-Lugano & Maggiore, 1904. Gotthardbahn, Ferrovia del Gotthard. Stab. d'Arti Gradiche Chiattone; Milano"
+        },
+        {
+          "label": "Contributor",
+          "value": "Chiattone, Gabriele."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 123 x 69 cm."
+        },
+        {
+          "label": "Description",
+          "value": "Gorgeous pictorial map of the Gotthard tunnel, with the 1904 train schedule. Printed in stone-lithography enhanced with gold color. Shows major cities. The Gotthard tunnel was opened in 1891 and was one of the longest tunnrels in Europe for decades. The trains from the North of Europe were able to cross the Swiss Alps to the lakes of Ticino and Italy. The wheel and the Hermes wings were the symbols of the transportation company."
+        },
+        {
+          "label": "Description",
+          "value": "Separate Map."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 8118.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Pictorial map > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Italy > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Northern Europe > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Switzerland > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale not given."
+        },
+        {
+          "label": "Date",
+          "value": "1904"
+        },
+        {
+          "label": "Date",
+          "value": "1904"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/dh599gb1610"
+        },
+        {
+          "label": "Publisher",
+          "value": "Chiattone,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-01-06"
+        }
+      ],
+      "description": "Gorgeous pictorial map of the Gotthard tunnel, with the 1904 train schedule. Printed in stone-lithography enhanced with gold color. Shows major cities. The Gotthard tunnel was opened in 1891 and was one of the longest tunnrels in Europe for decades. The trains from the North of Europe were able to cross the Swiss Alps to the lakes of Ticino and Italy. The wheel and the Hermes wings were the symbols of the transportation company.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/dh599gb1610%2F8118000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/dh599gb1610%2F8118000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 228,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/dh599gb1610/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/dh599gb1610/iiif/canvas/cocina-fileSet-dh599gb1610-dh599gb1610_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 25340,
+              "width": 14428,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/dh599gb1610/8118000.jp2",
+                  "label": "Original source file (65.7 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/dh599gb1610/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fdh599gb1610-dh599gb1610_1%2F8118000.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/dh599gb1610/iiif/canvas/cocina-fileSet-dh599gb1610-dh599gb1610_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/dh599gb1610%2F8118000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 25340,
+                    "width": 14428,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/dh599gb1610%2F8118000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
