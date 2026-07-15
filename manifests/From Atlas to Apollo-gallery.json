@@ -192,6 +192,392 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299965~90071696/manifest",
+      "label": "fol. 40b World map in a double hemisphere",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~299965~90071696/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299965~90071696/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "fol. 40b World map in a double hemisphere",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Pirî Reis, d. 1554?"
+                },
+                {
+                  "label": "Date",
+                  "value": "1525"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "fol. 40b World map in a double hemisphere"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Manuscript"
+                },
+                {
+                  "label": "Type",
+                  "value": "Manuscript Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "Chart Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Note",
+                  "value": "Author's name given on fol. 376b as Raʾīs al-Baḥr Pīrī ibn Muḥammad; author dates preferred by (Walters) cataloger: d. 962 AH / 1555 CE"
+                },
+                {
+                  "label": "Reference",
+                  "value": "Walters Art Museum, W.658, fol 40b, © 2011 Walters Art Museum, used under a Creative Commons Attribution-ShareAlike 3.0 license: http://creativecommons.org/licenses/by-sa/3.0/"
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Navigation"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Exploration"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Ottoman Mapping"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Art"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "fol. 40b World map in a double hemisphere"
+                },
+                {
+                  "label": "List No",
+                  "value": "10108.087"
+                },
+                {
+                  "label": "Series No",
+                  "value": "87"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Pirî Reis, d. 1554?"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1700"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Walters Ms. W.658, Book on navigation, Kitāb-i baḥriye"
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "The original manuscript Walters Ms. W.658 resides at the Walters Art Museum, Baltimore, Maryland. All images and metadata are generously provided by the Walters Art Museum, W.658, on line description http://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W658/description.html © 2011 Walters Art Museum, used under a Creative Commons Attribution-ShareAlike 3.0 license: http://creativecommons.org/licenses/by-sa/3.0/"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Originally composed in 932 AH / 1525 CE and dedicated to Sultan Süleyman I (the Magnificent), this great work by Piri Reis (d. 962 AH / 1555 CE) on navigation was later revised and expanded. The present manuscript, made mostly in the late eleventh century AH / seventeenth CE, is based on the later expanded version and has some 240 exquisitely executed maps and portolan charts. They include a world map with the outline of the Americas (fol. 41a) and maps of coastlines (bays, capes, peninsulas); islands; mountains; and cities of the Mediterranean basin and the Black Sea. The work starts with a description of the coastline of Anatolia and the islands of the Aegean Sea, the Peloponnese peninsula, and the eastern and western coasts of the Adriatic Sea. It then proceeds to describe the western shores of Italy, southern France, Spain, North Africa, Palestine, Israel, Lebanon, Syria, western Anatolia, various islands north of Crete, the Sea of Marmara, the Bosporus, and the Black Sea. It ends with a map of the shores of the Caspian Sea (fol. 374a)."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10108.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Manuscript Book"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Chart Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "240"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Image No",
+                  "value": "W658_000088_886.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/W658_000088_886.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Pirî Reis, d. 1554?"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~299965~90071696/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~299965~90071696/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~299965~90071696",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12573,
+                    "height": 8411
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299965~90071696/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299965~90071696/list/luna"
+              ],
+              "width": 12573,
+              "height": 8411
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~299965~90071696"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299966~90071732/manifest",
+      "label": "fol. 41a Oval world map with the Atlantic Ocean in the center",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~299966~90071732/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299966~90071732/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "fol. 41a Oval world map with the Atlantic Ocean in the center",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Pirî Reis, d. 1554?"
+                },
+                {
+                  "label": "Date",
+                  "value": "1525"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "fol. 41a Oval world map with the Atlantic Ocean in the center"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Manuscript"
+                },
+                {
+                  "label": "Type",
+                  "value": "Manuscript Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "Chart Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Note",
+                  "value": "Author's name given on fol. 376b as Raʾīs al-Baḥr Pīrī ibn Muḥammad; author dates preferred by (Walters) cataloger: d. 962 AH / 1555 CE"
+                },
+                {
+                  "label": "Reference",
+                  "value": "Walters Art Museum, W.658, fol 41a, © 2011 Walters Art Museum, used under a Creative Commons Attribution-ShareAlike 3.0 license: http://creativecommons.org/licenses/by-sa/3.0/"
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Navigation"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Exploration"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Ottoman Mapping"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Art"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "fol. 41a Oval world map with the Atlantic Ocean in the center"
+                },
+                {
+                  "label": "List No",
+                  "value": "10108.088"
+                },
+                {
+                  "label": "Series No",
+                  "value": "88"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Pirî Reis, d. 1554?"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1700"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Walters Ms. W.658, Book on navigation, Kitāb-i baḥriye"
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "The original manuscript Walters Ms. W.658 resides at the Walters Art Museum, Baltimore, Maryland. All images and metadata are generously provided by the Walters Art Museum, W.658, on line description http://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W658/description.html © 2011 Walters Art Museum, used under a Creative Commons Attribution-ShareAlike 3.0 license: http://creativecommons.org/licenses/by-sa/3.0/"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Originally composed in 932 AH / 1525 CE and dedicated to Sultan Süleyman I (the Magnificent), this great work by Piri Reis (d. 962 AH / 1555 CE) on navigation was later revised and expanded. The present manuscript, made mostly in the late eleventh century AH / seventeenth CE, is based on the later expanded version and has some 240 exquisitely executed maps and portolan charts. They include a world map with the outline of the Americas (fol. 41a) and maps of coastlines (bays, capes, peninsulas); islands; mountains; and cities of the Mediterranean basin and the Black Sea. The work starts with a description of the coastline of Anatolia and the islands of the Aegean Sea, the Peloponnese peninsula, and the eastern and western coasts of the Adriatic Sea. It then proceeds to describe the western shores of Italy, southern France, Spain, North Africa, Palestine, Israel, Lebanon, Syria, western Anatolia, various islands north of Crete, the Sea of Marmara, the Bosporus, and the Black Sea. It ends with a map of the shores of the Caspian Sea (fol. 374a)."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10108.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Manuscript Book"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Chart Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "240"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Image No",
+                  "value": "W658_000089_804.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/W658_000089_804.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Pirî Reis, d. 1554?"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~299966~90071732/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~299966~90071732/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~299966~90071732",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11363,
+                    "height": 7642
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299966~90071732/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~299966~90071732/list/luna"
+              ],
+              "width": 11363,
+              "height": 7642
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~299966~90071732"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
       "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~303661~90074314/manifest",
       "label": "Composite: Tavola 1-60. (Map of the World) (with additional spheres and labels in the four corners).",
       "attribution": "David Rumsey Historical Map Collection",
@@ -921,6 +1307,185 @@
                     "service": {
                       "@context": "http://iiif.io/api/image/2/context.json",
                       "@id": "https://stacks.stanford.edu/image/iiif/cb303zr7917%2Fcb303zr7917_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/zj628hm0547/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Atlas Francois, Contenant les Cartes Geographiques dans lesquelles sont tres exactement remarquez Les Empires, Monarchies, Royaumes et Estats de Europe, de l'Asie, de l'Afrique et de l'Amerique. 1695",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/zj628hm0547.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/zj628hm0547'>https://purl.stanford.edu/zj628hm0547</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Atlas Francois, Contenant les Cartes Geographiques dans lesquelles sont tres exactement remarquez Les Empires, Monarchies, Royaumes et Estats de Europe, de l'Asie, de l'Afrique et de l'Amerique. 1695"
+        },
+        {
+          "label": "Contributor",
+          "value": "Jaillot, Alexis Hubert, 1632?-1712."
+        },
+        {
+          "label": "Contributor",
+          "value": "Sanson, Nicolas (1600-1667)."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 108 maps ; 56 x 45 cm."
+        },
+        {
+          "label": "Language",
+          "value": "French"
+        },
+        {
+          "label": "Description",
+          "value": "Outline color. Rellef shown by sketches. Pub Date based on title page, however map sheets vary, including newer dates. Date as on map sheet or, if absent, 1695."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 12044.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Political geography > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Boundaries > Maps > Early works to 1800"
+        },
+        {
+          "label": "Date",
+          "value": "1695"
+        },
+        {
+          "label": "Date",
+          "value": "1695"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/zj628hm0547"
+        },
+        {
+          "label": "Publisher",
+          "value": "Chez le Sr. Hubert Jaillot,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2017-09-15"
+        }
+      ],
+      "description": "Outline color. Rellef shown by sketches. Pub Date based on title page, however map sheets vary, including newer dates. Date as on map sheet or, if absent, 1695.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/sm683kr3637%2F12044001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/sm683kr3637%2F12044001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 252
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/zj628hm0547/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/zj628hm0547/iiif/canvas/cocina-fileSet-yn325hp9468-yn325hp9468_1",
+              "@type": "sc:Canvas",
+              "label": "Mappe-Monde Geo-Hydrographique",
+              "height": 7205,
+              "width": 11471,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/yn325hp9468/12044007.jp2",
+                  "label": "Original source file (14.9 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/zj628hm0547/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fyn325hp9468-yn325hp9468_1%2F12044007.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/zj628hm0547/iiif/canvas/cocina-fileSet-yn325hp9468-yn325hp9468_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/yn325hp9468%2F12044007/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7205,
+                    "width": 11471,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/yn325hp9468%2F12044007",
                       "profile": "http://iiif.io/api/image/2/level2.json"
                     }
                   }
