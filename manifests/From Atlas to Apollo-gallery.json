@@ -6,6 +6,376 @@
   "items": [
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~358527~90126555/manifest",
+      "label": "Blat XIII (Nuremberg Chronicle)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~358527~90126555/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~358527~90126555/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Blat XIII (Nuremberg Chronicle)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Schedel, Hartmann (1440-1514)"
+                },
+                {
+                  "label": "Date",
+                  "value": "1493"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Blat XIII (Nuremberg Chronicle)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Anton Koberger"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Nuremberg"
+                },
+                {
+                  "label": "Type",
+                  "value": "Book Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "62"
+                },
+                {
+                  "label": "Reference",
+                  "value": "For a full translation to English, see https://search.library.wisc.edu/digital/A3SXNV3NHBQLFQ8J"
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Blat XIII (Nuremberg Chronicle) Register DES BUCHS DER CRO=NICKEN und geschichten mit figure…"
+                },
+                {
+                  "label": "List No",
+                  "value": "15906.024"
+                },
+                {
+                  "label": "Series No",
+                  "value": "24"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Michael Wolgemut"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Wilhelm Pleydenwurff"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Albrecht Dürer"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Schedel, Hartmann (1440-1514)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1493"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "(Nuremberg Chronicle) Register DES BUCHS DER CRO=NICKEN und geschichten mit figure…"
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Biographisches Lexikon des Kaiserthums Oesterreich / C. von Wurzbach, t. 31 (1876), p. 130-142 . - Genealogisches Handbuch des Adels : Fürstliche Häuser, III (1955), p. 152 sq. . - Neue Deutsche Biographie, t. 23 (2007)"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"One of the Most Important Books in Human History. First Edition in German. The famous Nuremberg Chronicle, a history of the world, published the year that Columbus returned to Europe after discovering America. The text is a year-by-year account of notable events in world history from the creation down to the year of publication. It is a mixture of fact and fantasy, recording events like the invention of printing, but also repeating stories from Herodotus. Even the world map is decorated with strange beings from the far reaches, including a cyclops and a four-eyed man. 645 woodcuts were used to illustrate the Chronicle, but many were used more than once, so there are a total of 1,809 illustrations, making it the most extensively illustrated book of the fifteenth century. The wood-cutters were Michael Wolgemut, his stepson, Wilhelm Pleydenwurff and their workshop. As Albrecht Dürer was the godson of Koberger and was apprenticed to Wolgemut from 1486 to 1489, it is likely that he was involved in the work. The immense importance of the Nuremberg Chronicle, with respect to history, geography, and topography, cannot be overemphasized. It is often quoted as being the most important book ever printed. Two of the illustrations are maps that typify the range of old traditions and new information of the text itself. The world map is of Ptolemaic configurations, although without Ptolemy's scientific apparatus of latitudes, longitudes, scales, rich nomenclature, etc. The border contains twelve dour wind heads while the map is supported in three of its corners by the solemn figures of Ham, Shem, and Japhet taken from the Old Testament. What gives the map its present-day interest and attraction are the panels representing the outlandish creatures and beings that were thought to inhabit the further most parts of the earth. There are seven such scenes to the left of the map and a further fourteen on its reverse. Pliny, Pomponius Mela, Solinus and Herodotus' Fables have been the sources for many of these mythological creatures, others were doubtless born of medieval travelers' tales. Among the scenes are a six-armed man, possibly based on glimpses of a file of Hindu dancers so aligned that the front figure appears to have multiple arms, a six-fingered man, a centaur, a four-eyed man from a coastal tribe in Ethiopia, a dog-headed man from the Simien Mountains, a cyclops, one of the men whose heads grow beneath their shoulders, one of the crook-legged men who live in the desert and slide along instead of walking, a strange hermaphrodite, a man with one giant foot only (stated by Solinus to be used as a parasol but more likely an unfortunate sufferer from elephantiasis), a man with a huge underlip (doubtless seen in Africa), a man with waist-length hanging ears, and other frightening and fanciful creatures of a world beyond. Twelve winds are named as well as major place names. The source of this map is apparently the frontispiece of Pomponius Mela's Cosmographia printed by Ratdolt at Venice in 1488. The map of Northern Europe (15.5 x 22.75 inches) was the first modern map of the area. Second printed map of the North, after the woodcut map published in the 'Ulm' Ptolemy edition of 1482/1486. The map is also deemed to be the first printed map of Germany, even if it shows a larger area, including all of Poland, Lithuania etc. The map ranges from the British Isles to Constantinople. The designer has been identified as Hieronymus Münzer (1437-1508), who trained as a physician. The Münzer map is one of the earliest to depict the Scandinavia peninsula. Nordenskold credits the map of the north in the Zamoyski Code as the prototype for this map. The source for the Central European portion is a manuscript map of 1460 of Germany by Cardinal Nicolas Cusanus (also Nicholas of Cusa), printed posthumously at Eichstätt in 1491. Early (16th to 17th century) readers' manuscript marginal notes in several hands. Binding with the coats of arms of Grafen von Schönborn-Buchheim blind-stamped on front and back cover. The \"Bibliothek der Grafen von Schönborn-Buchheim\" was sold at Reiss & Auvermann, Königstein im Taunus at Auktion 50, 14. April 1993. Hartmann Schedel (1440-1514) was a physician, book collector, and writer whose most famous work, the Liber Chronicarum (Nuremberg Chronicle), included some of the first printed views of many cities in Europe and across the world. Schedel was born and died in Nuremberg, but he also traveled for his education. From 1456 to 1463 he lived in Leipzig, where he attended the University of Leipzig and earned his MA. From there he went to Padua, where he earned a Doctor of Medicine in 1466. After university, he worked for a time in Nördlingen and then returned to Nuremberg. In 1482 he was elected a member of the Great Council of Nuremberg. The Chronicle was published in 1493. Besides this major work, one of Schedel’s most enduring legacies is his magnificent manuscript and printed book collection, one of the largest of the fifteenth century. In 1552, Schedel's grandson, Melchior Schedel, sold about 370 manuscripts and 600 printed works from Hartmann Schedel's library to Johann Jakob Fugger. Fugger later sold his library to Duke Albert V of Bavaria in 1571. This library is now mostly preserved in the Bayerische Staasbibliothek in Munich. Among the surviving portions of Schedel's library are the records for the publication of the Chronicle, including Schedel's contract with Anton Koberger for the publication of the work and the financing of the work by Sebald Schreyer and Sebastian Kammermeister, as well as the contracts with Wohlgemut and Pleydenwurff for the original artworks and engravings. The collection also includes original manuscript copies of the work in Latin and German.\" (Ruderman, 2021)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15906.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Historical Atlas"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "44"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "32"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15906024.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/15906024.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Schedel, Hartmann (1440-1514)"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~358527~90126555/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~358527~90126555/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~358527~90126555",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 14728,
+                    "height": 10499
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~358527~90126555/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~358527~90126555/list/luna"
+              ],
+              "width": 14728,
+              "height": 10499
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~358527~90126555"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~303661~90074314/manifest",
+      "label": "Composite: Tavola 1-60. (Map of the World) (with additional spheres and labels in the four corners).",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~303661~90074314/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~303661~90074314/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Composite: Tavola 1-60. (Map of the World) (with additional spheres and labels in the four corners).",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Monte (Monti), Urbano, 1544-1613"
+                },
+                {
+                  "label": "Date",
+                  "value": "1587"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Composite: Tavola 1-60. (Map of the World) (with additional spheres and labels in the four corners)."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Manuscript"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "(Milan, Italy)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Composite Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "Varies"
+                },
+                {
+                  "label": "Note",
+                  "value": "Composite map of the first ring of four sheets around the north pole, the second ring of 8 sheets, the third ring of 12 sheets, the fourth ring of 18 sheets, the fifth ring of 18 sheets, and the legends and diagrams in the four corners."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Provenance of this copy: Sotheby's, May 12th, 1981, lot 53, sold to N. Israel; H.P. Kraus catalog 165 Cimelia: A Catalogue of Important Illuminated and Textual Manuscripts Published in Commemoration of the Sale of the Ludwig Collection, January, 1983; sold to private party; 2017 sold to David Rumsey Map Collection by Barry Lawrence Ruderman Antique Maps."
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Art"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Composite map of) Tavola 1-60. (Map of the World) (with additional spheres and labels in the four corners)."
+                },
+                {
+                  "label": "List No",
+                  "value": "10130.087"
+                },
+                {
+                  "label": "Series No",
+                  "value": "87"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Monte (Monti), Urbano, 1544-1613"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1587"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "(Manuscript Wall Map of the World)"
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Almagia, R. \"Un prezioso cimelio della cartografica Itatiana: il planisfero di Urbano Monti.\" La bibliofilia XLIII, 1943, pp 156-193. [The present map unknown to Almagia.] Goss, J. (map specialist, Sothebys, cataloguer of this map 1981). \"An Unusual Wall Map by Urbano Monti 1954-1613.\" Map Collector, June 1981, pp 18-22. Walter, L., ed. Japan: A Cartographic Vision, 1994, Nos 16a, 16b, and 17. Shirley, Mapping of the World, 1983. 239, 246, 247. D'Ascenzo, Annalisa, Cultura Geografica e Cartografia in Italia fine del Cinquecento: il \"Trattato Universale\" di Urbano Monte, 2012; Tooley, R.V., Dictionary of Mapmakers, pp 272-273. Read \"A Mind at Work: Urbano Monte's 60-Sheet Manuscript World Map\" by Dr. Katherine Parker, 2017, forward by Barry Ruderman, introduction by David Rumsey https://s3.amazonaws.com/rumsey3/Monte/Urbano+Monte+Catalog.pdf"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "“An important and extraordinary manuscript world map drawn up on a north polar projection to form the largest manuscript map of the world at 9 by 9 feet. This map is one of 3 examples extant (2 manuscript, 1 printed) that form the continuum of Urbano Monte's work on his ultimate world map. The other two examples were studied at length by Almagia: manuscript copy S is at the Bibliotheca Seminario Arcivisovale at Venegano near Milan is similar to this example with the map in 60 sheets. A second example, printed copy A, is at the Bibliotheca Ambrosiana in Milan, with the frontispiece dated 1590 and the map divided in 64 sheets making the division lines of the sheets easier to arrange. This printed version was published in 1604 on 64 plates, and is the only printed copy known.. Two other single sheet engraved world maps by Monte in North Polar projection are also known, published in Milan in 1603 and 1604, copies of both to be found in the Ambrosiana; an example of the 1603 is also in the Doria atlas from the Wardington Collection. Whilst unusual, the idea of a North Polar projection does have precedents in cartography, notably the beautiful world map of Postel first published in Paris in 1581, and one to be found engraved in ivory on a table top by Gennaro Picicaro, thought to be Naples, 1597 and probably borrowing from the ideas of Monte. The ideas for the projection can also be seen in the Contarini/Roselli map (Venice: 1506), the Ruysch map (Rome: 1507), and the Fine in Paris in 1531. All were attempts to capture the full extent of the world, in which much was still unknown. Of Monte little is known, except for the examples of his maps that have survived. He contributed to a 4 volume historical diary titled Delle cose piu notabili successe nella citta di Milano, the 4th volume of which describes the visit of the Japanese Embassy to Europe 1582-1590, in particular their stay in Italy. Monte would certainly have met the party when they visited Milan in 1582, and its presumed that the form of Japan depicted in this map stems from information provided by the Embassy. Monte's principal fame rests with his geographical treatise Trattato Universale descrittione et sito de tutta la terra sin qui consociuta descritto da Urbano Monte, which accomaanies the 64 sheet manuscript map in the Ambrosiano and would have been Libri primo and secondo to this volume; probably a separate folio volume of text to describe and relate the history and geography of the world. A particular point of interest is the small roundel portrait drawn under the dedication. Having drawn a nice small roundel portrait of himself in 1587, aged 43, he went back 2 years later to add a pasted-over portrait of himself, aged 45, suggesting that he came back to his work after signing off in 1587 (see sheet 42). The atlas has the feel of a work in progress, particularly because of the marginal annotations by Monte and the variety of papers used in its composition. Also, the make up of the atlas—particularly the non-sequential numbering of the earlier sheets, the wear to sheet 7 before binding, and the 17th century binding and guards—suggests that although in some form of binding from the late 16th century, it was reassembled in the present binding and form in mid or early 17th century. The geography of this map is essentially Mercatorial, using Mercator's world map of 1569 as the style guide. On tavola XXV, Monte claims his sources for the map, citing geographers Piccolomini, Pliny, Ptolemy, Cortes, Fernando Columbus, Juan Gonzalez de Mendoza, Giovanni d'Anania, various Jesuit letters, including Marco Polo, and cartographers Mercator, Gastaldi, Olaus Magnus, Giovio, Lopes and the brothers Zeno. Of great interest is the attempt Monte makes to make his map not just a geographical tool but to show climate, customs, length of day, distances within regions— in other words, to create a universal scientific planisphere. In his dedication on tavola XL he specifies how to arrange the sheets of the mappamondo and makes it explicit that the whole map was to be stuck on a wooden panel 5 and a half brachia square (3.25m) so that it could be revolved around a central pivot or pin through the north pole. Monte's wall map comes at a time when the map mural had been gaining popularity in Italian decoration. Indeed a treatise in 1510 by Paolo Cortese describes the appropriate decoration for a Cardinal's room as \"a learned enjoyment of a picture representing the world.\" Between 1560 and 1580 four of the greatest map murals had been executed: fresco maps in Palazzo Vechia, Florence, two in the Vatican and another in Palazzo Farrnese in Caprarola. Almost certainly Monte had envisioned his opus as gracing the walls of a Ducal Palace in Milan, and the engraving of the 1590 sheets to make a printed wall map indicates that he had planned to distribute his geography to a wider audience. A monumental map, this little known work by Monte can take its place alongside Mercator, Waldseemueller, Gastaldi and other greats of 16th century world mapping.” Bonhams, 2012 (corrected). Digitization and compositing by Brandon Rumsey, 2017"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10130.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "67"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10130087.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/10130087.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Monte (Monti), Urbano, 1544-1613"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~303661~90074314/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~303661~90074314/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~303661~90074314",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 62079,
+                    "height": 62160
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~303661~90074314/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~303661~90074314/list/luna"
+              ],
+              "width": 62079,
+              "height": 62160
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~303661~90074314"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
       "@id": "https://purl.stanford.edu/xd664sw6180/iiif/manifest",
       "@type": "sc:Manifest",
       "label": "Americæ nova Tabula",
@@ -1260,6 +1630,329 @@
           ]
         }
       ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272285~90046101/manifest",
+      "label": "The Air Ocean",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~272285~90046101/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272285~90046101/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "The Air Ocean",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Aviation Research Associates"
+                },
+                {
+                  "label": "Author",
+                  "value": "American Airlines Inc."
+                },
+                {
+                  "label": "Date",
+                  "value": "1944"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "The Air Ocean"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "American Airlines, Inc."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "79"
+                },
+                {
+                  "label": "Note",
+                  "value": "A fascinating map, chart, and diagram showing aspects of the earth atmosphere of importance to pilots in the early days of commercial flight."
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Physical geography"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Airlines"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "The Air Ocean. Prepared for American Airlines, Inc. and in collaboration with its Pilots and Air Transport Engineers, by Aviation Research Associates. Copyright 1944 by American Airlines, Inc."
+                },
+                {
+                  "label": "List No",
+                  "value": "8662.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Aviation Research Associates"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "American Airlines Inc."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1944"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The Air Ocean. Prepared for American Airlines, Inc. and in collaboration with its Pilots and Air Transport Engineers, by Aviation Research Associates. Copyright 1944 by American Airlines, Inc."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8662.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "79"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8662000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/8662000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Aviation Research Associates; American Airlines, Inc."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~272285~90046101/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~272285~90046101/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~272285~90046101",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 17164,
+                    "height": 11192
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272285~90046101/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272285~90046101/list/luna"
+              ],
+              "width": 17164,
+              "height": 11192
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~272285~90046101"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~373501~90140234/manifest",
+      "label": "Interplanetary Space Guide",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~373501~90140234/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~373501~90140234/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Interplanetary Space Guide",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Western Printing and Lithographing Co."
+                },
+                {
+                  "label": "Date",
+                  "value": "1958"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Interplanetary Space Guide"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Western Printing and Lithographing Co."
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "91"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "125"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Space"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Solar System"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Interplanetary Space Guide"
+                },
+                {
+                  "label": "List No",
+                  "value": "16622.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Western Printing and Lithographing Co."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1958"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Interplanetary Space Guide"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Authors express thanks to Douglas Aircraft Company for providing technical assistance for the preparation of the Space Guide."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16622.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "91"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "125"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16622000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/218/16622000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Western Printing and Lithographing Co."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~373501~90140234/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~373501~90140234/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~373501~90140234",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 29808,
+                    "height": 21328
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~373501~90140234/canvas/c1"
+                }
+              ],
+              "width": 29808,
+              "height": 21328
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~373501~90140234"
     }
   ]
 }
