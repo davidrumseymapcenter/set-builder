@@ -3354,6 +3354,179 @@
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~235538~5510541/manifest",
+      "label": "Virginia",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~235538~5510541/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~235538~5510541/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Virginia",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "West & Johnston"
+                },
+                {
+                  "label": "Date",
+                  "value": "1862"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Virginia"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "West & Johnston"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Richmond"
+                },
+                {
+                  "label": "Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "63"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "92"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "870,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "1st edition. Confederate imprint. This is taken from the Ritchie and Dunnavant map of the same title issued in 1858 (see our #4905). Military information is not shown on the map. View of Capitol Square, Richmond, in the upper left corner. Also shows Maryland and Delaware. List of Railroads. Later editions in 1863 and 1864, with only the dates on the covers changed, the maps still saying 1862. West and Johnston also published a map of Kentucky and Tennessee, undated (Parrish 6207). Black and white map, folded into black card board covers 16x11 with \"Map Of Virginia Richmond: West & Johnston, Publishers. 1862.\" printed in gold."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Stephenson 475.5; Parrish 6204."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "Virginia"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Map Of The State Of Virginia Containing The Counties, Principal Towns, Railroads, Rivers, Canals & All Other Internal Improvements. Published by West & Johnston Richmond, Va. 1862. Copyright secured by W... in 1862."
+                },
+                {
+                  "label": "List No",
+                  "value": "2895.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "West & Johnston"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1862"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Map Of The State Of Virginia Containing The Counties, Principal Towns, Railroads, Rivers, Canals & All Other Internal Improvements. Published by West & Johnston Richmond, Va. 1862. Copyright secured by W... in 1862."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Stephenson 475.5; Parrish 6204."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "2895.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "16"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "11"
+                },
+                {
+                  "label": "Image No",
+                  "value": "2895002"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/2895002.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "West & Johnston"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~235538~5510541/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~235538~5510541/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~235538~5510541",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11630,
+                    "height": 8624
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~235538~5510541/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~235538~5510541/list/luna"
+              ],
+              "width": 11630,
+              "height": 8624
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~235538~5510541"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
       "@id": "https://purl.stanford.edu/sp969jm8548/iiif/manifest",
       "@type": "sc:Manifest",
       "label": "[Georgia and South Carolina.]",
