@@ -1,0 +1,2026 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Hoover History Skills Academy",
+  "label": "Hoover History Skills Academy",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/mv556fd9168/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[Italia di Tolomeo]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/mv556fd9168.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/mv556fd9168'>https://purl.stanford.edu/mv556fd9168</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[Italia di Tolomeo]"
+        },
+        {
+          "label": "Title",
+          "value": "Map of Italy from Ptolemy's Cosmographia (Ulm, 1482)"
+        },
+        {
+          "label": "Title",
+          "value": "Cosmographia"
+        },
+        {
+          "label": "Title",
+          "value": "Geografia (Tolomeo)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Ptolemy,  active 2nd century."
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : woodcut, hand color ; 35 x 54 cm"
+        },
+        {
+          "label": "Language",
+          "value": "Latin"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "Claudio Tolomeo."
+        },
+        {
+          "label": "Description",
+          "value": "From Ulm Ptolemy, p. 38."
+        },
+        {
+          "label": "Description",
+          "value": "The woodcuts in the Ulm Ptolemy are generally credited to Johannes 'Schnitzer' (\"the woodblock-cutter\") from Armsheim.  One characteristic of his work is that he tended to reverse his capital 'N's when cutting the letter. Of the Italian editions of Ptolemy only one, that of Bernard Sylvanus, published in Venice in 1511, used woodcuts.  All the others used copper engravings."
+        },
+        {
+          "label": "Subject",
+          "value": "Cartography"
+        },
+        {
+          "label": "Subject",
+          "value": "Geography, Ancient"
+        },
+        {
+          "label": "Subject",
+          "value": "Italy"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale indeterminable."
+        },
+        {
+          "label": "Date",
+          "value": "1482 - 1530"
+        },
+        {
+          "label": "Date",
+          "value": "1482 - 1530"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/mv556fd9168"
+        },
+        {
+          "label": "Publisher",
+          "value": "Johannes Schnitzer"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "From Ulm Ptolemy, p. 38.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/mv556fd9168%2Fmv556fd9168_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/mv556fd9168%2Fmv556fd9168_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 299
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/mv556fd9168/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/mv556fd9168/iiif/canvas/cocina-fileSet-mv556fd9168-mv556fd9168_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 10463,
+              "width": 14008,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/mv556fd9168/mv556fd9168_00_0001.jp2",
+                  "label": "Original source file (26.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/mv556fd9168/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fmv556fd9168-mv556fd9168_1%2Fmv556fd9168_00_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/mv556fd9168/iiif/canvas/cocina-fileSet-mv556fd9168-mv556fd9168_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/mv556fd9168%2Fmv556fd9168_00_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10463,
+                    "width": 14008,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/mv556fd9168%2Fmv556fd9168_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/mt780kp2129/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Atlas universel de géographie physique, politique, statistique et minéralogique. : Tome 3, Afrique : sur l'échelle de 1/1641836 ou d'une ligne par 1900 toises",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/mt780kp2129.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/mt780kp2129'>https://purl.stanford.edu/mt780kp2129</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Atlas universel de géographie physique, politique, statistique et minéralogique. : Tome 3, Afrique : sur l'échelle de 1/1641836 ou d'une ligne par 1900 toises"
+        },
+        {
+          "label": "Title",
+          "value": "Carte d'assemblage de l'Afrique"
+        },
+        {
+          "label": "Contributor",
+          "value": "Vandermaelen, Philippe, 1795-1869 (cartographer)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Ode, H. (Henri) (lithographer)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Ode et Wodon (printer)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Imprimerie de Ode et Wodon, rue des Pierres, n. 1137 (manufacturer)"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases, French"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Lithographs."
+        },
+        {
+          "label": "Type",
+          "value": "Statistics."
+        },
+        {
+          "label": "Type",
+          "value": "Lithographs"
+        },
+        {
+          "label": "Type",
+          "value": "Atlas."
+        },
+        {
+          "label": "Type",
+          "value": "Lithographies."
+        },
+        {
+          "label": "Format",
+          "value": "1 disassembled volume (vol. 3) in 62 sheets : illustrations, color maps (lithographs) ; each sheet 53 x 37 cm"
+        },
+        {
+          "label": "Language",
+          "value": "French"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "dressé par Ph. Vandermaelen, membre de la Société de géographie de Paris, d'après le meilleures cartes, observations astronomiques et voyages dans les divers pays de la terre ; lithographié par H. Ode, membre de la Société de géographie de Paris"
+        },
+        {
+          "label": "Description",
+          "value": "Name of publisher and printing information provided by donor"
+        },
+        {
+          "label": "Description",
+          "value": "The first atlas in which all the maps were on the same scale (1:1,641,836) as well as the first atlas produced by lithography"
+        },
+        {
+          "label": "Description",
+          "value": "Lithographs are hand-colored, as issued"
+        },
+        {
+          "label": "Description",
+          "value": "Stanford copy disassembled and only volume 3 of 6-volume series."
+        },
+        {
+          "label": "Table of contents",
+          "value": "Disassembled volume 3, Afrique, of 6-volume series. Has sheets: -- [1] Fontice piece -- [2] Carte d'assemblage de L'Afrique -- [3] Maroc. -- [4] Iles Açores -- [5] Alger. -- [6] Partie de Tunis et de Tripoli. -- [7] Barca. -- [8] Partie de L'Egypte. -- [9] Iles Canaries et Madère. -- [10] Partie du Dèsert de Sahara. -- [11] Partie du Dèsert de Sahara. -- [12] Tawat. -- [13] Partie du Fezzan. -- [14] Partie du Fezzan. -- [15] Partie de L'Egypte. -- [16] Partie du Sahara. -- [17] Partie du Désert de Sahara. -- [18] Partie du Désert de Sahara. -- [19] Touariks. -- [20] Partie du Sahara. -- [21] Désert de Lybie. -- [22] Nubie. -- [23] Iles du Cap Vert. -- [24] Sénégal. -- [25] Bambara. -- [26] Timbouctou. -- [27] Lac Tchad. -- [28] Partie du Lac Tchad. -- [29] Darfour et Kordofan. -- [30] Sennaar. -- [31] Limba, Soulimana. -- [32] Partie de la Guinée. -- [33] Partie de la Guinée. -- [34] Pays au sud de Howssa et de Bornou. -- [35] Pays au sud du Lac Tchad. -- [36] Donga. -- [37] Abissinie. -- [38] Adel. -- [39] Partie de la Côte d'Adel. -- [40] Côte d'Or. -- [41] Golfe de Guinée. -- [42] Côte d'Ajan. -- [43] Anzico. -- [44] Partie du Congo. -- [45] Monoémugi. -- [46] Congo et Angola. -- [47] Matamba. -- [48] Zindgibar. -- [49] Benguela. -- [50] Territoire des Cazembes. -- [51] Mononomatapa. -- [52] Mozambique. -- [53] Côte Déserte. -- [54] Mocaranga. -- [55] Partie du pays des Hottentots. -- [56] Pays de Hottentots. -- [57] Partie de la Caffrerie. -- [58] Colonie du Cap de Bonne Espérance. -- [59] Colonie du Cap de Bonne Espérance. -- [60] Partie de Madagascar. -- [61] Partie de Madagascar. -- [62] Ile Bourbon et Ile de France"
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Koeman, C. Atlantes Neerlandici, Vdm 1"
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases"
+        },
+        {
+          "label": "Subject",
+          "value": "Africa."
+        },
+        {
+          "label": "Subject",
+          "value": "Africa"
+        },
+        {
+          "label": "Subject",
+          "value": "1827."
+        },
+        {
+          "label": "Subject",
+          "value": "Color"
+        },
+        {
+          "label": "Subject",
+          "value": "19th century."
+        },
+        {
+          "label": "Subject",
+          "value": "Belgium"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:1,641,836"
+        },
+        {
+          "label": "Date",
+          "value": "1827"
+        },
+        {
+          "label": "Date",
+          "value": "1827"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/mt780kp2129"
+        },
+        {
+          "label": "Publisher",
+          "value": "Vandermaelen, Philippe, 1795-1869"
+        },
+        {
+          "label": "Publisher",
+          "value": "P.M.G. Vandermaelen, editeur"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "Name of publisher and printing information provided by donor",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/mt780kp2129%2Fmt780kp2129_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/mt780kp2129%2Fmt780kp2129_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 310
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/mt780kp2129/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/mt780kp2129/iiif/canvas/cocina-fileSet-mt780kp2129-mt780kp2129_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 13124,
+              "width": 16954,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/mt780kp2129/mt780kp2129_0001.jp2",
+                  "label": "Original source file (109 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/mt780kp2129/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F8b33fda8-7b45-4afe-a01e-b0eb0fdddcc7",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/mt780kp2129/iiif/canvas/cocina-fileSet-mt780kp2129-mt780kp2129_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/mt780kp2129%2Fmt780kp2129_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 13124,
+                    "width": 16954,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/mt780kp2129%2Fmt780kp2129_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350489~90117923/manifest",
+      "label": "Path of the Balloon in its ascent from Wolverhampton to Langham. July 17th 1862",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~350489~90117923/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350489~90117923/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Path of the Balloon in its ascent from Wolverhampton to Langham. July 17th 1862",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Glaisher, James"
+                },
+                {
+                  "label": "Author",
+                  "value": "Flammarion, Camille"
+                },
+                {
+                  "label": "Author",
+                  "value": "De Fonvielle, W."
+                },
+                {
+                  "label": "Author",
+                  "value": "Tissandier, Gaston"
+                },
+                {
+                  "label": "Date",
+                  "value": "1871"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Path of the Balloon in its ascent from Wolverhampton to Langham. July 17th 1862"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Edward Bentley & Son"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Diagram"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "25"
+                },
+                {
+                  "label": "City",
+                  "value": "Birmingham (England)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Path of the Balloon in its ascent from Wolverhampton to Langham. July 17th 1862"
+                },
+                {
+                  "label": "List No",
+                  "value": "15541.003"
+                },
+                {
+                  "label": "Series No",
+                  "value": "3"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Glaisher, James"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Flammarion, Camille"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "De Fonvielle, W."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Tissandier, Gaston"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1871"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Travels in the Air. Second and Revised Edition."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "For the full text and all illustrations, see https://archive.org/details/Travelsair00Glai/page/ii/mode/2up"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "A selection of images, diagrams, and maps from this important book on ballooning in Europe."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15541.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "27"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "18"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15541003.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/15541003.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Glaisher, James; Flammarion, Camille; De Fonvielle, W.; Tissandier, Gaston"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350489~90117923/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350489~90117923/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350489~90117923",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 5889,
+                    "height": 3658
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350489~90117923/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350489~90117923/list/luna"
+              ],
+              "width": 5889,
+              "height": 3658
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~350489~90117923"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hs598bn8889/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Topographical Atlas Projected To Illustrate United States Geographical Surveys West Of The 100th Meridian Of Longitude Prosecuted In Accordance With Acts Of Congress Under The Authority Of The Honorable The Secretary Of War, And The Direction Of Brig. Genl. A.A. Humphreys, Chief Of Engineers, U.S. Army. Embracing Results Of the Different Expeditions Under The Command Of 1st Lieut. Geo. M. Wheeler, Corps Of Engineers. Julius Bien, lith",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hs598bn8889.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hs598bn8889'>https://purl.stanford.edu/hs598bn8889</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Topographical Atlas Projected To Illustrate United States Geographical Surveys West Of The 100th Meridian Of Longitude Prosecuted In Accordance With Acts Of Congress Under The Authority Of The Honorable The Secretary Of War, And The Direction Of Brig. Genl. A.A. Humphreys, Chief Of Engineers, U.S. Army. Embracing Results Of the Different Expeditions Under The Command Of 1st Lieut. Geo. M. Wheeler, Corps Of Engineers. Julius Bien, lith"
+        },
+        {
+          "label": "Title",
+          "value": "Topographical atlas--geographical and geological explorations and surveys west of the 100th meridian"
+        },
+        {
+          "label": "Title",
+          "value": "Geographical explorations and surveys west of the 100th meridian topographical atlas"
+        },
+        {
+          "label": "Title",
+          "value": "Geological atlas--geographical explorations and surveys west of the 100th meridian"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wheeler, George M. (George Montague), 1842-1905."
+        },
+        {
+          "label": "Contributor",
+          "value": "United States.  Army.  Corps of Engineers."
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlas factices."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Topographic maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas (135 sheets) : maps (some folded) (some col.) ; 49 x 61 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "A collection of 135 Topographical and Geological Atlas sheets. An almost complete collection of all the Wheeler survey maps originally owned by the Salt Lake Mining Institute. We have since added maps to make it nearly a complete set, following the listing in P1281 (which lists 179 sheets). Many of the sheets in the original Salt Lake Mining Institute set have the signature of Ovando Hollister, an important figure in western mining history."
+        },
+        {
+          "label": "Description",
+          "value": "References: P1281."
+        },
+        {
+          "label": "Description",
+          "value": "David Rumsey Map Center set contains covers (6 copies), legend, signs (2 copies) skeleton map, index map, progress maps (10 copies from different years), drainage maps (2 copies).  Set includes maps covering the same area highlighting topography, land classification, geology, mining, and economics."
+        },
+        {
+          "label": "Description",
+          "value": "Pub list no.: 2738.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases"
+        },
+        {
+          "label": "Subject",
+          "value": "19th century."
+        },
+        {
+          "label": "Subject",
+          "value": "United States"
+        },
+        {
+          "label": "Subject",
+          "value": "West"
+        },
+        {
+          "label": "Subject",
+          "value": "Topographic maps"
+        },
+        {
+          "label": "Subject",
+          "value": "U.S. War Dept."
+        },
+        {
+          "label": "Subject",
+          "value": "Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Irrigation"
+        },
+        {
+          "label": "Subject",
+          "value": "Colorado"
+        },
+        {
+          "label": "Subject",
+          "value": "Colorado River"
+        },
+        {
+          "label": "Subject",
+          "value": "West (U.S.)"
+        },
+        {
+          "label": "Subject",
+          "value": "Colorado River (Colo.-Mexico)"
+        },
+        {
+          "label": "Subject",
+          "value": "West of 100th Meridian"
+        },
+        {
+          "label": "Date",
+          "value": "1873"
+        },
+        {
+          "label": "Date",
+          "value": "1873 - 1878"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hs598bn8889"
+        },
+        {
+          "label": "Publisher",
+          "value": "The Corps"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-14"
+        }
+      ],
+      "description": "A collection of 135 Topographical and Geological Atlas sheets. An almost complete collection of all the Wheeler survey maps originally owned by the Salt Lake Mining Institute. We have since added maps to make it nearly a complete set, following the listing in P1281 (which lists 179 sheets). Many of the sheets in the original Salt Lake Mining Institute set have the signature of Ovando Hollister, an important figure in western mining history.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/xy851xn7907%2F2738A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/xy851xn7907%2F2738A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 320
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hs598bn8889/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hs598bn8889/iiif/canvas/cocina-fileSet-hf542wq3633-hf542wq3633_1",
+              "@type": "sc:Canvas",
+              "label": "Land Classification Map Of Parts Of Eastern Cal. And Western Nev., Atlas Sheets 47(B)\n   & 47(D). Issued June 30th 1879. Weyss, Lang and Herman Del. Expeditions of 1876 and 1877\n   Under the Command of 1st. Lieut. Geo. M. Wheeler, Corps of Engineers, U.S. Army, 1877. U.S.\n   Geographical Surveys West Of The 100th Meridian",
+              "height": 11437,
+              "width": 7309,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hf542wq3633/2738027.jp2",
+                  "label": "Original source file (15 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hs598bn8889/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fhf542wq3633-hf542wq3633_1%2F2738027.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hs598bn8889/iiif/canvas/cocina-fileSet-hf542wq3633-hf542wq3633_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hf542wq3633%2F2738027/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11437,
+                    "width": 7309,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hf542wq3633%2F2738027",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hs598bn8889/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Topographical Atlas Projected To Illustrate United States Geographical Surveys West Of The 100th Meridian Of Longitude Prosecuted In Accordance With Acts Of Congress Under The Authority Of The Honorable The Secretary Of War, And The Direction Of Brig. Genl. A.A. Humphreys, Chief Of Engineers, U.S. Army. Embracing Results Of the Different Expeditions Under The Command Of 1st Lieut. Geo. M. Wheeler, Corps Of Engineers. Julius Bien, lith",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hs598bn8889.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hs598bn8889'>https://purl.stanford.edu/hs598bn8889</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Topographical Atlas Projected To Illustrate United States Geographical Surveys West Of The 100th Meridian Of Longitude Prosecuted In Accordance With Acts Of Congress Under The Authority Of The Honorable The Secretary Of War, And The Direction Of Brig. Genl. A.A. Humphreys, Chief Of Engineers, U.S. Army. Embracing Results Of the Different Expeditions Under The Command Of 1st Lieut. Geo. M. Wheeler, Corps Of Engineers. Julius Bien, lith"
+        },
+        {
+          "label": "Title",
+          "value": "Topographical atlas--geographical and geological explorations and surveys west of the 100th meridian"
+        },
+        {
+          "label": "Title",
+          "value": "Geographical explorations and surveys west of the 100th meridian topographical atlas"
+        },
+        {
+          "label": "Title",
+          "value": "Geological atlas--geographical explorations and surveys west of the 100th meridian"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wheeler, George M. (George Montague), 1842-1905."
+        },
+        {
+          "label": "Contributor",
+          "value": "United States.  Army.  Corps of Engineers."
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlas factices."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Topographic maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas (135 sheets) : maps (some folded) (some col.) ; 49 x 61 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "A collection of 135 Topographical and Geological Atlas sheets. An almost complete collection of all the Wheeler survey maps originally owned by the Salt Lake Mining Institute. We have since added maps to make it nearly a complete set, following the listing in P1281 (which lists 179 sheets). Many of the sheets in the original Salt Lake Mining Institute set have the signature of Ovando Hollister, an important figure in western mining history."
+        },
+        {
+          "label": "Description",
+          "value": "References: P1281."
+        },
+        {
+          "label": "Description",
+          "value": "David Rumsey Map Center set contains covers (6 copies), legend, signs (2 copies) skeleton map, index map, progress maps (10 copies from different years), drainage maps (2 copies).  Set includes maps covering the same area highlighting topography, land classification, geology, mining, and economics."
+        },
+        {
+          "label": "Description",
+          "value": "Pub list no.: 2738.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases"
+        },
+        {
+          "label": "Subject",
+          "value": "19th century."
+        },
+        {
+          "label": "Subject",
+          "value": "United States"
+        },
+        {
+          "label": "Subject",
+          "value": "West"
+        },
+        {
+          "label": "Subject",
+          "value": "Topographic maps"
+        },
+        {
+          "label": "Subject",
+          "value": "U.S. War Dept."
+        },
+        {
+          "label": "Subject",
+          "value": "Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Irrigation"
+        },
+        {
+          "label": "Subject",
+          "value": "Colorado"
+        },
+        {
+          "label": "Subject",
+          "value": "Colorado River"
+        },
+        {
+          "label": "Subject",
+          "value": "West (U.S.)"
+        },
+        {
+          "label": "Subject",
+          "value": "Colorado River (Colo.-Mexico)"
+        },
+        {
+          "label": "Subject",
+          "value": "West of 100th Meridian"
+        },
+        {
+          "label": "Date",
+          "value": "1873"
+        },
+        {
+          "label": "Date",
+          "value": "1873 - 1878"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hs598bn8889"
+        },
+        {
+          "label": "Publisher",
+          "value": "The Corps"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-14"
+        }
+      ],
+      "description": "A collection of 135 Topographical and Geological Atlas sheets. An almost complete collection of all the Wheeler survey maps originally owned by the Salt Lake Mining Institute. We have since added maps to make it nearly a complete set, following the listing in P1281 (which lists 179 sheets). Many of the sheets in the original Salt Lake Mining Institute set have the signature of Ovando Hollister, an important figure in western mining history.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/xy851xn7907%2F2738A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/xy851xn7907%2F2738A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 320
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hs598bn8889/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hs598bn8889/iiif/canvas/cocina-fileSet-pz768mv2115-pz768mv2115_1",
+              "@type": "sc:Canvas",
+              "label": "Parts Of Eastern California And Western Nevada, Atlas Sheet 47(B). Issued June 30,\n   1882. Weyss, Lang and Herman, Del. Expeditions of 1876 and 1877 Under the Command of 1st. Lieut.\n   Geo. M. Wheeler, Corps of Engineers, U.S. Army. U.S. Executive Officers and Field Astronomers,\n   Corps of Engs., U.S. Army: 1st. Lieut. S.E. Tillman, 2nd Lieut. T.W. Symons. Topographical\n   Assistants: Gilbert Thompson, J.C. Spiller. Geographical Surveys West Of The 100th\n   Meridian",
+              "height": 5791,
+              "width": 7249,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/pz768mv2115/2738028.jp2",
+                  "label": "Original source file (7.54 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hs598bn8889/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fpz768mv2115-pz768mv2115_1%2F2738028.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hs598bn8889/iiif/canvas/cocina-fileSet-pz768mv2115-pz768mv2115_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/pz768mv2115%2F2738028/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 5791,
+                    "width": 7249,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/pz768mv2115%2F2738028",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hs598bn8889/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Topographical Atlas Projected To Illustrate United States Geographical Surveys West Of The 100th Meridian Of Longitude Prosecuted In Accordance With Acts Of Congress Under The Authority Of The Honorable The Secretary Of War, And The Direction Of Brig. Genl. A.A. Humphreys, Chief Of Engineers, U.S. Army. Embracing Results Of the Different Expeditions Under The Command Of 1st Lieut. Geo. M. Wheeler, Corps Of Engineers. Julius Bien, lith",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hs598bn8889.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hs598bn8889'>https://purl.stanford.edu/hs598bn8889</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Topographical Atlas Projected To Illustrate United States Geographical Surveys West Of The 100th Meridian Of Longitude Prosecuted In Accordance With Acts Of Congress Under The Authority Of The Honorable The Secretary Of War, And The Direction Of Brig. Genl. A.A. Humphreys, Chief Of Engineers, U.S. Army. Embracing Results Of the Different Expeditions Under The Command Of 1st Lieut. Geo. M. Wheeler, Corps Of Engineers. Julius Bien, lith"
+        },
+        {
+          "label": "Title",
+          "value": "Topographical atlas--geographical and geological explorations and surveys west of the 100th meridian"
+        },
+        {
+          "label": "Title",
+          "value": "Geographical explorations and surveys west of the 100th meridian topographical atlas"
+        },
+        {
+          "label": "Title",
+          "value": "Geological atlas--geographical explorations and surveys west of the 100th meridian"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wheeler, George M. (George Montague), 1842-1905."
+        },
+        {
+          "label": "Contributor",
+          "value": "United States.  Army.  Corps of Engineers."
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlas factices."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Topographic maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas (135 sheets) : maps (some folded) (some col.) ; 49 x 61 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "A collection of 135 Topographical and Geological Atlas sheets. An almost complete collection of all the Wheeler survey maps originally owned by the Salt Lake Mining Institute. We have since added maps to make it nearly a complete set, following the listing in P1281 (which lists 179 sheets). Many of the sheets in the original Salt Lake Mining Institute set have the signature of Ovando Hollister, an important figure in western mining history."
+        },
+        {
+          "label": "Description",
+          "value": "References: P1281."
+        },
+        {
+          "label": "Description",
+          "value": "David Rumsey Map Center set contains covers (6 copies), legend, signs (2 copies) skeleton map, index map, progress maps (10 copies from different years), drainage maps (2 copies).  Set includes maps covering the same area highlighting topography, land classification, geology, mining, and economics."
+        },
+        {
+          "label": "Description",
+          "value": "Pub list no.: 2738.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases"
+        },
+        {
+          "label": "Subject",
+          "value": "19th century."
+        },
+        {
+          "label": "Subject",
+          "value": "United States"
+        },
+        {
+          "label": "Subject",
+          "value": "West"
+        },
+        {
+          "label": "Subject",
+          "value": "Topographic maps"
+        },
+        {
+          "label": "Subject",
+          "value": "U.S. War Dept."
+        },
+        {
+          "label": "Subject",
+          "value": "Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Irrigation"
+        },
+        {
+          "label": "Subject",
+          "value": "Colorado"
+        },
+        {
+          "label": "Subject",
+          "value": "Colorado River"
+        },
+        {
+          "label": "Subject",
+          "value": "West (U.S.)"
+        },
+        {
+          "label": "Subject",
+          "value": "Colorado River (Colo.-Mexico)"
+        },
+        {
+          "label": "Subject",
+          "value": "West of 100th Meridian"
+        },
+        {
+          "label": "Date",
+          "value": "1873"
+        },
+        {
+          "label": "Date",
+          "value": "1873 - 1878"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hs598bn8889"
+        },
+        {
+          "label": "Publisher",
+          "value": "The Corps"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-14"
+        }
+      ],
+      "description": "A collection of 135 Topographical and Geological Atlas sheets. An almost complete collection of all the Wheeler survey maps originally owned by the Salt Lake Mining Institute. We have since added maps to make it nearly a complete set, following the listing in P1281 (which lists 179 sheets). Many of the sheets in the original Salt Lake Mining Institute set have the signature of Ovando Hollister, an important figure in western mining history.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/xy851xn7907%2F2738A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/xy851xn7907%2F2738A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 320
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hs598bn8889/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hs598bn8889/iiif/canvas/cocina-fileSet-dk863bj7242-dk863bj7242_1",
+              "@type": "sc:Canvas",
+              "label": "Parts Of Eastern California And Western Nevada, Atlas Sheet 47(D). Issued June 30,\n   1882. Weyss, Lang and Herman, Del. Expeditions of 1876 and 1877 Under the Command of 1st. Lieut.\n   Geo. M. Wheeler, Corps of Engineers, U.S. Army. Executive Officers and Field Astronomers: 1st.\n   Lieut. S.E. Tillman, Corps of Engineers, U.S. Army; 2nd Lieuts. T.W. Symons, Corps of Engineers,\n   U.S. Army and M.M. Macomb, 4th Artillery, U.S. Army. Topographical Assistants: Gilbert Thompson,\n   Anton Karl, Frank Carpenter, W.A. Cowles. U.S. Geographical Surveys West Of The 100th\n   Meridian",
+              "height": 5785,
+              "width": 7261,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/dk863bj7242/2738029.jp2",
+                  "label": "Original source file (7.54 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hs598bn8889/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fdk863bj7242-dk863bj7242_1%2F2738029.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hs598bn8889/iiif/canvas/cocina-fileSet-dk863bj7242-dk863bj7242_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/dk863bj7242%2F2738029/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 5785,
+                    "width": 7261,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/dk863bj7242%2F2738029",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/gw760ks1946/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[Manuscript survey journal of Gilbert Thompson, Wheeler Survey]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/gw760ks1946.mods",
+        "format": "application/mods+xml"
+      },
+      "service": [
+        {
+          "@context": "http://iiif.io/api/search/1/context.json",
+          "@id": "https://contentsearch.stanford.edu/gw760ks1946/search",
+          "profile": "http://iiif.io/api/search/1/search",
+          "label": "Search within this manifest"
+        }
+      ],
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/gw760ks1946'>https://purl.stanford.edu/gw760ks1946</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[Manuscript survey journal of Gilbert Thompson, Wheeler Survey]"
+        },
+        {
+          "label": "Title",
+          "value": "Topographical records. U.S. Engineer office geographical surveys west of the 100th meridian. : Book no. 360"
+        },
+        {
+          "label": "Title",
+          "value": "Topographical meanders"
+        },
+        {
+          "label": "Title",
+          "value": "Party no. 1, Utah Section. From camp no. 54 at Ogburns Ranch to camp no. 68-24-1, at Chico, Cal., Atlas sheet no. Gilbert Thompson, Topog'r's, Polhemus, Lieut. S.E. Tillman, in charge of party, Corps of Engrs"
+        },
+        {
+          "label": "Creator",
+          "value": "Thompson, Gilbert, 1839-1909"
+        },
+        {
+          "label": "Contributor",
+          "value": "Polhemus, James S."
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Diaries."
+        },
+        {
+          "label": "Format",
+          "value": "1 volume (116 pages): notes, illustrations, maps, inserts ; 22.4 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Dealer description: \"Manuscript survey book of Gilbert Thompson and James S. Polhemus, with over twenty detailed hand-drawn topographical maps of the area around Chico, California, Drawn in 1878 for George Wheeler's Geographical Survey West of the 100th Meridian, with substantial... additional material, including sketched surveys of Utah's Great Salt Lake.\""
+        },
+        {
+          "label": "Subject",
+          "value": "Diaries"
+        },
+        {
+          "label": "Subject",
+          "value": "19th century."
+        },
+        {
+          "label": "Subject",
+          "value": "Surveying."
+        },
+        {
+          "label": "Subject",
+          "value": "Cartography."
+        },
+        {
+          "label": "Subject",
+          "value": "Topographical surveying."
+        },
+        {
+          "label": "Subject",
+          "value": "Topographical drawing."
+        },
+        {
+          "label": "Subject",
+          "value": "Cartography"
+        },
+        {
+          "label": "Subject",
+          "value": "West (U.S.)"
+        },
+        {
+          "label": "Subject",
+          "value": "Discovery and exploration"
+        },
+        {
+          "label": "Subject",
+          "value": "California."
+        },
+        {
+          "label": "Subject",
+          "value": "Utah."
+        },
+        {
+          "label": "Date",
+          "value": "1878"
+        },
+        {
+          "label": "Date",
+          "value": "1878"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/gw760ks1946"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-14"
+        }
+      ],
+      "description": "Dealer description: \"Manuscript survey book of Gilbert Thompson and James S. Polhemus, with over twenty detailed hand-drawn topographical maps of the area around Chico, California, Drawn in 1878 for George Wheeler's Geographical Survey West of the 100th Meridian, with substantial... additional material, including sketched surveys of Utah's Great Salt Lake.\"",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/gw760ks1946%2Fgw760ks1946_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/gw760ks1946%2Fgw760ks1946_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 304,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/gw760ks1946/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/gw760ks1946/iiif/canvas/cocina-fileSet-gw760ks1946-gw760ks1946_1",
+              "@type": "sc:Canvas",
+              "label": "Page 1",
+              "height": 7505,
+              "width": 5704,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/gw760ks1946/gw760ks1946_0001.jp2",
+                  "label": "Original source file (16.7 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "seeAlso": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/gw760ks1946/gw760ks1946_0001.xml",
+                  "label": "OCR text",
+                  "format": "application/xml",
+                  "profile": "http://www.loc.gov/standards/alto/ns-v2#"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/gw760ks1946/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F51e0b9a8-9b0e-4c4c-91d6-75fb2eabe18a",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/gw760ks1946/iiif/canvas/cocina-fileSet-gw760ks1946-gw760ks1946_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/gw760ks1946%2Fgw760ks1946_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7505,
+                    "width": 5704,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/gw760ks1946%2Fgw760ks1946_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/gw760ks1946/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[Manuscript survey journal of Gilbert Thompson, Wheeler Survey]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/gw760ks1946.mods",
+        "format": "application/mods+xml"
+      },
+      "service": [
+        {
+          "@context": "http://iiif.io/api/search/1/context.json",
+          "@id": "https://contentsearch.stanford.edu/gw760ks1946/search",
+          "profile": "http://iiif.io/api/search/1/search",
+          "label": "Search within this manifest"
+        }
+      ],
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/gw760ks1946'>https://purl.stanford.edu/gw760ks1946</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[Manuscript survey journal of Gilbert Thompson, Wheeler Survey]"
+        },
+        {
+          "label": "Title",
+          "value": "Topographical records. U.S. Engineer office geographical surveys west of the 100th meridian. : Book no. 360"
+        },
+        {
+          "label": "Title",
+          "value": "Topographical meanders"
+        },
+        {
+          "label": "Title",
+          "value": "Party no. 1, Utah Section. From camp no. 54 at Ogburns Ranch to camp no. 68-24-1, at Chico, Cal., Atlas sheet no. Gilbert Thompson, Topog'r's, Polhemus, Lieut. S.E. Tillman, in charge of party, Corps of Engrs"
+        },
+        {
+          "label": "Creator",
+          "value": "Thompson, Gilbert, 1839-1909"
+        },
+        {
+          "label": "Contributor",
+          "value": "Polhemus, James S."
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Diaries."
+        },
+        {
+          "label": "Format",
+          "value": "1 volume (116 pages): notes, illustrations, maps, inserts ; 22.4 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Dealer description: \"Manuscript survey book of Gilbert Thompson and James S. Polhemus, with over twenty detailed hand-drawn topographical maps of the area around Chico, California, Drawn in 1878 for George Wheeler's Geographical Survey West of the 100th Meridian, with substantial... additional material, including sketched surveys of Utah's Great Salt Lake.\""
+        },
+        {
+          "label": "Subject",
+          "value": "Diaries"
+        },
+        {
+          "label": "Subject",
+          "value": "19th century."
+        },
+        {
+          "label": "Subject",
+          "value": "Surveying."
+        },
+        {
+          "label": "Subject",
+          "value": "Cartography."
+        },
+        {
+          "label": "Subject",
+          "value": "Topographical surveying."
+        },
+        {
+          "label": "Subject",
+          "value": "Topographical drawing."
+        },
+        {
+          "label": "Subject",
+          "value": "Cartography"
+        },
+        {
+          "label": "Subject",
+          "value": "West (U.S.)"
+        },
+        {
+          "label": "Subject",
+          "value": "Discovery and exploration"
+        },
+        {
+          "label": "Subject",
+          "value": "California."
+        },
+        {
+          "label": "Subject",
+          "value": "Utah."
+        },
+        {
+          "label": "Date",
+          "value": "1878"
+        },
+        {
+          "label": "Date",
+          "value": "1878"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/gw760ks1946"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-14"
+        }
+      ],
+      "description": "Dealer description: \"Manuscript survey book of Gilbert Thompson and James S. Polhemus, with over twenty detailed hand-drawn topographical maps of the area around Chico, California, Drawn in 1878 for George Wheeler's Geographical Survey West of the 100th Meridian, with substantial... additional material, including sketched surveys of Utah's Great Salt Lake.\"",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/gw760ks1946%2Fgw760ks1946_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/gw760ks1946%2Fgw760ks1946_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 304,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/gw760ks1946/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/gw760ks1946/iiif/canvas/cocina-fileSet-gw760ks1946-gw760ks1946_25",
+              "@type": "sc:Canvas",
+              "label": "Page 25",
+              "height": 11055,
+              "width": 7516,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/gw760ks1946/gw760ks1946_0025.jp2",
+                  "label": "Original source file (24.7 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "seeAlso": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/gw760ks1946/gw760ks1946_0025.xml",
+                  "label": "OCR text",
+                  "format": "application/xml",
+                  "profile": "http://www.loc.gov/standards/alto/ns-v2#"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/gw760ks1946/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fcea6b683-f367-432c-8d12-53569e985f7b",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/gw760ks1946/iiif/canvas/cocina-fileSet-gw760ks1946-gw760ks1946_25",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/gw760ks1946%2Fgw760ks1946_0025/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11055,
+                    "width": 7516,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/gw760ks1946%2Fgw760ks1946_0025",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~327935~90096505/manifest",
+      "label": "Presidential Elections",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~327935~90096505/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~327935~90096505/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Presidential Elections",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Houghton, Walter R."
+                },
+                {
+                  "label": "Date",
+                  "value": "1880"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Presidential Elections"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Granger, Davis & Co."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Indianapolis"
+                },
+                {
+                  "label": "Type",
+                  "value": "Timeline"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "142"
+                },
+                {
+                  "label": "Note",
+                  "value": "The first century of United States political parties is illustrated with a river metaphor. Color helps distinguish each party. Flow widths display relative party strength, with leading parties on top. Offshoots spring from the main flows into splinter parties. The decades leading up to the Civil War evoke writhing snakes. Annotations abound, noting historic events and legislative accomplishments, but they never distract from the colorful flows. A parallel congressional timeline, on the bottom, uses the same color palette to indicate which party has power over each house. The upper chamber of the Senate is on top. The head of state occupies the highest row of the composition."
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Presidential Elections"
+                },
+                {
+                  "label": "List No",
+                  "value": "10569.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Houghton, Walter R."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1880"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Conspectus of The History of Political Parties and the Federal Government."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "For full text scans of this book see https://archive.org/details/conspectusofhist00houg"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Colorful maps, charts, and timelines recount the political history of the first one hundred years of the United States. One iconic timeline shows the flow of political party power. Another timeline details each presidential administration. Includes an update to an 1874 fiscal chart originally by Francis Amasa Walker - see atlas plate XXXVa https://www.davidrumsey.com/luna/servlet/s/yj1uv3"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10569.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Historical Atlas"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "36"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10569002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/185/10569002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Houghton, Walter R."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~327935~90096505/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~327935~90096505/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~327935~90096505",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 28646,
+                    "height": 7286
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~327935~90096505/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~327935~90096505/list/luna"
+              ],
+              "width": 28646,
+              "height": 7286
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~327935~90096505"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/nz845pt4966/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Map of Greenwich Village made for the Whitney Studio Club. W.E. Rudge",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/nz845pt4966.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/nz845pt4966'>https://purl.stanford.edu/nz845pt4966</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Map of Greenwich Village made for the Whitney Studio Club. W.E. Rudge"
+        },
+        {
+          "label": "Contributor",
+          "value": "Rudge, W.E.."
+        },
+        {
+          "label": "Contributor",
+          "value": "Whitney Studio Club."
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Pictorial maps"
+        },
+        {
+          "label": "Type",
+          "value": "Aerial views"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 59 x 75 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Bright color bird's eye view pictorial map of Greenwich Village in the 1920s, copyright at lower left: W.E. Rudge. Showing the village through the puffy clouds which are the link to the uncolored pictorial border. Shows detailed view of the buildings, streets, parks, ships, mermaid and sea monster. Includes 2 quotes by John Reed in the puffy clouds at upper left and right. Around the cartouche are winged faces, apparently portraits of the artists. Unusual and rare pictorial map of Greenwich Village."
+        },
+        {
+          "label": "Description",
+          "value": "Separate Map."
+        },
+        {
+          "label": "Description",
+          "value": "David Rumsey Map Center copy 1: Pub list no. 11362.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Pictorial maps"
+        },
+        {
+          "label": "Subject",
+          "value": "20th century."
+        },
+        {
+          "label": "Subject",
+          "value": "New York (State)"
+        },
+        {
+          "label": "Subject",
+          "value": "New York"
+        },
+        {
+          "label": "Subject",
+          "value": "Greenwich Village"
+        },
+        {
+          "label": "Subject",
+          "value": "Bird's-eye views"
+        },
+        {
+          "label": "Subject",
+          "value": "New York (N.Y.)"
+        },
+        {
+          "label": "Subject",
+          "value": "Greenwich Village (New York, N.Y.)"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale Scale not given."
+        },
+        {
+          "label": "Date",
+          "value": "1920"
+        },
+        {
+          "label": "Date",
+          "value": "1920"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/nz845pt4966"
+        },
+        {
+          "label": "Publisher",
+          "value": "Whitney Studio Club"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "Bright color bird's eye view pictorial map of Greenwich Village in the 1920s, copyright at lower left: W.E. Rudge. Showing the village through the puffy clouds which are the link to the uncolored pictorial border. Shows detailed view of the buildings, streets, parks, ships, mermaid and sea monster. Includes 2 quotes by John Reed in the puffy clouds at upper left and right. Around the cartouche are winged faces, apparently portraits of the artists. Unusual and rare pictorial map of Greenwich Village.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/nz845pt4966%2F11362000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/nz845pt4966%2F11362000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 318
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/nz845pt4966/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/nz845pt4966/iiif/canvas/cocina-fileSet-nz845pt4966-nz845pt4966_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 12964,
+              "width": 16286,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/nz845pt4966/11362000.jp2",
+                  "label": "Original source file (37.9 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/nz845pt4966/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fnz845pt4966-nz845pt4966_1%2F11362000.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/nz845pt4966/iiif/canvas/cocina-fileSet-nz845pt4966-nz845pt4966_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/nz845pt4966%2F11362000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 12964,
+                    "width": 16286,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/nz845pt4966%2F11362000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
