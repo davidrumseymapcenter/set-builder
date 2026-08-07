@@ -888,3 +888,85 @@ button.export-iiif-btn:active {
     font-size: 11px;
   }
 }
+
+/* ── Note field ────────────────────────────────────────────── */
+.note-container {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.note-label {
+  display: block;
+  font-size: 11px;
+  font-style: italic;
+  margin-bottom: 4px;
+  color: #666;
+}
+
+.note-textarea {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #d0d0d0;
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 12px;
+  font-style: italic;
+  resize: vertical;
+  min-height: 80px;
+  max-height: 200px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  background: #fafafa;
+  color: #333;
+}
+
+.note-textarea.has-notes {
+  border-left: 3px solid #c8a951;
+  background: #fffdf5;
+}
+
+.note-textarea:focus {
+  outline: none;
+  border-color: #0073A3;
+  box-shadow: 0 0 0 2px rgba(0, 115, 163, 0.1);
+}
+
+.note-textarea.has-notes:focus {
+  border-color: #c8a951;
+  border-left-color: #c8a951;
+  box-shadow: 0 0 0 2px rgba(200, 169, 81, 0.15);
+}
+
+.note-textarea::placeholder {
+  color: #999;
+  font-size: 11px;
+  font-style: italic;
+}
+
+/* Plain text display for viewer/presentation modes */
+.note-display {
+  display: none;
+  margin-top: 4px;
+  padding-left: 4px;
+  font-size: 11px;
+  font-style: italic;
+  color: #444;
+  white-space: pre-wrap;
+  line-height: 1.2;
+}
+/* Hide entire note container in viewer when no notes */
+.view-only .note-container:has(.note-display:empty) {
+  display: none;
+}
+
+/* viewer.html: hide textarea, show plain text instead */
+.view-only .note-textarea {
+  display: none;
+}
+
+.view-only .note-display {
+  display: block;
+}
+

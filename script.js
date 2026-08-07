@@ -316,7 +316,8 @@ function getMetadataValue(metadata, label, getLast = false) {
   if (items.length === 0) return null;
   
   const item = getLast ? items[items.length - 1] : items[0];
-  
+
+ 
   // IIIF 2.0 format: value is a string or array
   if (typeof item.value === 'string') {
     return item.value;
@@ -335,6 +336,68 @@ function getMetadataValue(metadata, label, getLast = false) {
   return null;
 }
 
+ // Helper function to get ALL metadata values with a given label (for multi-user notes)
+function getAllMetadataValues(metadata, label) {
+  if (!metadata) return [];
+  
+  const normalizedLabel = label.toLowerCase();
+  const matchingItems = metadata.filter(item => {
+    if (typeof item.label === 'string') {
+      return item.label.toLowerCase() === normalizedLabel;
+    }
+    if (typeof item.label === 'object') {
+      const labelValues = Object.values(item.label).flat();
+      return labelValues.some(val => val.toLowerCase() === normalizedLabel);
+    }
+    return false;
+  });
+  
+  return matchingItems.map(item => {
+    if (typeof item.value === 'string') return item.value;
+    if (Array.isArray(item.value)) return item.value[0];
+    if (typeof item.value === 'object') {
+      return Object.values(item.value).flat()[0];
+    }
+    return null;
+  }).filter(v => v !== null);
+}
+
+function extractNoteForExport(card, canvas) {
+  const noteTextarea = card.querySelector('.note-textarea');
+  if (!noteTextarea || !noteTextarea.value.trim()) return;
+
+  const userNote = noteTextarea.value;
+
+  // Split on the first \n---\n to match how textarea is populated
+  const dividerIndex = userNote.indexOf('\n---\n');
+
+  let newNoteText;
+
+  if (dividerIndex === -1) {
+    // No divider found — entire content is a new note
+    newNoteText = userNote.trim();
+  } else {
+    // Everything above the first divider is the new note
+    newNoteText = userNote.slice(0, dividerIndex).trim();
+  }
+
+  if (!newNoteText) return;
+
+  // Prevent double-stamping: if it already starts with a date stamp, don't re-stamp
+  const alreadyStamped = /^\[\d{4}-\d{2}-\d{2}\]:/.test(newNoteText);
+  if (alreadyStamped) return;
+
+  // Add date attribution
+  const today = new Date().toISOString().split('T')[0];
+  const attributedNote = `[${today}]: ${newNoteText}`;
+
+  // Add to canvas metadata as a new entry
+  canvas.metadata = canvas.metadata || [];
+  canvas.metadata.push({
+    'label': 'local_note',
+    'value': attributedNote
+  });
+}
 
 // Helper function to check if URL is absolute
 function isAbsoluteURL(url) {
@@ -587,6 +650,9 @@ if (iiifVersion === 3) {
   }
 }
 
+  // Get all existing notes (supports multi-user collaboration)
+  const allNotes = getAllMetadataValues(canvasMetadata, 'local_note')
+    .concat(getAllMetadataValues(manifestMetadata, 'local_note'));
 
 
   // Get location link from various possible sources
@@ -736,19 +802,55 @@ allmapsLinkEl.target = '_blank';
 allmapsLinkEl.className = 'card-link';
 cardLinks.appendChild(allmapsLinkEl);
 
-  // Append all elements to card
-  card.appendChild(deleteBtn);
-  card.appendChild(img);
-  card.appendChild(titleEl);
-  card.appendChild(authorEl);
-  card.appendChild(dateEl);
-  card.appendChild(collectionEl);
-  card.appendChild(attributionEl);
-  card.appendChild(cardLinks);
+// Create note container
+const noteContainer = document.createElement('div');
+noteContainer.className = 'note-container';
 
-  // Add card to gallery
-  document.getElementById('gallery').appendChild(card);
+const noteLabel = document.createElement('label');
+noteLabel.innerHTML = '<strong>Curator notes:</strong>';
+noteLabel.className = 'note-label';
+
+const noteTextarea = document.createElement('textarea');
+noteTextarea.className = 'note-textarea';
+noteTextarea.placeholder = 'Add notes about this image...';
+noteTextarea.rows = 5;
+
+const reversedNotes = allNotes.reverse().join('\n\n---\n\n');
+noteTextarea.value = reversedNotes
+  ? '\n---\n' + reversedNotes
+  : '';
+
+if (allNotes.length > 0) {
+  noteTextarea.classList.add('has-notes');
 }
+
+// Plain text display for viewer/presentation modes
+const noteDisplay = document.createElement('div');
+noteDisplay.className = 'note-display';
+
+// For display, join notes with a clean separator — no --- dividers
+noteDisplay.textContent = reversedNotes
+  ? reversedNotes.split('\n\n---\n\n').join('\n\n')
+  : '';
+
+noteContainer.appendChild(noteLabel);
+noteContainer.appendChild(noteTextarea);
+noteContainer.appendChild(noteDisplay);
+
+// Append all elements to card
+card.appendChild(deleteBtn);
+card.appendChild(img);
+card.appendChild(titleEl);
+card.appendChild(authorEl);
+card.appendChild(dateEl);
+card.appendChild(collectionEl);
+card.appendChild(attributionEl);
+card.appendChild(cardLinks);
+card.appendChild(noteContainer);
+
+// Add card to gallery
+  document.getElementById('gallery').appendChild(card);
+} 
 
 function repopulateGallery(manifestData) {
   const gallery = document.getElementById('gallery');
@@ -923,7 +1025,10 @@ function exportCombinedManifest() {
       console.error('Failed to parse canvas data:', e);
       return;
     }
-    
+
+    // Extract and attribute any new note from this card
+    extractNoteForExport(card, canvas); 
+
     // Find the source manifest
     const sourceManifest = collectedManifests.find(m => 
       (m['@id'] === manifestId || m.id === manifestId)
@@ -1041,6 +1146,9 @@ function exportAsManifest() {
     if (canvasData) {
       try {
         const canvas = JSON.parse(canvasData);
+
+        // Extract and attribute any new note from this card
+        extractNoteForExport(card, canvas);
 
         // Sanitize canvas to reduce validation warnings
         if (canvas.images) {
