@@ -1,0 +1,2654 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/California As An Island",
+  "label": "California As An Island",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/3/context.json",
+      "behavior": [
+        "paged"
+      ],
+      "homepage": [
+        {
+          "format": "text/html",
+          "id": "https://archive.org/details/LasSergasDeEsplaNDianElRamoQueD",
+          "label": {
+            "en": [
+              "Item Page on Internet Archive"
+            ]
+          },
+          "type": "Text"
+        }
+      ],
+      "id": "https://iiif.archive.org/iiif/LasSergasDeEsplaNDianElRamoQueD/manifest.json",
+      "items": [
+        {
+          "annotations": [
+            {
+              "id": "https://iiif.archive.org/iiif/3/annotations/LasSergasDeEsplaNDianElRamoQueD/Las_Sergas_de_Espla_n_dian_El_Ramo_que_d_djvu.xml/13.json",
+              "type": "AnnotationPage"
+            }
+          ],
+          "height": 6535,
+          "id": "https://iiif.archive.org/iiif/LasSergasDeEsplaNDianElRamoQueD$12/canvas",
+          "items": [
+            {
+              "id": "https://iiif.archive.org/iiif/LasSergasDeEsplaNDianElRamoQueD/annotationPage/12",
+              "items": [
+                {
+                  "body": {
+                    "format": "image/jpeg",
+                    "id": "https://iiif.archive.org/image/iiif/3/LasSergasDeEsplaNDianElRamoQueD%2FLas_Sergas_de_Espla_n_dian_El_Ramo_que_d_jp2.zip%2FLas_Sergas_de_Espla_n_dian_El_Ramo_que_d_jp2%2FLas_Sergas_de_Espla_n_dian_El_Ramo_que_d_0012.jp2/full/max/0/default.jpg",
+                    "service": [
+                      {
+                        "id": "https://iiif.archive.org/image/iiif/3/LasSergasDeEsplaNDianElRamoQueD%2FLas_Sergas_de_Espla_n_dian_El_Ramo_que_d_jp2.zip%2FLas_Sergas_de_Espla_n_dian_El_Ramo_que_d_jp2%2FLas_Sergas_de_Espla_n_dian_El_Ramo_que_d_0012.jp2",
+                        "profile": "level2",
+                        "type": "ImageService3"
+                      }
+                    ],
+                    "type": "Image"
+                  },
+                  "id": "https://iiif.archive.org/iiif/LasSergasDeEsplaNDianElRamoQueD/annotation/12",
+                  "motivation": "painting",
+                  "target": "https://iiif.archive.org/iiif/LasSergasDeEsplaNDianElRamoQueD$12/canvas",
+                  "type": "Annotation"
+                }
+              ],
+              "type": "AnnotationPage"
+            }
+          ],
+          "label": {
+            "none": [
+              "12"
+            ]
+          },
+          "type": "Canvas",
+          "width": 4504
+        }
+      ],
+      "label": {
+        "none": [
+          "Las sergas de Esplandian"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "none": [
+              "identifier"
+            ]
+          },
+          "value": {
+            "none": [
+              "LasSergasDeEsplaNDianElRamoQueD"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "mediatype"
+            ]
+          },
+          "value": {
+            "none": [
+              "texts"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "creator"
+            ]
+          },
+          "value": {
+            "none": [
+              "Garci Rodríguez de Montalvo, c. 1450-c. 1505"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "date"
+            ]
+          },
+          "value": {
+            "none": [
+              "1526"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "language"
+            ]
+          },
+          "value": {
+            "none": [
+              "spa"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "scanner"
+            ]
+          },
+          "value": {
+            "none": [
+              "Internet Archive HTML5 Uploader 1.6.0"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "subject"
+            ]
+          },
+          "value": {
+            "none": [
+              "romance",
+              "medieval literature",
+              "Spanish",
+              "Middle Ages"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "title"
+            ]
+          },
+          "value": {
+            "none": [
+              "Las sergas de Esplandian"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "addeddate"
+            ]
+          },
+          "value": {
+            "none": [
+              "2014-10-24 23:42:03"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "identifier-access"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://archive.org/details/LasSergasDeEsplaNDianElRamoQueD"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "identifier-ark"
+            ]
+          },
+          "value": {
+            "none": [
+              "ark:/13960/t4wh5g540"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ppi"
+            ]
+          },
+          "value": {
+            "none": [
+              "600"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ocr"
+            ]
+          },
+          "value": {
+            "none": [
+              "ABBYY FineReader 9.0"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "repub_state"
+            ]
+          },
+          "value": {
+            "none": [
+              "4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "year"
+            ]
+          },
+          "value": {
+            "none": [
+              "1526"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "complete_title"
+            ]
+          },
+          "value": {
+            "none": [
+              "Las sergas de Esplandian. El ramo que de los quatre libros de Amadis sale llamado Las sergas de Esplandian, hijo de Amadís de Gaula. Las quales fueron escriptas por mano del maestro Helisabad, poré fuessen manifiestos los grandes hechos que en armas hízo: segun que en el presente libro se cuenta."
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "collection"
+            ]
+          },
+          "value": {
+            "none": [
+              "arlima",
+              "patron-library-collection"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "collection_added"
+            ]
+          },
+          "value": {
+            "none": [
+              "patron-library-collection"
+            ]
+          }
+        }
+      ],
+      "partOf": [
+        {
+          "id": "https://iiif.archive.org/iiif/arlima/collection.json",
+          "type": "Collection"
+        },
+        {
+          "id": "https://iiif.archive.org/iiif/patron-library-collection/collection.json",
+          "type": "Collection"
+        }
+      ],
+      "provider": [
+        {
+          "homepage": [
+            {
+              "format": "text/html",
+              "id": "https://archive.org",
+              "label": {
+                "en": [
+                  "Internet Archive Homepage"
+                ]
+              },
+              "type": "Text"
+            }
+          ],
+          "id": "https://archive.org",
+          "label": {
+            "en": [
+              "The Internet Archive"
+            ]
+          },
+          "logo": [
+            {
+              "format": "image/png",
+              "height": 79,
+              "id": "https://archive.org/images/glogo.png",
+              "type": "Image",
+              "width": 79
+            }
+          ],
+          "type": "Agent"
+        }
+      ],
+      "rendering": [
+        {
+          "format": "application/x-bittorrent",
+          "id": "https://archive.org/download/LasSergasDeEsplaNDianElRamoQueD/LasSergasDeEsplaNDianElRamoQueD_archive.torrent",
+          "label": {
+            "en": [
+              "Archive BitTorrent"
+            ]
+          },
+          "type": "Dataset"
+        },
+        {
+          "format": "image/vnd.djvu",
+          "id": "https://archive.org/download/LasSergasDeEsplaNDianElRamoQueD/Las_Sergas_de_Espla_n_dian_El_Ramo_que_d.djvu",
+          "label": {
+            "en": [
+              "DjVu"
+            ]
+          },
+          "type": "Image"
+        },
+        {
+          "format": "image/gif",
+          "id": "https://archive.org/download/LasSergasDeEsplaNDianElRamoQueD/Las_Sergas_de_Espla_n_dian_El_Ramo_que_d.gif",
+          "label": {
+            "en": [
+              "Animated GIF"
+            ]
+          },
+          "type": "Image"
+        },
+        {
+          "format": "application/gzip",
+          "id": "https://archive.org/download/LasSergasDeEsplaNDianElRamoQueD/Las_Sergas_de_Espla_n_dian_El_Ramo_que_d_abbyy.gz",
+          "label": {
+            "en": [
+              "Abbyy GZ"
+            ]
+          },
+          "type": "Dataset"
+        },
+        {
+          "format": "text/plain",
+          "id": "https://archive.org/download/LasSergasDeEsplaNDianElRamoQueD/Las_Sergas_de_Espla_n_dian_El_Ramo_que_d_djvu.txt",
+          "label": {
+            "en": [
+              "DjVuTXT"
+            ]
+          },
+          "type": "Text"
+        },
+        {
+          "format": "application/xml",
+          "id": "https://archive.org/download/LasSergasDeEsplaNDianElRamoQueD/Las_Sergas_de_Espla_n_dian_El_Ramo_que_d_djvu.xml",
+          "label": {
+            "en": [
+              "Djvu XML"
+            ]
+          },
+          "type": "Dataset"
+        },
+        {
+          "format": "application/zip",
+          "id": "https://archive.org/download/LasSergasDeEsplaNDianElRamoQueD/Las_Sergas_de_Espla_n_dian_El_Ramo_que_d_jp2.zip",
+          "label": {
+            "en": [
+              "Single Page Processed JP2 ZIP"
+            ]
+          },
+          "type": "Image"
+        }
+      ],
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": [
+        {
+          "format": "application/json",
+          "id": "https://archive.org/metadata/LasSergasDeEsplaNDianElRamoQueD",
+          "label": {
+            "en": [
+              "Item Metadata"
+            ]
+          },
+          "type": "Metadata"
+        },
+        {
+          "format": "application/xml",
+          "id": "https://archive.org/download/LasSergasDeEsplaNDianElRamoQueD/Las_Sergas_de_Espla_n_dian_El_Ramo_que_d_scandata.xml",
+          "label": {
+            "en": [
+              "Scandata"
+            ]
+          },
+          "type": "Dataset"
+        }
+      ],
+      "service": [
+        {
+          "@id": "https://iiif.archive.org/iiif/search/LasSergasDeEsplaNDianElRamoQueD",
+          "@type": "SearchService1",
+          "profile": "http://iiif.io/api/search/1/search"
+        }
+      ],
+      "summary": {
+        "none": [
+          "Book digitized by Google and uploaded by ARLIMA (http://www.arlima.net)"
+        ]
+      },
+      "thumbnail": [
+        {
+          "format": "image/jpeg",
+          "height": 261,
+          "id": "https://iiif.archive.org/image/iiif/2/LasSergasDeEsplaNDianElRamoQueD%2f__ia_thumb.jpg/full/180,/0/default.jpg",
+          "service": [
+            {
+              "@id": "https://iiif.archive.org/image/iiif/2/LasSergasDeEsplaNDianElRamoQueD%2F__ia_thumb.jpg",
+              "@type": "ImageService2",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }
+          ],
+          "type": "Image",
+          "width": 180
+        }
+      ],
+      "type": "Manifest",
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/fr140vx3538/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Histoire universelle des Indes occidentales et orientales, et de la conversion des Indiens : divisee en trois parties par Cornille Wytfliet & Anthoine Magin & autres historiens. Premiere Partie. A Douay, Chez Francois Fabri, l'An 1611",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/fr140vx3538.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/fr140vx3538'>https://purl.stanford.edu/fr140vx3538</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Histoire universelle des Indes occidentales et orientales, et de la conversion des Indiens : divisee en trois parties par Cornille Wytfliet & Anthoine Magin & autres historiens. Premiere Partie. A Douay, Chez Francois Fabri, l'An 1611"
+        },
+        {
+          "label": "Contributor",
+          "value": "Wytfliet, Corneille."
+        },
+        {
+          "label": "Contributor",
+          "value": "Magini, Giovanni Antonio."
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 23 maps ; 31 x 20 cm."
+        },
+        {
+          "label": "Language",
+          "value": "French"
+        },
+        {
+          "label": "Description",
+          "value": "References: Philip Burden, The Mapping of North America, p. 125-132. Philip Burden, The Mapping of North America, p. 125-132."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas."
+        },
+        {
+          "label": "Description",
+          "value": "Wyfliet's atlas is the first atlas devoted entirely to maps of the Americas, (the New world), was first published in Latin as Descriptionis Ptolemaicae augmentum in 1597, and later published in Latin editions in 1598 and 1603. Then translated into French and combined with the work of Magini’s description of the West and East Indies and Japan, published under the present title in 1605 and further editions published in 1607 and 1611. This is 3rd edition of “Histoire Universelle des Indes occidentales et orientales ...” in French: by Cornille Wytfliet & Anthoine Magin & other historians, divided into 2 books and in three parts, published at Douay, at Francois Fabri, in 1611. Part 1: Histoire universelle des Indes occidentales: Universal History of the West Indies. Part 2: Histoire universelle des Indes orientales : Universal History of the East Indies. Part 3: La suite de l'Histoire des Indes orientales, de la conversion des Indies: The continuation of the history of the East Indies, the conversion of the Indians, each part with engraved decorative title page. Atlas includes indexes, tables and 23 double-page engraved maps. All maps dated 1597, except Canada, 1607; Virginia, 1611; and Limes occidentale, 1607. The first map (a double-hemisphere world map) is based on Mercator's influential map of 1587. Then follows maps of South America (the north coast of South America with the Caribbean islands, Hispaniola, Cuba and Jamaica, Chile, Peru, Brazil, Colombia, Central America, and maps of North America. In addition to the large double-page maps there are also four small maps on one double-page sheet in Magini's supplement showing the East Indies, Japan, China and the Philippines. Bound in full calf, spine gilt with title “Histoire des Indes” in gilt on spine."
+        },
+        {
+          "label": "Description",
+          "value": "David Rumsey Map Center copy 1: Pub list no. 11622.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Historical geography"
+        },
+        {
+          "label": "Subject",
+          "value": "Western Hemisphere"
+        },
+        {
+          "label": "Subject",
+          "value": "North America"
+        },
+        {
+          "label": "Subject",
+          "value": "South America"
+        },
+        {
+          "label": "Subject",
+          "value": "West Indies"
+        },
+        {
+          "label": "Subject",
+          "value": "East Indies"
+        },
+        {
+          "label": "Date",
+          "value": "1611"
+        },
+        {
+          "label": "Date",
+          "value": "1611"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/fr140vx3538"
+        },
+        {
+          "label": "Publisher",
+          "value": "Chez Francois Fabri"
+        },
+        {
+          "label": "Publisher",
+          "value": "Francois Fabri"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-14"
+        }
+      ],
+      "description": "References: Philip Burden, The Mapping of North America, p. 125-132. Philip Burden, The Mapping of North America, p. 125-132.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/js978nc5563%2F11622001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/js978nc5563%2F11622001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 299
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/fr140vx3538/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/fr140vx3538/iiif/canvas/cocina-fileSet-pr887yg5353-pr887yg5353_1",
+              "@type": "sc:Canvas",
+              "label": "Granata Nova et California. (to accompany) Histoire universelle des Indes\n   occidentales et orientales, et de la conversion des Indiens : divisee en trois parties par\n   Cornille Wytfliet & Anthoine Magin & autres historiens. Premiere Partie. A Douay, Chez\n   Francois Fabri, l'An 1611",
+              "height": 6407,
+              "width": 8679,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/pr887yg5353/11622048.jp2",
+                  "label": "Original source file (10 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/fr140vx3538/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fpr887yg5353-pr887yg5353_1%2F11622048.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/fr140vx3538/iiif/canvas/cocina-fileSet-pr887yg5353-pr887yg5353_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/pr887yg5353%2F11622048/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 6407,
+                    "width": 8679,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/pr887yg5353%2F11622048",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/dd649qk9878/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Nueva Hispania tabula nova",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/dd649qk9878.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/dd649qk9878'>https://purl.stanford.edu/dd649qk9878</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Nueva Hispania tabula nova"
+        },
+        {
+          "label": "Contributor",
+          "value": "Gastaldi, Giacomo, approximately 1500-approximately 1565."
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Type",
+          "value": "Digital maps."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 11.5 x 16 cm. (plate 13 x 17 cm.)."
+        },
+        {
+          "label": "Language",
+          "value": "Italian"
+        },
+        {
+          "label": "Description",
+          "value": "Shows mountains, rivers and settlements in the southern United States, Mexico and Central America."
+        },
+        {
+          "label": "Description",
+          "value": "Relief shown pictorially."
+        },
+        {
+          "label": "Description",
+          "value": "California shown as a peninsula."
+        },
+        {
+          "label": "Description",
+          "value": "Cartography by Gastaldi."
+        },
+        {
+          "label": "Description",
+          "value": "Text on verso with title: Della nova Hispania and 55 at bottom."
+        },
+        {
+          "label": "Description",
+          "value": "Issued in the Italian edition of Ptolemy's Geography."
+        },
+        {
+          "label": "Description",
+          "value": "McLaughlin map number 1189."
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Burden, 17"
+        },
+        {
+          "label": "Subject",
+          "value": "Mexico"
+        },
+        {
+          "label": "Subject",
+          "value": "Central America"
+        },
+        {
+          "label": "Subject",
+          "value": "New Spain"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale not given"
+        },
+        {
+          "label": "Coverage",
+          "value": "120°00′00″W -- 70°00′00″W / 40°00′00″N -- 0°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1548"
+        },
+        {
+          "label": "Date",
+          "value": "1548"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/dd649qk9878"
+        },
+        {
+          "label": "Publisher",
+          "value": "Giacomo Gastaldi"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-14"
+        }
+      ],
+      "description": "Shows mountains, rivers and settlements in the southern United States, Mexico and Central America.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/dd649qk9878%2Fdd649qk9878_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/dd649qk9878%2Fdd649qk9878_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 354
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/dd649qk9878/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/dd649qk9878/iiif/canvas/cocina-fileSet-dd649qk9878-dd649qk9878_1",
+              "@type": "sc:Canvas",
+              "label": "mclaughlin_dd649qk9878",
+              "height": 4096,
+              "width": 4628,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/dd649qk9878/dd649qk9878_05_0001.jp2",
+                  "label": "Original source file (3.41 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/dd649qk9878/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fdd649qk9878-dd649qk9878_1%2Fdd649qk9878_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/dd649qk9878/iiif/canvas/cocina-fileSet-dd649qk9878-dd649qk9878_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/dd649qk9878%2Fdd649qk9878_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 4096,
+                    "width": 4628,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/dd649qk9878%2Fdd649qk9878_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hf530hv9225/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "DESCRIPTIO INDIÆ OCCIDENTALIS Per Antonium de Herrera Regium Indiarum et Castellæ Historiographum",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hf530hv9225.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hf530hv9225'>https://purl.stanford.edu/hf530hv9225</a>"
+        },
+        {
+          "label": "Title",
+          "value": "DESCRIPTIO INDIÆ OCCIDENTALIS Per Antonium de Herrera Regium Indiarum et Castellæ Historiographum"
+        },
+        {
+          "label": "Contributor",
+          "value": "Herrera y Tordesillas, Antonio de, 1559-1625"
+        },
+        {
+          "label": "Type",
+          "value": "Digital maps."
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Type",
+          "value": "Map."
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 28.3 x 19 cm, with map 10.5 x 15 cm including scrollwork border"
+        },
+        {
+          "label": "Description",
+          "value": "Map on 2nd title page of: Descriptio Indiae Occidentalis / per Antonium de Herrera Regium Indiarum et Castellæ Historiographum. Issued with Dutch first title page of: Nievve vverelt, anders ghenaempt vvest-Indien / By Michiel Colijn. -- t’Amsterdam, anno 1622. Issued with French first title page of: Description des Indes Occidentales, qu’on appelle aujourdhuy le novveav monde / Par Antoine de Herrera. -- A Amsterdam : Chez Emanvel Colin ... et ... à Paris Chez Michel Soly ..., anno M.D.C.XXII [1622]"
+        },
+        {
+          "label": "Description",
+          "value": "The earliest representation of California as a large island on map of Western Hemisphere on bottom half of title page. No place names.Title center page with crest above and 8 illustrations of native gods, figures and structures on sides. Map following [page]2 shows California as a peninsula"
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin book number (1995 edition) with latest state information: TP1-02"
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin Book Number (1995 edition): TP1"
+        },
+        {
+          "label": "Description",
+          "value": "State 1: In French, without text on verso."
+        },
+        {
+          "label": "Description",
+          "value": "State 2: In Latin, with text on verso: Extraict dv privilege de Messieurs les Estats Generaux des Provinces Unies..."
+        },
+        {
+          "label": "Description",
+          "value": "State 3: 1623, in German, with a slightly slimmer California and several changes to title page: figure of Magellanus and medallion of Christophorvs Colvmbvs to left of map, and figure of Franciscus Pisardu and medallion of Americvs Vespvtivs to right of map; top center crest is reduced in size and surrounded by more decorative artwork; center contains much text within border; no text on verso; and no oak-leaf border on title page. 29.1 x 19.1 cm."
+        },
+        {
+          "label": "Description",
+          "value": "State 4: [1624], with oak-leaf border, otherwise identical with 1622 issue. Text on verso: Svmma privilegii... 28.3 x 19.1 cm. including border."
+        },
+        {
+          "label": "Description",
+          "value": "State 5: 1624, in Latin, figure of Magellanus and medallion of Christophorvs Colvmbvs to left of map, and figure of Franciscus Pisardu and medallion of Americvs Vespvtivs to right of map; top center crest is reduced in size and surrounded by more decorative artwork; center contains much text within border; no text on verso; and no oak-leaf border on title page. 29.1 x 19.1 cm."
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Wagner 291; Wagner/Sp. SW 12a; Tooley/107 (Plate 15); Leighly 1; Nordenskiöld 3,970 and 971; Burden 195 (Plate 195) and 200 (Plate 200); Church 173 and 199."
+        },
+        {
+          "label": "Subject",
+          "value": "America"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:120,000,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "160°00′00″W -- 20°00′00″E / 90°00′00″N -- 90°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1622"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hf530hv9225"
+        },
+        {
+          "label": "Publisher",
+          "value": "s.n."
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-14"
+        }
+      ],
+      "description": "Map on 2nd title page of: Descriptio Indiae Occidentalis / per Antonium de Herrera Regium Indiarum et Castellæ Historiographum. Issued with Dutch first title page of: Nievve vverelt, anders ghenaempt vvest-Indien / By Michiel Colijn. -- t’Amsterdam, anno 1622. Issued with French first title page of: Description des Indes Occidentales, qu’on appelle aujourdhuy le novveav monde / Par Antoine de Herrera. -- A Amsterdam : Chez Emanvel Colin ... et ... à Paris Chez Michel Soly ..., anno M.D.C.XXII [1622]",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hf530hv9225%2Fhf530hv9225_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hf530hv9225%2Fhf530hv9225_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 253,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hf530hv9225/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hf530hv9225/iiif/canvas/cocina-fileSet-hf530hv9225-hf530hv9225_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 4787,
+              "width": 3025,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hf530hv9225/hf530hv9225_05_0001.jp2",
+                  "label": "Original source file (2.62 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hf530hv9225/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fhf530hv9225-hf530hv9225_1%2Fhf530hv9225_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hf530hv9225/iiif/canvas/cocina-fileSet-hf530hv9225-hf530hv9225_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hf530hv9225%2Fhf530hv9225_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 4787,
+                    "width": 3025,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hf530hv9225%2Fhf530hv9225_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/sy409bk9698/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "The North part of America conteyning Newfoundland, New England, Virginia, Florida, New Spaine and Nova Francia, with ye riche Iles of Hispaniola, Cuba, Jamaica, and Porto Rieco, on the south, and upon ye west the large and goodly island of California",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/sy409bk9698.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/sy409bk9698'>https://purl.stanford.edu/sy409bk9698</a>"
+        },
+        {
+          "label": "Title",
+          "value": "The North part of America conteyning Newfoundland, New England, Virginia, Florida, New Spaine and Nova Francia, with ye riche Iles of Hispaniola, Cuba, Jamaica, and Porto Rieco, on the south, and upon ye west the large and goodly island of California"
+        },
+        {
+          "label": "Contributor",
+          "value": "Briggs, Henry, 1561-1630."
+        },
+        {
+          "label": "Contributor",
+          "value": "Elstracke, Renold, active 1590-1630"
+        },
+        {
+          "label": "Type",
+          "value": "cartographic"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : engraved ; 27 x 34 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "R. Elstracke Sculpsit."
+        },
+        {
+          "label": "Description",
+          "value": "The first printed map in English to show California as an island, with flat northern coast."
+        },
+        {
+          "label": "Description",
+          "value": "Cities, etc. ; shoals; pictorial symbols; notes."
+        },
+        {
+          "label": "Description",
+          "value": "Watermark."
+        },
+        {
+          "label": "Description",
+          "value": "Notes on map refer to California, Sr. Thomas Button and Mr. Baffin."
+        },
+        {
+          "label": "Description",
+          "value": "Projection: simple conical."
+        },
+        {
+          "label": "Description",
+          "value": "\"852\" & \"853\" inside neat line in top left & right corners of map."
+        },
+        {
+          "label": "Description",
+          "value": "Engraved by: R. Elstrake Sculpsit (lower right)."
+        },
+        {
+          "label": "Description",
+          "value": "On the map are two notes, one stating\"California sometymes supposed to be a part of ye westerne continent, but scince by a Spanish Charte taken by ye Hollanders it is found to be a goodly Ilande: the length of the west shoare beeing about 500 leagues...\""
+        },
+        {
+          "label": "Description",
+          "value": "Issued in: Hakluytus Posthumus or Purchas His Pilgrimes, III, 852-3. London, 1625, to accompany an article by H. Briggs on the Northwest Passage."
+        },
+        {
+          "label": "Description",
+          "value": "McLaughlin map number 2."
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Wagner, 295"
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Wheat, 38"
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Tooley, 1, Plate 26"
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Leighly, 4, Plate III"
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Portinaro, Plate LXX"
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Goss, Plate 24"
+        },
+        {
+          "label": "Provenance",
+          "value": "Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Subject",
+          "value": "North America"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:23,500,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "127°11′00″W -- 52°02′00″W / 63°25′00″N -- 14°18′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1625"
+        },
+        {
+          "label": "Date",
+          "value": "1625"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/sy409bk9698"
+        },
+        {
+          "label": "Publisher",
+          "value": "William Stansby for Henrie Fetherstone"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-08-28"
+        }
+      ],
+      "description": "The first printed map in English to show California as an island, with flat northern coast.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 350
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/sy409bk9698/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 10874,
+              "width": 12412,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/sy409bk9698/sy409bk9698_05_0001.jp2",
+                  "label": "Original source file (24.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/sy409bk9698/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fsy409bk9698-sy409bk9698_1%2Fsy409bk9698_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10874,
+                    "width": 12412,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/vw323gf4937/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "AMERICA with those known parts in that unknowne worlde both people and manner of buildings Discribed and inlarged by I.S.Ano.1626",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/vw323gf4937.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/vw323gf4937'>https://purl.stanford.edu/vw323gf4937</a>"
+        },
+        {
+          "label": "Title",
+          "value": "AMERICA with those known parts in that unknowne worlde both people and manner of buildings Discribed and inlarged by I.S.Ano.1626"
+        },
+        {
+          "label": "Contributor",
+          "value": "Speed, John, 1552?-1629"
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Separate Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 35.2 x 43.7 cm., 39.5 x 51.2 cm. including border."
+        },
+        {
+          "label": "Description",
+          "value": "California with flat northern coast and with place names mostly taken from Brigg's map. Inset: The northerly part of America (upper left). The borders of the map on the top contain plans of towns and on the sides figures of the inhabitants of different countries. Text on verso paged 9 and 10. Engraved by: Abraham Goos Amstelodamiensis Sculpsit (lower right)."
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin book number (1995 edition) with latest state information: 3-01"
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin Book Number (1995 edition): 3"
+        },
+        {
+          "label": "Description",
+          "value": "State 1: 1626, \"Are to be sold in pops-head alley against the Exchange by G. Humble, 1626\". Issued in his: A prospect of the most famous parts of the world . -- London : G. Humble, 1627. Reissued in the 1631 edition with no changes to map but changed text on verso. Reissued 1646, 1650-54."
+        },
+        {
+          "label": "Description",
+          "value": "State 2: 1662, with the town of Boston in New England, Connecticut, Maryland and Long Island are added to the plate and a dotted boundary placed round Delaware and Hudsons Rio. The text on verso has unchanged content but the type is reset and now commences with a historiated capital A, a new fleuron heading and the page number 9 restored top right."
+        },
+        {
+          "label": "Description",
+          "value": "State 3: 1662, with imprint changed from G. Humble to: Are to be sold by Roger Rea ye Elder and younger at ye Golden Cross in Cornhill against ye Exchange."
+        },
+        {
+          "label": "Description",
+          "value": "State 4: [1676], \"are to be sold by Thomas Bassett in Fleet Street, and by Richard Chiswell in St. Paul's Churchyard.\" The text on verso is rewritten and there is no fleuron heading. Map is still dated 1626. Issued in his: The Theatre of Great Britaine, London, 1676."
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "LC 442 and 488; Wagner 301b; Wheat 39; Tooley 2, 3, 4, 5 (Plate 27); Leighly 6 (Plate IV); UCB; Goss (Plate 25); Burden 217 (Plate 217); Clancy (Map 7.6)."
+        },
+        {
+          "label": "Subject",
+          "value": "America"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:46,000,000]."
+        },
+        {
+          "label": "Coverage",
+          "value": "160°00′00″W -- 20°00′00″E / 90°00′00″N -- 90°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1626"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/vw323gf4937"
+        },
+        {
+          "label": "Publisher",
+          "value": "by G. Humble"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "California with flat northern coast and with place names mostly taken from Brigg's map. Inset: The northerly part of America (upper left). The borders of the map on the top contain plans of towns and on the sides figures of the inhabitants of different countries. Text on verso paged 9 and 10. Engraved by: Abraham Goos Amstelodamiensis Sculpsit (lower right).",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/vw323gf4937%2Fvw323gf4937_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/vw323gf4937%2Fvw323gf4937_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 316
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/vw323gf4937/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/vw323gf4937/iiif/canvas/cocina-fileSet-vw323gf4937-vw323gf4937_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 10199,
+              "width": 12909,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/vw323gf4937/vw323gf4937_05_0001.jp2",
+                  "label": "Original source file (23.7 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/vw323gf4937/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fvw323gf4937-vw323gf4937_1%2Fvw323gf4937_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/vw323gf4937/iiif/canvas/cocina-fileSet-vw323gf4937-vw323gf4937_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/vw323gf4937%2Fvw323gf4937_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10199,
+                    "width": 12909,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/vw323gf4937%2Fvw323gf4937_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/qz404xp7062/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "AMERIQUE SEPTENTRIONALE Par N. Sanson Geographe Ord.re du Roy. Reveue et changée en plusieurs endroits suivant les Memoires les plus recents",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/qz404xp7062.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/qz404xp7062'>https://purl.stanford.edu/qz404xp7062</a>"
+        },
+        {
+          "label": "Title",
+          "value": "AMERIQUE SEPTENTRIONALE Par N. Sanson Geographe Ord.re du Roy. Reveue et changée en plusieurs endroits suivant les Memoires les plus recents"
+        },
+        {
+          "label": "Contributor",
+          "value": "Sanson, Guillaume."
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 38 x 54 cm., 39.5 x 55.4 cm. including border."
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "Par G. Sanson Geogr. Ordinaire du Roy."
+        },
+        {
+          "label": "Description",
+          "value": "California based on N. Sanson's map of 1650, with indented northern coastline and many coastal place names. Agubela de Cato as peninsula on mainland to north. Great Lakes are open-ended to west. Decorative title cartouche with cherubs and fruit (upper left)."
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin book number (1995 edition) with latest state information: 45-01"
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin Book Number (1995 edition): 45"
+        },
+        {
+          "label": "Description",
+          "value": "State 1: 1669, Detroit d'Anien not labeled. Issued in: Carte generales de toutes les parties, du monde ..., 1670. Issued in: Cartes generales de la geographie ancienne et nouvelle ..., 1676."
+        },
+        {
+          "label": "Description",
+          "value": "State 2: 1690, with “augmentée et corrigée en cette seconde edition” inserted in title above Par G. Sanson, and with additions of Detroit d'Anien, Nouvelle Albion, labelling of Terre de Iesso, I. de Pararos instead of I. de Para, and N. Yorc aut added above Amsterdam. Map examined is attached to page of text in columnar form, listing regional place names, and with imprint: A PARIS Chez l’Auteur NICOLAS SANSON dAbbeuille Geogr du Roy aueq Privilege pour dix Ans 1644. R. Cordier Abbauil Sculp (bottom left)."
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "L.C. 484, 486 & 3426; Wagner 399; Tooley 8 & 9; Leighly 53; BN Sanson V E(213); UCB; Nordenskiöld 2,275 (32); Burden 404 (Plate 404)."
+        },
+        {
+          "label": "Subject",
+          "value": "North America"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca.1:21,500,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "173°00′00″W -- 10°00′00″W / 84°00′00″N -- 7°10′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1669"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/qz404xp7062"
+        },
+        {
+          "label": "Publisher",
+          "value": "Chez Pierre Mariette rüe St. Iacques à l'Esperace"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "California based on N. Sanson's map of 1650, with indented northern coastline and many coastal place names. Agubela de Cato as peninsula on mainland to north. Great Lakes are open-ended to west. Decorative title cartouche with cherubs and fruit (upper left).",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/qz404xp7062%2Fqz404xp7062_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/qz404xp7062%2Fqz404xp7062_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 293
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/qz404xp7062/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/qz404xp7062/iiif/canvas/cocina-fileSet-qz404xp7062-qz404xp7062_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 10427,
+              "width": 14257,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/qz404xp7062/qz404xp7062_05_0001.jp2",
+                  "label": "Original source file (26.7 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/qz404xp7062/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fqz404xp7062-qz404xp7062_1%2Fqz404xp7062_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/qz404xp7062/iiif/canvas/cocina-fileSet-qz404xp7062-qz404xp7062_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/qz404xp7062%2Fqz404xp7062_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10427,
+                    "width": 14257,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/qz404xp7062%2Fqz404xp7062_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/kc128tv5108/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "AUDIENCE DE GUADALAJARA, NOUVEAU MEXIQUE, CALIFORNIE, &c",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/kc128tv5108.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/kc128tv5108'>https://purl.stanford.edu/kc128tv5108</a>"
+        },
+        {
+          "label": "Title",
+          "value": "AUDIENCE DE GUADALAJARA, NOUVEAU MEXIQUE, CALIFORNIE, &c"
+        },
+        {
+          "label": "Contributor",
+          "value": "Sanson, Nicolas, 1600-1667"
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : hand col.; 20.5 x 22.4 cm., 20.5 x 24 cm. including border."
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "Par N. Sanson d'Abbeville Geogr. ordin' du Roy."
+        },
+        {
+          "label": "Description",
+          "value": "California as an island, labelled California Isle, and with indented northern coastline and many place names. Agubela de Cato to north. Winged title cartouche. (upper right)."
+        },
+        {
+          "label": "Description",
+          "value": "Reissued 1657, 1662, 1676, 1683, 1696, 1699.Issued in his: L'Amerique en plusieurs cartes nouvelles et exactes, et en divers traittez de graphie & d'histoire... , Paris, 1657."
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin book number (1995 edition) with latest state information: 16-01"
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin Book Number (1995 edition): 16"
+        },
+        {
+          "label": "Description",
+          "value": "State 1: [1656], in French, with imprint 'A Paris chez P. Mariette rue S. Iacques a l'Esperance Avec Pri. pour 20 ans'. Manuscript '63' (top right, outside map border)."
+        },
+        {
+          "label": "Description",
+          "value": "State 2: 1657, with changed imprint: Par N. Sanson d'Abbeville Geogr. ordin' du Roy. Avecq Privilege pour 20 Ans. 1657."
+        },
+        {
+          "label": "Description",
+          "value": "State 3: In French, with 'Par N. Sanson d'Abbeville Geogr Ordin du Roy' imprint. Otherwise identical with 1st and 2nd states. Undated"
+        },
+        {
+          "label": "Description",
+          "value": "State 4: In Latin, [1657?], entitled: Audienca de Guadalajara, Nova Mexico California &c. / Per N. Sanson. California labelled California Insula. Title cartouche smaller, of scrollwork instead of wings."
+        },
+        {
+          "label": "Description",
+          "value": "State 5: In Dutch, 1665, 1683, 1705, 1715, entitled: 'T gebiedt van Guadalajara, Niew Mexico, en Californie enz. / door N. Sanson d'Abbeville Geogr Ordin du Roy. Mountains shown pictorially on mainland, place names unchanged from French editions, but with Nouvelle Albion labelled on California's north. Issued in his: L'Amerique en plusieurs cartes nouvelles et exactes, et en divers traittez de graphie & d'histoire... , Utrecht, following p.26,[1683]. Issued in: Algeemeene Weereld-Beschreibung ... / Pherotee De La Croix. -- Amsterdam : Francois Halma, 1705."
+        },
+        {
+          "label": "Description",
+          "value": "State 6: In French, with Guadalajara now spelled Guadalaiara in title cartouche, and 'Par N. Sanson d'Abb Geogr. Ordin du Roy' imprint. Otherwise identical with Dutch issue (state 5). Issued in: Atlas portatif, [Map]271 / du Sauzet. Issued in: America explored, [p.145] / Adrian Johnson"
+        },
+        {
+          "label": "Description",
+          "value": "State 7: In German, entitled: Audience de Guadalajara, Nova Mexico California &c. / Per N. Sanson. Issued in: Die Gantze Erd-Kugel Bestehend In ... Europa, Asia, Africa, Und America, [1679]."
+        },
+        {
+          "label": "Description",
+          "value": "State 8: In French, with mountains above Apache. Entitled: Audience de Guadalajara, Nouveau Mexique, Californie, &c. / Par N. Sanson d’Abbeville Geogr Ordin du Roy. Otherwise identical with Dutch issue (state 5). Issued in: Description de tout L’Universe… / Par Mrs. Sanson Pere & Fils. – A Amsterdam : Francois Halma, M.D.CC. (1700)."
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Wheat 54; Tooley 15; Leighly 28 (Plate IX); BN Sanson II A(5), Sanson II F(5) & Sanson VII E; Ashley Baynton-Williams, correspondence, 1995; UCB; Americana Catalog No. 54, Richard Fitch “Old maps & prints & books”, Item #30."
+        },
+        {
+          "label": "Subject",
+          "value": "Mexico"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca.1:17,000,000] ;"
+        },
+        {
+          "label": "Coverage",
+          "value": "125°00′00″W -- 110°00′00″W / 47°00′00″N -- 31°00′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1656"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/kc128tv5108"
+        },
+        {
+          "label": "Publisher",
+          "value": "Chez P. Mariette"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-14"
+        }
+      ],
+      "description": "California as an island, labelled California Isle, and with indented northern coastline and many place names. Agubela de Cato to north. Winged title cartouche. (upper right).",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/kc128tv5108%2Fkc128tv5108_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/kc128tv5108%2Fkc128tv5108_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 259
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/kc128tv5108/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/kc128tv5108/iiif/canvas/cocina-fileSet-kc128tv5108-kc128tv5108_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 4160,
+              "width": 6432,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/kc128tv5108/kc128tv5108_05_0001.jp2",
+                  "label": "Original source file (4.83 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/kc128tv5108/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fkc128tv5108-kc128tv5108_1%2Fkc128tv5108_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/kc128tv5108/iiif/canvas/cocina-fileSet-kc128tv5108-kc128tv5108_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/kc128tv5108%2Fkc128tv5108_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 4160,
+                    "width": 6432,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/kc128tv5108%2Fkc128tv5108_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/cb718nd1707/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "LA CALIFORNIE ou NOUVELLE CAROLINE, TEATRO DE LOS TRABAJOS, APOSTOLICOS DE LA COMPA, E JESUS EN LA AMERICA, SEPTE. Dressèe sur celle que le Viceroy de la Nouvelle Espagne envoya il y a peu d'Annèes a= Mrs. de l'Academie des Sciences",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/cb718nd1707.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/cb718nd1707'>https://purl.stanford.edu/cb718nd1707</a>"
+        },
+        {
+          "label": "Title",
+          "value": "LA CALIFORNIE ou NOUVELLE CAROLINE, TEATRO DE LOS TRABAJOS, APOSTOLICOS DE LA COMPA, E JESUS EN LA AMERICA, SEPTE. Dressèe sur celle que le Viceroy de la Nouvelle Espagne envoya il y a peu d'Annèes a= Mrs. de l'Academie des Sciences"
+        },
+        {
+          "label": "Contributor",
+          "value": "Fer, Nicolas de, 1646-1720"
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : hand col. ; 46.5 x 67.8 cm. to imprint edge."
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "Par N. de Fer Geographe de sa Majeste Catolique."
+        },
+        {
+          "label": "Description",
+          "value": "California as an island with indented northern coast."
+        },
+        {
+          "label": "Description",
+          "value": "Enlarged version of his 1700 map of California and New Mexico. Place names in New Mexico are now engraved on map, rather than numbered."
+        },
+        {
+          "label": "Description",
+          "value": "Issued in his: Atlas ou recüeil de cartes geographiques, Paris, 1709-[28]."
+        },
+        {
+          "label": "Description",
+          "value": "Scale given within cartouche decorated with birds, armadillo and sloth (bottom left)."
+        },
+        {
+          "label": "Description",
+          "value": "Text giving names and dates of European landings in California is below title, within scroll with vignettes of natives (upper right)."
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin Book Number (1995 edition): 196"
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Wagner 517; Wheat 102; Tooley 83 (Plate 58); Leighly 146 (Plate XXI); BN FER IIC(95)."
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:6,800,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "124°30′00″W -- 114°15′00″W / 42°00′00″N -- 32°30′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1720"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/cb718nd1707"
+        },
+        {
+          "label": "Publisher",
+          "value": "s.n."
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-13"
+        }
+      ],
+      "description": "California as an island with indented northern coast.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/cb718nd1707%2Fcb718nd1707_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/cb718nd1707%2Fcb718nd1707_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 308
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/cb718nd1707/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/cb718nd1707/iiif/canvas/cocina-fileSet-cb718nd1707-cb718nd1707_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 15984,
+              "width": 20764,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/cb718nd1707/cb718nd1707_05_0001.jp2",
+                  "label": "Original source file (59.7 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/cb718nd1707/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fcb718nd1707-cb718nd1707_1%2Fcb718nd1707_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/cb718nd1707/iiif/canvas/cocina-fileSet-cb718nd1707-cb718nd1707_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/cb718nd1707%2Fcb718nd1707_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 15984,
+                    "width": 20764,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/cb718nd1707%2Fcb718nd1707_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/vj377yr4487/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Passage by land to California. Discovered by Father Eusebius Francis Kino, a Jesuit, between the years 1698 & 1701 containing likewise the New Missions of the Jesuits",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/vj377yr4487.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/vj377yr4487'>https://purl.stanford.edu/vj377yr4487</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Passage by land to California. Discovered by Father Eusebius Francis Kino, a Jesuit, between the years 1698 & 1701 containing likewise the New Missions of the Jesuits"
+        },
+        {
+          "label": "Contributor",
+          "value": "Kino, Eusebio Francisco, 1644-1711."
+        },
+        {
+          "label": "Contributor",
+          "value": "Bowen, Emanuel, 1693 or 1694-1767"
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Type",
+          "value": "Digital maps."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : hand col. ; 22.2 x 19.4 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "E. Bowen Sc."
+        },
+        {
+          "label": "Description",
+          "value": "Relief shown pictorially."
+        },
+        {
+          "label": "Description",
+          "value": "California shown as a peninsula."
+        },
+        {
+          "label": "Description",
+          "value": "\"Vol I. pag. 395.\" at top left inside border."
+        },
+        {
+          "label": "Description",
+          "value": "McLaughlin map number 1187."
+        },
+        {
+          "label": "Subject",
+          "value": "Baja California (Mexico : Peninsula)"
+        },
+        {
+          "label": "Subject",
+          "value": "Discovery and exploration"
+        },
+        {
+          "label": "Subject",
+          "value": "California, Gulf of (Mexico)"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:1,500,000."
+        },
+        {
+          "label": "Coverage",
+          "value": "120°00′00″W -- 110°00′00″W / 35°00′00″N -- 25°00′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1762"
+        },
+        {
+          "label": "Date",
+          "value": "1762"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/vj377yr4487"
+        },
+        {
+          "label": "Publisher",
+          "value": "s.n."
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "Relief shown pictorially.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/vj377yr4487%2Fvj377yr4487_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/vj377yr4487%2Fvj377yr4487_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 389
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/vj377yr4487/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/vj377yr4487/iiif/canvas/cocina-fileSet-vj377yr4487-vj377yr4487_1",
+              "@type": "sc:Canvas",
+              "label": "mclaughlin_vj377yr4487",
+              "height": 6392,
+              "width": 6574,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/vj377yr4487/vj377yr4487_05_0001.jp2",
+                  "label": "Original source file (7.53 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/vj377yr4487/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fvj377yr4487-vj377yr4487_1%2Fvj377yr4487_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/vj377yr4487/iiif/canvas/cocina-fileSet-vj377yr4487-vj377yr4487_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/vj377yr4487%2Fvj377yr4487_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 6392,
+                    "width": 6574,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/vj377yr4487%2Fvj377yr4487_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/qt320qh7523/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Tabula Californiae, anno 1702",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/qt320qh7523.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/qt320qh7523'>https://purl.stanford.edu/qt320qh7523</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Tabula Californiae, anno 1702"
+        },
+        {
+          "label": "Contributor",
+          "value": "Kino, Eusebio Francisco, 1644-1711."
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Type",
+          "value": "Digital maps."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 32 x 20 cm."
+        },
+        {
+          "label": "Language",
+          "value": "Latin"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "ex autoptica observatione delineata a R.P. Chino è S.I."
+        },
+        {
+          "label": "Description",
+          "value": "Relief shown pictorially."
+        },
+        {
+          "label": "Description",
+          "value": "California shown as a peninsula and labeled Californiae Pars."
+        },
+        {
+          "label": "Description",
+          "value": "Shows Baja and northwestern Mexico."
+        },
+        {
+          "label": "Description",
+          "value": "At upper left: \"Via terristris in Californiam comperta et detecta per R. Patrem Eusebium Fran. Chino è S.I. Germanum. Adnotatis novis missionibus esusdem Soctis ab Anno 1698 ad annum 1701.\""
+        },
+        {
+          "label": "Description",
+          "value": "In left margin: \"Tabula geographica R.P. Eusebÿ Franc Kino Tridentini è Soc. IESU. Tabula chartae Patris Chino addita.\""
+        },
+        {
+          "label": "Description",
+          "value": "At bottom right: \"Zu Num. 53. in dem II. Theil und zu Num. 73. in dem III. Theil.\""
+        },
+        {
+          "label": "Description",
+          "value": "McLaughlin map number 1185."
+        },
+        {
+          "label": "Subject",
+          "value": "Baja California (Mexico : Peninsula)"
+        },
+        {
+          "label": "Subject",
+          "value": "California, Gulf of (Mexico)"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:1,500,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "120°00′00″W -- 110°00′00″W / 35°00′00″N -- 21°00′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1726"
+        },
+        {
+          "label": "Date",
+          "value": "1726"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/qt320qh7523"
+        },
+        {
+          "label": "Publisher",
+          "value": "s.n."
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "Relief shown pictorially.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/qt320qh7523%2Fqt320qh7523_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/qt320qh7523%2Fqt320qh7523_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 282,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/qt320qh7523/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/qt320qh7523/iiif/canvas/cocina-fileSet-qt320qh7523-qt320qh7523_1",
+              "@type": "sc:Canvas",
+              "label": "mclaughlin_qt320qh7523",
+              "height": 10031,
+              "width": 7067,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/qt320qh7523/qt320qh7523_05_0001.jp2",
+                  "label": "Original source file (12.7 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/qt320qh7523/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fqt320qh7523-qt320qh7523_1%2Fqt320qh7523_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/qt320qh7523/iiif/canvas/cocina-fileSet-qt320qh7523-qt320qh7523_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/qt320qh7523%2Fqt320qh7523_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10031,
+                    "width": 7067,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/qt320qh7523%2Fqt320qh7523_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hs911xj2406/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "CARTE DE LA CALIFORNIE Suivant I. la Carte manuscrite de l'Amerique de Mathieu Néron Pecci olen dresses à Florence en 1604 II. Sanson 1656 III. De l'Isle Amèrique Sept. 1700 IV. le Pere Kino Jesuite en 1705 V. la Sociètè des Jésuites en 1767 La Còte orientale depuis le C. des Vierges jusqu'à l'embouchure du R. Colorado est estraite de la Carte du P. Ferdinand Gonsaque dressèe en 1746",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hs911xj2406.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hs911xj2406'>https://purl.stanford.edu/hs911xj2406</a>"
+        },
+        {
+          "label": "Title",
+          "value": "CARTE DE LA CALIFORNIE Suivant I. la Carte manuscrite de l'Amerique de Mathieu Néron Pecci olen dresses à Florence en 1604 II. Sanson 1656 III. De l'Isle Amèrique Sept. 1700 IV. le Pere Kino Jesuite en 1705 V. la Sociètè des Jésuites en 1767 La Còte orientale depuis le C. des Vierges jusqu'à l'embouchure du R. Colorado est estraite de la Carte du P. Ferdinand Gonsaque dressèe en 1746"
+        },
+        {
+          "label": "Contributor",
+          "value": "Robert de Vaugondy, Didier, 1723-1786"
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Separate Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 29 x 38.2 cm."
+        },
+        {
+          "label": "Description",
+          "value": "Five representations of California on one sheet representing its delineation at various times, with view 'II' showing California as an island with indented northern coastline and many coastal place names. Suppl. 5e. Carte. (top right, above map)."
+        },
+        {
+          "label": "Description",
+          "value": "Issued in atlas to accompany his: Diderot’s Encyclopedie, Paris, 1770. Issued in: Recueil de planches, pour la nouvelle édition de dictionnaire raisonné des sciences, des arts et des métiers, avec leur explication. Tome Troisieme. / Chez les Sociétés Typographiques. -- A Lausanne et a Berne, 1781."
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin book number (1995 edition) with latest state information: 241-01"
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin Book Number (1995 edition): 241"
+        },
+        {
+          "label": "Description",
+          "value": "State 1: Inset maps “II” and “V” are unlabelled. Map [II] is with horizontal lettering for “P. de la Conception”. Map III with lettering but no land represented for “I. de Se. Catherine” and “I. de Cenica”; with “MER DE CALIFORNIE ou VERMEILLE” extending to 37 deg. N. with shading along the “R. de bona guida”; and with no top longitude lines except 235 and 240 deg. N. Within title cartouche, “1767” lettering has the 6 & 7 run together. Dimensions 29 x 38.2 cm."
+        },
+        {
+          "label": "Description",
+          "value": "State 2: All inset maps are labelled. Map II with horizontal lettering for “P. de la Conception”. Map III with lettering but no land represented for “I. de Se. Catherine” and “I. de Cenica”; with “MER DE CALIFORNIE ou VERMEILLE” extending to 34 deg. N., and with no top longitude lines except 235 and 240 deg. N. Within title cartouche, “1767” lettering is equally spaced. Dimensions: 29.5 x 39.2 cm."
+        },
+        {
+          "label": "Description",
+          "value": "State 3: All inset maps are labelled. Map II with lettering for “P. de la conception” curved upward. Map III with lettering and land represented represented for “I. de Se. Catherine” and “I. de Cenica”; with “MER DE CALIFORNIE ou VERMEILLE” extending to 34 deg. N., and with all top longitude lines labelled. Within title cartouche, “1767” lettering is equally spaced, but bottom paragraph has different line breaks: La Còte orientale depuis le C. des Vierges jusqu'à l'embou-"
+        },
+        {
+          "label": "Description",
+          "value": "State 4: Lettering, line breaks, and spacing as in State 3 but with no period after titles I, III, or V in the title cartouche. Lettering guidelines clearly seen throughout map. With “R.S” (bottom right) and “187=188” (bottom left). Dimensions: 30 x 36.1 cm."
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Wagner 637; Wheat 160; Tooley 100; Leighly 177 (Plate XXIV, State 2); UCB."
+        },
+        {
+          "label": "Subject",
+          "value": "California"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:5,500,000]."
+        },
+        {
+          "label": "Coverage",
+          "value": "124°30′00″W -- 114°15′00″W / 42°00′00″N -- 32°30′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1770"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hs911xj2406"
+        },
+        {
+          "label": "Publisher",
+          "value": "s.n."
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-14"
+        }
+      ],
+      "description": "Five representations of California on one sheet representing its delineation at various times, with view 'II' showing California as an island with indented northern coastline and many coastal place names. Suppl. 5e. Carte. (top right, above map).",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hs911xj2406%2Fhs911xj2406_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hs911xj2406%2Fhs911xj2406_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 315
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hs911xj2406/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hs911xj2406/iiif/canvas/cocina-fileSet-hs911xj2406-hs911xj2406_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 5650,
+              "width": 7173,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hs911xj2406/hs911xj2406_05_0001.jp2",
+                  "label": "Original source file (7.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hs911xj2406/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fhs911xj2406-hs911xj2406_1%2Fhs911xj2406_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hs911xj2406/iiif/canvas/cocina-fileSet-hs911xj2406-hs911xj2406_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hs911xj2406%2Fhs911xj2406_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 5650,
+                    "width": 7173,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hs911xj2406%2Fhs911xj2406_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/wy568jc7945/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[America]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/wy568jc7945.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/wy568jc7945'>https://purl.stanford.edu/wy568jc7945</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[America]"
+        },
+        {
+          "label": "Contributor",
+          "value": "Satō, Shūzō."
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; one hemisphere with 89.5 cm diam. to outside border on sheet 91 x 97.5 cm."
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "[Shuzo Sato]."
+        },
+        {
+          "label": "Description",
+          "value": "California as large island oriented nearly east-west, labeled California, and with no interior details. Eastern Red Sea and New Mexico to east."
+        },
+        {
+          "label": "Description",
+          "value": "Created by Shuzo Sato (lower right; black ink)."
+        },
+        {
+          "label": "Description",
+          "value": "Ex libris Narushima (lower right; red ink)."
+        },
+        {
+          "label": "Description",
+          "value": "In Kanji."
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin Book Number (1995 edition): 246"
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "None found."
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:27,000,000]."
+        },
+        {
+          "label": "Coverage",
+          "value": "160°00′00″W -- 20°00′00″E / 90°00′00″N -- 90°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1865"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/wy568jc7945"
+        },
+        {
+          "label": "Publisher",
+          "value": "Shuzo Sato"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "California as large island oriented nearly east-west, labeled California, and with no interior details. Eastern Red Sea and New Mexico to east.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy568jc7945%2Fwy568jc7945_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy568jc7945%2Fwy568jc7945_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 373
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/wy568jc7945/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/wy568jc7945/iiif/canvas/cocina-fileSet-wy568jc7945-wy568jc7945_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 15007,
+              "width": 16098,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/wy568jc7945/wy568jc7945_05_0001.jp2",
+                  "label": "Original source file (43.4 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/wy568jc7945/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fwy568jc7945-wy568jc7945_1%2Fwy568jc7945_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/wy568jc7945/iiif/canvas/cocina-fileSet-wy568jc7945-wy568jc7945_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/wy568jc7945%2Fwy568jc7945_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 15007,
+                    "width": 16098,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/wy568jc7945%2Fwy568jc7945_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
