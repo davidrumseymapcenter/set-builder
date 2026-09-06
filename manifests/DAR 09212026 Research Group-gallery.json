@@ -1,0 +1,2909 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/DAR 09212026 Research Group",
+  "label": "DAR 09212026 Research Group",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/rp659gb1405/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "The American Atlas: Or, A Geographical Description Of The Whole Continent Of America ... Engraved On Forty-Eight Copper Plates, By The Late Mr. Thomas Jefferys, Geographer to the King, and Others. London, Printed and Sold by R. Sayer and J. Bennett, Map and Print Sellers, No. 53, Fleet-Street. MDCCLXXVI",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/rp659gb1405.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/rp659gb1405'>https://purl.stanford.edu/rp659gb1405</a>"
+        },
+        {
+          "label": "Title",
+          "value": "The American Atlas: Or, A Geographical Description Of The Whole Continent Of America ... Engraved On Forty-Eight Copper Plates, By The Late Mr. Thomas Jefferys, Geographer to the King, and Others. London, Printed and Sold by R. Sayer and J. Bennett, Map and Print Sellers, No. 53, Fleet-Street. MDCCLXXVI"
+        },
+        {
+          "label": "Contributor",
+          "value": "Jefferys, Thomas."
+        },
+        {
+          "label": "Contributor",
+          "value": "Bowen, Eman."
+        },
+        {
+          "label": "Contributor",
+          "value": "Carver, Capt."
+        },
+        {
+          "label": "Contributor",
+          "value": "Chabert, Cook and Fleurieu."
+        },
+        {
+          "label": "Contributor",
+          "value": "Cook, James."
+        },
+        {
+          "label": "Contributor",
+          "value": "D' Anville, Mr."
+        },
+        {
+          "label": "Contributor",
+          "value": "Dunn, Samuel."
+        },
+        {
+          "label": "Contributor",
+          "value": "Fry, Joshua."
+        },
+        {
+          "label": "Contributor",
+          "value": "Gibson, John."
+        },
+        {
+          "label": "Contributor",
+          "value": "Jefferson, Peter."
+        },
+        {
+          "label": "Contributor",
+          "value": "Lane, Michael."
+        },
+        {
+          "label": "Contributor",
+          "value": "Mouzon, Henry."
+        },
+        {
+          "label": "Contributor",
+          "value": "Scull, W."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 22 maps ; 57 x 42 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "National Atlas."
+        },
+        {
+          "label": "Description",
+          "value": "One of the most important atlases of the American Revolutionary War period. There are 22 maps on 29 sheets. The majority of the important large scale maps of the colonies are here, appearing together for the first time after having been issued as separates by Jefferys in the 1750's and 60's. This copy is the 1st 1776 edition, with the Quebec map, without the Lake Champlain map, as issued. This copy is the same as NMM 361, except the title page says 48 copper plates rather then the 49 on NMM 361, and on the NY/NJ map it is Major Holland rather than Capt. Holland (our NY/NJ map says Major-the 1775 says Capt-our index omits Holland-the reproduction atlas map copy says Major, and Carver is eliminated (why?); probably indicates that this was slightly before the NMM 361, as the 1775 title page is identical to this one (although we have not seen it yet-relying on P1165), except for the date. Summary of editions: 1775 (actually issued in 1776, has Evans Middle Colonies map, P1165); 1776 1st issue (our copy with 48 on TP, Quebec replaces Evans, N.Y- & N.J. is dated 1776, rather than 1775 and adds Pownall corrections and improvements); 1776 2nd issue (NMM 361, 49 on TP); 1777 (1776 on TP, N.Amer changes from Bowen/Gibson to Pownall version with 1777 on map, adds L. Champlain, P1166 - our reproduction copy); 1778 (P3659a, NMM 362, no changes from 1777); 1782 (P1169, no changes except Phillips says this copy has 1783 ed of N.Amer., inserted-later?) Our TP is a transition from 1775 to NMM361; NMM361 anticipates the Lake Champlain map in saying 49 plates. Covers are half leather brown cloth covered boards with \"Jeffery's American Atlas. London MDCCLXXVI\" stamped in gilt on the spine."
+        },
+        {
+          "label": "Description",
+          "value": "References: NMM 361; cf P1165, 1166."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 0346.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Revolution, 1775-1783 > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Western Hemisphere > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "North America > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "South America > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Maps > Early works to 1800"
+        },
+        {
+          "label": "Date",
+          "value": "1776"
+        },
+        {
+          "label": "Date",
+          "value": "1776"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/rp659gb1405"
+        },
+        {
+          "label": "Publisher",
+          "value": "Sayer and Bennett,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-03-26"
+        }
+      ],
+      "description": "National Atlas.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/bh255hs1605%2F0346A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/bh255hs1605%2F0346A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 270
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/rp659gb1405/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/rp659gb1405/iiif/canvas/cocina-fileSet-rj915md7787-rj915md7787_1",
+              "@type": "sc:Canvas",
+              "label": "A Map Of Pennsylvania Exhibiting not only The Improved Parts of that Province\n            but also Its Extensive Frontiers: Laid down From Actual Surveys, and Chiefly From The\n            Late Map of W. Scull Published in 1770; And Humbly Inscribed To The Honourable Thomas\n            Penn And Richard Penn Esquires True And Absolute Proprietaries & Governors Of The\n            Province Of Pennsylvania and the Territories thereunto belonging. London Printed for\n            Robt. Sayer & J. Bennett ... June 1775.",
+              "height": 9601,
+              "width": 17621,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/rj915md7787/0346022.jp2",
+                  "label": "Original source file (30.4 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/rp659gb1405/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Frj915md7787-rj915md7787_1%2F0346022.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/rp659gb1405/iiif/canvas/cocina-fileSet-rj915md7787-rj915md7787_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/rj915md7787%2F0346022/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 9601,
+                    "width": 17621,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/rj915md7787%2F0346022",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/rp659gb1405/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "The American Atlas: Or, A Geographical Description Of The Whole Continent Of America ... Engraved On Forty-Eight Copper Plates, By The Late Mr. Thomas Jefferys, Geographer to the King, and Others. London, Printed and Sold by R. Sayer and J. Bennett, Map and Print Sellers, No. 53, Fleet-Street. MDCCLXXVI",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/rp659gb1405.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/rp659gb1405'>https://purl.stanford.edu/rp659gb1405</a>"
+        },
+        {
+          "label": "Title",
+          "value": "The American Atlas: Or, A Geographical Description Of The Whole Continent Of America ... Engraved On Forty-Eight Copper Plates, By The Late Mr. Thomas Jefferys, Geographer to the King, and Others. London, Printed and Sold by R. Sayer and J. Bennett, Map and Print Sellers, No. 53, Fleet-Street. MDCCLXXVI"
+        },
+        {
+          "label": "Contributor",
+          "value": "Jefferys, Thomas."
+        },
+        {
+          "label": "Contributor",
+          "value": "Bowen, Eman."
+        },
+        {
+          "label": "Contributor",
+          "value": "Carver, Capt."
+        },
+        {
+          "label": "Contributor",
+          "value": "Chabert, Cook and Fleurieu."
+        },
+        {
+          "label": "Contributor",
+          "value": "Cook, James."
+        },
+        {
+          "label": "Contributor",
+          "value": "D' Anville, Mr."
+        },
+        {
+          "label": "Contributor",
+          "value": "Dunn, Samuel."
+        },
+        {
+          "label": "Contributor",
+          "value": "Fry, Joshua."
+        },
+        {
+          "label": "Contributor",
+          "value": "Gibson, John."
+        },
+        {
+          "label": "Contributor",
+          "value": "Jefferson, Peter."
+        },
+        {
+          "label": "Contributor",
+          "value": "Lane, Michael."
+        },
+        {
+          "label": "Contributor",
+          "value": "Mouzon, Henry."
+        },
+        {
+          "label": "Contributor",
+          "value": "Scull, W."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 22 maps ; 57 x 42 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "National Atlas."
+        },
+        {
+          "label": "Description",
+          "value": "One of the most important atlases of the American Revolutionary War period. There are 22 maps on 29 sheets. The majority of the important large scale maps of the colonies are here, appearing together for the first time after having been issued as separates by Jefferys in the 1750's and 60's. This copy is the 1st 1776 edition, with the Quebec map, without the Lake Champlain map, as issued. This copy is the same as NMM 361, except the title page says 48 copper plates rather then the 49 on NMM 361, and on the NY/NJ map it is Major Holland rather than Capt. Holland (our NY/NJ map says Major-the 1775 says Capt-our index omits Holland-the reproduction atlas map copy says Major, and Carver is eliminated (why?); probably indicates that this was slightly before the NMM 361, as the 1775 title page is identical to this one (although we have not seen it yet-relying on P1165), except for the date. Summary of editions: 1775 (actually issued in 1776, has Evans Middle Colonies map, P1165); 1776 1st issue (our copy with 48 on TP, Quebec replaces Evans, N.Y- & N.J. is dated 1776, rather than 1775 and adds Pownall corrections and improvements); 1776 2nd issue (NMM 361, 49 on TP); 1777 (1776 on TP, N.Amer changes from Bowen/Gibson to Pownall version with 1777 on map, adds L. Champlain, P1166 - our reproduction copy); 1778 (P3659a, NMM 362, no changes from 1777); 1782 (P1169, no changes except Phillips says this copy has 1783 ed of N.Amer., inserted-later?) Our TP is a transition from 1775 to NMM361; NMM361 anticipates the Lake Champlain map in saying 49 plates. Covers are half leather brown cloth covered boards with \"Jeffery's American Atlas. London MDCCLXXVI\" stamped in gilt on the spine."
+        },
+        {
+          "label": "Description",
+          "value": "References: NMM 361; cf P1165, 1166."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 0346.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Revolution, 1775-1783 > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Western Hemisphere > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "North America > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "South America > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Maps > Early works to 1800"
+        },
+        {
+          "label": "Date",
+          "value": "1776"
+        },
+        {
+          "label": "Date",
+          "value": "1776"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/rp659gb1405"
+        },
+        {
+          "label": "Publisher",
+          "value": "Sayer and Bennett,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-03-26"
+        }
+      ],
+      "description": "National Atlas.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/bh255hs1605%2F0346A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/bh255hs1605%2F0346A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 270
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/rp659gb1405/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/rp659gb1405/iiif/canvas/cocina-fileSet-gt070hw5370-gt070hw5370_1",
+              "@type": "sc:Canvas",
+              "label": "(Composite of) A Map of the most Inhabited part of Virginia containing the\n            whole province of Maryland with Part of Pensilvania, New Jersey and North Carolina\n            Drawn by Joshua Fry & Peter Jefferson in 1775. Printed for Robt. Sayer ...\n            London.",
+              "height": 10462,
+              "width": 15574,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/gt070hw5370/0346025.jp2",
+                  "label": "Original source file (29.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/rp659gb1405/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fgt070hw5370-gt070hw5370_1%2F0346025.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/rp659gb1405/iiif/canvas/cocina-fileSet-gt070hw5370-gt070hw5370_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/gt070hw5370%2F0346025/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10462,
+                    "width": 15574,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/gt070hw5370%2F0346025",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/rp659gb1405/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "The American Atlas: Or, A Geographical Description Of The Whole Continent Of America ... Engraved On Forty-Eight Copper Plates, By The Late Mr. Thomas Jefferys, Geographer to the King, and Others. London, Printed and Sold by R. Sayer and J. Bennett, Map and Print Sellers, No. 53, Fleet-Street. MDCCLXXVI",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/rp659gb1405.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/rp659gb1405'>https://purl.stanford.edu/rp659gb1405</a>"
+        },
+        {
+          "label": "Title",
+          "value": "The American Atlas: Or, A Geographical Description Of The Whole Continent Of America ... Engraved On Forty-Eight Copper Plates, By The Late Mr. Thomas Jefferys, Geographer to the King, and Others. London, Printed and Sold by R. Sayer and J. Bennett, Map and Print Sellers, No. 53, Fleet-Street. MDCCLXXVI"
+        },
+        {
+          "label": "Contributor",
+          "value": "Jefferys, Thomas."
+        },
+        {
+          "label": "Contributor",
+          "value": "Bowen, Eman."
+        },
+        {
+          "label": "Contributor",
+          "value": "Carver, Capt."
+        },
+        {
+          "label": "Contributor",
+          "value": "Chabert, Cook and Fleurieu."
+        },
+        {
+          "label": "Contributor",
+          "value": "Cook, James."
+        },
+        {
+          "label": "Contributor",
+          "value": "D' Anville, Mr."
+        },
+        {
+          "label": "Contributor",
+          "value": "Dunn, Samuel."
+        },
+        {
+          "label": "Contributor",
+          "value": "Fry, Joshua."
+        },
+        {
+          "label": "Contributor",
+          "value": "Gibson, John."
+        },
+        {
+          "label": "Contributor",
+          "value": "Jefferson, Peter."
+        },
+        {
+          "label": "Contributor",
+          "value": "Lane, Michael."
+        },
+        {
+          "label": "Contributor",
+          "value": "Mouzon, Henry."
+        },
+        {
+          "label": "Contributor",
+          "value": "Scull, W."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 22 maps ; 57 x 42 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "National Atlas."
+        },
+        {
+          "label": "Description",
+          "value": "One of the most important atlases of the American Revolutionary War period. There are 22 maps on 29 sheets. The majority of the important large scale maps of the colonies are here, appearing together for the first time after having been issued as separates by Jefferys in the 1750's and 60's. This copy is the 1st 1776 edition, with the Quebec map, without the Lake Champlain map, as issued. This copy is the same as NMM 361, except the title page says 48 copper plates rather then the 49 on NMM 361, and on the NY/NJ map it is Major Holland rather than Capt. Holland (our NY/NJ map says Major-the 1775 says Capt-our index omits Holland-the reproduction atlas map copy says Major, and Carver is eliminated (why?); probably indicates that this was slightly before the NMM 361, as the 1775 title page is identical to this one (although we have not seen it yet-relying on P1165), except for the date. Summary of editions: 1775 (actually issued in 1776, has Evans Middle Colonies map, P1165); 1776 1st issue (our copy with 48 on TP, Quebec replaces Evans, N.Y- & N.J. is dated 1776, rather than 1775 and adds Pownall corrections and improvements); 1776 2nd issue (NMM 361, 49 on TP); 1777 (1776 on TP, N.Amer changes from Bowen/Gibson to Pownall version with 1777 on map, adds L. Champlain, P1166 - our reproduction copy); 1778 (P3659a, NMM 362, no changes from 1777); 1782 (P1169, no changes except Phillips says this copy has 1783 ed of N.Amer., inserted-later?) Our TP is a transition from 1775 to NMM361; NMM361 anticipates the Lake Champlain map in saying 49 plates. Covers are half leather brown cloth covered boards with \"Jeffery's American Atlas. London MDCCLXXVI\" stamped in gilt on the spine."
+        },
+        {
+          "label": "Description",
+          "value": "References: NMM 361; cf P1165, 1166."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 0346.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Revolution, 1775-1783 > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Western Hemisphere > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "North America > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "South America > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Maps > Early works to 1800"
+        },
+        {
+          "label": "Date",
+          "value": "1776"
+        },
+        {
+          "label": "Date",
+          "value": "1776"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/rp659gb1405"
+        },
+        {
+          "label": "Publisher",
+          "value": "Sayer and Bennett,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-03-26"
+        }
+      ],
+      "description": "National Atlas.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/bh255hs1605%2F0346A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/bh255hs1605%2F0346A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 270
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/rp659gb1405/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/rp659gb1405/iiif/canvas/cocina-fileSet-bv529xt2434-bv529xt2434_1",
+              "@type": "sc:Canvas",
+              "label": "(Composite of) An Accurate Map Of North And South Carolina With Their Indian\n            Frontiers, Shewing in a distinct manner all the Mountains, Rivers, Swamps, Marshes\n            Bays, Creeks, Harbours, Sandbanks and Soundings on the Coasts; with The Roads and Indian\n            Paths; as well as The Boundary or Provincial Lines, The Several Townships and other\n            divisions of the Land In Both The Provinces; the whole From Actual Surveys By Henry\n            Mouzon And Others. London. Printed for Robt. Sayer and J. Bennett ... May 30th\n            1775.",
+              "height": 12901,
+              "width": 17521,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/bv529xt2434/0346028.jp2",
+                  "label": "Original source file (40.6 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/rp659gb1405/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fbv529xt2434-bv529xt2434_1%2F0346028.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/rp659gb1405/iiif/canvas/cocina-fileSet-bv529xt2434-bv529xt2434_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/bv529xt2434%2F0346028/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 12901,
+                    "width": 17521,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/bv529xt2434%2F0346028",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/rp659gb1405/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "The American Atlas: Or, A Geographical Description Of The Whole Continent Of America ... Engraved On Forty-Eight Copper Plates, By The Late Mr. Thomas Jefferys, Geographer to the King, and Others. London, Printed and Sold by R. Sayer and J. Bennett, Map and Print Sellers, No. 53, Fleet-Street. MDCCLXXVI",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/rp659gb1405.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/rp659gb1405'>https://purl.stanford.edu/rp659gb1405</a>"
+        },
+        {
+          "label": "Title",
+          "value": "The American Atlas: Or, A Geographical Description Of The Whole Continent Of America ... Engraved On Forty-Eight Copper Plates, By The Late Mr. Thomas Jefferys, Geographer to the King, and Others. London, Printed and Sold by R. Sayer and J. Bennett, Map and Print Sellers, No. 53, Fleet-Street. MDCCLXXVI"
+        },
+        {
+          "label": "Contributor",
+          "value": "Jefferys, Thomas."
+        },
+        {
+          "label": "Contributor",
+          "value": "Bowen, Eman."
+        },
+        {
+          "label": "Contributor",
+          "value": "Carver, Capt."
+        },
+        {
+          "label": "Contributor",
+          "value": "Chabert, Cook and Fleurieu."
+        },
+        {
+          "label": "Contributor",
+          "value": "Cook, James."
+        },
+        {
+          "label": "Contributor",
+          "value": "D' Anville, Mr."
+        },
+        {
+          "label": "Contributor",
+          "value": "Dunn, Samuel."
+        },
+        {
+          "label": "Contributor",
+          "value": "Fry, Joshua."
+        },
+        {
+          "label": "Contributor",
+          "value": "Gibson, John."
+        },
+        {
+          "label": "Contributor",
+          "value": "Jefferson, Peter."
+        },
+        {
+          "label": "Contributor",
+          "value": "Lane, Michael."
+        },
+        {
+          "label": "Contributor",
+          "value": "Mouzon, Henry."
+        },
+        {
+          "label": "Contributor",
+          "value": "Scull, W."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 22 maps ; 57 x 42 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "National Atlas."
+        },
+        {
+          "label": "Description",
+          "value": "One of the most important atlases of the American Revolutionary War period. There are 22 maps on 29 sheets. The majority of the important large scale maps of the colonies are here, appearing together for the first time after having been issued as separates by Jefferys in the 1750's and 60's. This copy is the 1st 1776 edition, with the Quebec map, without the Lake Champlain map, as issued. This copy is the same as NMM 361, except the title page says 48 copper plates rather then the 49 on NMM 361, and on the NY/NJ map it is Major Holland rather than Capt. Holland (our NY/NJ map says Major-the 1775 says Capt-our index omits Holland-the reproduction atlas map copy says Major, and Carver is eliminated (why?); probably indicates that this was slightly before the NMM 361, as the 1775 title page is identical to this one (although we have not seen it yet-relying on P1165), except for the date. Summary of editions: 1775 (actually issued in 1776, has Evans Middle Colonies map, P1165); 1776 1st issue (our copy with 48 on TP, Quebec replaces Evans, N.Y- & N.J. is dated 1776, rather than 1775 and adds Pownall corrections and improvements); 1776 2nd issue (NMM 361, 49 on TP); 1777 (1776 on TP, N.Amer changes from Bowen/Gibson to Pownall version with 1777 on map, adds L. Champlain, P1166 - our reproduction copy); 1778 (P3659a, NMM 362, no changes from 1777); 1782 (P1169, no changes except Phillips says this copy has 1783 ed of N.Amer., inserted-later?) Our TP is a transition from 1775 to NMM361; NMM361 anticipates the Lake Champlain map in saying 49 plates. Covers are half leather brown cloth covered boards with \"Jeffery's American Atlas. London MDCCLXXVI\" stamped in gilt on the spine."
+        },
+        {
+          "label": "Description",
+          "value": "References: NMM 361; cf P1165, 1166."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 0346.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Revolution, 1775-1783 > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Western Hemisphere > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "North America > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "South America > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Maps > Early works to 1800"
+        },
+        {
+          "label": "Date",
+          "value": "1776"
+        },
+        {
+          "label": "Date",
+          "value": "1776"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/rp659gb1405"
+        },
+        {
+          "label": "Publisher",
+          "value": "Sayer and Bennett,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-03-26"
+        }
+      ],
+      "description": "National Atlas.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/bh255hs1605%2F0346A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/bh255hs1605%2F0346A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 270
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/rp659gb1405/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/rp659gb1405/iiif/canvas/cocina-fileSet-xg048my1323-xg048my1323_1",
+              "@type": "sc:Canvas",
+              "label": "(Composite of) A Map of the most Inhabited part of New England, containing the\n            Provinces of Massachusetts Bay and New Hampshire, with the Colonies of Conecticut And\n            Rhode Island, Divided into Counties and Townships: The Whole composed from Actual\n            Surveys and its Situation adjusted by Astronomical Observations. (with) A Plan of the\n            Town of Boston. November 29th 1774. Published according to Act by Thos. Jefferys\n            Geographer to His Royal highness the Prince of Wales near Charing Cross",
+              "height": 13081,
+              "width": 12441,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/xg048my1323/0346019.jp2",
+                  "label": "Original source file (29.2 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/rp659gb1405/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fxg048my1323-xg048my1323_1%2F0346019.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/rp659gb1405/iiif/canvas/cocina-fileSet-xg048my1323-xg048my1323_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/xg048my1323%2F0346019/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 13081,
+                    "width": 12441,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/xg048my1323%2F0346019",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/xs193jf9696/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "A New Map of the Western Parts of Virginia, Pennsylvania, Maryland and North Carolina; Comprehending the River Ohio, and all the Rivers, which fall into it; Part of the River Mississippi, the Whole of the Illinois River, Lake Erie; Part of the Lakes Huron, Michigan &c. And all the Country bordering on these Lakes and Rivers. By Thos. Hutchins, Captain in the 60 Regiment of Foot. London, Published according to Act of Parliament Novembr. ye 1st, 1778 by T. Hutchins ... Engrav'd by T. Cheevers",
+      "attribution": "Property rights reside with the repository, Copyright © Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/xs193jf9696.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/xs193jf9696'>https://purl.stanford.edu/xs193jf9696</a>"
+        },
+        {
+          "label": "Title",
+          "value": "A New Map of the Western Parts of Virginia, Pennsylvania, Maryland and North Carolina; Comprehending the River Ohio, and all the Rivers, which fall into it; Part of the River Mississippi, the Whole of the Illinois River, Lake Erie; Part of the Lakes Huron, Michigan &c. And all the Country bordering on these Lakes and Rivers. By Thos. Hutchins, Captain in the 60 Regiment of Foot. London, Published according to Act of Parliament Novembr. ye 1st, 1778 by T. Hutchins ... Engrav'd by T. Cheevers"
+        },
+        {
+          "label": "Contributor",
+          "value": "Hutchins, Thomas."
+        },
+        {
+          "label": "Contributor",
+          "value": "Cheevers, T."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 91 x 112 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Case Map."
+        },
+        {
+          "label": "Description",
+          "value": "References: Streeter 1300; P-Maps 983; Ristow p 38-39; Smith, p 20-27; Brown 51."
+        },
+        {
+          "label": "Description",
+          "value": "This map was published separately and at the same time as Hutchins' \"Topographical Description...\" and should accompany the book. Streeter calls it \"by far the best map of the west printed to that time.\" It was the first large scale map of the area west of the Allegheny Mountains based on personal observations, although Hutchins gives credit to Lewis Evans' \"Map of the Middle Colonies\" as the best prior source of information about the area. The map contains extensive printed notes which describe important aspects of the country depicted. This map ranks with the most important American maps issued in the 18th century and is now rare. Hutchins later became the first Geographer of the United States. With outline color. Map is dissected into 32 sections and mounted on linen. Folds into new green cloth folding boards and quarter leather green cloth slip case 24x16 with \"Hutchin's New Map Of Western Parts Of Virginia, Etc. 1778\" on the spine in gold."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 5044.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Hydrology > East (U.S.) > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "East (U.S.) > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Middle West > Maps > Early works to 1800"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:1,140,480."
+        },
+        {
+          "label": "Date",
+          "value": "1778"
+        },
+        {
+          "label": "Date",
+          "value": "1778"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/xs193jf9696"
+        },
+        {
+          "label": "Publisher",
+          "value": "T. Hutchins,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-02-27"
+        }
+      ],
+      "description": "Case Map.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/xs193jf9696%2F5044000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/xs193jf9696%2F5044000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 327
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/xs193jf9696/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/xs193jf9696/iiif/canvas/cocina-fileSet-xs193jf9696-xs193jf9696_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 11030,
+              "width": 13494,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/xs193jf9696/5044000.jp2",
+                  "label": "Original source file (26.7 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/xs193jf9696/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fxs193jf9696-xs193jf9696_1%2F5044000.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/xs193jf9696/iiif/canvas/cocina-fileSet-xs193jf9696-xs193jf9696_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/xs193jf9696%2F5044000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11030,
+                    "width": 13494,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/xs193jf9696%2F5044000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~359489~90126263/manifest",
+      "label": "Carte de la Baie de Chesapeake [inset map] Plan de la Baie Herring en Maryland",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~359489~90126263/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~359489~90126263/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Carte de la Baie de Chesapeake [inset map] Plan de la Baie Herring en Maryland",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Sartine, Antoine"
+                },
+                {
+                  "label": "Author",
+                  "value": "Depot de la Marine"
+                },
+                {
+                  "label": "Date",
+                  "value": "1778"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Carte de la Baie de Chesapeake [inset map] Plan de la Baie Herring en Maryland"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Depot de la Marine"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "Chart Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "59"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "86"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "420,000"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "Maryland"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "Virginia"
+                },
+                {
+                  "label": "Region",
+                  "value": "Chesapeake Bay (Md. and Va.)"
+                },
+                {
+                  "label": "Event",
+                  "value": "American Revolution"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Nautical Charts"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Carte de la Baie de Chesapeake [inset map] Plan de la Baie Herring en Maryland"
+                },
+                {
+                  "label": "List No",
+                  "value": "15933.022"
+                },
+                {
+                  "label": "Series No",
+                  "value": "22"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Sartine, Antoine"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Depot de la Marine"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1780"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Neptune Americo-Septentrional contenant les Cotes, Îles et Bancs, les Baies, Ports, et Mouillages, et les Sondes des Mers de cette partie du Monde, depuis le Groenland inclusivement, jusques et compris le Golfe du Mexique avec les Îles de Sous-le-Vent et du Vent, accompagné de Plans particuliers des Ports les plus fréquentés. Ou Recueil de Cartes Hydrographiques à l'usage des Vaibeaux du Roi, Redige d'apres les Cartes Françoises et Etrangeres les plus estimées Rectifie d'apres des Plans Manuscrus authentiques, et assujetti aux Observations astronomiques. Dressé au Dépôt Général des Cartes, Plans et Journaux de la Marine, et Publie par Ordre du Roi."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Howes N-52; Phillips, Atlases 1211; Howes N52; Sabin 52337."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"First Edition. A Nearly Flawless Example. The French Navy's Official Atlas of the American Coasts During the Revolution. \"A collection of very beautiful charts of the coast of North America, with plans of the ports and harbours\" - Sabin The Neptune Americo-Septentrional, a seminal collection of nautical charts, was published during the height of the American Revolutionary War, under the auspices of Antoine Sartine, Minister of the French Navy. This atlas, first released for the strategic use of the French Navy, encapsulates an extensive survey of the North American coastline, stretching from Greenland to the Gulf of Mexico, including Florida, Louisiana, and various significant ports and rivers. This atlas represents a critical moment in maritime history, produced amidst the geopolitical turbulence of the late 18th century. Its creation coincided with a period marked by the American Revolution and the ensuing recalibration of colonial powers. Antoine Sartine, notable for his efforts in modernizing the French fleet, orchestrated the compilation of these charts, underscoring the strategic maritime importance of North America during this era. The detailed maps and plans within the atlas were integral to naval operations, offering unprecedented precision and breadth in depicting the American Atlantic coast and its adjoining waterways. The Neptune Americo-Septentrional draws upon both French and foreign cartographic sources, augmented by authentic manuscript plans and aligned with contemporary astronomical observations. The atlas includes 36 charts and plans, showcasing key locations such as Chesapeake Bay, the ports of Boston Harbor, Charleston Harbor, Narragansett Bay, Port Royal, New York Harbor and the Delaware Bay and River to Philadelphia. Other important charts cover Florida, the Gulf Coast and Cape Fear, North Carolina. Notably, William Faden, the preeminent English cartographer, acquired three copies of the atlas, distributing them to influential figures including the hydrographer to the East India Company, the secretary of the admiralty, and King George III. Furthermore, the Dépôt de la Marine, the French governmental body responsible for the atlas's publication, notably sent a copy to American statesman Benjamin Franklin. This gesture symbolizes the intertwining of scientific, military, and diplomatic endeavors in the late 18th century, epitomizing the atlas’s enduring legacy in the annals of cartographic and naval history. Folio. Full contemporary French calf with a trellis-and-dot design, a large gilt device of the French Royal Coat of Arms at the center of both covers, the covers ruled with three-line gilt roll-tool; spine in eight compartments separated by raised bands, red morocco title piece in the second gilt-lettered \"NEPT | AMER | SEPTENT\", the rest with gilt-tooled floral designs. Contemporary blue paper endpapers. Engraved title, 26 engraved charts on 13 full sheets and 5 half sheets, by Sartine and others. The Dépôt de la Marine, known more formally as the Dépôt des cartes et plans de la Marine, was the central charting institution of France. The centralization of hydrography in France began in earnest when Jean-Baptiste Colbert became First Minister of France in 1661. Under his watch, the first Royal School of Hydrography began operating, as did the first survey of France’s coasts (1670-1689). In 1680, Colbert consolidated various collections of charts and memoirs into a single assemblage, forming the core of sources for what would become the Dépôt. The Dépôt itself began as the central deposit of charts for the French Navy. In 1720, the Navy consolidated its collection with those government materials covering the colonies, creating a single large repository of navigation. By 1737, the Dépôt was creating its own original charts and, from 1750, they participated in scientific expeditions to determine the accurate calculation of longitude. In 1773, the Dépôt received a monopoly over the composition, production, and distribution of navigational materials, solidifying their place as the main producer of geographic knowledge in France. Dépôt-approved charts were distributed to official warehouses in port cities and sold by authorized merchants. The charts were of the highest quality, as many of France’s premier mapmakers worked at the Dépôt in the eighteenth century, including Philippe Bauche, Jacques-Nicolas Bellin, Rigobert Bonne, Jean Nicolas Buache, and Charles-François Beautemps-Beaupré. The Dépôt continued to operate until 1886, when it became the Naval Hydrographic Service. In 1971, it changed names again, this time to the Naval and Oceanographic Service (SHOM). Although its name has changed, its purpose is largely the same, to provide high quality cartographic and scientific information to the France’s Navy and merchant marine.\" (Ruderman, 2024)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15933.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Regional Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Chart Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "26"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "66"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "52"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15933022.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/15933022.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Sartine, Antoine ; Depot de la Marine"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~359489~90126263/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~359489~90126263/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~359489~90126263",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 18224,
+                    "height": 11599
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~359489~90126263/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~359489~90126263/list/luna"
+              ],
+              "width": 18224,
+              "height": 11599
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~359489~90126263"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/pt980yx8943/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "A Survey of the Roads of the United States of America by Christopher Colles. 1789. C. Tiebout, Sculpt",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/pt980yx8943.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/pt980yx8943'>https://purl.stanford.edu/pt980yx8943</a>"
+        },
+        {
+          "label": "Title",
+          "value": "A Survey of the Roads of the United States of America by Christopher Colles. 1789. C. Tiebout, Sculpt"
+        },
+        {
+          "label": "Contributor",
+          "value": "Colles, Christopher."
+        },
+        {
+          "label": "Contributor",
+          "value": "Tiebout, C."
+        },
+        {
+          "label": "Type",
+          "value": "Text"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "Road maps."
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 volume : 66 maps ; 22 x 15 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "66 of 83 maps; 1st American road book. Rare - Ristow estimates only 30-35 copies extant. See Ristow's reproduction edition of this book for a complete discussion of Colles. With the volume are nine unbound maps from the set: 23, 24, 25, 33, 40, 41, 42, 44, and 45. Maps have been rebound in hardbound green leather covers with Colles's Roads in gilt on spine. Original blue paper covers bound at the back with title label \"Colles's Survey of the Roads.\""
+        },
+        {
+          "label": "Description",
+          "value": "Guide Book."
+        },
+        {
+          "label": "Description",
+          "value": "References: p1326; Streeter 3936; Ristow 158."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 2467.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Roads > United States > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Maps > Early works to 1800"
+        },
+        {
+          "label": "Date",
+          "value": "1789"
+        },
+        {
+          "label": "Date",
+          "value": "1789"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/pt980yx8943"
+        },
+        {
+          "label": "Publisher",
+          "value": "C. Colles,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-03-26"
+        }
+      ],
+      "description": "66 of 83 maps; 1st American road book. Rare - Ristow estimates only 30-35 copies extant. See Ristow's reproduction edition of this book for a complete discussion of Colles. With the volume are nine unbound maps from the set: 23, 24, 25, 33, 40, 41, 42, 44, and 45. Maps have been rebound in hardbound green leather covers with Colles's Roads in gilt on spine. Original blue paper covers bound at the back with title label \"Colles's Survey of the Roads.\"",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wk162qh9742%2F2467A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wk162qh9742%2F2467A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 290,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/pt980yx8943/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/pt980yx8943/iiif/canvas/cocina-fileSet-qv012tw8453-qv012tw8453_1",
+              "@type": "sc:Canvas",
+              "label": "Index to the Plates in Christopher Colles' Survey of the Roads of the\n            United States of America. (using the) Map of the Middle States Exhibiting the Post Roads\n            c. 1790 after Evans, Bowles and Bradley",
+              "height": 400,
+              "width": 277,
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/pt980yx8943/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fqv012tw8453-qv012tw8453_1%2F2467067.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/pt980yx8943/iiif/canvas/cocina-fileSet-qv012tw8453-qv012tw8453_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/qv012tw8453%2F2467067/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 400,
+                    "width": 277,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/qv012tw8453%2F2467067",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/pt980yx8943/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "A Survey of the Roads of the United States of America by Christopher Colles. 1789. C. Tiebout, Sculpt",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/pt980yx8943.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/pt980yx8943'>https://purl.stanford.edu/pt980yx8943</a>"
+        },
+        {
+          "label": "Title",
+          "value": "A Survey of the Roads of the United States of America by Christopher Colles. 1789. C. Tiebout, Sculpt"
+        },
+        {
+          "label": "Contributor",
+          "value": "Colles, Christopher."
+        },
+        {
+          "label": "Contributor",
+          "value": "Tiebout, C."
+        },
+        {
+          "label": "Type",
+          "value": "Text"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "Road maps."
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 volume : 66 maps ; 22 x 15 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "66 of 83 maps; 1st American road book. Rare - Ristow estimates only 30-35 copies extant. See Ristow's reproduction edition of this book for a complete discussion of Colles. With the volume are nine unbound maps from the set: 23, 24, 25, 33, 40, 41, 42, 44, and 45. Maps have been rebound in hardbound green leather covers with Colles's Roads in gilt on spine. Original blue paper covers bound at the back with title label \"Colles's Survey of the Roads.\""
+        },
+        {
+          "label": "Description",
+          "value": "Guide Book."
+        },
+        {
+          "label": "Description",
+          "value": "References: p1326; Streeter 3936; Ristow 158."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 2467.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "Roads > United States > Maps > Early works to 1800"
+        },
+        {
+          "label": "Subject",
+          "value": "United States > Maps > Early works to 1800"
+        },
+        {
+          "label": "Date",
+          "value": "1789"
+        },
+        {
+          "label": "Date",
+          "value": "1789"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/pt980yx8943"
+        },
+        {
+          "label": "Publisher",
+          "value": "C. Colles,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-03-26"
+        }
+      ],
+      "description": "66 of 83 maps; 1st American road book. Rare - Ristow estimates only 30-35 copies extant. See Ristow's reproduction edition of this book for a complete discussion of Colles. With the volume are nine unbound maps from the set: 23, 24, 25, 33, 40, 41, 42, 44, and 45. Maps have been rebound in hardbound green leather covers with Colles's Roads in gilt on spine. Original blue paper covers bound at the back with title label \"Colles's Survey of the Roads.\"",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wk162qh9742%2F2467A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wk162qh9742%2F2467A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 290,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/pt980yx8943/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/pt980yx8943/iiif/canvas/cocina-fileSet-zt707ht0548-zt707ht0548_1",
+              "@type": "sc:Canvas",
+              "label": "From Philadelphia to Annapolis Maryld. (55)",
+              "height": 3475,
+              "width": 2520,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/zt707ht0548/2467052.jp2",
+                  "label": "Original source file (1.57 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/pt980yx8943/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fzt707ht0548-zt707ht0548_1%2F2467052.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/pt980yx8943/iiif/canvas/cocina-fileSet-zt707ht0548-zt707ht0548_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/zt707ht0548%2F2467052/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 3475,
+                    "width": 2520,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/zt707ht0548%2F2467052",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/bs132ck1970/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "A Topographical Description of the Western Territory of North America ... By Gilbert Imlay ... Illustrated with correct Maps of the Western Territory of North America; of the State of Kentucky, as divided into Counties, from actual Surveys by Elihu Barker; a Map of the Tenasee Government; and a Plan of the Rapids of the Ohio. The Third Edition With Great Additions. London: Printed For J. Debrett, Opposite Burlington House, Piccadilly. 1797",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/bs132ck1970.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/bs132ck1970'>https://purl.stanford.edu/bs132ck1970</a>"
+        },
+        {
+          "label": "Title",
+          "value": "A Topographical Description of the Western Territory of North America ... By Gilbert Imlay ... Illustrated with correct Maps of the Western Territory of North America; of the State of Kentucky, as divided into Counties, from actual Surveys by Elihu Barker; a Map of the Tenasee Government; and a Plan of the Rapids of the Ohio. The Third Edition With Great Additions. London: Printed For J. Debrett, Opposite Burlington House, Piccadilly. 1797"
+        },
+        {
+          "label": "Contributor",
+          "value": "Imlay, Gilbert."
+        },
+        {
+          "label": "Contributor",
+          "value": "Barker, Elihu."
+        },
+        {
+          "label": "Contributor",
+          "value": "Conder, T."
+        },
+        {
+          "label": "Contributor",
+          "value": "Smith, Genel. D."
+        },
+        {
+          "label": "Type",
+          "value": "Text"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Topographic maps."
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 volume : 4 maps ; 21 x 14 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Clark II-41. Third and best edition. Streeter: \"The most complete version of this work, in which form it was the most informative compilation on the West at the end of the 18th century.\" Complete text of Filson's Kentucky, Hutchins on Florida, etc., and much else. The Map of the State of Kentucky, by Elihu Barker is a slight reduction in size from the original by Carey, but not as great a reduction as the edition of the map that appeared in Carey's American Atlas and General Atlas in 1795 (cf Wheat & Brun 641, 642). The London version of the Barker map seems to have the same information as the Philadelphia, but they are very different in engraving style with the Philadelphia copy having an \"American\" look. Clark is critical of the accuracy of Imlay's letters, which were probably written in Europe after he fled Kentucky and financial problems. See DAB for another critical view of Mr. Imlay."
+        },
+        {
+          "label": "Description",
+          "value": "Exploration Book."
+        },
+        {
+          "label": "Description",
+          "value": "References: Howes G12; Streeter 1525; Buck 43; Graff 2091."
+        },
+        {
+          "label": "Description",
+          "value": "Pub list no.: 2757.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases"
+        },
+        {
+          "label": "Subject",
+          "value": "North America"
+        },
+        {
+          "label": "Subject",
+          "value": "Topographic maps"
+        },
+        {
+          "label": "Subject",
+          "value": "United States"
+        },
+        {
+          "label": "Subject",
+          "value": "West (U.S.)"
+        },
+        {
+          "label": "Subject",
+          "value": "Kentucky"
+        },
+        {
+          "label": "Subject",
+          "value": "Tennessee"
+        },
+        {
+          "label": "Subject",
+          "value": "Virginia"
+        },
+        {
+          "label": "Date",
+          "value": "1797"
+        },
+        {
+          "label": "Date",
+          "value": "1797"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/bs132ck1970"
+        },
+        {
+          "label": "Publisher",
+          "value": "J. Debrett"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-13"
+        }
+      ],
+      "description": "Clark II-41. Third and best edition. Streeter: \"The most complete version of this work, in which form it was the most informative compilation on the West at the end of the 18th century.\" Complete text of Filson's Kentucky, Hutchins on Florida, etc., and much else. The Map of the State of Kentucky, by Elihu Barker is a slight reduction in size from the original by Carey, but not as great a reduction as the edition of the map that appeared in Carey's American Atlas and General Atlas in 1795 (cf Wheat & Brun 641, 642). The London version of the Barker map seems to have the same information as the Philadelphia, but they are very different in engraving style with the Philadelphia copy having an \"American\" look. Clark is critical of the accuracy of Imlay's letters, which were probably written in Europe after he fled Kentucky and financial problems. See DAB for another critical view of Mr. Imlay.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/kn360qt1684%2F2757A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/kn360qt1684%2F2757A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 341
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/bs132ck1970/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/bs132ck1970/iiif/canvas/cocina-fileSet-dv355qw3974-dv355qw3974_1",
+              "@type": "sc:Canvas",
+              "label": "A Map of The Western Part of the Territories belonging to the United States of\n   America. Drawn from the best Authorities. Engraved for Imlay's Topographical Description of\n   that Country. T. Conder Sculpt. Published June 1st 1795, by J. Debrett, Picadilly\n   London.",
+              "height": 5440,
+              "width": 4880,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/dv355qw3974/2757001.jp2",
+                  "label": "Original source file (4.77 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/bs132ck1970/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fdv355qw3974-dv355qw3974_1%2F2757001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/bs132ck1970/iiif/canvas/cocina-fileSet-dv355qw3974-dv355qw3974_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/dv355qw3974%2F2757001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 5440,
+                    "width": 4880,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/dv355qw3974%2F2757001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/cw133yx3810/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "A General Atlas, Describing The Whole Universe: Being A Complete Collection Of The Most Approved Maps Extant; Corrected With The Greatest Care, And Augmented From The Latest Discoveries. The Whole Being an Improvement of the Maps of D'Anville And Robert. Engraved in the best Manner on Sixty-Two Copper-Plates, By Thomas Kitchin, Senior, and Others ... London: Printed For Robert Sayer, No. 53, Fleet-Street",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/cw133yx3810.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/cw133yx3810'>https://purl.stanford.edu/cw133yx3810</a>"
+        },
+        {
+          "label": "Title",
+          "value": "A General Atlas, Describing The Whole Universe: Being A Complete Collection Of The Most Approved Maps Extant; Corrected With The Greatest Care, And Augmented From The Latest Discoveries. The Whole Being an Improvement of the Maps of D'Anville And Robert. Engraved in the best Manner on Sixty-Two Copper-Plates, By Thomas Kitchin, Senior, and Others ... London: Printed For Robert Sayer, No. 53, Fleet-Street"
+        },
+        {
+          "label": "Contributor",
+          "value": "Kitchin, Thomas."
+        },
+        {
+          "label": "Contributor",
+          "value": "Boulton, S."
+        },
+        {
+          "label": "Contributor",
+          "value": "Campbell, Lieut."
+        },
+        {
+          "label": "Contributor",
+          "value": "D'Anville."
+        },
+        {
+          "label": "Contributor",
+          "value": "Delarochette, L."
+        },
+        {
+          "label": "Contributor",
+          "value": "Dunn, Saml."
+        },
+        {
+          "label": "Contributor",
+          "value": "Jefferys, Thomas."
+        },
+        {
+          "label": "Contributor",
+          "value": "Pownall, Thomas."
+        },
+        {
+          "label": "Contributor",
+          "value": "Rocque, John."
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 35 maps ; 55 x 41 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Late issue. Many of the maps are double sheet. This atlas was later expanded to become the New Universal Atlas (see our copy). Some of these maps also appeared in the American Atlas by Jefferys. There are actually 23 large maps, on 35 connected sheets, produced from 62 copper plates. Maps are and painted with outline and full color and bound in half leather tan marbled paper covered boards with \"General Atlas\" stamped in gold on the spine."
+        },
+        {
+          "label": "Description",
+          "value": "References: P4300."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas."
+        },
+        {
+          "label": "Description",
+          "value": "Pub list no.: 0411.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps"
+        },
+        {
+          "label": "Date",
+          "value": "1790"
+        },
+        {
+          "label": "Date",
+          "value": "1790"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/cw133yx3810"
+        },
+        {
+          "label": "Publisher",
+          "value": "Robert Sayer"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-13"
+        }
+      ],
+      "description": "Late issue. Many of the maps are double sheet. This atlas was later expanded to become the New Universal Atlas (see our copy). Some of these maps also appeared in the American Atlas by Jefferys. There are actually 23 large maps, on 35 connected sheets, produced from 62 copper plates. Maps are and painted with outline and full color and bound in half leather tan marbled paper covered boards with \"General Atlas\" stamped in gold on the spine.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/zy638dy2447%2F0411A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/zy638dy2447%2F0411A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 261
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/cw133yx3810/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/cw133yx3810/iiif/canvas/cocina-fileSet-xx695zp2832-xx695zp2832_1",
+              "@type": "sc:Canvas",
+              "label": "A new map of North America, with the West India Islands. (Northern section).\n            Divided according to the Preliminary Articles of Peace, signed at Versailles, 20. Jan.\n            1783, wherein are particularly distinguished the United States, and the several\n            provices, governments &ca. which compose the British Dominions; laid down according\n            to the latest surveys, and corrected from the original materials, of Goverr. Pownall,\n            Membr. of Parliamt., 1783. (London, printed for Robt. Sayer, Map, Chart &\n            Printseller, no. 53, Fleet Street, as the Act directs August 15th 1786)",
+              "height": 6794,
+              "width": 15547,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/xx695zp2832/0411040.jp2",
+                  "label": "Original source file (19 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/cw133yx3810/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fxx695zp2832-xx695zp2832_1%2F0411040.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/cw133yx3810/iiif/canvas/cocina-fileSet-xx695zp2832-xx695zp2832_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/xx695zp2832%2F0411040/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 6794,
+                    "width": 15547,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/xx695zp2832%2F0411040",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/sp111tf0748/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "A Map Of Cabotia; Comprehending The Provinces Of Upper And Lower Canada, New-Brunswick, And Nova-Scotia, With Breton Island, Newfoundland, &c. And Including also The Adjacent Parts Of The United States. Compiled from a great Variety of Original Documents, By John Purdy. Published 12th October, 1814, by Jas. Whittle And Richd. Holmes Laurie, No. 53, Fleet Street, London. Engraved by Thomson & Hall, 14, Bury Str. Bloomsby. (with 10 inset maps)",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/sp111tf0748.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/sp111tf0748'>https://purl.stanford.edu/sp111tf0748</a>"
+        },
+        {
+          "label": "Title",
+          "value": "A Map Of Cabotia; Comprehending The Provinces Of Upper And Lower Canada, New-Brunswick, And Nova-Scotia, With Breton Island, Newfoundland, &c. And Including also The Adjacent Parts Of The United States. Compiled from a great Variety of Original Documents, By John Purdy. Published 12th October, 1814, by Jas. Whittle And Richd. Holmes Laurie, No. 53, Fleet Street, London. Engraved by Thomson & Hall, 14, Bury Str. Bloomsby. (with 10 inset maps)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Laurie, Richard Holmes."
+        },
+        {
+          "label": "Contributor",
+          "value": "Purdy, John."
+        },
+        {
+          "label": "Contributor",
+          "value": "Thomson & Hall."
+        },
+        {
+          "label": "Contributor",
+          "value": "Whittle, J."
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 123 x 158 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Case Map."
+        },
+        {
+          "label": "Description",
+          "value": "First edition. Large, four sectioned map in original case; each sheet is dissected into 16 sections). Ten inset maps. Editions to 1850. A large, impressive map, with a unique title indicating Purdy's attempt to create a new name for the region discovered by Cabot, and/or an attempt by Laurie and Whittle to sell more maps (see Fredonia map of 1833). The main organizing feature of the map is the drainage of the St. Lawrence River and the Great Lakes. The inset maps are very detailed and several notes discuss Cabot's explorations. Tanner mentions this map as a source in his preface to the American Atlas, as does Melish in his Geographical Description of the United States. Stevens and Tree list editions of 1814, 1821, and 1821/25; Winearls adds editions of 1828 (May), 1828 (June), 1838, and 1850. With outline color. Folds into original marbled cardboard slip case 21x16.5 with a label reading \"Cabotia. Jo Gratz\" in ms, and \"Sold by Wm. Allen, 32 Dame Strt.\" printed in ink."
+        },
+        {
+          "label": "Description",
+          "value": "References: Malinski State 1 (p133-145, Farrell \"Explorations...Canadian Mapping\"); Winearls 48; Stevens and Tree 8(a)."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 3828.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Canada > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "New Brunswick > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Cape Breton Island (N.S.) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Newfoundland, Island of (N.L.) > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Nova Scotia > Maps > 19th century"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1: 1,457,000."
+        },
+        {
+          "label": "Date",
+          "value": "1814"
+        },
+        {
+          "label": "Date",
+          "value": "1814"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/sp111tf0748"
+        },
+        {
+          "label": "Publisher",
+          "value": "Jas. Whittle and Richd. Holmes Laurie,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-13"
+        }
+      ],
+      "description": "Case Map.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wx651mr2605%2F3828A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wx651mr2605%2F3828A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 246
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/sp111tf0748/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/sp111tf0748/iiif/canvas/cocina-fileSet-jf579pk4917-jf579pk4917_1",
+              "@type": "sc:Canvas",
+              "label": "A Map Of Cabotia; Comprehending The Provinces Of Upper And Lower Canada\n\t\t\tNew-Brunswick, And Nova-Scotia, With Breton Island, Newfoundland, &c. And Including\n\t\t\talso The Adjacent Parts Of The United States. Compiled from a great Variety of Original\n\t\t\tDocuments, By John Purdy. Published 12th October, 1814, by Jas. Whittle And Richd.\n\t\t\tHolmes Laurie, No. 53, Fleet Street, London. Engraved by Thomson & Hall, 14, Bury\n\t\t\tStr. Bloomsby. (with 10 inset maps).",
+              "height": 15069,
+              "width": 19018,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/jf579pk4917/3828001.jp2",
+                  "label": "Original source file (51.5 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/sp111tf0748/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fjf579pk4917-jf579pk4917_1%2F3828001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/sp111tf0748/iiif/canvas/cocina-fileSet-jf579pk4917-jf579pk4917_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/jf579pk4917%2F3828001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 15069,
+                    "width": 19018,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/jf579pk4917%2F3828001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~235538~5510541/manifest",
+      "label": "Virginia",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~235538~5510541/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~235538~5510541/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Virginia",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "West & Johnston"
+                },
+                {
+                  "label": "Date",
+                  "value": "1862"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Virginia"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "West & Johnston"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Richmond"
+                },
+                {
+                  "label": "Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "63"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "92"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "870,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "1st edition. Confederate imprint. This is taken from the Ritchie and Dunnavant map of the same title issued in 1858 (see our #4905). Military information is not shown on the map. View of Capitol Square, Richmond, in the upper left corner. Also shows Maryland and Delaware. List of Railroads. Later editions in 1863 and 1864, with only the dates on the covers changed, the maps still saying 1862. West and Johnston also published a map of Kentucky and Tennessee, undated (Parrish 6207). Black and white map, folded into black card board covers 16x11 with \"Map Of Virginia Richmond: West & Johnston, Publishers. 1862.\" printed in gold."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Stephenson 475.5; Parrish 6204."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "Virginia"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Map Of The State Of Virginia Containing The Counties, Principal Towns, Railroads, Rivers, Canals & All Other Internal Improvements. Published by West & Johnston Richmond, Va. 1862. Copyright secured by W... in 1862."
+                },
+                {
+                  "label": "List No",
+                  "value": "2895.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "West & Johnston"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1862"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Map Of The State Of Virginia Containing The Counties, Principal Towns, Railroads, Rivers, Canals & All Other Internal Improvements. Published by West & Johnston Richmond, Va. 1862. Copyright secured by W... in 1862."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Stephenson 475.5; Parrish 6204."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "2895.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "16"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "11"
+                },
+                {
+                  "label": "Image No",
+                  "value": "2895002"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/2895002.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "West & Johnston"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~235538~5510541/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~235538~5510541/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~235538~5510541",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11630,
+                    "height": 8624
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~235538~5510541/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~235538~5510541/list/luna"
+              ],
+              "width": 11630,
+              "height": 8624
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~235538~5510541"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/sp969jm8548/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[Georgia and South Carolina.]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/sp969jm8548.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/sp969jm8548'>https://purl.stanford.edu/sp969jm8548</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[Georgia and South Carolina.]"
+        },
+        {
+          "label": "Contributor",
+          "value": "U.S. Coast and Geodetic Survey"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "map 59 x 87 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Chart no. 3013."
+        },
+        {
+          "label": "Description",
+          "value": "Scale 1:633,600."
+        },
+        {
+          "label": "Subject",
+          "value": "Georgia > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "South Carolina > Maps"
+        },
+        {
+          "label": "Date",
+          "value": "1865"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/sp969jm8548"
+        },
+        {
+          "label": "Record published",
+          "value": "2025-08-11"
+        }
+      ],
+      "description": "Chart no. 3013.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/sp969jm8548%2Fsp969jm8548_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/sp969jm8548%2Fsp969jm8548_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 280
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/sp969jm8548/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/sp969jm8548/iiif/canvas/cocina-fileSet-sp969jm8548-sp969jm8548_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 15761,
+              "width": 22522,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/sp969jm8548/sp969jm8548_00_0001.jp2",
+                  "label": "Original source file (63.8 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/sp969jm8548/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fsp969jm8548-sp969jm8548_1%2Fsp969jm8548_00_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/sp969jm8548/iiif/canvas/cocina-fileSet-sp969jm8548-sp969jm8548_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/sp969jm8548%2Fsp969jm8548_00_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 15761,
+                    "width": 22522,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/sp969jm8548%2Fsp969jm8548_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/tv130sh0497/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Historical Atlas Map Of Santa Clara County, California. Compiled, Drawn And Published From Personal Examinations And Surveys By Thompson & West, San Francisco, Cala. 1876. Thos. Hunter Pr. Phil. N. Friend, Engr. Philad. C.L. Smith, Del",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/tv130sh0497.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/tv130sh0497'>https://purl.stanford.edu/tv130sh0497</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Historical Atlas Map Of Santa Clara County, California. Compiled, Drawn And Published From Personal Examinations And Surveys By Thompson & West, San Francisco, Cala. 1876. Thos. Hunter Pr. Phil. N. Friend, Engr. Philad. C.L. Smith, Del"
+        },
+        {
+          "label": "Contributor",
+          "value": "Thompson & West."
+        },
+        {
+          "label": "Contributor",
+          "value": "Friend, N."
+        },
+        {
+          "label": "Contributor",
+          "value": "Healey, C.T."
+        },
+        {
+          "label": "Contributor",
+          "value": "Hunter, Thos."
+        },
+        {
+          "label": "Contributor",
+          "value": "Smith, C.L."
+        },
+        {
+          "label": "Type",
+          "value": "Atlas"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 20 maps ; 45 x 39 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "County Atlas."
+        },
+        {
+          "label": "Description",
+          "value": "Includes 3 letters in ms regarding Almaden Mine view dispute. Full color. Atlas is bound in half leather brown cloth covered boards with \"New Historical Atlas Of Santa Clara Co. California. Illustrated. Thompson & West 1876.\" stamped in gilt on the front cover and blind stamped on the back."
+        },
+        {
+          "label": "Description",
+          "value": "References: P1464."
+        },
+        {
+          "label": "Local note",
+          "value": "Pub list no.: 2256.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases > California > Santa Clara County > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Historical geography > California > Santa Clara County > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "California > Maps > 19th century"
+        },
+        {
+          "label": "Subject",
+          "value": "Santa Clara County (Calif.) > Maps > 19th century"
+        },
+        {
+          "label": "Date",
+          "value": "1876"
+        },
+        {
+          "label": "Date",
+          "value": "1876"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/tv130sh0497"
+        },
+        {
+          "label": "Publisher",
+          "value": "Thompson & West,"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2016-10-06"
+        }
+      ],
+      "description": "County Atlas.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/mb078gf2644%2F2256A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/mb078gf2644%2F2256A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 232
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/tv130sh0497/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/tv130sh0497/iiif/canvas/cocina-fileSet-ch039zx0532-ch039zx0532_1",
+              "@type": "sc:Canvas",
+              "label": "Map of Santa Clara Co., California (index map. Thompson & West, San\n            Francisco, Cala. 1876)",
+              "height": 4939,
+              "width": 5660,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/ch039zx0532/2256001.jp2",
+                  "label": "Original source file (5.02 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/tv130sh0497/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fch039zx0532-ch039zx0532_1%2F2256001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/tv130sh0497/iiif/canvas/cocina-fileSet-ch039zx0532-ch039zx0532_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/ch039zx0532%2F2256001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 4939,
+                    "width": 5660,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/ch039zx0532%2F2256001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~377422~90143606/manifest",
+      "label": "Sketch illustrating the tour of General W. T. Sherman, in the summer of 1877.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~377422~90143606/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~377422~90143606/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Sketch illustrating the tour of General W. T. Sherman, in the summer of 1877.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Sherman, William T. (William Tecumseh), 1820-1891"
+                },
+                {
+                  "label": "Date",
+                  "value": "1877"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Sketch illustrating the tour of General W. T. Sherman, in the summer of 1877."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "United States. Government Printing Office."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington, D.C."
+                },
+                {
+                  "label": "Type",
+                  "value": "Book Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "77"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "5,500,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map of the northern United States within Inspection made in 1877 of the country north of the U. P. Railroad. Map features General W. T. Sherman's tour, which spans land from Pennsylvania to California and as far north as Washington State, during the summer of 1877. Shows Indian reservations, cities, railways, forts, camps, topography, deserts, bodies of water, drainage, coastlines and islands. Relief shown with hachures. Includes latitudinal and longitudinal lines, as well as a bar scale. Black and white engraving. Map is 24 x 77 cm, on fold-out sheet 31 x 81 cm."
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Exploration"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Indians of North America"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Sketch illustrating the tour of General W. T. Sherman, in the summer of 1877."
+                },
+                {
+                  "label": "List No",
+                  "value": "0895.014"
+                },
+                {
+                  "label": "Series No",
+                  "value": "14"
+                },
+                {
+                  "label": "Page No",
+                  "value": "5"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "United States. War Department. Corps of Engineers"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Sheridan, Philip Henry, 1831-1888"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Sherman, William T. (William Tecumseh), 1820-1891"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1878"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Reports of inspection made in 1877 by Generals P. H. Sheridan and W. T. Sherman of the country north of the Union Pacific Railroad. Printed by Order of the Secretary of War. Washington : Government Printing Office. 1878."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Howes 397."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Inspection made in 1877 of the country north of the U. P. Railroad. Features tours by by Generals P. H. Sheridan and W. T. Sherman. Bound in red full leather boards, with gilt spine title and marbled end papers. Includes a title page and text. Page [3] begins, \"Lieutenant-General Sheridan's report of a reconnaissance of the Bighorn Mountains and the valleys of the Bighorn and Yellowstone under his personal supervision during the month of July, 1877.\" Volume comprised of engraved views of the Rocky Mountains, a Crow village, the Giantees, Beehive and Old Faithful Geysers, as well of maps of the northern United States, including the Bighorn Mountains and the Yellowstone River Valley. The maps show Indian reservations, cities, camps, forts, trails, railways, topography, deserts, prairies, bodies of water, drainage, coastlines and islands."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "0895.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "10"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "16"
+                },
+                {
+                  "label": "Image No",
+                  "value": "0895014.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/222/0895014.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Sherman, William T. (William Tecumseh), 1820-1891"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~377422~90143606/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~377422~90143606/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~377422~90143606",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 17151,
+                    "height": 6718
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~377422~90143606/canvas/c1"
+                }
+              ],
+              "width": 17151,
+              "height": 6718
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~377422~90143606"
+    }
+  ]
+}
