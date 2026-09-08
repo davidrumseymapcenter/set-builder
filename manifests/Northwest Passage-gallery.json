@@ -1,0 +1,2148 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Northwest Passage",
+  "label": "Northwest Passage",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/pm323nt1979/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Tartariae Imperium",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/pm323nt1979.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/pm323nt1979'>https://purl.stanford.edu/pm323nt1979</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Tartariae Imperium"
+        },
+        {
+          "label": "Title",
+          "value": "Tartariae Imperivm"
+        },
+        {
+          "label": "Contributor",
+          "value": "Magini, Giovanni Antonio, 1555-1617 (cartographer)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Porro, Girolamo, 1520-1604."
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Early works."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 11.5 x 17 cm, on sheet 16.8 x 23 cm"
+        },
+        {
+          "label": "Language",
+          "value": "Latin"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "Giovanni Antonio Magini."
+        },
+        {
+          "label": "Description",
+          "value": "From the 1596 atlas : Geographiae universae tum veteris tum novae absolutissimum opus duobus voluminibus distinctum, in quorum priore habentur Cl. Ptolemaei Pelvsiensis Geographicae enarrationis libri octo, quorum primus, qui praecepta ipsius facultatis omina complectitur, commentarijs uberrimis illustratus est à Io. Antonio Magino Patavino."
+        },
+        {
+          "label": "Description",
+          "value": "A page (page 229) of text appears on the map verso with these headings : \"Moscoviae petzoraregio\" and \"Czeremissi, et mordua populi.\""
+        },
+        {
+          "label": "Description",
+          "value": "This map of the Tartar Empire includes Arctic regions, but lacks Alaska, which had not been discovered yet. The imaginary Straits of Anian (Northwest Passage) are shown. California is depicted as an island. East Asia and the North Pacific are very prominent."
+        },
+        {
+          "label": "Subject",
+          "value": "Russia"
+        },
+        {
+          "label": "Subject",
+          "value": "Northwest Passage"
+        },
+        {
+          "label": "Subject",
+          "value": "Asiatic Russia"
+        },
+        {
+          "label": "Subject",
+          "value": "North Pacific Ocean"
+        },
+        {
+          "label": "Subject",
+          "value": "California"
+        },
+        {
+          "label": "Subject",
+          "value": "North America"
+        },
+        {
+          "label": "Subject",
+          "value": "East Asia"
+        },
+        {
+          "label": "Subject",
+          "value": "Arctic regions"
+        },
+        {
+          "label": "Subject",
+          "value": "Russian Far East (Russia)"
+        },
+        {
+          "label": "Subject",
+          "value": "China"
+        },
+        {
+          "label": "Subject",
+          "value": "Japan"
+        },
+        {
+          "label": "Subject",
+          "value": "East Asia."
+        },
+        {
+          "label": "Subject",
+          "value": "North America."
+        },
+        {
+          "label": "Subject",
+          "value": "North Pacific Ocean."
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale approximately 1:58,000,000"
+        },
+        {
+          "label": "Coverage",
+          "value": "25°00′00″E -- 110°00′00″W / 82°00′00″N -- 20°00′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1596"
+        },
+        {
+          "label": "Date",
+          "value": "1596"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/pm323nt1979"
+        },
+        {
+          "label": "Publisher",
+          "value": "Apud Haeredes Simonis Galignani de Karera"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "From the 1596 atlas : Geographiae universae tum veteris tum novae absolutissimum opus duobus voluminibus distinctum, in quorum priore habentur Cl. Ptolemaei Pelvsiensis Geographicae enarrationis libri octo, quorum primus, qui praecepta ipsius facultatis omina complectitur, commentarijs uberrimis illustratus est à Io. Antonio Magino Patavino.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/pm323nt1979%2Fpm323nt1979_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/pm323nt1979%2Fpm323nt1979_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 304
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/pm323nt1979/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/pm323nt1979/iiif/canvas/cocina-fileSet-pm323nt1979-pm323nt1979_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 3817,
+              "width": 5027,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/pm323nt1979/pm323nt1979_00_0001.jp2",
+                  "label": "Original source file (3.46 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/pm323nt1979/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fpm323nt1979-pm323nt1979_1%2Fpm323nt1979_00_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/pm323nt1979/iiif/canvas/cocina-fileSet-pm323nt1979-pm323nt1979_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/pm323nt1979%2Fpm323nt1979_00_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 3817,
+                    "width": 5027,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/pm323nt1979%2Fpm323nt1979_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/cy607dp2112/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Carta de los reconocimientos hechos en 1602. Por el Capitan Sebastian Vizcayno formada por los Planos que hizo el mismo durante su comision",
+      "attribution": "Property rights reside with the repository, Copyright © Stanford University. Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/cy607dp2112.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/cy607dp2112'>https://purl.stanford.edu/cy607dp2112</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Carta de los reconocimientos hechos en 1602. Por el Capitan Sebastian Vizcayno formada por los Planos que hizo el mismo durante su comision"
+        },
+        {
+          "label": "Contributor",
+          "value": "Espinosa y Tello"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : uncolored ; 14 x 14 in"
+        },
+        {
+          "label": "Description",
+          "value": "Fine example of the Juan Espinosa y Tello edition of Sebastian Vizcaino's map of California, from the Atlas para el viage de las goletas Sutil y Mexicana al reconocimiento del estrecho de Juan de Fuca en 1792, publicado en 1802. This remarkable map provides the first comprehensive printed depiction of the first \"modern\" mapping of the coastline of California, as it had been surveyed in 1602, some 200 years earlier, by Sebastian Vizcaino. Vizcaino's maps exist only in manuscript form, the present map being the earliest comprehensive attempt to illustrate Vizcaino's comprehensive findings along the California Coastline in a single map focused on the region, from Cabo San Lucas to Cape Mendocino. Most of California's oldest coastal place names derive from Vizcaino's map. Sebastian Viscaino was responsible for the second \"comprehensive mapping of the California Coastline. In 1593, the disputed concession for pearl fishing on the western shores of the Gulf of California was transferred to Vizcaíno. He succeeded in sailing with three ships to La Paz, Baja California Sur in 1596. He gave this site (known to Hernándo Cortés as Santa Cruz) its modern name and attempted to establish a settlement. However, problems of resupply, declining morale, and a fire soon forced its abandonment. In 1601, the Spanish Viceroy in Mexico City, the Conde de Monterrey, appointed Vizcaíno general-in-charge of a second expedition—-to locate safe harbors in Alta California for Spanish Manila galleons to use on their return voyage to Acapulco from Manila. He was also given the mandate to map in detail the California coastline that Juan Rodríguez Cabrillo had first reconnoitered 60 years earlier. He departed Acapulco with three ships on May 5, 1602. His flagship was the San Diego and the other two ships were the San Tomás and the Tres Reyes. On November 10, 1602, Vizcaíno entered and named San Diego Bay. Sailing up the coast, Vizcaíno named many prominent features such as the Santa Barbara Channel Islands, Point Conception, the Santa Lucia Mountains, Point Lobos, Carmel River and Monterey Bay (thus changing many of the names given these same features by Cabrillo in 1542). The commander of the Tres Reyes, Martín de Aguilar, became separated from Vizcaíno and continued up the coast to present-day Oregon as far as Cape Blanco and possibly to Coos Bay, which along with the Juan de Fuca expedition would shape mapping of the Northwestern coast of America for more than 100 years. One result of Vizcaíno's voyage was a flurry of enthusiasm for establishing a Spanish settlement at Monterey, but this was ultimately deferred for another 167 years after the Conde de Monterrey left to become Viceroy of Peru and his successor was less favorable. A colonizing expedition was authorized in 1606 for 1607, but was delayed and then cancelled in 1608. In describing the Espinosa y Tello Atlas, Rumsey notes: The Spanish \"Vancouver.\" . . . . Sometimes attributed to Dionisio Alcala Galiano. The title of the text volume is \"Relacion del Viage Hecho por las Goletas Sutil y Mexicana en al ano 1792 para reconocer el estrecho de Fuca...\" The last and very important voyage up the Pacific coast to be undertaken by Spain is detailed in the nine maps and eight plates of the atlas. Galiano and Cayetano Valdes led the expedition, arriving in the northwest at the same time as Vancouver. Although the maps were published four years after the Vancouver maps, Wagner considers them in many respects to be superior, and Humboldt used them in his Essai Politique sur le Royaume de la Nouvelle Espagne. Wagner further states: \"The general impression today...is that the English discoveries of Vancouver were published four years before those of the Spaniards. This...is a misapprehension... The principal reason, however, why the nomenclature and geography of Vancouver came to occupy the field was that his maps were extensively copied by the famous English cartographer, Aaron Arrowsmith, and later by the English Admiralty.\" The map is very rare on the market, this being only the second example we have seen in 20+ years."
+        },
+        {
+          "label": "Description",
+          "value": "Map shows California, Baja California."
+        },
+        {
+          "label": "citation/reference",
+          "value": "P1221; Streeter 2458; Graff 1262; Howes G18(under Galiano, \"dd\"); Cowen, p.198; Sabin 69221; Wagner, Northwest Coast, p225-233, p252-254, vol 1, and #861, vol 2; Lowery 95, 704; Cook, \"Flood Tide of Empire.\""
+        },
+        {
+          "label": "Subject",
+          "value": "America > Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "California > Maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale not determined"
+        },
+        {
+          "label": "Date",
+          "value": "1802"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/cy607dp2112"
+        },
+        {
+          "label": "Relation",
+          "value": "The Barry Lawrence Ruderman Map Collection"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-18"
+        }
+      ],
+      "description": "Fine example of the Juan Espinosa y Tello edition of Sebastian Vizcaino's map of California, from the Atlas para el viage de las goletas Sutil y Mexicana al reconocimiento del estrecho de Juan de Fuca en 1792, publicado en 1802. This remarkable map provides the first comprehensive printed depiction of the first \"modern\" mapping of the coastline of California, as it had been surveyed in 1602, some 200 years earlier, by Sebastian Vizcaino. Vizcaino's maps exist only in manuscript form, the present map being the earliest comprehensive attempt to illustrate Vizcaino's comprehensive findings along the California Coastline in a single map focused on the region, from Cabo San Lucas to Cape Mendocino. Most of California's oldest coastal place names derive from Vizcaino's map. Sebastian Viscaino was responsible for the second \"comprehensive mapping of the California Coastline. In 1593, the disputed concession for pearl fishing on the western shores of the Gulf of California was transferred to Vizcaíno. He succeeded in sailing with three ships to La Paz, Baja California Sur in 1596. He gave this site (known to Hernándo Cortés as Santa Cruz) its modern name and attempted to establish a settlement. However, problems of resupply, declining morale, and a fire soon forced its abandonment. In 1601, the Spanish Viceroy in Mexico City, the Conde de Monterrey, appointed Vizcaíno general-in-charge of a second expedition—-to locate safe harbors in Alta California for Spanish Manila galleons to use on their return voyage to Acapulco from Manila. He was also given the mandate to map in detail the California coastline that Juan Rodríguez Cabrillo had first reconnoitered 60 years earlier. He departed Acapulco with three ships on May 5, 1602. His flagship was the San Diego and the other two ships were the San Tomás and the Tres Reyes. On November 10, 1602, Vizcaíno entered and named San Diego Bay. Sailing up the coast, Vizcaíno named many prominent features such as the Santa Barbara Channel Islands, Point Conception, the Santa Lucia Mountains, Point Lobos, Carmel River and Monterey Bay (thus changing many of the names given these same features by Cabrillo in 1542). The commander of the Tres Reyes, Martín de Aguilar, became separated from Vizcaíno and continued up the coast to present-day Oregon as far as Cape Blanco and possibly to Coos Bay, which along with the Juan de Fuca expedition would shape mapping of the Northwestern coast of America for more than 100 years. One result of Vizcaíno's voyage was a flurry of enthusiasm for establishing a Spanish settlement at Monterey, but this was ultimately deferred for another 167 years after the Conde de Monterrey left to become Viceroy of Peru and his successor was less favorable. A colonizing expedition was authorized in 1606 for 1607, but was delayed and then cancelled in 1608. In describing the Espinosa y Tello Atlas, Rumsey notes: The Spanish \"Vancouver.\" . . . . Sometimes attributed to Dionisio Alcala Galiano. The title of the text volume is \"Relacion del Viage Hecho por las Goletas Sutil y Mexicana en al ano 1792 para reconocer el estrecho de Fuca...\" The last and very important voyage up the Pacific coast to be undertaken by Spain is detailed in the nine maps and eight plates of the atlas. Galiano and Cayetano Valdes led the expedition, arriving in the northwest at the same time as Vancouver. Although the maps were published four years after the Vancouver maps, Wagner considers them in many respects to be superior, and Humboldt used them in his Essai Politique sur le Royaume de la Nouvelle Espagne. Wagner further states: \"The general impression today...is that the English discoveries of Vancouver were published four years before those of the Spaniards. This...is a misapprehension... The principal reason, however, why the nomenclature and geography of Vancouver came to occupy the field was that his maps were extensively copied by the famous English cartographer, Aaron Arrowsmith, and later by the English Admiralty.\" The map is very rare on the market, this being only the second example we have seen in 20+ years.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/cy607dp2112%2F38937/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/cy607dp2112%2F38937",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 393,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/cy607dp2112/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/cy607dp2112/iiif/canvas/cocina-fileSet-cy607dp2112-cy607dp2112_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 2999,
+              "width": 2944,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/cy607dp2112/38937.jp2",
+                  "label": "Original source file (1.6 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/cy607dp2112/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fcy607dp2112-cy607dp2112_1%2F38937.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/cy607dp2112/iiif/canvas/cocina-fileSet-cy607dp2112-cy607dp2112_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/cy607dp2112%2F38937/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 2999,
+                    "width": 2944,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/cy607dp2112%2F38937",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/sy409bk9698/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "The North part of America conteyning Newfoundland, New England, Virginia, Florida, New Spaine and Nova Francia, with ye riche Iles of Hispaniola, Cuba, Jamaica, and Porto Rieco, on the south, and upon ye west the large and goodly island of California",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/sy409bk9698.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/sy409bk9698'>https://purl.stanford.edu/sy409bk9698</a>"
+        },
+        {
+          "label": "Title",
+          "value": "The North part of America conteyning Newfoundland, New England, Virginia, Florida, New Spaine and Nova Francia, with ye riche Iles of Hispaniola, Cuba, Jamaica, and Porto Rieco, on the south, and upon ye west the large and goodly island of California"
+        },
+        {
+          "label": "Contributor",
+          "value": "Briggs, Henry, 1561-1630."
+        },
+        {
+          "label": "Contributor",
+          "value": "Elstracke, Renold, active 1590-1630"
+        },
+        {
+          "label": "Type",
+          "value": "cartographic"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : engraved ; 27 x 34 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "R. Elstracke Sculpsit."
+        },
+        {
+          "label": "Description",
+          "value": "The first printed map in English to show California as an island, with flat northern coast."
+        },
+        {
+          "label": "Description",
+          "value": "Cities, etc. ; shoals; pictorial symbols; notes."
+        },
+        {
+          "label": "Description",
+          "value": "Watermark."
+        },
+        {
+          "label": "Description",
+          "value": "Notes on map refer to California, Sr. Thomas Button and Mr. Baffin."
+        },
+        {
+          "label": "Description",
+          "value": "Projection: simple conical."
+        },
+        {
+          "label": "Description",
+          "value": "\"852\" & \"853\" inside neat line in top left & right corners of map."
+        },
+        {
+          "label": "Description",
+          "value": "Engraved by: R. Elstrake Sculpsit (lower right)."
+        },
+        {
+          "label": "Description",
+          "value": "On the map are two notes, one stating\"California sometymes supposed to be a part of ye westerne continent, but scince by a Spanish Charte taken by ye Hollanders it is found to be a goodly Ilande: the length of the west shoare beeing about 500 leagues...\""
+        },
+        {
+          "label": "Description",
+          "value": "Issued in: Hakluytus Posthumus or Purchas His Pilgrimes, III, 852-3. London, 1625, to accompany an article by H. Briggs on the Northwest Passage."
+        },
+        {
+          "label": "Description",
+          "value": "McLaughlin map number 2."
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Wagner, 295"
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Wheat, 38"
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Tooley, 1, Plate 26"
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Leighly, 4, Plate III"
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Portinaro, Plate LXX"
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Goss, Plate 24"
+        },
+        {
+          "label": "Provenance",
+          "value": "Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Subject",
+          "value": "North America"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:23,500,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "127°11′00″W -- 52°02′00″W / 63°25′00″N -- 14°18′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1625"
+        },
+        {
+          "label": "Date",
+          "value": "1625"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/sy409bk9698"
+        },
+        {
+          "label": "Publisher",
+          "value": "William Stansby for Henrie Fetherstone"
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-08-28"
+        }
+      ],
+      "description": "The first printed map in English to show California as an island, with flat northern coast.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 350
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/sy409bk9698/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 10874,
+              "width": 12412,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/sy409bk9698/sy409bk9698_05_0001.jp2",
+                  "label": "Original source file (24.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/sy409bk9698/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fsy409bk9698-sy409bk9698_1%2Fsy409bk9698_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10874,
+                    "width": 12412,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/bx376jn7462/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "A NEW, Plaine, and Exact Map of AMERICA: described by N:I: Visscher, and don into English, enlarged, and corrected, according to I: Blaeu, with the habits of the countries, and the manner of the cheife Citties: the like never before",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/bx376jn7462.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/bx376jn7462'>https://purl.stanford.edu/bx376jn7462</a>"
+        },
+        {
+          "label": "Title",
+          "value": "A NEW, Plaine, and Exact Map of AMERICA: described by N:I: Visscher, and don into English, enlarged, and corrected, according to I: Blaeu, with the habits of the countries, and the manner of the cheife Citties: the like never before"
+        },
+        {
+          "label": "Contributor",
+          "value": "Walton, Robert, 1618-1688."
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 34.3 x 44.7 cm.; 41.9 x 52.8 cm. including border."
+        },
+        {
+          "label": "Description",
+          "value": "California as an island on revised Sanson model but with coast continued north-westwards in the old Mercator-Ortelius tradition. New Albion is shown on the mainland coast far to the north of the island, and the island itself is named California.Side borders show native inhabitants, top and bottom borders show explorers and various towns in \"new world\" (same as Overton's map of 1668). “Printed, colered, and are to be sold by Ro. Walton at ye Globe and Compass in St. Paules churchyard between ye two north doores” (above title cartouche). Map forms one of the series Kaerius, Visscher, De Wit, Overton. It is sometimes found in editions of Heylin's Cosmography [between 1668 and 1670], inserted instead of the normal Seile maps. Also occasionally in Varenius’ Cosmography and Geography. Map is derived from the sixth state of Pieter van den Keere’s map issued by Nicolaas Visscher, 1652. Inset: Partial Polar projection with Straits of Anian included (W 170'--W 0'/N 90'--N 50')."
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin book number (1995 edition) with latest state information: 41-02"
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin Book Number (1995 edition): 41"
+        },
+        {
+          "label": "Description",
+          "value": "State 1: Dated 1658."
+        },
+        {
+          "label": "Description",
+          "value": "State 2: Undated. Possibly altered following the restoration of Charles II in 1660."
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Tooley 25; Leighly 51; Burden 330 (Plate 330)."
+        },
+        {
+          "label": "Subject",
+          "value": "America"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:42,000,000]."
+        },
+        {
+          "label": "Coverage",
+          "value": "160°00′00″W -- 20°00′00″E / 90°00′00″N -- 90°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1660"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/bx376jn7462"
+        },
+        {
+          "label": "Publisher",
+          "value": "s.n."
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-13"
+        }
+      ],
+      "description": "California as an island on revised Sanson model but with coast continued north-westwards in the old Mercator-Ortelius tradition. New Albion is shown on the mainland coast far to the north of the island, and the island itself is named California.Side borders show native inhabitants, top and bottom borders show explorers and various towns in \"new world\" (same as Overton's map of 1668). “Printed, colered, and are to be sold by Ro. Walton at ye Globe and Compass in St. Paules churchyard between ye two north doores” (above title cartouche). Map forms one of the series Kaerius, Visscher, De Wit, Overton. It is sometimes found in editions of Heylin's Cosmography [between 1668 and 1670], inserted instead of the normal Seile maps. Also occasionally in Varenius’ Cosmography and Geography. Map is derived from the sixth state of Pieter van den Keere’s map issued by Nicolaas Visscher, 1652. Inset: Partial Polar projection with Straits of Anian included (W 170'--W 0'/N 90'--N 50').",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/bx376jn7462%2Fbx376jn7462_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/bx376jn7462%2Fbx376jn7462_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 321
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/bx376jn7462/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/bx376jn7462/iiif/canvas/cocina-fileSet-bx376jn7462-bx376jn7462_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 10447,
+              "width": 13001,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/bx376jn7462/bx376jn7462_05_0001.jp2",
+                  "label": "Original source file (24.4 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/bx376jn7462/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fbx376jn7462-bx376jn7462_1%2Fbx376jn7462_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/bx376jn7462/iiif/canvas/cocina-fileSet-bx376jn7462-bx376jn7462_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/bx376jn7462%2Fbx376jn7462_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10447,
+                    "width": 13001,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/bx376jn7462%2Fbx376jn7462_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/yg670wy9796/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Paskaerte van NOVA GRANADA, en t'Eylandt CALIFORNIA",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/yg670wy9796.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/yg670wy9796'>https://purl.stanford.edu/yg670wy9796</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Paskaerte van NOVA GRANADA, en t'Eylandt CALIFORNIA"
+        },
+        {
+          "label": "Contributor",
+          "value": "Goos, Pieter, approximately 1616-1675."
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 chart : hand col. ; 44.5 x 54.7 cm"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "by Pieter Goos."
+        },
+        {
+          "label": "Description",
+          "value": "California as an island on second Sanson model. Nearly identical with Van Loon's map of same title but location of some place names differ. P. de Monte Rey is north of P.S. Francisco Draco, and Canal de S. BarLandt, Straet Anian, and Agubela de Cato to north.bara is north of P. de la Conversion. Terra Incognita (or) Onbekent Landt, Straet Anian, and Agubela de Cato to north."
+        },
+        {
+          "label": "Description",
+          "value": "Issued in his: De Zee-Atlas, ofte water-weereld, Amsterdam, 1666. Reissued 1668, 1669, 1670, 1672, 1675, 1676. Issued in his: L’Atlas de la mer, ou monde aquaticque, representant toutes les costes maritimes de l’Univers descouvertes & cogneues ... -- A Amsterdam : Chez Pieter Goos, au miroir de la Mer, 1670, 1673, 1679 and 1697. Issued in English edition 1668, and Spanish edition 1669."
+        },
+        {
+          "label": "Description",
+          "value": "Multiple scales given within cartouche flanked by 2 cherubs holding instruments (bottom left)."
+        },
+        {
+          "label": "Description",
+          "value": "Title cartouche with 3 cherubs (upper right)."
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin Book Number (1995 edition): 36"
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "LC 473, 474, & 3435; Wagner 394; Tooley 22 (Plate 37); Leighly 47 (Plate X); Koeman,IV,Goos1B(40); UCB; Goss (Plate 37); Nordenskiöld 1,80(39); Burden 391 (Plate 391)."
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:11,000,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "125°00′00″W -- 110°00′00″W / 47°00′00″N -- 31°00′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1666"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/yg670wy9796"
+        },
+        {
+          "label": "Publisher",
+          "value": "s.n."
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "California as an island on second Sanson model. Nearly identical with Van Loon's map of same title but location of some place names differ. P. de Monte Rey is north of P.S. Francisco Draco, and Canal de S. BarLandt, Straet Anian, and Agubela de Cato to north.bara is north of P. de la Conversion. Terra Incognita (or) Onbekent Landt, Straet Anian, and Agubela de Cato to north.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/yg670wy9796%2Fyg670wy9796_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/yg670wy9796%2Fyg670wy9796_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 340
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/yg670wy9796/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/yg670wy9796/iiif/canvas/cocina-fileSet-yg670wy9796-yg670wy9796_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 14469,
+              "width": 17045,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/yg670wy9796/yg670wy9796_05_0001.jp2",
+                  "label": "Original source file (44.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/yg670wy9796/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fyg670wy9796-yg670wy9796_1%2Fyg670wy9796_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/yg670wy9796/iiif/canvas/cocina-fileSet-yg670wy9796-yg670wy9796_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/yg670wy9796%2Fyg670wy9796_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 14469,
+                    "width": 17045,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/yg670wy9796%2Fyg670wy9796_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/cb303zr7917/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "CARTE VNIVERSELLE du MONDE Avec de nouvelles Observations : AMERIQUE SEPTEMTRIONALE",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/cb303zr7917.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/cb303zr7917'>https://purl.stanford.edu/cb303zr7917</a>"
+        },
+        {
+          "label": "Title",
+          "value": "CARTE VNIVERSELLE du MONDE Avec de nouvelles Observations : AMERIQUE SEPTEMTRIONALE"
+        },
+        {
+          "label": "Contributor",
+          "value": "Duval, P. (Pierre), 1619-1682"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : hand col. ; 40.6 x 56.8 cm.; 41.4 x 57.6 cm. including border."
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "Par P. Du-Val Geographe Ordinaire du Roy."
+        },
+        {
+          "label": "Description",
+          "value": "California as an island with indented northern coast and narrow center. California place names: C. Blanc, C. Mendocino, Pa. de los Reiez, Pa. de Monterei, P. de Francois Drac, I. Gigante, I.S. Clement, I. de Para, B. des Vierges, I. Ceintas, B.S. Christophie, C.S. Lucas. Destroit de Vriez, Terre de Iesso ou Eso, Terre de la Compagnie and Destroit d'Anien to northwest. Title cartouche (top left) with four festively-dressed figures holding draped cloth on which title appears. 2nd title is within simple cartouche flanked by two native men (bottom center)."
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin book number (1995 edition) with latest state information: 64-01"
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin Book Number (1995 edition): 64"
+        },
+        {
+          "label": "Description",
+          "value": "State 1: Dated 1677."
+        },
+        {
+          "label": "Description",
+          "value": "State 2: With longer title: Carte universelle du Monde vulgairement dite la Mappemonde avec de nouvelles observations touchant les navigations de long cours, dated 1684 but issued in: Cartes de geographie les plus nouvelles et les plus fideles ... , 1679."
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Wagner 424b; Leighly 78; BN Duval II E(11)."
+        },
+        {
+          "label": "Subject",
+          "value": "North America"
+        },
+        {
+          "label": "Subject",
+          "value": "1677"
+        },
+        {
+          "label": "Subject",
+          "value": "To 1800"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca.1:35,000,000 at equator]"
+        },
+        {
+          "label": "Coverage",
+          "value": "173°00′00″W -- 10°00′00″W / 84°00′00″N -- 7°10′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1677"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/cb303zr7917"
+        },
+        {
+          "label": "Publisher",
+          "value": "s.n."
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-13"
+        }
+      ],
+      "description": "California as an island with indented northern coast and narrow center. California place names: C. Blanc, C. Mendocino, Pa. de los Reiez, Pa. de Monterei, P. de Francois Drac, I. Gigante, I.S. Clement, I. de Para, B. des Vierges, I. Ceintas, B.S. Christophie, C.S. Lucas. Destroit de Vriez, Terre de Iesso ou Eso, Terre de la Compagnie and Destroit d'Anien to northwest. Title cartouche (top left) with four festively-dressed figures holding draped cloth on which title appears. 2nd title is within simple cartouche flanked by two native men (bottom center).",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/cb303zr7917%2Fcb303zr7917_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/cb303zr7917%2Fcb303zr7917_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 305
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/cb303zr7917/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/cb303zr7917/iiif/canvas/cocina-fileSet-cb303zr7917-0001",
+              "@type": "sc:Canvas",
+              "label": "image",
+              "height": 11090,
+              "width": 14556,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/cb303zr7917/cb303zr7917_00_0001.jp2",
+                  "label": "Original source file (29 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/cb303zr7917/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fcb303zr7917-0001%2Fcb303zr7917_00_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/cb303zr7917/iiif/canvas/cocina-fileSet-cb303zr7917-0001",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/cb303zr7917%2Fcb303zr7917_00_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 11090,
+                    "width": 14556,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/cb303zr7917%2Fcb303zr7917_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/sp153gq7179/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "IDEA NATVRALIS AMERICÆ BOREALIS DIGITO DEI FORMATA GEOGRAPHICE PROPOSITA AN MDCC",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/sp153gq7179.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/sp153gq7179'>https://purl.stanford.edu/sp153gq7179</a>"
+        },
+        {
+          "label": "Title",
+          "value": "IDEA NATVRALIS AMERICÆ BOREALIS DIGITO DEI FORMATA GEOGRAPHICE PROPOSITA AN MDCC"
+        },
+        {
+          "label": "Contributor",
+          "value": "Scherer, Heinrich, 1628-1704"
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map: hand col.; 22.4 x 35.2 cm. including border."
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "[P. Henrico Scherer]."
+        },
+        {
+          "label": "Description",
+          "value": "California as large island with jagged northern coast and interior mountains. No place names except 3 capes: C. Blanc, C. Mendocino, and C. de Pinos. Fretum Anian and Anian to northeast."
+        },
+        {
+          "label": "Description",
+          "value": "Cartouche at lower left surrounded by African animals states: \"CVM SVO APPARATV VOLVCRVM PISCIVM ET QVADRVPEDVM A MDCC.\""
+        },
+        {
+          "label": "Description",
+          "value": "From: Geographia natvralis sive fabrica mundi svblvnaris ab artifice et avthore naturæ inventa et elaborata: stylo geographico exhibita. A.P. Henrico Scherer, Societis Jesu. Pars I. Monachii, sumptibus Joannis Caspari Bencard, Bibliopolæ Augustani. Typis, Mariæ Magdalenæ Rauchin Viduæ, Anno M.DCCX. : Atlas Novus exhibens orbem terraqueum per naturæ opera, historiæ novæ ac veteris monumenta, artisque geographicæ leges et præcepta. Hoc est: Geographic universa in septem partes contracta, et instructa ducentis fere chartis geographicis, ac figuris, cujus: Pars I ... Geographia Naturalis.; Fol. H.; following [p.]84. 7 parts (pars)published 1702-10; reissued 1730-37. Leighly & Tooley give 1720 date for map."
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin Book Number (1995 edition): 140"
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Tooley 89, Leighly 154, UCB."
+        },
+        {
+          "label": "Subject",
+          "value": "North America"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca.1:36,000,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "173°00′00″W -- 10°00′00″W / 84°00′00″N -- 7°10′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1700"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/sp153gq7179"
+        },
+        {
+          "label": "Publisher",
+          "value": "s.n."
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "California as large island with jagged northern coast and interior mountains. No place names except 3 capes: C. Blanc, C. Mendocino, and C. de Pinos. Fretum Anian and Anian to northeast.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/sp153gq7179%2Fsp153gq7179_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/sp153gq7179%2Fsp153gq7179_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 271
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/sp153gq7179/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/sp153gq7179/iiif/canvas/cocina-fileSet-sp153gq7179-sp153gq7179_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 4422,
+              "width": 6519,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/sp153gq7179/sp153gq7179_05_0001.jp2",
+                  "label": "Original source file (5.19 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/sp153gq7179/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fsp153gq7179-sp153gq7179_1%2Fsp153gq7179_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/sp153gq7179/iiif/canvas/cocina-fileSet-sp153gq7179-sp153gq7179_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/sp153gq7179%2Fsp153gq7179_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 4422,
+                    "width": 6519,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/sp153gq7179%2Fsp153gq7179_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hy804fw5582/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "CARTE GENERALE DE TOUTES LES COSTES DU MONDE, ET LES PAYS NOUVELLEMENT DECOUVERT, Dressé sur les Relations les plus Nouvelles. Et Principalement sur la carte que MONSIEUR N. WITSEN, à donnée au Public. : CARTE GENERALE DES COSTES DE L'AMERIQUE, SUR L'OCEAN. et les Pays Nouvellement decouvert, Dressé sur les Relations les plus Nouvelles",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hy804fw5582.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hy804fw5582'>https://purl.stanford.edu/hy804fw5582</a>"
+        },
+        {
+          "label": "Title",
+          "value": "CARTE GENERALE DE TOUTES LES COSTES DU MONDE, ET LES PAYS NOUVELLEMENT DECOUVERT, Dressé sur les Relations les plus Nouvelles. Et Principalement sur la carte que MONSIEUR N. WITSEN, à donnée au Public. : CARTE GENERALE DES COSTES DE L'AMERIQUE, SUR L'OCEAN. et les Pays Nouvellement decouvert, Dressé sur les Relations les plus Nouvelles"
+        },
+        {
+          "label": "Contributor",
+          "value": "Mortier, Pierre, 1661-1711"
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : hand col. ; 58.7 x 49.8 cm."
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "Pierre Mortier."
+        },
+        {
+          "label": "Description",
+          "value": "First title within octagonal cartouche (upper left). Second title within smaller oval cartouche (upper right). California as large island with indented northern coast. Anian and Destroit d'Anian. Partial coastline of \"Nouvelle Zeelande\" in south Pacific and partial \"Compagnies Land\" west of California."
+        },
+        {
+          "label": "Description",
+          "value": "Issued in: Le Neptune françois. -- Amsterdam : P. Mortier, 1693-1700. Issued in his: Atlas nouveau des cartes géographiques choisies, ou le grande théâtre de la guerre en Brabant, Flandres... / P. Mortier, Amsterdam, 1703."
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin book number (1995 edition) with latest state information: 112-02"
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin Book Number (1995 edition): 112"
+        },
+        {
+          "label": "Description",
+          "value": "State 1: 1693, part of World map on 2 sheets, without added words to title: \"Et Principalement sur la carte que MONSIEUR N. WITSEN, à donné au Public\" and no complete sea route between California and Hudson Bay. Issued in French, Dutch, and English."
+        },
+        {
+          "label": "Description",
+          "value": "State 2: [170-?], with added words to first title: \"Et Principalement sur la carte que MONSIEUR N. WITSEN, à donnée au Public\" and with Mer Glaciale as sea route between California and Hudson Bay."
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "L.C. 517,2823; Koeman III, Mor3; Shirley 559 (Plate 389); Leighly 97"
+        },
+        {
+          "label": "Subject",
+          "value": "America"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca.1:37,000,000]."
+        },
+        {
+          "label": "Coverage",
+          "value": "160°00′00″W -- 20°00′00″E / 90°00′00″N -- 90°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1709"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hy804fw5582"
+        },
+        {
+          "label": "Publisher",
+          "value": "s.n."
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-14"
+        }
+      ],
+      "description": "First title within octagonal cartouche (upper left). Second title within smaller oval cartouche (upper right). California as large island with indented northern coast. Anian and Destroit d'Anian. Partial coastline of \"Nouvelle Zeelande\" in south Pacific and partial \"Compagnies Land\" west of California.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hy804fw5582%2Fhy804fw5582_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hy804fw5582%2Fhy804fw5582_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 374,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hy804fw5582/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hy804fw5582/iiif/canvas/cocina-fileSet-hy804fw5582-hy804fw5582_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 16597,
+              "width": 15509,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hy804fw5582/hy804fw5582_05_0001.jp2",
+                  "label": "Original source file (46.3 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hy804fw5582/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fhy804fw5582-hy804fw5582_1%2Fhy804fw5582_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hy804fw5582/iiif/canvas/cocina-fileSet-hy804fw5582-hy804fw5582_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hy804fw5582%2Fhy804fw5582_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 16597,
+                    "width": 15509,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hy804fw5582%2Fhy804fw5582_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hy431kv1138/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "North America",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hy431kv1138.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hy431kv1138'>https://purl.stanford.edu/hy431kv1138</a>"
+        },
+        {
+          "label": "Title",
+          "value": "North America"
+        },
+        {
+          "label": "Contributor",
+          "value": "Moll, Herman, -1732."
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : hand col.; 57 x 96 cm., 59 x 97 cm. including borders."
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "by Herman Moll, Geographer."
+        },
+        {
+          "label": "Description",
+          "value": "\"Sold by H. Moll over against Deverux Court in ye Strand. Printed for I. Bowles Print & Map seller at the Black Horse in Cornhill and T. Bowles Print and Mapseller next to the Chapter house in St. Pauls Church yard, and over against Devereux Court, without Temple Bar. And by P. Overton Map and Printseller near St. Dunstans Church Fleetstreet and by Iohn King at the Globe in the Poultry\"."
+        },
+        {
+          "label": "Description",
+          "value": "California as island on second Sanson model. States: \"New Albion is laid down according to the observations maed by Sr Francis Drake 1578.\" \"Mozeemleck Country\" and \"Straits of Annian\" to north."
+        },
+        {
+          "label": "Description",
+          "value": "Dedicated To the Right Honourable JOHN Lord SOMMERS (within title cartouche bearing coat of arms)."
+        },
+        {
+          "label": "Description",
+          "value": "Engraved by: \"B. Lens delin., G. Vertue Sculp.\" (below title cartouche on left)."
+        },
+        {
+          "label": "Description",
+          "value": "From: The world described , Map 7 / H. Moll. -- London, 1719."
+        },
+        {
+          "label": "Description",
+          "value": "Inset: Group of 10 individual maps of harbours. (lower left)"
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin Book Number (1995 edition): 192"
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Wagner 514; Wheat 105; Tooley 82; Leighly 145."
+        },
+        {
+          "label": "Subject",
+          "value": "North America"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca.1:17,500,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "173°00′00″W -- 10°00′00″W / 84°00′00″N -- 7°10′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1719"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hy431kv1138"
+        },
+        {
+          "label": "Publisher",
+          "value": "s.n."
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-14"
+        }
+      ],
+      "description": "\"Sold by H. Moll over against Deverux Court in ye Strand. Printed for I. Bowles Print & Map seller at the Black Horse in Cornhill and T. Bowles Print and Mapseller next to the Chapter house in St. Pauls Church yard, and over against Devereux Court, without Temple Bar. And by P. Overton Map and Printseller near St. Dunstans Church Fleetstreet and by Iohn King at the Globe in the Poultry\".",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hy431kv1138%2Fhy431kv1138_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hy431kv1138%2Fhy431kv1138_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 267
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hy431kv1138/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hy431kv1138/iiif/canvas/cocina-fileSet-hy431kv1138-hy431kv1138_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 12003,
+              "width": 17994,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hy431kv1138/hy431kv1138_05_0001.jp2",
+                  "label": "Original source file (38.8 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hy431kv1138/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fhy431kv1138-hy431kv1138_1%2Fhy431kv1138_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hy431kv1138/iiif/canvas/cocina-fileSet-hy431kv1138-hy431kv1138_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hy431kv1138%2Fhy431kv1138_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 12003,
+                    "width": 17994,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hy431kv1138%2Fhy431kv1138_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/pj048tg9018/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "The Russian discoveries from the map published by the Imperial Academy of St. Petersburg",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/pj048tg9018.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/pj048tg9018'>https://purl.stanford.edu/pj048tg9018</a>"
+        },
+        {
+          "label": "Title",
+          "value": "The Russian discoveries from the map published by the Imperial Academy of St. Petersburg"
+        },
+        {
+          "label": "Contributor",
+          "value": "Jefferys, Thomas, -1771."
+        },
+        {
+          "label": "Contributor",
+          "value": "Sayer, Robert, 1725-1794."
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Early works."
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 map : hand colored ; 45 x 60 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Relief shown pictorially"
+        },
+        {
+          "label": "Description",
+          "value": "Coordinates approximate and based on Greenwich meridian"
+        },
+        {
+          "label": "Description",
+          "value": "Scales in \"Sea Leagues 20 to a Degree\" and \"British Statute Miles 69 1/2 to a Degree.\""
+        },
+        {
+          "label": "Description",
+          "value": "Appears in the author's The American atlas. London : R. Sayer and J. Bennett, 1783"
+        },
+        {
+          "label": "Description",
+          "value": "Prime meridian: Ferro"
+        },
+        {
+          "label": "Description",
+          "value": "Includes notes: \"Explanation of the Russian names\""
+        },
+        {
+          "label": "Description",
+          "value": "\"Published as the Act directs, March 2d 1775.\""
+        },
+        {
+          "label": "Subject",
+          "value": "Discoveries in geography"
+        },
+        {
+          "label": "Subject",
+          "value": "Discoveries in geography."
+        },
+        {
+          "label": "Subject",
+          "value": "Russian."
+        },
+        {
+          "label": "Subject",
+          "value": "North America"
+        },
+        {
+          "label": "Subject",
+          "value": "Discovery and exploration"
+        },
+        {
+          "label": "Subject",
+          "value": "Russian"
+        },
+        {
+          "label": "Subject",
+          "value": "Russian Far East (Russia)"
+        },
+        {
+          "label": "Subject",
+          "value": "Bering Strait Region"
+        },
+        {
+          "label": "Subject",
+          "value": "Pacific Coast (North America)"
+        },
+        {
+          "label": "Subject",
+          "value": "North America."
+        },
+        {
+          "label": "Subject",
+          "value": "Pacific Coast."
+        },
+        {
+          "label": "Subject",
+          "value": "Pacific Ocean"
+        },
+        {
+          "label": "Subject",
+          "value": "Bering Strait Region."
+        },
+        {
+          "label": "Subject",
+          "value": "Russia (Federation)"
+        },
+        {
+          "label": "Subject",
+          "value": "Russian Far East."
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale approximately 1:19,000,000 at N 40°"
+        },
+        {
+          "label": "Coverage",
+          "value": "134°05′00″E -- 129°14′00″W / 72°30′00″N -- 31°00′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1775"
+        },
+        {
+          "label": "Date",
+          "value": "1775"
+        },
+        {
+          "label": "Identifier",
+          "value": "LCCN: 2006458667"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/pj048tg9018"
+        },
+        {
+          "label": "Publisher",
+          "value": "Printed for Robt. Sayer, Map & Printseller, no. 53 in Fleet Street"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "Relief shown pictorially",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/pj048tg9018%2Fpj048tg9018_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/pj048tg9018%2Fpj048tg9018_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 296
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/pj048tg9018/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/pj048tg9018/iiif/canvas/cocina-fileSet-pj048tg9018-pj048tg9018_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 13459,
+              "width": 18188,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/pj048tg9018/pj048tg9018_0001.jp2",
+                  "label": "Original source file (119 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/pj048tg9018/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Ff5128068-f29c-45b5-ba27-5ea4aa2a35e4",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/pj048tg9018/iiif/canvas/cocina-fileSet-pj048tg9018-pj048tg9018_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/pj048tg9018%2Fpj048tg9018_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 13459,
+                    "width": 18188,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/pj048tg9018%2Fpj048tg9018_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/zq865vc1696/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Mappa dela Obscurasion dela Tierra Inel Eclypse de Sol, de XXII de Marco, de MDCCXXVII delineada porel Contador D. Juan Antonio de Mendoza Y Gonzalez para la Obseruasion delongitud",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/zq865vc1696.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/zq865vc1696'>https://purl.stanford.edu/zq865vc1696</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Mappa dela Obscurasion dela Tierra Inel Eclypse de Sol, de XXII de Marco, de MDCCXXVII delineada porel Contador D. Juan Antonio de Mendoza Y Gonzalez para la Obseruasion delongitud"
+        },
+        {
+          "label": "Contributor",
+          "value": "Mendoza y González, Juan Antonio de"
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 18.7 x 28.2 cm"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "Juan Antonio de Mendoza y Gonzalez."
+        },
+        {
+          "label": "Description",
+          "value": "California as enlarged island with only 2 place names: C. Mendosino and C. de S.Lucas; Anian to north, and T.de Eson to northwest."
+        },
+        {
+          "label": "Description",
+          "value": "In: Spherographia de la obscuracion de la tierra, en el eclypse de sol, de 22, de marzo de 1727. Methodo de observarle, y de coregir los reloxes. Delineada por D. Juan Antonio de Mendoza y Gonzalez, Professor de las Ciencias Mathematicas, Contador, Agrimensor universal de este Reyno de Nueva-España. / Juan Antonio de Mendoza y Gonzalez. -- Con Licencia. En Mexico : por Joseph Bernardo de Hogal. En la Calle de la Monterilla, [1727]. [12]p., fold. map. 19.5 x 14.3 cm."
+        },
+        {
+          "label": "Description",
+          "value": "Mapping shows great distortions."
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin Book Number (1995 edition): 206"
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "UCB."
+        },
+        {
+          "label": "Subject",
+          "value": "America"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca.1:70,000,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "160°00′00″W -- 20°00′00″E / 90°00′00″N -- 90°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1727"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/zq865vc1696"
+        },
+        {
+          "label": "Publisher",
+          "value": "s.n."
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "California as enlarged island with only 2 place names: C. Mendosino and C. de S.Lucas; Anian to north, and T.de Eson to northwest.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/zq865vc1696%2Fzq865vc1696_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/zq865vc1696%2Fzq865vc1696_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 262
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/zq865vc1696/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/zq865vc1696/iiif/canvas/cocina-fileSet-zq865vc1696-zq865vc1696_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 4840,
+              "width": 7391,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/zq865vc1696/zq865vc1696_05_0001.jp2",
+                  "label": "Original source file (6.44 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/zq865vc1696/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fzq865vc1696-zq865vc1696_1%2Fzq865vc1696_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/zq865vc1696/iiif/canvas/cocina-fileSet-zq865vc1696-zq865vc1696_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/zq865vc1696%2Fzq865vc1696_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 4840,
+                    "width": 7391,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/zq865vc1696%2Fzq865vc1696_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/gf224kq6038/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "A chart shewing part of the Coast of N.W. America, with the tracks of His\n            Majesty's Sloop Discovery and armed tender Chatham, Commanded by George Vancouver\n            Esq. and prepared under his immediate inspection by Lieut. Joseph Baker, in Which the\n            Continental Shore has been finally traced and determined from Latd. 38?15'N. and\n            Longd. 237?27'E. to Latd. 45?46'N. and Longd. 236?15'E. Engraved by B.\n            Baker Islington. Plate 3. (with) Bay of Trinidad. London, published May 1, 1798 by J.\n            Edwards Pall Mall, and G. Robinson Paternoster Row",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/gf224kq6038.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/gf224kq6038'>https://purl.stanford.edu/gf224kq6038</a>"
+        },
+        {
+          "label": "Title",
+          "value": "A chart shewing part of the Coast of N.W. America, with the tracks of His\n            Majesty's Sloop Discovery and armed tender Chatham, Commanded by George Vancouver\n            Esq. and prepared under his immediate inspection by Lieut. Joseph Baker, in Which the\n            Continental Shore has been finally traced and determined from Latd. 38?15'N. and\n            Longd. 237?27'E. to Latd. 45?46'N. and Longd. 236?15'E. Engraved by B.\n            Baker Islington. Plate 3. (with) Bay of Trinidad. London, published May 1, 1798 by J.\n            Edwards Pall Mall, and G. Robinson Paternoster Row"
+        },
+        {
+          "label": "Title",
+          "value": "The Coast of N.W. America"
+        },
+        {
+          "label": "Creator",
+          "value": "Vancouver, George, 1757-1798"
+        },
+        {
+          "label": "Contributor",
+          "value": "Baker, B. (contributor)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Baker, Lieut. Joseph (contributor)"
+        },
+        {
+          "label": "Type",
+          "value": "Chart Map"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 79 x 62 cm"
+        },
+        {
+          "label": "Description",
+          "value": "Uncolored map labeled \"Part of the Coast of New Albion.\" The map extends\n            from Bodega Bay, California to Cape Lookout, Oregon."
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "P197; Streeter 3497; Sabin 98443; Cowan 1933; Wagner 853-860."
+        },
+        {
+          "label": "Subject",
+          "value": null
+        },
+        {
+          "label": "Subject",
+          "value": null
+        },
+        {
+          "label": "Coverage",
+          "value": "1:1,400,000"
+        },
+        {
+          "label": "Coverage",
+          "value": "128°00′00″W -- 120°00′00″W / 45°46′00″N -- 38°15′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1798"
+        },
+        {
+          "label": "Identifier",
+          "value": "List number: 3354.003"
+        },
+        {
+          "label": "Identifier",
+          "value": "Image number: 3354003"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/gf224kq6038"
+        },
+        {
+          "label": "Publisher",
+          "value": "G.G. & J. Robinson"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-31"
+        }
+      ],
+      "description": "Uncolored map labeled \"Part of the Coast of New Albion.\" The map extends\n            from Bodega Bay, California to Cape Lookout, Oregon.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/gf224kq6038%2F3354003/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/gf224kq6038%2F3354003",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 314,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/gf224kq6038/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/gf224kq6038/iiif/canvas/cocina-fileSet-gf224kq6038-gf224kq6038_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 10112,
+              "width": 7931,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/gf224kq6038/3354003.jp2",
+                  "label": "Original source file (14.4 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/gf224kq6038/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fgf224kq6038-gf224kq6038_1%2F3354003.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/gf224kq6038/iiif/canvas/cocina-fileSet-gf224kq6038-gf224kq6038_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/gf224kq6038%2F3354003/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10112,
+                    "width": 7931,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/gf224kq6038%2F3354003",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
