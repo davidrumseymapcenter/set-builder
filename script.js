@@ -151,11 +151,25 @@ document.addEventListener('DOMContentLoaded', () => {
   initializeEventListeners();
 });
 
+
 // Function to make the viewer resizable
 function initializeResizer() {
   const resizer = document.getElementById('resizer');
   const leftPanel = document.querySelector('.left-panel');
   const viewer = document.getElementById('viewer');
+
+   // Snap left panel to fit exactly 3 cards on load
+  const CARD_WIDTH = 220;
+  const CARD_GAP = 10;
+  const THREE_CARD_OVERHEAD = 105;
+  const TWO_CARD_OVERHEAD = 55; // slightly less overhead for 2 cards
+
+  const threeCardWidth = (3 * (CARD_WIDTH + CARD_GAP)) - CARD_GAP + THREE_CARD_OVERHEAD;
+  const twoCardWidth = (2 * (CARD_WIDTH + CARD_GAP)) - CARD_GAP + TWO_CARD_OVERHEAD;
+
+  const containerWidth = document.querySelector('.container').offsetWidth;
+  const snapWidth = containerWidth > 900 ? threeCardWidth : twoCardWidth;
+  leftPanel.style.width = `${snapWidth}px`;
   
   let isResizing = false;
 
@@ -741,8 +755,14 @@ card.dataset.canvasData = JSON.stringify(canvasToStore);
   img.src = imageUrl;
   img.alt = title;
 
-  // Click to view in OpenSeadragon
+    // Click to view in OpenSeadragon
   img.addEventListener('click', () => {
+    // Remove active state from all cards first
+    document.querySelectorAll('.card').forEach(c => {
+      c.classList.remove('active-card');
+    });
+    // Set active state on this card
+    card.classList.add('active-card');
     viewer.open(highResUrl);
   });
 
@@ -773,45 +793,50 @@ card.dataset.canvasData = JSON.stringify(canvasToStore);
   const attributionEl = document.createElement('p');
   attributionEl.innerHTML = `<strong>Attribution:</strong> ${attribution}`;
 
-  // Create link container (like control-links)
 const cardLinks = document.createElement('div');
 cardLinks.className = 'card-links';
 
-// Create link to item
+// Source link
 const locationLinkEl = document.createElement('a');
 locationLinkEl.href = locationLink;
-locationLinkEl.textContent = 'View Item';
+locationLinkEl.textContent = 'Source';
 locationLinkEl.target = '_blank';
 locationLinkEl.className = 'card-link';
+locationLinkEl.title = 'View source item';
 cardLinks.appendChild(locationLinkEl);
 
-// Create link to IIIF manifest
+// IIIF Manifest link
 const manifestLinkEl = document.createElement('a');
 manifestLinkEl.href = manifest['@id'] || manifest.id || '#';
-manifestLinkEl.textContent = 'View Manifest';
+manifestLinkEl.textContent = 'IIIF Manifest';
 manifestLinkEl.target = '_blank';
 manifestLinkEl.className = 'card-link';
+manifestLinkEl.title = 'View IIIF Manifest';
 cardLinks.appendChild(manifestLinkEl);
 
-
-// Create link to Allmaps
+// Allmaps link
 const allmapsLinkEl = document.createElement('a');
 allmapsLinkEl.href = allmapsLink;
-allmapsLinkEl.textContent = 'Allmaps Editor';
+allmapsLinkEl.textContent = 'Allmaps';
 allmapsLinkEl.target = '_blank';
 allmapsLinkEl.className = 'card-link';
+allmapsLinkEl.title = 'Open in Allmaps Editor';
 cardLinks.appendChild(allmapsLinkEl);
 
 // Create note container
 const noteContainer = document.createElement('div');
 noteContainer.className = 'note-container';
 
+// Note toggle label
 const noteLabel = document.createElement('label');
-noteLabel.innerHTML = '<strong>Curator notes:</strong>';
-noteLabel.className = 'note-label';
+noteLabel.className = 'note-label' + (allNotes.length > 0 ? ' open' : '');
+noteLabel.innerHTML = '<strong>Curator Notes</strong>';
+
+const noteBody = document.createElement('div');
+noteBody.className = 'note-body' + (allNotes.length > 0 ? ' open' : '');
 
 const noteTextarea = document.createElement('textarea');
-noteTextarea.className = 'note-textarea';
+noteTextarea.className = 'note-textarea' + (allNotes.length > 0 ? ' has-notes' : '');
 noteTextarea.placeholder = 'Add notes about this image...';
 noteTextarea.rows = 5;
 
@@ -820,22 +845,23 @@ noteTextarea.value = reversedNotes
   ? '\n---\n' + reversedNotes
   : '';
 
-if (allNotes.length > 0) {
-  noteTextarea.classList.add('has-notes');
-}
-
-// Plain text display for viewer/presentation modes
+// Plain text display for viewer mode
 const noteDisplay = document.createElement('div');
 noteDisplay.className = 'note-display';
-
-// For display, join notes with a clean separator — no --- dividers
 noteDisplay.textContent = reversedNotes
   ? reversedNotes.split('\n\n---\n\n').join('\n\n')
   : '';
 
+// Toggle open/closed on label click (index.html only)
+noteLabel.addEventListener('click', function() {
+  noteLabel.classList.toggle('open');
+  noteBody.classList.toggle('open');
+});
+
+noteBody.appendChild(noteTextarea);
+noteBody.appendChild(noteDisplay);
 noteContainer.appendChild(noteLabel);
-noteContainer.appendChild(noteTextarea);
-noteContainer.appendChild(noteDisplay);
+noteContainer.appendChild(noteBody);
 
 // Append all elements to card
 card.appendChild(deleteBtn);
@@ -1593,7 +1619,17 @@ document.getElementById('uploadManifest').addEventListener('change', async funct
     }
   });
 
- 
+ // Accordion section toggles
+  document.querySelectorAll('#inputPanel .section-label').forEach(label => {
+    label.addEventListener('click', function() {
+      const section = this.closest('.input-section');
+      const isOpen = section.classList.contains('open');
+      
+      // Toggle this section
+      section.classList.toggle('open');
+      this.classList.toggle('open');
+    });
+  });
 
   // Event listener for the export button
 document.getElementById('saveLocally').addEventListener('click', exportCombinedManifest);

@@ -46,51 +46,55 @@
 
     <div class="section-divider"></div>
           
-        <div id="inputPanel" class="input-panel">
-  <!-- Add Manifests Section -->
-  <div class="input-section">
-    <label for="manifestUrl" class="section-label">Add IIIF Manifests</label>
-    <input type="text" id="manifestUrl" placeholder="Enter IIIF Manifest URLs (comma-separated)" />
-    <button id="addManifest">Add Manifest(s)</button>
+<div id="inputPanel" class="input-panel">
+
+  <!-- Add Manifests Section (open by default) -->
+  <div class="input-section open">
+    <label class="section-label open">Add IIIF Manifests</label>
+    <div class="section-content">
+      <input type="text" id="manifestUrl" placeholder="Enter IIIF Manifest URLs (comma-separated)" />
+      <button id="addManifest">Add Manifest(s)</button>
+    </div>
   </div>
 
   <div class="section-divider"></div>
 
-  <!-- Load Gallery Section -->
+  <!-- Load Gallery Section (closed by default) -->
   <div class="input-section">
     <label class="section-label">Load Gallery</label>
-    
-    <div class="load-option">
-  <label for="uploadManifest" class="file-input-label">Choose File</label>
-  <input type="file" id="uploadManifest" accept=".json" style="display: none;" />
-  <span id="fileName" class="file-name">No file chosen</span>
-</div>
-
-    <div class="load-option-divider">OR</div>
-
-    <div class="load-option">
-      <input type="text" id="galleryUrl" placeholder="Paste gallery JSON URL" />
+    <div class="section-content">
+      <div class="load-option">
+        <label for="uploadManifest" class="file-input-label">Choose File</label>
+        <input type="file" id="uploadManifest" accept=".json" style="display: none;" />
+        <span id="fileName" class="file-name">No file chosen</span>
+      </div>
+      <div class="load-option-divider">OR</div>
+      <div class="load-option">
+        <input type="text" id="galleryUrl" placeholder="Paste gallery JSON URL" />
+      </div>
+      <button id="loadFromUrl">Load from URL</button>
     </div>
-    <button id="loadFromUrl">Load from URL</button>
   </div>
 
   <div class="section-divider"></div>
 
-  <!-- Save Gallery Section -->
-<div class="input-section">
-  <label for="manifestName" class="section-label">Save Gallery</label>
-  <input type="text" id="manifestName" placeholder="Enter gallery name">
-
-  <div class="export-buttons-row">
-<button id="saveLocally">💾  Save File</button>
-
-    <button id="exportForViewers" class="export-iiif-btn" title="Export for IIIF Viewers">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" 
-           alt="Export Manifest" 
-           class="iiif-export-icon">
-    </button>
+  <!-- Save Gallery Section (closed by default) -->
+  <div class="input-section">
+    <label class="section-label">Save Gallery</label>
+    <div class="section-content">
+      <input type="text" id="manifestName" placeholder="Enter gallery name">
+      <div class="export-buttons-row">
+        <button id="saveLocally">💾  Save File</button>
+        <button id="exportForViewers" class="export-iiif-btn" title="Export for IIIF Viewers">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" 
+               alt="Export Manifest" 
+               class="iiif-export-icon">
+        </button>
+      </div>
+    </div>
   </div>
-  </div> <!-- Close input-section -->
+
+
 </div> <!-- Close inputPanel -->
 </div> <!-- Close header -->
 
