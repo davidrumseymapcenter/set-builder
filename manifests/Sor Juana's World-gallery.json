@@ -1,0 +1,1646 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Sor Juana's World",
+  "label": "Sor Juana's World",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~342760~90110904/manifest",
+      "label": "Map of Tenochtitlan and the Gulf of Mexico",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~342760~90110904/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~342760~90110904/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Map of Tenochtitlan and the Gulf of Mexico",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Anonymous"
+                },
+                {
+                  "label": "Date",
+                  "value": "1524"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Map of Tenochtitlan and the Gulf of Mexico"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Note",
+                  "value": "Unknown artist, probably German, probably working from a lost Mexica source. Courtesy of the John Carter Brown Library, Providence, R.I."
+                },
+                {
+                  "label": "Country",
+                  "value": "Mexico"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Re-Mapping Sovereignty"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Map of Tenochtitlan and the Gulf of Mexico"
+                },
+                {
+                  "label": "List No",
+                  "value": "15139.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Anonymous"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1524"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Map of Tenochtitlan and the Gulf of Mexico"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15139.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15139000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/15139000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Anonymous"
+                },
+                {
+                  "label": "local_note",
+                  "value": "[2026-09-16]: DIGITAL ONLY to view on screen. Facsimile map. Shows  a state prior to 1935 Alcocoer edition."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~342760~90110904/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~342760~90110904/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~342760~90110904",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 9704,
+                    "height": 6405
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~342760~90110904/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~342760~90110904/list/luna"
+              ],
+              "width": 9704,
+              "height": 6405
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~342760~90110904"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286852~90059103/manifest",
+      "label": "Vol I (58) Mexico. Cusco (Cuzco).",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~286852~90059103/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286852~90059103/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Vol I (58) Mexico. Cusco (Cuzco).",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Braun, Georg, 1541-1622"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hogenberg, Franz, 1539-1590"
+                },
+                {
+                  "label": "Date",
+                  "value": "1575"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Vol I (58) Mexico. Cusco (Cuzco)."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Peter von Brachel"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Cologne"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "27"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Note",
+                  "value": "In this last edition of Volume I, van der Krogt 41:1.1 (1640), the preliminary section is reduced to Braun's forward and the Hittorp letter. The London map/view is not present and instead is found at the beginning of Volume V."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Van der Krogt Vol IV-2: 2731, st. 2"
+                },
+                {
+                  "label": "City",
+                  "value": "Mexico City (Mexico)"
+                },
+                {
+                  "label": "City",
+                  "value": "Cuzco (Peru)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Vol I (58) Mexico. Cusco."
+                },
+                {
+                  "label": "List No",
+                  "value": "12126.120"
+                },
+                {
+                  "label": "Series No",
+                  "value": "120"
+                },
+                {
+                  "label": "Page No",
+                  "value": "(58)"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Novellanus, Simon, d. 1590"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Hoefnagel, Joris, 1542-1600"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Braun, Georg, 1541-1622"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hogenberg, Franz, 1539-1590"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1640"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Civitates Orbis Terrarum."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Koeman B&H 1-6; van der Krogt 41:1.1 (1640). This is van der Krogt's XVIII edition, c. 1640, the last edition of six volumes. Van der Krogt dates the individual volumes as 1 (c. 1640, 11th ed.), 2 (c. 1640, 9th ed.), 3 (c. 1623, 7th ed.), 4 (c. 1635, 7th ed.), 5 (c. 1640, 5th ed.), 6 (c. 1635, 3rd ed.). All six volumes are printed by Peter von Brachel between 1823 and 1640, with the texts reset by him and the plates used generally from first or second editions. We date the volumes, texts and plates separately, using Van der Krogt's listings. There are 546 plans/views of cities on 363 plates. The title for the series of six volumes is taken from the first volume which is general practice. The other five volumes are titled individually. The original publication dates are vol I, 1572; vol II, 1575; vol III, 1581; vol IV, c.1588; vol V, c.1598; vol VI, 1617."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "The Civitates Orbis Terrarum was the first atlas of world cities and one of the most important books published in the late 16th century. Although led by Braun and Hogenberg, the books were created by a large team of writers, engravers, and artists. R.V. Tooley writes: \"The Civitates is one of the great books of the World... it was the first serious attempt to give graphic representations of the main cities of the World, with a wealth of factual detail. In the main, the buildings in each view are shown in elevation, and while the ordinary buildings are stylized, the principal buildings are reproduced from actual drawings on the spot, and these, and the main streets, can be recognized today. Further, the editors gave additional factual information as a deliberately planned policy, such as the heraldic arms of the city, and the nature of the surrounding countryside, whether wooded or arable, grazing land, vineyards, or gardens. The importance of waterways is stressed by the careful delineation of stone bridges, wooden pontoons, flat-bottomed ferries, moles, wharves and jetties; the ports with ocean-going craft, the inland waters with river traffic. Varieties of land travel are depicted, pedestrians, horsemen, wagons, coaches, and palanquins. Small vignettes illustrate the trade, occupations and habits of the locality, agriculture, paper-making and textiles. The law is represented by various forms of punishment, gibbets, wheels, floggings etc. A distinctive feature of the plates is the insertion of large figures in the foreground to illustrate local costume. Those figures are out of proportion necessarily. The general multiplication of detail slightly offends certain commentators who fail to appreciate the purpose of the editors. Their primary aim was not to produce well-balanced landscapes, but to give as much information as possible in a pleasing visual form, in reality a kind of super guide book. This was done so magnificently that the result was an art as decorative as it was informative. The whole forms a wonderful compendium of life in Europe in the sixteenth century. And as city growth in early times, with a few obvious exceptions, was more or less static, even further it gives a visual printed record of mediaeval Europe, and is one of the most valuable sources remaining to the student and historian of these periods.\" (R.V. Tooley, preface to the reproduction edition of Civitates Orbis Terrarum, World Publishing, 1966)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12126.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "City Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "363"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12126120.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/166/12126120.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Braun, Georg, 1541-1622; Hogenberg, Franz, 1539-1590"
+                },
+                {
+                  "label": "local_note",
+                  "value": "[2026-09-16]: Mexico City at left"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~286852~90059103/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~286852~90059103/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~286852~90059103",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11035,
+                    "height": 7444
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286852~90059103/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~286852~90059103/list/luna"
+              ],
+              "width": 11035,
+              "height": 7444
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~286852~90059103"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350460~90117897/manifest",
+      "label": "Descripçion de las Indias del Norte.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~350460~90117897/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350460~90117897/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Descripçion de las Indias del Norte.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Herrera y Tordesillas, Antonio de, -1625"
+                },
+                {
+                  "label": "Date",
+                  "value": "1622"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Descripçion de las Indias del Norte."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Colijn, Michiel"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "25,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map of the West Indies. Shows countries, audiencias (royal courts in Spanish colonial America), bodies of water, drainage, coastlines and islands. Includes latitudinal lines and longitudinal lines, as well as descriptive notes. Black and white engraving. Map is 21 x 29 cm, on double sheet 29 x 36 cm. Appears in Descriptio Indiae Occidentalis per Antonium de Herrera regium Indiarum et Castellae historiographum, the first part of Nieuwe werelt anders ghenaempt West-Indien."
+                },
+                {
+                  "label": "Region",
+                  "value": "West Indies"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Exploration"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Descripçion de las Indias del Norte."
+                },
+                {
+                  "label": "List No",
+                  "value": "14476.007"
+                },
+                {
+                  "label": "Series No",
+                  "value": "7"
+                },
+                {
+                  "label": "Page No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Herrera y Tordesillas, Antonio de, -1625"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ordóñez de Ceballos, Pedro, approximately 1545-approximately 1630"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Le Maire, Jacques, 1585-1616"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1622"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Nieuwe werelt anders ghenaempt West-Indien. t'Amsterdam, by Michiel Colijn, Boeck-vercooper op't water by de oude brugh, in't huys-boeck. Anno 1622."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "https://archive.org/details/nieuwewereltandersghenaemptwestindi1/Nieuwe_werelt_anders_ghenaempt_West_Indi%281%29/mode/2up"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Nieuwe werelt anders ghenaempt West-Indien, published by Michiel Colijn in Amsterdam in 1622. Three titles, separately paginated but issued together. The titles are authored by Antonio de Herrera y Tordesillas (-1625), Pedro Ordóñez de Ceballos (approximately 1545 - approximately 1630) and Jacques Le Maire (1585-1616), respectively. Bound in contemporary vellum, with early handwritten annotations, in ink, on pastedown of front cover verso. Collation: printed title-leaf, engraved title-leaf, [4], 111 pages, with fourteen engraved maps on double-sheets; second title-leaf, 3-99 pages; blank leaf; third title-leaf, engraved portrait of Le Maire on verso; seven dedication and preface leaves, 72 pages, numbered leaves 73-85, with three engraved maps (two double-sheet, one fold-out) and five engraved views. Three significant accounts of “New World” and Pacific explorations, bound together as issued. Most important is the first publication of the full journal of Jacques Le Maire’s circumnavigation, the first voyage to successfully round Cape Horn. The first part is Antonio de Herrera’s account, derived from the Spanish original, Descripcion de las Indias Occidentales, which was first published in Madrid in 1601. It was next published in Latin, French and Dutch editions, all issued in Amsterdam in 1622, using the same engravings (with some variations in the compositions of various editions). The Dutch edition of Herrera was issued with the two additional works: that of Ceballos’ account of the West Indies, and La Maire’s illustrated account of \"Terra Australis\" (Latin for \"Southern Land”). The first two parts focus on knowledge of the New World; the first part with maps of North, Central and South America and the Pacific Coast, including New Guinea and other Pacific islands, which added considerable new information of geographical knowledge of the time. In addition, the Latin title page to Herrera’s work is decorated with Castilian coat of arms, vignettes of six Aztec gods and scenes of Nova Hispania [Mexico], including a temple. The third part traces La Maire’s voyage of 1616, in search of Terra Australis, a hypothetical continent first posited in antiquity. This work represents the first true publication of the journal from the Le Maire-Schouten expedition around the world. Sailing through Le Maire Strait and rounding Patagonia via Cape Horn, this voyage had an enormous effect on future navigation, helping to end the imagined idea of a Southland. Le Maire established for the first time that New Guinea was not part of a great continent extending indefinitely to the East. This understanding altered the European perception of the archipelago, which had gone unchanged since 1545. Also, Le Maire’s voyage around Cape Horn relieved the trading monopoly of the East India Company by finding an alternative route to the East Indies that did not violate the Company Charter, which prevented other Dutch trading companies from using the existing routes of the Straits of Magellan and Cape of Good Hope. Partly inspired by Quiros and motivated by Dutch trading zeal, this was the essential precursor to Tasman’s voyage. Tasman made great use of Le Maire’s mapping of the ocean. The Le Maire voyage, the last of the 17th-century expeditions to search for the hypothetical continent from its east, was responsible for extensive discoveries in the Pacific, shown in detail on the various maps and views contained herein. Three of the views show the Eendract ship at anchor in the Solomon and Cocos Islands. The small map on the title pages of both the first and third works is the earliest published cartographic representation of California as an island, a cartographic myth that persisted until the 18th century. Herrera was the official historian to Kings Philip II, III and IV, and his Nieuwe Werelt is a precursor to his magnum opus, Historia general de los hechos de los Castellanos en las Islas Terra Firme Del Mar Oceano, which eventually covered eight decades of voyages and travels published from 1601 to 1615. See full imagery of the volume at The Internet Archive (link in Pub Reference field). Historical notes from William Reese Company, New Haven."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14476.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Regional Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "17"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "20"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14476007.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/14476007.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Herrera y Tordesillas, Antonio de, -1625"
+                },
+                {
+                  "label": "local_note",
+                  "value": "[2026-09-16]: Audencias de la Nueva Galizia, Nueve Espana, Guatimala, from Tordesillas' Descripcion de las Indias Occidentales\n\nhttps://searchworks.stanford.edu/view/in00000174050"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350460~90117897/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350460~90117897/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350460~90117897",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 9393,
+                    "height": 7085
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350460~90117897/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350460~90117897/list/luna"
+              ],
+              "width": 9393,
+              "height": 7085
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~350460~90117897"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350462~90117906/manifest",
+      "label": "Descripçion del destricto del audiencia de Nueva Espana.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~350462~90117906/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350462~90117906/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Descripçion del destricto del audiencia de Nueva Espana.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Herrera y Tordesillas, Antonio de, -1625"
+                },
+                {
+                  "label": "Date",
+                  "value": "1622"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Descripçion del destricto del audiencia de Nueva Espana."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Colijn, Michiel"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map of Nueva Espana [New Spain] (current-day southern Mexico). Shows regions, cities, topography, bodies of water, drainage, coastlines and islands. Relief shown pictorially. Includes a descriptive note. Black and white engraving. Map is 21 x 29 cm, on double sheet 29 x 36 cm. Appears in Descriptio Indiae Occidentalis per Antonium de Herrera regium Indiarum et Castellae historiographum, the first part of Nieuwe werelt anders ghenaempt West-Indien."
+                },
+                {
+                  "label": "Country",
+                  "value": "Mexico"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Exploration"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Descripçion del destricto del audiencia de Nueva Espana."
+                },
+                {
+                  "label": "List No",
+                  "value": "14476.009"
+                },
+                {
+                  "label": "Series No",
+                  "value": "9"
+                },
+                {
+                  "label": "Page No",
+                  "value": "4"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Herrera y Tordesillas, Antonio de, -1625"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ordóñez de Ceballos, Pedro, approximately 1545-approximately 1630"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Le Maire, Jacques, 1585-1616"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1622"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Nieuwe werelt anders ghenaempt West-Indien. t'Amsterdam, by Michiel Colijn, Boeck-vercooper op't water by de oude brugh, in't huys-boeck. Anno 1622."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "https://archive.org/details/nieuwewereltandersghenaemptwestindi1/Nieuwe_werelt_anders_ghenaempt_West_Indi%281%29/mode/2up"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Nieuwe werelt anders ghenaempt West-Indien, published by Michiel Colijn in Amsterdam in 1622. Three titles, separately paginated but issued together. The titles are authored by Antonio de Herrera y Tordesillas (-1625), Pedro Ordóñez de Ceballos (approximately 1545 - approximately 1630) and Jacques Le Maire (1585-1616), respectively. Bound in contemporary vellum, with early handwritten annotations, in ink, on pastedown of front cover verso. Collation: printed title-leaf, engraved title-leaf, [4], 111 pages, with fourteen engraved maps on double-sheets; second title-leaf, 3-99 pages; blank leaf; third title-leaf, engraved portrait of Le Maire on verso; seven dedication and preface leaves, 72 pages, numbered leaves 73-85, with three engraved maps (two double-sheet, one fold-out) and five engraved views. Three significant accounts of “New World” and Pacific explorations, bound together as issued. Most important is the first publication of the full journal of Jacques Le Maire’s circumnavigation, the first voyage to successfully round Cape Horn. The first part is Antonio de Herrera’s account, derived from the Spanish original, Descripcion de las Indias Occidentales, which was first published in Madrid in 1601. It was next published in Latin, French and Dutch editions, all issued in Amsterdam in 1622, using the same engravings (with some variations in the compositions of various editions). The Dutch edition of Herrera was issued with the two additional works: that of Ceballos’ account of the West Indies, and La Maire’s illustrated account of \"Terra Australis\" (Latin for \"Southern Land”). The first two parts focus on knowledge of the New World; the first part with maps of North, Central and South America and the Pacific Coast, including New Guinea and other Pacific islands, which added considerable new information of geographical knowledge of the time. In addition, the Latin title page to Herrera’s work is decorated with Castilian coat of arms, vignettes of six Aztec gods and scenes of Nova Hispania [Mexico], including a temple. The third part traces La Maire’s voyage of 1616, in search of Terra Australis, a hypothetical continent first posited in antiquity. This work represents the first true publication of the journal from the Le Maire-Schouten expedition around the world. Sailing through Le Maire Strait and rounding Patagonia via Cape Horn, this voyage had an enormous effect on future navigation, helping to end the imagined idea of a Southland. Le Maire established for the first time that New Guinea was not part of a great continent extending indefinitely to the East. This understanding altered the European perception of the archipelago, which had gone unchanged since 1545. Also, Le Maire’s voyage around Cape Horn relieved the trading monopoly of the East India Company by finding an alternative route to the East Indies that did not violate the Company Charter, which prevented other Dutch trading companies from using the existing routes of the Straits of Magellan and Cape of Good Hope. Partly inspired by Quiros and motivated by Dutch trading zeal, this was the essential precursor to Tasman’s voyage. Tasman made great use of Le Maire’s mapping of the ocean. The Le Maire voyage, the last of the 17th-century expeditions to search for the hypothetical continent from its east, was responsible for extensive discoveries in the Pacific, shown in detail on the various maps and views contained herein. Three of the views show the Eendract ship at anchor in the Solomon and Cocos Islands. The small map on the title pages of both the first and third works is the earliest published cartographic representation of California as an island, a cartographic myth that persisted until the 18th century. Herrera was the official historian to Kings Philip II, III and IV, and his Nieuwe Werelt is a precursor to his magnum opus, Historia general de los hechos de los Castellanos en las Islas Terra Firme Del Mar Oceano, which eventually covered eight decades of voyages and travels published from 1601 to 1615. See full imagery of the volume at The Internet Archive (link in Pub Reference field). Historical notes from William Reese Company, New Haven."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14476.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Regional Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "17"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "20"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14476009.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/14476009.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Herrera y Tordesillas, Antonio de, -1625"
+                },
+                {
+                  "label": "local_note",
+                  "value": "[2026-09-16]: Territory of the Audencia of Nueve Espana, from Tordesillas' Descripcion de las Indias Occidentales\n\nhttps://searchworks.stanford.edu/view/in00000174050"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350462~90117906/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350462~90117906/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350462~90117906",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 9795,
+                    "height": 7201
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350462~90117906/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350462~90117906/list/luna"
+              ],
+              "width": 9795,
+              "height": 7201
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~350462~90117906"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~329276~90128613/manifest",
+      "label": "Hispaniae Novae Nova Descriptio.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~329276~90128613/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~329276~90128613/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Hispaniae Novae Nova Descriptio.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Mercator, Gerhard, 1512-1594"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hondius, Jodocus, 1563-1612"
+                },
+                {
+                  "label": "Author",
+                  "value": "Hondius, Hendrik, 1597-1651"
+                },
+                {
+                  "label": "Date",
+                  "value": "1623"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Hispaniae Novae Nova Descriptio."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Hendricus Hondius"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "48"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "2,000,000"
+                },
+                {
+                  "label": "Country",
+                  "value": "Mexico"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Hispaniae Novae Nova Descriptio."
+                },
+                {
+                  "label": "List No",
+                  "value": "10534.357"
+                },
+                {
+                  "label": "Series No",
+                  "value": "357"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Mercator, Gerhard, 1512-1594"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hondius, Jodocus, 1563-1612"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hondius, Hendrik, 1597-1651"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1623"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Gerardi Mercatoris / Atlas / sive / Cosmographicae / Meditationes / de / Fabrica Mundi Et / Fabricati Fi-gura. / Denuo auctus / Editio Quinta / Excusum Cane Vigilanti Sumptibus et typis aeneis Henrici Hondij, Amsterodami An. D. 1623."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Koeman Me 27A; van der Krogt 1:105"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"This is the first edition with the name of Henricus Hondius on the title page. The Latin Atlas is enlarged with the same six new maps of French provinces as appeared in the 1619 French edition (1:113): (49) Saintonge, (54) Picardie, (55) Champagne, (56) Beauvais, (60) Bourbonnais, and (62) ~ercy. As in the 1619 French edition the 1585 Mercator map of France (map 46) is replaced by a 'new' one: Jodocus Hondius map of 1600, some copies of the 1623 edition have a later state of this map with the date altered to 1622. Mercator's map of Bohemia (map 106) is replaced by Blaeu's map of the same region.\" (Van der Krogt 1:105). This copy has unusually fine color. It was long held in a collection in Germany."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10534.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "156"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "46"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10534357.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/185/10534357.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Mercator, Gerhard, 1512-1594; Hondius, Jodocus, 1563-1612; Hondius, Hendrik, 1597-1651"
+                },
+                {
+                  "label": "local_note",
+                  "value": "[2026-09-16]: Handsome volume"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~329276~90128613/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~329276~90128613/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~329276~90128613",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11999,
+                    "height": 8221
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~329276~90128613/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~329276~90128613/list/luna"
+              ],
+              "width": 11999,
+              "height": 8221
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~329276~90128613"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~269029~90043128/manifest",
+      "label": "Provincia d[e] S. Diego de Mexico en la nueba Espana.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~269029~90043128/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~269029~90043128/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Provincia d[e] S. Diego de Mexico en la nueba Espana.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Ysarti, Antonio"
+                },
+                {
+                  "label": "Author",
+                  "value": "Medina, Baltasar de"
+                },
+                {
+                  "label": "Date",
+                  "value": "1682"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Provincia d[e] S. Diego de Mexico en la nueba Espana."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Juan de Ribera"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Mexico"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "5,500,000]"
+                },
+                {
+                  "label": "Note",
+                  "value": "This is the first state of one of the first copper-engraved maps published in Mexico (the map that appeared in Montemayor y Cuenca's Discurso politico, historico, jurídico del derecho, (1658) is earlier (from Ken Ward, JCB). The map is centered on Mexico City and presents a bird's-eye view of central Mexico extending from the Gulf of Mexico to the Pacific Ocean. The region is known as the ecclesiastical province of San Diego, and extends from Aguascalientes and Guanajuato in the north to Acapulco and Oaxaca in the south. The title cartouche mentions 12 convents in the region, which are depicted on the map. The map is handsomely embellished with a rising sun, several sailing ships, a compass rose, and even birds flying above in the sky. The map was engraved by the highly skilled Antonio Ysarti for publication in Baltasar de Medina's Chronica de la Santa Provincia de San Diego de Mexico. Little is known about Ysarti, who also engraved a remarkable frontispiece for Medina's book, depicting numerous Franciscan martyrs within a Franciscan temple. Friar Baltasar de Medina was born in Mexico and became a Discalced Franciscan, a separate order of Franciscans that remain barefoot. Medina was named the official chronicler for the Discalceds, and in 1682 he published a history of the order's accomplishments in his masterwork Chronica, which focused on both Franciscan martyrs and colonial life in New Spain. Ysarti's map was the only one to be included in the Chronica. This scarce map is an important milestone in Mexican cartography and the history of the Americas. The Library of Congress holds the revised copperplate of the map, which mentions 14 convents with Valladolid added at center left and has the date removed from the bottom border."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Sabin 47336"
+                },
+                {
+                  "label": "Country",
+                  "value": "Mexico"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Provincia d[e] S. Diego de Mexico en la nueba Espana tiene 12 co[n]ventos y desde el d[e] Oaxaca que esta en 17 gra[do]s ael le sueste hasta el de Aguas Calie[n]tes que esta en 22 al norueste ay de distancia 160 leguas : por el oriente co[n]fina con el obispado de la Puebla y Oaxaca, por el poniente co[n] el Obispado de Michoacan y Guadalaxara, por norte y sur con el Arzobispado de Mexico. (In upper border) Nova delineatio s[t]rictissimæ, S. Didaci Provinciæ in Nova Hispania."
+                },
+                {
+                  "label": "List No",
+                  "value": "8639.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ysarti, Antonio"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Medina, Baltasar de"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1682"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Provincia d[e] S. Diego de Mexico en la nueba Espana tiene 12 co[n]ventos y desde el d[e] Oaxaca que esta en 17 gra[do]s ael le sueste hasta el de Aguas Calie[n]tes que esta en 22 al norueste ay de distancia 160 leguas : por el oriente co[n]fina con el obispado de la Puebla y Oaxaca, por el poniente co[n] el Obispado de Michoacan y Guadalaxara, por norte y sur con el Arzobispado de Mexico. (In upper border) Nova delineatio s[t]rictissimæ, S. Didaci Provinciæ in Nova Hispania."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Sabin 47336"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "This is the first state of one of the first copper-engraved maps published in Mexico (the map that appeared in Montemayor y Cuenca's Discurso politico, historico, jurídico del derecho, (1658) is earlier (from Ken Ward, JCB). The map is centered on Mexico City and presents a bird's-eye view of central Mexico extending from the Gulf of Mexico to the Pacific Ocean. The region is known as the ecclesiastical province of San Diego, and extends from Aguascalientes and Guanajuato in the north to Acapulco and Oaxaca in the south. The title cartouche mentions 12 convents in the region, which are depicted on the map. The map is handsomely embellished with a rising sun, several sailing ships, a compass rose, and even birds flying above in the sky. The map was engraved by the highly skilled Antonio Ysarti for publication in Baltasar de Medina's Chronica de la Santa Provincia de San Diego de Mexico. Little is known about Ysarti, who also engraved a remarkable frontispiece for Medina's book, depicting numerous Franciscan martyrs within a Franciscan temple. Friar Baltasar de Medina was born in Mexico and became a Discalced Franciscan, a separate order of Franciscans that remain barefoot. Medina was named the official chronicler for the Discalceds, and in 1682 he published a history of the order's accomplishments in his masterwork Chronica, which focused on both Franciscan martyrs and colonial life in New Spain. Ysarti's map was the only one to be included in the Chronica. This scarce map is an important milestone in Mexican cartography and the history of the Americas. The Library of Congress holds the revised copperplate of the map, which mentions 14 convents with Valladolid added at center left and has the date removed from the bottom border."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8639.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8639000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/153/8639000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Ysarti, Antonio; Medina, Baltasar de"
+                },
+                {
+                  "label": "local_note",
+                  "value": "[2026-09-16]: DIGITAL ONLY to view on screen. \n\nOnly map published in Friar Baltasar de Medina's 1682 Chronica de la Santa Provincia de San Diego de Mexico; official chronicler for the order of Discalced Franciscans; history of the order's accomplishments focused on Franciscan martyrs and colonial life in New Spain"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~269029~90043128/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~269029~90043128/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~269029~90043128",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 6748,
+                    "height": 4742
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~269029~90043128/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~269029~90043128/list/luna"
+              ],
+              "width": 6748,
+              "height": 4742
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~269029~90043128"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~339113~90107250/manifest",
+      "label": "L'Amerique Septentrionale, ou la Partie Septentrionale des Indes Occidentales.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~339113~90107250/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~339113~90107250/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "L'Amerique Septentrionale, ou la Partie Septentrionale des Indes Occidentales.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Nolin, Jean Baptiste, 1648-1708"
+                },
+                {
+                  "label": "Author",
+                  "value": "Du Tralage, Jean Nicolas, -169"
+                },
+                {
+                  "label": "Author",
+                  "value": "Coronelli, Vincenzo (1650-1718)"
+                },
+                {
+                  "label": "Date",
+                  "value": "1689"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "L'Amerique Septentrionale, ou la Partie Septentrionale des Indes Occidentales."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Chez I. B. Nolin"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "59"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "15,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map of North America. Title translates to: North America, or the northern part of the West Indies, built on the newer memories. Shows political boundaries, cities, topography, volcanos, lakes, drainage, coastlines, shoals, islands and ocean routes. Features the territories of indigenous peoples therein. California shown as an island. Relief shown pictorially. Includes latitudinal and longitudinal lines, as well as a legend, six bar scales and explanatory notes. Decorative cartouche with an indigenous figure and a colonizer. Black and white engraving with hand-colored borders. Map is 43 x 59 cm, on double sheet 50 x 67 cm. (Plate number handwritten in ink on verso.)"
+                },
+                {
+                  "label": "World Area",
+                  "value": "North America"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Indians of North America"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "L'Amerique Septentrionale, ou la Partie Septentrionale des Indes Occidentales. Dressée sur les Memoires les plus Nouveaux. Corrigée et augmentée par le Sr. Tillemon; et dediée a son Excellence Monseigneur Pierre Venier, Ambassadeur ordinaire de la Serenissime Republique de Venise, pres de la Majesté tres Chrestienne Lovis le Grand. Par le P. Coronelli, Cosmographe de la Serme. Republique de Venise. A Paris, Chez J. B. Nolin, sur le Quay de l’Horloge du Palais, Vers le Pont Neuf, a l'enseigne de la Place des Victoires. Avec Privilege du Roy. 1689."
+                },
+                {
+                  "label": "List No",
+                  "value": "14353.046"
+                },
+                {
+                  "label": "Series No",
+                  "value": "46"
+                },
+                {
+                  "label": "Page No",
+                  "value": "41"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1693"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Cartes generales des Royaumes de l'Europe et des particuliers de France. A Paris, Chez I. B. Nolin sur le Quay de l’Horloge du Palais Vers le Pont Neuf, a lEnseigne de la Place des Victoires. 1693."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Cartes generales des Royaumes de l'Europe et des particuliers de France, world atlas by Jean Baptiste Nolin; published in Paris, 1693. Title translates to: General maps of the Kingdoms of Europe and of France. Atlas is a combination of print and manuscript. Illustration on title page combines printed with hand-painted imagery; table of contents is a manuscript list. Bound in leather, with spine in seven gilded compartments separated by raised bands; second compartment with red morocco title piece in gilded letters. Collation: [2] pages, [1] leaf of plates, 1-9, 9A, 10-47 leaves of plates, [1] page (first and last pages blank). Plates contain 48 maps (one per plate). World map plate provides a variety of global projections. Other geographic coverage includes Europe, especially France, Germany and the British Isles, as well as Asia, Africa and North and South America. Maps show political boundaries, cities, ports, forts, railways, topography, lakes, drainage, coastlines, shoals, islands, soundings, anchorage and ocean routes. Maps of the Americas feature the territories of indigenous peoples therein. Maps include extensive explanatory notes. Dates on maps vary, ranging from 1680 to 1699. \"Rare Pre-Publication State of J.B. Nolin's Folio World Atlas A fantastic Nolin world atlas (with one added map by Tassin), constituting quite possibly the earliest surviving prototype atlas for Nolin's Théâtre du Monde (the only folio atlas published by Nolin), with a very rare European section and a combination engraved and manuscripted title-page reading \"Cartes generales des Royaumes de l’Europe et des particuliers de France.\" The atlas includes maps of all parts of the world, each of which is in either a first state or early states. Furthermore, it contains all five maps of the Americas published by J. B. Nolin the elder. The atlas also contains a half-printed frontispiece for the second part (representing Louis XIV crushing the Anglican heresy with his foot), a manuscript index, and 48 engraved maps in original outline color, dated from 1687 to 1699. This prototype atlas is only known in one other example held in the Austrian National Library, Vienna. Title: Cartes generales /des /Royaumes/ de/ l’Europe/ et des particuliers de France is in manuscript, and the dedication and imprint being engraved : Dedié a Louis Le Grand Roy de France et de Navarre. Par son très Humble serviteur, et Fidelle Sujet / I. B. Nolin. A Paris, Chez I. B. Nolin sur le Quay de l’Horloge du Palais Vers le Pont Neuf, a lEnseigne de la Place des Victoires. Avec Privilege du Roy. 1693. The National library of Austria holds a Nolin atlas containing 75 maps and also a half engraved, half manuscript frontispiece : Atlas royal contenent/les cartes generales/du monde/et les particuliers de France/Divisé en provinces/et en/gouvernemens, etc/Dressé sur les mémoires les plus nouveaux,/ et Dedié a/Louis Le Grand/Roy de France et de Navarre/Par son très Humble serviteur, et Fidelle Sujet/ I. B. Nolin/ A Paris, Chez I. B. Nolin sur le Quay de l’Horloge/du Palais Vers le Pont Neuf, a lEnseigne/de la Place des Victoires. / Avec Privilege du Roy/ 1693. J.-B.Nolin published 4 atlases, all of them are rare, only the “ Théâtre du Monde” is a folio format world atlas. The first edition of the Théâtre, with the engraved date 170[.], seems to have been published in 1701. Two copies of the “Théâtre du Monde” are collated by Pastoureau (conf. Pastoureau, Les Atlas Français XVIe-XVIIe siècles, J.-B. Nolin IV, p. 363) and are in American institutional collections. Both have the engraved date 170[.], one with an addition in manuscript changing the date into 1707. The copy of the Library of Congress contains 55 maps on 85 plates. Maps are dated from 1688 to 1744. Some bear the name of Nolin’s son, or Nolin’s widow. Atlas Contents Manuscript list of the maps : Table des cartes comprises en le Receuil Title : Cartes Generales des Royaumes de l’Europe et des particuliers de France (in manuscript) Dédié à Louis le Grand Roy de France et e Navarre Par son très Humble serviteur et fidelle Sujet. I.B. Nolin. A Paris chez I. B. Nolin sur le Quay de l’Horloge du Palais, Vers le pont neuf, à l’Enseigne de la Place des Victoires. Avec Privilege du Roy. 1693. 1 - Le Globe Terrestre Represente en Devx Plans-Hemispheres, … A Monseigneur Messire Louis de Boucherat Chancellier de France. 1699. Shirley 546. This world map features two principal hemispheres and 8 smaller projections. California is shown as an island with the indented northern coastline. Australia's eastern coastline is left undefined. The South Pacific features a few other undefined coastlines, including New Zealand. The Mississippi River is noted in North America. Geographically, the map tends to follow Coronelli's globe of 1688. One noticeable addition to the world map is the Solomon Islands in the Pacific. At least four states of this map exist; possibly more. The first state is dated 1690 and is dedicated to Monseigneur Louis de Boucherat. Later, the date was erased and the dedication and coat of arms changed to that of Louis Philippeaux de Pontchartrin, Minister of Finance. 2 - L'Europe selon les Mémoires les plus Nouveaux Dressée par le. P. Coronelli . . . 1696 3 - L’Espagne divisée en plusieurs Etats et Provinces. 1689 4 - La Principauté de Catalogne… 1694. 5 - Le Royaume de France… 1698 6 - Le Duché et Gouvernement de Normandie… 1694 7 - La Province de Picardie… 1694 8 - Le Gouvernement General de Champagne.. 1699 9 – La Province ou Duché de Bretagne… 1695 9bis- (TASSIN). Carte de Nivernois. 10 - Le Gouvernement General et Militaire du Lyonnois… 1697 (southern sheet only). 11 - Le Gouvernement General du Dauphiné… 169(). 12 - Le Comté et Gouvernement de Provence… 1694. 13 – Le Gouvernement General de Languedoc… 14 - Diocese de Nismes… 1698. 15 – Les Isles Britanniques… 1698 16 - Le Royaume d'Angleterre. 1689. 17 – Le Royaume d’Escosse… 1689. 18 – Le Royaume d’Irlande… 169(). 19 – La partie Meridionale des Pays-Bas connuë sous le nom de Flandre… 1690. 20 - Le Comte de Flandre Divisé en ses Parties, Quartier, (...) – 1692. 21 – Le Comté de Haynaut… 1696. 22 – Le Comté de Namur… 1696. 23 – Les Provinces Unies ou la Partie Septentrionale des Pays-Bas Connue sous le nom de Hollande… 1690. 24 – L’Allemagne divisée… 1691. 25 – La partie occidentale de l’Allemagne Avec les Pays Adjacents le long du Rhein… 1690. 26 - La partie occidentale de la Haute Allemagne… (25 - 26 map in 2 sheets). 27 – Les Duchez de Lorraine et de Bar… 1696. 28 – Les Suisses, Leurs Alliez… 29 - Partie des cercles du Haut et Bas Rhein ou sont partie des archevechez de Mayence et de Treves, et les evechez de Wormes et Spire, le Palatinat du Rhein,...1690. 30 – Les Royaumes de Suede, de Danemarck et de Norwege... 1691. 31 – Le Royaume de Pologne... 1697. 32 – L’Italie divisée en ses Etats... 33 – La Lombardie... 34 – Le Royaume de Dalmacie... 35 – Le Royaume de Hongrie... 1687. 36 – Le Cours du Danube... 1688. 37 – L’Asie selon les Memoires les plus Nouveaux... 1690. 38 - Paradigma XV Provinciarum et CLV Urbium Capitalium Sinensis Imperij Cum Templis quae Cruce X Signatur Et Domiciliis S.I. First edition of this rare Jesuit map of China, published by Jean Baptiste Nolin in Paris. The map first appeared in 1686 in the present form, then was reissued without the text at the bottom of the map in Philippe Couplet's Tabula Chronologica Monarchiae Sinicae, published in 1686, a chronological table of Chinese Monarchs from 2952 BC to 1683. The work is divided into two tables, with this map between the two tables. The map shows China's 15 provinces and 155 major cities, and notes the location of the discovery of the Nestorian Stele in Shaanxi Province as well as the island where St. Francis Xavier died in Southern China. The presence of a Christian Mission is denoted by a cross next to a place name. The printed tables list the Cities, Settlements, Families, Temples and Missionaries, etc in each of the Provinces and the map shows the extent and influence of the Jesuit Faith in China at this time. Philippe Couplet (1623-1693) was a Jesuit priest who entered the Society of Jesus on October 11, 1640 and was ordained on November 25, 1654. During the latter part of his education, he befriended Ferdinand Verbiest and Francois de Rougemont, with whom he would undertake his China Mission. In 1648, Couplet and Verbiest were assigned to a mission in Mexico, but were denied transit by the Spanish Government. Couplet was inspired to undertake his mission to China after hearing a speech given by Martino Marini in Leuven in 1654. He departed for China in 1656 and arrived in 1659. He worked in the provinces of Jiangxi, Fujian, Huguang, Zhejiang, Nanking and Suzhou, before being exiled to Canton with most other missionaries in 1665. In 1671, he returned to Songjiang, and later to the island of Zongming. In 1680, Couple was appointed procurator of the Chinese Vice-Province and sent to Rome. He left Macau on December 5, 1681 and reached Europe on October 8, 1682. Ferdinand Verbiest had charged him to get French Jesuits for the China mission, as only Portuguese Jesuits or those who worked for Portugal had been in China. In Europe, Couplet visited several Courts and had an audience with Louis XIV. In Paris, Couplet edited the famous book Confucius Sinarum Philosophus (Paris 1687). Couplet also published his Tabula chronologica monarchiae sinicae. Couplet had contacts in Europe with others interested in China, including Christian Mentzel (1622-1701), Andreas Mauller (1630-1694), Melchisedech Thevenot (1620-1692), and Thomas Hyde (1636-1703). 39 – Royaume de Siam… 1687. 1687 edition of this historically important map of Southeast Asia, by Nolin and Coronelli, issued immediately prior to the Siamese Revolution of 1688, which henceforth restricted European activities in the kingdom. The present work is an important map of Southeast Asia, extending from the southern part of the Indochinese Peninsula through Malaya, to the northern coastline of Java and the eastern part of Borneo. The map is filled with information including extensive soundings along coastlines and historical notations. The adornment of the map with a large elephant, making up the title cartouche, makes this map a favorite among collectors. The cartographic detail on the map is groundbreaking, especially with respect to southern Siam. Its depiction of the region was by far the most accurate made to date, and would remain so for over a century thereafter. It is the result of France's first embassy to Southeast Asia in 1685, which was led by the Chevalier de Chaumont in the company of six Jesuit fathers. The route of their embassy is noted on the map. At the time, Siam was experiencing the 'golden age' of the Ayutthaya Period (1351-1767). The capital city of Ayutthaya, located further up the Chao Praya River from modern Bangkok (noted on the map as 'Fortresse de Bankok'), is thought to have been the world's largest city at time, with over 1 million residents. Ayutthaya is noted on the map as \"Judtija\", seemingly a phonetic interpretation of the true name. Siam was first visited by Europeans in 1511, when Duarte Fernandes led a Portuguese embassy to Ayutthaya. While Siam was never formally colonized or claimed by a European power, as shown on the map, the French and Dutch had set up trading posts and Christian missions along the Chao Praya estuary. Brisk business was also done by European commercial agents in Ayutthaya itself. However, shortly after Chaumont's embassy, there was intense popular uprising against the growing foreign presence in Siam. King Narai of Siam even went as far as to make a Greek adventurer, Constantine Phaulkon, his de facto prime minister. This was all too much for Siamese officials and nationalists. In what became know as the Siamese Revolution of 1688, forces loyal to the Mandarin Phetracha overthrew Narai's government. Phetracha ascended to the throne and immediately expelled the French from Siam, while severely limiting the activities of the Dutch and other foreigners. This ensured that following the publication of the present map very little new European mapping was executed in Siam during the 18th-century. The present map was a product of the collaboration between Jean-Baptiste Nolin (1657-1708), who was one of the official mapmakers to the King Louis XIV, and Vincenzo Maria Coronelli (1650-1715), a Venetian master who had been invited to Paris by the King to undertake cartographic projects, including the construction of the colossal 'Marly Globes'. The result of this collaboration was the most up to date and detailed contemporary maps of many parts of the World, at a time when France assumed a leading role in the exploration of America and Asia. The Nolin-Coronelli mapping of Southeast Asia would become the standard for many decades after the creation of this map, and is a cornerstone of any collection of maps of Thailand and the Malay Peninsula. 40 – Afrique selon les Relations les plus Nouvelles… 1689. 41 - L'Amérique Septentrionale ou la Partie Septentrionale des Indes Occidentales Dressée sur les Mémoires les plus Nouveaux Corrigée et augmentée Par le. Sr. Tillemon . . . Burden 656, State 2 Second state Johann Baptiste Nolin and Vincenzo Maria Coronelli's important map of North America. With the agreement of Coronelli (who receives credit in the title), Nolin issued this single sheet map of North America. While it is drawn from Coronelli's 2 sheet map of North America dated 1688, Coronelli's map did not appear in his Atlante Veneto until 1691. Cartographically, the depiction of the Great Lakes is the most advanced to date, drawing on information from the explorations of Louis Jolliet and Jacques Marquette. The Mississippi basin reflects the French discoveries of René-Robert Cavelier, Sieur de La Salle on his first expedition of 1679-82. This map depicts La Salle's misplacement of the mouth of the Mississippi, which he located some 600 miles to the west of its true location. In the West, the map contributes a significant amount of new information, drawn mostly from the manuscript map drawn by Diego Dionisio de Peñalosa Briceño y Berdugo, which included numerous previously unrecorded place names and divided the Rio Grande into the Rio Norte and the Rio Bravo in the south. The manuscript map was prepared by Peñalosa between 1671 and 1687, as part of his attempts to interest the French King Louis XIV in a military expedition against New Spain. The most prominent geographical detail of the map is California's appearance as a massive island, this map being one of the best renderings of this beloved misconception. Nolin's map is not an exact copy of Coronelli's map, these changes are most noteworthy in the Hudson's Bay region, where new place names have been added. 42 - Archipelague Du Mexique. ou Sont les Isles de Cuba, Espagnole, Iamaique, etc. Avec les Isles Lucayes, et les Isles Caribes, Connues sous le nom d'Antilles . . . sur le Quay de l'Horloge du Palais, proche le Pont Neuf a l’Enseigne de la Place des Victoires, avec Privilege du Roy. 1688 The map presents a marvelous large format look at the region, as it was known to Coronelli and Nolin at the end of the 17th century. Florida's southern coastline is curiously shaped, but not yet reflected as an archipelago. The Bahamas consist of a series of oversized islands. Most of the major islands include one or more annotations regarding the early exploration of the island. Nolin began collaborating with Coronelli during Coronelli's stay in Paris, during which time Coronelli prepared a set of globes for the King of France. Coronelli worked in Paris from 1683 to 1685, constructing a set of 490-centimeter globes from Louis XIV. In August 1686, he entered into a contract with Nolin, the official engraver to Louis XIV, which resulted in a collaboration for the production of a number of maps, including this map of the Caribbean and 4 maps of North America and its regions, the earliest of which was published in approximately 1687. The maps were modified several times during the 17th and 18th centuries, most notably with the addition of Nicolas du Tralage, Sieur Tillemon's name. A final modification was made in the 1740s, which changes the publisher's address to rue Saint Jacques. 43 - Partie Orientale du Canada ou de la Nouvelle France ou sont les Provinces ou Pays de Sagvenay, Canada, Acadie etc. les Peuples, ou Nations des Etechemins, Iroquois, Attiquameches etc. Avec la Nouvelle Angleterre . . .Virginie . . . sur le Quay de l'Horloge du Palais, proche le Pont Neuf a l’Enseigne de la Place des Victoires, avec Privilege du Roy. 1689 State 2: C. 1690 Early example the Nolin-Coronelli map of Canada & the Northeastern United States, extending south to the Carolinas, one of the most important and up to date French Colonial maps of the period. The Nolin-Coronelli map was issued at an important time in the development of the French Colonies in North America. The population and reach of the French Colonies had grown significantly in the prior decades, creating a demand for a map of the region in France. Coronelli undertook a detailed study of the region, producing this remarkably detailed and up to date map. The treatment of Labrador incorporates the manuscript map of Franquelin (1681) and Hennepin's map (1683). The Grand Banks are drawn from the map of G.B. du Bocage (1678). The English Possession of New York is noted, along with Iarsey and Pensylvanie, although the colony of Nouvelle Suede is a holdover from earlier times. New England is shown with an extra Peninsula in the south, similar to the one on Coronelli's map of North America issued in 1688. The regions controlled by England reflect familiarity with the most up to date English maps, including an updated treatment of the Chesapeake. The map is also of interest for the different names for Cape Cod given. While the map is a composite of many maps, Kershaw noted that it was \"probably the best 17th century representation of eastern Canada and the eastern seaboard of America.\" This map is the second edition. Boston is also correctly named in this edition, as are Kenebeck town and river. Many other interesting early annotations throughout. The present example of the map is state 2 of 4. The states can be identified as follows: First State (1689): Nolin's Address is le Quay de l'Horloge du Palais, proche la Rue de Harlay . . . Second State (circa 1690): Nolin's Address is le Quay de l'Horloge du Palais, proche le Pont Neuf . . . Third State (circa 1690): Dediee removed. \"Corrigée et augmentée Par le Sr. Tillemon et Dédiée\" added. Fourth State (1704): Date changed to 1704. 44 – Partie Occidentale du Canada ou de la Nouvelle France… 1688. State 3. Nice example of the third state of Nolin's landmark map of the Great Lakes and Upper Mississippi incorporates the reports of Marquette, Jolliet, Hennepin, La Salle and Allouez, for the first time on a printed map. Nolin's map is the first printed map to focus on the Great Lakes and Upper Mississippi Region and almost certainly pre-dates Coronelli's 2-sheet map of North America. The map is derived from reports by Jean Baptiste-Louis Franquelin, who was responsible for collecting and transmitting information from other French Missionaries \"exploring\" North America for the French Government. As noted by Burden: The whole bears a myriad of legends referring to points of interest and events. Lake Frontenac (Ontario) is named after the contemporaneous Governor of New France. Identified near Niagara Falls is Fort Conty, built by La Salle in 1679. The north shore of Lake Erie indicates the three peninsulas for the first time in print. LAGO ILINOIS, o MICHIGAMI is the first appearance of the Melchisedech Thevenot map of 1681. At its southern point is Chekagou o Portage, the first mention of this name [Chicago] on a printed map. Lake Superior is clearly derived from the account of Father Claude Dablon. Lac Nadovessans to its north-west derives from the account written by Louis Hennepin and published in 1683 of his travels with La Salle up the Mississippi in 1679-80. Two further forts built by La Salle are identified. Fort des Miamis at the southern tip of Lake Michigan, which would later become Fort Saint-Joseph. Fort Crevecoeur was constructed on the shores of Lake Peoria on the Illinois River. The river is given its alternative name of Seignelay after Jean-Baptiste Colbert, the Marquis of Seignelay, and the most formidable minister in France. Travelling north we pass the Misconsin River identified as the point at which in 1673 Marquette and Jolliet were the first Europeans to enter the Mississippi River. Further downriver the Missouri is labelled Riu. Des Ozages, and the Riviere Ouabache refers to the Ohio. Virtually the only error of judgement that can be labelled is the placing of a large mountain range along the western shore of the Mississippi, presumably a reference to the Rocky Mountains, about which the explorers had already heard. The first edition of the map survives in only one known example (British Library -- undated). While other map experts have placed the date of the first edition of this map at ca. 1685, Burden opined that the first state was issued in about 1687, based upon its geographical content. Coronelli had completed his monumental 490 centimeter globes for King Louis XIV in 1683 and returned to Venice in 1685. He returned to Paris in 1686, at the time the engraving of the globe gores for the printed version of his globe was being commenced. The contract for publication of the gores between Nolin and Coronelli was signed in 1686. Nolin engraved three additional maps of North America between 1687 and 1689. Coronelli received the privilege for publication of the map on January 4, 1687, which he immediately transferred to Nolin. The map is offered here in the third state, adding the coat of arms in the upper right part of the title cartouche (present in the second state) and the annotation in the title noting that the map had been corrected and augmented by Tillemon (added in the third state). A remarkable amalgam of French discovery in the New World, bringing together for the first time in graphic form the explorations and writings of these remarkable men whose missions among the Indians of North America and resultant discoveries opened up the midwest to European exploration and conquest over the next hundred years. An essential map for collectors. 45 - Le Nouveau Mexique appelé aussi Nouvelle Grenade et Marata, Avec Partie de Californie . . .168(). Burden 631 Fine example of the first edition of the Nolin / Coronelli map of the Southwest, the largest format regional map of the Southwest published in the 17th Century The Nolin / Coronelli map is of great importance, being the earliest map to reproduce the information obtained by the French from Diego de Peñalosa, the governor of New Mexico from 1661 to 1665. Centered on the Rio Grande, the map extends well beyond Taos to the Quivira and Teguaio regions. The map includes a marvelous mythical Lago de Oro opposite the Mer De Californie. A number of annotations discuss the various provinces, early explorations dating to Cortez in 1534, Alarcon in 1540 and Cabrillo in 1542. Notes the discovery of Cinaloa by Guzamano in 1532, the discoveries of Francisco de ybarras in Nouvelle Biscaye, and notes regarding the various Indian tribes along the Rio Grande. In his discussion of the map, Burden notes: This beautiful map is the most momentous map of the American south-west published to date and would remain seminal for decades to come. The major significance of the map is its depiction of the Rio Grande flowing south-east and discharging into the Gulf of Mexico and not the Gulf of California. Giovanni Battista Nicolosi had been the first to depict it so in 1660, but it was Coronelli's credibility which persuaded the cartographic community to change. . . As further noted by Burden, much of the cartographic primacy of Coronelli's map derives from information obtained from Diego de Peñalosa, the Governor of New Mexico from 1661 to 1665. Peñalosa had been expelled in 1665 and fled first to England in 1668 and later to France in the early 1670s, where he began passing on cartographic information to the French. The Biblotheque du Depot de la Marine retains a manuscript map of the southwest based upon the reports of Peñalosa, which is likely the document referenced by Coronelli in the Avertissement of the present map, which specifically references Peñalosa and his time as governor of New Mexico as the source of the map. Peñalosa's presence in Paris corresponds with the time period in which Coronelli was collaborating with Nolin and also constructing a monumental globe for the King of France. His access to cartographic information was essentially unlimited, so direct access to the Diego de Peñalosa manuscript information and perhaps Peñalosa himself seems probable. There are two states of the map, the second dated 1742. One of the most important and interesting early regional maps. An essential map for collectors of the early Southwest. 46 – L’Amerique Meridionale… 1689. 47 – Plan Routier de la Ville de Paris. 1698. The example of the Nolin Theatre du Monde . . . (dated 1746) in the Bibliotheque Nationale de France notes: Le quatrième atlas de J.-B. Nolin est un atlas mondial, qui réunit les cartes de Nolin de format in-folio. Une première ébauche de cet atlas, avec 75 cartes et une page de titre mi-gravée mi-manuscrite, est conservée à la Bibliothèque nationale d'Autriche. Son frontispice représente Louis XIV assis, écrasant du pied l'hérésie anglicane, et semble de facture hollandaise. Le titre manuscrit imite la gravure: \"Atlas Royal contenent [sic] les cartes generales du monde et les particuliers [sic] de France Divisé en provinces et en gouvernemens, etc Dressé sur les memoires les plus nouveaux, et Dedié a Louis le Grand roy de France et de Navarre Par son tres humble serviteur et fidelle sujet J.B. Nolin. A Paris Chez J.B. Nolin sur le Quay de l'Horloge du Palais Vers le Pont Neuf, à l'Enseigne de la Place des Victoires. Avec privilege du roy 1693.\" Une première édition de ce \"Theatre du monde\" est signalée, avec la date 1701, dans A. Jal, \"Dictionnaire critique de biographie et d'histoire\", 1872, p. 917. Les deux exemplaires que nous avons recensés sont conservés dans des collections américaines. Ils portent tous deux la date gravée 170[.] avec, dans le premier cas, une addition manuscrite qui la transforme en 1707. Translation: J.-B. Nolin's fourth atlas is a world atlas, which brings together Nolin's folio format maps. A first draft of this atlas, with 75 maps and a half-engraved, half-handwritten title page, is kept at the Austrian National Library. Its frontispiece represents Louis XIV seated, crushing the Anglican heresy with his foot, and appears to be Dutch. The handwritten title imitates the engraving: \"Atlas Royal contain [sic] the general maps of the world and the individuals [sic] of France Divided into provinces and governments, etc. Drawn up on the most recent memories, and Dedicated to Louis le Grand Roy of France and Navarre By his very humble servant and faithful subject JB Nolin In Paris At JB Nolin on the Quay de l'Horloge of the Palais Towards the Pont Neuf, at the Ensign of the Place des Victoires. With privilege of the king 1693 . \" A first edition of this \"Theater of the world\" is reported, with the date 1701, in A. Jal, \"Critical Dictionary of Biography and History\", 1872, p. 917. The two copies that we have listed are kept in American collections. They both bear the engraved date 170 [.] With, in the first case, a handwritten addition which transforms it into 1707. Given the difference in the contents, there is good reason to believe that this is the earliest surviving example of Nolin's prototype for his World Atlas, which would be issued some months later in 1700 or 1701. Conclusion The present work, coming from the workshop of Nolin is great significance, pre-dating all known examples of Theatre du Monde. \" Ruderman, 2020)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14353.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "48"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14353046.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/195/14353046.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Nolin, Jean Baptiste, 1648-1708; Du Tralage, Jean Nicolas, -169; Coronelli, Vincenzo (1650-1718)"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~339113~90107250/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~339113~90107250/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~339113~90107250",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 18037,
+                    "height": 12655
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~339113~90107250/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~339113~90107250/list/luna"
+              ],
+              "width": 18037,
+              "height": 12655
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~339113~90107250"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~352120~90119307/manifest",
+      "label": "Plano de la Ciudad de México",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~352120~90119307/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~352120~90119307/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Plano de la Ciudad de México",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Zúñiga y Ontiveros, Mariano"
+                },
+                {
+                  "label": "Date",
+                  "value": "1791"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Plano de la Ciudad de México"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "En la Oficina del Autor"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Mexico City"
+                },
+                {
+                  "label": "Type",
+                  "value": "Book Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "20"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "11"
+                },
+                {
+                  "label": "City",
+                  "value": "Mexico City (Mexico)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Plano de la Ciudad de México"
+                },
+                {
+                  "label": "List No",
+                  "value": "15615.004"
+                },
+                {
+                  "label": "Series No",
+                  "value": "4"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Zúñiga y Ontiveros, Mariano"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1806"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Calendario manual y guia de forasteros en México, para el año de 1803"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Frontispiece illustrated by famous artist Tolsa. Both maps are rare. Very early map of the city of Mexico"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15615.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "2"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "18"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "13"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15615004.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/15615004.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Zúñiga y Ontiveros, Mariano"
+                },
+                {
+                  "label": "local_note",
+                  "value": "[2026-09-16]: !8th c map with location of Sor Juana's convent, shown as item d. \n\nhttps://searchworks.stanford.edu/view/in00000173884"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~352120~90119307/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~352120~90119307/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~352120~90119307",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 7917,
+                    "height": 3399
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~352120~90119307/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~352120~90119307/list/luna"
+              ],
+              "width": 7917,
+              "height": 3399
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~352120~90119307"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348686~90116260/manifest",
+      "label": "Plan central del Mapa de Cortes, aumentado y a colores distinguir la arquitectura de los principales edificios.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~348686~90116260/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348686~90116260/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Plan central del Mapa de Cortes, aumentado y a colores distinguir la arquitectura de los principales edificios.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Alcocoer, Dr. Ignacio"
+                },
+                {
+                  "label": "Date",
+                  "value": "1935"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Plan central del Mapa de Cortes, aumentado y a colores distinguir la arquitectura de los principales edificios."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Instituto Panamericano de Geografia e Historia"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Mexico City"
+                },
+                {
+                  "label": "Type",
+                  "value": "Book Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "44"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "50"
+                },
+                {
+                  "label": "City",
+                  "value": "Mexico City (Mexico)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Historical"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Plan central del Mapa de Cortes, aumentado y a colores distinguir la arquitectura de los principales edificios."
+                },
+                {
+                  "label": "List No",
+                  "value": "15388.004"
+                },
+                {
+                  "label": "Series No",
+                  "value": "4"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Alcocoer, Dr. Ignacio"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1935"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Apuntes Sobre- la Antiqua Mexico-Tenochtitlan"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Interesting city plan of the center of Mexico City, on which the plan of the Aztec temple area of Tenochtitlan has been overlaid in red. \"Nota. La lineas y nombres en rojo indican la Ciudad pre-hispánica (México-Tenochtitlan). Las lineas y nombres en negro indican la ciudad moderna.\" The map is taken from Ignacio Alcocer's book entitled Apuntes sobre la antigua México-Tenochtitlán, which seems to be very scarce Ignacio Alcocer Rodriguez was the Governor of Coahuila from April 13th- November 1913 taking over from Venustiano Carranza. He was also Secretary of the Interior (Mexico) from 1913 to 1914. His book covers Aztec and Mesoamerican culture and artifacts."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15388.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Historical Atlas"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "20"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15388004.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/15388000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Alcocoer, Dr. Ignacio"
+                },
+                {
+                  "label": "local_note",
+                  "value": "[2026-09-16]: Facsimile map from 1935 of Cortez's 1524 map of Tenochtitlan"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348686~90116260/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348686~90116260/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~348686~90116260",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 13369,
+                    "height": 11595
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~348686~90116260/canvas/c1"
+                }
+              ],
+              "width": 13369,
+              "height": 11595
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~348686~90116260"
+    }
+  ]
+}
