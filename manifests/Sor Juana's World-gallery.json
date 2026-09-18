@@ -1137,6 +1137,368 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292914~90066948/manifest",
+      "label": "Vetus Mexico.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~292914~90066948/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292914~90066948/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Vetus Mexico.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Ogilby, John, 1600-1676"
+                },
+                {
+                  "label": "Author",
+                  "value": "Montanus, Arnoldus, 1625?-1683"
+                },
+                {
+                  "label": "Date",
+                  "value": "1671"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Vetus Mexico."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Ogilby, John"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Book Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "36"
+                },
+                {
+                  "label": "Reference",
+                  "value": "Burton, Philip D., 2007, The Mapping of North America II. A List of Printed Maps 1671-1700; Cumming, Southeast in Early Maps 70."
+                },
+                {
+                  "label": "City",
+                  "value": "Mexico City (Mexico)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Vetus Mexico."
+                },
+                {
+                  "label": "List No",
+                  "value": "12241.026"
+                },
+                {
+                  "label": "Series No",
+                  "value": "26"
+                },
+                {
+                  "label": "Page No",
+                  "value": "after 86"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "RR Donnelley"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ogilby, John, 1600-1676"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Montanus, Arnoldus, 1625?-1683"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1671"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "America: Being The Latest, And Most accurate Description Of The New World; Containing The Original of the Inhabitants, and the Remarkable Voyages thither. The Conquest of the Vast Empires of Mexico and Peru, And Other Large Provinces and Territories ... Collected from the most Authentick Authors, Augmented with later Observations, and Adorn'd with Maps and Sculptures, by John Ogilby, esq; His Majesty's Cosmographer, Geographick Printer, and Master of the Revels in the Kingdom of Ireland. London, Printed by the Author, and are to be had at his House in White Fryers, M.DC.LXXI."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "First edition, second issue, with the important Lord Proprietors map of Carolina by Moxon replacing the Arx Carolina plate and the Virginia pars Australis map of the first issue, with the addition of a map of Barbados, and with the plate list as in the first issue still listing Arx Carolina and Virginia pars Australis but not listing the Lords Proprietors Carolina or Barbados. This copy includes both the Arx Carolina plate and the Virginia pars Australis map, tipped in later. The work is an English translation of Arnold Montanus “De Nieuwe en Onbekende Weereld,” but with a number of additions concerning New England, New France, Maryland and Virginia. Many new maps and views were added. The Moxon map of Carolina is the first large format map of the newly established colony of Carolina. “America” was Ogilby’s finest foreign work; over 150 authors are credited although Montanus is lacking. “When it came to North America, particularly, he abandoned Montanus entirely for his own closer sources. His work used superior type and larger and finer paper than Montanus. Clearly some form of at least tacit agreement existed between Montanus and Ogilby as he acquired the same plates to illustrate his work. This is itself unusual as Ogilby was renowned for providing his own ‘sculptures’. The reasons may lie in the fact that the project clearly was already an expensive one, and that the work had been promised for some time and further delay was undesirable. The first map in the book, of the whole of America, was one of five plates provided by Ogilby himself. We may speculate that this was because Montanus did not actually own the Schagen plate, or that Ogilby wished to insert more English nomenclature” (Burden). Regarding Ogilby himself, he had a series of remarkably successful careers as a dancer, dance master, theatre manager/director, and translator of classics, and finally as author and publisher of travel and geography books."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12241.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "26"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12241026.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/12241026.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Ogilby, John, 1600-1676 ; Montanus, Arnoldus, 1625?-1683"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292914~90066948/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292914~90066948/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292914~90066948",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12231,
+                    "height": 9056
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292914~90066948/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292914~90066948/list/luna"
+              ],
+              "width": 12231,
+              "height": 9056
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~292914~90066948"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292913~90064476/manifest",
+      "label": "View: Mountain Popocatepeque, so called from the Smoke which continually ascend from its top.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~292913~90064476/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292913~90064476/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "View: Mountain Popocatepeque, so called from the Smoke which continually ascend from its top.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Ogilby, John, 1600-1676"
+                },
+                {
+                  "label": "Author",
+                  "value": "Montanus, Arnoldus, 1625?-1683"
+                },
+                {
+                  "label": "Date",
+                  "value": "1671"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "View: Mountain Popocatepeque, so called from the Smoke which continually ascend from its top."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Ogilby, John"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Reference",
+                  "value": "Burton, Philip D., 2007, The Mapping of North America II. A List of Printed Maps 1671-1700; Cumming, Southeast in Early Maps 70."
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(View) \"Eight Leagues from Tenustitan he saw the double-spired Mountain Popocatepeque, so called from the Smoke which continually ascend from its top; for Popoca signifies A Smoke, and Tepeque, A Mountain.\""
+                },
+                {
+                  "label": "List No",
+                  "value": "12241.025"
+                },
+                {
+                  "label": "Series No",
+                  "value": "25"
+                },
+                {
+                  "label": "Page No",
+                  "value": "85"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "RR Donnelley"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ogilby, John, 1600-1676"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Montanus, Arnoldus, 1625?-1683"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1671"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "America: Being The Latest, And Most accurate Description Of The New World; Containing The Original of the Inhabitants, and the Remarkable Voyages thither. The Conquest of the Vast Empires of Mexico and Peru, And Other Large Provinces and Territories ... Collected from the most Authentick Authors, Augmented with later Observations, and Adorn'd with Maps and Sculptures, by John Ogilby, esq; His Majesty's Cosmographer, Geographick Printer, and Master of the Revels in the Kingdom of Ireland. London, Printed by the Author, and are to be had at his House in White Fryers, M.DC.LXXI."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "First edition, second issue, with the important Lord Proprietors map of Carolina by Moxon replacing the Arx Carolina plate and the Virginia pars Australis map of the first issue, with the addition of a map of Barbados, and with the plate list as in the first issue still listing Arx Carolina and Virginia pars Australis but not listing the Lords Proprietors Carolina or Barbados. This copy includes both the Arx Carolina plate and the Virginia pars Australis map, tipped in later. The work is an English translation of Arnold Montanus “De Nieuwe en Onbekende Weereld,” but with a number of additions concerning New England, New France, Maryland and Virginia. Many new maps and views were added. The Moxon map of Carolina is the first large format map of the newly established colony of Carolina. “America” was Ogilby’s finest foreign work; over 150 authors are credited although Montanus is lacking. “When it came to North America, particularly, he abandoned Montanus entirely for his own closer sources. His work used superior type and larger and finer paper than Montanus. Clearly some form of at least tacit agreement existed between Montanus and Ogilby as he acquired the same plates to illustrate his work. This is itself unusual as Ogilby was renowned for providing his own ‘sculptures’. The reasons may lie in the fact that the project clearly was already an expensive one, and that the work had been promised for some time and further delay was undesirable. The first map in the book, of the whole of America, was one of five plates provided by Ogilby himself. We may speculate that this was because Montanus did not actually own the Schagen plate, or that Ogilby wished to insert more English nomenclature” (Burden). Regarding Ogilby himself, he had a series of remarkably successful careers as a dancer, dance master, theatre manager/director, and translator of classics, and finally as author and publisher of travel and geography books."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12241.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "26"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12241025.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/12241025.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Ogilby, John, 1600-1676 ; Montanus, Arnoldus, 1625?-1683"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292913~90064476/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292913~90064476/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292913~90064476",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 4315,
+                    "height": 3340
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292913~90064476/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292913~90064476/list/luna"
+              ],
+              "width": 4315,
+              "height": 3340
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~292913~90064476"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
       "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~339113~90107250/manifest",
       "label": "L'Amerique Septentrionale, ou la Partie Septentrionale des Indes Occidentales.",
       "attribution": "David Rumsey Historical Map Collection",
