@@ -871,8 +871,8 @@ card.appendChild(authorEl);
 card.appendChild(dateEl);
 card.appendChild(collectionEl);
 card.appendChild(attributionEl);
-card.appendChild(cardLinks);
 card.appendChild(noteContainer);
+card.appendChild(cardLinks);
 
 // Add card to gallery
   document.getElementById('gallery').appendChild(card);
