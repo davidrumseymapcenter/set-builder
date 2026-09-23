@@ -1095,6 +1095,179 @@
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~214099~5501452/manifest",
+      "label": "Vol. 4, Page 421-422. San Francisco.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~214099~5501452/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~214099~5501452/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Vol. 4, Page 421-422. San Francisco.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Sanborn-Perris Map Company, Limited"
+                },
+                {
+                  "label": "Date",
+                  "value": "1905"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Vol. 4, Page 421-422. San Francisco."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Sanborn-Perris Map Company, Limited"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "67"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "95"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "600"
+                },
+                {
+                  "label": "Note",
+                  "value": "See Index Map, List No. 5850.192."
+                },
+                {
+                  "label": "City",
+                  "value": "San Francisco (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Insurance, Fire"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Vol. 4, Page 421-422. San Francisco Sanborn Insurance Maps.)"
+                },
+                {
+                  "label": "List No",
+                  "value": "5850.216"
+                },
+                {
+                  "label": "Series No",
+                  "value": "216"
+                },
+                {
+                  "label": "Page No",
+                  "value": "421-422"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Sanborn-Perris Map Company, Limited"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1905"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Insurance Maps. San Francisco, California. Published by Sanborn-Perris Map Co. Limited, 115 Broadway, New York. 1899. Scale, 50 Ft. to an Inch. Copyright 1899, by the Sanborn-Perris Map Co. Limited."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "A series of six detailed insurance map volumes reflecting the specific building uses and construction types for the City of San Francisco in September 1905. This was just six months before the devastating April 1906 Earthquake and Fire. These volumes were in fact damaged by the fire but remain largely intact with some content loss in some of the volumes. The atlases are the property of the San Francisco Public Library. Original 1899 survey is overlaid with pasted-in building updates for ten different dates, the last being September 1905. Maps in full color with detailed legend including firehouses, stables, elevators, chimneys, steam boilers, firewalls, doorways, etc."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "5850.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "City Atlas"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "69"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "48"
+                },
+                {
+                  "label": "Image No",
+                  "value": "5850216"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/5850216.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Sanborn-Perris Map Company, Limited"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~214099~5501452/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~214099~5501452/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~214099~5501452",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12477,
+                    "height": 8497
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~214099~5501452/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~214099~5501452/list/luna"
+              ],
+              "width": 12477,
+              "height": 8497
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~214099~5501452"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
       "@id": "https://purl.stanford.edu/hw221bd1595/iiif/manifest",
       "@type": "sc:Manifest",
       "label": "U.S. Coast Survey A.D. Bache, Superintendent. City Of San Francisco And Its Vicinity California. Topography by A.F. Rodgers, Sub-assistant. Hydrography by the Party under the command of Lieut. R.M. Cuyler N.S.N. Assistant. Published in 1859. U.S. Coast Survey Office. Price 40 cents. Verified W.R. Palmer Capt. Topl. Engrs. Asst. C.S. In charge of Office. Lith. of J. Bien 60 Fulton St. N.Y",
