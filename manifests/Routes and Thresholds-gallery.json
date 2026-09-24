@@ -679,6 +679,10 @@
                 {
                   "label": "Authors",
                   "value": "Anonymous"
+                },
+                {
+                  "label": "local_note",
+                  "value": "[2026-09-24]: Added -kl"
                 }
               ],
               "thumbnail": {
@@ -1770,6 +1774,12 @@
                     }
                   }
                 }
+              ],
+              "metadata": [
+                {
+                  "label": "local_note",
+                  "value": "[2026-09-24]: Added -kl"
+                }
               ]
             }
           ]
@@ -2093,6 +2103,10 @@
                 {
                   "label": "Authors",
                   "value": "Shimizudo"
+                },
+                {
+                  "label": "local_note",
+                  "value": "[2026-09-24]: Added -kl"
                 }
               ],
               "thumbnail": {
