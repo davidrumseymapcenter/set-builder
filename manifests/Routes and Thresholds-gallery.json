@@ -4218,6 +4218,360 @@
         "format": "image/png"
       },
       "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~333709~90102196"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~339642~90107820/manifest",
+      "label": "2 - 3 Panorama of the Hudson : showing both sides of the river from New York to Albany",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~339642~90107820/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~339642~90107820/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "2 - 3 Panorama of the Hudson : showing both sides of the river from New York to Albany",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Shear, G Willard"
+                },
+                {
+                  "label": "Author",
+                  "value": "Bryant Literary Union"
+                },
+                {
+                  "label": "Date",
+                  "value": "1888"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "2 - 3 Panorama of the Hudson : showing both sides of the river from New York to Albany"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Bryant Literary Union"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "19"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "31"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "New York"
+                },
+                {
+                  "label": "Region",
+                  "value": "Hudson River"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Rivers"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "2 - 3 Panorama of the Hudson : showing both sides of the river from New York to Albany : first photo-panorama of any river ever published : one hundred and fifty miles of continuous scenery accurately represented from eight hundred consecutive photographs ..."
+                },
+                {
+                  "label": "List No",
+                  "value": "10944.005"
+                },
+                {
+                  "label": "Series No",
+                  "value": "5"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Shear, G Willard"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Bryant Literary Union"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1888"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Panorama of the Hudson : showing both sides of the river from New York to Albany : first photo-panorama of any river ever published : one hundred and fifty miles of continuous scenery accurately represented from eight hundred consecutive photographs ..."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Photographs show both banks, printed as seen from the middle of the river; views of the east bank of the river printed upside down under corresponding views of the west bank. Book has title pages at front and back, and can be flipped for views from New York to Albany, or from Albany to New York. 96 unnumbered pages : all illustrations. \"From the metropolis to the capital the Hudson varies in width from half a mile to four miles and a half; but the river remains uniform in these pages as most convenient for a book of reference or tourist guide.\" Photographs are doubled to allow easy right side up viewing of both banks. This is a modest production yet it allows unique views of all the human activity along the Hudson River as of 1888."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10944.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Regional Atlas"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "19"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10944005.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/195/10944005.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Shear, G Willard ; Bryant Literary Union"
+                },
+                {
+                  "label": "local_note",
+                  "value": "[2026-09-24]: Added -kl"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~339642~90107820/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~339642~90107820/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~339642~90107820",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 14304,
+                    "height": 10346
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~339642~90107820/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~339642~90107820/list/luna"
+              ],
+              "width": 14304,
+              "height": 10346
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~339642~90107820"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315043~90083688/manifest",
+      "label": "The Temple of Time",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~315043~90083688/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315043~90083688/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "The Temple of Time",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Willard, Emma"
+                },
+                {
+                  "label": "Date",
+                  "value": "1846"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "The Temple of Time"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "A.S. Barnes & Co."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Timeline"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "68"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "96"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Color chart of time, 68x96, folded in covers 36x25, putting the course of time in perspective in multiple dimensions. Chart exhibited nations both ethnographically and chronographically. With many of the most celebrated leaders of the world. Includes notes on lower panel."
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Ethnography; Nationality; Race"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "The Temple of Time. Invented by Emma Willard. Published by A.S. Barnes & Co. New York. Entered according to act of Congress, 1846, by Emma Willard. Published by A.S. Barnes & Co. New York. (cover title) Willard's map of time : a companion to the Historic guide. By Emma Willard."
+                },
+                {
+                  "label": "List No",
+                  "value": "13233.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Willard, Emma"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1846"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The Temple of Time. Invented by Emma Willard. Published by A.S. Barnes & Co. New York. Entered according to act of Congress, 1846, by Emma Willard. Published by A.S. Barnes & Co. New York. (cover title) Willard's map of time : a companion to the Historic guide. By Emma Willard."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "13233.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Timeline"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "36"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "25"
+                },
+                {
+                  "label": "Image No",
+                  "value": "13233002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/13233002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Willard, Emma"
+                },
+                {
+                  "label": "local_note",
+                  "value": "[2026-09-24]: Added -kl"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~315043~90083688/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~315043~90083688/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~315043~90083688",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 23308,
+                    "height": 16952
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315043~90083688/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315043~90083688/list/luna"
+              ],
+              "width": 23308,
+              "height": 16952
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~315043~90083688"
     }
   ]
 }
