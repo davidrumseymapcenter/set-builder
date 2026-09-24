@@ -1679,6 +1679,159 @@
     },
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/ns026jq3113/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "[Nahuatl glyph map of the Aztec migration from Aztlan to Tenochtitlán]",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/ns026jq3113.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/ns026jq3113'>https://purl.stanford.edu/ns026jq3113</a>"
+        },
+        {
+          "label": "Title",
+          "value": "[Nahuatl glyph map of the Aztec migration from Aztlan to Tenochtitlán]"
+        },
+        {
+          "label": "Creator",
+          "value": "[Agostino Aglio?]"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps."
+        },
+        {
+          "label": "Type",
+          "value": "Manuscript maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 map : manuscript ; on sheet 36.8 x 42 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "Relief shown pictorially"
+        },
+        {
+          "label": "Description",
+          "value": "Includes manuscript notation: \"Facsimile of a Mexican Hieroglyphic Painting or Picture writing embodying in one Picture the [missing text] tongues from a bird, their setting out under different leaders, their migration from the country they stopped at and the number of years they remained at each spot.  Taken from the Giro[glyph?] having been refurnished and authenticated by A De Humboldtt in his Atlas Pittoresque and [Agostino] Aglio in h[is] [drawings?] / British [Library or Museum?] on, 9 August 183[4?]\""
+        },
+        {
+          "label": "Description",
+          "value": "From dealer description: \"A circa 1830 hand-drawn pen and ink copy of the Sigüenza Map, a 16th-century Aztec document housed in Mexico City's Museo Nacional de Antropología. The map derives its name from its association with Carlos de Sigüenza y Góngora, a revered Mexican intellectual, who was among the first to study and value the depth of Aztec history and culture. It traces the Aztec migration from the 9th to the 13th century A.D. from Aztlan to the founding of Tenochtitlán, now Mexico City.  This map is a vivid pictorial narrative that depicts the Aztecs' sacred migration journey to what is now central Mexico. It stands as a foundational visual icon of Aztec culture and society. Importantly, it portrays the historical and symbolic establishment of the city of Tenochtitlan, as well as its sister city, the marketplace altepetl of Tlaltelolco. The map is adorned with hieroglyphs, place glyphs, depictions of Indian principals, and pivotal historical scenes.\n\nThe present manuscript example was commissioned in the 1830s by Captain William Henry Shippard.... Shippard avidly collected and studied early Mexican history for his various museum schemes that never got off the ground.  [This copy] may have been drawn by Agostino Aglio, who was known to have made copies of Mesoamerican manuscripts in the British Library for Lord Kingsborough, among others, in the first decades of the 19th-century.\""
+        },
+        {
+          "label": "Subject",
+          "value": "Aztlán"
+        },
+        {
+          "label": "Subject",
+          "value": "Mexico City (Mex.)"
+        },
+        {
+          "label": "Date",
+          "value": "1834"
+        },
+        {
+          "label": "Date",
+          "value": "1834"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/ns026jq3113"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-06"
+        }
+      ],
+      "description": "Relief shown pictorially",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/ns026jq3113%2Fns026jq3113_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/ns026jq3113%2Fns026jq3113_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 334
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/ns026jq3113/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/ns026jq3113/iiif/canvas/cocina-fileSet-ns026jq3113-ns026jq3113_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 9989,
+              "width": 11968,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/ns026jq3113/ns026jq3113_0001.jp2",
+                  "label": "Original source file (53 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/ns026jq3113/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2F7390da55-d7e7-476f-a0c5-20083c3c8303",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/ns026jq3113/iiif/canvas/cocina-fileSet-ns026jq3113-ns026jq3113_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/ns026jq3113%2Fns026jq3113_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 9989,
+                    "width": 11968,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/ns026jq3113%2Fns026jq3113_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ],
+              "metadata": [
+                {
+                  "label": "local_note",
+                  "value": "[2026-09-24]: Added -kl"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "sc:Manifest",
       "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~352120~90119307/manifest",
       "label": "Plano de la Ciudad de México",
