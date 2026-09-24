@@ -399,7 +399,7 @@ button.export-iiif-btn:active {
     flex-direction: column;
     gap: 6px;
   }
-
+}
 
 /* ── Accordion ─────────────────────────────────────────────── */
 .section-label {
