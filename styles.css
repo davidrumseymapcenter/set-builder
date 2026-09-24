@@ -660,6 +660,7 @@ button.export-iiif-btn:active {
 .note-display {
   display: none;
   margin-top: 4px;
+  margin-bottom: 8px;
   font-size: 12px;
   font-style: italic;
   color: #444;
