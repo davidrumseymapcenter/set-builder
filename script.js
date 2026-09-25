@@ -502,9 +502,6 @@ if (iiifVersion === 3) {
   const manifestMetadata = manifest.metadata || [];    
   const canvasMetadata = canvas.metadata || [];
 
-  console.log('Manifest Metadata:', manifestMetadata);
-  console.log('Canvas Metadata:', canvasMetadata);
-
   // Extract title - handle both IIIF 2.0 and 3.0
   let title = 'No title returned';
   
@@ -725,9 +722,6 @@ if (!locationLink) {
 
   //Create the full Allmaps Editor URL
   const allmapsLink = `https://editor.allmaps.org/?url=${encodeURIComponent(manifestUrlForGeoreferencing)}`;
-
-  // Debugging logs for verification
-  console.log('Location Link:', locationLink);
 
   // Create card element
   const card = document.createElement('div');
