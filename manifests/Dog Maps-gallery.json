@@ -1,0 +1,1008 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Dog Maps",
+  "label": "Dog Maps",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~332278~90100771/manifest",
+      "label": "Dogs and cats of the world",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~332278~90100771/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~332278~90100771/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Dogs and cats of the world",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Ralston Purina Company"
+                },
+                {
+                  "label": "Date",
+                  "value": "1973"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Dogs and cats of the world"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Ralston Purina Company"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "United States"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "89"
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Dogs and cats of the world. Ralston Purina Company, 1973."
+                },
+                {
+                  "label": "List No",
+                  "value": "13626.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ralston Purina Company"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1973"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Dogs and cats of the world. Ralston Purina Company, 1973."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "1973 Ralston Purina Dogs and Cats of the World Poster, 40x89 on sheet 58x89. Includes numbered key beneath the pictographic map describes selective breeds of dogs and cats in the world."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "13626.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "89"
+                },
+                {
+                  "label": "Image No",
+                  "value": "13626000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/190/13626000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Ralston Purina Company"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~332278~90100771/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~332278~90100771/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~332278~90100771",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 22080,
+                    "height": 14778
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~332278~90100771/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~332278~90100771/list/luna"
+              ],
+              "width": 22080,
+              "height": 14778
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~332278~90100771"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272071~90045789/manifest",
+      "label": "Dogs of All Nations Map.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~272071~90045789/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272071~90045789/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Dogs of All Nations Map.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Frantz, E."
+                },
+                {
+                  "label": "Date",
+                  "value": "1936"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Dogs of All Nations Map."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Judy Publishing Company (Dog World Magazine)"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Chicago"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "53"
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Dogs of All Nations Map."
+                },
+                {
+                  "label": "List No",
+                  "value": "8832.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Frantz, E."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1936"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Dogs of All Nations Map."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Black and white."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8832.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "53"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8832000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/153/8832000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Frantz, E."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~272071~90045789/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~272071~90045789/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~272071~90045789",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11164,
+                    "height": 8654
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272071~90045789/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272071~90045789/list/luna"
+              ],
+              "width": 11164,
+              "height": 8654
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~272071~90045789"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~383180~90149141/manifest",
+      "label": "Tableau Demonstratif de L'Origine des Principales Fourrures.(Illustrative Table of the Origin of the Principal Furs.)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~383180~90149141/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~383180~90149141/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Tableau Demonstratif de L'Origine des Principales Fourrures.(Illustrative Table of the Origin of the Principal Furs.)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Hanot, H. G."
+                },
+                {
+                  "label": "Author",
+                  "value": "C. & E. Chapal Frères & Cie"
+                },
+                {
+                  "label": "Date",
+                  "value": "1917"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Tableau Demonstratif de L'Origine des Principales Fourrures.(Illustrative Table of the Origin of the Principal Furs.)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "C. & E. Chapal Frères & Cie"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Montreuil"
+                },
+                {
+                  "label": "Type",
+                  "value": "Wall Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "95"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "119"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "45,400,000"
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Tableau Demonstratif de L'Origine des Principales Fourrures.(Illustrative Table of the Origin of the Principal Furs.)"
+                },
+                {
+                  "label": "List No",
+                  "value": "18109.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hanot, H. G."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "C. & E. Chapal Frères & Cie"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1917"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Tableau Demonstratif de L'Origine des Principales Fourrures.(Illustrative Table of the Origin of the Principal Furs.)"
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "OCLC 1083641535."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"This is one of the earliest modern pictorial maps we have seen, predating the rise of pictorial cartography in the mid-1920s and its golden age in the 1930s-1940s. The map combines informative graphics with playful imagery and persuasive promotional elements. Laid down on a Mercator projection, the map covers the known world with various 'fur' animals illustrated pictorially according to region. Among the fur types covered are seals, rabbits, jaguars, lions, kangaroos, horses, beavers, mink, and many more. The map is surmounted by a shield supported by two mink. The shield bears logos for various Cha pal sub-entities, including their offices in Montreuil, Brooklyn, Sens (Yonne), and Paris. Shipping lanes are noted. This map is a remarkable achievement in that it is about seven years ahead of its time. While earlier pictorial maps do exist, this particular style of pictorial map, defined by informative vignettes of info graphic value, was uncommon before the rise of the art-deco movement in the mid-1920s. The style was probably inspired by French maps issued in the late 19th century by Andriveau-Goujon, Vuillemin, and others, which used pictorial vignettes on city and world maps to promote tourism and display ethnographic content. It is thus not surprising that Hanot's map appeared in France. The map is revolutionary in its use of a similar pictorial style within the thematic context of promoting the fur trade. As such, it is a transitional piece, more whimsical than the French pictorial maps of the late 19th century, but not as cartoonish as the Art Deco era pictorial maps that would begin appearing within the subsequent ten years. This map was printed by H. G. Hanot in 1917 for the firm of C. et E. Chapal. The map appears in at least two states, one corresponding to the present example, with more decorative lettering in the title, and a later edition with simplified lettering. We have been unsuccessful in tracing the maker, Hanot, but the publisher, Cha pal, remains active in the leather and fur trade to this day. Examples of the map are rare, but it has appeared at French auctions 2 - 3 times in the last 20 years. We note a single cataloged example in OCLC, which is part of the collection at the University of Illinois at Urbana Champaign. C. et E. Chapal (1832 - 1932) are French furriers and tanners active from the early 19th century to present. The firm was founded in 1832 by Leonard Chapal (1828 - 1906) and Marien Cougny (1768 - 1841) as dyers of rabbit fur in Crocq, France. Achieving some success, they expanded their operation in 1857, opening an office in Montreuil-sous-Bois, just outside of Paris. The firm then taken over by two brothers, Clement Chapal (1857 -1920) and Emile Chapal (1858 - 1932), who renamed it C. et E. Chapal. Their offices were located at 9, Rue Kleber, Montreuil-sous-Bois. In 1881, Emile Chapal relocated to Brooklyn, New York, to found a subsidiary company, Chap al Brothers and Company of Brooklyn. The firm, operating as Maison Chapal, remains active today and is a major fashion concern.\" (Geographicus, 2026)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "18109.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Wall Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "95"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "119"
+                },
+                {
+                  "label": "Image No",
+                  "value": "18109000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/229/18109000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Hanot, H. G. ; C. & E. Chapal Frères & Cie"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~383180~90149141/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~383180~90149141/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~383180~90149141",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 20997,
+                    "height": 16666
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~383180~90149141/canvas/c1"
+                }
+              ],
+              "width": 20997,
+              "height": 16666
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~383180~90149141"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~271828~90045579/manifest",
+      "label": "The official illustrated dog map of the world. Ken - L. Ration",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~271828~90045579/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~271828~90045579/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "The official illustrated dog map of the world. Ken - L. Ration",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Quaker Oats Company"
+                },
+                {
+                  "label": "Author",
+                  "value": "Western Publishing Company"
+                },
+                {
+                  "label": "Date",
+                  "value": "1967"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "The official illustrated dog map of the world. Ken - L. Ration"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Quaker Oat Company"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "U.S."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "90"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Pictorial color map of the world, 53x60.6, on sheet 108x91, with inset and compass rose cartouche depicting mermaids. Framed with illustration of different breeds of dogs. Each dog is depicted in a small, but detailed illustration accompanied by its name, weight, date and place of origin. Includes legend: The numbers indicating the countries of origin on the map correspond to the numbers beside each bread and description. Notes: \"The bread illustrated here are those for which the American Kennel Club provides registration\""
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "The official illustrated dog map of the world. Ken - L. Ration. Copyright 1967, The Quaker Oat Company. Designed, produced and lithographed in U.S.A. by Western Publishing Company. DS 2.67. Inset: British Isles, Central Europe."
+                },
+                {
+                  "label": "List No",
+                  "value": "8284.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Quaker Oats Company"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Western Publishing Company"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1967"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The official illustrated dog map of the world. Ken - L. Ration. Copyright 1967, The Quaker Oat Company. Designed, produced and lithographed in U.S.A. by Western Publishing Company. DS 2.67. Inset: British Isles, Central Europe."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8284.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "91"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8284000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/153/8284000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Quaker Oats Company; Western Publishing Company"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~271828~90045579/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~271828~90045579/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~271828~90045579",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 18588,
+                    "height": 21916
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~271828~90045579/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~271828~90045579/list/luna"
+              ],
+              "width": 18588,
+              "height": 21916
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~271828~90045579"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289488~90060979/manifest",
+      "label": "A Dog's Idea of the Ideal Country Estate - An Imaginative Map.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~289488~90060979/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289488~90060979/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "A Dog's Idea of the Ideal Country Estate - An Imaginative Map.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Held Jr., John 1889-1958"
+                },
+                {
+                  "label": "Date",
+                  "value": "1925"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "A Dog's Idea of the Ideal Country Estate - An Imaginative Map."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "26"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "18"
+                },
+                {
+                  "label": "Note",
+                  "value": "Date estimated."
+                },
+                {
+                  "label": "Region",
+                  "value": "Fantasy"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Satirical"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Imaginary"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "A Dog's Idea of the Ideal Country Estate - An Imaginative Map."
+                },
+                {
+                  "label": "List No",
+                  "value": "12172.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Held Jr., John 1889-1958"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1925"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Date estimated. A Dog's Idea of the Ideal Country Estate - An Imaginative Map."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Date estimated. John Held Jr. from Salt Lake City was a prominent artist with an unflinching irreverence and caustic wit. Skilled in drawing, engraving, and woodcutting, he made his mark in cartoonish illustration including maps."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12172.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "26"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "18"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12172000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/12172000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Held Jr., John 1889-1958"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~289488~90060979/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~289488~90060979/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~289488~90060979",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 4398,
+                    "height": 5590
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289488~90060979/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289488~90060979/list/luna"
+              ],
+              "width": 4398,
+              "height": 5590
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~289488~90060979"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357385~90124537/manifest",
+      "label": "The Call of the Wild by Jack London.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~357385~90124537/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357385~90124537/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "The Call of the Wild by Jack London.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Riba, Paul"
+                },
+                {
+                  "label": "Date",
+                  "value": "1962"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "The Call of the Wild by Jack London."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Harris-Intertype Corporation"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Cleveland"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "61"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "Alaska"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Literary"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "The Call of the Wild by Jack London."
+                },
+                {
+                  "label": "List No",
+                  "value": "15863.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Riba, Paul"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Harris-Seybold Company"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1962"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The Call of the Wild by Jack London."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "From the C. Max Cary Collection of Harris Seabold."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15863.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15863000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/136/8722000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Riba, Paul"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~357385~90124537/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~357385~90124537/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~357385~90124537",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 16311,
+                    "height": 12505
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~357385~90124537/canvas/c1"
+                }
+              ],
+              "width": 16311,
+              "height": 12505
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~357385~90124537"
+    }
+  ]
+}
