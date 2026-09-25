@@ -1,941 +1,1061 @@
-="<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Help & Workflows - IIIF Gallery Builder</title>
+  <title>Help - IIIF Gallery Builder</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    /* Info page specific styles */
-    .info-container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 2rem;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
       line-height: 1.6;
     }
 
+    /* ── Header ─────────────────────────────────────────────── */
     .info-header {
-      text-align: center;
-      margin-bottom: 3rem;
-      padding-bottom: 2rem;
-      border-bottom: 2px solid #e0e0e0;
+      background: white;
+      border-bottom: 1px solid #e0e0e0;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+    }
+
+    .info-header img {
+      height: 32px;
+      width: auto;
     }
 
     .info-header h1 {
+      font-size: 20px;
+      font-weight: 600;
       color: #333;
-      margin-bottom: 0.5rem;
+      flex: 1;
     }
 
-    .info-header .subtitle {
-      color: #666;
-      font-size: 1.1rem;
+    .header-actions {
+      display: flex;
+      gap: 10px;
+      align-items: center;
     }
 
-    .back-link {
-      display: inline-block;
-      margin-bottom: 1rem;
-      color: #0066cc;
+    .btn-primary {
+      background: #0073A3;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 16px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
       text-decoration: none;
-      font-weight: 500;
+      display: inline-block;
+      transition: background 0.2s ease;
     }
 
-    .back-link:hover {
-      text-decoration: underline;
+    .btn-primary:hover {
+      background: #005f87;
+    }
+
+    .btn-secondary {
+      background: white;
+      color: #0073A3;
+      border: 1px solid #0073A3;
+      border-radius: 4px;
+      padding: 8px 16px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.2s ease;
+    }
+
+    .btn-secondary:hover {
+      background: #f0f7fb;
+    }
+
+
+    /* ── Horizontal nav ─────────────────────────────────────── */
+    .section-nav {
+      background: white;
+      border-bottom: 1px solid #e0e0e0;
+      padding: 0 24px;
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+    }
+
+    .nav-btn {
+      background: none;
+      border: none;
+      border-bottom: 3px solid transparent;
+      padding: 14px 18px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .nav-btn:hover {
+      color: #0073A3;
+    }
+
+    .nav-btn.active {
+      color: #0073A3;
+      border-bottom-color: #0073A3;
+    }
+
+    /* ── Main content ───────────────────────────────────────── */
+    .info-main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px;
     }
 
     .info-section {
-      margin-bottom: 3rem;
+      display: none;
+    }
+
+    .info-section.active {
+      display: block;
     }
 
     .info-section h2 {
-      color: #0066cc;
-      margin-bottom: 1rem;
-      padding-bottom: 0.5rem;
+      font-size: 22px;
+      font-weight: 600;
+      color: #0073A3;
+      margin-bottom: 8px;
+    }
+
+    .info-section .section-intro {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
       border-bottom: 1px solid #e0e0e0;
     }
 
-    .info-section h3 {
+    /* ── Accordion ──────────────────────────────────────────── */
+    .accordion {
+      margin-bottom: 8px;
+      border: 1px solid #e0e0e0;
+      border-radius: 4px;
+      background: white;
+      overflow: hidden;
+    }
+
+    .accordion-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 16px;
+      cursor: pointer;
+      user-select: none;
+      background: white;
+      border: none;
+      width: 100%;
+      text-align: left;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
       color: #333;
-      margin-top: 1.5rem;
-      margin-bottom: 0.75rem;
+      transition: background 0.15s ease;
     }
 
-    .info-section ol, .info-section ul {
-      margin-left: 1.5rem;
-      margin-bottom: 1rem;
+    .accordion-header:hover {
+      background: #f8f8f8;
     }
 
-    .info-section li {
-      margin-bottom: 0.5rem;
+    .accordion-arrow {
+      font-size: 9px;
+      color: #0073A3;
+      transition: transform 0.2s ease;
+      flex-shrink: 0;
     }
 
-    .workflow-card {
+    .accordion.open .accordion-arrow {
+      transform: rotate(90deg);
+    }
+
+    .accordion-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.25s ease-out;
+    }
+
+    .accordion.open .accordion-body {
+      max-height: 2000px;
+    }
+
+    .accordion-content {
+      padding: 16px;
+      border-top: 1px solid #e0e0e0;
+      font-size: 14px;
+      color: #444;
+    }
+
+    .accordion-content p {
+      margin-bottom: 12px;
+    }
+
+    .accordion-content p:last-child {
+      margin-bottom: 0;
+    }
+
+    .accordion-content ol,
+    .accordion-content ul {
+      margin-left: 20px;
+      margin-bottom: 12px;
+    }
+
+    .accordion-content li {
+      margin-bottom: 6px;
+    }
+
+    .accordion-content h4 {
+      font-size: 13px;
+      font-weight: 600;
+      color: #0073A3;
+      margin: 14px 0 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+    }
+
+    /* ── Branch point ───────────────────────────────────────── */
+    .branch-point {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .branch-card {
+      background: white;
+      border: 1px solid #e0e0e0;
+      border-radius: 6px;
+      padding: 20px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-align: center;
+    }
+
+    .branch-card:hover {
+      border-color: #0073A3;
+      box-shadow: 0 2px 8px rgba(0,115,163,0.1);
+    }
+
+    .branch-card .branch-icon {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .branch-card h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: #0073A3;
+      margin-bottom: 6px;
+    }
+
+    .branch-card p {
+      font-size: 13px;
+      color: #666;
+    }
+
+    /* ── Mode cards ─────────────────────────────────────────── */
+    .mode-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin: 16px 0;
+    }
+
+    .mode-card {
       background: #f8f9fa;
-      border-left: 4px solid #0066cc;
-      padding: 1.5rem;
-      margin-bottom: 1.5rem;
+      border: 1px solid #e0e0e0;
       border-radius: 4px;
+      padding: 14px;
     }
 
-    .workflow-card h3 {
-      margin-top: 0;
-      color: #0066cc;
+    .mode-card h4 {
+      font-size: 13px;
+      font-weight: 600;
+      color: #0073A3;
+      margin-bottom: 6px;
+      text-transform: none !important;
+      letter-spacing: 0 !important;
     }
 
+    .mode-card p {
+      font-size: 12px;
+      color: #555;
+      margin: 0 !important;
+    }
+
+    .mode-card .mode-url {
+      font-size: 11px;
+      color: #999;
+      font-family: monospace;
+      margin-top: 6px !important;
+    }
+
+    /* ── Tip and warning boxes ──────────────────────────────── */
     .tip-box {
-      background: #fff3cd;
-      border-left: 4px solid #ffc107;
-      padding: 1rem;
-      margin: 1rem 0;
-      border-radius: 4px;
+      background: #fff8e6;
+      border-left: 3px solid #c8a951;
+      padding: 10px 14px;
+      border-radius: 3px;
+      font-size: 13px;
+      color: #555;
+      margin: 12px 0;
     }
 
     .tip-box strong {
-      color: #856404;
+      color: #8a6d1e;
     }
 
     .warning-box {
-      background: #f8d7da;
-      border-left: 4px solid #dc3545;
-      padding: 1rem;
-      margin: 1rem 0;
-      border-radius: 4px;
+      background: #fff3f3;
+      border-left: 3px solid #cc4444;
+      padding: 10px 14px;
+      border-radius: 3px;
+      font-size: 13px;
+      color: #555;
+      margin: 12px 0;
     }
 
     .warning-box strong {
-      color: #721c24;
+      color: #aa2222;
     }
 
+    /* ── Code snippet ───────────────────────────────────────── */
     .code-snippet {
       background: #f4f4f4;
-      padding: 0.75rem;
+      border: 1px solid #e0e0e0;
+      padding: 10px 14px;
       border-radius: 4px;
       font-family: 'Courier New', monospace;
-      font-size: 0.9rem;
+      font-size: 12px;
       overflow-x: auto;
-      margin: 0.5rem 0;
+      margin: 8px 0;
+      color: #333;
     }
 
-    .screenshot-placeholder {
-      background: #e9ecef;
-      border: 2px dashed #adb5bd;
-      padding: 2rem;
+    /* ── Table ──────────────────────────────────────────────── */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 13px;
+    }
+
+    th {
+      background: #f0f7fb;
+      color: #0073A3;
+      font-weight: 600;
+      padding: 8px 12px;
+      border: 1px solid #d0e4ee;
+      text-align: left;
+    }
+
+    td {
+      padding: 8px 12px;
+      border: 1px solid #e0e0e0;
+      vertical-align: top;
+    }
+
+    tr:nth-child(even) td {
+      background: #fafafa;
+    }
+
+    /* ── Footer ─────────────────────────────────────────────── */
+    .info-footer {
+      background: white;
+      border-top: 1px solid #e0e0e0;
+      padding: 16px 24px;
       text-align: center;
-      color: #6c757d;
-      border-radius: 4px;
-      margin: 1rem 0;
+      font-size: 12px;
+      color: #888;
+      margin-top: 40px;
     }
 
-    @media (max-width: 768px) {
-      .info-container {
-        padding: 1rem;
+    .info-footer a {
+      color: #0073A3;
+      text-decoration: none;
+    }
+
+    .info-footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* ── Responsive ─────────────────────────────────────────── */
+    @media (max-width: 600px) {
+      .branch-point {
+        grid-template-columns: 1fr;
       }
 
-      .info-section ol, .info-section ul {
-        margin-left: 1rem;
+      .mode-cards {
+        grid-template-columns: 1fr;
+      }
+
+      .section-nav {
+        overflow-x: auto;
+      }
+
+      .info-header h1 {
+        font-size: 16px;
+      }
+
+      .header-actions .btn-secondary {
+        display: none;
       }
     }
   </style>
 </head>
 <body>
-  <div class="info-container">    
-    <div class="info-header">
-      <h1>📖 Help & Workflows</h1>
-      <p class="subtitle">Learn how to build, save, and share your IIIF image galleries</p>
+
+  <!-- Header -->
+  <div class="info-header">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" alt="IIIF Logo">
+    <h1>IIIF Gallery Builder — Help</h1>
+    <div class="header-actions">
+      <a href="https://davidrumseymapcenter.github.io/gallery-builder-tutorial/" target="_blank" class="btn-secondary">Full Tutorial</a>
+      <a href="index.html" class="btn-primary">Open Gallery Builder</a>
     </div>
+  </div>
 
-   <!-- TABLE OF CONTENTS -->
-<div class="info-section">
-  <h2>Contents</h2>
-  <ul>
-    <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#saving-loading">Saving & Loading Galleries</a></li>
-    <li><a href="#github-gist">Creating a GitHub Gist Account</a></li>
-    <li><a href="#sharing">Sharing Your Galleries</a></li>
-    <li><a href="#embedding">Embedding in Canvas LMS</a></li> 
-    <li><a href="#workflows">Suggested Workflows</a></li>
-    <li><a href="#terminology">Terminology Guide</a></li>
-    <li><a href="#compatibility">Compatibility & Known Limitations</a></li>
-    <li><a href="#troubleshooting">Troubleshooting</a></li>
-    <li><a href="#technicalnotes">Technical Notes</a></li>
-  </ul>
-</div>
+  <!-- Horizontal nav -->
+  <nav class="section-nav">
+    <button class="nav-btn active" data-section="getting-started">Getting Started</button>
+    <button class="nav-btn" data-section="working-with-galleries">Working with Galleries</button>
+    <button class="nav-btn" data-section="building">Building a Gallery</button>
+    <button class="nav-btn" data-section="sharing">Sharing & Embedding</button>
+    <button class="nav-btn" data-section="help">Help</button>
+  </nav>
 
-    <!-- GETTING STARTED -->
-    <div class="info-section" id="getting-started">
-      <h2>🚀 Getting Started</h2>
+  <!-- Main content -->
+  <div class="info-main">
+
+    <!-- ── GETTING STARTED ───────────────────────────────────── -->
+    <div class="info-section active" id="getting-started">
+      <h2>Getting Started</h2>
+      <p class="section-intro">The IIIF Gallery Builder lets you create, view, and share curated collections of images from libraries, archives, and museums around the world. Where would you like to begin?</p>
+
+      <div class="branch-point">
+        <div class="branch-card" onclick="switchSection('working-with-galleries')">
+          <div class="branch-icon">🔗</div>
+          <h3>I received a gallery link</h3>
+          <p>Someone shared a gallery with you and you want to view it, add notes, or save your own version.</p>
+        </div>
+        <div class="branch-card" onclick="switchSection('building')">
+          <div class="branch-icon">🔨</div>
+          <h3>I'm building a new gallery</h3>
+          <p>You want to create a gallery from scratch by adding images from IIIF-compatible institutions.</p>
+        </div>
+      </div>
+
+      <!-- Accordion: What is this app -->
+      <div class="accordion open">
+        <button class="accordion-header">
+          <span class="accordion-arrow">▶</span>
+          What is the IIIF Gallery Builder?
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>The IIIF Gallery Builder is a free tool for creating curated image galleries from libraries, archives, and museums worldwide. Thousands of institutions — including the Library of Congress, the British Library, Stanford, Yale, and the David Rumsey Map Collection — share their images using an open standard called IIIF (International Image Interoperability Framework). This tool lets you pull images from any of those institutions into a single gallery.</p>
+            <p>You can zoom into high-resolution images, rearrange them, add curator notes, and share your gallery with colleagues or students.</p>
+            <div class="tip-box">
+              <strong>💡 Tip:</strong> No account or installation required. The tool runs entirely in your browser.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion: Three modes -->
+      <div class="accordion">
+        <button class="accordion-header">
+          <span class="accordion-arrow">▶</span>
+          The three modes: Builder, Viewer, and Presentation
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>The Gallery Builder has three different views, each suited to a different purpose. When someone shares a gallery link with you, notice which URL it uses:</p>
+
+            <div class="mode-cards">
+              <div class="mode-card">
+                <h4>🔨 Builder</h4>
+                <p>Create and edit galleries. Add images, write curator notes, reorder cards, and save your work.</p>
+                <p class="mode-url">index.html</p>
+              </div>
+              <div class="mode-card">
+                <h4>👁 Viewer</h4>
+                <p>Read-only view with curator notes visible. Share this with colleagues who need context.</p>
+                <p class="mode-url">viewer.html</p>
+              </div>
+              <div class="mode-card">
+                <h4>📽 Presentation</h4>
+                <p>Clean view with no notes or editing tools. Ideal for classroom display or public presentations.</p>
+                <p class="mode-url">presentation.html</p>
+              </div>
+            </div>
+
+            <p>You can switch between modes by changing the filename in the URL. For example:</p>
+            <div class="code-snippet">
+              https://davidrumseymapcenter.github.io/set-builder/viewer.html?file=YOUR_GALLERY_URL
+            </div>
+            <div class="code-snippet">
+              https://davidrumseymapcenter.github.io/set-builder/presentation.html?file=YOUR_GALLERY_URL
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion: Viewing images -->
+      <div class="accordion">
+        <button class="accordion-header">
+          <span class="accordion-arrow">▶</span>
+          Viewing and navigating images
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>Click any thumbnail to load the full high-resolution image in the viewer on the right.</p>
+            <ul>
+              <li><strong>Zoom:</strong> Use the mouse wheel, or the +/− buttons in the viewer</li>
+              <li><strong>Pan:</strong> Click and drag</li>
+              <li><strong>Reset:</strong> Click the home button to return to the full view</li>
+              <li><strong>Resize the viewer:</strong> Drag the divider between the gallery and viewer panels</li>
+            </ul>
+            <p>Each card shows the image title, author, date, collection, and attribution, along with links to the source item, the IIIF manifest, and the Allmaps georeferencing editor.</p>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- end getting-started -->
+
+
+    <!-- ── WORKING WITH GALLERIES ────────────────────────────── -->
+<div class="info-section" id="working-with-galleries">
+  <h2>Working with Galleries</h2>
+  <p class="section-intro">Someone shared a gallery link with you. Here's how to view it, make changes, and pass it along.</p>
+
+  <!-- Accordion: Opening and viewing -->
+  <div class="accordion open">
+    <button class="accordion-header">
+      <span class="accordion-arrow">▶</span>
+      Opening & Viewing
+    </button>
+    <div class="accordion-body">
+      <div class="accordion-content">
+        <p>If someone sent you a link, just open it in your browser. The gallery loads automatically.</p>
+        <p>If you received a JSON file by email instead:</p>
+        <ol>
+          <li>Open the <a href="index.html" target="_blank">Gallery Builder</a></li>
+          <li>In the <strong>Load Gallery</strong> section, click <strong>Choose File</strong></li>
+          <li>Select the JSON file from your computer</li>
+          <li>The gallery loads immediately</li>
+        </ol>
+        <p>Click any thumbnail to load the full high-resolution image in the viewer on the right. Use the mouse wheel to zoom, click and drag to pan, and the home button to reset the view.</p>
       
-      <h3>What is this app?</h3>
-      <p>The <a href="https://davidrumseymapcenter.github.io/set-builder/index.html" target="blank">IIIF Image Gallery Builder</a> helps you create custom collections of images from IIIF (International Image Interoperability Framework) manifests. You can:</p>
-      <ul>
-        <li>Add images from IIIF-compliant repositories</li>
-        <li>View high-resolution images with zoom capabilities</li>
-        <li>Rearrange and curate your collection</li>
-        <li>Save galleries to your computer</li>
-        <li>Share galleries with others via links</li>
-      </ul>
-
-      <h3>Adding Images to Your Gallery</h3>
-      <ol>
-        <li>Find a IIIF manifest URL from a participating institution</li>
-        <li>Paste the URL into the "Add IIIF Manifest URLs" field</li>
-        <li>Click "Add Manifest(s)"</li>
-        <li>If the manifest contains multiple pages, you'll be able to select which ones to add</li>
-        <li>Images appear as cards in the gallery</li>
-      </ol>
-
-      <div class="tip-box">
-        <strong>💡 Tip:</strong> View a <a href="https://iiif.io/guides/finding_resources/" target="blank">list of participating institutions and instructions on how to locate manifests</a>. 
-      </div>
-
-      <h3>Viewing Images</h3>
-      <p>Click any thumbnail to view the full high-resolution image in the OpenSeadragon viewer on the right. You can:</p>
-      <ul>
-        <li>Zoom in/out using mouse wheel or +/- buttons</li>
-        <li>Pan by clicking and dragging</li>
-        <li>Return to full view with the home button</li>
-      </ul>
-
-      <h3>Organizing Your Gallery</h3>
-      <ul>
-        <li><strong>Reorder:</strong> Click and drag any card to move it</li>
-        <li><strong>Remove:</strong> Click the × button in the top-right corner of any card</li>
-      </ul>
-    </div>
-
-    <!-- SAVING & LOADING -->
-    <div class="info-section" id="saving-loading">
-      <h2>💾 Saving & Loading Galleries</h2>
-
-      <h3>Saving to Your Computer</h3>
-      <ol>
-        <li>Enter a name for your gallery in the "Gallery name" field</li>
-        <li>Click "Save Locally"</li>
-        <li>A JSON file will download to your computer</li>
-        <li>Keep this file to reload your gallery later</li>
-      </ol>
-
-      <div class="tip-box">
-        <strong>💡 Tip:</strong> If you don't enter a name, the app will auto-generate one using today's date (e.g., "iiif-gallery-2025-01-15.json").
-      </div>
-
-      <h3>Loading a Saved Gallery</h3>
-      <p><strong>From a local file:</strong></p>
-      <ol>
-        <li>Click "Choose File"</li>
-        <li>Select your saved JSON file</li>
-        <li>Click "Load File"</li>
-        <li>Your gallery appears with all items in their saved order</li>
-      </ol>
-
-      <p><strong>From a URL:</strong></p>
-      <ol>
-        <li>Paste the gallery JSON URL into the "Paste gallery URL" field</li>
-        <li>Click "Load from URL"</li>
-        <li>The gallery loads directly from the web</li>
-      </ol>
-
-      <div class="tip-box">
-        <strong>💡 Tip:</strong> You will learn to create shareable URLs for collections using GitHub Gist in the steps below!
+        <div class="tip-box">
+          <strong>💡 Tip:</strong> Opening someone else's gallery never changes their original. You're always working on your own copy.
+        </div>
       </div>
     </div>
+  </div>
 
-    <!-- GITHUB GIST -->
-    <div class="info-section" id="github-gist">
-      <h2>🔐 Creating a GitHub Gist Account</h2>
+  <!-- Accordion: Editing and modifying -->
+  <div class="accordion">
+    <button class="accordion-header">
+      <span class="accordion-arrow">▶</span>
+      Editing & Modifying
+    </button>
+    <div class="accordion-body">
+<div class="accordion-content">
 
-      <p>GitHub Gist is a free service for hosting and sharing files. Creating an account allows you to:</p>
-      <ul>
-        <li>Edit your shared galleries after creating them</li>
-        <li>Delete galleries you no longer want public</li>
-        <li>Organize all your galleries in one place</li>
-        <li>Track who views your galleries (via GitHub stats)</li>
-      </ul>
+  <h4>Make sure you're in Builder mode</h4>
+  <p>In <strong>Builder mode</strong> you can edit Curator Notes and save other changes like reordering, removing, and adding images.</p>
 
-      <h3>Step-by-Step Account Creation</h3>
-      <ol>
-        <li>Go to <a href="https://github.com/signup" target="_blank">github.com/signup</a></li>
-        <li>Enter your email address</li>
-        <li>Create a password (at least 15 characters or 8 with a number and lowercase letter)</li>
-        <li>Choose a username (this will be in your gist URLs)</li>
-        <li>Verify you're not a robot (puzzle or email verification)</li>
-        <li>Click "Create account"</li>
-        <li>Verify your email address (check your inbox)</li>
-      </ol>
+  <div class="warning-box">
+    <strong>⚠️ </strong> If someone sent you a <code>viewer.html</code> or <code>presentation.html</code> link, change the filename in the URL to <code>index.html</code> to switch to Builder mode.<br><br>
+    <strong>Example:</strong><br>
+    If you received this link:<br>
+    <code>https://davidrumseymapcenter.github.io/set-builder/<span style="font-weight:700; color:#0073A3;">viewer.html</span>?file=https://...</code><br>
+    Change it to:<br>
+    <code>https://davidrumseymapcenter.github.io/set-builder/<span style="font-weight:700; color:#0073A3;">index.html</span>?file=https://...</code>
+  </div>
 
-      <div class="tip-box">
-        <strong>💡 Tip:</strong> GitHub accounts are free forever for public gists. You never need to upgrade to a paid plan for this use case.
-      </div>
+  <h4>Reordering images</h4>
+<p>Click and drag any card to move it to a new position in the gallery. Note that you can drag cards around in Viewer or Presentation mode but the new order won't be preserved when you close the tab.</p>
 
-      <h3>Anonymous Gists (No Account Needed)</h3>
-      <p>You can also create gists without an account, but:</p>
-      <ul>
-        <li>✅ No signup required - very quick</li>
-        <li>✅ Works immediately</li>
-        <li>❌ Cannot edit once created</li>
-        <li>❌ Cannot delete</li>
-        <li>❌ No way to find it again if you lose the link</li>
-      </ul>
+ <h4>Adding images</h4>
+  <p>Use the <strong>Add IIIF Manifests</strong> section in the input panel to add more images from any IIIF-compatible institution. See the <strong>Building a Gallery</strong> section for details.</p>
 
-      <div class="warning-box">
-        <strong>⚠️ Important:</strong> Anonymous gists are permanent and cannot be edited or deleted. Always keep a local backup of your JSON file!
-      </div>
+<h4>Removing images</h4>
+  <p>Hover over any card and click the <strong>×</strong> button that appears in the top-right corner. You'll be asked to confirm before the card is removed.</p>
+
+<h4>Adding curator notes</h4>
+  <ol>
+    <li>Click <strong>▶ Curator Notes</strong> at the bottom of any card to expand the notes area</li>
+    <li>Type your note in the text box</li>
+    <li>When you save the gallery, your note is automatically date-stamped and saved with the image</li>
+    <li>You can add new notes on top of existing ones — each is date-stamped so it's clear who added what and when.</li>
+  </ol>
+ <div class="tip-box">
+          <strong>💡 Tip:</strong> Notes are visible in <strong>Viewer</strong> mode but not editable, and hidden in <strong>Presentation</strong> mode.
+</div>
+ 
+</div>
     </div>
+  </div>
 
-    <!-- SHARING -->
-    <div class="info-section" id="sharing">
-      <h2>🔗 Sharing Your Galleries</h2>
+  <!-- Accordion: Saving and sharing -->
+  <div class="accordion">
+    <button class="accordion-header">
+      <span class="accordion-arrow">▶</span>
+      Saving & Sharing
+    </button>
+    <div class="accordion-body">
+      <div class="accordion-content">
+        <div class="warning-box">
+          <strong>⚠️ Important:</strong> The gallery exists only in your browser until you save it. Nothing is saved automatically. If you close the tab without saving, your changes will be lost.
+        </div>
 
-      <h3>Send someone your JSON file via email</h3>
-      <ol>
-        <li>Save your gallery locally (download JSON file)</li>
-        <li>Attach your JSON file to an email
-        <li> In the body of the email, paste the link to the webapp: https://davidrumseymapcenter.github.io/set-builder/</li>
-        <li> Tell the recipient to download the file to their desktop and open it using the "Load Gallery" button in the app</li>
+        <h4>Saving to your computer</h4>
+        <ol>
+          <li>Give your gallery a name in the <strong>Save Gallery</strong> section</li>
+          <li>Click <strong>💾 Save File</strong></li>
+          <li>A JSON file downloads to your computer</li>
         </ol>
 
-      <h3>Create a Sharable Link with GitHub Gist</h3>
+        <h4>Sharing by email</h4>
+        <ol>
+          <li>Save your gallery as a JSON file</li>
+          <li>Attach the file to an email</li>
+          <li>Include a link to the Gallery Builder: <code>https://davidrumseymapcenter.github.io/set-builder/</code></li>
+          <li>Ask the recipient to use <strong>Load Gallery → Choose File</strong> to open it</li>
+        </ol>
 
-      <ol>
-        <li>Save your gallery locally (download JSON file)</li>
-        <li>Go to <a href="https://gist.github.com" target="_blank">gist.github.com</a></li>
-        <li>Sign in (or skip for anonymous gist)</li>
-        <li>Drag and drop your JSON file into the text box, OR paste the contents</li>
-        <li>In "Filename including extension" field, give it a descriptive name (e.g., "colonial-maps.json")</li>
-        <li>Optionally add a description</li>
-        <li>Click "Create public gist" (or "Create secret gist" for unlisted)</li>
-        <li>Click the "Raw" button in the top-right corner</li>
-        <li>Copy the URL from your browser's address bar</li>
-      <li>Create your shareable link:</li>
-      
-      <div class="code-snippet">
-        https://davidrumseymapcenter.github.io/set-builder/?file=PASTE_GIST_RAW_URL_HERE
-      </div>
+        <h4>Sharing via a link</h4>
+        <p>Upload your gallery to GitHub Gist to get a permanent shareable link. See the <strong>Sharing & Embedding</strong> section for full instructions.</p>
+        <p>Once you have a cloud-hosted link, choose which mode to share:</p>
+        <table>
+          <tr>
+            <th>If you want to...</th>
+            <th>Use this URL</th>
+          </tr>
+          <tr>
+            <td>Let someone edit the gallery</td>
+            <td><code>index.html?file=...</code></td>
+          </tr>
+          <tr>
+            <td>Share notes with a colleague</td>
+            <td><code>viewer.html?file=...</code></td>
+          </tr>
+          <tr>
+            <td>Show the gallery in class</td>
+            <td><code>presentation.html?file=...</code></td>
+          </tr>
+        </table>
 
-      <p><strong>Example:</strong></p>
-      <div class="code-snippet">
-        https://davidrumseymapcenter.github.io/set-builder/?file=https://gist.githubusercontent.com/kristinallarsen/dd25a0e3fb0535d10d81b327a0d45454/raw/3b479ead4429474900b817bdfe0579d53cefa935/Ink%2520and%2520Empire
-      </div>
-
-      <h3>What Recipients Can Do</h3>
-      <p>When someone opens your shared link:</p>
-      <ul>
-        <li>✅ They see your gallery exactly as you saved it</li>
-        <li>✅ They can view all the images</li>
-        <li>✅ They can add more images if they want</li>
-        <li>✅ They can save their own modified version</li>
-        <li>❌ They CANNOT change your original gallery</li>
-      </ul>
-
-      <div class="tip-box">
-        <strong>💡 Tip:</strong> Think of shared galleries as templates. Anyone can open them, customize them, and save their own version!
       </div>
     </div>
+  </div>
 
-<!-- EMBEDDING IN CANVAS -->
-    <div class="info-section" id="embedding">
-      <h2>🎓 Embedding Galleries in Canvas LMS</h2>
+</div><!-- end working-with-galleries -->
 
-      <p>You can embed your IIIF galleries directly into Canvas course pages using iframes. This allows students to interact with the gallery without leaving Canvas.</p>
 
-      <h3>Step 1: Get Your Gallery URL</h3>
-      <ol>
-        <li>Create and save your gallery</li>
-        <li>Upload it to GitHub Gist (see <a href="#sharing">Sharing section</a>)</li>
-        <li>Create your gallery URL:
-          <div class="code-snippet">https://davidrumseymapcenter.github.io/set-builder/?file=GIST_RAW_URL</div>
-        </li>
-        <li>Copy this complete URL</li>
-      </ol>
+    <!-- ── BUILDING A GALLERY ────────────────────────────────── -->
+    <div class="info-section" id="building">
+      <h2>Building a Gallery</h2>
+      <p class="section-intro">Start from scratch by adding images from any IIIF-compatible institution. Thousands of libraries, archives, and museums participate.</p>
 
-      <h3>Step 2: Embed in Canvas</h3>
-      
-      <p><strong>Method A: Using the Rich Content Editor (Recommended)</strong></p>
-      <ol>
-        <li>In Canvas, edit the page where you want to embed the gallery</li>
-        <li>Click the <strong>&lt;/&gt;</strong> (HTML Editor) button in the toolbar</li>
-        <li>Paste this code where you want the gallery to appear:</li>
-      </ol>
+      <!-- Accordion: Finding IIIF manifests -->
+      <div class="accordion open">
+        <button class="accordion-header">
+          <span class="accordion-arrow">▶</span>
+          Finding IIIF manifest URLs
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>A IIIF manifest is a link that describes a digital object — a map, photograph, book, or artwork — and tells the Gallery Builder how to display it. Most participating institutions provide a manifest link on the item's page.</p>
+            <p>Look for a IIIF logo <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" alt="IIIF" style="height:14px; vertical-align:middle;"> or a link labeled "IIIF Manifest" on the item page.</p>
+            <div class="tip-box">
+              <strong>💡 Tip:</strong> <a href="https://iiif.io/guides/finding_resources/" target="_blank">This guide from IIIF.io</a> lists participating institutions and explains how to find manifest URLs at each one.
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <div class="code-snippet">&lt;iframe src="YOUR_GALLERY_URL_HERE" 
+      <!-- Accordion: Adding images -->
+      <div class="accordion">
+        <button class="accordion-header">
+          <span class="accordion-arrow">▶</span>
+          Adding images to your gallery
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <ol>
+              <li>Click <strong>▶ Add IIIF Manifests</strong> in the input panel to expand it</li>
+              <li>Paste one or more manifest URLs (comma-separated for multiple)</li>
+              <li>Click <strong>Add Manifest(s)</strong></li>
+              <li>If the manifest has multiple pages, a page selector will appear — choose which pages to add</li>
+              <li>The image appears as a card in the gallery</li>
+            </ol>
+            <div class="tip-box">
+              <strong>💡 Tip:</strong> You can add images from multiple institutions in the same gallery.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion: Organizing -->
+      <div class="accordion">
+        <button class="accordion-header">
+          <span class="accordion-arrow">▶</span>
+          Organizing your gallery
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <ul>
+              <li><strong>Reorder cards:</strong> Click and drag any card to a new position</li>
+              <li><strong>Remove a card:</strong> Hover over the card and click the × button that appears</li>
+              <li><strong>View an image:</strong> Click the thumbnail to load it in the viewer on the right</li>
+              <li><strong>Resize the viewer:</strong> Drag the divider bar between the gallery and viewer</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion: Saving -->
+      <div class="accordion">
+        <button class="accordion-header">
+          <span class="accordion-arrow">▶</span>
+          Saving your gallery
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>There are two save options in the <strong>Save Gallery</strong> section:</p>
+            <table>
+              <tr>
+                <th>Button</th>
+                <th>What it saves</th>
+                <th>Use when...</th>
+              </tr>
+              <tr>
+                <td><strong>💾 Save File</strong></td>
+                <td>A gallery file you can reload in this app</td>
+                <td>You want to keep working on it, share it with colleagues, or use it in the viewer or presentation modes</td>
+              </tr>
+              <tr>
+                <td><strong>IIIF icon</strong></td>
+                <td>A standard IIIF manifest for use in other viewers</td>
+                <td>You want to open the gallery in Universal Viewer, Mirador, or another IIIF-compatible tool</td>
+              </tr>
+            </table>
+            <div class="tip-box">
+              <strong>💡 Tip:</strong> When in doubt, use <strong>💾 Save File</strong>. It preserves everything including curator notes and your page selections from multi-page documents.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- end building -->
+
+
+    <!-- ── SHARING & EMBEDDING ───────────────────────────────── -->
+    <div class="info-section" id="sharing">
+      <h2>Sharing & Embedding</h2>
+      <p class="section-intro">Share your gallery as a link, embed it in Canvas, or collaborate with colleagues.</p>
+
+      <!-- Accordion: GitHub Gist -->
+      <div class="accordion open">
+        <button class="accordion-header">
+          <span class="accordion-arrow">▶</span>
+          Creating a shareable link with GitHub Gist
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>GitHub Gist is a free service for hosting files publicly. Uploading your gallery JSON there gives you a permanent link you can share with anyone.</p>
+
+            <h4>Step 1 — Save your gallery</h4>
+            <p>Use <strong>💾 Save File</strong> to download your gallery JSON.</p>
+
+            <h4>Step 2 — Upload to Gist</h4>
+            <ol>
+              <li>Go to <a href="https://gist.github.com" target="_blank">gist.github.com</a></li>
+              <li>Sign in, or skip for an anonymous gist</li>
+              <li>Drag and drop your JSON file into the text box</li>
+              <li>Give it a descriptive filename (e.g., <code>colonial-maps.json</code>)</li>
+              <li>Click <strong>Create public gist</strong></li>
+            </ol>
+
+            <h4>Step 3 — Get the raw URL</h4>
+            <ol>
+              <li>On your new gist page, click the <strong>Raw</strong> button</li>
+              <li>Copy the URL from your browser's address bar</li>
+            </ol>
+
+            <h4>Step 4 — Build your shareable link</h4>
+            <div class="code-snippet">https://davidrumseymapcenter.github.io/set-builder/index.html?file=PASTE_RAW_URL_HERE</div>
+            <p>Replace <code>index.html</code> with <code>viewer.html</code> or <code>presentation.html</code> to share in a different mode.</p>
+
+            <div class="warning-box">
+              <strong>⚠️ Anonymous gists</strong> cannot be edited or deleted once created. Sign in to GitHub to keep full control of your files.
+            </div>
+
+            <div class="tip-box">
+              <strong>💡 Tip:</strong> When you update your gallery, upload the new JSON to Gist and update the file there. The raw URL stays the same if the filename doesn't change.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion: Canvas embedding -->
+      <div class="accordion">
+        <button class="accordion-header">
+          <span class="accordion-arrow">▶</span>
+          Embedding in Canvas LMS
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>You can embed a gallery directly into a Canvas page so students can interact with it without leaving Canvas.</p>
+
+            <h4>Step 1 — Get your gallery URL</h4>
+            <p>Follow the GitHub Gist steps above to create a shareable link. Use <code>presentation.html</code> for a clean classroom view, or <code>viewer.html</code> if you want curator notes to be visible.</p>
+
+            <h4>Step 2 — Embed in Canvas</h4>
+            <ol>
+              <li>Edit the Canvas page where you want the gallery</li>
+              <li>Click the <strong>&lt;/&gt;</strong> HTML editor button</li>
+              <li>Paste this code:</li>
+            </ol>
+            <div class="code-snippet">&lt;iframe 
+  src="YOUR_GALLERY_URL" 
   width="100%" 
-  height="800" 
+  height="900" 
   style="border: 1px solid #ccc; border-radius: 4px;"
   title="IIIF Image Gallery"&gt;
 &lt;/iframe&gt;</div>
+            <ol start="4">
+              <li>Replace <code>YOUR_GALLERY_URL</code> with your actual link</li>
+              <li>Save the page</li>
+            </ol>
 
-      <ol start="4">
-        <li>Replace <code>YOUR_GALLERY_URL_HERE</code> with your actual gallery URL</li>
-        <li>Click the <strong>&lt;/&gt;</strong> button again to return to visual mode</li>
-        <li>Click <strong>Save</strong></li>
-      </ol>
+            <div class="tip-box">
+              <strong>💡 Tip:</strong> Canvas may awkwardly constrain the width of the gallery. Add a link above the iframe so students can open the gallery in a new window.
+            </div>
 
-      <p><strong>Method B: Using Canvas Apps (if available)</strong></p>
-      <ol>
-        <li>In Canvas page editor, click the <strong>Apps</strong> button</li>
-        <li>Select <strong>"Redirect Tool"</strong> or <strong>"External URL"</strong> if available</li>
-        <li>Paste your gallery URL</li>
-        <li>Set dimensions (width: 100%, height: 800px recommended)</li>
-      </ol>
+            <div class="warning-box">
+              <strong>⚠️ Canvas security:</strong> Some institutions block external iframes. If the gallery doesn't appear, contact your Canvas administrator, or use the "Open in new window" approach instead.
+            </div>
 
-      <h3>Recommended Settings</h3>
-      <table style="width: 100%; border-collapse: collapse; margin: 1rem 0;">
-        <tr style="background: #f8f9fa;">
-          <th style="padding: 0.5rem; border: 1px solid #dee2e6; text-align: left;">Setting</th>
-          <th style="padding: 0.5rem; border: 1px solid #dee2e6; text-align: left;">Recommended Value</th>
-          <th style="padding: 0.5rem; border: 1px solid #dee2e6; text-align: left;">Why</th>
-        </tr>
-        <tr>
-          <td style="padding: 0.5rem; border: 1px solid #dee2e6;"><code>width</code></td>
-          <td style="padding: 0.5rem; border: 1px solid #dee2e6;"><code>100%</code></td>
-          <td style="padding: 0.5rem; border: 1px solid #dee2e6;">Responsive, fits all screen sizes</td>
-        </tr>
-        <tr>
-          <td style="padding: 0.5rem; border: 1px solid #dee2e6;"><code>height</code></td>
-          <td style="padding: 0.5rem; border: 1px solid #dee2e6;"><code>800</code> or <code>1000</code></td>
-          <td style="padding: 0.5rem; border: 1px solid #dee2e6;">Enough space to see gallery and viewer</td>
-        </tr>
-        <tr>
-          <td style="padding: 0.5rem; border: 1px solid #dee2e6;"><code>style</code></td>
-          <td style="padding: 0.5rem; border: 1px solid #dee2e6;"><code>border: 1px solid #ccc</code></td>
-          <td style="padding: 0.5rem; border: 1px solid #dee2e6;">Visual separation from page content</td>
-        </tr>
-        <tr>
-          <td style="padding: 0.5rem; border: 1px solid #dee2e6;"><code>title</code></td>
-          <td style="padding: 0.5rem; border: 1px solid #dee2e6;">Descriptive name</td>
-          <td style="padding: 0.5rem; border: 1px solid #dee2e6;">Accessibility for screen readers</td>
-        </tr>
-      </table>
+            <h4>Recommended iframe settings</h4>
+            <table>
+              <tr>
+                <th>Setting</th>
+                <th>Recommended value</th>
+              </tr>
+              <tr>
+                <td>width</td>
+                <td>100%</td>
+              </tr>
+              <tr>
+                <td>height</td>
+                <td>900 or 1000</td>
+              </tr>
+              <tr>
+                <td>title</td>
+                <td>Descriptive name (for accessibility)</td>
+              </tr>
+            </table>
 
-      <h3>Complete Example</h3>
-      <div class="code-snippet">&lt;h2&gt;Assignment: Analyze Colonial Maps&lt;/h2&gt;
-&lt;p&gt;Explore the gallery below and select 3 maps for your analysis essay.&lt;/p&gt;
-
-&lt;iframe src="https://davidrumseymapcenter.github.io/set-builder/?file=https://gist.githubusercontent.com/username/abc123/raw/colonial-maps.json" 
-  width="100%" 
-  height="1000" 
-  style="border: 1px solid #ccc; border-radius: 4px; margin: 1rem 0;"
-  title="Colonial Maps Gallery for Analysis Assignment"&gt;
-&lt;/iframe&gt;
-
-&lt;p&gt;&lt;strong&gt;Can't see the gallery above?&lt;/strong&gt; 
-&lt;a href="https://davidrumseymapcenter.github.io/set-builder/?file=..." target="_blank"&gt;
-  Open in new window
-&lt;/a&gt;&lt;/p&gt;</div>
-
-      <div class="tip-box">
-        <strong>💡 Pro Tip:</strong> Always include a "Open in new window" link as a fallback in case the iframe doesn't load on some devices or browsers.
+            <p style="margin-top:12px;">For a detailed walkthrough with screenshots, see the <a href="https://davidrumseymapcenter.github.io/gallery-builder-tutorial/" target="_blank">full tutorial</a>.</p>
+          </div>
+        </div>
       </div>
 
-
-      <h3>Troubleshooting Canvas Embeds</h3>
-      
-      <p><strong>Problem: "This content cannot be displayed in a frame"</strong></p>
-      <ul>
-        <li><strong>Cause:</strong> Some institutions block external iframes for security</li>
-        <li><strong>Solution:</strong> Ask your Canvas admin to whitelist your GitHub Pages domain, OR use the "Open in new window" link approach instead</li>
-      </ul>
-
-      <p><strong>Problem: Gallery appears but is cut off</strong></p>
-      <ul>
-        <li><strong>Cause:</strong> Height is too small</li>
-        <li><strong>Solution:</strong> Increase the <code>height</code> value to 1000 or 1200</li>
-      </ul>
-
-      <p><strong>Problem: Gallery doesn't work on mobile</strong></p>
-      <ul>
-        <li><strong>Cause:</strong> Fixed pixel widths don't resize</li>
-        <li><strong>Solution:</strong> Always use <code>width="100%"</code> instead of pixel values</li>
-      </ul>
-
-      <div class="warning-box">
-        <strong>⚠️ Canvas Permissions:</strong> Check with your institution's Canvas admin before embedding external content. Some institutions have strict iframe policies for student privacy and security.
+      <!-- Accordion: Collaborating -->
+      <div class="accordion">
+        <button class="accordion-header">
+          <span class="accordion-arrow">▶</span>
+          Collaborating with colleagues
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>The Gallery Builder doesn't have real-time collaboration, but a simple version-based workflow works well:</p>
+            <ol>
+              <li>Person A builds the initial gallery and saves it as <code>project-v1.json</code></li>
+              <li>Person A uploads to Gist and shares the link</li>
+              <li>Person B opens the link, adds images and notes, saves as <code>project-v2.json</code></li>
+              <li>Person B uploads their version to Gist and shares back</li>
+              <li>Continue until the gallery is complete</li>
+            </ol>
+            <div class="tip-box">
+              <strong>💡 Tip:</strong> Include version numbers and initials in your filenames (e.g., <code>colonial-maps-v2-KL.json</code>) to keep track of who changed what.
+            </div>
+          </div>
+        </div>
       </div>
 
-      <h3>Teaching Workflow with Canvas</h3>
-      <ol>
-        <li>Create your gallery with assignment images</li>
-        <li>Save and upload to Gist</li>
-        <li>Create Canvas page with embedded gallery</li>
-        <li>Students interact with gallery directly in Canvas</li>
-        <li>Students can open in new window to save their own version</li>
-        <li>Students submit their customized gallery links via Canvas assignment</li>
-      </ol>
+    </div><!-- end sharing -->
 
-      <div class="tip-box">
-        <strong>💡 Advanced:</strong> Create different galleries for different modules and embed them in corresponding Canvas pages. Students can compare across weeks by revisiting earlier embedded galleries.
-      </div>
-    </div>
 
-    <!-- WORKFLOWS -->
-    <div class="info-section" id="workflows">
-      <h2>🎯 Suggested Workflows</h2>
+    <!-- ── HELP ──────────────────────────────────────────────── -->
+    <div class="info-section" id="help">
+      <h2>Help</h2>
+      <p class="section-intro">Common issues and how to fix them. If you're stuck, the <a href="https://davidrumseymapcenter.github.io/gallery-builder-tutorial/" target="_blank">full tutorial</a> has detailed screenshots for most workflows.</p>
 
-      <div class="workflow-card">
-        <h3>📚 For Teachers: Create Assignment Starter Galleries</h3>
-        <ol>
-          <li>Build a gallery with required images for analysis</li>
-          <li>Save locally as "Assignment-Name-Starter.json"</li>
-          <li>Create a gist (logged in to your account)</li>
-          <li>Share the gallery link with students via your LMS or syllabus</li>
-          <li>Students open the link, add their research images, and save with their name</li>
-          <li>Students submit their gist links to you for grading</li>
-        </ol>
-        <p><strong>Benefits:</strong> All students start with the same base images, you can see exactly what each student added.</p>
+      <!-- Accordion: Manifest errors -->
+      <div class="accordion open">
+        <button class="accordion-header">
+          <span class="accordion-arrow">▶</span>
+          "Error fetching IIIF Manifest"
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>This usually means the URL is wrong, or the institution's server is blocking the request.</p>
+            <ul>
+              <li>Double-check the URL is complete and copied correctly</li>
+              <li>Open the URL directly in a new browser tab — does it show JSON text?</li>
+              <li>Make sure it's a manifest URL (usually contains <code>/manifest</code> or ends in <code>.json</code>)</li>
+              <li>Try again in a few minutes — the server may be temporarily slow</li>
+            </ul>
+          </div>
+        </div>
       </div>
 
-      <div class="workflow-card">
-        <h3>🔬 For Researchers: Version Your Collections</h3>
-        <ol>
-          <li>Create your initial gallery and save as "Project-v1.json"</li>
-          <li>Create a gist and note "Initial collection - 15 items"</li>
-          <li>As you find more items, add them and save as "Project-v2.json"</li>
-          <li>Create new gists for each major version</li>
-          <li>In your publications, reference specific versions by their gist URLs</li>
-        </ol>
-        <p><strong>Benefits:</strong> Permanent, citable, linkable versions. Readers can see exactly what you were looking at. Track evolution of your research.</p>
+      <!-- Accordion: Missing metadata -->
+      <div class="accordion">
+        <button class="accordion-header">
+          <span class="accordion-arrow">▶</span>
+          Missing dates, authors, or other metadata
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>The Gallery Builder reads metadata directly from each institution's IIIF manifest. If a field shows "No date returned" or similar, it means that institution hasn't included that information in their manifest — this is not something the Gallery Builder can fix.</p>
+            <p>Known cases:</p>
+            <ul>
+              <li><strong>Getty Museum:</strong> Often doesn't include creation dates in IIIF metadata</li>
+              <li><strong>Some institutions:</strong> Use non-standard field names the Gallery Builder may not recognize</li>
+            </ul>
+            <p>If you find a manifest where important metadata isn't displaying, <a href="https://github.com/davidrumseymapcenter/set-builder/issues" target="_blank">let us know on GitHub</a> and we'll look into adding support.</p>
+          </div>
+        </div>
       </div>
 
-      <div class="workflow-card">
-  <h3>👥 For Collaborators: Build on Each Other's Work</h3>
-  <ol>
-    <li>Person A creates initial gallery "Colonial Trade Routes" (5 items)</li>
-    <li>Person A saves locally as "Colonial-Trade-Routes-v1.json"</li>
-    <li>Person A creates a gist and shares the link with the team</li>
-    <li>Person B opens the shared link, reviews the 5 items</li>
-    <li>Person B adds 3 more items from their research (now 8 total)</li>
-    <li>Person B saves as "Colonial-Trade-Routes-v2-extended.json"</li>
-    <li>Person B creates their own gist and shares the updated link back</li>
-    <li>Person C opens Person B's link, adds 4 items (now 12 total)</li>
-    <li>Person C saves as "Colonial-Trade-Routes-v3.json"</li>
-    <li>Person C shares their version with the team</li>
-    <li>Team reviews all three versions (v1, v2, v3) side-by-side by opening multiple tabs</li>
-    <li>Team decides which items to keep for the final version</li>
-    <li>Person D compiles the best items from all versions (15 items total)</li>
-    <li>Right click on "View Manifest" link in each card to copy URLs</li>
-    <li>Person D saves as "Colonial-Trade-Routes-FINAL.json"</li>
-    <li>Person D creates gist and shares as the canonical team version</li>
-  </ol>
-  <p><strong>Benefits:</strong></p>
-  <ul>
-    <li>Clear version history (v1, v2, v3, FINAL)</li>
-    <li>Each person's contributions are visible in their version</li>
-    <li>Original never gets overwritten - always available for reference</li>
-    <li>Team can compare versions to see evolution of the collection</li>
-    <li>No conflicts - everyone works on their own copy</li>
-    <li>Final version represents consensus from all contributors</li>
-  </ul>
-  <p><strong>Pro tip:</strong> Add version numbers and contributor names to gallery names (e.g., "Project-v2-JohnEdits") to track who added what.</p>
-</div>
+      <!-- Accordion: Gallery not loading from URL -->
+      <div class="accordion">
+        <button class="accordion-header">
+          <span class="accordion-arrow">▶</span>
+          Gallery doesn't load from a shared link
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <ul>
+              <li>Make sure the link uses the <strong>raw Gist URL</strong>, not the Gist page URL</li>
+              <li><strong>Wrong:</strong> <code>https://gist.github.com/username/abc123</code></li>
+              <li><strong>Right:</strong> <code>https://gist.githubusercontent.com/username/abc123/raw/file.json</code></li>
+              <li>Check that the Gist is public, not secret</li>
+              <li>Try opening the raw URL directly — does it show JSON?</li>
+              <li>Try a hard refresh (Cmd+Shift+R or Ctrl+Shift+R) to clear the browser cache</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-            <!-- TERMINOLOGY -->
-    <div class="info-section" id="terminology">
-      <h2>📚 Terminology Guide</h2>
+      <!-- Accordion: Canvas iframe blocked -->
+      <div class="accordion">
+        <button class="accordion-header">
+          <span class="accordion-arrow">▶</span>
+          Canvas iframe shows "content cannot be displayed in a frame"
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>This is a Canvas security setting, not a problem with the gallery. Options:</p>
+            <ul>
+              <li>Ask your Canvas administrator to whitelist <code>davidrumseymapcenter.github.io</code></li>
+              <li>Instead of embedding, link directly to the gallery URL and ask students to open it in a new tab</li>
+              <li>Use Canvas's Redirect Tool if available at your institution</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-      <p>Understanding these terms will help you use the app more effectively:</p>
+      <!-- Accordion: Contact -->
+      <div class="accordion">
+        <button class="accordion-header">
+          <span class="accordion-arrow">▶</span>
+          Still stuck? Get in touch
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <ul>
+              <li><a href="https://github.com/davidrumseymapcenter/set-builder/issues" target="_blank">Report a bug or request a feature on GitHub</a></li>
+              <li><a href="mailto:rumseymapcenter@stanford.edu">Email the Rumsey Map Center</a></li>
+              <li><a href="https://davidrumseymapcenter.github.io/gallery-builder-tutorial/" target="_blank">Read the full tutorial with screenshots</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-      <h3>IIIF Terms</h3>
-      <dl style="margin-left: 1rem;">
-        <dt style="font-weight: bold; margin-top: 1rem;">IIIF (International Image Interoperability Framework)</dt>
-        <dd style="margin-left: 2rem; margin-bottom: 0.5rem;">A set of open standards for delivering high-quality, attributed digital objects online at scale. Enables images from different institutions to work together.</dd>
+    </div><!-- end help -->
 
-        <dt style="font-weight: bold; margin-top: 1rem;">Manifest</dt>
-        <dd style="margin-left: 2rem; margin-bottom: 0.5rem;">A JSON file that describes a digital object (book, map, photograph, etc.) and its structure. Contains metadata and links to images.</dd>
+  </div><!-- end info-main -->
 
-        <dt style="font-weight: bold; margin-top: 1rem;">Canvas</dt>
-        <dd style="margin-left: 2rem; margin-bottom: 0.5rem;">In IIIF, a canvas represents a single view or page. A multi-page book has multiple canvases.</dd>
-
-        <dt style="font-weight: bold; margin-top: 1rem;">Image Service</dt>
-        <dd style="margin-left: 2rem; margin-bottom: 0.5rem;">The server that delivers the actual image data, allowing for zooming and dynamic sizing.</dd>
-      </dl>
-
-      <h3>App-Specific Terms</h3>
-      <dl style="margin-left: 1rem;">
-        <dt style="font-weight: bold; margin-top: 1rem;">Gallery</dt>
-        <dd style="margin-left: 2rem; margin-bottom: 0.5rem;">Your collection of images displayed as cards. This is what you see on screen and can customize.</dd>
-
-        <dt style="font-weight: bold; margin-top: 1rem;">Card</dt>
-        <dd style="margin-left: 2rem; margin-bottom: 0.5rem;">A single item in your gallery showing a thumbnail and metadata for one image.</dd>
-
-        <dt style="font-weight: bold; margin-top: 1rem;">Save Locally</dt>
-        <dd style="margin-left: 2rem; margin-bottom: 0.5rem;">Download your gallery as a JSON file to your computer. You control the file and can re-upload it anytime.</dd>
-
-        <dt style="font-weight: bold; margin-top: 1rem;">Share</dt>
-        <dd style="margin-left: 2rem; margin-bottom: 0.5rem;">Create a public link to your gallery by uploading it to a hosting service (like GitHub Gist).</dd>
-
-        <dt style="font-weight: bold; margin-top: 1rem;">Deep Link</dt>
-        <dd style="margin-left: 2rem; margin-bottom: 0.5rem;">A URL that automatically loads a specific gallery. Format: <code>yourapp.com/?file=gallery-url</code></dd>
-
-        <dt style="font-weight: bold; margin-top: 1rem;">Fork</dt>
-        <dd style="margin-left: 2rem; margin-bottom: 0.5rem;">Opening someone else's gallery, modifying it, and saving your own version. The original remains unchanged.</dd>
-      </dl>
-
-      <h3>GitHub Terms</h3>
-      <dl style="margin-left: 1rem;">
-        <dt style="font-weight: bold; margin-top: 1rem;">Gist</dt>
-        <dd style="margin-left: 2rem; margin-bottom: 0.5rem;">A simple way to share files (like your gallery JSON) with others. Can be public or secret (unlisted).</dd>
-
-        <dt style="font-weight: bold; margin-top: 1rem;">Raw URL</dt>
-        <dd style="margin-left: 2rem; margin-bottom: 0.5rem;">The direct link to the file content (not the GitHub webpage). This is what you use in your deep links.</dd>
-
-        <dt style="font-weight: bold; margin-top: 1rem;">Anonymous Gist</dt>
-        <dd style="margin-left: 2rem; margin-bottom: 0.5rem;">A gist created without logging in. Cannot be edited or deleted once created.</dd>
-
-        <dt style="font-weight: bold; margin-top: 1rem;">Public Gist</dt>
-        <dd style="margin-left: 2rem; margin-bottom: 0.5rem;">Discoverable in search and your profile. Good for sharing widely.</dd>
-
-        <dt style="font-weight: bold; margin-top: 1rem;">Secret Gist</dt>
-        <dd style="margin-left: 2rem; margin-bottom: 0.5rem;">Not listed in search, but anyone with the link can access it. Good for limited sharing.</dd>
-      </dl>
-    </div>
-<!-- COMPATIBILITY -->
-    <div class="info-section" id="compatibility">
-      <h2>Compatibility & Known Limitations</h2>
-  
-  <h3>Library of Congress Manifests</h3>
-  <p>
-    Due to the Library of Congress's security policy, manifests cannot be added directly 
-    from their website to the gallery. However, you can still use LOC items with a simple workaround.
-  </p>
-  
-  <h4>Workaround for LOC Manifests:</h4>
-  <ol>
-    <li>Visit the LOC manifest URL in your browser (e.g., 
-      <code>https://www.loc.gov/item/74693169/manifest.json</code>)</li>
-    <li>The JSON data will display in your browser</li>
-    <li>Copy all the JSON text (Ctrl+A or Cmd+A to select all, then Ctrl+C or Cmd+C to copy)</li>
-    <li>Paste into a text editor and save as a <code>.json</code> file 
-      (e.g., <code>loc-map.json</code>)</li>
-    <li>In the Gallery Builder, use the <strong>"Choose File"</strong> button under 
-      <strong>"Load Gallery"</strong> to upload your saved file</li>
-    <li>The LOC items will appear in your gallery</li>
-    <li>When you save your gallery, LOC items are preserved and will load normally in the future</li>
-  </ol>
-  
-  <div class="note">
-    <strong>Note:</strong> This workaround is only needed when first adding LOC items. 
-    Once saved in your gallery file, they work like any other manifest.
+  <!-- Footer -->
+  <div class="info-footer">
+    <p>
+      IIIF Gallery Builder — David Rumsey Map Center, Stanford University &nbsp;·&nbsp;
+      <a href="https://github.com/davidrumseymapcenter/set-builder" target="_blank">GitHub Repository</a> &nbsp;·&nbsp;
+      <a href="https://github.com/davidrumseymapcenter/set-builder/blob/main/README.md" target="_blank">README</a> &nbsp;·&nbsp;
+      <a href="https://davidrumseymapcenter.github.io/gallery-builder-tutorial/" target="_blank">Full Tutorial</a>
+    </p>
   </div>
-  
-  <h3>Getty Museum</h3>
-  <p>
-    Getty Museum manifests may display <strong>"No date returned"</strong> because Getty 
-    does not include creation dates in their IIIF metadata. This is a limitation of Getty's 
-    metadata, not the Gallery Builder. All other information (title, artist, collection) 
-    displays correctly.
-  </p>
-  
-  <h3>Other Institutions</h3>
-  <p>
-    The Gallery Builder supports IIIF Presentation API 2.0 and 3.0 manifests from hundreds 
-    of institutions worldwide. If you encounter issues with a specific institution, please 
-    check that:
-  </p>
-  <ul>
-    <li>The URL is a valid IIIF manifest (should end with <code>/manifest.json</code> or <code>/manifest</code>)</li>
-    <li>The manifest is publicly accessible (not behind a login)</li>
-    <li>The institution supports CORS (cross-origin requests) for their IIIF content</li>
-  </ul>
-</div>
-      
-    <!-- TROUBLESHOOTING -->
-    <div class="info-section" id="troubleshooting">
-      <h2>🔧 Troubleshooting</h2>
 
-      <p>Institutions have adopted IIIF in a variety of ways, and this is reflected in differences in manifests. The Gallery Builder may not recognize the structure of some manifests. We are committed to expanding compatibility! If you discover manifests that can not be ingested by this tool, please let us know by <a href="https://github.com/davidrumseymapcenter/set-builder/issues" target="blank">creating an issue in GitHub</a> or emailing <a href="mailto:rumseymapcenter@stanford.edu">rumseymapcenter@stanford.edu</a>.</p>
+  <script>
+    // Section switching
+    function switchSection(id) {
+      document.querySelectorAll('.info-section').forEach(s => s.classList.remove('active'));
+      document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+      document.querySelector(`[data-section="${id}"]`).classList.add('active');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
 
-      <h3>Adding Manifests</h3>
+    document.querySelectorAll('.nav-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        switchSection(btn.dataset.section);
+      });
+    });
 
-      <div class="workflow-card">
-        <h4>Problem: "Error fetching IIIF Manifest"</h4>
-        <p><strong>Possible causes:</strong></p>
-        <ul>
-          <li>Invalid URL (typo or incomplete URL)</li>
-          <li>The server is down or slow</li>
-          <li>URL is not a IIIF manifest (might be a webpage instead)</li>
-          <li>CORS (Cross-Origin Resource Sharing) restrictions</li>
-        </ul>
-        <p><strong>Solutions:</strong></p>
-        <ol>
-          <li>Double-check the URL is complete and correct</li>
-          <li>Try opening the URL directly in a new browser tab - does it show JSON?</li>
-          <li>Make sure it's a manifest URL (usually contains "/manifest" or ends in .json)</li>
-          <li>Try again in a few minutes (server might be temporarily down)</li>
-          <li>Try a different manifest to verify the app is working</li>
-        </ol>
-      </div>
+    // Accordion toggles
+    document.querySelectorAll('.accordion-header').forEach(header => {
+      header.addEventListener('click', () => {
+        const accordion = header.closest('.accordion');
+        accordion.classList.toggle('open');
+      });
+    });
+  </script>
 
-      <div class="workflow-card">
-        <h4>Problem: Manifest loads but no images appear</h4>
-        <p><strong>Possible causes:</strong></p>
-        <ul>
-          <li>Manifest doesn't contain image data (might be collection-level manifest)</li>
-          <li>Images use an unsupported IIIF version</li>
-          <li>Image service URLs are broken</li>
-        </ul>
-        <p><strong>Solutions:</strong></p>
-        <ol>
-          <li>Check browser console (F12) for error messages</li>
-          <li>Verify the manifest URL is for a specific item, not a collection</li>
-          <li>Try a known-working manifest to test</li>
-        </ol>
-      </div>
-
-      <h3>Viewing Images</h3>
-
-      <div class="workflow-card">
-        <h4>Problem: Clicking thumbnail does nothing</h4>
-        <p><strong>Solutions:</strong></p>
-        <ol>
-          <li>Make sure you're clicking the thumbnail image (not the card background)</li>
-          <li>Check if the viewer panel is visible (might be resized too small)</li>
-          <li>Try dragging the divider between gallery and viewer to make viewer larger</li>
-          <li>Refresh the page and try again</li>
-        </ol>
-      </div>
-
-      <div class="workflow-card">
-        <h4>Problem: Image loads but won't zoom</h4>
-        <p><strong>Solutions:</strong></p>
-        <ol>
-          <li>Make sure your mouse is over the image viewer area</li>
-          <li>Try using the +/- buttons instead of mouse wheel</li>
-          <li>Some images might be low resolution and have limited zoom</li>
-          <li>Check if browser zoom is interfering (reset to 100%)</li>
-        </ol>
-      </div>
-
-      <h3>Saving & Loading</h3>
-
-      <div class="workflow-card">
-        <h4>Problem: "Failed to load manifest" when uploading JSON</h4>
-        <p><strong>Possible causes:</strong></p>
-        <ul>
-          <li>File is not valid JSON (corrupted or wrong format)</li>
-          <li>File was edited incorrectly</li>
-          <li>Wrong file selected</li>
-        </ul>
-        <p><strong>Solutions:</strong></p>
-        <ol>
-          <li>Make sure you selected a .json file downloaded from this app</li>
-          <li>Don't edit the JSON file manually unless you know JSON syntax</li>
-          <li>Try opening the JSON file in a text editor - does it look like valid JSON?</li>
-          <li>Re-download the original from your gist if you have one</li>
-        </ol>
-      </div>
-
-     
-      <div class="workflow-card">
-        <h4>Problem: Can't find my downloaded JSON file</h4>
-        <p><strong>Solutions:</strong></p>
-        <ol>
-          <li>Check your browser's Downloads folder</li>
-          <li>Look in your default download location (usually ~/Downloads or C:\Users\YourName\Downloads)</li>
-          <li>Check browser's download history (Ctrl+J or Cmd+J)</li>
-          <li>Re-export the gallery if you can't find it</li>
-        </ol>
-      </div>
-
-      <h3>Sharing & Gists</h3>
-
-      <div class="workflow-card">
-        <h4>Problem: Deep link doesn't load the gallery</h4>
-        <p><strong>Solutions:</strong></p>
-        <ol>
-          <li>Verify the URL format: <code>yourapp.com/?file=GIST_RAW_URL</code></li>
-          <li>Make sure you used the "Raw" gist URL (not the gist page URL)</li>
-          <li>Check that the gist is public (not private)</li>
-          <li>Try opening the gist raw URL directly - does it show JSON?</li>
-          <li>URL encoding: make sure special characters are properly encoded</li>
-        </ol>
-      </div>
-
-      <div class="workflow-card">
-        <h4>Problem: Gist was created but link doesn't work</h4>
-        <p><strong>Common mistake:</strong></p>
-        <p>Using the gist page URL instead of the Raw URL.</p>
-        <p><strong>Wrong:</strong> <code>https://gist.github.com/username/abc123</code></p>
-        <p><strong>Right:</strong> <code>https://gist.githubusercontent.com/username/abc123/raw/filename.json</code></p>
-        <p>Always click the "Raw" button and use that URL!</p>
-      </div>
-
-      <h3>Canvas LMS Embedding</h3>
-
-      <div class="workflow-card">
-        <h4>Problem: "This content cannot be displayed in a frame"</h4>
-        <p><strong>Cause:</strong> Canvas security settings block external iframes.</p>
-        <p><strong>Solutions:</strong></p>
-        <ol>
-          <li>Contact your Canvas administrator to whitelist GitHub Pages</li>
-          <li>Use "Open in new window" link instead of iframe</li>
-          <li>Use Canvas "Redirect Tool" if available</li>
-        </ol>
-      </div>
-
-      <div class="workflow-card">
-        <h4>Problem: Iframe shows but gallery is cut off</h4>
-        <p><strong>Solutions:</strong></p>
-        <ol>
-          <li>Increase iframe height (try 1000 or 1200 instead of 800)</li>
-          <li>Make sure width is set to 100% (not fixed pixels)</li>
-          <li>Check that you didn't accidentally add CSS that limits height</li>
-        </ol>
-      </div>
-
-      <h3>General Issues</h3>
-
-      <div class="workflow-card">
-        <h4>Problem: App is slow or unresponsive</h4>
-        <p><strong>Solutions:</strong></p>
-        <ol>
-          <li>Some slowness can be expected since images are being retrieved from remote servers</li>
-          <li>Close other browser tabs to free up memory</li>
-          <li>Refresh the page</li>
-          <li>Try a different browser</li>
-        </ol>
-      </div>
-
-      <div class="workflow-card">
-        <h4>Problem: Layout looks broken on mobile</h4>
-        <p><strong>Solutions:</strong></p>
-        <ol>
-          <li>Try rotating to landscape orientation</li>
-          <li>The app works best on tablets and larger screens</li>
-          <li>On small phones, use "Open in new window" for better experience</li>
-        </ol>
-      </div>
-
-      <h3>Still Having Issues?</h3>
-      <p>If you're experiencing problems not covered here:</p>
-      <ol>
-        <li>Check the browser console for error messages (press F12, click Console tab)</li>
-        <li>Try in a different browser (Chrome, Firefox, Safari, Edge)</li>
-        <li>Clear browser cache and cookies</li>
-        <li>Make sure you're using a modern, updated browser</li>
-        <li>Check if your institution's firewall is blocking external resources</li>
-      </ol>
-
-      <div class="tip-box">
-        <strong>💡 For Developers:</strong> This is an open-source project. You can view the source code, report issues, or contribute improvements on <a href="https://github.com/davidrumseymapcenter/set-builder" target="blank">GitHub</a>.
-      </div>
-    </div>
-<!-- Technical Notes Section -->
-    <div class="info-section" id="technicalnotes">
-  <h2>Technical Notes</h2>
-  
-  <h3>Overview</h3>
-  <p>The IIIF Image Gallery Builder is a web-based tool that allows users to curate custom collections of images from any institution that provides IIIF-compliant image manifests. Users can select individual pages from multi-page documents, reorder items through drag-and-drop, and export their curated galleries in formats optimized for different use cases.</p>
-
-  <h3>Why Two Export Options?</h3>
-  <p>The application provides two distinct save/export formats, each serving a specific purpose:</p>
-
-  <h4>1. "Save Gallery" (for reloading in this app)</h4>
-  <p><strong>File format:</strong> <code>-gallery.json</code> (Collection format with embedded manifests)</p>
-  
-  <p>This option preserves your complete working state, including:</p>
-  <ul>
-    <li>The exact selection of pages you chose from multi-page documents</li>
-    <li>The order you arranged items through drag-and-drop</li>
-    <li>The full metadata for each image</li>
-    <li>All manifest information needed to reload your gallery exactly as you left it</li>
-  </ul>
-
-  <p><strong>Technical detail:</strong> This format embeds complete IIIF manifests within a Collection structure. While this isn't how IIIF Collections typically work (they usually reference manifests by URL rather than embedding them), it's necessary because when you select specific pages from a 100-page book, that modified manifest doesn't exist anywhere on the web—it only exists in your browser session. By embedding the modified manifest, we preserve your exact curation choices.</p>
-
-  <p><strong>Use case:</strong> You're building a gallery over multiple sessions, or collaborating with others who also use this tool.</p>
-
-  <h4>2. "Export Manifest" (for IIIF viewers)</h4>
-  <p><strong>File format:</strong> <code>-manifest.json</code> (Flattened IIIF Presentation manifest)</p>
-
-  <p>This option creates a single, standards-compliant IIIF manifest that can be opened in any IIIF viewer (Universal Viewer, Mirador, etc.). All your selected images are combined into one sequence, with:</p>
-  <ul>
-    <li>Proper canvas labels extracted from metadata</li>
-    <li>Source attribution preserved in metadata fields</li>
-    <li>Full IIIF 2.0 compliance for maximum compatibility</li>
-  </ul>
-
-  <p><strong>Technical detail:</strong> This format "flattens" all your selections into a single manifest with one sequence containing all canvases. It's completely portable and works in any IIIF-compatible viewer or application.</p>
-
-  <p><strong>Use case:</strong> You want to share your curated gallery publicly, embed it in a website, or open it in professional IIIF viewing applications.</p>
-
-  <h3>Key Design Decisions</h3>
-
-  <h4>Client-Side Architecture</h4>
-  <p>The application runs entirely in the browser with no backend server. This means:</p>
-  <ul>
-    <li><strong>For users:</strong> No account creation, no data tracking, instant performance</li>
-    <li><strong>For developers:</strong> No hosting costs, no server maintenance, easy deployment via GitHub Pages</li>
-    <li><strong>Trade-off:</strong> Collections must embed manifests rather than reference them by URL (since there's nowhere to host the modified manifests we create)</li>
-  </ul>
-
-  <h4>Page Selection Feature</h4>
-  <p>When users add a multi-page IIIF manifest (like a 200-page book), they can select only the specific pages they want. This creates a "modified manifest" that exists only in the application's memory. This modified manifest cannot be referenced by URL because it doesn't exist at a URL—it's ephemeral.</p>
-
-  <p>This is why the "Save Gallery" format embeds complete manifests: to preserve these user-curated selections. Without embedding, we would lose the user's page selections and have to include entire multi-page documents.</p>
-
-  <h4>Standards Compliance</h4>
-  <p>The application handles both IIIF Presentation API 2.0 and 3.0 manifests, and automatically sanitizes common validation issues found in source manifests (such as David Rumsey's <code>otherContent</code> field being a string instead of an array). The exported <code>-manifest.json</code> files are fully IIIF 2.0 compliant and pass validation.</p>
-
-  <h3>Why Not Full IIIF Collection Compliance?</h3>
-  <p>A standards-compliant IIIF Collection references manifests by URL rather than embedding them. For this app to create compliant collections, it would need to:</p>
-  <ol>
-    <li>Host each modified manifest at a unique URL</li>
-    <li>Create a collection that references those URLs</li>
-    <li>Maintain that hosting indefinitely</li>
-  </ol>
-
-  <p>This would require either:</p>
-  <ul>
-    <li>A backend server (eliminating the simplicity of client-side operation)</li>
-    <li>Integration with a third-party hosting service (adding complexity and dependencies)</li>
-    <li>A manual workflow where users host files themselves (poor user experience)</li>
-  </ul>
-
-  <p>The current approach trades IIIF Collection compliance for:</p>
-  <ul>
-    <li><strong>Simplicity:</strong> No server, no hosting, no accounts</li>
-    <li><strong>Functionality:</strong> Preserve page selections and custom ordering</li>
-    <li><strong>Portability:</strong> The <code>-manifest.json</code> export provides full IIIF compliance for sharing</li>
-  </ul>
-
-  <h3>Use Case Scenarios</h3>
-
-  <h4>Researcher creating a teaching resource:</h4>
-  <ol>
-    <li>Selects relevant pages from multiple archival collections</li>
-    <li>Arranges them in pedagogical order</li>
-    <li>Saves progress with "Save Gallery"</li>
-    <li>When finished, uses "Export Manifest" to share with students via Universal Viewer</li>
-  </ol>
-
-  <h4>Digital Humanities project:</h4>
-  <ol>
-    <li>Curates images from different institutions for a digital exhibition</li>
-    <li>Collaborates with colleagues by sharing the <code>-gallery.json</code> file</li>
-    <li>Exports final manifest for embedding in project website</li>
-  </ol>
-
-  <h4>Librarian building subject guides:</h4>
-  <ol>
-    <li>Pulls relevant maps from various IIIF repositories</li>
-    <li>Reorders them thematically through drag-and-drop</li>
-    <li>Maintains working collection in <code>-gallery.json</code> format</li>
-    <li>Publishes finished galleries as <code>-manifest.json</code> files for patrons</li>
-  </ol>
-
-  <h3>Technical Benefits</h3>
-  <ul>
-    <li><strong>Zero infrastructure costs:</strong> Runs on GitHub Pages or any static host</li>
-    <li><strong>Privacy-preserving:</strong> No user data collected or stored server-side</li>
-    <li><strong>Extensible:</strong> Open source, easy to fork and modify</li>
-    <li><strong>Format flexibility:</strong> Dual export system serves both internal and external use cases</li>
-  </ul>
-
-  <h3>Conclusion</h3>
-  <p>The IIIF Image Gallery Builder's dual-export system reflects a pragmatic balance between user functionality and technical standards. The <code>-gallery.json</code> format prioritizes preserving user intent (page selections, ordering, working state) while the <code>-manifest.json</code> format prioritizes interoperability with the broader IIIF ecosystem. This approach delivers a powerful, simple-to-use curation tool without requiring server infrastructure, while still producing standards-compliant outputs for public sharing.</p>
-</section>
-
-  </div> <!-- End info-container -->
-  
 </body>
 </html>
