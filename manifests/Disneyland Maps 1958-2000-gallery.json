@@ -1,0 +1,2549 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Disneyland Maps 1958-2000",
+  "label": "Disneyland Maps 1958-2000",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268547~90042803/manifest",
+      "label": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~268547~90042803/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268547~90042803/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "McKim, Sam"
+                },
+                {
+                  "label": "Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Date",
+                  "value": "1958"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Burbank, Calif"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "The third 1958 map, mousemaps 1958c. Orange border, Jungle Cruise river is blue, Cascade Peak is present. Bird's eye view colorful pictorial map. Drawn by Sam McKim. \"This map has been designed and released by the Art Corner...\" Relief shown pictorially. Includes decorative border of Disney characters on orange background, welcome text, and legend."
+                },
+                {
+                  "label": "Reference",
+                  "value": "www.mousemaps.com 1958c."
+                },
+                {
+                  "label": "City",
+                  "value": "Anaheim (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California. Designed and released by the Art Corner ... Copyright Walt Disney Productions, 1958. (inset) Disneyland Hotel."
+                },
+                {
+                  "label": "List No",
+                  "value": "8192.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "McKim, Sam"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Art Corner"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1958"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California. Designed and released by the Art Corner ... Copyright Walt Disney Productions, 1958. (inset) Disneyland Hotel."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8192.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8192000.jp2"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "McKim, Sam; Walt Disney Productions"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268547~90042803/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268547~90042803/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268547~90042803",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 22710,
+                    "height": 15132
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268547~90042803/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268547~90042803/list/luna"
+              ],
+              "width": 22710,
+              "height": 15132
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~268547~90042803"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268548~90042802/manifest",
+      "label": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~268548~90042802/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268548~90042802/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "McKim, Sam"
+                },
+                {
+                  "label": "Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Date",
+                  "value": "1961"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Burbank, Calif."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "The only 1961 issue. Pink border. Mousemaps 1961. Bird's eye view colorful pictorial map. Drawn and signed by Sam McKim, with his signature on lower right. Note: \"This map has been designed and released by Walt Disney Productions...\" Relief shown pictorially. Includes decorative border of Disney characters on pink background, welcome text, and legend."
+                },
+                {
+                  "label": "Reference",
+                  "value": "www.mousemaps 1961."
+                },
+                {
+                  "label": "City",
+                  "value": "Anaheim (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California. Designed and released by the Art Corner ... Copyright Walt Disney Productions, 1961. Printed in U.S.A. (Signed by) Sam McKim 10-10-99. (inset) Disneyland Hotel."
+                },
+                {
+                  "label": "List No",
+                  "value": "8193.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "McKim, Sam"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Art Corner"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1961"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California. Designed and released by the Art Corner ... Copyright Walt Disney Productions, 1961. Printed in U.S.A. (Signed by) Sam McKim 10-10-99. (inset) Disneyland Hotel."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Sam McKim (1924–2004) who designed and drew the first series of Disneyland maps from 1958 to 1964, signed this map on 10-10-1999 for Kay Fisher. We acquired the map from Kay."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8193.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8193000.jp2"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "McKim, Sam; Walt Disney Productions"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268548~90042802/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268548~90042802/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268548~90042802",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 22678,
+                    "height": 15132
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268548~90042802/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268548~90042802/list/luna"
+              ],
+              "width": 22678,
+              "height": 15132
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~268548~90042802"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268549~90042801/manifest",
+      "label": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~268549~90042801/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268549~90042801/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "McKim, Sam"
+                },
+                {
+                  "label": "Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Date",
+                  "value": "1962"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Burbank, Calif."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "The only 1962 issue. Blue border. Mousemaps 1962. Bird's eye view colorful pictorial map. Drawn and signed by Sam McKim, with his signature on lower right. Note: \"This map has been designed and released by Walt Disney Productions...\" Relief shown pictorially. Includes decorative border of Disney characters on blue background, welcome text, and legend."
+                },
+                {
+                  "label": "Reference",
+                  "value": "www.mousemaps.com 1962"
+                },
+                {
+                  "label": "City",
+                  "value": "Anaheim (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California. Designed and released by the Walt Disney Productions... Copyright Walt Disney Production, 1962. Printed in U.S.A. (Signed by) Sam McKim 10-10-99. (inset) Disneyland Hotel."
+                },
+                {
+                  "label": "List No",
+                  "value": "8194.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "McKim, Sam"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1962"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California. Designed and released by the Walt Disney Productions... Copyright Walt Disney Production, 1962. Printed in U.S.A. (Signed by) Sam McKim 10-10-99. (inset) Disneyland Hotel."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Sam McKim (1924–2004) who designed and drew the first series of Disneyland maps from 1958 to 1964, signed this map on 10-10-1999 for Kay Fisher. We acquired the map from Kay."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8194.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8194000.jp2"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "McKim, Sam; Walt Disney Productions"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268549~90042801/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268549~90042801/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268549~90042801",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 22718,
+                    "height": 15148
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268549~90042801/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268549~90042801/list/luna"
+              ],
+              "width": 22718,
+              "height": 15148
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~268549~90042801"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268550~90042800/manifest",
+      "label": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~268550~90042800/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268550~90042800/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "McKim, Sam"
+                },
+                {
+                  "label": "Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Date",
+                  "value": "1964"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Burbank, Calif."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "The first 1964 issue, mousemaps 1964a. Green border without stars. Bird's eye view colorful pictorial map. Drawn and signed by Sam McKim, with his signature on lower right. Note: \"This map has been designed and released by Walt Disney Productions...\" Relief shown pictorially. Includes decorative border of Disney characters on green background, welcome text, and legend."
+                },
+                {
+                  "label": "Reference",
+                  "value": "www.mousemaps 1964a."
+                },
+                {
+                  "label": "City",
+                  "value": "Anaheim (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California. Designed and released by the Walt Disney Productions... Copyright Walt Disney Production, 1964. Printed in U.S.A. (Signed by) Sam McKim 10-10-99. (inset) Disneyland Hotel."
+                },
+                {
+                  "label": "List No",
+                  "value": "8195.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "McKim, Sam"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1964"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California. Designed and released by the Walt Disney Productions... Copyright Walt Disney Production, 1964. Printed in U.S.A. (Signed by) Sam McKim 10-10-99. (inset) Disneyland Hotel."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Sam McKim (1924–2004) who designed and drew the first series of Disneyland maps from 1958 to 1964, signed this map on 10-10-1999 for Kay Fisher. We acquired the map from Kay."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8195.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8195000.jp2"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "McKim, Sam; Walt Disney Productions"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268550~90042800/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268550~90042800/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268550~90042800",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 22730,
+                    "height": 15132
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268550~90042800/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268550~90042800/list/luna"
+              ],
+              "width": 22730,
+              "height": 15132
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~268550~90042800"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268551~90042799/manifest",
+      "label": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~268551~90042799/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268551~90042799/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "McKim, Sam"
+                },
+                {
+                  "label": "Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Date",
+                  "value": "1964"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Burbank, Calif."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "The second 1964 issue, mousemaps 1964b. With green border with stars in it. Bird's eye view colorful pictorial map. Drawn and signed by Sam McKim, with his signature on lower right. This is the last of the maps drawn by McKim. Note: \"This map has been designed and released by Walt Disney Productions...\" Relief shown pictorially. Includes decorative border of Disney characters on green star patters background, welcome text, and legend."
+                },
+                {
+                  "label": "Reference",
+                  "value": "www.mousemaps.com 1964b."
+                },
+                {
+                  "label": "City",
+                  "value": "Anaheim (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California. Designed and released by the Walt Disney Productions... Copyright Walt Disney Production, 1964. Printed in U.S.A. (Signed by) Sam McKim 10-10-99. (inset) Disneyland Hotel."
+                },
+                {
+                  "label": "List No",
+                  "value": "8196.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "McKim, Sam"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1964"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California. Designed and released by the Walt Disney Productions... Copyright Walt Disney Production, 1964. Printed in U.S.A. (Signed by) Sam McKim 10-10-99. (inset) Disneyland Hotel."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Sam McKim (1924–2004) who designed and drew the first series of Disneyland maps from 1958 to 1964, signed this map on 10-10-1999 for Kay Fisher. We acquired the map from Kay."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8196.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8196000.jp2"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "McKim, Sam; Walt Disney Productions"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268551~90042799/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268551~90042799/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268551~90042799",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 22676,
+                    "height": 15116
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268551~90042799/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268551~90042799/list/luna"
+              ],
+              "width": 22676,
+              "height": 15116
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~268551~90042799"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272388~90046243/manifest",
+      "label": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~272388~90046243/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272388~90046243/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "McKim, Sam"
+                },
+                {
+                  "label": "Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Date",
+                  "value": "1964"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Burbank, Calif."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "The second 1964 issue, mousemaps 1964b. With green border with stars in it. Bird's eye view colorful pictorial map. Drawn by Sam McKim, this copy without his signature (see our 8196.000 for a signed copy). This is the last of the maps drawn by McKim. Note: \"This map has been designed and released by Walt Disney Productions...\" Relief shown pictorially. Includes decorative border of Disney characters on green star patters background, welcome text, and legend."
+                },
+                {
+                  "label": "Reference",
+                  "value": "www.mousemaps.com 1964b."
+                },
+                {
+                  "label": "City",
+                  "value": "Anaheim (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California. Designed and released by the Walt Disney Productions... Copyright Walt Disney Production, 1964. Printed in U.S.A. (Signed by) Sam McKim 10-10-99. (inset) Disneyland Hotel."
+                },
+                {
+                  "label": "List No",
+                  "value": "8678.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "McKim, Sam"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1964"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Walt Disney's Magic Kingdom : Disneyland U.S.A. Anaheim, California. Designed and released by the Walt Disney Productions... Copyright Walt Disney Production, 1964. Printed in U.S.A. (Signed by) Sam McKim 10-10-99. (inset) Disneyland Hotel."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8678.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8678000.jp2"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "McKim, Sam; Walt Disney Productions"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~272388~90046243/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~272388~90046243/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~272388~90046243",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 22652,
+                    "height": 15234
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~272388~90046243/canvas/c1"
+                }
+              ],
+              "width": 22652,
+              "height": 15234
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~272388~90046243"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268552~90042808/manifest",
+      "label": "Walt Disney's guide to Disneyland: the magic kingdom.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~268552~90042808/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268552~90042808/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Walt Disney's guide to Disneyland: the magic kingdom.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Date",
+                  "value": "1966"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Walt Disney's guide to Disneyland: the magic kingdom."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Burbank, Calif."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "The Disneyland map was redrawn in 1966 and this version with blue border continued until 1976. This second series of maps represent the park as it actually was, not what it hoped to become as was the case with the McKim series of 1958 to 1964. New attractions are added that had been created by Disney for the 1964/1965 New York World's Fair. Bird's eye view colorful pictorial map. \"This map has been designed and released by Walt Disney Productions ...\" Relief shown pictorially. Includes welcome text, and legend."
+                },
+                {
+                  "label": "Reference",
+                  "value": "www.mousemaps.com 1966."
+                },
+                {
+                  "label": "City",
+                  "value": "Anaheim (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Walt Disney's guide to Disneyland : the magic kingdom. Designed and released by Walt Disney Productions ... Copyright Walt Disney Productions, 1966. Printed in U.S.A. (on lower margin) Disneyland. (inset) Disneyland Hotel."
+                },
+                {
+                  "label": "List No",
+                  "value": "8197.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1966"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Walt Disney's guide to Disneyland : the magic kingdom. Designed and released by Walt Disney Productions ... Copyright Walt Disney Productions, 1966. Printed in U.S.A. (on lower margin) Disneyland. (inset) Disneyland Hotel."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8197.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8197000.jp2"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Walt Disney Productions"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268552~90042808/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268552~90042808/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268552~90042808",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 22652,
+                    "height": 15232
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268552~90042808/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268552~90042808/list/luna"
+              ],
+              "width": 22652,
+              "height": 15232
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~268552~90042808"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~361777~90129217/manifest",
+      "label": "Walt Disney's guide to Disneyland",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~361777~90129217/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~361777~90129217/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Walt Disney's guide to Disneyland",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Date",
+                  "value": "1972"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Walt Disney's guide to Disneyland"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Burbank, Calif."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "106"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Mousemaps 1972. Second series, 1966 to 1976. Blue border. Bird's eye view colorful pictorial map. \"This map has been designed and released by Walt Disney Productions ...\" Relief shown pictorially. Includes welcome text, and legend."
+                },
+                {
+                  "label": "Reference",
+                  "value": "www.mousemaps.com 1972"
+                },
+                {
+                  "label": "City",
+                  "value": "Anaheim (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Walt Disney's guide to Disneyland . Designed and released by Walt Disney Productions ... Copyright 1968, 1972,Walt Disney Productions. Printed in U.S.A. (on lower margin) Disneyland."
+                },
+                {
+                  "label": "List No",
+                  "value": "16050.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1972"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Walt Disney's guide to Disneyland . Designed and released by Walt Disney Productions ... Copyright 1968, 1972,Walt Disney Productions. Printed in U.S.A. (on lower margin) Disneyland."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16050.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "106"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16050000.jp2"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Walt Disney Productions"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~361777~90129217/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~361777~90129217/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~361777~90129217",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 27202,
+                    "height": 18292
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~361777~90129217/canvas/c1"
+                }
+              ],
+              "width": 27202,
+              "height": 18292
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~361777~90129217"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268553~90042807/manifest",
+      "label": "Walt Disney's guide to Disneyland",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~268553~90042807/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268553~90042807/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Walt Disney's guide to Disneyland",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Date",
+                  "value": "1975"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Walt Disney's guide to Disneyland"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Burbank, Calif."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Mousemaps 1975. Second series, 1966 to 1976. Blue border. Bird's eye view colorful pictorial map. \"This map has been designed and released by Walt Disney Productions ...\" Relief shown pictorially. Includes welcome text, and legend."
+                },
+                {
+                  "label": "Reference",
+                  "value": "www.mousemaps.com 1975."
+                },
+                {
+                  "label": "City",
+                  "value": "Anaheim (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Walt Disney's guide to Disneyland . Designed and released by Walt Disney Productions ... Copyright 1968, 1972, 1974, 1975 Walt Disney Productions. Printed in U.S.A. (on lower margin) Disneyland."
+                },
+                {
+                  "label": "List No",
+                  "value": "8198.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1975"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Walt Disney's guide to Disneyland . Designed and released by Walt Disney Productions ... Copyright 1968, 1972, 1974, 1975 Walt Disney Productions. Printed in U.S.A. (on lower margin) Disneyland."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8198.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8198000.jp2"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Walt Disney Productions"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268553~90042807/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268553~90042807/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268553~90042807",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 22780,
+                    "height": 15164
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268553~90042807/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268553~90042807/list/luna"
+              ],
+              "width": 22780,
+              "height": 15164
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~268553~90042807"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~361778~90129215/manifest",
+      "label": "Walt Disney's Disneyland",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~361778~90129215/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~361778~90129215/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Walt Disney's Disneyland",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Date",
+                  "value": "1979"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Walt Disney's Disneyland"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Burbank, Calif."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Third series, 1978 to 1989, brown borders. Mousemaps 1979. Bird's eye view colorful pictorial map. Relief shown pictorially. Includes decorative border of Disney characters on brown background and welcome text, Disneyland Dedication Plaque July 17 1955."
+                },
+                {
+                  "label": "Reference",
+                  "value": "www.mousemaps.com 1979"
+                },
+                {
+                  "label": "City",
+                  "value": "Anaheim (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Walt Disney's Disneyland. Copyright 1979 Walt Disney Productions. (on lower margin) Disneyland."
+                },
+                {
+                  "label": "List No",
+                  "value": "16067.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1979"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Walt Disney's Disneyland. Copyright 1979 Walt Disney Productions. (on lower margin) Disneyland."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16067.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16067000.jp2"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Walt Disney Productions"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~361778~90129215/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~361778~90129215/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~361778~90129215",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 26648,
+                    "height": 18010
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~361778~90129215/canvas/c1"
+                }
+              ],
+              "width": 26648,
+              "height": 18010
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~361778~90129215"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268554~90042806/manifest",
+      "label": "Walt Disney's Disneyland",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~268554~90042806/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268554~90042806/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Walt Disney's Disneyland",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Date",
+                  "value": "1984"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Walt Disney's Disneyland"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Burbank, Calif."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Third series, 1978 to 1989, brown borders. Mousemaps 1984. Bird's eye view colorful pictorial map. Relief shown pictorially. Includes decorative border of Disney characters on brown background and welcome text, Disneyland Dedication Plaque July 17 1955."
+                },
+                {
+                  "label": "Reference",
+                  "value": "www.mousemaps.com 1984."
+                },
+                {
+                  "label": "City",
+                  "value": "Anaheim (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Walt Disney's Disneyland. Copyright 1984 Walt Disney Productions. (on lower margin) Disneyland."
+                },
+                {
+                  "label": "List No",
+                  "value": "8199.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Walt Disney Productions"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1984"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Walt Disney's Disneyland. Copyright 1984 Walt Disney Productions. (on lower margin) Disneyland."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8199.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8199000.jp2"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Walt Disney Productions"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268554~90042806/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268554~90042806/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268554~90042806",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 22172,
+                    "height": 15042
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268554~90042806/canvas/c1"
+                }
+              ],
+              "width": 22172,
+              "height": 15042
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~268554~90042806"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~361780~90129216/manifest",
+      "label": "Walt Disney's Disneyland",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~361780~90129216/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~361780~90129216/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Walt Disney's Disneyland",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Disney"
+                },
+                {
+                  "label": "Date",
+                  "value": "1989"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Walt Disney's Disneyland"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Disney"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Burbank, Calif."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "73"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Third series, 1978 to 1989, brown borders. Mousemaps 1989. Bird's eye view colorful pictorial map. Relief shown pictorially. Includes decorative border of Disney characters on brown background and welcome text, Disneyland Dedication Plaque July 17 1955."
+                },
+                {
+                  "label": "Reference",
+                  "value": "www.mousemaps.com 1989"
+                },
+                {
+                  "label": "City",
+                  "value": "Anaheim (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Walt Disney's Disneyland. Copyright 1989 Disney. (on lower margin) Disneyland."
+                },
+                {
+                  "label": "List No",
+                  "value": "16066.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Disney"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1989"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Walt Disney's Disneyland. Copyright 1989 Disney. (on lower margin) Disneyland."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16066.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "73"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "108"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16066000.jp2"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Disney"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~361780~90129216/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~361780~90129216/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~361780~90129216",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 26640,
+                    "height": 18320
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~361780~90129216/canvas/c1"
+                }
+              ],
+              "width": 26640,
+              "height": 18320
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~361780~90129216"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268555~90042805/manifest",
+      "label": "Disneyland 40 years of Adventures",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~268555~90042805/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268555~90042805/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Disneyland 40 years of Adventures",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Vaughn, Nina Rae"
+                },
+                {
+                  "label": "Author",
+                  "value": "Walt Disney Company"
+                },
+                {
+                  "label": "Author",
+                  "value": "Disney/Lucasfilm Ltd."
+                },
+                {
+                  "label": "Date",
+                  "value": "1995"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Disneyland 40 years of Adventures"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Walt Disney Company"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "California"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "67"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "86"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Signed and dated 1995 by Nina Rae Vaughn who created this fourth series of Disneyland maps, 1995 to 2005. Mousemaps 1995. Vaughn returns to the style of the McKim maps first series. Bird's eye view colorful pictorial map. Relief shown pictorially. Includes decorative border of Disney characters on orange background and welcome text, July 17,1955."
+                },
+                {
+                  "label": "Reference",
+                  "value": "www.mousemaps.com 1995."
+                },
+                {
+                  "label": "City",
+                  "value": "Anaheim (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Disneyland 40 years of Adventures. Signed by Nina Rae Vaughn. (Copyright) The Disneyland Company. Disney/Lucasfilm Ltd. Disney/Amblin Entertainment Inc."
+                },
+                {
+                  "label": "List No",
+                  "value": "8200.000"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Disney/Amblin Entertainment Inc."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Vaughn, Nina Rae"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Walt Disney Company"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Disney/Lucasfilm Ltd."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1995"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Disneyland 40 years adventures. (Copyright) The Disneyland Company. Disney/ Lucasfilm Ltd. Disney/Amblin Entertainment Inc."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8200.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "67"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "86"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8200000.jp2"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Vaughn, Nina Rae; Walt Disney Company; Disney/Lucasfilm Ltd."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268555~90042805/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268555~90042805/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268555~90042805",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 17628,
+                    "height": 13714
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268555~90042805/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268555~90042805/list/luna"
+              ],
+              "width": 17628,
+              "height": 13714
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~268555~90042805"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~361781~90129218/manifest",
+      "label": "Disneyland Park",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~361781~90129218/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~361781~90129218/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Disneyland Park",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Disney"
+                },
+                {
+                  "label": "Date",
+                  "value": "1999"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Disneyland Park"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Disney"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "California"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "68"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "100"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Reference",
+                  "value": "www.mousemaps.com 1999"
+                },
+                {
+                  "label": "City",
+                  "value": "Anaheim (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Disneyland Park"
+                },
+                {
+                  "label": "List No",
+                  "value": "16048.000"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Disney/Amblin Entertainment Inc."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Edgar Rice Burroughs, Inc."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Disney"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1999"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Disneyland Park"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16048.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "68"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "100"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16048000.jp2"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Disney"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~361781~90129218/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~361781~90129218/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~361781~90129218",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 23944,
+                    "height": 16466
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~361781~90129218/canvas/c1"
+                }
+              ],
+              "width": 23944,
+              "height": 16466
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~361781~90129218"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268556~90042816/manifest",
+      "label": "Disneyland 45 years of Magic.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~268556~90042816/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268556~90042816/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Disneyland 45 years of Magic.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Vaughn, Nina Rae"
+                },
+                {
+                  "label": "Author",
+                  "value": "Walt Disney Company"
+                },
+                {
+                  "label": "Author",
+                  "value": "Disney/Lucasfilm Ltd."
+                },
+                {
+                  "label": "Date",
+                  "value": "2000"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Disneyland 45 years of Magic."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Walt Disney company"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "California"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "66"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "86"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Date estimated. Part of the fourth series of maps created by Nina Rae Vaughn. Bird's eye view colorful pictorial map. Relief shown pictorially. Includes decorative border of Disney characters on orange background and welcome text, July 17,1955."
+                },
+                {
+                  "label": "Reference",
+                  "value": "www.mousemaps.com 2000."
+                },
+                {
+                  "label": "City",
+                  "value": "Anaheim (Calif.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Disneyland 45 years of Magic. (Copyright) Disney Enterprises. Disney/ Lucasfilm Ltd. Disney/Amblin Entertainment Inc."
+                },
+                {
+                  "label": "List No",
+                  "value": "8201.000"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Disney/Amblin Entertainment Inc."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Edgar Rice Burroughs, Inc."
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Disney/Pixar"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Vaughn, Nina Rae"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Walt Disney Company"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Disney/Lucasfilm Ltd."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "2000"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Disneyland 45 years of Magic. (Copyright) Disney Enterprises. Disney/ Lucasfilm Ltd. Disney/Amblin Entertainment Inc."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "8201.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "66"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "86"
+                },
+                {
+                  "label": "Image No",
+                  "value": "8201000.jp2"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Vaughn, Nina Rae; Walt Disney Company; Disney/Lucasfilm Ltd."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268556~90042816/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268556~90042816/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~268556~90042816",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 17276,
+                    "height": 13354
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268556~90042816/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~268556~90042816/list/luna"
+              ],
+              "width": 17276,
+              "height": 13354
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~268556~90042816"
+    }
+  ]
+}
