@@ -1,0 +1,2318 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Moon Shots revised",
+  "label": "Moon Shots revised",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/wx632tb5379/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Selenographia : sive, Lunæ descriptio; atque accurata ... delineatio. In quâ simul cæterorum omnium planetarum nativa facies, variæque observationes ... figuris accuratissimè æri incisis, sub aspectum ponuntur ... Addita est, lentes expoliendi nova ratio ",
+      "attribution": "Public Domain.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/wx632tb5379.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/wx632tb5379'>https://purl.stanford.edu/wx632tb5379</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Selenographia : sive, Lunæ descriptio; atque accurata ... delineatio. In quâ simul cæterorum omnium planetarum nativa facies, variæque observationes ... figuris accuratissimè æri incisis, sub aspectum ponuntur ... Addita est, lentes expoliendi nova ratio "
+        },
+        {
+          "label": "Contributor",
+          "value": "Hevelius, Johannes, 1611-1687."
+        },
+        {
+          "label": "Contributor",
+          "value": "Boy, Adolf (illustrator)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Falck, Jeremias (illustrator)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Heweliusz, Jan, 1611-1687 (illustrator)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Nicolai Pabl. Borus. (former owner)"
+        },
+        {
+          "label": "Type",
+          "value": "text"
+        },
+        {
+          "label": "Format",
+          "value": "[30], 563 p. illus., port. 35 cm."
+        },
+        {
+          "label": "Language",
+          "value": "Latin"
+        },
+        {
+          "label": "Description",
+          "value": "Errata: p. 563."
+        },
+        {
+          "label": "Description",
+          "value": "Includes index."
+        },
+        {
+          "label": "Description",
+          "value": "Engraved t.p. signed: Adolf Boij delineav., J. Falck Polonus Sculps. Plates drawn by the author."
+        },
+        {
+          "label": "Description",
+          "value": "Stanford copy 1 (BARCH): Letterpress t.p. missing. Provenance: author's presentation copy to the Senate (of Gdansk?) (inscriptions); Nicolai Pabl. Borus. (inscription)."
+        },
+        {
+          "label": "Subject",
+          "value": "Sunspots"
+        },
+        {
+          "label": "Subject",
+          "value": "Early works to 1800."
+        },
+        {
+          "label": "Subject",
+          "value": "Moon"
+        },
+        {
+          "label": "Date",
+          "value": "1647"
+        },
+        {
+          "label": "Date",
+          "value": "1647"
+        },
+        {
+          "label": "Identifier",
+          "value": "LCCN: 49032087 //r84"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/wx632tb5379"
+        },
+        {
+          "label": "Publisher",
+          "value": "Autoris sumtibus, typis Hünefeldianis"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "Errata: p. 563.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wx632tb5379%2Fwx632tb5379_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wx632tb5379%2Fwx632tb5379_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 260,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/wx632tb5379/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/wx632tb5379/iiif/canvas/cocina-fileSet-wx632tb5379-wx632tb5379_43",
+              "@type": "sc:Canvas",
+              "label": "Image 43",
+              "height": 7921,
+              "width": 5531,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/wx632tb5379/wx632tb5379_0043.jp2",
+                  "label": "Original source file (7.85 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/wx632tb5379/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fwx632tb5379-wx632tb5379_43%2Fwx632tb5379_0043.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/wx632tb5379/iiif/canvas/cocina-fileSet-wx632tb5379-wx632tb5379_43",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/wx632tb5379%2Fwx632tb5379_0043/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7921,
+                    "width": 5531,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/wx632tb5379%2Fwx632tb5379_0043",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/wx632tb5379/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Selenographia : sive, Lunæ descriptio; atque accurata ... delineatio. In quâ simul cæterorum omnium planetarum nativa facies, variæque observationes ... figuris accuratissimè æri incisis, sub aspectum ponuntur ... Addita est, lentes expoliendi nova ratio ",
+      "attribution": "Public Domain.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/wx632tb5379.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/wx632tb5379'>https://purl.stanford.edu/wx632tb5379</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Selenographia : sive, Lunæ descriptio; atque accurata ... delineatio. In quâ simul cæterorum omnium planetarum nativa facies, variæque observationes ... figuris accuratissimè æri incisis, sub aspectum ponuntur ... Addita est, lentes expoliendi nova ratio "
+        },
+        {
+          "label": "Contributor",
+          "value": "Hevelius, Johannes, 1611-1687."
+        },
+        {
+          "label": "Contributor",
+          "value": "Boy, Adolf (illustrator)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Falck, Jeremias (illustrator)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Heweliusz, Jan, 1611-1687 (illustrator)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Nicolai Pabl. Borus. (former owner)"
+        },
+        {
+          "label": "Type",
+          "value": "text"
+        },
+        {
+          "label": "Format",
+          "value": "[30], 563 p. illus., port. 35 cm."
+        },
+        {
+          "label": "Language",
+          "value": "Latin"
+        },
+        {
+          "label": "Description",
+          "value": "Errata: p. 563."
+        },
+        {
+          "label": "Description",
+          "value": "Includes index."
+        },
+        {
+          "label": "Description",
+          "value": "Engraved t.p. signed: Adolf Boij delineav., J. Falck Polonus Sculps. Plates drawn by the author."
+        },
+        {
+          "label": "Description",
+          "value": "Stanford copy 1 (BARCH): Letterpress t.p. missing. Provenance: author's presentation copy to the Senate (of Gdansk?) (inscriptions); Nicolai Pabl. Borus. (inscription)."
+        },
+        {
+          "label": "Subject",
+          "value": "Sunspots"
+        },
+        {
+          "label": "Subject",
+          "value": "Early works to 1800."
+        },
+        {
+          "label": "Subject",
+          "value": "Moon"
+        },
+        {
+          "label": "Date",
+          "value": "1647"
+        },
+        {
+          "label": "Date",
+          "value": "1647"
+        },
+        {
+          "label": "Identifier",
+          "value": "LCCN: 49032087 //r84"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/wx632tb5379"
+        },
+        {
+          "label": "Publisher",
+          "value": "Autoris sumtibus, typis Hünefeldianis"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "Errata: p. 563.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wx632tb5379%2Fwx632tb5379_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wx632tb5379%2Fwx632tb5379_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 260,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/wx632tb5379/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/wx632tb5379/iiif/canvas/cocina-fileSet-wx632tb5379-wx632tb5379_123",
+              "@type": "sc:Canvas",
+              "label": "Image 123",
+              "height": 7910,
+              "width": 5523,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/wx632tb5379/wx632tb5379_0123.jp2",
+                  "label": "Original source file (7.85 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/wx632tb5379/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fwx632tb5379-wx632tb5379_123%2Fwx632tb5379_0123.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/wx632tb5379/iiif/canvas/cocina-fileSet-wx632tb5379-wx632tb5379_123",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/wx632tb5379%2Fwx632tb5379_0123/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7910,
+                    "width": 5523,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/wx632tb5379%2Fwx632tb5379_0123",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~344831~90112587/manifest",
+      "label": "Plate XIX Full Moon, Exhibiting The Bright Streaks Radiating From Tycho &c.; Glass Globe, Cracked By Internal Pressure Illustrating The Cause Of The Bright Streaks Radiating From Tycho &c.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~344831~90112587/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~344831~90112587/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Plate XIX Full Moon, Exhibiting The Bright Streaks Radiating From Tycho &c.; Glass Globe, Cracked By Internal Pressure Illustrating The Cause Of The Bright Streaks Radiating From Tycho &c.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Nasmyth, James"
+                },
+                {
+                  "label": "Author",
+                  "value": "Carpenter, James"
+                },
+                {
+                  "label": "Date",
+                  "value": "1874"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Plate XIX Full Moon, Exhibiting The Bright Streaks Radiating From Tycho &c.; Glass Globe, Cracked By Internal Pressure Illustrating The Cause Of The Bright Streaks Radiating From Tycho &c."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "John Murray"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Celestial Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Note",
+                  "value": "Page dimensions are full sheet."
+                },
+                {
+                  "label": "Reference",
+                  "value": "For the full text of this book, see https://archive.org/details/gri_33125003591076/mode/2up"
+                },
+                {
+                  "label": "Region",
+                  "value": "Moon"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Moon"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Plate XIX Full Moon, Exhibiting The Bright Streaks Radiating From Tycho &c.; Glass Globe, Cracked By Internal Pressure Illustrating The Cause Of The Bright Streaks Radiating From Tycho &c."
+                },
+                {
+                  "label": "List No",
+                  "value": "15224.025"
+                },
+                {
+                  "label": "Series No",
+                  "value": "25"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Nasmyth, James"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Carpenter, James"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1874"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The Moon: Considered As A Planet, A World, and A Satellite. Second Edition."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"Inscribed to the reverse of the front end paper: \"To Sir James & Lady Baird from Anne E. Nasmyth in remembrance of her dear husband James Nasmyth who died on the 9th of May 1890 in his 82nd year. Hammerfield Kent\". Anne Nasmyth (nee Hartop, b. 1817 d. 1893) was a notable artist, specialising in botanical studies, who married James Nasmyth in 1840. The recipients were Sir James Gardiner Baird, 7th Baronet (1813-1896) and Lady Henrietta Mary Baird (nee Wauchope). An important title, both in the history of astronomy for its remarkably detailed depictions of the lunar surface(achieved by painstakingly constructing plaster models from numerous observations and then photographing them), and as an early photographically illustrated book, which utilised a number of different methods of reproducing the images, including heliotypes and Woodburytypes. This is an interesting and poignant association copy, presumably Anne Nasmyth's own prior to presenting it to the Bairds.\" (Frost, 2022) \"Nasmyth was brought up in an artistic family, made a fortune as a manufacturer and inventor, and retired to take up astronomy. He built his own 20\" reflector in 1842 (inventing the Nasmyth focus in the process), and began to concentrate on lunar studies. Nasmyth brought photography to the aid of selenography in an unusual manner. Since photography was not yet advanced enough to take photographs of lunar details, Nasmyth constructed plaster models based on visual observations, and then photographed the models. For this book, the photographs were then printed by the arduous Woodburytype process, perhaps the most faithful method ever devised for the reproduction of photographs. The Woodburytype has no grain whatsoever, because it does not use cracks or dots to reproduce tone. Instead, a relief mold is made of the image in lead, so that the areas of dark tone are deep and light tone shallow. Ink suspended in gelatin is cast in the mold, and the resulting print produces contrast by the thickness or thinness of the ink.\" (Linda Hall Library, Face of the Moon 20). \"Nasmyth’s simulated views of the moon supported his specious claim that the craggy pockmarked lunar surface was the result of volcanic activity. Rather than declaring Nasmyth’s methodology unscientific, however, his contemporaries lauded the visual effects and found his arguments convincing. This reception suggests that the photographic medium itself imbued the images with a sense of veracity that lent them scientific authority.\" (Metropolitan Museum)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15224.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Celestial Atlas"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15224025.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/15224025.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Nasmyth, James; Carpenter, James"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~344831~90112587/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~344831~90112587/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~344831~90112587",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 7087,
+                    "height": 5692
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~344831~90112587/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~344831~90112587/list/luna"
+              ],
+              "width": 7087,
+              "height": 5692
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~344831~90112587"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~376088~90142180/manifest",
+      "label": "Planche I. Maginius – Orontius – Hell. Atlas Lunaire D’après phototypie Lœwy et Puiseux. Diamètre lunaire 1 m 032. 1894, mars 4, 6 h. 8 m. (Temps moyen de Paris). Société Belge d’Astronomie",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~376088~90142180/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~376088~90142180/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Planche I. Maginius – Orontius – Hell. Atlas Lunaire D’après phototypie Lœwy et Puiseux. Diamètre lunaire 1 m 032. 1894, mars 4, 6 h. 8 m. (Temps moyen de Paris). Société Belge d’Astronomie",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Loewy, Maurice (1833-1907)"
+                },
+                {
+                  "label": "Author",
+                  "value": "Puiseux, Pierre (1855-1928)"
+                },
+                {
+                  "label": "Date",
+                  "value": "1899"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Planche I. Maginius – Orontius – Hell. Atlas Lunaire D’après phototypie Lœwy et Puiseux. Diamètre lunaire 1 m 032. 1894, mars 4, 6 h. 8 m. (Temps moyen de Paris). Société Belge d’Astronomie"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Société Belge d'Astronomie"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Brussels"
+                },
+                {
+                  "label": "Type",
+                  "value": "Aerial Photograph"
+                },
+                {
+                  "label": "Type",
+                  "value": "Celestial Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "32"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "26"
+                },
+                {
+                  "label": "Region",
+                  "value": "Moon"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Moon"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Planche I. Maginius – Orontius – Hell. Atlas Lunaire D’après phototypie Lœwy et Puiseux. Diamètre lunaire 1 m 032. 1894, mars 4, 6 h. 8 m. (Temps moyen de Paris). Société Belge d’Astronomie"
+                },
+                {
+                  "label": "List No",
+                  "value": "16843.006"
+                },
+                {
+                  "label": "Series No",
+                  "value": "6"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Loewy, Maurice (1833-1907)"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Puiseux, Pierre (1855-1928)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1899"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlas Lunaire, publié par la Société Belge d’Astronomie, reproduisant à une échelle réduite aux deux cinquièmes les agrandissements photographiques de Messieurs M. Lœwy, directeur de l’Observatoire de Paris, et P. Puiseux, astronome à l’Observatoire de Paris. Fascicule I. Bruxelles, Société Belge d’Astronomie, 1899. (Lunar Atlas, published by the Belgian Astronomical Society, reproducing at a reduced scale of two-fifths the photographic enlargements by Messrs. M. Lœwy, Director of the Paris Observatory, and P. Puiseux, astronomer at the Paris Observatory. Fascicle I-12. Brussels: Belgian Astronomical Society, 1899.)"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Reduced-format edition, reproducing at two-fifths scale the celebrated photographic enlargements by Loewy and Puiseux from their Atlas Lunaire. Title, 71 plates, plus 3 additional plates. Issued in 12 parts. 71 photographic plates printed by half-tone from the original lunar heliogravure photographs, each with printed tissue overlays. Extra-illustrated with three smaller heliogravure plates (approx. 25 × 18 cm) of the entire Moon by Fillon & Heuse after Loewy and Puiseux, captioned “Lunar photograph obtained at the Paris Observatory” and Lunar Atlas Plates A–C, and with a later map of lunar craters. Later half-cloth, preserving original printed wrappers from one part (boards bowed). Condition: some headlines shaved by the binder, a few plates lightly creased, occasional light wear or light soiling; one plate (XXIX) lacking its printed overlay and instead supplied with a contemporary pen-and-ink annotated overlay, likely original to the issue. The rare reduced-format edition of Loewy and Puiseux’s Atlas Lunaire, issued by the Société Belge d’Astronomie for its members and never sold commercially. Published in fascicules concurrently with the monumental large-format edition produced by the Imprimerie Nationale between 1896 and 1910, this version reproduced all 71 plates at a more portable scale for use by amateur and professional astronomers alike. As stated in the Bulletin of the Belgian Astronomical Society (1897–1898), the atlas was intended as both a practical vade mecum for lunar observation and a precise scientific reference; members could purchase individual issues for 5 francs. With Society membership numbering only 200–400, and not all members subscribing, the print run was necessarily small. Loewy, director of the Paris Observatory, and Puiseux devoted over fourteen years to the project, working under the severe constraints of atmospheric conditions: only 50–60 suitable nights per year, yielding just four or five usable negatives. In total, nearly six thousand photographs were taken over some five hundred evenings. The resulting atlas has been described as “the ultimate achievement of nineteenth-century astronomical photography” (The Photobook), and remained the standard photographic map of the Moon until the advent of space probes in the 1960s; images of substantially higher quality were not obtained until the 1970s. Rare: ABPC and AE record no copies at auction. WorldCat lists mostly incomplete examples, typically with 35–53 plates. As with the large-format edition, this reduced edition was complete at 71 plates; copies are frequently encountered without text, perhaps as issued. Cf. The Photobook, vol. I, pp. 54–55 (first edition)."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16843.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Celestial Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "71"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "33"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "26"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16843006.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/222/16843006.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Loewy, Maurice (1833-1907); Puiseux, Pierre (1855-1928)"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~376088~90142180/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~376088~90142180/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~376088~90142180",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 6472,
+                    "height": 8015
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~376088~90142180/canvas/c1"
+                }
+              ],
+              "width": 6472,
+              "height": 8015
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~376088~90142180"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~336254~90104000/manifest",
+      "label": "10 H. 1/2 - 11 H. ...",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~336254~90104000/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~336254~90104000/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "10 H. 1/2 - 11 H. ...",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Deseilligny, J., 1868-1918"
+                },
+                {
+                  "label": "Date",
+                  "value": "1899"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "10 H. 1/2 - 11 H. ..."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Société Anonyme Notre-Dame des Anges"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Autun (Saône-et-Loire)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Celestial Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "16"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "12"
+                },
+                {
+                  "label": "Note",
+                  "value": "Lunar map, based on observations from July 15, 1899. Shows topography, including craters. Relief shown pictorially and through shading. Date and hours of observations noted both alongside imagery and in lower margin. Black and white illustration. Map is 16 x 12 cm, on sheet 25 x 17 cm. Mounted onto sheet. Appears within first volume of plates, Planches I."
+                },
+                {
+                  "label": "Region",
+                  "value": "Moon"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Art"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Astronomy"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Exploration"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "10 H. 1/2 - 11 H. BY 15 Juillet 1899, 9 H. 1/4 - 9 H. 3/4."
+                },
+                {
+                  "label": "List No",
+                  "value": "14333.020"
+                },
+                {
+                  "label": "Page No",
+                  "value": "IX"
+                },
+                {
+                  "label": "Series No",
+                  "value": "20"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Deseilligny, J., 1868-1918"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1905"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Un site lunaire : (Le Palus Putredinis). J. Deseilligny. 1re Série. Journal et Planches. Achevé d'imprimer le Lundi 27 Février 1905. Société Anonyme Notre-Dame des Anges, Autun (Saone-et-Loire)."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "https://wenamethestars.inkleby.com/feature/4566"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Un site lunaire : (Le Palus Putredinis), by J. Deseilligny. Published by the Société Anonyme Notre-Dame des Anges in Autun (Saône-et-Loire), France, 1905. Lunar atlas comprised of a “Journal” volume, followed by three volumes of plates: Planches I, II and III. Title translates to: A Lunar Site: (the Palus Putredinis). Four-volume set housed together within a five-sided box covered in dark green linen with tan paper wrapping, printed with title, authorship and brief description of contents: 1re Série. Journal et Planches [= 1st Series. Journal and Boards]. Interior lined with marbled paper and includes a brown ribbon for securing volumes in place. Each volume bound in dark green linen-covered board with tan paper wrapping, printed with title, authorship and brief description of contents, e.g.: 1re Série. Journal [= 1st Series. Journal]. Tan paper labels on each spine, e.g.: 1st Series. Journal -- MCMV [1905]. Marbled end papers in each volume. Pages are sewn into binding of Journal; leaves of plates in Planches I-III are hole-punched and bound together with green cord. Plates in all volumes are mounted onto sheets. Journal collation: [8] pages, [1] leaf of plates, [1], 2-240, [4] pages (first and last two pages are blank). Includes title page, dedication, introduction, one lunar map on leaf of plates, three lunar diagrams appearing within the text on pages 54-55, 60-61 and 162-163, Appendices A, B and C, table of contents and colophon. Imprint for entire work presented on colophon of Journal. (All text pages viewable here as a composite image.) Planches I: [2] leaves, I-III, III (bis), IV-XLII leaves of plates, [2] leaves (first and last two leaves are blank). Includes 45 maps on 43 leaves of plates. Planches II: [2] leaves, XLIII-LXXXIV leaves of plates, [2] leaves (first and last two leaves are blank). Includes 42 maps on 42 leaves of plates. Planches III: [2] leaves, LXXXV-CXXV leaves of plates, [2] leaves (first and last two leaves are blank). Includes 40 maps and one view on 41 leaves of plates. Planches III has Appendices B and C but no A. Each volume has an ink signature - on title page of Journal and first blank page of Planches I, II and III. In total, atlas contains 3 lunar diagrams, 128 lunar maps and one view of a telescope. Black and white illustrations make up the first 125 lunar maps, and photographs the last three, as well as the view. Maps show topography, including craters. Relief shown pictorially and through shading. Date and hours of observations noted both alongside imagery and in lower margin of each sheet. Some maps provide insets, which present outline versions of the main map, indexed. Some of the main maps are also indexed, and a few contain question marks throughout. Illustrations focus on the area of Le Palus Putredinis [= Palus Putredinis]. Photographs present the moon in partial view, half-view and three-quarter-view, showing stunning details of the craters and other lunar features. All together a beautiful early synthesis of art and science on the moon. The Palus Putredinis - \"Marsh of Decay\" - is a lunar swamp. The area “stretches from the crater Archimedes southeast toward the rugged Montes Apenninus range located on the southeastern edge of Mare Imbrium. In the southern part of this area is a rille system designated Rimae Archimedes. To the south is a prominent linear rille named Rima Bradley, and to the east is the Rima Hadley, which served as the landing site for Apollo 15, and the Rimae Fresnel” (see link in Pub Reference for further information). \"First edition, exceptionally rare, and presentation copy (see below) of this highly detailed topographic study of Palus Putredinus (the ‘Marsh of Decay’), a vast lava field within the Mare Imbrium on the surface of the moon, and containing the landing site of Apollo 15. The 126 plates comprise 122 photographs of detailed drawings of sectors of the Sea, executed by Jules Alfred Pierrot Deseilligny (1868–1918), amateur astronomer, founder of the French Society of Selenography, and a friend of Camille Flammarion. These drawings were based on Deseilligny’s observations made with his own telescope. A further three photographs were taken at the Paris Observatory, and a further one through Deseilligny’s telescope. This largely unknown work appears to be the most detailed study of an area of the moon up to the time of its publication. It is not in the Linda Hall catalogue The face of the moon, not mentioned in Whitaker’s Mapping and naming the moon, nor in Sheehan and Dobbins’ Epic moon. A history of lunar exploration in the age of the telescope. OCLC records only Harvard. Deseilligny devoted himself to selenography. He founded the Commission lunaire, an association of French astronomers, of which he was the first president. In 1906 they published the Projet d'etudes selenographiques en commun. (This work is) probably the rarest work on lunar topography known. It is also fascinating that at the time, drawing was considered more capable of rendering an accurate depiction of surface features than photography, so you have photographs of drawings (and in other works of the time, drawn highlights on photographs). Whereas at the same time Lowell was making drawings of things he thought he saw, and then photographing the results. The same approach but with very different outcomes. Provenance: The colophon of the first volume states: ‘Etude faite pour La Societe Astronomique de France. Exemplaire tire specialement pour Monsieur Loewy’, below which is a handwritten dedication by the author ‘en homage respecteuse de l’lauteur J. Deseilligny’. This is a dedication to the astronomer Maurice Loewy (1833–1907). Loewy was born on April 15, 1833 in Marianske Lazne, in what is now the Czech Republic. Lowey moved to Vienna in 1841 to become an assistant at the Vienna Observatory, working on celestial mechanics. In 1860, the director of the Observatory, Karl L. Littrow, secured a position for Lowey under Urbain Le Verrier, the director of the Paris Observatory. There he worked on the orbits of asteroids and comets and on the measurement of longitude, improving the accuracy of the Connaissance des Temps. He was elected a member of the Bureau des Longitudes in 1872 and of the Academie des Sciences in 1873. In 1896, Loewy became the director of the Paris Observatory. He is mainly known through his work on astrophotography with Pierre Henri Puiseux. \" (William P. Watson, 2020)."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14333.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Celestial Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "128"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "27"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "18"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14333020.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/195/14333020.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Deseilligny, J., 1868-1918"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~336254~90104000/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~336254~90104000/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~336254~90104000",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 5373,
+                    "height": 6972
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~336254~90104000/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~336254~90104000/list/luna"
+              ],
+              "width": 5373,
+              "height": 6972
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~336254~90104000"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~297577~90069255/manifest",
+      "label": "1 D: Mare Crisium. 79 (degree)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~297577~90069255/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~297577~90069255/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "1 D: Mare Crisium. 79 (degree)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Pickering, William Henry, 1858-1938"
+                },
+                {
+                  "label": "Date",
+                  "value": "1903"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "1 D: Mare Crisium. 79 (degree)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Doubleday, Page & Co."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "32"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "27"
+                },
+                {
+                  "label": "Note",
+                  "value": "View of Mare Crisium, lunar se located in the Moon's Crisium basin."
+                },
+                {
+                  "label": "Full Title",
+                  "value": "1 D: Mare Crisium. 79 (degree). (to accompany) The moon : a summary of the existing knowledge of our satellite, with a complete photographic atlas. By Willaim H. Pickering."
+                },
+                {
+                  "label": "List No",
+                  "value": "11294.034"
+                },
+                {
+                  "label": "Series No",
+                  "value": "34"
+                },
+                {
+                  "label": "Page No",
+                  "value": "1 D"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Pickering, William Henry, 1858-1938"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1903"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The moon : a summary of the existing knowledge of our satellite, with a complete photographic atlas. By Willaim H. Pickering. of Harvard College Observatory. One hundred illustrations. New York: Doubleday, Page & Company, 1903. (on verso of title page) Copyright 1902, by The Century Co. Copyright, 1903 by Doubleday, Page & Company."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "This photographic atlas of the moon is a guide to observing the features of the Moon. It was produced by William Henry Pickering (February 15, 1858 – January 16, 1938) an American astronomer. Selected lunar features are shown at high magnification to highlight and clearly illustrate certain regions. It contains 103 pages, including 92 uncolored plates, illustrations and 8 maps. Includes \"Index to names,\" \"Lunar contents,\" and \"List of illustrations, Plates\" numbered in full title to match map numbers. Bound in navy blue cloth covers with view of the moon pasted under title, reading \"The Moon. W.H. Pickering\" in white."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11294.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Celestial Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "92"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "32"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11294034.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/11294034.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Pickering, William Henry, 1858-1938"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~297577~90069255/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~297577~90069255/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~297577~90069255",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 5721,
+                    "height": 6838
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~297577~90069255/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~297577~90069255/list/luna"
+              ],
+              "width": 5721,
+              "height": 6838
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~297577~90069255"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~324489~90093765/manifest",
+      "label": "1 (Photograph of the moon).",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~324489~90093765/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~324489~90093765/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "1 (Photograph of the moon).",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Kuiper, Gerard P. (Gerard Peter), 1905-1973"
+                },
+                {
+                  "label": "Date",
+                  "value": "1960"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "1 (Photograph of the moon)."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "University of Chicago Press"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Chicago"
+                },
+                {
+                  "label": "Type",
+                  "value": "Aerial Photograph"
+                },
+                {
+                  "label": "Type",
+                  "value": "Celestial Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "41"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "51"
+                },
+                {
+                  "label": "Note",
+                  "value": "Photograph of the moon - in black and white - showing entire globe. 41 x 51 cm, on sheet 44 x 54 cm."
+                },
+                {
+                  "label": "Region",
+                  "value": "Moon"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Celestial"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "1 (Photograph of the moon). Photographic lunar atlas, edited by Gerard P. Kuiper. © University of Chicago 1960."
+                },
+                {
+                  "label": "List No",
+                  "value": "14057.004"
+                },
+                {
+                  "label": "Series No",
+                  "value": "4"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Kuiper, Gerard P. (Gerard Peter), 1905-1973"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Arthur, D. W. G."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Moore, E."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Tapscott, J. W."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Whitaker, Ewen A. (Ewen Adair)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1960"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Photographic lunar atlas based on photographs taken at the Mount Wilson, Lick, Pic du Midi, McDonald and Yerkes Observatories. Edited by Gerald P. Kuiper. The University of Chicago Press. © 1960 by The University of Chicago."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "The Photographic lunar atlas was published in 1960 by The University of Chicago Press. It is accompanied by a text booklet, which includes metrics: The main body of the Atlas has 184 [i.e. 188] sheets containing 212 photographs; the Introduction contains 11 sheets with 5 photographs, the Supplements 35 sheets with 63 photographs. The totals are therefore 230 [i.e. 234] sheets and 281 [i.e. 280] photographs. Of these, 94 are from Mount Wilson [Los Angeles, California]; 63, Lick [Mt. Hamilton, California]; 52, McDonald [Fort Davis, Texas]; 41, Yerkes [Williams Bay, Wisconsin]; and 31, Pic du Midi [Bagnères-de-Bigorre, France]. Housed within a box enclosure, these photographs appear in alphabetized sets separated by tabs, beginning with the Introduction, which includes Photographs and Charts 1-11, and followed by: A2-A7 (each numbered set includes parts a-d), B1-B8 (a-d), C1 (a-f), C2-C7 (a-f), C8 (a-f), D1 (a-f), D2-D7 (a-d), D8 (a-f), E1-E8 (a-d), F2-F7 (a-d), and S1-S35. (Lacks sets A1 and F1.) According to the Introduction of the Photographic lunar atlas: \"The purpose of this Atlas is to present the surface record of the moon as shown on the best photographs now available.\" Two supplemental volumes were published subsequently: the Orthographic atlas of the moon : Supplement one in 1961 by the University of Arizona Press (see Pub List No. 14058.000), and the Rectified lunar atlas : Supplement two in 1963, by the Aeronautical Chart and Information Center, United States Air Force (see Pub List No. 14059.000). In the Orthographic atlas of the moon, \"the most representative photographs of each of the 44 fields or provinces into which the visible lunar surface was divided in the Photographic lunar atlas are reproduced, supplied with the standard orthographic grid ... \" (Introduction). The Rectified lunar atlas contains \"a series of high-quality photographs of the lunar surface as it would appear if viewed from above\" (Introduction). Note on terminology: photographs and charts are differentiated here as follows - photographs are the original representations of the moon, in black and white, and without the overlay of interpretive graphics and text; charts are those same base images, in blue and white, mediated by overlaid interpretive graphics and text. One could even consider the photographs as art and the charts as maps."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14057.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Celestial Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "286"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "46"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14057004.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/185/14057004.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Kuiper, Gerard P. (Gerard Peter), 1905-1973"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~324489~90093765/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~324489~90093765/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~324489~90093765",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 10472,
+                    "height": 12880
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~324489~90093765/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~324489~90093765/list/luna"
+              ],
+              "width": 10472,
+              "height": 12880
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~324489~90093765"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~359901~90126985/manifest",
+      "label": "Ranger IX Lunar chart: Alphonsus RLC 14",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~359901~90126985/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~359901~90126985/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Ranger IX Lunar chart: Alphonsus RLC 14",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Aeronautical Chart and Information Center (U.S.)"
+                },
+                {
+                  "label": "Author",
+                  "value": "United States. National Aeronautics and Space Administration"
+                },
+                {
+                  "label": "Date",
+                  "value": "1966"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Ranger IX Lunar chart: Alphonsus RLC 14"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "U.S. Government Printing Office"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington, D.C."
+                },
+                {
+                  "label": "Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "74"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "250,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "2 maps on 1 sheet, both sides. Alphonsus Lunar 9 RLC 14."
+                },
+                {
+                  "label": "Region",
+                  "value": "Moon"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Celestial"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Ranger IX Lunar chart: Alphonsus RLC 14"
+                },
+                {
+                  "label": "List No",
+                  "value": "13544.004"
+                },
+                {
+                  "label": "Series No",
+                  "value": "4"
+                },
+                {
+                  "label": "Page No",
+                  "value": "RLC 14"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Aeronautical Chart and Information Center (U.S.)"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "United States. National Aeronautics and Space Administration"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1966"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Ranger IX Lunar chart. RLC 13 - 17. Compiled and published for National Aeronautics and Space Administration by Aeronautical Chart and Information Center, United States Air Force. Base 100. Base information May 1966. Lithographed by ACIC 6-66."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "First edition, May 1966. Folded Ranger 9 Lunar Charts, RLCs 13-17, based on close-up spacecraft images of the moon surface, on 5 sheets, 2 maps on 1 sheets, both sides, sheet 56 x 74 or smaller, loose as issued in printed envelope “Ranger VIII Lunar chart. RLC 13 through 17”. Mercator Projection. Scale varies. Charts 13-17 showing Ptolemeus and Alphonsus regions. Relief shown by shading and spot heights. Each sheet includes \"Location of chart area\" map, and descriptive text: \"This chart was produced in consultation with Dr. Gerard P. Kuiper and the staff of the Lunar Planetary Laboratory, University of Arizona. ACIC production, in part, was supported by NASA Contract R-108.\" Maps published as a set of charts: 1964-1966. Ranger VII-IX Lunar Charts, 17 folded loose maps in 3 envelopes. Including Ranger VII Lunar Charts, RLC I through 5: detailed maps of the Mare Cognitum; Ranger VIII Lunar Charts, RLC 6 through 12: Hypatia and Sabine region; Ranger IX Lunar Charts, RLC 13 through 17: Ptolemeus and, Alphonsus."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "13544.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "5"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Image No",
+                  "value": "13544004.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/13544004.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Aeronautical Chart and Information Center (U.S.); United States. National Aeronautics and Space Administration"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~359901~90126985/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~359901~90126985/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~359901~90126985",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11640,
+                    "height": 8887
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~359901~90126985/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~359901~90126985/list/luna"
+              ],
+              "width": 11640,
+              "height": 8887
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~359901~90126985"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~303657~90074288/manifest",
+      "label": "Apollo initial lunar landing mission. General Electric",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~303657~90074288/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~303657~90074288/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Apollo initial lunar landing mission. General Electric",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "General Electric Company"
+                },
+                {
+                  "label": "Date",
+                  "value": "1969"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Apollo initial lunar landing mission. General Electric"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "General Electric Company"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Housron, TX."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "97"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Promotional and chronological history of the expedition of the Apollo lunar landing in 1969. Showing inset maps, detail view of the moon's surface, including mountain, sea floors and place names. Includes view of the earth and vignettes at the sides and lower panels with explanatory text and tables."
+                },
+                {
+                  "label": "World Area",
+                  "value": "World"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Moon"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Celestial"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Space"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Apollo initial lunar landing mission. General Electric. General Electric Company 1969. Houston, Texas. Compiled from unclassified NASA data."
+                },
+                {
+                  "label": "List No",
+                  "value": "11807.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "General Electric Company"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1969"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Apollo initial lunar landing mission. General Electric. General Electric Company 1969. Houston, Texas. Compiled from unclassified NASA data."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11807.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "97"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11807000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/11807000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "General Electric Company"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~303657~90074288/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~303657~90074288/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~303657~90074288",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 20118,
+                    "height": 14738
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~303657~90074288/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~303657~90074288/list/luna"
+              ],
+              "width": 20118,
+              "height": 14738
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~303657~90074288"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~291081~90062692/manifest",
+      "label": "Lipton Lunar Space Map. Zaffo",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~291081~90062692/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~291081~90062692/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Lipton Lunar Space Map. Zaffo",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Zaffo"
+                },
+                {
+                  "label": "Author",
+                  "value": "Thomas J. Lipton, Inc."
+                },
+                {
+                  "label": "Date",
+                  "value": "1969"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Lipton Lunar Space Map. Zaffo"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Lipton, Inc."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "50"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "60"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Promotional map of the expedition of the Apollo astronauts to make the July 20, 1969 lunar landing, illustrated by Zaffo, produced for Lipton's Tea. Showing detail view of the moon's surface, including mountain heights, sea floors and place names. Includes view of the earth and 16 vignettes at the upper and lower panels with explanatory text. Date estimated."
+                },
+                {
+                  "label": "Region",
+                  "value": "Moon"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Space"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Lipton Lunar Space Map. Zaffo."
+                },
+                {
+                  "label": "List No",
+                  "value": "11431.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Zaffo"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Thomas J. Lipton, Inc."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1969"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Lipton Lunar Space Map. Zaffo."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11431.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "50"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "60"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11431000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/11431000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Zaffo; Thomas J. Lipton, Inc."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~291081~90062692/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~291081~90062692/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~291081~90062692",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12198,
+                    "height": 10214
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~291081~90062692/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~291081~90062692/list/luna"
+              ],
+              "width": 12198,
+              "height": 10214
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~291081~90062692"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288952~90060502/manifest",
+      "label": "Trip to the Moon",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~288952~90060502/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288952~90060502/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Trip to the Moon",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Hammond Incorporated"
+                },
+                {
+                  "label": "Author",
+                  "value": "NASA"
+                },
+                {
+                  "label": "Date",
+                  "value": "1969"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Trip to the Moon"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Hammon Inc."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Maplewood, N.J."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "62"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Color map. With 9 inset views of various stages of the trip to the Moon, photographed by NASA. Includes place names and text. Relief shown by shading. Date estimated."
+                },
+                {
+                  "label": "Region",
+                  "value": "Moon"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Moon"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Celestial"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Space"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Trip to the Moon. Esso. Copyright Hammond Incorporated, Maplewood, N.J. Printed in U.S.A. (9 inset views)."
+                },
+                {
+                  "label": "List No",
+                  "value": "11282.000"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Esso Standard Oil Company"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hammond Incorporated"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "NASA"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1969"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Trip to the Moon. Esso. Copyright Hammond Incorporated, Maplewood, N.J. Printed in U.S.A. (9 inset views)."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11282.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "49"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "62"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11282000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/11282000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Hammond Incorporated; NASA"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288952~90060502/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288952~90060502/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288952~90060502",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12736,
+                    "height": 9710
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288952~90060502/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288952~90060502/list/luna"
+              ],
+              "width": 12736,
+              "height": 9710
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~288952~90060502"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~283934~90056361/manifest",
+      "label": "Lunar map",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~283934~90056361/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~283934~90056361/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Lunar map",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Westab Inc."
+                },
+                {
+                  "label": "Author",
+                  "value": "RICO (Firm)"
+                },
+                {
+                  "label": "Date",
+                  "value": "1970"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Lunar map"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Westab Inc."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Dayton, Ohio"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "110,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Raised relief model, 19x19 on sheet 31x23. Based upon photographs taken by U.S. moon probes. Map showing detail view of the moon's surface, including scaled mountain heights, sea floors and place name. Relief also shown by shading. Includes gazetteer. Date estimated."
+                },
+                {
+                  "label": "Region",
+                  "value": "Moon"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Lunar map. Copyright Rico Florence made in Italy patent no. 558142. From the Topographic lunar map of the Army Map Service. products of Westab Inc., Dayton, Ohio."
+                },
+                {
+                  "label": "List No",
+                  "value": "11234.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Westab Inc."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "RICO (Firm)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1970"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Lunar map. Copyright Rico Florence made in Italy patent no. 558142. From the Topographic lunar map of the Army Map Service. products of Westab Inc., Dayton, Ohio."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11234.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11234001.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/11234001.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Westab Inc.; RICO (Firm)"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~283934~90056361/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~283934~90056361/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~283934~90056361",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 4781,
+                    "height": 6229
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~283934~90056361/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~283934~90056361/list/luna"
+              ],
+              "width": 4781,
+              "height": 6229
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~283934~90056361"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~363028~90130200/manifest",
+      "label": "Geologic Map of the Near Side of the Moon.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~363028~90130200/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~363028~90130200/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Geologic Map of the Near Side of the Moon.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Wilhelms, Don E."
+                },
+                {
+                  "label": "Author",
+                  "value": "McCauley, John F."
+                },
+                {
+                  "label": "Date",
+                  "value": "1971"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Geologic Map of the Near Side of the Moon."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "U.S. Geological Survey"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington D.C."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "91"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "109"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "5,000,000"
+                },
+                {
+                  "label": "Region",
+                  "value": "Moon"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Celestial"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Moon"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Geologic Map of the Near Side of the Moon."
+                },
+                {
+                  "label": "List No",
+                  "value": "12141.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Page No",
+                  "value": "map"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Wilhelms, Don E."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "McCauley, John F."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1971"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Geologic Atlas of the Moon. Geologic Map of the Near Side of the Moon. By Don E. Wilhelms and John F. McCauley. Prepared on behalf of the National Aeronautics and Space Administration and in Cooperation with the USAF Aeronautical Chart and Information Center. Geologic Investigations Series Map I-703."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Date 1971, reprinted 2000. Color. Orthographic projeection."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12141.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12141002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/213/12141002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Wilhelms, Don E.; McCauley, John F."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~363028~90130200/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~363028~90130200/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~363028~90130200",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 17851,
+                    "height": 12000
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~363028~90130200/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~363028~90130200/list/luna"
+              ],
+              "width": 17851,
+              "height": 12000
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~363028~90130200"
+    }
+  ]
+}
