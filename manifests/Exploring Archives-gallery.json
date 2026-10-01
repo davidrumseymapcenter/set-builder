@@ -1,0 +1,2517 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Exploring Archives",
+  "label": "Exploring Archives",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/ns280bq8125/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Theatro Del Mondo Di Abrahamo Ortelio: Da lui poco inanzi la sua morte riveduto, & di tavole nuove, et commenti adorno, & arricchito con la vita dell'Autore. Traslato in Lingua Toscana dal Sigr. Filippo Pigafetta. In Anversa, Appresso Giovanni Bapta. Vrintio, M.DC.VIII. (with) Parergon, Cioe Fuor D'Opera, Et Giusta, Overo Alcune Tavole Dell'Antica Geographia. (with) Nomenclator Ptolemaicus; Omnia Locorum Vocabula Quae In Tota Ptolemaei Geographia",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/ns280bq8125.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/ns280bq8125'>https://purl.stanford.edu/ns280bq8125</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Theatro Del Mondo Di Abrahamo Ortelio: Da lui poco inanzi la sua morte riveduto, & di tavole nuove, et commenti adorno, & arricchito con la vita dell'Autore. Traslato in Lingua Toscana dal Sigr. Filippo Pigafetta. In Anversa, Appresso Giovanni Bapta. Vrintio, M.DC.VIII. (with) Parergon, Cioe Fuor D'Opera, Et Giusta, Overo Alcune Tavole Dell'Antica Geographia. (with) Nomenclator Ptolemaicus; Omnia Locorum Vocabula Quae In Tota Ptolemaei Geographia"
+        },
+        {
+          "label": "Contributor",
+          "value": "Ortelius, Abraham, 1527-1598."
+        },
+        {
+          "label": "Contributor",
+          "value": "Vrients, Jan Baptista."
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "World atlases."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 166 maps ; 51 x 32 cm"
+        },
+        {
+          "label": "Language",
+          "value": "Italian"
+        },
+        {
+          "label": "Description",
+          "value": "Koeman: \"This the first edition ever printed with Italian text. The heirs of Abraham Ortelius sold a manuscript translation by Filippo Pigafetta to Vrients, which was then printed by him. In this translation, the Parergon and the Nomenclator were included. Apart from this, Vrients also added at the end, an Introduction to Cosmography, written by Michel Coignet. Several new maps appear here for the first time.\" Vrients added 8 new maps, making this combined Theatrum and Parergon edition the largest with 166 maps. 128 maps in the \"Theatrum\", with the \"Parergon\" having 38 maps, a portrait of Pope Clement VIII., dedications to Pope Clement VIII. and to Cardinal Aldobrandino, 1605. The Theatrum and Parergon plates are uncolored. The Parergon is Ortelius' atlas of ancient geography. Koeman: \"This atlas of ancient geography must be regarded as a personal work of Ortelius. For this work he did not, as in the Theatrum, copy other people's maps but drew the originals himself which were later engraved by Jan Wierix i.a. He took many places and regions from the lands of classical civilization to illustrate and clarify their history, a subject very close to his heart... The maps and plates of the Parergon have to be evaluated as the most outstanding engravings depicting the wide-spread interest in classical geography in the 16th century.\""
+        },
+        {
+          "label": "Description",
+          "value": "References: Koeman Ort 38; van der Krogt 31:651. See Dr. Marcel van den Broecke web site for excellent listing of all Ortelius maps http://orteliusmaps.com/ortindexnumber.html"
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas."
+        },
+        {
+          "label": "Description",
+          "value": "Pub list no.: 10001.000."
+        },
+        {
+          "label": "Provenance",
+          "value": "David Rumsey Map Collection"
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale Various."
+        },
+        {
+          "label": "Date",
+          "value": "1608"
+        },
+        {
+          "label": "Date",
+          "value": "1608"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/ns280bq8125"
+        },
+        {
+          "label": "Publisher",
+          "value": "Jan Baptista Vrients"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "Koeman: \"This the first edition ever printed with Italian text. The heirs of Abraham Ortelius sold a manuscript translation by Filippo Pigafetta to Vrients, which was then printed by him. In this translation, the Parergon and the Nomenclator were included. Apart from this, Vrients also added at the end, an Introduction to Cosmography, written by Michel Coignet. Several new maps appear here for the first time.\" Vrients added 8 new maps, making this combined Theatrum and Parergon edition the largest with 166 maps. 128 maps in the \"Theatrum\", with the \"Parergon\" having 38 maps, a portrait of Pope Clement VIII., dedications to Pope Clement VIII. and to Cardinal Aldobrandino, 1605. The Theatrum and Parergon plates are uncolored. The Parergon is Ortelius' atlas of ancient geography. Koeman: \"This atlas of ancient geography must be regarded as a personal work of Ortelius. For this work he did not, as in the Theatrum, copy other people's maps but drew the originals himself which were later engraved by Jan Wierix i.a. He took many places and regions from the lands of classical civilization to illustrate and clarify their history, a subject very close to his heart... The maps and plates of the Parergon have to be evaluated as the most outstanding engravings depicting the wide-spread interest in classical geography in the 16th century.\"",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/vd915bv1955%2F10001002/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/vd915bv1955%2F10001002",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 254,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/ns280bq8125/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/ns280bq8125/iiif/canvas/cocina-fileSet-qk185cd3294-qk185cd3294_1",
+              "@type": "sc:Canvas",
+              "label": "Americae Sive Novi Orbis, Nova Descriptio. Cum Privilegio decennali. Ab.\n            Ortelius delineab. et excudeb. 1587",
+              "height": 12062,
+              "width": 14480,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/qk185cd3294/10001065.jp2",
+                  "label": "Original source file (31.4 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/ns280bq8125/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fqk185cd3294-qk185cd3294_1%2F10001065.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/ns280bq8125/iiif/canvas/cocina-fileSet-qk185cd3294-qk185cd3294_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/qk185cd3294%2F10001065/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 12062,
+                    "width": 14480,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/qk185cd3294%2F10001065",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292890~90066898/manifest",
+      "label": "Title (Illustrated): America.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~292890~90066898/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292890~90066898/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Title (Illustrated): America.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Ogilby, John, 1600-1676"
+                },
+                {
+                  "label": "Author",
+                  "value": "Montanus, Arnoldus, 1625?-1683"
+                },
+                {
+                  "label": "Date",
+                  "value": "1671"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Title (Illustrated): America."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Ogilby, John"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Title Page"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "26"
+                },
+                {
+                  "label": "Reference",
+                  "value": "Burton, Philip D., 2007, The Mapping of North America II. A List of Printed Maps 1671-1700; Cumming, Southeast in Early Maps 70."
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Title Page (Illustrated)) America."
+                },
+                {
+                  "label": "List No",
+                  "value": "12241.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Page No",
+                  "value": "illustrated title page"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "RR Donnelley"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ogilby, John, 1600-1676"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Montanus, Arnoldus, 1625?-1683"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1671"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "America: Being The Latest, And Most accurate Description Of The New World; Containing The Original of the Inhabitants, and the Remarkable Voyages thither. The Conquest of the Vast Empires of Mexico and Peru, And Other Large Provinces and Territories ... Collected from the most Authentick Authors, Augmented with later Observations, and Adorn'd with Maps and Sculptures, by John Ogilby, esq; His Majesty's Cosmographer, Geographick Printer, and Master of the Revels in the Kingdom of Ireland. London, Printed by the Author, and are to be had at his House in White Fryers, M.DC.LXXI."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "First edition, second issue, with the important Lord Proprietors map of Carolina by Moxon replacing the Arx Carolina plate and the Virginia pars Australis map of the first issue, with the addition of a map of Barbados, and with the plate list as in the first issue still listing Arx Carolina and Virginia pars Australis but not listing the Lords Proprietors Carolina or Barbados. This copy includes both the Arx Carolina plate and the Virginia pars Australis map, tipped in later. The work is an English translation of Arnold Montanus “De Nieuwe en Onbekende Weereld,” but with a number of additions concerning New England, New France, Maryland and Virginia. Many new maps and views were added. The Moxon map of Carolina is the first large format map of the newly established colony of Carolina. “America” was Ogilby’s finest foreign work; over 150 authors are credited although Montanus is lacking. “When it came to North America, particularly, he abandoned Montanus entirely for his own closer sources. His work used superior type and larger and finer paper than Montanus. Clearly some form of at least tacit agreement existed between Montanus and Ogilby as he acquired the same plates to illustrate his work. This is itself unusual as Ogilby was renowned for providing his own ‘sculptures’. The reasons may lie in the fact that the project clearly was already an expensive one, and that the work had been promised for some time and further delay was undesirable. The first map in the book, of the whole of America, was one of five plates provided by Ogilby himself. We may speculate that this was because Montanus did not actually own the Schagen plate, or that Ogilby wished to insert more English nomenclature” (Burden). Regarding Ogilby himself, he had a series of remarkably successful careers as a dancer, dance master, theatre manager/director, and translator of classics, and finally as author and publisher of travel and geography books."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12241.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "26"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12241002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/12241002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Ogilby, John, 1600-1676 ; Montanus, Arnoldus, 1625?-1683"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292890~90066898/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292890~90066898/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~292890~90066898",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 6641,
+                    "height": 9120
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292890~90066898/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~292890~90066898/list/luna"
+              ],
+              "width": 6641,
+              "height": 9120
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~292890~90066898"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/cb718nd1707/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "LA CALIFORNIE ou NOUVELLE CAROLINE, TEATRO DE LOS TRABAJOS, APOSTOLICOS DE LA COMPA, E JESUS EN LA AMERICA, SEPTE. Dressèe sur celle que le Viceroy de la Nouvelle Espagne envoya il y a peu d'Annèes a= Mrs. de l'Academie des Sciences",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/cb718nd1707.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/cb718nd1707'>https://purl.stanford.edu/cb718nd1707</a>"
+        },
+        {
+          "label": "Title",
+          "value": "LA CALIFORNIE ou NOUVELLE CAROLINE, TEATRO DE LOS TRABAJOS, APOSTOLICOS DE LA COMPA, E JESUS EN LA AMERICA, SEPTE. Dressèe sur celle que le Viceroy de la Nouvelle Espagne envoya il y a peu d'Annèes a= Mrs. de l'Academie des Sciences"
+        },
+        {
+          "label": "Contributor",
+          "value": "Fer, Nicolas de, 1646-1720"
+        },
+        {
+          "label": "Type",
+          "value": "Digital Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Map"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : hand col. ; 46.5 x 67.8 cm. to imprint edge."
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "Par N. de Fer Geographe de sa Majeste Catolique."
+        },
+        {
+          "label": "Description",
+          "value": "California as an island with indented northern coast."
+        },
+        {
+          "label": "Description",
+          "value": "Enlarged version of his 1700 map of California and New Mexico. Place names in New Mexico are now engraved on map, rather than numbered."
+        },
+        {
+          "label": "Description",
+          "value": "Issued in his: Atlas ou recüeil de cartes geographiques, Paris, 1709-[28]."
+        },
+        {
+          "label": "Description",
+          "value": "Scale given within cartouche decorated with birds, armadillo and sloth (bottom left)."
+        },
+        {
+          "label": "Description",
+          "value": "Text giving names and dates of European landings in California is below title, within scroll with vignettes of natives (upper right)."
+        },
+        {
+          "label": "Description",
+          "value": "Original McLaughlin Book Number (1995 edition): 196"
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Wagner 517; Wheat 102; Tooley 83 (Plate 58); Leighly 146 (Plate XXI); BN FER IIC(95)."
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:6,800,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "124°30′00″W -- 114°15′00″W / 42°00′00″N -- 32°30′00″N"
+        },
+        {
+          "label": "Date",
+          "value": "1720"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/cb718nd1707"
+        },
+        {
+          "label": "Publisher",
+          "value": "s.n."
+        },
+        {
+          "label": "Relation",
+          "value": "The Glen McLaughlin Map Collection of California as an Island"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-13"
+        }
+      ],
+      "description": "California as an island with indented northern coast.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/cb718nd1707%2Fcb718nd1707_05_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/cb718nd1707%2Fcb718nd1707_05_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 308
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/cb718nd1707/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/cb718nd1707/iiif/canvas/cocina-fileSet-cb718nd1707-cb718nd1707_1",
+              "@type": "sc:Canvas",
+              "label": "0001",
+              "height": 15984,
+              "width": 20764,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/cb718nd1707/cb718nd1707_05_0001.jp2",
+                  "label": "Original source file (59.7 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/cb718nd1707/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fcb718nd1707-cb718nd1707_1%2Fcb718nd1707_05_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/cb718nd1707/iiif/canvas/cocina-fileSet-cb718nd1707-cb718nd1707_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/cb718nd1707%2Fcb718nd1707_05_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 15984,
+                    "width": 20764,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/cb718nd1707%2Fcb718nd1707_05_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/bz263pq3205/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "A Map of the British Empire in America with the French and Spanish Settlements adjacent thereto. by Henry Popple. C. Lempriere inv. & del. B Baron Sculp. To the Queen's Most Excellent Majesty This Map is most humbly Inscribed by Your Majesty's most Dutiful, most Obedient, and most Humble Servant Henry Popple. London Engrav'd by Willm. Henry Toms & R.W. Seale, 1733. (index map) ... W.H. Toms Sculp",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/bz263pq3205.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/bz263pq3205'>https://purl.stanford.edu/bz263pq3205</a>"
+        },
+        {
+          "label": "Title",
+          "value": "A Map of the British Empire in America with the French and Spanish Settlements adjacent thereto. by Henry Popple. C. Lempriere inv. & del. B Baron Sculp. To the Queen's Most Excellent Majesty This Map is most humbly Inscribed by Your Majesty's most Dutiful, most Obedient, and most Humble Servant Henry Popple. London Engrav'd by Willm. Henry Toms & R.W. Seale, 1733. (index map) ... W.H. Toms Sculp"
+        },
+        {
+          "label": "Contributor",
+          "value": "Popple, Henry."
+        },
+        {
+          "label": "Contributor",
+          "value": "Baron, B."
+        },
+        {
+          "label": "Contributor",
+          "value": "Lempriere, C."
+        },
+        {
+          "label": "Contributor",
+          "value": "Toms, W.H."
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 21 maps ; 53 x 41 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "1st edition, 1st state. King George II copy. Howes P481; Sabin 64140; Schwartz & Ehrenberg 151; Winsor V, p82. The first state of the large map and the index map (see Cumming & Wallis for Margary reprint and Cumming 216) in that the pages are unnumbered, no credits below the neat line on sheet 17 or the title sheet, and Toms & Seale on Sheet 20. The binding is full red morocco with gold tooling at the edges and the coat of arms of King George II in gold on the front and back covers; the spine is stamped with \"Popple's Atlas\" in gilt. This copy was sold to the family we acquired it from by Francis Edwards in 1929/30 - a copy of Edward's 1929 catalogue entry is tipped into the front of the book. Tooley, Mapping America p 316, says \"A copy (of the Popple Map) bound in red morocco for George II sold in 1930...\" Lacks the contents sheets and the half sheet #4 (provided in expert facsimile). The index map is in full color while the map sheets are uncolored. The first large scale map of America and the most accurate at the time. Covens and Mortier published a six sheet edition in 1740 (Lowery). Lowery, Howes and Phillips incorrectly list Seale as \"Searle.\" Howes mentions a later edition by Jefferys, but we can find no record of it."
+        },
+        {
+          "label": "Description",
+          "value": "National Atlas."
+        },
+        {
+          "label": "Description",
+          "value": "References: Cumming 216; Streeter 676; Lowery 337-8; Cumming & Wallis Introductory Notes to Margary's Popple reprint."
+        },
+        {
+          "label": "Description",
+          "value": "Pub list no.: 2874.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases"
+        },
+        {
+          "label": "Subject",
+          "value": "North America"
+        },
+        {
+          "label": "Subject",
+          "value": "Colonies"
+        },
+        {
+          "label": "Subject",
+          "value": "British"
+        },
+        {
+          "label": "Subject",
+          "value": "Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "United States"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:2,000,000."
+        },
+        {
+          "label": "Date",
+          "value": "1733"
+        },
+        {
+          "label": "Date",
+          "value": "1733"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/bz263pq3205"
+        },
+        {
+          "label": "Publisher",
+          "value": "Willm. Henry Toms & R.W. Seale"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-13"
+        }
+      ],
+      "description": "1st edition, 1st state. King George II copy. Howes P481; Sabin 64140; Schwartz & Ehrenberg 151; Winsor V, p82. The first state of the large map and the index map (see Cumming & Wallis for Margary reprint and Cumming 216) in that the pages are unnumbered, no credits below the neat line on sheet 17 or the title sheet, and Toms & Seale on Sheet 20. The binding is full red morocco with gold tooling at the edges and the coat of arms of King George II in gold on the front and back covers; the spine is stamped with \"Popple's Atlas\" in gilt. This copy was sold to the family we acquired it from by Francis Edwards in 1929/30 - a copy of Edward's 1929 catalogue entry is tipped into the front of the book. Tooley, Mapping America p 316, says \"A copy (of the Popple Map) bound in red morocco for George II sold in 1930...\" Lacks the contents sheets and the half sheet #4 (provided in expert facsimile). The index map is in full color while the map sheets are uncolored. The first large scale map of America and the most accurate at the time. Covens and Mortier published a six sheet edition in 1740 (Lowery). Lowery, Howes and Phillips incorrectly list Seale as \"Searle.\" Howes mentions a later edition by Jefferys, but we can find no record of it.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/yt451fz1277%2F2874A/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/yt451fz1277%2F2874A",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 253
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/bz263pq3205/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/bz263pq3205/iiif/canvas/cocina-fileSet-rc887dr9396-rc887dr9396_1",
+              "@type": "sc:Canvas",
+              "label": "America Septentrionalis. A Map of the British Empire in America with the French\n            and Spanish Settlements adjacent thereto. by Henry Popple. To the Queen's Most\n            Excellent Majesty This Map is most humbly Inscribed by Your Majesty's most Dutiful,\n            most Obedient, and most Humble Servant Henry Popple. W.H. Toms Sculp",
+              "height": 8145,
+              "width": 8110,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/rc887dr9396/2874001.jp2",
+                  "label": "Original source file (11.9 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/bz263pq3205/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Frc887dr9396-rc887dr9396_1%2F2874001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/bz263pq3205/iiif/canvas/cocina-fileSet-rc887dr9396-rc887dr9396_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/rc887dr9396%2F2874001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 8145,
+                    "width": 8110,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/rc887dr9396%2F2874001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/cd036kb2522/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Map Of The United States",
+      "attribution": "Property rights reside with the repository, Copyright © Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/cd036kb2522.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/cd036kb2522'>https://purl.stanford.edu/cd036kb2522</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Map Of The United States"
+        },
+        {
+          "label": "Contributor",
+          "value": "Ordway, Eliza S."
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "Manuscript maps."
+        },
+        {
+          "label": "Type",
+          "value": "Children's maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 36 x 42 cm"
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "Eliza S. Ordway"
+        },
+        {
+          "label": "Description",
+          "value": "Collector's note: Date is approximate, estimated by Howard Welsh. Probably a school project. With black top and bottom rollers. Without color."
+        },
+        {
+          "label": "Description",
+          "value": "Manuscript Map."
+        },
+        {
+          "label": "Description",
+          "value": "References: None."
+        },
+        {
+          "label": "Description",
+          "value": "Wall Map."
+        },
+        {
+          "label": "Description",
+          "value": "Pub list no.: 2454.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Manuscript maps"
+        },
+        {
+          "label": "Subject",
+          "value": "19th century."
+        },
+        {
+          "label": "Subject",
+          "value": "United States"
+        },
+        {
+          "label": "Subject",
+          "value": "Education"
+        },
+        {
+          "label": "Subject",
+          "value": "Maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Children's maps"
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale 1:12,000,000"
+        },
+        {
+          "label": "Coverage",
+          "value": "144°24′00″E -- 64°21′00″W / 71°36′00″N -- 14°45′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1829"
+        },
+        {
+          "label": "Date",
+          "value": "1829"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/cd036kb2522"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-13"
+        }
+      ],
+      "description": "Collector's note: Date is approximate, estimated by Howard Welsh. Probably a school project. With black top and bottom rollers. Without color.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/cd036kb2522%2F2454000/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/cd036kb2522%2F2454000",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 321
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/cd036kb2522/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/cd036kb2522/iiif/canvas/cocina-fileSet-cd036kb2522-cd036kb2522_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 5221,
+              "width": 6505,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/cd036kb2522/2454000.jp2",
+                  "label": "Original source file (6.1 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/cd036kb2522/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fcd036kb2522-cd036kb2522_1%2F2454000.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/cd036kb2522/iiif/canvas/cocina-fileSet-cd036kb2522-cd036kb2522_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/cd036kb2522%2F2454000/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 5221,
+                    "width": 6505,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/cd036kb2522%2F2454000",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~226438~5506783/manifest",
+      "label": "Title Page: Atlas of the United States, Printed for the Use of the Blind.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~226438~5506783/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~226438~5506783/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Title Page: Atlas of the United States, Printed for the Use of the Blind.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Howe, Samuel Gridley"
+                },
+                {
+                  "label": "Author",
+                  "value": "Ruggles, Stephen P."
+                },
+                {
+                  "label": "Date",
+                  "value": "1837"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Title Page: Atlas of the United States, Printed for the Use of the Blind."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "New England Institution for the Education of the Blind"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Boston"
+                },
+                {
+                  "label": "Type",
+                  "value": "Title Page"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "27"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "22"
+                },
+                {
+                  "label": "Note",
+                  "value": "Embossed for use by the blind."
+                },
+                {
+                  "label": "Reference",
+                  "value": "P10471; Mapline No. 6 June 1977, \"Early Map for the Blind\"; L.E. Richards 1909, \"Letters and Journals of Samuel Gridley Howe\"."
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Title Page) atlas of the united states, Printed for the use of the blind, at the expense of John C. Cray; under the direction of s.g. howe. at the n.e. institution for the education of the blind. boston 1837."
+                },
+                {
+                  "label": "List No",
+                  "value": "5956.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Howe, Samuel Gridley"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ruggles, Stephen P."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1837"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "atlas of the united states, Printed for the use of the blind, at the expense of John C. Cray; under the direction of s.g. howe. at the n.e. institution for the education of the blind. boston 1837."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "P10471; Mapline No. 6 June 1977, \"Early Map for the Blind\"; L.E. Richards 1909, \"Letters and Journals of Samuel Gridley Howe\"."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "According to Rick Brown, editor-in-chief of HistoryBuff.com, \"The New England Institution for the Education of the Blind (Boston), under the direction of Samuel Gridley Howe, obtained their first printing press in 1835. From this press they began publishing several works in the tactile (raised letter) format. By 1842, they had produced the New Testament, the complete text of the Bible, a Universal History, as well as geography, grammar, and spelling books.\" This institution was the pioneering American concern for publishing for the blind and this was one of their first books and apparently the second version of the geography atlas with embossed maps and specially designed text. Twenty-four states mapped. Reputedly 50 copies printed, 4 extant. This copy lacks maps of Indiana and Virginia and the text leaves for Ohio and Virginia; these missing parts are provided in the online version with images from a copy owned by Michael Zinman. Atlas was actually prepared by Samuel P. Ruggles. In raised symbology, the atlas shows the outline of each state, rivers and other water bodies, cities, longitudes, latitudes, and mountains. Accompanying embossed text describes the map features in some detail, and the state's area, population, climate, commerce, etc. The atlas was the first intended to be used by the blind without the assistance of a sighted person. Page condition excellent and very clean."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "5956.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "School Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "24"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Image No",
+                  "value": "5956002"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/5956002.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Howe, Samuel Gridley; Ruggles, Stephen P."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~226438~5506783/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~226438~5506783/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~226438~5506783",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 4105,
+                    "height": 4606
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~226438~5506783/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~226438~5506783/list/luna"
+              ],
+              "width": 4105,
+              "height": 4606
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~226438~5506783"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315671~90084471/manifest",
+      "label": "Map Of An Exploring Expedition To The Rocky Mountains.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~315671~90084471/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315671~90084471/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Map Of An Exploring Expedition To The Rocky Mountains.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Fremont, J.C."
+                },
+                {
+                  "label": "Date",
+                  "value": "1845"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Map Of An Exploring Expedition To The Rocky Mountains."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Blair and Rives"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington"
+                },
+                {
+                  "label": "Type",
+                  "value": "Book Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "77"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "131"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "1,950,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Senate Issue; map in case. See our 1833.001 for the House issue map which appears to be identical. Text has the astronomical observations that are not in the House issue. The large map of the west is one of the most interesting and beautiful government maps of the 1840's. It filled in many of the gaps in cartographic knowledge of the west. Charles Preuss was the cartographer. Map is without color except for a light blue for water areas."
+                },
+                {
+                  "label": "Reference",
+                  "value": "WC 115:2; Wheat 497; Howes F370."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "California"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "Oregon"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "U.S. West"
+                },
+                {
+                  "label": "Region",
+                  "value": "Rocky Mountains"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Map Of An Exploring Expedition To The Rocky Mountains in the Year 1842, Oregon & North California In The Years 1843-44. By Brevet Capt. J. C. Fremont Of The Corps Of Topographical Engineers Under the orders of Col. J.J. Abert, Chief Of The Topographical Bureau. Lith. by E. Weber & Co. Baltimore, Md."
+                },
+                {
+                  "label": "List No",
+                  "value": "10280.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Weber, E. & Co."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Fremont, J.C."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1845"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Report of The Exploring Expedition to The Rocky Mountains in the Year 1842, and to Oregon and North California in the Years 1843-'44. (with map) Map Of An Exploring Expedition To The Rocky Mountains in the Year 1842, Oregon & North California In The Years 1843-44. By Brevet Capt. J. C. Fremont Of The Corps Of Topographical Engineers Under the orders of Col. J.J. Abert, Chief Of The Topographical Bureau. Lith. by E. Weber & Co. Baltimore, Md."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "WC 115:2; Wheat 497; Howes F370."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "13406.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Exploration Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "16"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10280000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/10280000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Fremont, J.C."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~315671~90084471/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~315671~90084471/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~315671~90084471",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 33284,
+                    "height": 20098
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315671~90084471/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~315671~90084471/list/luna"
+              ],
+              "width": 33284,
+              "height": 20098
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~315671~90084471"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254028~5519109/manifest",
+      "label": "Rand McNally & Co.'s sectional map of the Dakota and the Black Hills",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~254028~5519109/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254028~5519109/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Rand McNally & Co.'s sectional map of the Dakota and the Black Hills",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Rand McNally & Co."
+                },
+                {
+                  "label": "Date",
+                  "value": "1873"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Rand McNally & Co.'s sectional map of the Dakota and the Black Hills"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Rand McNally & Co."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Chicago"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "52"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "70"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "2,500,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "This is one of the earliest Rand McNally maps that we have seen. The date of 1873 is determined from the only date on the map, in the inset map of Cincinnati. Uncolored sectional map with 8 insets: New mining map of Utah, St. Louis, Railroads around Baltimore and Washington, Philadelphia, New York and vicinity, Chicago, Railroad around Cincinnati, 1872-3, Denver. Showing boundaries of township, counties, states and territories, and detail diagram of township numbering system. Includes references, illustrations and advertisements. Relief shown by hachures. Prime meridian is Greenwich."
+                },
+                {
+                  "label": "State/Province",
+                  "value": "North Dakota"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "South Dakota"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Rand McNally & Co.'s sectional map of the Dakota and the Black Hills. Printed expressly for J. Bride & Co.'s Great American 25 Cent package, 767 and 769 Broadway, New York City. A.W. Barber, Del. Rand McNally & Co. Printers, engravers and electrotypers, 79 Madison Street, Chicago. (with 8 insets). (on verso) Rand McNally & Co.'s new railway guide map."
+                },
+                {
+                  "label": "List No",
+                  "value": "6878.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Rand McNally & Co."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1873"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Rand McNally & Co.'s sectional map of the Dakota and the Black Hills. Printed expressly for J. Bride & Co.'s Great American 25 Cent package, 767 and 769 Broadway, New York City. A.W. Barber, Del. Rand McNally & Co. Printers, engravers and electrotypers, 79 Madison Street, Chicago. (with 8 insets). (on verso) Rand McNally & Co.'s new railway guide map ... (with 2 insets)."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "2 maps printed both side on sheet 54x71. Showing Eastern and Central states. Insets: New mining map of Utah, St. Louis, Railroads around Baltimore and Washington, Philadelphia, New York and vicinity, Chicago, Railroad around Cincinnati, 1872-3, Denver. On verso: Vicinity of Boston, Map of the Territories and Pacific Coast. Includes illustrations and advertisements. Relief shown by hachures. Prime meridian is Greenwich."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "6878.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "2"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "54"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "71"
+                },
+                {
+                  "label": "Image No",
+                  "value": "6878001"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/6878001.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Rand McNally & Co."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~254028~5519109/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~254028~5519109/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~254028~5519109",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12828,
+                    "height": 9772
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254028~5519109/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~254028~5519109/list/luna"
+              ],
+              "width": 12828,
+              "height": 9772
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~254028~5519109"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~344843~90112595/manifest",
+      "label": "Plate II Back of Hand & Wrinkled Apple, To Illustrate The Origin Of Certain Mountain Ranges, Resulting From Shrinking Of The Interior.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~344843~90112595/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~344843~90112595/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Plate II Back of Hand & Wrinkled Apple, To Illustrate The Origin Of Certain Mountain Ranges, Resulting From Shrinking Of The Interior.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Nasmyth, James"
+                },
+                {
+                  "label": "Author",
+                  "value": "Carpenter, James"
+                },
+                {
+                  "label": "Date",
+                  "value": "1874"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Plate II Back of Hand & Wrinkled Apple, To Illustrate The Origin Of Certain Mountain Ranges, Resulting From Shrinking Of The Interior."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "John Murray"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "28"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Note",
+                  "value": "Page dimensions are full sheet."
+                },
+                {
+                  "label": "Reference",
+                  "value": "For the full text of this book, see https://archive.org/details/gri_33125003591076/mode/2up"
+                },
+                {
+                  "label": "Region",
+                  "value": "Moon"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Moon"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Plate II Back of Hand & Wrinkled Apple, To Illustrate The Origin Of Certain Mountain Ranges, Resulting From Shrinking Of The Interior."
+                },
+                {
+                  "label": "List No",
+                  "value": "15224.008"
+                },
+                {
+                  "label": "Series No",
+                  "value": "8"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Nasmyth, James"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Carpenter, James"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1874"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The Moon: Considered As A Planet, A World, and A Satellite. Second Edition."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"Inscribed to the reverse of the front end paper: \"To Sir James & Lady Baird from Anne E. Nasmyth in remembrance of her dear husband James Nasmyth who died on the 9th of May 1890 in his 82nd year. Hammerfield Kent\". Anne Nasmyth (nee Hartop, b. 1817 d. 1893) was a notable artist, specialising in botanical studies, who married James Nasmyth in 1840. The recipients were Sir James Gardiner Baird, 7th Baronet (1813-1896) and Lady Henrietta Mary Baird (nee Wauchope). An important title, both in the history of astronomy for its remarkably detailed depictions of the lunar surface(achieved by painstakingly constructing plaster models from numerous observations and then photographing them), and as an early photographically illustrated book, which utilised a number of different methods of reproducing the images, including heliotypes and Woodburytypes. This is an interesting and poignant association copy, presumably Anne Nasmyth's own prior to presenting it to the Bairds.\" (Frost, 2022) \"Nasmyth was brought up in an artistic family, made a fortune as a manufacturer and inventor, and retired to take up astronomy. He built his own 20\" reflector in 1842 (inventing the Nasmyth focus in the process), and began to concentrate on lunar studies. Nasmyth brought photography to the aid of selenography in an unusual manner. Since photography was not yet advanced enough to take photographs of lunar details, Nasmyth constructed plaster models based on visual observations, and then photographed the models. For this book, the photographs were then printed by the arduous Woodburytype process, perhaps the most faithful method ever devised for the reproduction of photographs. The Woodburytype has no grain whatsoever, because it does not use cracks or dots to reproduce tone. Instead, a relief mold is made of the image in lead, so that the areas of dark tone are deep and light tone shallow. Ink suspended in gelatin is cast in the mold, and the resulting print produces contrast by the thickness or thinness of the ink.\" (Linda Hall Library, Face of the Moon 20). \"Nasmyth’s simulated views of the moon supported his specious claim that the craggy pockmarked lunar surface was the result of volcanic activity. Rather than declaring Nasmyth’s methodology unscientific, however, his contemporaries lauded the visual effects and found his arguments convincing. This reception suggests that the photographic medium itself imbued the images with a sense of veracity that lent them scientific authority.\" (Metropolitan Museum)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15224.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Celestial Atlas"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "29"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15224008.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/15224008.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Nasmyth, James; Carpenter, James"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~344843~90112595/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~344843~90112595/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~344843~90112595",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 6854,
+                    "height": 5720
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~344843~90112595/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~344843~90112595/list/luna"
+              ],
+              "width": 6854,
+              "height": 5720
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~344843~90112595"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350348~90117829/manifest",
+      "label": "Map Illustrating the Extermination of the American Bison. Prepared by W.T. Hornaday.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~350348~90117829/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350348~90117829/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Map Illustrating the Extermination of the American Bison. Prepared by W.T. Hornaday.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Hornaday, William T."
+                },
+                {
+                  "label": "Date",
+                  "value": "1889"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Map Illustrating the Extermination of the American Bison. Prepared by W.T. Hornaday."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Smithsonian Institution"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington, D.C"
+                },
+                {
+                  "label": "Type",
+                  "value": "Book Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "57"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "44"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "15,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "For the full text of this book see https://archive.org/details/exterminationofa00horn/page/n5/mode/2up"
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Region",
+                  "value": "Western North America"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Zoological"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Map Illustrating the Extermination of the American Bison. Prepared by W.T. Hornaday."
+                },
+                {
+                  "label": "List No",
+                  "value": "15536.003"
+                },
+                {
+                  "label": "Series No",
+                  "value": "3"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hornaday, William T."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1889"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "The Extermination of the American Bison."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "OCLC 4177745 et al, listing numerous institutional holdings. The map is described in Persuasive Maps: PJ Mode Collection, #1102."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"A seminal work on the extermination of the American bison, compiled in the 1880s by Smithsonian taxidermist and pioneering conservationist William Temple Hornaday (1854-1937). With the important thematic map illustrating the shrinking range of the bison. It is well known that millions of bison once roamed North America, though less well known that their range extended from east of the Appalachians to northwestern Canada, central Nevada and even northeastern Mexico. After the arrival of Europeans, “desultory” (Hornaday’s term) hunting for food and hides gradually restricted their range to the Great Plains, though their huge herds remained more or less intact. Beginning in the 1870s, however, “wholesale slaughter by systematic methods” (Hornaday) ensued. This was catalyzed by rapid settlement of the West, the needs of the American people for food and American industry for raw materials, and a more-or-less explicit attempt to destroy the way of life of the Plains Indians. It was abetted by the advance of the railroad, modern weaponry, and, per Hornaday, “the phenomenal stupidity of the animals themselves, and their indifference to man”. A native of Indiana, in 1882 Hornaday took a position as Chief Taxidermist at the United States National Museum, part of the Smithsonian. By then the bison were on the edge of extinction, but a new conservationist mindset was beginning to emerge in the country, as evidenced for example by the creation in 1875 of Yellowstone, the first National Park; the founding in 1876 of the Appalachian Mountain Club; and the activities and writing of figures as different as John Muir and, before him, Henry David Thoreau. “After reviewing the Museum’s collection and conducting a written survey, [Hornaday] recognized the rapid decline in the population of American Bison. He went west to collect specimens for the Museum in anticipation of the Bison’s extinction, and was shocked at what he saw and learned: “Just as a carefree and joyous swimmer for pleasure suddenly is drawn into a whirlpool—in which he can swim but from which he cannot escape – so in 1886 was I drawn into the maelstrom.”[1] Hornaday prepared a massive report for the Smithsonian on the extermination of the bison, filled with important observations and data.” (Mode) Hornaday’s intent in producing the report was not merely descriptive but persuasive: “It is hoped that the following historical account of the discovery, partial utilization, and almost complete extermination of the great American bison may serve to cause the public to fully realize the folly of allowing all our most valuable and interesting American mammals to be wantonly destroyed in the same manner. The wild buffalo is practically gone forever, and in a few more years, when the whitened bones of the last bleaching skeleton shall have been picked up and shipped East for commercial uses, nothing will remain of him save his old, well-worn trails along the water-courses, a few museum specimens, and regret for his fate. If his untimely end fails even to point a moral that shall benefit the surviving species of mammals which are now being slaughtered in like manner, it will be sad indeed.” (Report, p. 371) The report is accompanied by a brilliant thematic map, which efficiently uses color coding and concentric lines to convey a compelling narrative nearing a tragic conclusion. “But this map tells the story on a single page. The dark red circle on the map shows “the area once inhabited by the American Bison,” and the dates in red tells the date of extinction in each locale. We learn there were bison in Indiana and Kentucky until 1810, and in Iowa and Missouri until 1825. The blue circles show the range of the herds in 1870, and the much smaller concentric green circles show the same just 10 years later. Hornaday returned to Washington a changed man. He spent the rest of his life as perhaps the first effective voice for the preservation of species. He played a major role in the survival not only of the American Bison, but the Alaskan fur seal, the snowy egret and others (Ibid). (Mode) In all, an important early conservationist work, illustrated by a compelling persuasive map.\" (Michael Buehler, 2023)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "15536.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "15"
+                },
+                {
+                  "label": "Image No",
+                  "value": "15536003.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/15536003.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Hornaday, William T."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350348~90117829/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350348~90117829/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~350348~90117829",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11391,
+                    "height": 14719
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350348~90117829/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~350348~90117829/list/luna"
+              ],
+              "width": 11391,
+              "height": 14719
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~350348~90117829"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~31954~1151335/manifest",
+      "label": "9. Predominating sex 1890.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~31954~1151335/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~31954~1151335/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "9. Predominating sex 1890.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Attributed Author",
+                  "value": "Gannett, Henry, 1846-1914"
+                },
+                {
+                  "label": "Attributed Author",
+                  "value": "United States. Census Office"
+                },
+                {
+                  "label": "Date",
+                  "value": "1898"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "9. Predominating sex 1890."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "U.S. Census Office"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "46"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "72"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "7,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Color lithographed map."
+                },
+                {
+                  "label": "Country",
+                  "value": "United States"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Statistical"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "28. The predominating sex: 1890. Julius Bien & Co. Lith., N.Y. (1898)"
+                },
+                {
+                  "label": "List No",
+                  "value": "1873.009"
+                },
+                {
+                  "label": "Series No",
+                  "value": "15"
+                },
+                {
+                  "label": "Page No",
+                  "value": "Pl. 9"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Julius Bien & Co."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Gannett, Henry, 1846-1914"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "United States. Census Office"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1898"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Statistical atlas of the United States, based upon results of the Eleventh Census (1890). By Henry Gannett. Washington: Government Printing Office. 1898. (At head of title:) Department of the Interior, Census Office. Robert P. Porter, Superintendent ... Carroll D. Wright, Commissioner of Labor in Charge ... (seal) Department of the Interior."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Schwartz & Ehrenberg p319; P1333; LeGear 410; P-Maps 945."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "1873.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Statistical Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "57"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "54"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Image No",
+                  "value": "1873009"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D0116/1873009.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Gannett, Henry, 1846-1914; United States. Census Office"
+                },
+                {
+                  "label": "Collection",
+                  "value": "Rumsey Collection"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~31954~1151335/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~31954~1151335/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~31954~1151335",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 10356,
+                    "height": 6700
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~31954~1151335/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~31954~1151335/list/luna"
+              ],
+              "width": 10356,
+              "height": 6700
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~31954~1151335"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~377159~90143292/manifest",
+      "label": "Columbia River guide and panorama -from Portland to The Dalles: myths, legends, history, geology, Lewis and Clark Exploration notations, Vancouver Expedition notes ...",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~377159~90143292/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~377159~90143292/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Columbia River guide and panorama -from Portland to The Dalles: myths, legends, history, geology, Lewis and Clark Exploration notations, Vancouver Expedition notes ...",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Oppenlander, John (1900-1986)"
+                },
+                {
+                  "label": "Author",
+                  "value": "Oppenlander, Herman Frederick (1893-1952)"
+                },
+                {
+                  "label": "Date",
+                  "value": "1924"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Columbia River guide and panorama -from Portland to The Dalles: myths, legends, history, geology, Lewis and Clark Exploration notations, Vancouver Expedition notes ..."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Penland Guide Series"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Portland (Oregon)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Book Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "View"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "16"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "172"
+                },
+                {
+                  "label": "State/Province",
+                  "value": "Oregon"
+                },
+                {
+                  "label": "Region",
+                  "value": "Columbia River (Ore. and Wash.)"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Rivers"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Columbia River guide and panorama -from Portland to The Dalles: myths, legends, history, geology, Lewis and Clark Exploration notations, Vancouver Expedition notes ..."
+                },
+                {
+                  "label": "List No",
+                  "value": "16904.003"
+                },
+                {
+                  "label": "Series No",
+                  "value": "3"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Oppenlander, John (1900-1986)"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Oppenlander, Herman Frederick (1893-1952)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1924"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Columbia River guide and panorama -from Portland to The Dalles: myths, legends, history, geology, Lewis and Clark Exploration notations, Vancouver Expedition notes ..."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"First edition of this exceedingly scarce \"Good Roads\" movement automobile tourist guide for the Columbia River, and its history, including notes of the Lewis & Clark Expeditions, the Lt. Broughton Exploration notes, original Native American place names and identifying features, along with highways, and railroad lines carefully demarcated with pictographs, and rubricated writing. The viewpoints and scenic attractions along the Old Columbia River Highway are carefully identified, as are elevations, geographical features, and ore. John Oppenlander (1900-1986), a Good Roads enthusiast, and intrepid auto traveler, launched a sideline automobile travel promotions business with his brother, Herman Frederick Oppenlander (1893-1952), while working for their father's general contracting and road building construction business. However, by 1930 he was a Portland public school teacher, and during World War II went to work for Willamette Iron & Steel. Herman worked with Oppenlander & Sons Construction until the 1929 Crash, but by 1930 had become a high school teacher with West Linn, where he remained teaching until his death. This cataloguer could find no other titles in the Penland Guide Series, and this volume is quite uncommon; Worldcat locates 5 copies (Boise State, OHS Lib., State Lib. OR, UO, WA State Lib.).\" (Zephyr Books, 2026)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16904.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Guide Book"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "13"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "18"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16904003.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/222/16904003.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Oppenlander, John (1900-1986); Oppenlander, Herman Frederick (1893-1952)"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~377159~90143292/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~377159~90143292/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~377159~90143292",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 41200,
+                    "height": 4155
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~377159~90143292/canvas/c1"
+                }
+              ],
+              "width": 41200,
+              "height": 4155
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~377159~90143292"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/yn409cz7502/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Stanford University",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/yn409cz7502.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/yn409cz7502'>https://purl.stanford.edu/yn409cz7502</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Stanford University"
+        },
+        {
+          "label": "Contributor",
+          "value": "Farmer, Edward M."
+        },
+        {
+          "label": "Type",
+          "value": "cartographic"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : col. ; 41 x 53 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Statement of responsibility",
+          "value": "Edward M. Farmer."
+        },
+        {
+          "label": "Description",
+          "value": "Bird's-eye view."
+        },
+        {
+          "label": "Subject",
+          "value": "Stanford University"
+        },
+        {
+          "label": "Coverage",
+          "value": "Pictorial map, not drawn to scale."
+        },
+        {
+          "label": "Date",
+          "value": "1934"
+        },
+        {
+          "label": "Date",
+          "value": "1934"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/yn409cz7502"
+        },
+        {
+          "label": "Publisher",
+          "value": "Leland Stanford Junior University"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "Bird's-eye view.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/yn409cz7502%2Fyn409cz7502_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/yn409cz7502%2Fyn409cz7502_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 312
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/yn409cz7502/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/yn409cz7502/iiif/canvas/cocina-fileSet-yn409cz7502-yn409cz7502_1",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 10742,
+              "width": 13783,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/yn409cz7502/yn409cz7502_00_0001.jp2",
+                  "label": "Original source file (26.6 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/yn409cz7502/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fyn409cz7502-yn409cz7502_1%2Fyn409cz7502_00_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/yn409cz7502/iiif/canvas/cocina-fileSet-yn409cz7502-yn409cz7502_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/yn409cz7502%2Fyn409cz7502_00_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 10742,
+                    "width": 13783,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/yn409cz7502%2Fyn409cz7502_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288952~90060502/manifest",
+      "label": "Trip to the Moon",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~288952~90060502/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288952~90060502/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Trip to the Moon",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Hammond Incorporated"
+                },
+                {
+                  "label": "Author",
+                  "value": "NASA"
+                },
+                {
+                  "label": "Date",
+                  "value": "1969"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Trip to the Moon"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Hammon Inc."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Maplewood, N.J."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "62"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Color map. With 9 inset views of various stages of the trip to the Moon, photographed by NASA. Includes place names and text. Relief shown by shading. Date estimated."
+                },
+                {
+                  "label": "Region",
+                  "value": "Moon"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Moon"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Celestial"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Space"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Trip to the Moon. Esso. Copyright Hammond Incorporated, Maplewood, N.J. Printed in U.S.A. (9 inset views)."
+                },
+                {
+                  "label": "List No",
+                  "value": "11282.000"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Esso Standard Oil Company"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Hammond Incorporated"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "NASA"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1969"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Trip to the Moon. Esso. Copyright Hammond Incorporated, Maplewood, N.J. Printed in U.S.A. (9 inset views)."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11282.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "49"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "62"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11282000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/11282000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Hammond Incorporated; NASA"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288952~90060502/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288952~90060502/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288952~90060502",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12736,
+                    "height": 9710
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288952~90060502/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288952~90060502/list/luna"
+              ],
+              "width": 12736,
+              "height": 9710
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~288952~90060502"
+    }
+  ]
+}
