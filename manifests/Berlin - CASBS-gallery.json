@@ -1,0 +1,883 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Berlin - CASBS",
+  "label": "Berlin - CASBS",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~249566~5516557/manifest",
+      "label": "Mitt Elite durch Berlin (and) Nach Potsdam -Sanssouci",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~249566~5516557/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~249566~5516557/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Mitt Elite durch Berlin (and) Nach Potsdam -Sanssouci",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Elite Autofahrt, G.m.b.H."
+                },
+                {
+                  "label": "Date",
+                  "value": "1937"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Mitt Elite durch Berlin (and) Nach Potsdam -Sanssouci"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Elite Autofahrt"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Berlin"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "59"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "30,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Two color maps with insets. Shows major cities and stations. Cover title, map of Potsdam-Sanssouci, illustrations and touring information folded to sections \"A, BC, D, N, SP, V\" on verso."
+                },
+                {
+                  "label": "Country",
+                  "value": "Germany"
+                },
+                {
+                  "label": "City",
+                  "value": "Berlin (Germany)"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Mitt Elite durch Berlin (and) Nach Potsdam -Sanssouci : und in die Mark Brandenburg. Elite Autofahrt. Gesellschaft m.b. H., Berlin NW7, Unter den Linden 18, Ruf 160662. (with two insets of) Westermann plan of Berlin. (on verso) Postsdam-Sanssouri. Printed in Germany. Druck von Georg Westermann, Braunschweig. (and ) (Cover title) \"Elite\" Rundfahrten. Berlin - Potsdam."
+                },
+                {
+                  "label": "List No",
+                  "value": "6848.004"
+                },
+                {
+                  "label": "Series No",
+                  "value": "4"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Westermann Druck GmbH."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Elite Autofahrt, G.m.b.H."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1937"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Mitt Elite durch Berlin (and) Nach Potsdam -Sanssouci : und in die Mark Brandenburg. Elite Autofahrt. Gesellschaft m.b. H., Berlin NW7, Unter den Linden 18, Ruf 160662. (on verso map of) Postsdam-Sanssouri. Printed in Germany. Druck von Georg Westermann, Braunschweig. (Cover title) \"Elite\" Rundfahrten. Berlin - Potsdam. (with two insets of) Westermann plan of Berlin."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Promotional folding brochure of Elite tour of Berlin to Potsdam on sheet 42x59 folded to 21x10 cm. Includes 3 color maps and 2 insets, illustrations, sightseeing - tour information of Greater Berlin and a plan of the combined visit to Potsdam and Sanssouci. One of the tour texts mentions passing by the residence of the \"Fuhrer Adolph Hitler.\" Text in English."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "6848.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "3"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "59"
+                },
+                {
+                  "label": "Image No",
+                  "value": "6848004"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/6848004.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Elite Autofahrt, G.m.b.H."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~249566~5516557/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~249566~5516557/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~249566~5516557",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11430,
+                    "height": 8164
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~249566~5516557/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~249566~5516557/list/luna"
+              ],
+              "width": 11430,
+              "height": 8164
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~249566~5516557"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~374203~90140796/manifest",
+      "label": "This Is the Heart of Crumbling and Doomed Berlin. (Drawn by Howard Burke — February 15, 1945)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~374203~90140796/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~374203~90140796/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "This Is the Heart of Crumbling and Doomed Berlin. (Drawn by Howard Burke — February 15, 1945)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Burke, Howard"
+                },
+                {
+                  "label": "Date",
+                  "value": "1945"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "This Is the Heart of Crumbling and Doomed Berlin. (Drawn by Howard Burke — February 15, 1945)"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Milwaukee Sentinel"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Milwaukee, Wis."
+                },
+                {
+                  "label": "Type",
+                  "value": "Newspaper Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "41"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "54"
+                },
+                {
+                  "label": "City",
+                  "value": "Berlin (Germany)"
+                },
+                {
+                  "label": "Event",
+                  "value": "World War II"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Military"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "This Is the Heart of Crumbling and Doomed Berlin. (Drawn by Howard Burke — February 15, 1945)"
+                },
+                {
+                  "label": "List No",
+                  "value": "16703.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Burke, Howard"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1945"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "This Is the Heart of Crumbling and Doomed Berlin. (Drawn by Howard Burke — February 15, 1945)"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "The map is an illustrated panoramic view of central Berlin, rendered in perspective with a reddish tint, showing the city as seen roughly from the southwest looking northeast. It emphasizes the core government and military district at the end of World War II — a symbolic representation of Nazi Germany’s downfall. Prominent Landmarks Labeled: Reich Chancellery (RICHS CHANCELLERY) — near the map’s center, marked by a small swastika, identified as Hitler’s stronghold. Reich Ministry of Aviation, National Theatre, Stock Exchange, City Hall, and Alexander Platz appear toward the right (east). Brandenburg Gate and Unter den Linden are clearly shown leading eastward from the Tiergarten. Reichstag, War Ministry, and Gestapo Headquarters lie nearby, forming the political core. Tempelhof Airport, Zoological Garden, Army Headquarters, and several military barracks appear along the edges. Charlottenburg, Moabit, and Tiergarten districts are labeled. Style and Intent: The map combines cartographic accuracy with propagandistic tone — showing the German capital as the collapsing “heart” of the Nazi empire. It emphasizes bomb damage, Soviet encirclement, and moral judgment through its dramatic title and textual framing. Visual Tone: The reddish sepia palette and heavy shadows evoke both fire and ruin. The buildings are drawn in a three-dimensional, almost architectural rendering, while key landmarks are enlarged for clarity. Publisher Context: Published by the Milwaukee Sentinel during the final months of World War II, this illustrated map was both news and morale material, showing readers how close the Allies were to Berlin’s fall."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16703.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Newspaper Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "54"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "41"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16703001.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/218/16703001.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Burke, Howard"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~374203~90140796/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~374203~90140796/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~374203~90140796",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 13462,
+                    "height": 10203
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~374203~90140796/canvas/c1"
+                }
+              ],
+              "width": 13462,
+              "height": 10203
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~374203~90140796"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~212487~5500523/manifest",
+      "label": "294. Copenick.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~212487~5500523/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~212487~5500523/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "294. Copenick.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Reichsamt fur Landesaufnahme"
+                },
+                {
+                  "label": "Date",
+                  "value": "1893"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "294. Copenick."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Reichsamt fur Landesaufnahme"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "39"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "100,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Date estimated based on the apparent library acquisition date usually stamped on the back of the map sheet. Mounted on linen in 4 panels. Publishing bookstore and distributor: R. Eisenschmidt, Verlags-Buchhandlung. Haupt-Vertrieb der Karten der Konigl. Landes-Aufnahme. Armee- und Marine-Haus. Berlin N.W., 7. Comparing our sheets to those at the Library of Congress shows that most of our sheets were published 5 to 10 years before the stamped acquisition date. A few sheets are duplicated and placed under similar list numbers. This map series is remarkable for the level of fine detail. As a consequence, it was scanned at 800 PPI providing four times the resolution of the typical detailed map scan of 400 PPI. At least ten separate symbols for special buildings were utilized, a method enhanced by placing an abbreviation next to the symbol. Structures with special symbols include: churches, chapels, monuments, windmills, water mills, stamp mills, forester's lodges, watchtowers, ruins, forts, quarries, clay pits, lime kilns, and coke-ovens. Factories, brick works, powder magazines electric power plants, and many other important buildings are differentiated by means of abbreviation. Houses appear as black blocks, either rectangular or shaped like the ground plan of the building. Many other features are differentiated, for example there are four different qualities of roads plus bridle paths and footpaths. Vegetation is minutely classified including separate symbols for broadleaf trees, evergreens, underbrush, heather, dry meadows, wet meadows, swamps, orchards, gardens, vineyards, and parks. Relief is shown by hachures. Spot elevations are given in meters above sea level."
+                },
+                {
+                  "label": "Country",
+                  "value": "Germany"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Sheet 294. Copenick. Karte des Deutschen Reiches."
+                },
+                {
+                  "label": "List No",
+                  "value": "5820.294"
+                },
+                {
+                  "label": "Series No",
+                  "value": "318"
+                },
+                {
+                  "label": "Page No",
+                  "value": "294"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Reichsamt fur Landesaufnahme"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1893"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Karte des Deutschen Reiches."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "In an agreement dated March 4, 1878, the states of Prussia, Saxony, Bavaria, and Wurttemberg (the areas of modern day Germany, Luxembourg, Poland, and Kaliningrad, and part of Lithuania) agreed to map their areas on a 1:100,000 scale in a common topographic grid survey consisting of 674 sheets. Each sheet covers about 30 minutes in longitude and 15 minutes in latitude. One centimeter on a map is equivalent to 1 kilometer on the ground. Average sheet size is about 35 cm x 28 cm. Each sheet covers about 1000 square kilometers and was engraved on copper. A polyhedral projection was used. Prime meridian was Ferro, later switched to Greenwich. The series is known as the KDR-100 (German General Staff map) and was surveyed beginning in 1878, although many sheets were simply drawn from pre-existing military maps, often of larger (more detailed) scale. The mapping continued until 1945, so most sheets were revised at least once. This collection strongly trends toward the earliest editions. They were published for the General Staffs of Bavaria, Prussia, Saxony and Wurttemberg by \"R. Eisenschmidt, Verlags-Buchhandlung\" (publishing bookstore). (Berlin). Key organizations indicated on the maps include (1) Topographic Bureau of Royal Saxony, abbreviated in German as \"topogr. bureau des konigl. sachs.\" And (2) Royal Prussian General Staff, abbreviated in German as \"Kgl. Preuss. Generalstab.\" Most sheets stamped with \"The Library of Massachusetts, State House, Boston,\" and the apparent date of acquisition. Almost all of the sheets are trimmed to the neatline to allow for closer alignment of multiple sheets when viewing, apparently a common practice by publishers of the sheets. Therefore the printed publishing date has been removed and we are estimating the date based on the acquisition stamp date."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "5820.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "National Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "674"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "39"
+                },
+                {
+                  "label": "Image No",
+                  "value": "5820294"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/5820294.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Reichsamt fur Landesaufnahme"
+                },
+                {
+                  "label": "local_note",
+                  "value": "[2026-10-03]: Maybe digital only"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~212487~5500523/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~212487~5500523/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~212487~5500523",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11224,
+                    "height": 14257
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~212487~5500523/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~212487~5500523/list/luna"
+              ],
+              "width": 11224,
+              "height": 14257
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~212487~5500523"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~381531~90147328/manifest",
+      "label": "City map of Berlin",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~381531~90147328/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~381531~90147328/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "City map of Berlin",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Thom, Ernst"
+                },
+                {
+                  "label": "Author",
+                  "value": "Loewe, Dr. Corn."
+                },
+                {
+                  "label": "Date",
+                  "value": "1917"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "City map of Berlin"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Pharus-Verlag"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Hamburg"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Type",
+                  "value": "Advertisement"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "39"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "55"
+                },
+                {
+                  "label": "Note",
+                  "value": "No scale shown. instead inset says: The inner parts of the urban area are highlighted according to their importance and kept correspondingly large for clarity. Colour lithograph map of Berlin on two pages. Advertisements bordering all four sides: Hotel Monopol-Metropole, Frankfurt a.M.; Kerkau-Palast, Berlin; Tattersall am Kurfürstendamm Aktiengesellschaft, Berlin; Klein-Flottbek bei Hamburg Haus I.Ranges, 100 Wohn- u. Schlafzimmer Parkhotel Teufelsbrücke (Translation: Klein-Flottbek near Hamburg House I.Ranges, 100 living and bedroom Parkhotel Teufelsbrücke) Inset has address and copyright warning. Legend shows: Long distance stations; Elevated stations; Elevated railways; Post offices; Schools; Stations for city and long distance traffic; Railways; Trams; Medical stations; Firestations; City transport stations; Underground stations; District boundaries; Postal district boundaries; and Theaters."
+                },
+                {
+                  "label": "Country",
+                  "value": "Germany"
+                },
+                {
+                  "label": "County",
+                  "value": "Berlin"
+                },
+                {
+                  "label": "City",
+                  "value": "Berlin"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "City map of Berlin (To accompany:) Pharus-Atlas Deutscher Städte Enthaltend ... Dresden 1903."
+                },
+                {
+                  "label": "List No",
+                  "value": "16220.009"
+                },
+                {
+                  "label": "Series No",
+                  "value": "9"
+                },
+                {
+                  "label": "Page No",
+                  "value": "24-25"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1917"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Pharus-Atlas Deutscher Städte Enthaltend die Pharus Pläne von 1. Aachen, 2. Berlin, 3. Bremen, 4. Breslau, 5. Coblenz, 6. Cöln a. Rh., 7. Darmstadt, 8. Dresden, 9. Druisburg, 10. Düsseldorf, 11. Frankfurt, 12. Hamburg, 13. Hannover, 14. Kiel, 15. Liepzig, 16. Lübeck, 17. Magedburg, 18. München, 19. Stettin, 20. Stuttgart. Mit illustrierten Bäder-Anzeigen, Führer, Hotel-Register etc. und einem Anhang der Stadtpläne von: Brüssel, London, Paris, Wien. Sonderhang Schweiz und Mitgleider-Verzeichnis des International Möbel-Transport-Verbandes. Deutsche Städte-Ausstellung. Dresden 1903."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Pharus-Verlag was a prominent German map publishing company specializing in detailed urban maps. cover says 1903 (possible company founding date) contents says 'edition 1912/1917', most likely updated after WW1 with revised advertisements and infrastructure"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16220.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "City Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "24"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "43"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16220009.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/229/16220009.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Thom, Ernst; Loewe, Dr. Corn."
+                },
+                {
+                  "label": "local_note",
+                  "value": "[2026-10-03]: Predates construction of airfield. \"Templehofer Feld\""
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~381531~90147328/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~381531~90147328/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~381531~90147328",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 11509,
+                    "height": 8499
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~381531~90147328/canvas/c1"
+                }
+              ],
+              "width": 11509,
+              "height": 8499
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~381531~90147328"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~291596~90063126/manifest",
+      "label": "Ouest Berlin est",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~291596~90063126/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~291596~90063126/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Ouest Berlin est",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "BAE"
+                },
+                {
+                  "label": "Date",
+                  "value": "1950"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Ouest Berlin est"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "BAE"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Berlin, Germay"
+                },
+                {
+                  "label": "Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "16"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Map of Berlin, 16x24 on sheet 42x29.5, with text, illustrations and photos. On verso: Pictorial cover, showing a model dressed in American, British, French and Soviet flags, text and illustrations advertising places of interest and shopping, and map of Germany \" Les 4 zones d'occupation de l'Allemagne. Map shows American, British, French and Soviet occupation zones, landmarks, roads and place names. Date estimated."
+                },
+                {
+                  "label": "Country",
+                  "value": "Germany"
+                },
+                {
+                  "label": "City",
+                  "value": "Berlin (Germany)"
+                },
+                {
+                  "label": "Event",
+                  "value": "World War II"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Military"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Ouest Berlin est. Imprime en Allemagne (BAE Berlin) 2 51 50. (cover title) Ne manquez pas Berlin prodige d'une cite internationale de l'aurre cote du Rideau de fer."
+                },
+                {
+                  "label": "List No",
+                  "value": "11443.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "BAE"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1950"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Ouest Berlin est. Imprime en Allemagne (BAE Berlin) 2 51 50. (cover title) Ne manquez pas Berlin prodige d'une cite internationale de l'aurre cote du Rideau de fer."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11443.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "21"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "10"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11443002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/11443002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "BAE"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~291596~90063126/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~291596~90063126/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~291596~90063126",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 6056,
+                    "height": 8440
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~291596~90063126/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~291596~90063126/list/luna"
+              ],
+              "width": 6056,
+              "height": 8440
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~291596~90063126"
+    }
+  ]
+}
