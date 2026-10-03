@@ -1,0 +1,3014 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/African Continent Over Time",
+  "label": "African Continent Over Time",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/ty736qh2781/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Claudii Ptolemaei Alexandrini Geographicae enarrationis libri octo. Sed ad Graeca & prisca exemplaria a Michaele Villanouano secundo recogniti & locis innumeris denuo castigati. Adiecta insuper ab eodem Scholia, quibus & difficilis ille Primus Liber nunc primum explicatur, & exoleta Urbium nomina ad nostri seculi morem exponuntur. Quinquaginta illae quoque cum veterum tum recentium Tabulae adnectuntur variisque incolentium ritus & mores explicantur. Accedit index locupletissimus hactenus non uisus. Prostant Lugduni Apud Hugonem a Porta. M.D.XLI. (1541)",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/ty736qh2781.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/ty736qh2781'>https://purl.stanford.edu/ty736qh2781</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Claudii Ptolemaei Alexandrini Geographicae enarrationis libri octo. Sed ad Graeca & prisca exemplaria a Michaele Villanouano secundo recogniti & locis innumeris denuo castigati. Adiecta insuper ab eodem Scholia, quibus & difficilis ille Primus Liber nunc primum explicatur, & exoleta Urbium nomina ad nostri seculi morem exponuntur. Quinquaginta illae quoque cum veterum tum recentium Tabulae adnectuntur variisque incolentium ritus & mores explicantur. Accedit index locupletissimus hactenus non uisus. Prostant Lugduni Apud Hugonem a Porta. M.D.XLI. (1541)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Ptolemy, active 2nd century."
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 50 maps ; 41 x 28 cm"
+        },
+        {
+          "label": "Language",
+          "value": "Latin"
+        },
+        {
+          "label": "Description",
+          "value": "Second edition of Michael Servetus' Ptolemy 's Geographia utilising Lorenz Fries's woodcut maps, was published by Gaspar Trechsel in Vienna, in 1541 and sold by Hughes de la Porte in Lyons. This atlas is divided into three parts: First, the text comprising the new Latin translation by the humanist Wilibald Pirckheimer of the 1525 edition, which has been edited by Michael Servetus, for the first time for 1535 edition and the second time for this 1541 edition. The second part consists of 50 maps, comprising 27 Ptolemaic and 23 modern maps. The maps were printed from the same wooden blocks which were made for the first edition in 1522 by Lorenz Fries, the famous physician, astrologer and geographer, many with descriptive text on recto and verso. With half title index before or after the maps varies. A special feature of the 1541 edition is the missing text on verso of some modern maps. This is due to the action of Calvinism, especially since the text on verso of the Holy Land map provoked controversy. The third and final part consists of a comprehensive index. Many of the first three editions were burned, which led Servetus to abdicate on some text on the map versos. Maps Showing rivers, canals, waterways, place names, fortifications, and administrative boundaries. Relief shown pictorially. Some maps drawn in a trapezoidal projection."
+        },
+        {
+          "label": "Description",
+          "value": "References: Mickwitz, Ann-Maria (& others) ed. The A.E. Nordenskiold Collection..., II, 211."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas"
+        },
+        {
+          "label": "Description",
+          "value": "Pub list no.: 11325.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Classical geography"
+        },
+        {
+          "label": "Subject",
+          "value": "Geography, Ancient"
+        },
+        {
+          "label": "Subject",
+          "value": "Historical geography"
+        },
+        {
+          "label": "Date",
+          "value": "1541"
+        },
+        {
+          "label": "Date",
+          "value": "1541"
+        },
+        {
+          "label": "Date",
+          "value": "1541"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/ty736qh2781"
+        },
+        {
+          "label": "Publisher",
+          "value": "Fries, Lorenz, 1491-1550"
+        },
+        {
+          "label": "Publisher",
+          "value": "Servetus, Michael, 1511?-1553"
+        },
+        {
+          "label": "Publisher",
+          "value": "Apud Hugonem a Porta"
+        },
+        {
+          "label": "Publisher",
+          "value": "Gaspar Trechsel"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "Second edition of Michael Servetus' Ptolemy 's Geographia utilising Lorenz Fries's woodcut maps, was published by Gaspar Trechsel in Vienna, in 1541 and sold by Hughes de la Porte in Lyons. This atlas is divided into three parts: First, the text comprising the new Latin translation by the humanist Wilibald Pirckheimer of the 1525 edition, which has been edited by Michael Servetus, for the first time for 1535 edition and the second time for this 1541 edition. The second part consists of 50 maps, comprising 27 Ptolemaic and 23 modern maps. The maps were printed from the same wooden blocks which were made for the first edition in 1522 by Lorenz Fries, the famous physician, astrologer and geographer, many with descriptive text on recto and verso. With half title index before or after the maps varies. A special feature of the 1541 edition is the missing text on verso of some modern maps. This is due to the action of Calvinism, especially since the text on verso of the Holy Land map provoked controversy. The third and final part consists of a comprehensive index. Many of the first three editions were burned, which led Servetus to abdicate on some text on the map versos. Maps Showing rivers, canals, waterways, place names, fortifications, and administrative boundaries. Relief shown pictorially. Some maps drawn in a trapezoidal projection.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/xf493jd3621%2F11325001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/xf493jd3621%2F11325001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 283
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/ty736qh2781/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/ty736qh2781/iiif/canvas/cocina-fileSet-nv535qq0517-nv535qq0517_1",
+              "@type": "sc:Canvas",
+              "label": "Tabula noua partis Africae. (to accompany) Claudii Ptolemaei Alexandrini\n            Geographicae enarrationis libri octo. Sed ad Graeca & prisca exemplaria a Michaele\n            Villanouano secundo recogniti & locis innumeris denuo castigati. Prostant Lugduni\n            Apud Hugonem a Porta. M.D.XLI. (1541)",
+              "height": 7291,
+              "width": 10568,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/nv535qq0517/11325072.jp2",
+                  "label": "Original source file (13.9 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/ty736qh2781/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fnv535qq0517-nv535qq0517_1%2F11325072.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/ty736qh2781/iiif/canvas/cocina-fileSet-nv535qq0517-nv535qq0517_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/nv535qq0517%2F11325072/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7291,
+                    "width": 10568,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/nv535qq0517%2F11325072",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/ty736qh2781/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Claudii Ptolemaei Alexandrini Geographicae enarrationis libri octo. Sed ad Graeca & prisca exemplaria a Michaele Villanouano secundo recogniti & locis innumeris denuo castigati. Adiecta insuper ab eodem Scholia, quibus & difficilis ille Primus Liber nunc primum explicatur, & exoleta Urbium nomina ad nostri seculi morem exponuntur. Quinquaginta illae quoque cum veterum tum recentium Tabulae adnectuntur variisque incolentium ritus & mores explicantur. Accedit index locupletissimus hactenus non uisus. Prostant Lugduni Apud Hugonem a Porta. M.D.XLI. (1541)",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/ty736qh2781.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/ty736qh2781'>https://purl.stanford.edu/ty736qh2781</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Claudii Ptolemaei Alexandrini Geographicae enarrationis libri octo. Sed ad Graeca & prisca exemplaria a Michaele Villanouano secundo recogniti & locis innumeris denuo castigati. Adiecta insuper ab eodem Scholia, quibus & difficilis ille Primus Liber nunc primum explicatur, & exoleta Urbium nomina ad nostri seculi morem exponuntur. Quinquaginta illae quoque cum veterum tum recentium Tabulae adnectuntur variisque incolentium ritus & mores explicantur. Accedit index locupletissimus hactenus non uisus. Prostant Lugduni Apud Hugonem a Porta. M.D.XLI. (1541)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Ptolemy, active 2nd century."
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 50 maps ; 41 x 28 cm"
+        },
+        {
+          "label": "Language",
+          "value": "Latin"
+        },
+        {
+          "label": "Description",
+          "value": "Second edition of Michael Servetus' Ptolemy 's Geographia utilising Lorenz Fries's woodcut maps, was published by Gaspar Trechsel in Vienna, in 1541 and sold by Hughes de la Porte in Lyons. This atlas is divided into three parts: First, the text comprising the new Latin translation by the humanist Wilibald Pirckheimer of the 1525 edition, which has been edited by Michael Servetus, for the first time for 1535 edition and the second time for this 1541 edition. The second part consists of 50 maps, comprising 27 Ptolemaic and 23 modern maps. The maps were printed from the same wooden blocks which were made for the first edition in 1522 by Lorenz Fries, the famous physician, astrologer and geographer, many with descriptive text on recto and verso. With half title index before or after the maps varies. A special feature of the 1541 edition is the missing text on verso of some modern maps. This is due to the action of Calvinism, especially since the text on verso of the Holy Land map provoked controversy. The third and final part consists of a comprehensive index. Many of the first three editions were burned, which led Servetus to abdicate on some text on the map versos. Maps Showing rivers, canals, waterways, place names, fortifications, and administrative boundaries. Relief shown pictorially. Some maps drawn in a trapezoidal projection."
+        },
+        {
+          "label": "Description",
+          "value": "References: Mickwitz, Ann-Maria (& others) ed. The A.E. Nordenskiold Collection..., II, 211."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas"
+        },
+        {
+          "label": "Description",
+          "value": "Pub list no.: 11325.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Classical geography"
+        },
+        {
+          "label": "Subject",
+          "value": "Geography, Ancient"
+        },
+        {
+          "label": "Subject",
+          "value": "Historical geography"
+        },
+        {
+          "label": "Date",
+          "value": "1541"
+        },
+        {
+          "label": "Date",
+          "value": "1541"
+        },
+        {
+          "label": "Date",
+          "value": "1541"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/ty736qh2781"
+        },
+        {
+          "label": "Publisher",
+          "value": "Fries, Lorenz, 1491-1550"
+        },
+        {
+          "label": "Publisher",
+          "value": "Servetus, Michael, 1511?-1553"
+        },
+        {
+          "label": "Publisher",
+          "value": "Apud Hugonem a Porta"
+        },
+        {
+          "label": "Publisher",
+          "value": "Gaspar Trechsel"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "Second edition of Michael Servetus' Ptolemy 's Geographia utilising Lorenz Fries's woodcut maps, was published by Gaspar Trechsel in Vienna, in 1541 and sold by Hughes de la Porte in Lyons. This atlas is divided into three parts: First, the text comprising the new Latin translation by the humanist Wilibald Pirckheimer of the 1525 edition, which has been edited by Michael Servetus, for the first time for 1535 edition and the second time for this 1541 edition. The second part consists of 50 maps, comprising 27 Ptolemaic and 23 modern maps. The maps were printed from the same wooden blocks which were made for the first edition in 1522 by Lorenz Fries, the famous physician, astrologer and geographer, many with descriptive text on recto and verso. With half title index before or after the maps varies. A special feature of the 1541 edition is the missing text on verso of some modern maps. This is due to the action of Calvinism, especially since the text on verso of the Holy Land map provoked controversy. The third and final part consists of a comprehensive index. Many of the first three editions were burned, which led Servetus to abdicate on some text on the map versos. Maps Showing rivers, canals, waterways, place names, fortifications, and administrative boundaries. Relief shown pictorially. Some maps drawn in a trapezoidal projection.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/xf493jd3621%2F11325001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/xf493jd3621%2F11325001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 283
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/ty736qh2781/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/ty736qh2781/iiif/canvas/cocina-fileSet-hg580fq8868-hg580fq8868_1",
+              "@type": "sc:Canvas",
+              "label": "Tabula noua partis Africae. (to accompany) Claudii Ptolemaei Alexandrini\n            Geographicae enarrationis libri octo. Sed ad Graeca & prisca exemplaria a Michaele\n            Villanouano secundo recogniti & locis innumeris denuo castigati. Prostant Lugduni\n            Apud Hugonem a Porta. M.D.XLI. (1541)",
+              "height": 7291,
+              "width": 10552,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hg580fq8868/11325073.jp2",
+                  "label": "Original source file (13.8 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/ty736qh2781/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fhg580fq8868-hg580fq8868_1%2F11325073.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/ty736qh2781/iiif/canvas/cocina-fileSet-hg580fq8868-hg580fq8868_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hg580fq8868%2F11325073/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7291,
+                    "width": 10552,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hg580fq8868%2F11325073",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/ty736qh2781/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Claudii Ptolemaei Alexandrini Geographicae enarrationis libri octo. Sed ad Graeca & prisca exemplaria a Michaele Villanouano secundo recogniti & locis innumeris denuo castigati. Adiecta insuper ab eodem Scholia, quibus & difficilis ille Primus Liber nunc primum explicatur, & exoleta Urbium nomina ad nostri seculi morem exponuntur. Quinquaginta illae quoque cum veterum tum recentium Tabulae adnectuntur variisque incolentium ritus & mores explicantur. Accedit index locupletissimus hactenus non uisus. Prostant Lugduni Apud Hugonem a Porta. M.D.XLI. (1541)",
+      "attribution": "Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license. ",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/ty736qh2781.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/ty736qh2781'>https://purl.stanford.edu/ty736qh2781</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Claudii Ptolemaei Alexandrini Geographicae enarrationis libri octo. Sed ad Graeca & prisca exemplaria a Michaele Villanouano secundo recogniti & locis innumeris denuo castigati. Adiecta insuper ab eodem Scholia, quibus & difficilis ille Primus Liber nunc primum explicatur, & exoleta Urbium nomina ad nostri seculi morem exponuntur. Quinquaginta illae quoque cum veterum tum recentium Tabulae adnectuntur variisque incolentium ritus & mores explicantur. Accedit index locupletissimus hactenus non uisus. Prostant Lugduni Apud Hugonem a Porta. M.D.XLI. (1541)"
+        },
+        {
+          "label": "Contributor",
+          "value": "Ptolemy, active 2nd century."
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Atlases"
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Type",
+          "value": "World maps."
+        },
+        {
+          "label": "Format",
+          "value": "1 atlas : 50 maps ; 41 x 28 cm"
+        },
+        {
+          "label": "Language",
+          "value": "Latin"
+        },
+        {
+          "label": "Description",
+          "value": "Second edition of Michael Servetus' Ptolemy 's Geographia utilising Lorenz Fries's woodcut maps, was published by Gaspar Trechsel in Vienna, in 1541 and sold by Hughes de la Porte in Lyons. This atlas is divided into three parts: First, the text comprising the new Latin translation by the humanist Wilibald Pirckheimer of the 1525 edition, which has been edited by Michael Servetus, for the first time for 1535 edition and the second time for this 1541 edition. The second part consists of 50 maps, comprising 27 Ptolemaic and 23 modern maps. The maps were printed from the same wooden blocks which were made for the first edition in 1522 by Lorenz Fries, the famous physician, astrologer and geographer, many with descriptive text on recto and verso. With half title index before or after the maps varies. A special feature of the 1541 edition is the missing text on verso of some modern maps. This is due to the action of Calvinism, especially since the text on verso of the Holy Land map provoked controversy. The third and final part consists of a comprehensive index. Many of the first three editions were burned, which led Servetus to abdicate on some text on the map versos. Maps Showing rivers, canals, waterways, place names, fortifications, and administrative boundaries. Relief shown pictorially. Some maps drawn in a trapezoidal projection."
+        },
+        {
+          "label": "Description",
+          "value": "References: Mickwitz, Ann-Maria (& others) ed. The A.E. Nordenskiold Collection..., II, 211."
+        },
+        {
+          "label": "Description",
+          "value": "World Atlas"
+        },
+        {
+          "label": "Description",
+          "value": "Pub list no.: 11325.000."
+        },
+        {
+          "label": "Subject",
+          "value": "Atlases"
+        },
+        {
+          "label": "Subject",
+          "value": "World maps"
+        },
+        {
+          "label": "Subject",
+          "value": "Classical geography"
+        },
+        {
+          "label": "Subject",
+          "value": "Geography, Ancient"
+        },
+        {
+          "label": "Subject",
+          "value": "Historical geography"
+        },
+        {
+          "label": "Date",
+          "value": "1541"
+        },
+        {
+          "label": "Date",
+          "value": "1541"
+        },
+        {
+          "label": "Date",
+          "value": "1541"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/ty736qh2781"
+        },
+        {
+          "label": "Publisher",
+          "value": "Fries, Lorenz, 1491-1550"
+        },
+        {
+          "label": "Publisher",
+          "value": "Servetus, Michael, 1511?-1553"
+        },
+        {
+          "label": "Publisher",
+          "value": "Apud Hugonem a Porta"
+        },
+        {
+          "label": "Publisher",
+          "value": "Gaspar Trechsel"
+        },
+        {
+          "label": "Relation",
+          "value": "David Rumsey Map Collection at Stanford University Libraries"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "Second edition of Michael Servetus' Ptolemy 's Geographia utilising Lorenz Fries's woodcut maps, was published by Gaspar Trechsel in Vienna, in 1541 and sold by Hughes de la Porte in Lyons. This atlas is divided into three parts: First, the text comprising the new Latin translation by the humanist Wilibald Pirckheimer of the 1525 edition, which has been edited by Michael Servetus, for the first time for 1535 edition and the second time for this 1541 edition. The second part consists of 50 maps, comprising 27 Ptolemaic and 23 modern maps. The maps were printed from the same wooden blocks which were made for the first edition in 1522 by Lorenz Fries, the famous physician, astrologer and geographer, many with descriptive text on recto and verso. With half title index before or after the maps varies. A special feature of the 1541 edition is the missing text on verso of some modern maps. This is due to the action of Calvinism, especially since the text on verso of the Holy Land map provoked controversy. The third and final part consists of a comprehensive index. Many of the first three editions were burned, which led Servetus to abdicate on some text on the map versos. Maps Showing rivers, canals, waterways, place names, fortifications, and administrative boundaries. Relief shown pictorially. Some maps drawn in a trapezoidal projection.",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/xf493jd3621%2F11325001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/xf493jd3621%2F11325001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 283
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/ty736qh2781/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/ty736qh2781/iiif/canvas/cocina-fileSet-rb735sg8359-rb735sg8359_1",
+              "@type": "sc:Canvas",
+              "label": "Tabula noua Asiae minoris. De Mahometo et Tvrcarvm Origine & moribus. (to\n            accompany) Claudii Ptolemaei Alexandrini Geographicae enarrationis libri octo. Sed ad\n            Graeca & prisca exemplaria a Michaele Villanouano secundo recogniti & locis\n            innumeris denuo castigati. Prostant Lugduni Apud Hugonem a Porta. M.D.XLI. (1541)",
+              "height": 7291,
+              "width": 10568,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/rb735sg8359/11325075.jp2",
+                  "label": "Original source file (13.9 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/ty736qh2781/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Frb735sg8359-rb735sg8359_1%2F11325075.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/ty736qh2781/iiif/canvas/cocina-fileSet-rb735sg8359-rb735sg8359_1",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/rb735sg8359%2F11325075/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 7291,
+                    "width": 10568,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/rb735sg8359%2F11325075",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~275230~90048535/manifest",
+      "label": "(4) Africae Tabula Nova.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~275230~90048535/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~275230~90048535/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "(4) Africae Tabula Nova.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Ortelius, Abraham, 1527-1598"
+                },
+                {
+                  "label": "Date",
+                  "value": "1570"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "(4) Africae Tabula Nova."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Gielis Coppens van Diest"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Antwerp"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "50"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "23,000,000"
+                },
+                {
+                  "label": "Reference",
+                  "value": "Koeman Ort 4; Van der Krogt 8600:31; Van den Broecke Ort 8"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Africam Graeci Libyam App. Africae Tabula Nova. Edita Antverpiae 1570 Cum Privilegio."
+                },
+                {
+                  "label": "List No",
+                  "value": "10000.017"
+                },
+                {
+                  "label": "Series No",
+                  "value": "17"
+                },
+                {
+                  "label": "Page No",
+                  "value": "4"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Hogenberg, Frans"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ortelius, Abraham, 1527-1598"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1570"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Theatrum Orbis Terrarum. (Colophon) Auctoris aere & cura impressum absolutumque apud Aegid. Coppenium Diest, Antverpiae M.D.LXX."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Koeman Ort 1B; Van der Krogt 31:001B (with colophon 31:001C). See Dr. Marcel van den Broecke web site for excellent listing of all Ortelius maps http://orteliusmaps.com/ortindexnumber.html"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "First edition of the first atlas of the world. From Koeman: \"The unique position held by Ortelius' Theatrum in the history of cartography is to be attributed primarily to its qualification as 'the world's first regularly produced atlas.' Its great commercial success 'enabled it to make so great a contribution to geographical culture throughout Europe in the later 16th century.' (Skelton). Shape and contents set the standards for later atlases, when the centre of the map-trade moved from Antwerp to Amsterdam. The characteristic feature of the Theatrum is, that it consists of two elements, forming a unitary whole: text and maps. This concept for a \"Theatre of the world\" was followed through the 17th century. Before Ortelius, no one and done this and thus, the chorus of praise which arose as a result of this - and the excellent text - was far from slight... Another important aspect of the Theatrum is that it was the first undertaking of its kind to reduce the best available maps to a uniform format. To that end, maps of various formats and styles had to be generalized just like the modern atlas-publisher of today would do. In selecting maps for his compilation, Ortelius was guided by his critical spirit and his encyclopaedic knowledge of maps. But Ortelius did more that the atlas-makers of today: he mentioned the names of the authors of the original maps and added a great many names of other cartographers and geographers to it... Abraham Ortelius drew all his maps in manuscript before passing them to the engravers... Ortelius stated that nearly all the plates were cut by Frans Hogenberg and his assistants.\" The Theatrum went through many editions in Latin, German, French, Dutch, Spanish, English, and Italian. Van der Krogt lists 37 editions, with the last edition published in 1641, long after Ortelius' death in 1598. Uncolored. Text in Latin."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10000.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "53"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10000017.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/10000017.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Ortelius, Abraham, 1527-1598"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~275230~90048535/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~275230~90048535/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~275230~90048535",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 10166,
+                    "height": 7106
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~275230~90048535/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~275230~90048535/list/luna"
+              ],
+              "width": 10166,
+              "height": 7106
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~275230~90048535"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~310066~90079873/manifest",
+      "label": "3. Africa.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~310066~90079873/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~310066~90079873/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "3. Africa.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Nicolosi, Giovanni Battista, 1610-1670"
+                },
+                {
+                  "label": "Date",
+                  "value": "1660"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "3. Africa."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "V. Mascardi"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Rome"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "46"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "10,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Sheet 3 of 4 sheet map of Africa. South is up. Inset map of Galliam."
+                },
+                {
+                  "label": "Reference",
+                  "value": "For full text of volume one (Tomo Primo) see http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10802374-1"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "3. Africa. Ioanne Baptista Nicolosio S.T.D. Sic Describente."
+                },
+                {
+                  "label": "List No",
+                  "value": "10254.026"
+                },
+                {
+                  "label": "Series No",
+                  "value": "26"
+                },
+                {
+                  "label": "Page No",
+                  "value": "13"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Nicolosi, Giovanni Battista, 1610-1670"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1660"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Dell'Hercole E Studio Geografico. Tomo Primo. Tomo Secondo."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "P467"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Giovanni Battista Nicolosi (1610-1670) was a priest and cartographer for the Vatican's Propaganda Fide in Rome. In 1652, motivated by Sanson's new work, the Propoganda Fide of Rome commissioned Nicolosi to produce an atlas, which would become Nicolosi's Dell' Hercole e Studio Geografico, published in 1660 and a Latin edition in 1671. The 4 sheet maps of the continents incorporate Nicolosi's meticulous work and novel presentation style, with south at the top of the Africa and South America maps. Nicolosi's Dell' Hercole e studio geografico is one of the most important Italian Atlases of the 17th Century."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10254.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "22"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "44"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10254026.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/10254026.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Nicolosi, Giovanni Battista, 1610-1670"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~310066~90079873/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~310066~90079873/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~310066~90079873",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12668,
+                    "height": 10348
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~310066~90079873/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~310066~90079873/list/luna"
+              ],
+              "width": 12668,
+              "height": 10348
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~310066~90079873"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~310067~90079872/manifest",
+      "label": "4. Africa.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~310067~90079872/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~310067~90079872/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "4. Africa.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Nicolosi, Giovanni Battista, 1610-1670"
+                },
+                {
+                  "label": "Date",
+                  "value": "1660"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "4. Africa."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "V. Mascardi"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Rome"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "40"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "46"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "10,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Sheet 4 of 4 sheet map of Africa. South is up. Inset map of Galliam."
+                },
+                {
+                  "label": "Reference",
+                  "value": "For full text of volume one (Tomo Primo) see http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10802374-1"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "4. Africa. Ioanne Baptista Nicolosio S.T.D. Sic Describente."
+                },
+                {
+                  "label": "List No",
+                  "value": "10254.027"
+                },
+                {
+                  "label": "Series No",
+                  "value": "27"
+                },
+                {
+                  "label": "Page No",
+                  "value": "14"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Nicolosi, Giovanni Battista, 1610-1670"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1660"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Dell'Hercole E Studio Geografico. Tomo Primo. Tomo Secondo."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "P467"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Giovanni Battista Nicolosi (1610-1670) was a priest and cartographer for the Vatican's Propaganda Fide in Rome. In 1652, motivated by Sanson's new work, the Propoganda Fide of Rome commissioned Nicolosi to produce an atlas, which would become Nicolosi's Dell' Hercole e Studio Geografico, published in 1660 and a Latin edition in 1671. The 4 sheet maps of the continents incorporate Nicolosi's meticulous work and novel presentation style, with south at the top of the Africa and South America maps. Nicolosi's Dell' Hercole e studio geografico is one of the most important Italian Atlases of the 17th Century."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10254.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Geography Book"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "22"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "44"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10254027.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/10254027.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Nicolosi, Giovanni Battista, 1610-1670"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~310067~90079872/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~310067~90079872/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~310067~90079872",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12694,
+                    "height": 10322
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~310067~90079872/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~310067~90079872/list/luna"
+              ],
+              "width": 12694,
+              "height": 10322
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~310067~90079872"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~375447~90141979/manifest",
+      "label": "Africa",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~375447~90141979/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~375447~90141979/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Africa",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Arnoldo di Arnoldi"
+                },
+                {
+                  "label": "Date",
+                  "value": "1600"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Florimi"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Sienna (Italy)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "38"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "49"
+                },
+                {
+                  "label": "Note",
+                  "value": "Date estimated."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Africa"
+                },
+                {
+                  "label": "List No",
+                  "value": "16785.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Arnoldo di Arnoldi"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1600"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "The Flemish-born cartographer Arnoldo di Arnoldi lived for the last part of his life in Italy, mostly in Bologna where he worked for the famous geographer Giovanni Antonio Magini. In early 1600 he moved to Siena where he produced some of his most famous works. He died in 1602. Little survives by his hand. The best known are two maps of the world (in ten sheets and two sheets), and a set of the four continents, of which this is one. The coat of arms which appears on all four is identified by a dedication below on the European map to their patron, Tuscan writer Scipione Bargaglia, and signed Arnoldo di Arnoldi D.D. Here we also find Cauata dal Teatro del Ortelio Mathej Florimi for. Senis, identifying the publisher as Florimi, and that the maps were ‘taken from the Teatro of Ortelius’. This latter statement, taken as fact by recent scholars, looks at odds with the evidence upon closer examination. Complete Title and translation: Tengono alcuni che l’Africa sia così detta da Afro discendente d’Abrahano; quantunque da altri sia stata nominata Libia, e comunemente da gl’ Arabi Camessia. Questa di grandezza supera l’Europa, quasi altrettanto; e per la sua continuata forma sarebbe anchora molto più capace di popoli, se ella non havesse in se tanti luoghi inhabitati; i quali la rendono molto meno habitabile della Europa. E la cagione di tutto questo incomodo, è la povertà dell’acque; percio che per esser ella sottoposta a continui ardori del Sole, ogni cosa vi s’abbruscia, onde il terreno è in molti luoghi inculto, anzi coperto di sterili arene, e di umida palude, e cenere. Oltre a ciò vi sono le pericolose nubi della Libbia, che fanno quasi onda, come le procelle nel mare; e essendovi ancho gran numero di monti, e di deserti, e gran copia di velenosi animali, e horribili fiere. Ma dove ella si coltiva è grandissima, e populata. Translation AFRICA Some hold that Africa is so called from Afer, a descendant of Abraham; although by others it was called Libya, and commonly by the Arabs Camessia. In size it surpasses Europe, almost by as much again; and because of its continuous shape it would be even far more capable of sustaining peoples, were it not that it contains within itself so many uninhabited places, which render it much less habitable than Europe. The cause of all this inconvenience is the scarcity of water; for, being subject to the continual heat of the sun, everything there is scorched, so that the land in many places is uncultivated, indeed covered with barren sands, with damp marsh, and with ash. Moreover there are the dangerous clouds of Libya, which surge almost like waves, as storms do at sea; and since there is also a great number of mountains and deserts, and a great abundance of venomous animals and fearsome beasts. But where it is cultivated, it is exceedingly fertile and populous."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16785.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "38"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "49"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16785000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/222/16785000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Arnoldo di Arnoldi"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~375447~90141979/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~375447~90141979/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~375447~90141979",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 13501,
+                    "height": 11375
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~375447~90141979/canvas/c1"
+                }
+              ],
+              "width": 13501,
+              "height": 11375
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~375447~90141979"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289989~90067423/manifest",
+      "label": "Totius Africae Accuratissima Tabula.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~289989~90067423/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289989~90067423/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Totius Africae Accuratissima Tabula.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Wit, Frederick de"
+                },
+                {
+                  "label": "Date",
+                  "value": "1682"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Totius Africae Accuratissima Tabula."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Frederick de Wit"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "50"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "59"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "18,500,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Date estimated."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Koeman Wit 8; Carhart A100b"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Totius Africae Accuratissima Tabula."
+                },
+                {
+                  "label": "List No",
+                  "value": "12220.006"
+                },
+                {
+                  "label": "Series No",
+                  "value": "6"
+                },
+                {
+                  "label": "Page No",
+                  "value": "3"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Wit, Frederick de"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1682"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlas. Tot Amsterdam By Frederick de Wit in de Calverstraet bij den Dam inde Witte Paskaert."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "This atlas marks the appearance of a less expensive atlas in the Dutch atlas market. Without text and in small folio size, it begins a move away from the expensive and elaborate atlases of Blaeu and Visscher, towards the more concise atlases that appear in the 18th century. Date estimated. Relief shown in sketches. Outline color. Hand annotations in the margins of some maps. Image No. 12220059.jp2 is a map likely prepared specially for the atlas owner for whom this was a special locale; this would account for the extensive use of gold on the sheet."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12220.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "100"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "55"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "36"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12220006.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/12220006.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Wit, Frederick de"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~289989~90067423/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~289989~90067423/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~289989~90067423",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12108,
+                    "height": 9394
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289989~90067423/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289989~90067423/list/luna"
+              ],
+              "width": 12108,
+              "height": 9394
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~289989~90067423"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~329366~90097826/manifest",
+      "label": "No. 5. Africa",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~329366~90097826/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~329366~90097826/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "No. 5. Africa",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Willdey, George"
+                },
+                {
+                  "label": "Date",
+                  "value": "1711"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "No. 5. Africa"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "George Willdey"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "65"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "96"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "15,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Engraved hand color in outline map of Africa, with uncolored decorative title cartouche depicting animals. Inset views of natives, flora and fauna and advertisement for Willdey's instruments and trade goods. made and sold by George Willdey. Includes dedication with decorative cartouche and annotations."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Africa : corrected from observations of Mess. of ye Royal Societies at London and Paris. By C. Price. 1711. Sold by George Willdey."
+                },
+                {
+                  "label": "List No",
+                  "value": "13539.007"
+                },
+                {
+                  "label": "Series No",
+                  "value": "7"
+                },
+                {
+                  "label": "Page No",
+                  "value": "5"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Price, Charles"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Willdey, George"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1732"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Composite World Atlas. London, George Willdey, c1732."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "A collection of maps of various parts of the world. Map maker and publisher's name and address taken from the maps. Published and sold by George Willdey: London. Imprint taken from Willdey's advertisement, map dates are between 1701-1717. Dates taken from maps. Atlas consists of 26 large folding maps each on 2 sheets joined, manuscript contents pages on front endpaper, maps are hand color in outline, with decorative cartouches, include advertisement for Willdey's instruments and trade goods, some with dedication note. Showing political and administrative boundaries, cities, towns, landmarks, fortifications, battle grounds, rivers, lakes, forests and mountains. Relief shown by hachuers and pictorially. Includes legend, tables, notes and engraved views. Bound in brown embossed calf covers. Prime meridian: London and Ferro. \"Tall narrow folio, 26 large folding maps each on 2 sheets joined, manuscript contents pages on front endpaper, maps in contemporary hand colour, cartouches plain, contemporary sheep, some tears and splits as noted. By descent from the library of John Monson, 1st Baron Monson (1693-1748). Lord Monson was an early President of the Board of Trade, a role which had existed in various guises since the mid 17th century. This atlas may have been a useful reference tool for anyone involved in overseas trade, but the maps of British roads, the environs of London and Yorkshire suggest domestic interests – each atlas was made to order. George Willdey’s maps are uncommon. He worked in partnership with mapmakers such as Charles Price and purchased printing plates from other map-makers, some deceased, including the surviving plates for Christopher Saxton’s English county maps, originally published in 1570s. The plates were bought from the widow of Philip Lea in 1732, and the presence of the Yorkshire map here helps us date this atlas. Willdey’s main business was selling toys and luxury goods, including jewellery, trinkets, optical instruments, glass and china. Many of the maps carry advertisements for his other wares, and he advertised his maps for sale as separate sheets rather than in atlas form, which is one reason for the low survival rate (loose sheets of paper have a low survival rate when compared with maps protected in bound volumes). However, we have been able to trace four composite atlases, which must have been bound to order, in libraries around the world, all subtly different. There is an example in the British Library (24 maps); the National Library of Scotland (23 maps); the National Maritime Museum (20 maps) and New York Public Library (20 maps). At 26 maps, the Monson example is the largest we have been able to locate. The core of each atlas comprises maps of the world and continents, and major European countries, but there are variations such as the map of Yorkshire selected by the owner of our atlas.  Individual maps are scattered in institutions worldwide, but they are few in number, and they are relatively uncommon in the marketplace. The maps in the volume comprise: 1. A New and Correct Map of the World laid down according to the newest observations & discoveries in several different projections including the trade winds, monsoons, variation of the compass, and illustrated with a coelestial planisphere, the various systems of Ptolomy, Copernicus, and Tycho Brahe together with ye apearances of the planets &c. . OCLC 316380727. 2. A New and Correct Map of the World projected along the Plane of the Horizon… Charles Price with Willdey’s imprint. Illustrations of toys and articles for sale at Willdey's shop which include combs, chess, wallets, clocks and scientific instruments. OCLC 1003646341.  Osher Map Library (Maine). 3. Europe Corrected by Emmanuel Bowen… Illustrated advert, as above. 4. Asia Corrected, According to the latest Discoveries and Observations by Emmanuel Bowen… Made and fold by George Willdey. Illustrated advert. OCLC 234194330. National Library of Israel  5. Africa Corrected from Observations… Charles Price. Illustrated advert. OCLC 316380848.  6. The Map of North America, Corrected from the latest discoveries and observations. . OCLC 50514987; copies in US: Yale, Newberry, Scottish Masonic Rite Mus & Lib, MA; San Jacinto Mus, TX. 7. South America Corrected from the Observations Communicated to the Royal Society’s of London and Paris by Charles Price. OCLC 316381425 8. The Map of Great Britain and Ireland. Includes the Hanoverian coat of arms of King George I, an architectural vignette of ships of the line and a vignette of Hercules slaying the Hydra and of Athena atop a cannon. Advert. 9. A Correct Map of Ireland to the Honourable Sr William Robinson Knight and includes the Knight family coat of arms. . OCLC 316385656, Sachische Landesbibliothek, Germany. 10. A New & Correct Map of England & Wales Now Called South Britain. Includes alphabetical tables on the left and right of the map of the Cities and Market Towns in England and Wales. There are vignettes of the important towns, cities and castles viewed from the sea or overlooking the sea. 11. A New & Correct Map of Thirty Miles Round London. Shows all of the Towns, Villages, Roads, with the Seats of the Nobility & Gentry and has lists contained within tables to the left and right of the map.  OCLC 60918816 12. A New & Exact Map of Germany Corrected According to the Newest Observations. 13. A New & Exact Map of Spain & Portugal Corrected According to the Best Observations. OCLC 431531742, Biblioteca Nacional de Espana. 14. A New and Exact Map of France Corrected from the Observations made By the Royal Academy of Sciences at Paris. 15. A New & Correct Map of Italy Done From The Latest Discoveries & Observations communicated to the Royal Society of London, The Royal Academy of Paris. Includes the longitude and latitude from London. There are vignettes of the cities and some of the important sites of Italy. OCLC 316386136 16. A Correct Map of Moscovy humbly dedicated To The Honourable Sr Thomas Powell. 17. A New and Exact Map of Sweden and Norway. Includes a vignette of Stockholm. Illus advert. OCLC 316387211 (copy in NLS, in atlas; National Library of Sweden, as OCLC 668199887)             18. A map of Turkey in Europe. Features a vignette of a Greek hoplite slaying two Ottoman soldiers and Azrael standing to the side. Illus advert, OCLC 751005185. National Library of Israel. 19. A map of Hungary. Includes vignettes either side of the map of the major cities and other strategic locations. OCLC, 941032082, copy in UCL; as OCLC 494672927 in BNF 20. A New and Correct Map of the X Spanish Province. Includes a vignette of a Spanish star fort and equipment and tactics used to attack and defend a star fort. OCLC 54321842, Copy in CUL 21. A New Map of Suabia. OCLC 316387183 (NLS atlas copy) 22. Greciae Antiquae tabulam hanc novum… Dedication incorporates title: \"Viro honoratissimo Roberto Harley armigero uni ex preafectis Aerarii regii fisci cancellario et Regiae Maiesati a secretioribus consiliis Greciae Antiquae tabulam hanc novam DDD Servus obsequentissimus Carolus Price.\"/ Dated from imprint: Timothy Brandreth and Willdey are known to have worked together in 1712. OCLC 316387239 (NLS atlas copy) 23. A map of Yorkshire. Features coat of arms from the nobility of Yorkshire encircling the title. Map of the county of Yorkshire, showing the towns and cities, rivers, hills, woods, and lakes. Ships and whales in the sea. Shows title in a decorative cartouche formed of palms and cornucopias to the lower left, numerous armorials surrounding the cartouche. Shows scale bar to the left margin. 18th c. reissue of Saxton's 1577 map of Yorkshire. OCLC 1063236074 BL (K Top). 24. The Roads of England According to Mr Ogilby’s Survey, circular map within elaborate border, b/w..  OCLC 557284413 CUL 25. A map of the VII United Provinces dedicated to Elihu Yale esq. Features a vignette surrounding the title featuring Poseidon with mermen, mythical seahorses and a somewhat perturbing sea-monster with four eyes. 26. A map of Poland dedicated to Sr James Hallett Kt. OCLC 498118768 (BL atlas) Institutional holdings exclude maps in the four composite atlases - unless specified as being the only available reference.\" (Tim Bryars, 2019)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "13539.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "26"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "67"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Image No",
+                  "value": "13539007.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/185/13539007.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Willdey, George"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~329366~90097826/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~329366~90097826/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~329366~90097826",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 17314,
+                    "height": 11602
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~329366~90097826/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~329366~90097826/list/luna"
+              ],
+              "width": 17314,
+              "height": 11602
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~329366~90097826"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~297670~90069381/manifest",
+      "label": "Africae in Tabula Geographica Delineatio",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~297670~90069381/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~297670~90069381/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Africae in Tabula Geographica Delineatio",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Visscher, Nicolaes, 1649-1702"
+                },
+                {
+                  "label": "Author",
+                  "value": "Schenk, Petrus, 1693-1775"
+                },
+                {
+                  "label": "Author",
+                  "value": "Zurner, Adam Friedrich, 1679-1742."
+                },
+                {
+                  "label": "Date",
+                  "value": "1740"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Africae in Tabula Geographica Delineatio"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Nicolaum Visscher"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "50"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "58"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "21,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Engraved hand colored in outline map of Africa with decorative cartouche, table and text. Published by A. F. Zuerner, printed by P. Schenk. Shows political boundaries, cities, towns, rivers and mountains. Relief shown pictorially."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Shirley, R.W. Mapping the world (4th ed.) 639"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Africae in Tabula Geographica Delineatio : admentem novissimorum eorumque optimorum geographorum emendata, indicibus utilissimis aucta et adusum Tyronum imprimis geographicorum variis compendiosae methodi adminiculis accomodata. Opera A.F. Zurneri ... Ex officina Petri Schenkii. In Platea vulgo de Warmoes straat sub signo N. Visscher athlas. (to accompany) Atlas minor sive Totius orbis terrarum contracta delinea ex conatibus Nic. Visscher."
+                },
+                {
+                  "label": "List No",
+                  "value": "11611.009"
+                },
+                {
+                  "label": "Series No",
+                  "value": "9"
+                },
+                {
+                  "label": "Page No",
+                  "value": "5"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Visscher, Nicolaes, 1649-1702"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Schenk, Petrus, 1693-1775"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1740"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlas minor sive Totius orbis terrarum contracta delinea ex conatibus Nic. Visscher. Amst. Bat : Apud Nicolaum Visscher Cum privil: ordin: general: belgii foederati. Ger. de Lairesse detin & Sculp."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Shirley, R.W. Mapping the world (4th ed.) 639"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Visscher's Atlas minor, printed by Petrus Schenk and Reinier & Iosua Ottens. Atlas consists of hand colored title page, engraved by Ger. de Lairesse, and manuscript index page, listing 23 maps, double page engraved hand colored in outline, by Visscher, Schenk, Mortier, Ottens, F. Zuerner, H. Jaillot, Delisle, G. and L. Valk, and De Witt. Including: a double-hemispheric world, northern hemisphere, southern hemisphere, maps of the continents (Europe, Asia, Africa, and America), followed by maps of European regions (including Russia), and a map of the Holy Land. Atlas lacks sheet no. 17 (Hungaria ... ). Maps are in Latin, French and Dutch. Maps are undated, except the the map of L' Hemisphere Septentrional, dated 1740, map of Poland, dated 1734, and map of Terra sancta, dated 1659. Bound in half vellum over marbled paper covered boards. Not in Koeman"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11611.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "23"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "56"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "35"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11611009.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/171/11611009.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Visscher, Nicolaes, 1649-1702; Schenk, Petrus, 1693-1775; Zurner, Adam Friedrich, 1679-1742."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~297670~90069381/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~297670~90069381/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~297670~90069381",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12242,
+                    "height": 9524
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~297670~90069381/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~297670~90069381/list/luna"
+              ],
+              "width": 12242,
+              "height": 9524
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~297670~90069381"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/wk210cf6868/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Africa: Industries and Communications",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/wk210cf6868.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/wk210cf6868'>https://purl.stanford.edu/wk210cf6868</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Africa: Industries and Communications"
+        },
+        {
+          "label": "Type",
+          "value": "cartographic"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : col. ; 35 x 47 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "\"The Amalgamated Press Limited, London.\""
+        },
+        {
+          "label": "Description",
+          "value": "Lower right: \"136.\" Upper right: \"135.\""
+        },
+        {
+          "label": "Description",
+          "value": "\"The London Geographical Institute.\""
+        },
+        {
+          "label": "Description",
+          "value": "On verso: The Harmsworth Universal Atlas. Nos. 135-136.  Africa: Industries and Communications. Index to the Commerical maps of the of the continents"
+        },
+        {
+          "label": "Subject",
+          "value": "Africa"
+        },
+        {
+          "label": "Subject",
+          "value": "WORLD."
+        },
+        {
+          "label": "Subject",
+          "value": "Industries and Communications-"
+        },
+        {
+          "label": "Subject",
+          "value": "1906-1908."
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:20,000,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "18°00′00″W -- 51°00′00″E / 37°00′00″N -- 35°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1906"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/wk210cf6868"
+        },
+        {
+          "label": "Relation",
+          "value": "Caroline Batchelor Map Collection"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "\"The Amalgamated Press Limited, London.\"",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wk210cf6868%2Fwk210cf6868_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wk210cf6868%2Fwk210cf6868_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 305,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/wk210cf6868/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/wk210cf6868/iiif/canvas/cocina-fileSet-wk210cf6868-830de5ba-0f57-4c63-a008-f0b8184692ec",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 12623,
+              "width": 9613,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/wk210cf6868/wk210cf6868_00_0001.jp2",
+                  "label": "Original source file (21.8 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/wk210cf6868/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fwk210cf6868-830de5ba-0f57-4c63-a008-f0b8184692ec%2Fwk210cf6868_00_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/wk210cf6868/iiif/canvas/cocina-fileSet-wk210cf6868-830de5ba-0f57-4c63-a008-f0b8184692ec",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/wk210cf6868%2Fwk210cf6868_00_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 12623,
+                    "width": 9613,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/wk210cf6868%2Fwk210cf6868_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~281807~90054775/manifest",
+      "label": "Confiance ... ses Amputations se Poursuivent Methodiquement (Be reassured, the amputations (of his tentacles) are proceeding methodically.)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~281807~90054775/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~281807~90054775/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Confiance ... ses Amputations se Poursuivent Methodiquement (Be reassured, the amputations (of his tentacles) are proceeding methodically.)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "SPK"
+                },
+                {
+                  "label": "Date",
+                  "value": "1942"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Confiance ... ses Amputations se Poursuivent Methodiquement (Be reassured, the amputations (of his tentacles) are proceeding methodically.)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "117"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "80"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Europe"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Event",
+                  "value": "World War II"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Military"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Satirical"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Confiance ... ses Amputations se Poursuivent Methodiquement (Be reassured, the amputations (of his tentacles) are proceeding methodically)."
+                },
+                {
+                  "label": "List No",
+                  "value": "9750.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "SPK"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1942"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Confiance ... ses Amputations se Poursuivent Methodiquement (Be reassured, the amputations (of his tentacles) are proceeding methodically)."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Mounted on heavy paper on muslin. A famous Vichy France / anti-British Nazi Propaganda poster. The image depicts Winston Churchill as a voracious hydra with tentacles grabbing key sites of British involvement in the Second World War. The tentacles are shown being amputated apparently by the German forces and their allies. The image is a fine example of anti-British propaganda produced under the French occupation after Germany defeated France in 1940. The strategic locations singled out on the map are meant to appeal to the emotions of the French people. Fresh in the public consciousness were Britain's controversial campaigns against German expansion in the French colonial sites of Dakar and Mers-el-Kébir, which left many Frenchmen dead."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "9750.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "117"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "80"
+                },
+                {
+                  "label": "Image No",
+                  "value": "9750000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/9750000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "SPK"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~281807~90054775/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~281807~90054775/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~281807~90054775",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 15954,
+                    "height": 23736
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~281807~90054775/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~281807~90054775/list/luna"
+              ],
+              "width": 15954,
+              "height": 23736
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~281807~90054775"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~274138~90047914/manifest",
+      "label": "South African Airways Route Map.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~274138~90047914/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~274138~90047914/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "South African Airways Route Map.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "South African Airways"
+                },
+                {
+                  "label": "Date",
+                  "value": "1950"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "South African Airways Route Map."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "South African Airways"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "45"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Note",
+                  "value": "Date estimated. Also shows main railways."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Europe"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Airlines"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "South African Airways Route Map Shewing Internal Services and Springbox Service Routes between South Africa and the United Kingdom."
+                },
+                {
+                  "label": "List No",
+                  "value": "9498.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "W.B.&D."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "South African Airways"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1950"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "South African Airways Route Map Shewing Internal Services and Springbox Service Routes between South Africa and the United Kingdom."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Date estimated. One side in English, reverse in Afrikaner."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "9498.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "2"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "45"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Image No",
+                  "value": "9498001.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/9498001.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "South African Airways"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~274138~90047914/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~274138~90047914/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~274138~90047914",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 6814,
+                    "height": 9068
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~274138~90047914/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~274138~90047914/list/luna"
+              ],
+              "width": 6814,
+              "height": 9068
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~274138~90047914"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347334~90114811/manifest",
+      "label": "U.A.T. Sert l'Afrique.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~347334~90114811/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347334~90114811/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "U.A.T. Sert l'Afrique.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Union Aéromaritime de Transport"
+                },
+                {
+                  "label": "Date",
+                  "value": "1956"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "U.A.T. Sert l'Afrique."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Union Aéromaritime de Transport"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Paris"
+                },
+                {
+                  "label": "Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "67"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "53"
+                },
+                {
+                  "label": "Note",
+                  "value": "Pocket airline map of Africa. Title translates to: U.A.T. serves Africa. Shows cities, airports, air routes, topography, bodies of water, drainage, coastlines and islands. Relief shown with shading. With table: Principales distances. Text: Principales adresses. Printed in color. Map is 67 x 53 cm, on sheet 75 x 54 cm."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Airlines"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "U.A.T. Sert l'Afrique."
+                },
+                {
+                  "label": "List No",
+                  "value": "14448.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Union Aéromaritime de Transport"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1956"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "U.A.T. Sert l'Afrique par Jet DC8. Jep et Carre, Paris. Impriné en France."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "U.A.T. Sert l'Afrique par Jet DC8, by Union Aéromaritime de Transport (U.A.T.); published in Paris, circa 1956. Pocket airline map of Africa. Front cover includes title. Title translates to: U.A.T. Serves Africa by Jet DC8. Map shows cities, airports, air routes, topography, bodies of water, drainage, coastlines and islands. With scenes of planes and descriptive text on verso. Printed in color."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14448.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Pocket Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "26"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "11"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14448002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/14448002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Union Aéromaritime de Transport"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347334~90114811/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347334~90114811/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347334~90114811",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12988,
+                    "height": 17970
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347334~90114811/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347334~90114811/list/luna"
+              ],
+              "width": 12988,
+              "height": 17970
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~347334~90114811"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288935~90060520/manifest",
+      "label": "Picture map of Africa",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~288935~90060520/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288935~90060520/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Picture map of Africa",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Shacklett, Juanita Purvis"
+                },
+                {
+                  "label": "Date",
+                  "value": "1964"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Picture map of Africa"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Friendship Press"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "127"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "96"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Uncolored pictorial map on sheet 127x96, as issued with sheet of descriptive text, and sheet of vignette images of life in Africa, folded to 30.5x23. Includes thirty three outline sketches of life in Africa. Map illustrating animals, landmarks, types of homes, churches, farms, means of travel, child life, village life, town life, mission activities, political boundaries and musical instruments. \"This picture map is an exciting and valuable teaching tool for used with children\". \"A decorative map, which may be colored, together with an insert sheet containing informative notes and pictures to be cut out and pasted on the map.\""
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Picture map of Africa. Printed in the United States of America. Copyright 1957 by Friendship Press, Inc. Revised 1964. Descriptive text by Juanita Purvis. copyright 1957 ... revised 1959."
+                },
+                {
+                  "label": "List No",
+                  "value": "11263.003"
+                },
+                {
+                  "label": "Series No",
+                  "value": "3"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Shacklett, Juanita Purvis"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1964"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Picture map of Africa. Printed in the United States of America. Copyright 1957 by Friendship Press, Inc. Revised 1964. Descriptive text by Juanita Purvis. copyright 1957 ... revised 1959."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11263.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11263003.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/11263003.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Shacklett, Juanita Purvis"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288935~90060520/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288935~90060520/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288935~90060520",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 19180,
+                    "height": 25318
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288935~90060520/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288935~90060520/list/luna"
+              ],
+              "width": 19180,
+              "height": 25318
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~288935~90060520"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288934~90060521/manifest",
+      "label": "Text Page: Picture map of Africa. Descriptive text",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~288934~90060521/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288934~90060521/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Text Page: Picture map of Africa. Descriptive text",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Shacklett, Juanita Purvis"
+                },
+                {
+                  "label": "Date",
+                  "value": "1964"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Text Page: Picture map of Africa. Descriptive text"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Friendship Press"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Text Page"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "46"
+                },
+                {
+                  "label": "Note",
+                  "value": "Uncolored pictorial map on sheet 127x96, as issued with sheet of descriptive text, and sheet of vignette images of life in Africa, folded to 30.5x23. Includes thirty three outline sketches of life in Africa. Map illustrating animals, landmarks, types of homes, churches, farms, means of travel, child life, village life, town life, mission activities, political boundaries and musical instruments. \"This picture map is an exciting and valuable teaching tool for used with children\". \"A decorative map, which may be colored, together with an insert sheet containing informative notes and pictures to be cut out and pasted on the map.\""
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Text Page to) Picture map of Africa. Printed in the United States of America. Copyright 1957 by Friendship Press, Inc. Revised 1964. Descriptive text by Juanita Purvis. copyright 1957 ... revised 1959."
+                },
+                {
+                  "label": "List No",
+                  "value": "11263.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Shacklett, Juanita Purvis"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1964"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Picture map of Africa. Printed in the United States of America. Copyright 1957 by Friendship Press, Inc. Revised 1964. Descriptive text by Juanita Purvis. copyright 1957 ... revised 1959."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11263.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11263002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/11263002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Shacklett, Juanita Purvis"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288934~90060521/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288934~90060521/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288934~90060521",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 18222,
+                    "height": 12204
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288934~90060521/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288934~90060521/list/luna"
+              ],
+              "width": 18222,
+              "height": 12204
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~288934~90060521"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369649~90137024/manifest",
+      "label": "Africa Telecommunications Map 2022",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~369649~90137024/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369649~90137024/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Africa Telecommunications Map 2022",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "TeleGeography, Inc."
+                },
+                {
+                  "label": "Author",
+                  "value": "Telecom Egypt"
+                },
+                {
+                  "label": "Date",
+                  "value": "2022"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Africa Telecommunications Map 2022"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "TeleGeography, Inc."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington, D.C."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Telecom Egypt"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington, D.C."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "127"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "92"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Communications"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Internet"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Oceans; Seas"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Africa Telecommunications Map 2022"
+                },
+                {
+                  "label": "List No",
+                  "value": "16305.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "TeleGeography, Inc."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Telecom Egypt"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "2022"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Africa Telecommunications Map 2022"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Gregory Staple coined the term “telegeography” in 1990 to describe the unprecedented new reach and impact of the world’s electronic communications networks. Rather than presaging the \"death of distance\", telegeography held that the rise of digital networks reflected an explosion of place (e.g., myriad new dialing codes, URLs, email addresses) that was dividing traditional social groups and splintering physical geographies of space and time .\n\nIn 1993, Staple founded TeleGeography, Inc. (TGI) to research and compile reliable country-by-country statistics on the flow of international telephone and data traffic. TGI also began to map the physical infrastructure underlying these communications streams (subsea cables, landing stations, communication satellites, tele-houses). \n\nBuilding on work published by London’s International Institute of Communications (IIC), where Staple worked in the late 1980’s, TGI issued annual statistical reports with commentary detailing the volume of cross-border telecommunications traffic and network links between over 50 countries - see the reports archive at https://www2.telegeography.com/telegeography-report-archive\n\nIn 1996, TGI began to publish an annual poster-size map  of the world’s submarine telecommunication cables and landing stations - https://www.davidrumsey.com/luna/servlet/s/i6v93f \n \nSome maps also included the footprints of major satellite networks. TGI's 2025 global communications map covers the approximately 600 international subsea cable systems that make up the Internet’s principal electronic backbone - https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~369655~90137030:Submarine-Cable-Map-2025?qvq=q:telegeography;lc:RUMSEY~8~1&mi=37&trs=39  \n\nThis 2014 Medium post recounts the history of TGI’s first 25 years - https://gregstaple.medium.com/mapping-tomorrow-c340d7dcc03f\n\nMap and image are copyright by TeleGeography, Inc. www.telegeography.com  For copies of TeleGeography maps that are still in print, see https://shop.telegeography.com/collections/telecom-maps"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16305.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "127"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "92"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16305000.jp2"
+                },
+                {
+                  "label": "Authors",
+                  "value": "TeleGeography, Inc.; Telecom Egypt"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369649~90137024/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369649~90137024/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369649~90137024",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 22094,
+                    "height": 30426
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369649~90137024/canvas/c1"
+                }
+              ],
+              "width": 22094,
+              "height": 30426
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~369649~90137024"
+    }
+  ]
+}
