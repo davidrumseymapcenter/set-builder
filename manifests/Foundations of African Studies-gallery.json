@@ -1,8 +1,8 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Collection",
-  "@id": "https://iiif-gallery-builder.example.org/European Maps of Africa",
-  "label": "European Maps of Africa",
+  "@id": "https://iiif-gallery-builder.example.org/Foundations of African Studies",
+  "label": "Foundations of African Studies",
   "items": [
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
