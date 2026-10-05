@@ -1,0 +1,2410 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Collection",
+  "@id": "https://iiif-gallery-builder.example.org/Foundations of African Studies",
+  "label": "Foundations of African Studies",
+  "items": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/hw011ng0751/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Totius Africæ tabula & deſcriptio univerſalis etiam ultra Ptolemæi limites extenſa",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/hw011ng0751.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/hw011ng0751'>https://purl.stanford.edu/hw011ng0751</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Totius Africæ tabula & deſcriptio univerſalis etiam ultra Ptolemæi limites extenſa"
+        },
+        {
+          "label": "Creator",
+          "value": "Munster, Sebastian, 1489-1552"
+        },
+        {
+          "label": "Contributor",
+          "value": "Munster, Sebastian, 1489-1552"
+        },
+        {
+          "label": "Type",
+          "value": "Cartographic image"
+        },
+        {
+          "label": "Type",
+          "value": "Early maps."
+        },
+        {
+          "label": "Type",
+          "value": "Maps"
+        },
+        {
+          "label": "Format",
+          "value": "1 map ; 26 x 34 cm"
+        },
+        {
+          "label": "Description",
+          "value": "Appears in: Geographia Universalis (1540-1542) (Latin edition)"
+        },
+        {
+          "label": "Description",
+          "value": "Colored"
+        },
+        {
+          "label": "Description",
+          "value": "Latin edition of Munster's map (see NOR 0002). Includes three places printed upside down: Quiloa, Mantes and Regnu[m]."
+        },
+        {
+          "label": "Description",
+          "value": "Woodcut"
+        },
+        {
+          "label": "Description",
+          "value": "David Rumsey Map Center copy 1: Norwich no. NOR 0003."
+        },
+        {
+          "label": "Citation/Reference",
+          "value": "Norwich, I., Pam Kolbe, and Jeffrey C Stone. Norwich's Maps of Africa: An Illustrated and Annotated Carto-Bibliography. 2nd ed. / rev. and edited by Jeffrey C. Stone. Norwich, Vt.: Terra Nova Press, 1997, map 0003, p. 6"
+        },
+        {
+          "label": "Acquisition",
+          "value": "Dr. Oscar I. Norwich"
+        },
+        {
+          "label": "Subject",
+          "value": "Africa > Maps."
+        },
+        {
+          "label": "Coverage",
+          "value": "No scale given"
+        },
+        {
+          "label": "Coverage",
+          "value": "18°00′00″W -- 51°00′00″E / 37°00′00″N -- 35°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1542"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/hw011ng0751"
+        },
+        {
+          "label": "Relation",
+          "value": "Dr. Oscar I. Norwich collection of maps of Africa and its islands : 1486 - ca. 1865"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-14"
+        }
+      ],
+      "description": "Appears in: Geographia Universalis (1540-1542) (Latin edition)",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/hw011ng0751%2FAM_0504/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/hw011ng0751%2FAM_0504",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 400,
+        "height": 343
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/hw011ng0751/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/hw011ng0751/iiif/canvas/cocina-fileSet-hw011ng0751-577442fe-e6e7-430f-9b6a-fbbd890532ac",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 9540,
+              "width": 11129,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/hw011ng0751/AM_0504.jp2",
+                  "label": "Original source file (19.1 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/hw011ng0751/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fhw011ng0751-577442fe-e6e7-430f-9b6a-fbbd890532ac%2FAM_0504.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/hw011ng0751/iiif/canvas/cocina-fileSet-hw011ng0751-577442fe-e6e7-430f-9b6a-fbbd890532ac",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/hw011ng0751%2FAM_0504/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 9540,
+                    "width": 11129,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/hw011ng0751%2FAM_0504",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~275230~90048535/manifest",
+      "label": "(4) Africae Tabula Nova.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~275230~90048535/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~275230~90048535/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "(4) Africae Tabula Nova.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Ortelius, Abraham, 1527-1598"
+                },
+                {
+                  "label": "Date",
+                  "value": "1570"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "(4) Africae Tabula Nova."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Gielis Coppens van Diest"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Antwerp"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "37"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "50"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "23,000,000"
+                },
+                {
+                  "label": "Reference",
+                  "value": "Koeman Ort 4; Van der Krogt 8600:31; Van den Broecke Ort 8"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Africam Graeci Libyam App. Africae Tabula Nova. Edita Antverpiae 1570 Cum Privilegio."
+                },
+                {
+                  "label": "List No",
+                  "value": "10000.017"
+                },
+                {
+                  "label": "Series No",
+                  "value": "17"
+                },
+                {
+                  "label": "Page No",
+                  "value": "4"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Hogenberg, Frans"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Ortelius, Abraham, 1527-1598"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1570"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Theatrum Orbis Terrarum. (Colophon) Auctoris aere & cura impressum absolutumque apud Aegid. Coppenium Diest, Antverpiae M.D.LXX."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Koeman Ort 1B; Van der Krogt 31:001B (with colophon 31:001C). See Dr. Marcel van den Broecke web site for excellent listing of all Ortelius maps http://orteliusmaps.com/ortindexnumber.html"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "First edition of the first atlas of the world. From Koeman: \"The unique position held by Ortelius' Theatrum in the history of cartography is to be attributed primarily to its qualification as 'the world's first regularly produced atlas.' Its great commercial success 'enabled it to make so great a contribution to geographical culture throughout Europe in the later 16th century.' (Skelton). Shape and contents set the standards for later atlases, when the centre of the map-trade moved from Antwerp to Amsterdam. The characteristic feature of the Theatrum is, that it consists of two elements, forming a unitary whole: text and maps. This concept for a \"Theatre of the world\" was followed through the 17th century. Before Ortelius, no one and done this and thus, the chorus of praise which arose as a result of this - and the excellent text - was far from slight... Another important aspect of the Theatrum is that it was the first undertaking of its kind to reduce the best available maps to a uniform format. To that end, maps of various formats and styles had to be generalized just like the modern atlas-publisher of today would do. In selecting maps for his compilation, Ortelius was guided by his critical spirit and his encyclopaedic knowledge of maps. But Ortelius did more that the atlas-makers of today: he mentioned the names of the authors of the original maps and added a great many names of other cartographers and geographers to it... Abraham Ortelius drew all his maps in manuscript before passing them to the engravers... Ortelius stated that nearly all the plates were cut by Frans Hogenberg and his assistants.\" The Theatrum went through many editions in Latin, German, French, Dutch, Spanish, English, and Italian. Van der Krogt lists 37 editions, with the last edition published in 1641, long after Ortelius' death in 1598. Uncolored. Text in Latin."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "10000.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "53"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "42"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "30"
+                },
+                {
+                  "label": "Image No",
+                  "value": "10000017.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/10000017.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Ortelius, Abraham, 1527-1598"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~275230~90048535/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~275230~90048535/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~275230~90048535",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 10166,
+                    "height": 7106
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~275230~90048535/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~275230~90048535/list/luna"
+              ],
+              "width": 10166,
+              "height": 7106
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~275230~90048535"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289989~90067423/manifest",
+      "label": "Totius Africae Accuratissima Tabula.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~289989~90067423/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289989~90067423/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Totius Africae Accuratissima Tabula.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Wit, Frederick de"
+                },
+                {
+                  "label": "Date",
+                  "value": "1682"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Totius Africae Accuratissima Tabula."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Frederick de Wit"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Amsterdam"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "50"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "59"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "18,500,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Date estimated."
+                },
+                {
+                  "label": "Reference",
+                  "value": "Koeman Wit 8; Carhart A100b"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Totius Africae Accuratissima Tabula."
+                },
+                {
+                  "label": "List No",
+                  "value": "12220.006"
+                },
+                {
+                  "label": "Series No",
+                  "value": "6"
+                },
+                {
+                  "label": "Page No",
+                  "value": "3"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Wit, Frederick de"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1682"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Atlas. Tot Amsterdam By Frederick de Wit in de Calverstraet bij den Dam inde Witte Paskaert."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "This atlas marks the appearance of a less expensive atlas in the Dutch atlas market. Without text and in small folio size, it begins a move away from the expensive and elaborate atlases of Blaeu and Visscher, towards the more concise atlases that appear in the 18th century. Date estimated. Relief shown in sketches. Outline color. Hand annotations in the margins of some maps. Image No. 12220059.jp2 is a map likely prepared specially for the atlas owner for whom this was a special locale; this would account for the extensive use of gold on the sheet."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "12220.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "100"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "55"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "36"
+                },
+                {
+                  "label": "Image No",
+                  "value": "12220006.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/12220006.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Wit, Frederick de"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~289989~90067423/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~289989~90067423/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~289989~90067423",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 12108,
+                    "height": 9394
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289989~90067423/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289989~90067423/list/luna"
+              ],
+              "width": 12108,
+              "height": 9394
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~289989~90067423"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~325461~90119879/manifest",
+      "label": "(21) L'Africa.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~325461~90119879/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~325461~90119879/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "(21) L'Africa.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Cassini, Gio. Ma. (Giovanni Maria), 1745-approximately 1824"
+                },
+                {
+                  "label": "Date",
+                  "value": "1788"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "(21) L'Africa."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Calcogr. Camerale"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Rome"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "40,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Relief shown pictorially. Includes title decorative cartouche. In Volume I."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(21) L'Africa. Secondo le ultime osservazioni divisa ne' suoi stati principali. Roma, presso la Calcografia Camle., 1788."
+                },
+                {
+                  "label": "List No",
+                  "value": "14000.045"
+                },
+                {
+                  "label": "Series No",
+                  "value": "45"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "Cassini, Gio. Ma. (Giovanni Maria), 1745-approximately 1824"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Cassini, Gio. Ma. (Giovanni Maria), 1745-approximately 1824"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1801"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Nuovo atlante geografico universale delineato sulle ultime osservazioni (Tom. I, II, III). Roma, presso la Caleogr. Camerale, (MDCCXCII, MDCCXCVII, MDCCCI)."
+                },
+                {
+                  "label": "Pub Reference",
+                  "value": "Phillips 670; Tooley 243"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "3-volume atlas contains 182 maps: 55 in Volume I, 70 in Volume II and 57 in Volume III. Dimensions: Volume I = 44 x 33 cm; Volume II = 47 x 33 cm; Volume III = 48 x 34. Board covers with abbreviated spine titles: Atlante geografico universale I -- Atlante geografico universale II -- Atlante geografico universale III. Cassini was both a painter and engraver who trained in Rome under Giambattista Piranesi (1720-1778). \"Piranesi taught him the strict principles of Roman and Greek architecture, albeit that both Piranesi and Cassini utilized classical images in a Baroque style and context. Cassini's preparedness to contemplate a hybrid classical format - incorporating classical architecture and figures as fashionable forms - characterized a celestial glove he engraved in 1792. Cassini produced influential atlases, maps and globes at a time of major political upheaval in Europe. Many redrawn boundaries followed in the wake of the French Revolution and Napoleon's conquest. While Britain, Spain and France were engaged in worldwide imperial conflict, Cassini's views emerged, anticipating by over fifty years the insurrections in Italy in 1831 and 1848-49, as well as Cavour's advocacy at the Congress of Paris in 1856 of an \"Italian State\". The survival of some of Cassini's globes in Italian schools attests to his educational contribution to the emergence of Italian nationalism, if not to the great power campaigns and treaties that led to the creation of the Kingdom of Italy in 1859-60. Cassini's globes also provide insights into the ecclesiastical politics of Rome, and to successive military occupations of the Papal Sates - occupations that led to loss of sovereignty and the Law of Guarantees of 1871, passed by an Italian Parliament to safeguard the Pope in the Vatican\". - Baldwin, Robert W. (1995). P. Giovanni Maria Cassini, C.R.S. (1745-1824 ca.) and his globes. International Coronelli Society for the Study of Globes, (43/44), 201-218. https://www.jstor.org/stable/41622076"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14000.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "182"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "47"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14000045.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/205/14000045.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Cassini, Gio. Ma. (Giovanni Maria), 1745-approximately 1824"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~325461~90119879/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~325461~90119879/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~325461~90119879",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 16656,
+                    "height": 10524
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~325461~90119879/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~325461~90119879/list/luna"
+              ],
+              "width": 16656,
+              "height": 10524
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~325461~90119879"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~233051~5509636/manifest",
+      "label": "Africa",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~233051~5509636/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~233051~5509636/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Africa",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Arrowsmith, Aaron"
+                },
+                {
+                  "label": "Date",
+                  "value": "1802"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "A. Arrowsmith"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "London"
+                },
+                {
+                  "label": "Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "126"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "147"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "6,740,529"
+                },
+                {
+                  "label": "Note",
+                  "value": "One of the first maps of Africa to show the true state of geographical knowledge of the continent, hence the vast areas of the map with no information - this was Arrowsmith's style when he mapped Africa, the America's and other parts of the world where geographic information was both unknown and evolving. From Mapforum #5 \"...one of the greatest maps ever published. Arrowsmith simply stripped away centuries of accumulated myth, misconception and unsustainable guesswork, and took the mapping of Africa back to the bare bones of substantiated fact, leaving the interior as a blank canvas, a challenge to a new generation of explorers. As a picture, many of his predecessors of a century earlier would not have thought of publishing it, as a statement of intent it raised the standard for geographical accuracy above that practised by the vast majority of his contemporaries\""
+                },
+                {
+                  "label": "Reference",
+                  "value": "MapForum #5"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Africa. To the Committee and Members of the British Association for Discovering the Interior Parts of Africa. This Map is with Their Permission most respectfully Inscribed, by their most obedient and humble Servant, A. Arrowsmith. A. Arrowsmith, London, Rathbone Place, November 1st, 1802."
+                },
+                {
+                  "label": "List No",
+                  "value": "6906.001"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Arrowsmith, Aaron"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1802"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Africa. To the Committee and Members of the British Association for Discovering the Interior Parts of Africa. This Map is with Their Permission most respectfully Inscribed, by their most obedient and humble Servant, A. Arrowsmith. A. Arrowsmith, London, Rathbone Place, November 1st, 1802."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Aaron Arrowsmith (1750-1823) was the finest cartographer of his generation. Although he received little formal education it is believed that he was taught some mathematical instruction by William Emerson, an author of several books on the application of mathematics to the area of cartography. Around 1770, Arrowsmith moved to London to seek employment. It is believed that he worked for William Faden before joining John Cary Sr. in the early 1780s. There he provided the measurements for John Cary's early publication detailing the roads from London to Falmouth, his first signed work. Arrowsmith set up on his own n 1790 and over the next thirty years produced some of the most beautiful and elegant maps of the era."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "6906.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Case Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "126"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "147"
+                },
+                {
+                  "label": "Image No",
+                  "value": "6906001"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/6906001.sid target=_blank>Full Image Download in MrSID Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Arrowsmith, Aaron"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~233051~5509636/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~233051~5509636/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~233051~5509636",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 26399,
+                    "height": 22509
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~233051~5509636/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~233051~5509636/list/luna"
+              ],
+              "width": 26399,
+              "height": 22509
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~233051~5509636"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289484~90061020/manifest",
+      "label": "Wand-Karte von Afrika von Hrm. Berghaus",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~289484~90061020/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289484~90061020/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Wand-Karte von Afrika von Hrm. Berghaus",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Berghaus, Hermann, 1828-1890"
+                },
+                {
+                  "label": "Author",
+                  "value": "Geyer, V."
+                },
+                {
+                  "label": "Date",
+                  "value": "1881"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Wand-Karte von Afrika von Hrm. Berghaus"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Justus Perthes"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Gotha, Germany"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "102"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "125"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "8,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "1 color map on 6 sheets, dissected into sheets 52x41. Relief shown by hachures and gradient tints. Depths shown by bathymetric tints. Shows place names, boundaries, rivers, roads, railroads, canals, ruins, etc. Includes legend and elevation chart. Date estimated."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Wand-Karte von Afrika von Hrm: Berghaus. Gez v. V. Geyer. Gest b. W. Weiler. Goths: Justus Perthes. (inset) Staaten - Ubersicht."
+                },
+                {
+                  "label": "List No",
+                  "value": "9871.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Berghaus, Hermann, 1828-1890"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Geyer, V."
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1881"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Wand-Karte von Afrika von Hrm: Berghaus. Gez v. V. Geyer. Gest b. W. Weiler. Goths: Justus Perthes. (inset) Staaten - Ubersicht."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "9871.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "102"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "125"
+                },
+                {
+                  "label": "Image No",
+                  "value": "9871000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/9871000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Berghaus, Hermann, 1828-1890 ; Geyer, V."
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~289484~90061020/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~289484~90061020/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~289484~90061020",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 25750,
+                    "height": 21120
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289484~90061020/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~289484~90061020/list/luna"
+              ],
+              "width": 25750,
+              "height": 21120
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~289484~90061020"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://purl.stanford.edu/wk210cf6868/iiif/manifest",
+      "@type": "sc:Manifest",
+      "label": "Africa: Industries and Communications",
+      "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "logo": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette/full/400,/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137/SULAIR_rosette",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "seeAlso": {
+        "@id": "https://purl.stanford.edu/wk210cf6868.mods",
+        "format": "application/mods+xml"
+      },
+      "metadata": [
+        {
+          "label": "Available Online",
+          "value": "<a href='https://purl.stanford.edu/wk210cf6868'>https://purl.stanford.edu/wk210cf6868</a>"
+        },
+        {
+          "label": "Title",
+          "value": "Africa: Industries and Communications"
+        },
+        {
+          "label": "Type",
+          "value": "cartographic"
+        },
+        {
+          "label": "Format",
+          "value": "1 map : col. ; 35 x 47 cm."
+        },
+        {
+          "label": "Language",
+          "value": "English"
+        },
+        {
+          "label": "Description",
+          "value": "\"The Amalgamated Press Limited, London.\""
+        },
+        {
+          "label": "Description",
+          "value": "Lower right: \"136.\" Upper right: \"135.\""
+        },
+        {
+          "label": "Description",
+          "value": "\"The London Geographical Institute.\""
+        },
+        {
+          "label": "Description",
+          "value": "On verso: The Harmsworth Universal Atlas. Nos. 135-136.  Africa: Industries and Communications. Index to the Commerical maps of the of the continents"
+        },
+        {
+          "label": "Subject",
+          "value": "Africa"
+        },
+        {
+          "label": "Subject",
+          "value": "WORLD."
+        },
+        {
+          "label": "Subject",
+          "value": "Industries and Communications-"
+        },
+        {
+          "label": "Subject",
+          "value": "1906-1908."
+        },
+        {
+          "label": "Coverage",
+          "value": "Scale [ca. 1:20,000,000]"
+        },
+        {
+          "label": "Coverage",
+          "value": "18°00′00″W -- 51°00′00″E / 37°00′00″N -- 35°00′00″S"
+        },
+        {
+          "label": "Date",
+          "value": "1906"
+        },
+        {
+          "label": "Identifier",
+          "value": "https://purl.stanford.edu/wk210cf6868"
+        },
+        {
+          "label": "Relation",
+          "value": "Caroline Batchelor Map Collection"
+        },
+        {
+          "label": "Record published",
+          "value": "2026-07-21"
+        }
+      ],
+      "description": "\"The Amalgamated Press Limited, London.\"",
+      "thumbnail": {
+        "@id": "https://stacks.stanford.edu/image/iiif/wk210cf6868%2Fwk210cf6868_00_0001/full/!400,400/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://stacks.stanford.edu/image/iiif/wk210cf6868%2Fwk210cf6868_00_0001",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "width": 305,
+        "height": 400
+      },
+      "sequences": [
+        {
+          "@id": "https://purl.stanford.edu/wk210cf6868/iiif/manifest#sequence-1",
+          "@type": "sc:Sequence",
+          "label": "Current order",
+          "viewingDirection": "left-to-right",
+          "canvases": [
+            {
+              "@id": "https://purl.stanford.edu/wk210cf6868/iiif/canvas/cocina-fileSet-wk210cf6868-830de5ba-0f57-4c63-a008-f0b8184692ec",
+              "@type": "sc:Canvas",
+              "label": "Image 1",
+              "height": 12623,
+              "width": 9613,
+              "rendering": [
+                {
+                  "@id": "https://stacks.stanford.edu/file/wk210cf6868/wk210cf6868_00_0001.jp2",
+                  "label": "Original source file (21.8 MB)",
+                  "format": "image/jp2"
+                }
+              ],
+              "images": [
+                {
+                  "@id": "https://purl.stanford.edu/wk210cf6868/iiif/annotation/https:%2F%2Fcocina.sul.stanford.edu%2Ffile%2Fwk210cf6868-830de5ba-0f57-4c63-a008-f0b8184692ec%2Fwk210cf6868_00_0001.jp2",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "https://purl.stanford.edu/wk210cf6868/iiif/canvas/cocina-fileSet-wk210cf6868-830de5ba-0f57-4c63-a008-f0b8184692ec",
+                  "resource": {
+                    "@id": "https://stacks.stanford.edu/image/iiif/wk210cf6868%2Fwk210cf6868_00_0001/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": 12623,
+                    "width": 9613,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://stacks.stanford.edu/image/iiif/wk210cf6868%2Fwk210cf6868_00_0001",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~281807~90054775/manifest",
+      "label": "Confiance ... ses Amputations se Poursuivent Methodiquement (Be reassured, the amputations (of his tentacles) are proceeding methodically.)",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~281807~90054775/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~281807~90054775/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Confiance ... ses Amputations se Poursuivent Methodiquement (Be reassured, the amputations (of his tentacles) are proceeding methodically.)",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "SPK"
+                },
+                {
+                  "label": "Date",
+                  "value": "1942"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Confiance ... ses Amputations se Poursuivent Methodiquement (Be reassured, the amputations (of his tentacles) are proceeding methodically.)"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "117"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "80"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Europe"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Event",
+                  "value": "World War II"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Military"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Satirical"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Confiance ... ses Amputations se Poursuivent Methodiquement (Be reassured, the amputations (of his tentacles) are proceeding methodically)."
+                },
+                {
+                  "label": "List No",
+                  "value": "9750.000"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "SPK"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1942"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Confiance ... ses Amputations se Poursuivent Methodiquement (Be reassured, the amputations (of his tentacles) are proceeding methodically)."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Mounted on heavy paper on muslin. A famous Vichy France / anti-British Nazi Propaganda poster. The image depicts Winston Churchill as a voracious hydra with tentacles grabbing key sites of British involvement in the Second World War. The tentacles are shown being amputated apparently by the German forces and their allies. The image is a fine example of anti-British propaganda produced under the French occupation after Germany defeated France in 1940. The strategic locations singled out on the map are meant to appeal to the emotions of the French people. Fresh in the public consciousness were Britain's controversial campaigns against German expansion in the French colonial sites of Dakar and Mers-el-Kébir, which left many Frenchmen dead."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "9750.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "1"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "117"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "80"
+                },
+                {
+                  "label": "Image No",
+                  "value": "9750000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/9750000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "SPK"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~281807~90054775/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~281807~90054775/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~281807~90054775",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 15954,
+                    "height": 23736
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~281807~90054775/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~281807~90054775/list/luna"
+              ],
+              "width": 15954,
+              "height": 23736
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~281807~90054775"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~368699~90136042/manifest",
+      "label": "Africa. A Friendship Map",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~368699~90136042/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~368699~90136042/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Africa. A Friendship Map",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Jefferson, Louise E. (1908-2002)"
+                },
+                {
+                  "label": "Date",
+                  "value": "1945"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Africa. A Friendship Map"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Friendship Press, Inc."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "73"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "69"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Africa. A Friendship Map"
+                },
+                {
+                  "label": "List No",
+                  "value": "16264.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Jefferson, Louise E. (1908-2002)"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1945"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Africa. A Friendship Map"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "\"Louise Jefferson's Iconic Map of Africa A rare pictorial map promoting peaceful relations with Africa and advocating for African self-determination, independence, and self-rule as the era of colonization approached its conclusion. The cartography is simplified, marking major rivers, cities, and tribal regions while serving as a visual narrative of Africa's diverse natural and cultural landscapes. The illustrations bring Africa to life, featuring iconic landscape elements such as the Sahara Desert, the Kalahari, and lush forests, alongside rich fauna, including giraffes, elephants, and camels. Prominent economic activities such as agriculture, fishing, and industries are highlighted, alongside symbols of modernity and progress, including hospitals, schools, and research centers. The inclusion of airplanes, steam engines, and automobiles reflects the continent's integration into global technological advancements. The map emphasizes African agency and accomplishment, reinforcing its positive vision through textual elements. The upper-left inset notes: \"There is hardly a type of responsible position in Africa today that is not being capably filled somewhere on the continent by an African. Africans build, repair, and pilot airplanes, service and operate automobiles, trucks, steam engines, electrical and radio installations. They are teachers, college professors, nurses, doctors, dentists, lawyers, clergymen, engineers and business men.\" Individuals of significance are also depicted, including “Haile Selassie, Emperor of Ethiopia” and “Mina Soga, World Christian,” underscoring both leadership and global contributions of Africans. This celebration of African progress aligns with the mid-twentieth-century movement toward independence and socio-political transformation across the continent. The map is the work of Louise Jefferson, an African American illustrator and pioneering figure in mid-twentieth-century publishing. Jefferson's composition balances traditional artistic elements with emerging socio-economic realities, creating an artifact that is both a historical document and a statement of hope. Louise E. Jefferson Biography The following Biography is excerpted from the Tulane University website: Jefferson was born in Washington, D.C. in 1908 . . . the only child of Louise and Paul Jefferson. Her father was a calligrapher for the United States Treasury, and her mother made a living playing piano and singing aboard cruise ships on the Potomac River. . . Louise began her training at Hunter College in New York City where she studied fine art, and then on to Columbia University where she studied graphic arts. During her time in New York City, Jefferson became involved with the Harlem Artist’s Guild, and is credited as a founding member. She was an active member of the artistic community during the Harlem Renaissance, and she became close friends with poet Langston Hughes, and shared an apartment with Pauli Murray, who would become an influential activist, lawyer, and priest. At the start of her career, Jefferson designed posters for the YWCA in New York City, until she was discovered by the Friendship Press, the publishing branch for the National Council of Churches. By 1942, Jefferson was the Artistic Director for the Friendship Press and she had control of every aspect of the Press’s book productions. While working for Friendship Press, Jefferson also accepted freelance work from publishing companies Doubleday, Macmillan, and Viking, and also from the University presses of Columbia, Oxford, Rutgers, and Syracuse. Jefferson would retire from the Friendship press in 1960, but she remained busy designing book jackets and maps for publishing companies and Universities. Once retired, Jefferson set her sights on the most ambitious project of her life. Over the course of several years, Jefferson made five trips to Africa to do research for what would become her book, The Decorative Arts of Africa. She travelled the continent extensively, visiting Cameroon, the Democratic Republic of the Congo, Egypt, Gambia, Ghana, Guinea, Liberia, Mali, Niger, Nigeria, Senegal, South Africa, Sudan, Uganda, and Zimbabwe. Jefferson used her photographs and drawings from her adventures to create The Decorative Arts of Africa, which was published in 1973. Containing over 300 illustrations, Louise describes her book “as a visual sampling of what the spirit and tempo of the African artist’s role has been in the past and what it continues to be today.” In her later years, Jefferson settled down in the picturesque town of Litchfield Connecticut, where she maintained an art studio and could always be found with her beloved camera, ready to capture a photo at a moment’s notice. She spent the last few years of her life tending to her garden, entertaining friends, and taking snapshots around Litchfield. Louise Jefferson passed away in 2002 at the age of 93.\" (Ruderman, 2025)"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16264.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "73"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "69"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16264000.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/218/16264000.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Jefferson, Louise E. (1908-2002)"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~368699~90136042/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~368699~90136042/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~368699~90136042",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 17319,
+                    "height": 18276
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~368699~90136042/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~368699~90136042/list/luna"
+              ],
+              "width": 17319,
+              "height": 18276
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~368699~90136042"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~274138~90047914/manifest",
+      "label": "South African Airways Route Map.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~274138~90047914/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~274138~90047914/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "South African Airways Route Map.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "South African Airways"
+                },
+                {
+                  "label": "Date",
+                  "value": "1950"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "South African Airways Route Map."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "South African Airways"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "45"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Note",
+                  "value": "Date estimated. Also shows main railways."
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Europe"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Airlines"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "South African Airways Route Map Shewing Internal Services and Springbox Service Routes between South Africa and the United Kingdom."
+                },
+                {
+                  "label": "List No",
+                  "value": "9498.001"
+                },
+                {
+                  "label": "Series No",
+                  "value": "1"
+                },
+                {
+                  "label": "Engraver or Printer",
+                  "value": "W.B.&D."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "South African Airways"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1950"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "South African Airways Route Map Shewing Internal Services and Springbox Service Routes between South Africa and the United Kingdom."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Date estimated. One side in English, reverse in Afrikaner."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "9498.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "2"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "45"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "34"
+                },
+                {
+                  "label": "Image No",
+                  "value": "9498001.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/162/9498001.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "South African Airways"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~274138~90047914/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~274138~90047914/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~274138~90047914",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 6814,
+                    "height": 9068
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~274138~90047914/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~274138~90047914/list/luna"
+              ],
+              "width": 6814,
+              "height": 9068
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~274138~90047914"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288935~90060520/manifest",
+      "label": "Picture map of Africa",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~288935~90060520/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288935~90060520/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Picture map of Africa",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Shacklett, Juanita Purvis"
+                },
+                {
+                  "label": "Date",
+                  "value": "1964"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Picture map of Africa"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Friendship Press"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "127"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "96"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "None shown"
+                },
+                {
+                  "label": "Note",
+                  "value": "Uncolored pictorial map on sheet 127x96, as issued with sheet of descriptive text, and sheet of vignette images of life in Africa, folded to 30.5x23. Includes thirty three outline sketches of life in Africa. Map illustrating animals, landmarks, types of homes, churches, farms, means of travel, child life, village life, town life, mission activities, political boundaries and musical instruments. \"This picture map is an exciting and valuable teaching tool for used with children\". \"A decorative map, which may be colored, together with an insert sheet containing informative notes and pictures to be cut out and pasted on the map.\""
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Picture map of Africa. Printed in the United States of America. Copyright 1957 by Friendship Press, Inc. Revised 1964. Descriptive text by Juanita Purvis. copyright 1957 ... revised 1959."
+                },
+                {
+                  "label": "List No",
+                  "value": "11263.003"
+                },
+                {
+                  "label": "Series No",
+                  "value": "3"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Shacklett, Juanita Purvis"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1964"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Picture map of Africa. Printed in the United States of America. Copyright 1957 by Friendship Press, Inc. Revised 1964. Descriptive text by Juanita Purvis. copyright 1957 ... revised 1959."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11263.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11263003.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/11263003.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Shacklett, Juanita Purvis"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288935~90060520/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288935~90060520/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288935~90060520",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 19180,
+                    "height": 25318
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288935~90060520/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288935~90060520/list/luna"
+              ],
+              "width": 19180,
+              "height": 25318
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~288935~90060520"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288934~90060521/manifest",
+      "label": "Text Page: Picture map of Africa. Descriptive text",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~288934~90060521/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288934~90060521/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Text Page: Picture map of Africa. Descriptive text",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Shacklett, Juanita Purvis"
+                },
+                {
+                  "label": "Date",
+                  "value": "1964"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Text Page: Picture map of Africa. Descriptive text"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Friendship Press"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "New York"
+                },
+                {
+                  "label": "Type",
+                  "value": "Text Page"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "61"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "46"
+                },
+                {
+                  "label": "Note",
+                  "value": "Uncolored pictorial map on sheet 127x96, as issued with sheet of descriptive text, and sheet of vignette images of life in Africa, folded to 30.5x23. Includes thirty three outline sketches of life in Africa. Map illustrating animals, landmarks, types of homes, churches, farms, means of travel, child life, village life, town life, mission activities, political boundaries and musical instruments. \"This picture map is an exciting and valuable teaching tool for used with children\". \"A decorative map, which may be colored, together with an insert sheet containing informative notes and pictures to be cut out and pasted on the map.\""
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "(Text Page to) Picture map of Africa. Printed in the United States of America. Copyright 1957 by Friendship Press, Inc. Revised 1964. Descriptive text by Juanita Purvis. copyright 1957 ... revised 1959."
+                },
+                {
+                  "label": "List No",
+                  "value": "11263.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Shacklett, Juanita Purvis"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1964"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Picture map of Africa. Printed in the United States of America. Copyright 1957 by Friendship Press, Inc. Revised 1964. Descriptive text by Juanita Purvis. copyright 1957 ... revised 1959."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "See note field above."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "11263.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "31"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "23"
+                },
+                {
+                  "label": "Image No",
+                  "value": "11263002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/168/11263002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=\"https://www.extensis.com/support/geoviewer-9\" target=\"_blank\">GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Shacklett, Juanita Purvis"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288934~90060521/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288934~90060521/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~288934~90060521",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 18222,
+                    "height": 12204
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288934~90060521/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~288934~90060521/list/luna"
+              ],
+              "width": 18222,
+              "height": 12204
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~288934~90060521"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347347~90114858/manifest",
+      "label": "Africa.",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~347347~90114858/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347347~90114858/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Africa.",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "Pistacchi, Andre"
+                },
+                {
+                  "label": "Date",
+                  "value": "1986"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Africa."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Milano libri edizioni"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Milan"
+                },
+                {
+                  "label": "Type",
+                  "value": "Atlas Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "64"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "68"
+                },
+                {
+                  "label": "Scale 1",
+                  "value": "13,000,000"
+                },
+                {
+                  "label": "Note",
+                  "value": "Pictorial map of Africa, depicting adventures of the character Corto Maltese. Also shows indigenous territories, cities, routes, topography, deserts, bodies of water, drainage, coastlines and islands. Relief shown with hachures. Features illustrations of people, animals and plants. Includes numerous inset maps of various types, as well as images of stamps and other ephemera surrounding the continent. With vignette portraits of historical and literary figures, such as David Livingstone and Lawrence of Arabia. Descriptive text throughout, including notes on colonial explorations. Colored lithograph. Map is 64 x 68 cm, on sheet 69 x 74 cm, folded to 23 x 19 cm. \"Allegato al n. 2 di Corto Maltese 1986 ... \""
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Pictorial map"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Ethnography; Nationality; Race"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Exploration"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Historical"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Africa. Africa map by Andrea Pistacchi."
+                },
+                {
+                  "label": "List No",
+                  "value": "14405.002"
+                },
+                {
+                  "label": "Series No",
+                  "value": "2"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Pratt, Hugo"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Pistacchi, Andrea"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Lenotti, Giuliano"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Utimpergher, Paolo"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "1986"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Le mappe blu dell'avventura."
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Le mappe blu dell'avventura, a set of maps featuring the character Corto Maltese, an adventurous sailor created by Italian comic book author Hugo Pratt in 1967. These maps were originally issued as editorial supplements to various issues of Corto Maltese magazine in 1986, and also issued as a set. As a set, the maps are each folded and housed within a paper slipcase with an illustration of Corto Maltese on the front cover. Together, the maps provide almost global coverage, showing Africa, North America, China, India, Oceania and South America. Maps show indigenous territories, cities, routes, topography, deserts, bodies of water, drainage, coastlines and islands. Maps features illustrations of people, animals and plants. Maps include numerous inset maps of various types, as well as images of stamps and other ephemera. With vignette portraits of historical and literary figures. Descriptive text throughout maps, including notes on colonial explorations. Maps in this copy placed in alphabetical order. Interior of case credits Andrea Pistacchi, as well as collaborators Giuliano Lenotti and Paolo Utimpergher."
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "14405.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "World Atlas"
+                },
+                {
+                  "label": "Pub Maps",
+                  "value": "6"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "24"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "19"
+                },
+                {
+                  "label": "Image No",
+                  "value": "14405002.jp2"
+                },
+                {
+                  "label": "Download 1",
+                  "value": "<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/199/14405002.jp2 target=_blank>Full Image Download in JP2 Format</a>"
+                },
+                {
+                  "label": "Download 2",
+                  "value": "<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>"
+                },
+                {
+                  "label": "Authors",
+                  "value": "Pistacchi, Andre"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347347~90114858/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347347~90114858/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~347347~90114858",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 17744,
+                    "height": 16470
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347347~90114858/canvas/c1"
+                }
+              ],
+              "otherContent": [
+                "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~347347~90114858/list/luna"
+              ],
+              "width": 17744,
+              "height": 16470
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~347347~90114858"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "sc:Manifest",
+      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369649~90137024/manifest",
+      "label": "Africa Telecommunications Map 2022",
+      "attribution": "David Rumsey Historical Map Collection",
+      "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://www.davidrumsey.com/luna/servlet/iiif/services/RUMSEY~8~1~369649~90137024/search",
+        "profile": "http://iiif.io/api/search/1/search"
+      },
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369649~90137024/canvas/c1",
+              "@type": "sc:Canvas",
+              "label": "Africa Telecommunications Map 2022",
+              "description": "",
+              "metadata": [
+                {
+                  "label": "Author",
+                  "value": "TeleGeography, Inc."
+                },
+                {
+                  "label": "Author",
+                  "value": "Telecom Egypt"
+                },
+                {
+                  "label": "Date",
+                  "value": "2022"
+                },
+                {
+                  "label": "Short Title",
+                  "value": "Africa Telecommunications Map 2022"
+                },
+                {
+                  "label": "Publisher",
+                  "value": "TeleGeography, Inc."
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington, D.C."
+                },
+                {
+                  "label": "Publisher",
+                  "value": "Telecom Egypt"
+                },
+                {
+                  "label": "Publisher Location",
+                  "value": "Washington, D.C."
+                },
+                {
+                  "label": "Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Obj Height cm",
+                  "value": "127"
+                },
+                {
+                  "label": "Obj Width cm",
+                  "value": "92"
+                },
+                {
+                  "label": "World Area",
+                  "value": "Africa"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Communications"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Internet"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Data Visualization"
+                },
+                {
+                  "label": "Subject",
+                  "value": "Oceans; Seas"
+                },
+                {
+                  "label": "Full Title",
+                  "value": "Africa Telecommunications Map 2022"
+                },
+                {
+                  "label": "List No",
+                  "value": "16305.000"
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "TeleGeography, Inc."
+                },
+                {
+                  "label": "Publication Author",
+                  "value": "Telecom Egypt"
+                },
+                {
+                  "label": "Pub Date",
+                  "value": "2022"
+                },
+                {
+                  "label": "Pub Title",
+                  "value": "Africa Telecommunications Map 2022"
+                },
+                {
+                  "label": "Pub Note",
+                  "value": "Gregory Staple coined the term “telegeography” in 1990 to describe the unprecedented new reach and impact of the world’s electronic communications networks. Rather than presaging the \"death of distance\", telegeography held that the rise of digital networks reflected an explosion of place (e.g., myriad new dialing codes, URLs, email addresses) that was dividing traditional social groups and splintering physical geographies of space and time .\n\nIn 1993, Staple founded TeleGeography, Inc. (TGI) to research and compile reliable country-by-country statistics on the flow of international telephone and data traffic. TGI also began to map the physical infrastructure underlying these communications streams (subsea cables, landing stations, communication satellites, tele-houses). \n\nBuilding on work published by London’s International Institute of Communications (IIC), where Staple worked in the late 1980’s, TGI issued annual statistical reports with commentary detailing the volume of cross-border telecommunications traffic and network links between over 50 countries - see the reports archive at https://www2.telegeography.com/telegeography-report-archive\n\nIn 1996, TGI began to publish an annual poster-size map  of the world’s submarine telecommunication cables and landing stations - https://www.davidrumsey.com/luna/servlet/s/i6v93f \n \nSome maps also included the footprints of major satellite networks. TGI's 2025 global communications map covers the approximately 600 international subsea cable systems that make up the Internet’s principal electronic backbone - https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~369655~90137030:Submarine-Cable-Map-2025?qvq=q:telegeography;lc:RUMSEY~8~1&mi=37&trs=39  \n\nThis 2014 Medium post recounts the history of TGI’s first 25 years - https://gregstaple.medium.com/mapping-tomorrow-c340d7dcc03f\n\nMap and image are copyright by TeleGeography, Inc. www.telegeography.com  For copies of TeleGeography maps that are still in print, see https://shop.telegeography.com/collections/telecom-maps"
+                },
+                {
+                  "label": "Pub List No",
+                  "value": "16305.000"
+                },
+                {
+                  "label": "Pub Type",
+                  "value": "Separate Map"
+                },
+                {
+                  "label": "Pub Height cm",
+                  "value": "127"
+                },
+                {
+                  "label": "Pub Width cm",
+                  "value": "92"
+                },
+                {
+                  "label": "Image No",
+                  "value": "16305000.jp2"
+                },
+                {
+                  "label": "Authors",
+                  "value": "TeleGeography, Inc.; Telecom Egypt"
+                }
+              ],
+              "thumbnail": {
+                "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369649~90137024/full/!96,96/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "images": [
+                {
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource": {
+                    "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369649~90137024/full/!1024,1024/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~369649~90137024",
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "protocol": "http://iiif.io/api/image"
+                    },
+                    "format": "image/jpeg",
+                    "width": 22094,
+                    "height": 30426
+                  },
+                  "on": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~369649~90137024/canvas/c1"
+                }
+              ],
+              "width": 22094,
+              "height": 30426
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "@id": "https://www.davidrumsey.com/luna/images/LUNAIIIF80.png",
+        "format": "image/png"
+      },
+      "related": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~369649~90137024"
+    }
+  ]
+}
