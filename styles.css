@@ -56,6 +56,87 @@ body {
   flex-shrink: 0;
 }
 
+/* Sort bar */
+.sort-bar {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 10px;
+  background: white;
+  border-bottom: 1px solid #e0e0e0;
+  flex-shrink: 0;
+}
+
+.sort-label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.sort-btn {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: none !important;
+  background: none !important;
+  cursor: pointer;
+  padding: 0 4px !important;
+  margin: 0 !important;
+  transition: color 0.2s ease;
+  box-shadow: none !important;
+}
+
+.sort-btn:hover {
+  color: #0073A3 !important;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+.sort-btn:active {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.sort-btn.active {
+  color: #0073A3 !important;
+}
+
+.sort-dir-btn {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  color: #666;
+  border: none !important;
+  background: none !important;
+  cursor: pointer;
+  padding: 0 4px !important;
+  margin: 0 !important;
+  transition: color 0.2s ease;
+  box-shadow: none !important;
+}
+
+.sort-dir-btn:hover {
+  color: #0073A3 !important;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+.sort-dir-btn:active {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
 /* Control Links (right-aligned text links) */
 .control-links {
   display: flex;
@@ -97,7 +178,7 @@ body {
   transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
   max-height: 1000px;
   opacity: 1;
-  padding: 12px 2px 5px 0px; /* Top Right Bottom Left - minimal bottom padding */
+   padding: 6px 2px 8px 0px; /* Top Right Bottom Left - minimal bottom padding */
   position: relative; /* Add this for potential absolute positioning */
 }
 
@@ -229,6 +310,7 @@ body {
   display: flex;
   gap: 8px;
   margin-top: 15px;
+  margin-bottom: 0px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -300,7 +382,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-top: 10px;
+  margin-top: 6px;
   margin-bottom: 0; /* Ensure no extra bottom margin */
 }
 
@@ -338,6 +420,7 @@ body {
   justify-content: space-between;
   align-items: flex-end;  /* Align to bottom for better visual */
   margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 
@@ -375,7 +458,7 @@ button.export-iiif-btn:active {
 }
 /* Reduce white space at bottom of input panel */
 .input-panel {
-  padding-bottom: 15px;  /* Reduced from default */
+  padding-bottom: 0px;  /* Reduced from default */
 }
 
 /* Ensure input section has no bottom margin */
@@ -959,9 +1042,9 @@ button.export-iiif-btn:active {
   }
 }
 
-/* Input Panel Sections - More compact */
+/* Input Panel Sections - Even more compact */
 .input-section {
-  margin-bottom: 12px; /* Reduced from 1rem */
+  margin-bottom: 0px;
 }
 
 .section-label {
@@ -977,7 +1060,7 @@ button.export-iiif-btn:active {
 .section-divider {
   height: 1px;
   background: #e0e0e0;
-  margin: 12px 0; /* Reduced from 15px */
+  margin: 6px 0; /* Reduced from 15px */
 }
 
 
