@@ -141,11 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
   viewer = OpenSeadragon({
     id: 'viewer',
     prefixUrl: 'https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/images/',
-    tileSources: [],
-    showRotationControl: true,
-    gestureSettingsTouch: {
-        pinchRotate: true
-    }
+    tileSources: []
   });
 
   // Initialize resizer functionality
